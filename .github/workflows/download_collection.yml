@@ -1,0 +1,24 @@
+name: Download and process
+
+on: 
+  workflow_dispatch:
+
+
+jobs:
+  build_pages:
+    name: Download METS files from Transkribus and convert them to TEIs
+    runs-on: ubuntu-latest
+    env:
+      ANT_OPTS: -Xmx5g
+      TR_USER: ${{ secrets.TR_USER }}
+      TR_PW: ${{ secrets.TR_PW }}
+    steps:
+    - name: Perform Checkout
+      uses: actions/checkout@v3
+    - name: Install Python Packages
+      run: |
+        pip install -r requirements.txt
+        python download_and_transform.py
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Export and Transformation done
