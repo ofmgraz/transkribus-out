@@ -13,11 +13,12 @@ nsmap = {None: 'http://www.tei-c.org/ns/1.0',
          }
 parser = etree.XMLParser(recover=True)
 directory = 'tei'
+logn = 'renamefiles'
 
 
-def log(filename, arg='could not be parsed'):
+def log(logname, filename, arg='could not be parsed'):
     now = datetime.now()
-    with open('renamefiles.log', 'a') as f:
+    with open(f'{logname}.log', 'a') as f:
         f.write(f'{now.strftime("%Y/%m/%d %H:%M:%S")}\t'
                 f'File `{filename}` {arg}\n')
 
@@ -29,9 +30,9 @@ def checkfile(filename):
             tree = parse(filename, parser)
             root = tree.getroot()
         except Exception:
-            log(filename)
+            log(logn, filename)
     else:
-        log(filename, 'does not exist')
+        log(logn, filename, 'does not exist')
     return root
 
 
