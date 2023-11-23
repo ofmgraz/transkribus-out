@@ -1,0 +1,3105 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt><title type="main">A-Gf_S1_64_PsaltRom</title></titleStmt>
+         <seriesStmt><title>OFM_Graz_Choralhandschriften</title></seriesStmt>
+         <sourceDesc>
+            <bibl><title type="main">A-Gf_S1_64_PsaltRom</title><idno type="Transkribus">1528807</idno><idno type="external">NA</idno></bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="2000" lry="2915" xml:id="facs_1">
+         <graphic url="A-Gf_S1_64-001.jpg" width="2000px" height="2915px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2997" xml:id="facs_2">
+         <graphic url="A-Gf_S1_64-002.jpg" width="2000px" height="2997px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3002" xml:id="facs_3">
+         <graphic url="A-Gf_S1_64-003.jpg" width="2000px" height="3002px"/>
+         <zone points="1742,1143 150,1143 150,180 1742,180" rendition="TextRegion" xml:id="facs_3_r" subtype="rubrik2">
+         </zone>
+         <zone points="358,1420 172,1420 172,1187 358,1187" rendition="TextRegion" xml:id="facs_3_r_5" subtype="initiale_lombarde">
+            <zone points="358,1420 172,1420 172,1187 358,1187" rendition="Line" xml:id="facs_3_r_5_line_002"/>
+         </zone>
+         <zone points="1746,1327 370,1327 370,1184 1746,1184" rendition="TextRegion" xml:id="facs_3_r_10" subtype="notation">
+            <zone points="1746,1327 370,1327 370,1184 1746,1184" rendition="Line" xml:id="facs_3_r_10_line_001"/>
+         </zone>
+         <zone points="1624,1420 435,1420 435,1332 1624,1332" rendition="TextRegion" xml:id="facs_3_r_15" subtype="text">
+            <zone points="1624,1420 435,1420 435,1332 1624,1332" rendition="Line" xml:id="facs_3_r_15_line_003"/>
+         </zone>
+         <zone points="1743,1564 139,1564 139,1430 1743,1430" rendition="TextRegion" xml:id="facs_3_r_20" subtype="notation">
+            <zone points="1743,1564 139,1564 139,1430 1743,1430" rendition="Line" xml:id="facs_3_r_20_line_004"/>
+         </zone>
+         <zone points="884,1657 241,1657 241,1573 884,1573" rendition="TextRegion" xml:id="facs_3_r_25" subtype="text">
+            <zone points="884,1657 241,1657 241,1573 884,1573" rendition="Line" xml:id="facs_3_r_25_line_006"/>
+         </zone>
+         <zone points="1149,1652 910,1652 910,1576 1149,1576" rendition="TextRegion" xml:id="facs_3_r_30" subtype="rubrik">
+            <zone points="1149,1652 910,1652 910,1576 1149,1576" rendition="Line" xml:id="facs_3_r_30_line_005"/>
+         </zone>
+         <zone points="1707,1661 1168,1661 1168,1571 1707,1571" rendition="TextRegion" xml:id="facs_3_r_35" subtype="text">
+            <zone points="1707,1661 1168,1661 1168,1571 1707,1571" rendition="Line" xml:id="facs_3_r_35_line_007"/>
+         </zone>
+         <zone points="1170,1802 695,1802 695,1695 1170,1695" rendition="TextRegion" xml:id="facs_3_r_40" subtype="rubrik">
+            <zone points="1170,1802 695,1802 695,1695 1170,1695" rendition="Line" xml:id="facs_3_r_40_line_008"/>
+         </zone>
+         <zone points="324,2029 135,2029 135,1814 324,1814" rendition="TextRegion" xml:id="facs_3_r_45" subtype="initiale_lombarde">
+            <zone points="324,2029 135,2029 135,1814 324,1814" rendition="Line" xml:id="facs_3_r_45_line_009"/>
+         </zone>
+         <zone points="1753,2652 139,2640 131,2041 336,2041 330,1834 1753,1834" rendition="TextRegion" xml:id="facs_3_r_50" subtype="strophen">
+            <zone points="1753,2652 139,2640 131,2041 336,2041 330,1834 1753,1834" rendition="Line" xml:id="facs_3_r_50_line_010"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3004" xml:id="facs_4">
+         <graphic url="A-Gf_S1_64-004.jpg" width="2000px" height="3004px"/>
+         <zone points="1630,186 566,186 566,99 1630,99" rendition="TextRegion" xml:id="facs_4_r" subtype="rubrik">
+            <zone points="1630,186 566,186 566,99 1630,99" rendition="Line" xml:id="facs_4_r_line_000"/>
+         </zone>
+         <zone points="1902,2039 277,2039 277,193 1902,193" rendition="TextRegion" xml:id="facs_4_r_5" subtype="strophen">
+            <zone points="1902,2039 277,2039 277,193 1902,193" rendition="Line" xml:id="facs_4_r_5_line_001"/>
+         </zone>
+         <zone points="1903,2424 278,2424 278,2046 1903,2046" rendition="TextRegion" xml:id="facs_4_r_10" subtype="rubrik2">
+         </zone>
+         <zone points="482,2715 291,2715 291,2443 482,2443" rendition="TextRegion" xml:id="facs_4_r_15" subtype="initiale_lombarde">
+            <zone points="482,2715 291,2715 291,2443 482,2443" rendition="Line" xml:id="facs_4_r_15_line_005"/>
+         </zone>
+         <zone points="1887,2598 506,2598 506,2454 1887,2454" rendition="TextRegion" xml:id="facs_4_r_20" subtype="notation">
+            <zone points="1887,2598 506,2598 506,2454 1887,2454" rendition="Line" xml:id="facs_4_r_20_line_003"/>
+         </zone>
+         <zone points="1815,2691 561,2691 561,2600 1815,2600" rendition="TextRegion" xml:id="facs_4_r_25" subtype="text">
+            <zone points="1815,2691 561,2691 561,2600 1815,2600" rendition="Line" xml:id="facs_4_r_25_line_004"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2953" xml:id="facs_5">
+         <graphic url="A-Gf_S1_64-005.jpg" width="2000px" height="2953px"/>
+         <zone points="1463,177 422,177 422,87 1463,87" rendition="TextRegion" xml:id="facs_5_r" subtype="rubrik">
+            <zone points="1463,177 422,177 422,87 1463,87" rendition="Line" xml:id="facs_5_r_line_000"/>
+         </zone>
+         <zone points="1729,330 153,330 153,203 1729,203" rendition="TextRegion" xml:id="facs_5_r_5" subtype="notation">
+            <zone points="1729,330 153,330 153,203 1729,203" rendition="Line" xml:id="facs_5_r_5_line_001"/>
+         </zone>
+         <zone points="1700,421 189,421 189,342 1700,342" rendition="TextRegion" xml:id="facs_5_r_10" subtype="text">
+            <zone points="1700,421 189,421 189,342 1700,342" rendition="Line" xml:id="facs_5_r_10_line_002"/>
+         </zone>
+         <zone points="1731,565 147,565 147,421 1731,421" rendition="TextRegion" xml:id="facs_5_r_15" subtype="notation">
+            <zone points="1731,565 147,565 147,421 1731,421" rendition="Line" xml:id="facs_5_r_15_line_003"/>
+         </zone>
+         <zone points="1638,656 189,656 189,573 1638,573" rendition="TextRegion" xml:id="facs_5_r_20" subtype="text">
+            <zone points="1638,656 189,656 189,573 1638,573" rendition="Line" xml:id="facs_5_r_20_line_004"/>
+         </zone>
+         <zone points="1450,2619 143,2619 143,695 1450,695" rendition="TextRegion" xml:id="facs_5_r_25" subtype="strophen">
+            <zone points="1450,2619 143,2619 143,695 1450,695" rendition="Line" xml:id="facs_5_r_25_line_005"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3029" xml:id="facs_6">
+         <graphic url="A-Gf_S1_64-006.jpg" width="2000px" height="3029px"/>
+         <zone points="1635,215 570,215 570,113 1635,113" rendition="TextRegion" xml:id="facs_6_r">
+            <zone points="1635,215 570,215 570,113 1635,113" rendition="Line" xml:id="facs_6_r_line_000"/>
+         </zone>
+         <zone points="1489,750 1904,784 1904,880 260,880 260,220 1470,220 1521,342" rendition="TextRegion" xml:id="facs_6_r_5" subtype="strophen">
+            <zone points="1489,750 1904,784 1904,880 260,880 260,220 1470,220 1521,342" rendition="Line" xml:id="facs_6_r_5_line_001"/>
+         </zone>
+         <zone points="1907,1145 260,1145 260,885 1907,885" rendition="TextRegion" xml:id="facs_6_r_13" subtype="rubrik2">
+         </zone>
+         <zone points="496,1399 268,1399 268,1147 496,1147" rendition="TextRegion" xml:id="facs_6_r_18" subtype="initiale_lombarde">
+            <zone points="496,1399 268,1399 268,1147 496,1147" rendition="Line" xml:id="facs_6_r_18_line_005"/>
+         </zone>
+         <zone points="1897,1305 504,1305 504,1171 1897,1171" rendition="TextRegion" xml:id="facs_6_r_23" subtype="notation">
+            <zone points="1897,1305 504,1305 504,1171 1897,1171" rendition="Line" xml:id="facs_6_r_23_line_003"/>
+         </zone>
+         <zone points="1820,1389 555,1389 555,1310 1820,1310" rendition="TextRegion" xml:id="facs_6_r_28" subtype="text">
+            <zone points="1820,1389 555,1389 555,1310 1820,1310" rendition="Line" xml:id="facs_6_r_28_line_004"/>
+         </zone>
+         <zone points="1897,1556 268,1556 268,1403 1897,1403" rendition="TextRegion" xml:id="facs_6_r_33" subtype="notation">
+            <zone points="1897,1556 268,1556 268,1403 1897,1403" rendition="Line" xml:id="facs_6_r_33_line_006"/>
+         </zone>
+         <zone points="1807,1651 323,1651 323,1560 1807,1560" rendition="TextRegion" xml:id="facs_6_r_38" subtype="text">
+            <zone points="1807,1651 323,1651 323,1560 1807,1560" rendition="Line" xml:id="facs_6_r_38_line_007"/>
+         </zone>
+         <zone points="1887,1801 264,1801 264,1655 1887,1655" rendition="TextRegion" xml:id="facs_6_r_43" subtype="notation">
+            <zone points="1887,1801 264,1801 264,1655 1887,1655" rendition="Line" xml:id="facs_6_r_43_line_008"/>
+         </zone>
+         <zone points="1830,1897 362,1897 362,1806 1830,1806" rendition="TextRegion" xml:id="facs_6_r_48" subtype="text">
+            <zone points="1830,1897 362,1897 362,1806 1830,1806" rendition="Line" xml:id="facs_6_r_48_line_009"/>
+         </zone>
+         <zone points="1887,2037 266,2037 266,1903 1887,1903" rendition="TextRegion" xml:id="facs_6_r_53" subtype="notation">
+            <zone points="1887,2037 266,2037 266,1903 1887,1903" rendition="Line" xml:id="facs_6_r_53_line_010"/>
+         </zone>
+         <zone points="1586,2127 354,2127 354,2041 1586,2041" rendition="TextRegion" xml:id="facs_6_r_58" subtype="text">
+            <zone points="1586,2127 354,2127 354,2041 1586,2041" rendition="Line" xml:id="facs_6_r_58_line_011"/>
+         </zone>
+         <zone points="1898,2699 248,2699 248,2128 1898,2128" rendition="TextRegion" xml:id="facs_6_r_63" subtype="strophen">
+            <zone points="1898,2699 248,2699 248,2128 1898,2128" rendition="Line" xml:id="facs_6_r_63_line_012"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2878" xml:id="facs_7">
+         <graphic url="A-Gf_S1_64-007.jpg" width="2000px" height="2878px"/>
+         <zone points="1471,368 373,368 373,118 1471,118" rendition="TextRegion" xml:id="facs_7_r" subtype="rubrik2">
+         </zone>
+         <zone points="364,604 158,604 158,375 364,375" rendition="TextRegion" xml:id="facs_7_r_5" subtype="initiale_lombarde">
+            <zone points="364,604 158,604 158,375 364,375" rendition="Line" xml:id="facs_7_r_5_line_002"/>
+         </zone>
+         <zone points="1698,517 368,517 368,389 1698,389" rendition="TextRegion" xml:id="facs_7_r_10" subtype="notation">
+            <zone points="1698,517 368,517 368,389 1698,389" rendition="Line" xml:id="facs_7_r_10_line_001"/>
+         </zone>
+         <zone points="1452,604 416,604 416,526 1452,526" rendition="TextRegion" xml:id="facs_7_r_25" subtype="text">
+            <zone points="1452,604 416,604 416,526 1452,526" rendition="Line" xml:id="facs_7_r_25_line_003"/>
+         </zone>
+         <zone points="1696,611 1497,611 1497,526 1696,526" rendition="TextRegion" xml:id="facs_7_r_15" subtype="rubrik2">
+         </zone>
+         <zone points="1707,755 149,755 149,616 1707,616" rendition="TextRegion" xml:id="facs_7_r_30" subtype="notation">
+            <zone points="1707,755 149,755 149,616 1707,616" rendition="Line" xml:id="facs_7_r_30_line_005"/>
+         </zone>
+         <zone points="1292,845 194,845 194,762 1292,762" rendition="TextRegion" xml:id="facs_7_r_35" subtype="text">
+            <zone points="1292,845 194,845 194,762 1292,762" rendition="Line" xml:id="facs_7_r_35_line_007"/>
+         </zone>
+         <zone points="1705,842 1471,842 1471,767 1705,767" rendition="TextRegion" xml:id="facs_7_r_20" subtype="rubrik2">
+         </zone>
+         <zone points="1715,984 151,984 151,859 1715,859" rendition="TextRegion" xml:id="facs_7_r_40" subtype="notation">
+            <zone points="1715,984 151,984 151,859 1715,859" rendition="Line" xml:id="facs_7_r_40_line_008"/>
+         </zone>
+         <zone points="1134,1074 198,1074 198,991 1134,991" rendition="TextRegion" xml:id="facs_7_r_50" subtype="text">
+            <zone points="1134,1074 198,1074 198,991 1134,991" rendition="Line" xml:id="facs_7_r_50_line_010"/>
+         </zone>
+         <zone points="1705,1067 1334,1067 1334,991 1705,991" rendition="TextRegion" xml:id="facs_7_r_45" subtype="rubrik">
+            <zone points="1705,1067 1334,1067 1334,991 1705,991" rendition="Line" xml:id="facs_7_r_45_line_009"/>
+         </zone>
+         <zone points="1702,2594 143,2594 143,1298 325,1293 334,1085 1702,1085" rendition="TextRegion" xml:id="facs_7_r_60" subtype="strophen">
+            <zone points="1702,2594 143,2594 143,1298 325,1293 334,1085 1702,1085" rendition="Line" xml:id="facs_7_r_60_line_012"/>
+         </zone>
+         <zone points="313,1289 153,1289 153,1085 313,1085" rendition="TextRegion" xml:id="facs_7_r_55" subtype="initiale_lombarde">
+            <zone points="313,1289 153,1289 153,1085 313,1085" rendition="Line" xml:id="facs_7_r_55_line_011"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2939" xml:id="facs_8">
+         <graphic url="A-Gf_S1_64-008.jpg" width="2000px" height="2939px"/>
+         <zone points="1639,226 616,226 616,146 1639,146" rendition="TextRegion" xml:id="facs_8_r" subtype="rubrik">
+            <zone points="1639,226 616,226 616,146 1639,146" rendition="Line" xml:id="facs_8_r_line_000"/>
+         </zone>
+         <zone points="1920,507 333,507 333,236 1920,236" rendition="TextRegion" xml:id="facs_8_r_5" subtype="strophen">
+            <zone points="1920,507 333,507 333,236 1920,236" rendition="Line" xml:id="facs_8_r_5_line_001"/>
+         </zone>
+         <zone points="1922,774 333,774 333,517 1922,517" rendition="TextRegion" xml:id="facs_8_r_10" subtype="rubrik2">
+         </zone>
+         <zone points="517,961 338,961 338,780 517,780" rendition="TextRegion" xml:id="facs_8_r_15" subtype="initiale_lombarde">
+            <zone points="517,961 338,961 338,780 517,780" rendition="Line" xml:id="facs_8_r_15_line_003"/>
+         </zone>
+         <zone points="1915,2653 313,2653 313,977 438,972 527,966 529,788 1915,788" rendition="TextRegion" xml:id="facs_8_r_20" subtype="strophen">
+            <zone points="1915,2653 313,2653 313,977 438,972 527,966 529,788 1915,788" rendition="Line" xml:id="facs_8_r_20_line_004"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3006" xml:id="facs_9">
+         <graphic url="A-Gf_S1_64-009.jpg" width="2000px" height="3006px"/>
+         <zone points="390,128 1460,128 1460,212 390,212" rendition="TextRegion" xml:id="facs_9_r" subtype="rubrik">
+            <zone points="390,128 1460,128 1460,212 390,212" rendition="Line" xml:id="facs_9_r_line_000"/>
+         </zone>
+         <zone points="1748,864 1233,856 1254,944 135,951 135,210 1748,210" rendition="TextRegion" xml:id="facs_9_r_5" subtype="strophen">
+            <zone points="1748,864 1233,856 1254,944 135,951 135,210 1748,210" rendition="Line" xml:id="facs_9_r_5_line_001"/>
+         </zone>
+         <zone points="1703,948 1325,948 1325,860 1703,860" rendition="TextRegion" xml:id="facs_9_r_12" subtype="rubrik">
+            <zone points="1703,948 1325,948 1325,860 1703,860" rendition="Line" xml:id="facs_9_r_12_line_002"/>
+         </zone>
+         <zone points="327,1143 140,1143 140,952 335,952" rendition="TextRegion" xml:id="facs_9_r_17" subtype="initiale_lombarde">
+            <zone points="327,1143 140,1143 140,952 335,952" rendition="Line" xml:id="facs_9_r_17_line_003"/>
+         </zone>
+         <zone points="1757,2697 137,2697 138,1146 268,1149 343,1147 339,954 1757,955" rendition="TextRegion" xml:id="facs_9_r_22" subtype="strophen">
+            <zone points="1757,2697 137,2697 138,1146 268,1149 343,1147 339,954 1757,955" rendition="Line" xml:id="facs_9_r_22_line_004"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3004" xml:id="facs_10">
+         <graphic url="A-Gf_S1_64-010.jpg" width="2000px" height="3004px"/>
+         <zone points="1643,223 1339,223 1330,305 850,305 853,228 559,209 559,110 1643,110" rendition="TextRegion" xml:id="facs_10_r" subtype="rubrik2">
+         </zone>
+         <zone points="471,498 271,498 271,298 463,305" rendition="TextRegion" xml:id="facs_10_r_9" subtype="initiale_lombarde">
+            <zone points="471,498 271,498 271,298 463,305" rendition="Line" xml:id="facs_10_r_9_line_001"/>
+         </zone>
+         <zone points="1916,2719 259,2719 265,505 475,507 473,303 1005,317 1914,329" rendition="TextRegion" xml:id="facs_10_r_14" subtype="strophen">
+            <zone points="1916,2719 259,2719 265,505 475,507 473,303 1005,317 1914,329" rendition="Line" xml:id="facs_10_r_14_line_002"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2939" xml:id="facs_11">
+         <graphic url="A-Gf_S1_64-011.jpg" width="2000px" height="2939px"/>
+         <zone points="1443,264 371,264 371,97 1443,97" rendition="TextRegion" xml:id="facs_11_r" subtype="rubrik2">
+         </zone>
+         <zone points="341,513 130,513 130,277 341,277" rendition="TextRegion" xml:id="facs_11_r_5" subtype="initiale_lombarde">
+            <zone points="341,513 130,513 130,277 341,277" rendition="Line" xml:id="facs_11_r_5_line_003"/>
+         </zone>
+         <zone points="1697,415 349,415 349,277 1697,277" rendition="TextRegion" xml:id="facs_11_r_10" subtype="notation">
+            <zone points="1697,415 349,415 349,277 1697,277" rendition="Line" xml:id="facs_11_r_10_line_001"/>
+         </zone>
+         <zone points="1604,511 431,511 431,423 1604,423" rendition="TextRegion" xml:id="facs_11_r_15" subtype="text">
+            <zone points="1604,511 431,511 431,423 1604,423" rendition="Line" xml:id="facs_11_r_15_line_002"/>
+         </zone>
+         <zone points="1689,663 135,663 135,536 1689,536" rendition="TextRegion" xml:id="facs_11_r_20" subtype="notation">
+            <zone points="1689,663 135,663 135,536 1689,536" rendition="Line" xml:id="facs_11_r_20_line_004"/>
+         </zone>
+         <zone points="1607,759 210,759 210,676 1607,676" rendition="TextRegion" xml:id="facs_11_r_25" subtype="text">
+            <zone points="1607,759 210,759 210,676 1607,676" rendition="Line" xml:id="facs_11_r_25_line_005"/>
+         </zone>
+         <zone points="136,903 136,757 1688,757 1688,903" rendition="TextRegion" xml:id="facs_11_r_30" subtype="notation">
+            <zone points="136,903 136,757 1688,757 1688,903" rendition="Line" xml:id="facs_11_r_30_line_006"/>
+         </zone>
+         <zone points="207,903 907,903 907,991 207,991" rendition="TextRegion" xml:id="facs_11_r_35" subtype="text">
+            <zone points="207,903 907,903 907,991 207,991" rendition="Line" xml:id="facs_11_r_35_line_007"/>
+         </zone>
+         <zone points="1428,994 936,994 936,902 1428,902" rendition="TextRegion" xml:id="facs_11_r_40" subtype="rubrik">
+            <zone points="1428,994 936,994 936,902 1428,902" rendition="Line" xml:id="facs_11_r_40_line_009"/>
+         </zone>
+         <zone points="1660,979 1448,979 1448,908 1660,908" rendition="TextRegion" xml:id="facs_11_r_45" subtype="text">
+            <zone points="1660,979 1448,979 1448,908 1660,908" rendition="Line" xml:id="facs_11_r_45_line_008"/>
+         </zone>
+         <zone points="1704,1133 125,1133 125,990 1704,990" rendition="TextRegion" xml:id="facs_11_r_50" subtype="notation">
+            <zone points="1704,1133 125,1133 125,990 1704,990" rendition="Line" xml:id="facs_11_r_50_line_010"/>
+         </zone>
+         <zone points="974,1225 212,1225 212,1141 974,1141" rendition="TextRegion" xml:id="facs_11_r_55" subtype="text">
+            <zone points="974,1225 212,1225 212,1141 974,1141" rendition="Line" xml:id="facs_11_r_55_line_011"/>
+         </zone>
+         <zone points="1697,1225 1009,1225 1009,1139 1697,1139" rendition="TextRegion" xml:id="facs_11_r_60" subtype="rubrik">
+            <zone points="1697,1225 1009,1225 1009,1139 1697,1139" rendition="Line" xml:id="facs_11_r_60_line_012"/>
+         </zone>
+         <zone points="1700,1374 130,1374 130,1240 1700,1240" rendition="TextRegion" xml:id="facs_11_r_65" subtype="notation">
+            <zone points="1700,1374 130,1374 130,1240 1700,1240" rendition="Line" xml:id="facs_11_r_65_line_013"/>
+         </zone>
+         <zone points="1611,1461 215,1461 215,1381 1611,1381" rendition="TextRegion" xml:id="facs_11_r_70" subtype="text">
+            <zone points="1611,1461 215,1461 215,1381 1611,1381" rendition="Line" xml:id="facs_11_r_70_line_014"/>
+         </zone>
+         <zone points="1696,1601 120,1601 120,1464 1696,1464" rendition="TextRegion" xml:id="facs_11_r_75" subtype="notation">
+            <zone points="1696,1601 120,1601 120,1464 1696,1464" rendition="Line" xml:id="facs_11_r_75_line_015"/>
+         </zone>
+         <zone points="1046,1686 196,1686 196,1624 1046,1624" rendition="TextRegion" xml:id="facs_11_r_80" subtype="text">
+            <zone points="1046,1686 196,1686 196,1624 1046,1624" rendition="Line" xml:id="facs_11_r_80_line_016"/>
+         </zone>
+         <zone points="1263,1693 1084,1693 1084,1610 1263,1610" rendition="TextRegion" xml:id="facs_11_r_85" subtype="rubrik">
+            <zone points="1263,1693 1084,1693 1084,1610 1263,1610" rendition="Line" xml:id="facs_11_r_85_line_017"/>
+         </zone>
+         <zone points="1658,1707 1292,1707 1292,1617 1658,1617" rendition="TextRegion" xml:id="facs_11_r_90" subtype="text">
+            <zone points="1658,1707 1292,1707 1292,1617 1658,1617" rendition="Line" xml:id="facs_11_r_90_line_018"/>
+         </zone>
+         <zone points="1694,1844 122,1844 122,1699 1694,1715" rendition="TextRegion" xml:id="facs_11_r_95" subtype="notation">
+            <zone points="1694,1844 122,1844 122,1699 1694,1715" rendition="Line" xml:id="facs_11_r_95_line_019"/>
+         </zone>
+         <zone points="1084,1942 219,1942 219,1856 1084,1856" rendition="TextRegion" xml:id="facs_11_r_100" subtype="text">
+            <zone points="1084,1942 219,1942 219,1856 1084,1856" rendition="Line" xml:id="facs_11_r_100_line_020"/>
+         </zone>
+         <zone points="1614,1942 1218,1942 1218,1851 1614,1851" rendition="TextRegion" xml:id="facs_11_r_105" subtype="rubrik">
+            <zone points="1614,1942 1218,1942 1218,1851 1614,1851" rendition="Line" xml:id="facs_11_r_105_line_021"/>
+         </zone>
+         <zone points="310,2132 118,2132 118,1941 310,1941" rendition="TextRegion" xml:id="facs_11_r_110" subtype="initiale_lombarde">
+            <zone points="310,2132 118,2132 118,1941 310,1941" rendition="Line" xml:id="facs_11_r_110_line_022"/>
+         </zone>
+         <zone points="1694,2585 123,2585 123,2145 317,2137 315,1950 1694,1950" rendition="TextRegion" xml:id="facs_11_r_115" subtype="strophen">
+            <zone points="1694,2585 123,2585 123,2145 317,2137 315,1950 1694,1950" rendition="Line" xml:id="facs_11_r_115_line_023"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3014" xml:id="facs_12">
+         <graphic url="A-Gf_S1_64-012.jpg" width="2000px" height="3014px"/>
+         <zone points="1636,182 549,182 549,96 1636,96" rendition="TextRegion" xml:id="facs_12_r" subtype="rubrik">
+            <zone points="1636,182 549,182 549,96 1636,96" rendition="Line" xml:id="facs_12_r_line_000"/>
+         </zone>
+         <zone points="1904,2698 257,2698 257,188 1904,188" rendition="TextRegion" xml:id="facs_12_r_5" subtype="strophen">
+            <zone points="1904,2698 257,2698 257,188 1904,188" rendition="Line" xml:id="facs_12_r_5_line_001"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2938" xml:id="facs_13">
+         <graphic url="A-Gf_S1_64-013.jpg" width="2000px" height="2938px"/>
+         <zone points="1428,171 395,171 395,82 1428,82" rendition="TextRegion" xml:id="facs_13_r" subtype="rubrik">
+            <zone points="1428,171 395,171 395,82 1428,82" rendition="Line" xml:id="facs_13_r_line_000"/>
+         </zone>
+         <zone points="1707,903 517,900 531,978 138,978 138,174 1707,174" rendition="TextRegion" xml:id="facs_13_r_5" subtype="strophen">
+            <zone points="1707,903 517,900 531,978 138,978 138,174 1707,174" rendition="Line" xml:id="facs_13_r_5_line_001"/>
+         </zone>
+         <zone points="1340,977 960,977 960,904 1340,904" rendition="TextRegion" xml:id="facs_13_r_12" subtype="rubrik">
+            <zone points="1340,977 960,977 960,904 1340,904" rendition="Line" xml:id="facs_13_r_12_line_002"/>
+         </zone>
+         <zone points="321,1181 136,1181 136,984 321,984" rendition="TextRegion" xml:id="facs_13_r_17" subtype="initiale_lombarde">
+            <zone points="321,1181 136,1181 136,984 321,984" rendition="Line" xml:id="facs_13_r_17_line_003"/>
+         </zone>
+         <zone points="1714,2609 122,2609 122,1185 326,1185 332,987 1714,987" rendition="TextRegion" xml:id="facs_13_r_22" subtype="strophen">
+            <zone points="1714,2609 122,2609 122,1185 326,1185 332,987 1714,987" rendition="Line" xml:id="facs_13_r_22_line_004"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2931" xml:id="facs_14">
+         <graphic url="A-Gf_S1_64-014.jpg" width="2000px" height="2931px"/>
+         <zone points="1651,168 589,168 589,73 1651,73" rendition="TextRegion" xml:id="facs_14_r" subtype="rubrik">
+            <zone points="1651,168 589,168 589,73 1651,73" rendition="Line" xml:id="facs_14_r_line_000"/>
+         </zone>
+         <zone points="1903,354 584,362 571,442 312,442 312,171 1903,171" rendition="TextRegion" xml:id="facs_14_r_5" subtype="strophen">
+            <zone points="1903,354 584,362 571,442 312,442 312,171 1903,171" rendition="Line" xml:id="facs_14_r_5_line_001"/>
+         </zone>
+         <zone points="1537,445 1148,445 1148,362 1537,362" rendition="TextRegion" xml:id="facs_14_r_12" subtype="rubrik">
+            <zone points="1537,445 1148,445 1148,362 1537,362" rendition="Line" xml:id="facs_14_r_12_line_002"/>
+         </zone>
+         <zone points="500,646 306,646 306,451 500,451" rendition="TextRegion" xml:id="facs_14_r_17" subtype="initiale_lombarde">
+            <zone points="500,646 306,646 306,451 500,451" rendition="Line" xml:id="facs_14_r_17_line_003"/>
+         </zone>
+         <zone points="1917,2616 313,2616 313,657 509,653 506,457 1917,457" rendition="TextRegion" xml:id="facs_14_r_22" subtype="strophen">
+            <zone points="1917,2616 313,2616 313,657 509,653 506,457 1917,457" rendition="Line" xml:id="facs_14_r_22_line_004"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3024" xml:id="facs_15">
+         <graphic url="A-Gf_S1_64-015.jpg" width="2000px" height="3024px"/>
+         <zone points="1470,176 379,176 379,81 1470,81" rendition="TextRegion" xml:id="facs_15_r" subtype="rubrik">
+            <zone points="1470,176 379,176 379,81 1470,81" rendition="Line" xml:id="facs_15_r_line_000"/>
+         </zone>
+         <zone points="1748,2690 96,2690 96,183 1748,183" rendition="TextRegion" xml:id="facs_15_r_5" subtype="strophen">
+            <zone points="1748,2690 96,2690 96,183 1748,183" rendition="Line" xml:id="facs_15_r_5_line_001"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3088" xml:id="facs_16">
+         <graphic url="A-Gf_S1_64-016.jpg" width="2000px" height="3088px"/>
+         <zone points="1696,185 565,185 565,89 1696,89" rendition="TextRegion" xml:id="facs_16_r" subtype="rubrik">
+            <zone points="1696,185 565,185 565,89 1696,89" rendition="Line" xml:id="facs_16_r_line_000"/>
+         </zone>
+         <zone points="1967,2767 276,2767 276,200 1967,200" rendition="TextRegion" xml:id="facs_16_r_5" subtype="strophen">
+            <zone points="1967,2767 276,2767 276,200 1967,200" rendition="Line" xml:id="facs_16_r_5_line_001"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3023" xml:id="facs_17">
+         <graphic url="A-Gf_S1_64-017.jpg" width="2000px" height="3023px"/>
+         <zone points="1467,185 422,185 422,76 1467,76" rendition="TextRegion" xml:id="facs_17_r" subtype="rubrik">
+            <zone points="1467,185 422,185 422,76 1467,76" rendition="Line" xml:id="facs_17_r_line_000"/>
+         </zone>
+         <zone points="1758,2127 459,2110 447,2192 122,2187 116,184 1758,184" rendition="TextRegion" xml:id="facs_17_r_5" subtype="strophen">
+            <zone points="1758,2127 459,2110 447,2192 122,2187 116,184 1758,184" rendition="Line" xml:id="facs_17_r_5_line_001"/>
+         </zone>
+         <zone points="1374,2217 945,2217 945,2121 1374,2121" rendition="TextRegion" xml:id="facs_17_r_12" subtype="rubrik">
+            <zone points="1374,2217 945,2217 945,2121 1374,2121" rendition="Line" xml:id="facs_17_r_12_line_002"/>
+         </zone>
+         <zone points="214,2393 128,2393 128,2188 214,2188" rendition="TextRegion" xml:id="facs_17_r_17" subtype="initiale_lombarde">
+            <zone points="214,2393 128,2393 128,2188 214,2188" rendition="Line" xml:id="facs_17_r_17_line_003"/>
+         </zone>
+         <zone points="1729,2677 1513,2686 539,2664 112,2640 114,2401 225,2399 230,2195 1093,2224 1727,2229" rendition="TextRegion" xml:id="facs_17_r_22" subtype="strophen">
+            <zone points="1729,2677 1513,2686 539,2664 112,2640 114,2401 225,2399 230,2195 1093,2224 1727,2229" rendition="Line" xml:id="facs_17_r_22_line_004"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3077" xml:id="facs_18">
+         <graphic url="A-Gf_S1_64-018.jpg" width="2000px" height="3077px"/>
+         <zone points="1657,192 558,192 558,96 1657,96" rendition="TextRegion" xml:id="facs_18_r" subtype="rubrik">
+            <zone points="1657,192 558,192 558,96 1657,96" rendition="Line" xml:id="facs_18_r_line_000"/>
+         </zone>
+         <zone points="1949,1631 263,1631 263,206 1949,206" rendition="TextRegion" xml:id="facs_18_r_5" subtype="strophen">
+            <zone points="1949,1631 263,1631 263,206 1949,206" rendition="Line" xml:id="facs_18_r_5_line_001"/>
+         </zone>
+         <zone points="1636,1737 552,1737 552,1636 1636,1636" rendition="TextRegion" xml:id="facs_18_r_10" subtype="rubrik">
+            <zone points="1636,1737 552,1737 552,1636 1636,1636" rendition="Line" xml:id="facs_18_r_10_line_002"/>
+         </zone>
+         <zone points="488,1977 261,1977 261,1751 488,1751" rendition="TextRegion" xml:id="facs_18_r_25" subtype="initiale_lombarde">
+            <zone points="488,1977 261,1977 261,1751 488,1751" rendition="Line" xml:id="facs_18_r_25_line_004"/>
+         </zone>
+         <zone points="1924,1897 492,1897 492,1751 1924,1751" rendition="TextRegion" xml:id="facs_18_r_15" subtype="notation">
+            <zone points="1924,1897 492,1897 492,1751 1924,1751" rendition="Line" xml:id="facs_18_r_15_line_003"/>
+         </zone>
+         <zone points="1846,1986 589,1986 589,1899 1846,1899" rendition="TextRegion" xml:id="facs_18_r_20" subtype="text">
+            <zone points="1846,1986 589,1986 589,1899 1846,1899" rendition="Line" xml:id="facs_18_r_20_line_005"/>
+         </zone>
+         <zone points="1916,2136 274,2136 274,2004 1916,2004" rendition="TextRegion" xml:id="facs_18_r_65" subtype="notation">
+            <zone points="1916,2136 274,2136 274,2004 1916,2004" rendition="Line" xml:id="facs_18_r_65_line_006"/>
+         </zone>
+         <zone points="1825,2239 313,2239 313,2142 1825,2142" rendition="TextRegion" xml:id="facs_18_r_60" subtype="text">
+            <zone points="1825,2239 313,2239 313,2142 1825,2142" rendition="Line" xml:id="facs_18_r_60_line_007"/>
+         </zone>
+         <zone points="1912,2387 270,2387 270,2249 1912,2249" rendition="TextRegion" xml:id="facs_18_r_55" subtype="notation">
+            <zone points="1912,2387 270,2387 270,2249 1912,2249" rendition="Line" xml:id="facs_18_r_55_line_008"/>
+         </zone>
+         <zone points="1825,2475 317,2475 317,2391 1825,2391" rendition="TextRegion" xml:id="facs_18_r_50" subtype="text">
+            <zone points="1825,2475 317,2475 317,2391 1825,2391" rendition="Line" xml:id="facs_18_r_50_line_009"/>
+         </zone>
+         <zone points="1912,2632 268,2632 268,2488 1912,2488" rendition="TextRegion" xml:id="facs_18_r_45" subtype="notation">
+            <zone points="1912,2632 268,2632 268,2488 1912,2488" rendition="Line" xml:id="facs_18_r_45_line_010"/>
+         </zone>
+         <zone points="463,2730 278,2730 278,2634 463,2634" rendition="TextRegion" xml:id="facs_18_r_35" subtype="rubrik">
+            <zone points="463,2730 278,2730 278,2634 463,2634" rendition="Line" xml:id="facs_18_r_35_line_012"/>
+         </zone>
+         <zone points="1653,2741 508,2741 508,2638 1653,2638" rendition="TextRegion" xml:id="facs_18_r_40" subtype="text">
+            <zone points="1653,2741 508,2741 508,2638 1653,2638" rendition="Line" xml:id="facs_18_r_40_line_013"/>
+         </zone>
+         <zone points="1917,2725 1681,2725 1681,2641 1917,2641" rendition="TextRegion" xml:id="facs_18_r_30" subtype="rubrik2">
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2997" xml:id="facs_19">
+         <graphic url="A-Gf_S1_64-019.jpg" width="2000px" height="2997px"/>
+         <zone points="1456,163 413,163 413,68 1456,68" rendition="TextRegion" xml:id="facs_19_r" subtype="rubrik">
+            <zone points="1456,163 413,163 413,68 1456,68" rendition="Line" xml:id="facs_19_r_line_000"/>
+         </zone>
+         <zone points="1748,324 134,324 134,168 1748,168" rendition="TextRegion" xml:id="facs_19_r_5" subtype="notation">
+            <zone points="1748,324 134,324 134,168 1748,168" rendition="Line" xml:id="facs_19_r_5_line_001"/>
+         </zone>
+         <zone points="1710,416 159,416 159,325 1710,325" rendition="TextRegion" xml:id="facs_19_r_10" subtype="text">
+            <zone points="1710,416 159,416 159,325 1710,325" rendition="Line" xml:id="facs_19_r_10_line_002"/>
+         </zone>
+         <zone points="1737,566 146,566 144,422 1741,427" rendition="TextRegion" xml:id="facs_19_r_15" subtype="notation">
+            <zone points="1737,566 146,566 144,422 1741,427" rendition="Line" xml:id="facs_19_r_15_line_003"/>
+         </zone>
+         <zone points="1706,658 177,658 177,576 1706,576" rendition="TextRegion" xml:id="facs_19_r_20" subtype="text">
+            <zone points="1706,658 177,658 177,576 1706,576" rendition="Line" xml:id="facs_19_r_20_line_004"/>
+         </zone>
+         <zone points="1742,800 142,800 142,665 1742,665" rendition="TextRegion" xml:id="facs_19_r_25" subtype="notation">
+            <zone points="1742,800 142,800 142,665 1742,665" rendition="Line" xml:id="facs_19_r_25_line_005"/>
+         </zone>
+         <zone points="324,888 142,888 142,809 324,809" rendition="TextRegion" xml:id="facs_19_r_30" subtype="rubrik">
+            <zone points="324,888 142,888 142,809 324,809" rendition="Line" xml:id="facs_19_r_30_line_006"/>
+         </zone>
+         <zone points="1312,895 355,895 355,808 1312,808" rendition="TextRegion" xml:id="facs_19_r_40" subtype="text">
+            <zone points="1312,895 355,895 355,808 1312,808" rendition="Line" xml:id="facs_19_r_40_line_007"/>
+         </zone>
+         <zone points="1746,904 1514,904 1514,811 1746,811" rendition="TextRegion" xml:id="facs_19_r_35" subtype="rubrik">
+            <zone points="1746,904 1514,904 1514,811 1746,811" rendition="Line" xml:id="facs_19_r_35_line_008"/>
+         </zone>
+         <zone points="283,1089 127,1089 127,895 283,895" rendition="TextRegion" xml:id="facs_19_r_45" subtype="initiale_lombarde">
+            <zone points="283,1089 127,1089 127,895 283,895" rendition="Line" xml:id="facs_19_r_45_line_009"/>
+         </zone>
+         <zone points="1762,2656 107,2636 110,1103 292,1094 295,960 312,897 1762,911" rendition="TextRegion" xml:id="facs_19_r_50" subtype="strophen">
+            <zone points="1762,2656 107,2636 110,1103 292,1094 295,960 312,897 1762,911" rendition="Line" xml:id="facs_19_r_50_line_010"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3084" xml:id="facs_20">
+         <graphic url="A-Gf_S1_64-020.jpg" width="2000px" height="3084px"/>
+         <zone points="1650,177 558,177 558,95 1650,95" rendition="TextRegion" xml:id="facs_20_r" subtype="rubrik">
+            <zone points="1650,177 558,177 558,95 1650,95" rendition="Line" xml:id="facs_20_r_line_000"/>
+         </zone>
+         <zone points="1953,561 632,572 642,670 239,670 239,177 1953,177" rendition="TextRegion" xml:id="facs_20_r_10" subtype="strophen">
+            <zone points="1953,561 632,572 642,670 239,670 239,177 1953,177" rendition="Line" xml:id="facs_20_r_10_line_002"/>
+         </zone>
+         <zone points="1570,658 1124,658 1124,574 1570,574" rendition="TextRegion" xml:id="facs_20_r_5" subtype="rubrik">
+            <zone points="1570,658 1124,658 1124,574 1570,574" rendition="Line" xml:id="facs_20_r_5_line_001"/>
+         </zone>
+         <zone points="1956,2186 1662,2192 1679,2288 1956,2289 1956,2751 262,2751 262,2496 509,2494 517,2294 262,2290 262,898 326,881 344,899 502,899 533,676 1956,676" rendition="TextRegion" xml:id="facs_20_r_25" subtype="strophen">
+            <zone points="1956,2186 1662,2192 1679,2288 1956,2289 1956,2751 262,2751 262,2496 509,2494 517,2294 262,2290 262,898 326,881 344,899 502,899 533,676 1956,676" rendition="Line" xml:id="facs_20_r_25_line_006"/>
+         </zone>
+         <zone points="510,720 459,893 356,895 321,872 266,801 266,681 509,681" rendition="TextRegion" xml:id="facs_20_r_17" subtype="initiale_lombarde">
+            <zone points="510,720 459,893 356,895 321,872 266,801 266,681 509,681" rendition="Line" xml:id="facs_20_r_17_line_003"/>
+         </zone>
+         <zone points="500,2488 292,2488 292,2298 500,2298" rendition="TextRegion" xml:id="facs_20_r_34" subtype="initiale_lombarde">
+            <zone points="500,2488 292,2488 292,2298 500,2298" rendition="Line" xml:id="facs_20_r_34_line_004"/>
+         </zone>
+         <zone points="1942,2282 1688,2282 1688,2192 1942,2192" rendition="TextRegion" xml:id="facs_20_r_43" subtype="rubrik">
+            <zone points="1942,2282 1688,2282 1688,2192 1942,2192" rendition="Line" xml:id="facs_20_r_43_line_005"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2838" xml:id="facs_21">
+         <graphic url="A-Gf_S1_64-021.jpg" width="2000px" height="2838px"/>
+         <zone points="1373,131 387,131 387,52 1373,52" rendition="TextRegion" xml:id="facs_21_r" subtype="rubrik">
+            <zone points="1373,131 387,131 387,52 1373,52" rendition="Line" xml:id="facs_21_r_line_000"/>
+         </zone>
+         <zone points="1640,2463 102,2463 102,141 1640,141" rendition="TextRegion" xml:id="facs_21_r_5" subtype="strophen">
+            <zone points="1640,2463 102,2463 102,141 1640,141" rendition="Line" xml:id="facs_21_r_5_line_001"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2949" xml:id="facs_22">
+         <graphic url="A-Gf_S1_64-022.jpg" width="2000px" height="2949px"/>
+         <zone points="1686,248 616,248 616,64 1686,64" rendition="TextRegion" xml:id="facs_22_r" subtype="rubrik2">
+         </zone>
+         <zone points="1953,1806 339,1806 339,464 538,458 542,254 1953,254" rendition="TextRegion" xml:id="facs_22_r_10" subtype="strophen">
+            <zone points="1953,1806 339,1806 339,464 538,458 542,254 1953,254" rendition="Line" xml:id="facs_22_r_10_line_002"/>
+         </zone>
+         <zone points="528,451 344,451 344,255 528,255" rendition="TextRegion" xml:id="facs_22_r_5" subtype="initiale_lombarde">
+            <zone points="528,451 344,451 344,255 528,255" rendition="Line" xml:id="facs_22_r_5_line_001"/>
+         </zone>
+         <zone points="1642,1892 613,1892 613,1807 1642,1807" rendition="TextRegion" xml:id="facs_22_r_15" subtype="rubrik">
+            <zone points="1642,1892 613,1892 613,1807 1642,1807" rendition="Line" xml:id="facs_22_r_15_line_003"/>
+         </zone>
+         <zone points="545,2129 342,2129 342,1906 545,1906" rendition="TextRegion" xml:id="facs_22_r_25" subtype="initiale_lombarde">
+            <zone points="545,2129 342,2129 342,1906 545,1906" rendition="Line" xml:id="facs_22_r_25_line_006"/>
+         </zone>
+         <zone points="1932,2039 551,2039 551,1906 1932,1906" rendition="TextRegion" xml:id="facs_22_r_20" subtype="notation">
+            <zone points="1932,2039 551,2039 551,1906 1932,1906" rendition="Line" xml:id="facs_22_r_20_line_004"/>
+         </zone>
+         <zone points="1821,2127 651,2127 651,2043 1821,2043" rendition="TextRegion" xml:id="facs_22_r_30" subtype="text">
+            <zone points="1821,2127 651,2127 651,2043 1821,2043" rendition="Line" xml:id="facs_22_r_30_line_005"/>
+         </zone>
+         <zone points="1918,2274 340,2274 340,2143 1918,2143" rendition="TextRegion" xml:id="facs_22_r_35" subtype="notation">
+            <zone points="1918,2274 340,2274 340,2143 1918,2143" rendition="Line" xml:id="facs_22_r_35_line_007"/>
+         </zone>
+         <zone points="1879,2366 438,2366 438,2278 1879,2278" rendition="TextRegion" xml:id="facs_22_r_40" subtype="text">
+            <zone points="1879,2366 438,2366 438,2278 1879,2278" rendition="Line" xml:id="facs_22_r_40_line_008"/>
+         </zone>
+         <zone points="1926,2501 338,2501 338,2376 1926,2376" rendition="TextRegion" xml:id="facs_22_r_45" subtype="notation">
+            <zone points="1926,2501 338,2501 338,2376 1926,2376" rendition="Line" xml:id="facs_22_r_45_line_009"/>
+         </zone>
+         <zone points="1881,2608 398,2608 398,2511 1881,2511" rendition="TextRegion" xml:id="facs_22_r_50" subtype="text">
+            <zone points="1881,2608 398,2608 398,2511 1881,2511" rendition="Line" xml:id="facs_22_r_50_line_010"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2939" xml:id="facs_23">
+         <graphic url="A-Gf_S1_64-023.jpg" width="2000px" height="2939px"/>
+         <zone points="1490,155 444,155 444,67 1490,67" rendition="TextRegion" xml:id="facs_23_r" subtype="rubrik">
+            <zone points="1490,155 444,155 444,67 1490,67" rendition="Line" xml:id="facs_23_r_line_000"/>
+         </zone>
+         <zone points="1248,308 169,308 169,167 1248,167" rendition="TextRegion" xml:id="facs_23_r_5" subtype="notation">
+            <zone points="1248,308 169,308 169,167 1248,167" rendition="Line" xml:id="facs_23_r_5_line_001"/>
+         </zone>
+         <zone points="958,390 263,390 263,311 958,311" rendition="TextRegion" xml:id="facs_23_r_15" subtype="text">
+            <zone points="958,390 263,390 263,311 958,311" rendition="Line" xml:id="facs_23_r_15_line_003"/>
+         </zone>
+         <zone points="1753,389 1255,389 1255,271 1753,271" rendition="TextRegion" xml:id="facs_23_r_10" subtype="rubrik2">
+         </zone>
+         <zone points="1755,542 167,542 167,398 1755,398" rendition="TextRegion" xml:id="facs_23_r_20" subtype="notation">
+            <zone points="1755,542 167,542 167,398 1755,398" rendition="Line" xml:id="facs_23_r_20_line_004"/>
+         </zone>
+         <zone points="1745,636 175,636 175,551 1745,551" rendition="TextRegion" xml:id="facs_23_r_25" subtype="text">
+            <zone points="1745,636 175,636 175,551 1745,551" rendition="Line" xml:id="facs_23_r_25_line_005"/>
+         </zone>
+         <zone points="1590,778 175,778 175,641 1590,641" rendition="TextRegion" xml:id="facs_23_r_30" subtype="rubrik2">
+         </zone>
+         <zone points="1761,920 173,920 173,788 1761,788" rendition="TextRegion" xml:id="facs_23_r_35" subtype="notation">
+            <zone points="1761,920 173,920 173,788 1761,788" rendition="Line" xml:id="facs_23_r_35_line_007"/>
+         </zone>
+         <zone points="1718,1016 185,1016 185,922 1718,922" rendition="TextRegion" xml:id="facs_23_r_40" subtype="text">
+            <zone points="1718,1016 185,1016 185,922 1718,922" rendition="Line" xml:id="facs_23_r_40_line_008"/>
+         </zone>
+         <zone points="1763,1153 169,1153 169,1024 1763,1024" rendition="TextRegion" xml:id="facs_23_r_45" subtype="notation">
+            <zone points="1763,1153 169,1153 169,1024 1763,1024" rendition="Line" xml:id="facs_23_r_45_line_009"/>
+         </zone>
+         <zone points="1741,1248 220,1248 220,1159 1741,1159" rendition="TextRegion" xml:id="facs_23_r_50" subtype="text">
+            <zone points="1741,1248 220,1248 220,1159 1741,1159" rendition="Line" xml:id="facs_23_r_50_line_010"/>
+         </zone>
+         <zone points="1696,1336 175,1336 175,1259 1696,1259" rendition="TextRegion" xml:id="facs_23_r_55" subtype="rubrik2">
+         </zone>
+         <zone points="1759,1482 174,1482 174,1343 1759,1343" rendition="TextRegion" xml:id="facs_23_r_60" subtype="notation">
+            <zone points="1759,1482 174,1482 174,1343 1759,1343" rendition="Line" xml:id="facs_23_r_60_line_012"/>
+         </zone>
+         <zone points="1332,1570 175,1570 175,1483 1332,1483" rendition="TextRegion" xml:id="facs_23_r_65" subtype="text">
+            <zone points="1332,1570 175,1570 175,1483 1332,1483" rendition="Line" xml:id="facs_23_r_65_line_013"/>
+         </zone>
+         <zone points="1764,1575 1536,1575 1536,1488 1764,1488" rendition="TextRegion" xml:id="facs_23_r_70" subtype="rubrik2">
+         </zone>
+         <zone points="1767,1719 175,1719 175,1585 1767,1585" rendition="TextRegion" xml:id="facs_23_r_80" subtype="notation">
+            <zone points="1767,1719 175,1719 175,1585 1767,1585" rendition="Line" xml:id="facs_23_r_80_line_015"/>
+         </zone>
+         <zone points="1462,1813 184,1813 184,1724 1462,1724" rendition="TextRegion" xml:id="facs_23_r_85" subtype="text">
+            <zone points="1462,1813 184,1813 184,1724 1462,1724" rendition="Line" xml:id="facs_23_r_85_line_017"/>
+         </zone>
+         <zone points="1765,1810 1525,1810 1525,1726 1765,1726" rendition="TextRegion" xml:id="facs_23_r_75" subtype="rubrik2">
+         </zone>
+         <zone points="1757,1962 160,1962 160,1823 1757,1823" rendition="TextRegion" xml:id="facs_23_r_90" subtype="notation">
+            <zone points="1757,1962 160,1962 160,1823 1757,1823" rendition="Line" xml:id="facs_23_r_90_line_018"/>
+         </zone>
+         <zone points="1134,2049 184,2049 184,1966 1134,1966" rendition="TextRegion" xml:id="facs_23_r_95" subtype="text">
+            <zone points="1134,2049 184,2049 184,1966 1134,1966" rendition="Line" xml:id="facs_23_r_95_line_019"/>
+         </zone>
+         <zone points="1679,2058 1361,2058 1361,1971 1679,1971" rendition="TextRegion" xml:id="facs_23_r_100" subtype="rubrik">
+            <zone points="1679,2058 1361,2058 1361,1971 1679,1971" rendition="Line" xml:id="facs_23_r_100_line_020"/>
+         </zone>
+         <zone points="176,2238 176,2051 345,2051 345,2238" rendition="TextRegion" xml:id="facs_23_r_105" subtype="initiale_lombarde">
+            <zone points="176,2238 176,2051 345,2051 345,2238" rendition="Line" xml:id="facs_23_r_105_line_021"/>
+         </zone>
+         <zone points="1752,2586 178,2586 178,2252 357,2245 360,2060 1752,2068" rendition="TextRegion" xml:id="facs_23_r_110" subtype="strophen">
+            <zone points="1752,2586 178,2586 178,2252 357,2245 360,2060 1752,2068" rendition="Line" xml:id="facs_23_r_110_line_022"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2995" xml:id="facs_24">
+         <graphic url="A-Gf_S1_64-024.jpg" width="2000px" height="2995px"/>
+         <zone points="1606,159 530,159 530,54 1606,54" rendition="TextRegion" xml:id="facs_24_r" subtype="rubrik">
+            <zone points="1606,159 530,159 530,54 1606,54" rendition="Line" xml:id="facs_24_r_line_000"/>
+         </zone>
+         <zone points="1869,2303 1501,2302 1492,2393 246,2393 246,158 1866,158" rendition="TextRegion" xml:id="facs_24_r_5" subtype="strophen">
+            <zone points="1869,2303 1501,2302 1492,2393 246,2393 246,158 1866,158" rendition="Line" xml:id="facs_24_r_5_line_001"/>
+         </zone>
+         <zone points="1851,2397 1619,2397 1619,2313 1851,2313" rendition="TextRegion" xml:id="facs_24_r_12" subtype="rubrik2">
+         </zone>
+         <zone points="448,2651 232,2651 232,2417 448,2417" rendition="TextRegion" xml:id="facs_24_r_17" subtype="initiale_lombarde">
+            <zone points="448,2651 232,2651 232,2417 448,2417" rendition="Line" xml:id="facs_24_r_17_line_004"/>
+         </zone>
+         <zone points="1847,2568 462,2568 462,2423 1847,2423" rendition="TextRegion" xml:id="facs_24_r_22" subtype="notation">
+            <zone points="1847,2568 462,2568 462,2423 1847,2423" rendition="Line" xml:id="facs_24_r_22_line_003"/>
+         </zone>
+         <zone points="1812,2659 521,2659 521,2570 1812,2570" rendition="TextRegion" xml:id="facs_24_r_27" subtype="text">
+            <zone points="1812,2659 521,2659 521,2570 1812,2570" rendition="Line" xml:id="facs_24_r_27_line_005"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2942" xml:id="facs_25">
+         <graphic url="A-Gf_S1_64-025.jpg" width="2000px" height="2942px"/>
+         <zone points="1497,154 444,154 444,67 1497,67" rendition="TextRegion" xml:id="facs_25_r" subtype="rubrik">
+            <zone points="1497,154 444,154 444,67 1497,67" rendition="Line" xml:id="facs_25_r_line_000"/>
+         </zone>
+         <zone points="1760,306 169,306 169,164 1760,164" rendition="TextRegion" xml:id="facs_25_r_5" subtype="notation">
+            <zone points="1760,306 169,306 169,164 1760,164" rendition="Line" xml:id="facs_25_r_5_line_001"/>
+         </zone>
+         <zone points="1693,398 210,398 210,316 1693,316" rendition="TextRegion" xml:id="facs_25_r_10" subtype="text">
+            <zone points="1693,398 210,398 210,316 1693,316" rendition="Line" xml:id="facs_25_r_10_line_002"/>
+         </zone>
+         <zone points="1757,552 172,552 172,405 1757,405" rendition="TextRegion" xml:id="facs_25_r_15" subtype="notation">
+            <zone points="1757,552 172,552 172,405 1757,405" rendition="Line" xml:id="facs_25_r_15_line_003"/>
+         </zone>
+         <zone points="196,641 196,554 1717,554 1717,641" rendition="TextRegion" xml:id="facs_25_r_20" subtype="text">
+            <zone points="196,641 196,554 1717,554 1717,641" rendition="Line" xml:id="facs_25_r_20_line_004"/>
+         </zone>
+         <zone points="1759,787 172,787 172,650 1759,650" rendition="TextRegion" xml:id="facs_25_r_25" subtype="notation">
+            <zone points="1759,787 172,787 172,650 1759,650" rendition="Line" xml:id="facs_25_r_25_line_005"/>
+         </zone>
+         <zone points="356,865 172,865 172,797 356,797" rendition="TextRegion" xml:id="facs_25_r_30" subtype="rubrik">
+            <zone points="356,865 172,865 172,797 356,797" rendition="Line" xml:id="facs_25_r_30_line_006"/>
+         </zone>
+         <zone points="1321,872 394,872 394,790 1321,790" rendition="TextRegion" xml:id="facs_25_r_35" subtype="text">
+            <zone points="1321,872 394,872 394,790 1321,790" rendition="Line" xml:id="facs_25_r_35_line_007"/>
+         </zone>
+         <zone points="1764,879 1531,879 1531,792 1764,792" rendition="TextRegion" xml:id="facs_25_r_40" subtype="rubrik">
+            <zone points="1764,879 1531,879 1531,792 1764,792" rendition="Line" xml:id="facs_25_r_40_line_008"/>
+         </zone>
+         <zone points="167,1026 167,884 1764,884 1764,1026" rendition="TextRegion" xml:id="facs_25_r_45" subtype="notation">
+            <zone points="167,1026 167,884 1764,884 1764,1026" rendition="Line" xml:id="facs_25_r_45_line_009"/>
+         </zone>
+         <zone points="1719,1118 212,1118 212,1030 1719,1030" rendition="TextRegion" xml:id="facs_25_r_50" subtype="text">
+            <zone points="1719,1118 212,1118 212,1030 1719,1030" rendition="Line" xml:id="facs_25_r_50_line_010"/>
+         </zone>
+         <zone points="1764,1271 172,1271 172,1122 1764,1122" rendition="TextRegion" xml:id="facs_25_r_55" subtype="notation">
+            <zone points="1764,1271 172,1271 172,1122 1764,1122" rendition="Line" xml:id="facs_25_r_55_line_011"/>
+         </zone>
+         <zone points="1540,1363 259,1363 259,1275 1540,1275" rendition="TextRegion" xml:id="facs_25_r_60" subtype="text">
+            <zone points="1540,1363 259,1363 259,1275 1540,1275" rendition="Line" xml:id="facs_25_r_60_line_012"/>
+         </zone>
+         <zone points="1755,1504 158,1504 158,1363 1755,1363" rendition="TextRegion" xml:id="facs_25_r_65" subtype="notation">
+            <zone points="1755,1504 158,1504 158,1363 1755,1363" rendition="Line" xml:id="facs_25_r_65_line_013"/>
+         </zone>
+         <zone points="356,1589 167,1589 167,1504 356,1504" rendition="TextRegion" xml:id="facs_25_r_75" subtype="rubrik">
+            <zone points="356,1589 167,1589 167,1504 356,1504" rendition="Line" xml:id="facs_25_r_75_line_014"/>
+         </zone>
+         <zone points="1436,1603 403,1603 403,1509 1436,1509" rendition="TextRegion" xml:id="facs_25_r_80" subtype="text">
+            <zone points="1436,1603 403,1603 403,1509 1436,1509" rendition="Line" xml:id="facs_25_r_80_line_016"/>
+         </zone>
+         <zone points="1755,1594 1509,1594 1509,1514 1755,1514" rendition="TextRegion" xml:id="facs_25_r_70" subtype="rubrik">
+            <zone points="1755,1594 1509,1594 1509,1514 1755,1514" rendition="Line" xml:id="facs_25_r_70_line_015"/>
+         </zone>
+         <zone points="337,1799 162,1797 165,1603 337,1603" rendition="TextRegion" xml:id="facs_25_r_85" subtype="initiale_lombarde">
+            <zone points="337,1799 162,1797 165,1603 337,1603" rendition="Line" xml:id="facs_25_r_85_line_017"/>
+         </zone>
+         <zone points="1757,2615 159,2615 160,1804 204,1801 342,1813 347,1616 1757,1616" rendition="TextRegion" xml:id="facs_25_r_90" subtype="strophen">
+            <zone points="1757,2615 159,2615 160,1804 204,1801 342,1813 347,1616 1757,1616" rendition="Line" xml:id="facs_25_r_90_line_018"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2995" xml:id="facs_26">
+         <graphic url="A-Gf_S1_64-026.jpg" width="2000px" height="2995px"/>
+         <zone points="1606,164 518,164 518,76 1606,76" rendition="TextRegion" xml:id="facs_26_r" subtype="rubrik">
+            <zone points="1606,164 518,164 518,76 1606,76" rendition="Line" xml:id="facs_26_r_line_000"/>
+         </zone>
+         <zone points="1862,2675 246,2675 246,182 1862,182" rendition="TextRegion" xml:id="facs_26_r_5" subtype="strophen">
+            <zone points="1862,2675 246,2675 246,182 1862,182" rendition="Line" xml:id="facs_26_r_5_line_001"/>
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2953" xml:id="facs_27">
+         <graphic url="A-Gf_S1_64-027.jpg" width="2000px" height="2953px"/>
+         <zone points="1472,154 424,154 424,53 1472,53" rendition="TextRegion" xml:id="facs_27_r" subtype="rubrik">
+         </zone>
+         <zone points="1760,675 157,675 157,160 1760,160" rendition="TextRegion" xml:id="facs_27_r_5" subtype="strophen">
+         </zone>
+         <zone points="1450,784 443,784 443,690 1450,690" rendition="TextRegion" xml:id="facs_27_r_10" subtype="rubrik">
+         </zone>
+         <zone points="371,1019 143,1019 143,786 371,786" rendition="TextRegion" xml:id="facs_27_r_20" subtype="initiale_lombarde">
+         </zone>
+         <zone points="1748,925 375,925 375,792 1748,792" rendition="TextRegion" xml:id="facs_27_r_15" subtype="notation">
+         </zone>
+         <zone points="1671,1022 441,1022 441,929 1671,929" rendition="TextRegion" xml:id="facs_27_r_25" subtype="text">
+         </zone>
+         <zone points="1748,1165 159,1165 159,1041 1748,1041" rendition="TextRegion" xml:id="facs_27_r_30" subtype="notation">
+         </zone>
+         <zone points="193,1264 193,1171 1688,1171 1688,1264" rendition="TextRegion" xml:id="facs_27_r_35" subtype="text">
+         </zone>
+         <zone points="1745,1405 144,1405 144,1277 1745,1277" rendition="TextRegion" xml:id="facs_27_r_40" subtype="notation">
+         </zone>
+         <zone points="643,1490 204,1490 204,1418 643,1418" rendition="TextRegion" xml:id="facs_27_r_45" subtype="text">
+         </zone>
+         <zone points="895,1499 652,1499 652,1413 895,1413" rendition="TextRegion" xml:id="facs_27_r_50" subtype="rubrik">
+         </zone>
+         <zone points="1746,1495 902,1495 902,1414 1746,1414" rendition="TextRegion" xml:id="facs_27_r_55" subtype="text">
+         </zone>
+         <zone points="1737,1643 146,1643 146,1514 1737,1514" rendition="TextRegion" xml:id="facs_27_r_60" subtype="notation">
+         </zone>
+         <zone points="364,1728 154,1728 154,1653 364,1653" rendition="TextRegion" xml:id="facs_27_r_65" subtype="rubrik2">
+         </zone>
+         <zone points="1711,1743 375,1743 375,1649 1711,1649" rendition="TextRegion" xml:id="facs_27_r_70" subtype="text">
+         </zone>
+         <zone points="1733,1885 156,1885 156,1747 1733,1747" rendition="TextRegion" xml:id="facs_27_r_75" subtype="notation">
+         </zone>
+         <zone points="1399,1987 244,1987 244,1895 1399,1895" rendition="TextRegion" xml:id="facs_27_r_80" subtype="text">
+         </zone>
+         <zone points="150,2122 150,1999 1345,1999 1345,2122" rendition="TextRegion" xml:id="facs_27_r_100" subtype="notation">
+         </zone>
+         <zone points="1746,2135 1351,2135 1351,1991 1746,1991" rendition="TextRegion" xml:id="facs_27_r_85" subtype="rubrik2">
+         </zone>
+         <zone points="341,2216 161,2216 161,2130 341,2130" rendition="TextRegion" xml:id="facs_27_r_90" subtype="rubrik">
+         </zone>
+         <zone points="1277,2225 375,2225 375,2128 1277,2138" rendition="TextRegion" xml:id="facs_27_r_95" subtype="text">
+         </zone>
+         <zone points="1159,2323 722,2323 722,2229 1159,2229" rendition="TextRegion" xml:id="facs_27_r_105" subtype="rubrik">
+         </zone>
+         <zone points="1746,2598 152,2598 153,2505 293,2503 349,2504 347,2327 1746,2327" rendition="TextRegion" xml:id="facs_27_r_115" subtype="strophen">
+         </zone>
+         <zone points="341,2499 154,2499 154,2300 341,2300" rendition="TextRegion" xml:id="facs_27_r_110" subtype="initiale_lombarde">
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2998" xml:id="facs_28">
+         <graphic url="A-Gf_S1_64-028.jpg" width="2000px" height="2998px"/>
+         <zone points="1608,156 532,156 532,61 1608,61" rendition="TextRegion" xml:id="facs_28_r" subtype="rubrik">
+         </zone>
+         <zone points="1900,2664 238,2664 238,163 1900,163" rendition="TextRegion" xml:id="facs_28_r_5" subtype="strophen">
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2943" xml:id="facs_29">
+         <graphic url="A-Gf_S1_64-029.jpg" width="2000px" height="2943px"/>
+         <zone points="1486,156 431,156 431,59 1486,59" rendition="TextRegion" xml:id="facs_29_r" subtype="rubrik">
+         </zone>
+         <zone points="1768,2644 159,2644 159,166 1768,166" rendition="TextRegion" xml:id="facs_29_r_5" subtype="strophen">
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2997" xml:id="facs_30">
+         <graphic url="A-Gf_S1_64-030.jpg" width="2000px" height="2997px"/>
+         <zone points="1597,174 532,174 532,74 1597,74" rendition="TextRegion" xml:id="facs_30_r" subtype="rubrik">
+         </zone>
+         <zone points="1881,2664 239,2664 239,173 1881,173" rendition="TextRegion" xml:id="facs_30_r_5" subtype="strophen">
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2950" xml:id="facs_31">
+         <graphic url="A-Gf_S1_64-031.jpg" width="2000px" height="2950px"/>
+         <zone points="1480,167 409,167 409,76 1480,76" rendition="TextRegion" xml:id="facs_31_r" subtype="rubrik">
+         </zone>
+         <zone points="1760,2643 141,2643 141,175 1760,175" rendition="TextRegion" xml:id="facs_31_r_5" subtype="strophen">
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2988" xml:id="facs_32">
+         <graphic url="A-Gf_S1_64-032.jpg" width="2000px" height="2988px"/>
+         <graphic url="" width="2000px" height="2988px"/>
+         <zone points="1633,184 572,184 572,77 1633,77" rendition="TextRegion" xml:id="facs_32_r" subtype="rubrik">
+         </zone>
+         <zone points="1929,1471 300,1471 300,192 1929,192" rendition="TextRegion" xml:id="facs_32_r_5" subtype="strophen">
+         </zone>
+         <zone points="1313,1527 883,1527 883,1486 1313,1486" rendition="TextRegion" xml:id="facs_32_r_10" subtype="rubrik">
+         </zone>
+         <zone points="523,1759 300,1759 300,1522 523,1522" rendition="TextRegion" xml:id="facs_32_r_15">
+         </zone>
+         <zone points="1898,1666 523,1666 523,1537 1898,1537" rendition="TextRegion" xml:id="facs_32_r_20" subtype="notation">
+         </zone>
+         <zone points="1809,1755 593,1755 593,1668 1809,1668" rendition="TextRegion" xml:id="facs_32_r_25" subtype="text">
+         </zone>
+         <zone points="1898,1905 297,1905 297,1763 1898,1763" rendition="TextRegion" xml:id="facs_32_r_30" subtype="notation">
+         </zone>
+         <zone points="1811,2000 391,2000 391,1919 1811,1919" rendition="TextRegion" xml:id="facs_32_r_35" subtype="text">
+         </zone>
+         <zone points="1893,2149 300,2149 300,2013 1300,2013 1893,2013" rendition="TextRegion" xml:id="facs_32_r_40" subtype="notation">
+         </zone>
+         <zone points="1813,2235 391,2235 391,2153 1813,2157" rendition="TextRegion" xml:id="facs_32_r_45" subtype="text">
+         </zone>
+         <zone points="1844,2282 308,2282 308,2239 1844,2239" rendition="TextRegion" xml:id="facs_32_r_50" subtype="rubrik">
+         </zone>
+         <zone points="1892,2424 623,2417 305,2417 306,2291 1892,2291" rendition="TextRegion" xml:id="facs_32_r_77" subtype="notation">
+         </zone>
+         <zone points="515,2505 306,2505 306,2421 515,2421" rendition="TextRegion" xml:id="facs_32_r_60" subtype="rubrik2">
+         </zone>
+         <zone points="1852,2515 521,2515 521,2423 1852,2436" rendition="TextRegion" xml:id="facs_32_r_55" subtype="text">
+         </zone>
+         <zone points="1860,2572 1707,2581 1710,2614 1271,2612 1276,2635 1135,2640 1132,2674 306,2668 306,2521 1860,2521" rendition="TextRegion" xml:id="facs_32_r_65" subtype="rubrik2">
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2982" xml:id="facs_33">
+         <graphic url="A-Gf_S1_64-033.jpg" width="2000px" height="2982px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2935" xml:id="facs_34">
+         <graphic url="A-Gf_S1_64-034.jpg" width="2000px" height="2935px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2987" xml:id="facs_35">
+         <graphic url="A-Gf_S1_64-035.jpg" width="2000px" height="2987px"/>
+         <zone points="1438,197 365,197 365,86 1438,86" rendition="TextRegion" xml:id="facs_35_r" subtype="rubrik">
+         </zone>
+         <zone points="1690,303 1690,394 338,374 341,471 88,471 88,206 951,206 947,284" rendition="TextRegion" xml:id="facs_35_r_5" subtype="strophen">
+         </zone>
+         <zone points="1605,467 592,467 592,378 1599,402" rendition="TextRegion" xml:id="facs_35_r_14" subtype="rubrik">
+         </zone>
+         <zone points="311,709 90,709 90,478 311,478" rendition="TextRegion" xml:id="facs_35_r_19" subtype="initiale_lombarde">
+         </zone>
+         <zone points="1691,617 315,617 315,485 1691,485" rendition="TextRegion" xml:id="facs_35_r_24" subtype="notation">
+         </zone>
+         <zone points="1626,706 378,706 378,627 1626,627" rendition="TextRegion" xml:id="facs_35_r_29" subtype="text">
+         </zone>
+         <zone points="1699,863 88,863 88,730 1699,730" rendition="TextRegion" xml:id="facs_35_r_34" subtype="notation">
+         </zone>
+         <zone points="1622,954 126,954 126,870 1622,870" rendition="TextRegion" xml:id="facs_35_r_39" subtype="text">
+         </zone>
+         <zone points="1704,1106 88,1106 88,963 1704,963" rendition="TextRegion" xml:id="facs_35_r_44" subtype="notation">
+         </zone>
+         <zone points="1691,1189 127,1189 127,1112 1691,1112" rendition="TextRegion" xml:id="facs_35_r_49" subtype="text">
+         </zone>
+         <zone points="1700,1344 94,1344 94,1212 1700,1212" rendition="TextRegion" xml:id="facs_35_r_54" subtype="notation">
+         </zone>
+         <zone points="286,1436 96,1436 96,1352 286,1352" rendition="TextRegion" xml:id="facs_35_r_59" subtype="rubrik">
+         </zone>
+         <zone points="1302,1433 319,1433 319,1352 1302,1352" rendition="TextRegion" xml:id="facs_35_r_64" subtype="text">
+         </zone>
+         <zone points="1409,1562 365,1562 365,1466 1409,1466" rendition="TextRegion" xml:id="facs_35_r_69" subtype="rubrik">
+         </zone>
+         <zone points="1702,1717 90,1717 90,1581 1702,1581" rendition="TextRegion" xml:id="facs_35_r_74" subtype="notation">
+         </zone>
+         <zone points="1615,1820 131,1820 131,1726 1615,1726" rendition="TextRegion" xml:id="facs_35_r_79" subtype="text">
+         </zone>
+         <zone points="94,1968 94,1829 1689,1829 1689,1968" rendition="TextRegion" xml:id="facs_35_r_84" subtype="notation">
+         </zone>
+         <zone points="1660,2063 114,2063 114,1976 1660,1976" rendition="TextRegion" xml:id="facs_35_r_89" subtype="text">
+         </zone>
+         <zone points="1683,2207 90,2207 90,2075 1683,2075" rendition="TextRegion" xml:id="facs_35_r_94" subtype="notation">
+         </zone>
+         <zone points="273,2289 96,2289 96,2211 273,2211" rendition="TextRegion" xml:id="facs_35_r_99" subtype="rubrik">
+         </zone>
+         <zone points="1180,2292 304,2292 304,2211 1180,2211" rendition="TextRegion" xml:id="facs_35_r_104" subtype="text">
+         </zone>
+         <zone points="1691,2296 1364,2296 1364,2211 1691,2211" rendition="TextRegion" xml:id="facs_35_r_109" subtype="rubrik">
+         </zone>
+         <zone points="1674,2659 90,2659 93,2490 267,2497 265,2303 1674,2303" rendition="TextRegion" xml:id="facs_35_r_119" subtype="strophen">
+         </zone>
+         <zone points="258,2487 92,2487 92,2292 258,2292" rendition="TextRegion" xml:id="facs_35_r_114" subtype="initiale_lombarde">
+         </zone>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2936" xml:id="facs_36">
+         <graphic url="A-Gf_S1_64-036.jpg" width="2000px" height="2936px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2975" xml:id="facs_37">
+         <graphic url="A-Gf_S1_64-037.jpg" width="2000px" height="2975px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2935" xml:id="facs_38">
+         <graphic url="A-Gf_S1_64-038.jpg" width="2000px" height="2935px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3053" xml:id="facs_39">
+         <graphic url="A-Gf_S1_64-039.jpg" width="2000px" height="3053px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2988" xml:id="facs_40">
+         <graphic url="A-Gf_S1_64-040.jpg" width="2000px" height="2988px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3060" xml:id="facs_41">
+         <graphic url="A-Gf_S1_64-041.jpg" width="2000px" height="3060px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2984" xml:id="facs_42">
+         <graphic url="A-Gf_S1_64-042.jpg" width="2000px" height="2984px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3055" xml:id="facs_43">
+         <graphic url="A-Gf_S1_64-043.jpg" width="2000px" height="3055px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2980" xml:id="facs_44">
+         <graphic url="A-Gf_S1_64-044.jpg" width="2000px" height="2980px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3067" xml:id="facs_45">
+         <graphic url="A-Gf_S1_64-045.jpg" width="2000px" height="3067px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2992" xml:id="facs_46">
+         <graphic url="A-Gf_S1_64-046.jpg" width="2000px" height="2992px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3027" xml:id="facs_47">
+         <graphic url="A-Gf_S1_64-047.jpg" width="2000px" height="3027px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2991" xml:id="facs_48">
+         <graphic url="A-Gf_S1_64-048.jpg" width="2000px" height="2991px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3050" xml:id="facs_49">
+         <graphic url="A-Gf_S1_64-049.jpg" width="2000px" height="3050px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2995" xml:id="facs_50">
+         <graphic url="A-Gf_S1_64-050.jpg" width="2000px" height="2995px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3042" xml:id="facs_51">
+         <graphic url="A-Gf_S1_64-051.jpg" width="2000px" height="3042px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2996" xml:id="facs_52">
+         <graphic url="A-Gf_S1_64-052.jpg" width="2000px" height="2996px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2958" xml:id="facs_53">
+         <graphic url="A-Gf_S1_64-053.jpg" width="2000px" height="2958px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2927" xml:id="facs_54">
+         <graphic url="A-Gf_S1_64-054.jpg" width="2000px" height="2927px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3093" xml:id="facs_55">
+         <graphic url="A-Gf_S1_64-055.jpg" width="2000px" height="3093px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_56">
+         <graphic url="A-Gf_S1_64-056.jpg" width="2000px" height="3038px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3056" xml:id="facs_57">
+         <graphic url="A-Gf_S1_64-057.jpg" width="2000px" height="3056px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3026" xml:id="facs_58">
+         <graphic url="A-Gf_S1_64-058.jpg" width="2000px" height="3026px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3035" xml:id="facs_59">
+         <graphic url="A-Gf_S1_64-059.jpg" width="2000px" height="3035px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3070" xml:id="facs_60">
+         <graphic url="A-Gf_S1_64-060.jpg" width="2000px" height="3070px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3027" xml:id="facs_61">
+         <graphic url="A-Gf_S1_64-061.jpg" width="2000px" height="3027px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3065" xml:id="facs_62">
+         <graphic url="A-Gf_S1_64-062.jpg" width="2000px" height="3065px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3044" xml:id="facs_63">
+         <graphic url="A-Gf_S1_64-063.jpg" width="2000px" height="3044px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3067" xml:id="facs_64">
+         <graphic url="A-Gf_S1_64-064.jpg" width="2000px" height="3067px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2976" xml:id="facs_65">
+         <graphic url="A-Gf_S1_64-065.jpg" width="2000px" height="2976px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3013" xml:id="facs_66">
+         <graphic url="A-Gf_S1_64-066.jpg" width="2000px" height="3013px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3068" xml:id="facs_67">
+         <graphic url="A-Gf_S1_64-067.jpg" width="2000px" height="3068px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3078" xml:id="facs_68">
+         <graphic url="A-Gf_S1_64-068.jpg" width="2000px" height="3078px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3062" xml:id="facs_69">
+         <graphic url="A-Gf_S1_64-069.jpg" width="2000px" height="3062px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3086" xml:id="facs_70">
+         <graphic url="A-Gf_S1_64-070.jpg" width="2000px" height="3086px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3050" xml:id="facs_71">
+         <graphic url="A-Gf_S1_64-071.jpg" width="2000px" height="3050px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3134" xml:id="facs_72">
+         <graphic url="A-Gf_S1_64-072.jpg" width="2000px" height="3134px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3044" xml:id="facs_73">
+         <graphic url="A-Gf_S1_64-073.jpg" width="2000px" height="3044px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3075" xml:id="facs_74">
+         <graphic url="A-Gf_S1_64-074.jpg" width="2000px" height="3075px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3076" xml:id="facs_75">
+         <graphic url="A-Gf_S1_64-075.jpg" width="2000px" height="3076px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3075" xml:id="facs_76">
+         <graphic url="A-Gf_S1_64-076.jpg" width="2000px" height="3075px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3062" xml:id="facs_77">
+         <graphic url="A-Gf_S1_64-077.jpg" width="2000px" height="3062px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3078" xml:id="facs_78">
+         <graphic url="A-Gf_S1_64-078.jpg" width="2000px" height="3078px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3062" xml:id="facs_79">
+         <graphic url="A-Gf_S1_64-079.jpg" width="2000px" height="3062px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3078" xml:id="facs_80">
+         <graphic url="A-Gf_S1_64-080.jpg" width="2000px" height="3078px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3061" xml:id="facs_81">
+         <graphic url="A-Gf_S1_64-081.jpg" width="2000px" height="3061px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3086" xml:id="facs_82">
+         <graphic url="A-Gf_S1_64-082.jpg" width="2000px" height="3086px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3045" xml:id="facs_83">
+         <graphic url="A-Gf_S1_64-083.jpg" width="2000px" height="3045px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3088" xml:id="facs_84">
+         <graphic url="A-Gf_S1_64-084.jpg" width="2000px" height="3088px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3052" xml:id="facs_85">
+         <graphic url="A-Gf_S1_64-085.jpg" width="2000px" height="3052px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3087" xml:id="facs_86">
+         <graphic url="A-Gf_S1_64-086.jpg" width="2000px" height="3087px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3105" xml:id="facs_87">
+         <graphic url="A-Gf_S1_64-087.jpg" width="2000px" height="3105px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3087" xml:id="facs_88">
+         <graphic url="A-Gf_S1_64-088.jpg" width="2000px" height="3087px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3087" xml:id="facs_89">
+         <graphic url="A-Gf_S1_64-089.jpg" width="2000px" height="3087px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3055" xml:id="facs_90">
+         <graphic url="A-Gf_S1_64-090.jpg" width="2000px" height="3055px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3080" xml:id="facs_91">
+         <graphic url="A-Gf_S1_64-091.jpg" width="2000px" height="3080px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3058" xml:id="facs_92">
+         <graphic url="A-Gf_S1_64-092.jpg" width="2000px" height="3058px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2910" xml:id="facs_93">
+         <graphic url="A-Gf_S1_64-093.jpg" width="2000px" height="2910px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2959" xml:id="facs_94">
+         <graphic url="A-Gf_S1_64-094.jpg" width="2000px" height="2959px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2957" xml:id="facs_95">
+         <graphic url="A-Gf_S1_64-095.jpg" width="2000px" height="2957px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3095" xml:id="facs_96">
+         <graphic url="A-Gf_S1_64-096.jpg" width="2000px" height="3095px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2958" xml:id="facs_97">
+         <graphic url="A-Gf_S1_64-097.jpg" width="2000px" height="2958px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3108" xml:id="facs_98">
+         <graphic url="A-Gf_S1_64-098.jpg" width="2000px" height="3108px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2947" xml:id="facs_99">
+         <graphic url="A-Gf_S1_64-099.jpg" width="2000px" height="2947px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3114" xml:id="facs_100">
+         <graphic url="A-Gf_S1_64-100.jpg" width="2000px" height="3114px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2972" xml:id="facs_101">
+         <graphic url="A-Gf_S1_64-101.jpg" width="2000px" height="2972px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3108" xml:id="facs_102">
+         <graphic url="A-Gf_S1_64-102.jpg" width="2000px" height="3108px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2974" xml:id="facs_103">
+         <graphic url="A-Gf_S1_64-103.jpg" width="2000px" height="2974px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3075" xml:id="facs_104">
+         <graphic url="A-Gf_S1_64-104.jpg" width="2000px" height="3075px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2949" xml:id="facs_105">
+         <graphic url="A-Gf_S1_64-105.jpg" width="2000px" height="2949px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2933" xml:id="facs_106">
+         <graphic url="A-Gf_S1_64-106.jpg" width="2000px" height="2933px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3089" xml:id="facs_107">
+         <graphic url="A-Gf_S1_64-107.jpg" width="2000px" height="3089px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3101" xml:id="facs_108">
+         <graphic url="A-Gf_S1_64-108.jpg" width="2000px" height="3101px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3073" xml:id="facs_109">
+         <graphic url="A-Gf_S1_64-109.jpg" width="2000px" height="3073px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3050" xml:id="facs_110">
+         <graphic url="A-Gf_S1_64-110.jpg" width="2000px" height="3050px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3092" xml:id="facs_111">
+         <graphic url="A-Gf_S1_64-111.jpg" width="2000px" height="3092px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3052" xml:id="facs_112">
+         <graphic url="A-Gf_S1_64-112.jpg" width="2000px" height="3052px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3093" xml:id="facs_113">
+         <graphic url="A-Gf_S1_64-113.jpg" width="2000px" height="3093px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3045" xml:id="facs_114">
+         <graphic url="A-Gf_S1_64-114.jpg" width="2000px" height="3045px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3099" xml:id="facs_115">
+         <graphic url="A-Gf_S1_64-115.jpg" width="2000px" height="3099px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_116">
+         <graphic url="A-Gf_S1_64-116.jpg" width="2000px" height="3032px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2996" xml:id="facs_117">
+         <graphic url="A-Gf_S1_64-117.jpg" width="2000px" height="2996px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_118">
+         <graphic url="A-Gf_S1_64-118.jpg" width="2000px" height="3038px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3075" xml:id="facs_119">
+         <graphic url="A-Gf_S1_64-119.jpg" width="2000px" height="3075px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3112" xml:id="facs_120">
+         <graphic url="A-Gf_S1_64-120.jpg" width="2000px" height="3112px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3115" xml:id="facs_121">
+         <graphic url="A-Gf_S1_64-121.jpg" width="2000px" height="3115px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3105" xml:id="facs_122">
+         <graphic url="A-Gf_S1_64-122.jpg" width="2000px" height="3105px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3086" xml:id="facs_123">
+         <graphic url="A-Gf_S1_64-123.jpg" width="2000px" height="3086px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3106" xml:id="facs_124">
+         <graphic url="A-Gf_S1_64-124.jpg" width="2000px" height="3106px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3082" xml:id="facs_125">
+         <graphic url="A-Gf_S1_64-125.jpg" width="2000px" height="3082px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3110" xml:id="facs_126">
+         <graphic url="A-Gf_S1_64-126.jpg" width="2000px" height="3110px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3079" xml:id="facs_127">
+         <graphic url="A-Gf_S1_64-127.jpg" width="2000px" height="3079px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3101" xml:id="facs_128">
+         <graphic url="A-Gf_S1_64-128.jpg" width="2000px" height="3101px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3084" xml:id="facs_129">
+         <graphic url="A-Gf_S1_64-129.jpg" width="2000px" height="3084px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3090" xml:id="facs_130">
+         <graphic url="A-Gf_S1_64-130.jpg" width="2000px" height="3090px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3084" xml:id="facs_131">
+         <graphic url="A-Gf_S1_64-131.jpg" width="2000px" height="3084px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3095" xml:id="facs_132">
+         <graphic url="A-Gf_S1_64-132.jpg" width="2000px" height="3095px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3088" xml:id="facs_133">
+         <graphic url="A-Gf_S1_64-133.jpg" width="2000px" height="3088px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3117" xml:id="facs_134">
+         <graphic url="A-Gf_S1_64-134.jpg" width="2000px" height="3117px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2943" xml:id="facs_135">
+         <graphic url="A-Gf_S1_64-135.jpg" width="2000px" height="2943px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3024" xml:id="facs_136">
+         <graphic url="A-Gf_S1_64-136.jpg" width="2000px" height="3024px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2969" xml:id="facs_137">
+         <graphic url="A-Gf_S1_64-137.jpg" width="2000px" height="2969px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3023" xml:id="facs_138">
+         <graphic url="A-Gf_S1_64-138.jpg" width="2000px" height="3023px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2921" xml:id="facs_139">
+         <graphic url="A-Gf_S1_64-139.jpg" width="2000px" height="2921px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3019" xml:id="facs_140">
+         <graphic url="A-Gf_S1_64-140.jpg" width="2000px" height="3019px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3079" xml:id="facs_141">
+         <graphic url="A-Gf_S1_64-141.jpg" width="2000px" height="3079px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3115" xml:id="facs_142">
+         <graphic url="A-Gf_S1_64-142.jpg" width="2000px" height="3115px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3120" xml:id="facs_143">
+         <graphic url="A-Gf_S1_64-144.jpg" width="2000px" height="3120px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2911" xml:id="facs_144">
+         <graphic url="A-Gf_S1_64-147.jpg" width="2000px" height="2911px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3000" xml:id="facs_145">
+         <graphic url="A-Gf_S1_64-148.jpg" width="2000px" height="3000px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3058" xml:id="facs_146">
+         <graphic url="A-Gf_S1_64-149.jpg" width="2000px" height="3058px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3161" xml:id="facs_147">
+         <graphic url="A-Gf_S1_64-150.jpg" width="2000px" height="3161px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_148">
+         <graphic url="A-Gf_S1_64-151.jpg" width="2000px" height="3032px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3159" xml:id="facs_149">
+         <graphic url="A-Gf_S1_64-152.jpg" width="2000px" height="3159px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3039" xml:id="facs_150">
+         <graphic url="A-Gf_S1_64-153.jpg" width="2000px" height="3039px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3172" xml:id="facs_151">
+         <graphic url="A-Gf_S1_64-154.jpg" width="2000px" height="3172px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3036" xml:id="facs_152">
+         <graphic url="A-Gf_S1_64-155.jpg" width="2000px" height="3036px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3150" xml:id="facs_153">
+         <graphic url="A-Gf_S1_64-156.jpg" width="2000px" height="3150px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3034" xml:id="facs_154">
+         <graphic url="A-Gf_S1_64-157.jpg" width="2000px" height="3034px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3165" xml:id="facs_155">
+         <graphic url="A-Gf_S1_64-158.jpg" width="2000px" height="3165px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3050" xml:id="facs_156">
+         <graphic url="A-Gf_S1_64-159.jpg" width="2000px" height="3050px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3171" xml:id="facs_157">
+         <graphic url="A-Gf_S1_64-160.jpg" width="2000px" height="3171px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3046" xml:id="facs_158">
+         <graphic url="A-Gf_S1_64-161.jpg" width="2000px" height="3046px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3179" xml:id="facs_159">
+         <graphic url="A-Gf_S1_64-162.jpg" width="2000px" height="3179px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3136" xml:id="facs_160">
+         <graphic url="A-Gf_S1_64-163.jpg" width="2000px" height="3136px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3188" xml:id="facs_161">
+         <graphic url="A-Gf_S1_64-164.jpg" width="2000px" height="3188px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2962" xml:id="facs_162">
+         <graphic url="A-Gf_S1_64-165.jpg" width="2000px" height="2962px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3064" xml:id="facs_163">
+         <graphic url="A-Gf_S1_64-166.jpg" width="2000px" height="3064px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2958" xml:id="facs_164">
+         <graphic url="A-Gf_S1_64-167.jpg" width="2000px" height="2958px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3061" xml:id="facs_165">
+         <graphic url="A-Gf_S1_64-168.jpg" width="2000px" height="3061px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2951" xml:id="facs_166">
+         <graphic url="A-Gf_S1_64-169.jpg" width="2000px" height="2951px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3064" xml:id="facs_167">
+         <graphic url="A-Gf_S1_64-170.jpg" width="2000px" height="3064px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2938" xml:id="facs_168">
+         <graphic url="A-Gf_S1_64-171.jpg" width="2000px" height="2938px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3028" xml:id="facs_169">
+         <graphic url="A-Gf_S1_64-172.jpg" width="2000px" height="3028px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3093" xml:id="facs_170">
+         <graphic url="A-Gf_S1_64-173.jpg" width="2000px" height="3093px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3164" xml:id="facs_171">
+         <graphic url="A-Gf_S1_64-174.jpg" width="2000px" height="3164px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3126" xml:id="facs_172">
+         <graphic url="A-Gf_S1_64-175.jpg" width="2000px" height="3126px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3162" xml:id="facs_173">
+         <graphic url="A-Gf_S1_64-176.jpg" width="2000px" height="3162px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3129" xml:id="facs_174">
+         <graphic url="A-Gf_S1_64-177.jpg" width="2000px" height="3129px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3155" xml:id="facs_175">
+         <graphic url="A-Gf_S1_64-178.jpg" width="2000px" height="3155px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3124" xml:id="facs_176">
+         <graphic url="A-Gf_S1_64-179.jpg" width="2000px" height="3124px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3158" xml:id="facs_177">
+         <graphic url="A-Gf_S1_64-180.jpg" width="2000px" height="3158px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3121" xml:id="facs_178">
+         <graphic url="A-Gf_S1_64-181.jpg" width="2000px" height="3121px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3172" xml:id="facs_179">
+         <graphic url="A-Gf_S1_64-182.jpg" width="2000px" height="3172px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3121" xml:id="facs_180">
+         <graphic url="A-Gf_S1_64-183.jpg" width="2000px" height="3121px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3172" xml:id="facs_181">
+         <graphic url="A-Gf_S1_64-184.jpg" width="2000px" height="3172px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3098" xml:id="facs_182">
+         <graphic url="A-Gf_S1_64-185.jpg" width="2000px" height="3098px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3200" xml:id="facs_183">
+         <graphic url="A-Gf_S1_64-186.jpg" width="2000px" height="3200px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3207" xml:id="facs_184">
+         <graphic url="A-Gf_S1_64-187.jpg" width="2000px" height="3207px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3214" xml:id="facs_185">
+         <graphic url="A-Gf_S1_64-188.jpg" width="2000px" height="3214px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3097" xml:id="facs_186">
+         <graphic url="A-Gf_S1_64-189.jpg" width="2000px" height="3097px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3141" xml:id="facs_187">
+         <graphic url="A-Gf_S1_64-190.jpg" width="2000px" height="3141px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3097" xml:id="facs_188">
+         <graphic url="A-Gf_S1_64-191.jpg" width="2000px" height="3097px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3133" xml:id="facs_189">
+         <graphic url="A-Gf_S1_64-192.jpg" width="2000px" height="3133px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3098" xml:id="facs_190">
+         <graphic url="A-Gf_S1_64-193.jpg" width="2000px" height="3098px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3139" xml:id="facs_191">
+         <graphic url="A-Gf_S1_64-194.jpg" width="2000px" height="3139px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3093" xml:id="facs_192">
+         <graphic url="A-Gf_S1_64-195.jpg" width="2000px" height="3093px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3121" xml:id="facs_193">
+         <graphic url="A-Gf_S1_64-196.jpg" width="2000px" height="3121px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3092" xml:id="facs_194">
+         <graphic url="A-Gf_S1_64-197.jpg" width="2000px" height="3092px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3120" xml:id="facs_195">
+         <graphic url="A-Gf_S1_64-198.jpg" width="2000px" height="3120px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3095" xml:id="facs_196">
+         <graphic url="A-Gf_S1_64-199.jpg" width="2000px" height="3095px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3120" xml:id="facs_197">
+         <graphic url="A-Gf_S1_64-200.jpg" width="2000px" height="3120px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3103" xml:id="facs_198">
+         <graphic url="A-Gf_S1_64-201.jpg" width="2000px" height="3103px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3121" xml:id="facs_199">
+         <graphic url="A-Gf_S1_64-202.jpg" width="2000px" height="3121px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3101" xml:id="facs_200">
+         <graphic url="A-Gf_S1_64-203.jpg" width="2000px" height="3101px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3130" xml:id="facs_201">
+         <graphic url="A-Gf_S1_64-204.jpg" width="2000px" height="3130px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3099" xml:id="facs_202">
+         <graphic url="A-Gf_S1_64-205.jpg" width="2000px" height="3099px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3172" xml:id="facs_203">
+         <graphic url="A-Gf_S1_64-206.jpg" width="2000px" height="3172px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3086" xml:id="facs_204">
+         <graphic url="A-Gf_S1_64-207.jpg" width="2000px" height="3086px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3200" xml:id="facs_205">
+         <graphic url="A-Gf_S1_64-208.jpg" width="2000px" height="3200px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3082" xml:id="facs_206">
+         <graphic url="A-Gf_S1_64-209.jpg" width="2000px" height="3082px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3200" xml:id="facs_207">
+         <graphic url="A-Gf_S1_64-210.jpg" width="2000px" height="3200px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3098" xml:id="facs_208">
+         <graphic url="A-Gf_S1_64-211.jpg" width="2000px" height="3098px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3081" xml:id="facs_209">
+         <graphic url="A-Gf_S1_64-212.jpg" width="2000px" height="3081px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3087" xml:id="facs_210">
+         <graphic url="A-Gf_S1_64-213.jpg" width="2000px" height="3087px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3110" xml:id="facs_211">
+         <graphic url="A-Gf_S1_64-214.jpg" width="2000px" height="3110px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3068" xml:id="facs_212">
+         <graphic url="A-Gf_S1_64-215.jpg" width="2000px" height="3068px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3126" xml:id="facs_213">
+         <graphic url="A-Gf_S1_64-216.jpg" width="2000px" height="3126px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2889" xml:id="facs_214">
+         <graphic url="A-Gf_S1_64-217.jpg" width="2000px" height="2889px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3027" xml:id="facs_215">
+         <graphic url="A-Gf_S1_64-218.jpg" width="2000px" height="3027px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2914" xml:id="facs_216">
+         <graphic url="A-Gf_S1_64-219.jpg" width="2000px" height="2914px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3029" xml:id="facs_217">
+         <graphic url="A-Gf_S1_64-220.jpg" width="2000px" height="3029px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2906" xml:id="facs_218">
+         <graphic url="A-Gf_S1_64-221.jpg" width="2000px" height="2906px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2995" xml:id="facs_219">
+         <graphic url="A-Gf_S1_64-222.jpg" width="2000px" height="2995px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3048" xml:id="facs_220">
+         <graphic url="A-Gf_S1_64-223.jpg" width="2000px" height="3048px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3171" xml:id="facs_221">
+         <graphic url="A-Gf_S1_64-224.jpg" width="2000px" height="3171px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3031" xml:id="facs_222">
+         <graphic url="A-Gf_S1_64-225.jpg" width="2000px" height="3031px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3169" xml:id="facs_223">
+         <graphic url="A-Gf_S1_64-226.jpg" width="2000px" height="3169px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3106" xml:id="facs_224">
+         <graphic url="A-Gf_S1_64-227.jpg" width="2000px" height="3106px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3172" xml:id="facs_225">
+         <graphic url="A-Gf_S1_64-228.jpg" width="2000px" height="3172px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2921" xml:id="facs_226">
+         <graphic url="A-Gf_S1_64-229.jpg" width="2000px" height="2921px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3017" xml:id="facs_227">
+         <graphic url="A-Gf_S1_64-230.jpg" width="2000px" height="3017px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2884" xml:id="facs_228">
+         <graphic url="A-Gf_S1_64-231.jpg" width="2000px" height="2884px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3015" xml:id="facs_229">
+         <graphic url="A-Gf_S1_64-232.jpg" width="2000px" height="3015px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2881" xml:id="facs_230">
+         <graphic url="A-Gf_S1_64-233.jpg" width="2000px" height="2881px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_231">
+         <graphic url="A-Gf_S1_64-234.jpg" width="2000px" height="3032px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2895" xml:id="facs_232">
+         <graphic url="A-Gf_S1_64-235.jpg" width="2000px" height="2895px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3017" xml:id="facs_233">
+         <graphic url="A-Gf_S1_64-236.jpg" width="2000px" height="3017px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2895" xml:id="facs_234">
+         <graphic url="A-Gf_S1_64-237.jpg" width="2000px" height="2895px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3016" xml:id="facs_235">
+         <graphic url="A-Gf_S1_64-238.jpg" width="2000px" height="3016px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2897" xml:id="facs_236">
+         <graphic url="A-Gf_S1_64-239.jpg" width="2000px" height="2897px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2986" xml:id="facs_237">
+         <graphic url="A-Gf_S1_64-240.jpg" width="2000px" height="2986px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3051" xml:id="facs_238">
+         <graphic url="A-Gf_S1_64-241.jpg" width="2000px" height="3051px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3214" xml:id="facs_239">
+         <graphic url="A-Gf_S1_64-242.jpg" width="2000px" height="3214px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3049" xml:id="facs_240">
+         <graphic url="A-Gf_S1_64-243.jpg" width="2000px" height="3049px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3118" xml:id="facs_241">
+         <graphic url="A-Gf_S1_64-244.jpg" width="2000px" height="3118px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3045" xml:id="facs_242">
+         <graphic url="A-Gf_S1_64-245.jpg" width="2000px" height="3045px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3141" xml:id="facs_243">
+         <graphic url="A-Gf_S1_64-246.jpg" width="2000px" height="3141px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_244">
+         <graphic url="A-Gf_S1_64-247.jpg" width="2000px" height="3038px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3144" xml:id="facs_245">
+         <graphic url="A-Gf_S1_64-248.jpg" width="2000px" height="3144px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3072" xml:id="facs_246">
+         <graphic url="A-Gf_S1_64-249.jpg" width="2000px" height="3072px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3144" xml:id="facs_247">
+         <graphic url="A-Gf_S1_64-250.jpg" width="2000px" height="3144px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3075" xml:id="facs_248">
+         <graphic url="A-Gf_S1_64-251.jpg" width="2000px" height="3075px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3143" xml:id="facs_249">
+         <graphic url="A-Gf_S1_64-252.jpg" width="2000px" height="3143px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3064" xml:id="facs_250">
+         <graphic url="A-Gf_S1_64-253.jpg" width="2000px" height="3064px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3171" xml:id="facs_251">
+         <graphic url="A-Gf_S1_64-254.jpg" width="2000px" height="3171px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3044" xml:id="facs_252">
+         <graphic url="A-Gf_S1_64-255.jpg" width="2000px" height="3044px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3180" xml:id="facs_253">
+         <graphic url="A-Gf_S1_64-256.jpg" width="2000px" height="3180px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3030" xml:id="facs_254">
+         <graphic url="A-Gf_S1_64-257.jpg" width="2000px" height="3030px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3148" xml:id="facs_255">
+         <graphic url="A-Gf_S1_64-258.jpg" width="2000px" height="3148px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3053" xml:id="facs_256">
+         <graphic url="A-Gf_S1_64-259.jpg" width="2000px" height="3053px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3111" xml:id="facs_257">
+         <graphic url="A-Gf_S1_64-260.jpg" width="2000px" height="3111px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3053" xml:id="facs_258">
+         <graphic url="A-Gf_S1_64-261.jpg" width="2000px" height="3053px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3112" xml:id="facs_259">
+         <graphic url="A-Gf_S1_64-262.jpg" width="2000px" height="3112px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3053" xml:id="facs_260">
+         <graphic url="A-Gf_S1_64-263.jpg" width="2000px" height="3053px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3123" xml:id="facs_261">
+         <graphic url="A-Gf_S1_64-264.jpg" width="2000px" height="3123px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3052" xml:id="facs_262">
+         <graphic url="A-Gf_S1_64-265.jpg" width="2000px" height="3052px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3123" xml:id="facs_263">
+         <graphic url="A-Gf_S1_64-266.jpg" width="2000px" height="3123px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3031" xml:id="facs_264">
+         <graphic url="A-Gf_S1_64-267.jpg" width="2000px" height="3031px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3123" xml:id="facs_265">
+         <graphic url="A-Gf_S1_64-268.jpg" width="2000px" height="3123px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3064" xml:id="facs_266">
+         <graphic url="A-Gf_S1_64-269.jpg" width="2000px" height="3064px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3124" xml:id="facs_267">
+         <graphic url="A-Gf_S1_64-270.jpg" width="2000px" height="3124px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3048" xml:id="facs_268">
+         <graphic url="A-Gf_S1_64-271.jpg" width="2000px" height="3048px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3125" xml:id="facs_269">
+         <graphic url="A-Gf_S1_64-272.jpg" width="2000px" height="3125px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3048" xml:id="facs_270">
+         <graphic url="A-Gf_S1_64-273.jpg" width="2000px" height="3048px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3125" xml:id="facs_271">
+         <graphic url="A-Gf_S1_64-274.jpg" width="2000px" height="3125px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3000" xml:id="facs_272">
+         <graphic url="A-Gf_S1_64-275.jpg" width="2000px" height="3000px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3004" xml:id="facs_273">
+         <graphic url="A-Gf_S1_64-276.jpg" width="2000px" height="3004px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2940" xml:id="facs_274">
+         <graphic url="A-Gf_S1_64-277.jpg" width="2000px" height="2940px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3158" xml:id="facs_275">
+         <graphic url="A-Gf_S1_64-278.jpg" width="2000px" height="3158px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3000" xml:id="facs_276">
+         <graphic url="A-Gf_S1_64-279.jpg" width="2000px" height="3000px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2977" xml:id="facs_277">
+         <graphic url="A-Gf_S1_64-280.jpg" width="2000px" height="2977px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3085" xml:id="facs_278">
+         <graphic url="A-Gf_S1_64-281.jpg" width="2000px" height="3085px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2975" xml:id="facs_279">
+         <graphic url="A-Gf_S1_64-282.jpg" width="2000px" height="2975px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2959" xml:id="facs_280">
+         <graphic url="A-Gf_S1_64-283.jpg" width="2000px" height="2959px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2969" xml:id="facs_281">
+         <graphic url="A-Gf_S1_64-284.jpg" width="2000px" height="2969px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2984" xml:id="facs_282">
+         <graphic url="A-Gf_S1_64-285.jpg" width="2000px" height="2984px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3033" xml:id="facs_283">
+         <graphic url="A-Gf_S1_64-286.jpg" width="2000px" height="3033px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2993" xml:id="facs_284">
+         <graphic url="A-Gf_S1_64-287.jpg" width="2000px" height="2993px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3192" xml:id="facs_285">
+         <graphic url="A-Gf_S1_64-288.jpg" width="2000px" height="3192px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2967" xml:id="facs_286">
+         <graphic url="A-Gf_S1_64-289.jpg" width="2000px" height="2967px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3015" xml:id="facs_287">
+         <graphic url="A-Gf_S1_64-290.jpg" width="2000px" height="3015px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3138" xml:id="facs_288">
+         <graphic url="A-Gf_S1_64-291.jpg" width="2000px" height="3138px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3013" xml:id="facs_289">
+         <graphic url="A-Gf_S1_64-292.jpg" width="2000px" height="3013px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3133" xml:id="facs_290">
+         <graphic url="A-Gf_S1_64-293.jpg" width="2000px" height="3133px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2989" xml:id="facs_291">
+         <graphic url="A-Gf_S1_64-294.jpg" width="2000px" height="2989px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2927" xml:id="facs_292">
+         <graphic url="A-Gf_S1_64-295.jpg" width="2000px" height="2927px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2981" xml:id="facs_293">
+         <graphic url="A-Gf_S1_64-296.jpg" width="2000px" height="2981px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2945" xml:id="facs_294">
+         <graphic url="A-Gf_S1_64-297.jpg" width="2000px" height="2945px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3154" xml:id="facs_295">
+         <graphic url="A-Gf_S1_64-298.jpg" width="2000px" height="3154px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2919" xml:id="facs_296">
+         <graphic url="A-Gf_S1_64-299.jpg" width="2000px" height="2919px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3146" xml:id="facs_297">
+         <graphic url="A-Gf_S1_64-300.jpg" width="2000px" height="3146px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2929" xml:id="facs_298">
+         <graphic url="A-Gf_S1_64-301.jpg" width="2000px" height="2929px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2975" xml:id="facs_299">
+         <graphic url="A-Gf_S1_64-302.jpg" width="2000px" height="2975px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3130" xml:id="facs_300">
+         <graphic url="A-Gf_S1_64-303.jpg" width="2000px" height="3130px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2972" xml:id="facs_301">
+         <graphic url="A-Gf_S1_64-304.jpg" width="2000px" height="2972px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3101" xml:id="facs_302">
+         <graphic url="A-Gf_S1_64-305.jpg" width="2000px" height="3101px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3000" xml:id="facs_303">
+         <graphic url="A-Gf_S1_64-306.jpg" width="2000px" height="3000px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3117" xml:id="facs_304">
+         <graphic url="A-Gf_S1_64-307.jpg" width="2000px" height="3117px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2983" xml:id="facs_305">
+         <graphic url="A-Gf_S1_64-308.jpg" width="2000px" height="2983px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3115" xml:id="facs_306">
+         <graphic url="A-Gf_S1_64-309.jpg" width="2000px" height="3115px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2982" xml:id="facs_307">
+         <graphic url="A-Gf_S1_64-310.jpg" width="2000px" height="2982px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2914" xml:id="facs_308">
+         <graphic url="A-Gf_S1_64-311.jpg" width="2000px" height="2914px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2983" xml:id="facs_309">
+         <graphic url="A-Gf_S1_64-312.jpg" width="2000px" height="2983px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3097" xml:id="facs_310">
+         <graphic url="A-Gf_S1_64-313.jpg" width="2000px" height="3097px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3149" xml:id="facs_311">
+         <graphic url="A-Gf_S1_64-314.jpg" width="2000px" height="3149px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3105" xml:id="facs_312">
+         <graphic url="A-Gf_S1_64-315.jpg" width="2000px" height="3105px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3146" xml:id="facs_313">
+         <graphic url="A-Gf_S1_64-316.jpg" width="2000px" height="3146px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3074" xml:id="facs_314">
+         <graphic url="A-Gf_S1_64-317.jpg" width="2000px" height="3074px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3146" xml:id="facs_315">
+         <graphic url="A-Gf_S1_64-318.jpg" width="2000px" height="3146px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3135" xml:id="facs_316">
+         <graphic url="A-Gf_S1_64-319.jpg" width="2000px" height="3135px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3148" xml:id="facs_317">
+         <graphic url="A-Gf_S1_64-320.jpg" width="2000px" height="3148px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3144" xml:id="facs_318">
+         <graphic url="A-Gf_S1_64-321.jpg" width="2000px" height="3144px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3140" xml:id="facs_319">
+         <graphic url="A-Gf_S1_64-322.jpg" width="2000px" height="3140px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3134" xml:id="facs_320">
+         <graphic url="A-Gf_S1_64-323.jpg" width="2000px" height="3134px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3121" xml:id="facs_321">
+         <graphic url="A-Gf_S1_64-324.jpg" width="2000px" height="3121px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2960" xml:id="facs_322">
+         <graphic url="A-Gf_S1_64-325.jpg" width="2000px" height="2960px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2944" xml:id="facs_323">
+         <graphic url="A-Gf_S1_64-326.jpg" width="2000px" height="2944px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3027" xml:id="facs_324">
+         <graphic url="A-Gf_S1_64-327.jpg" width="2000px" height="3027px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2938" xml:id="facs_325">
+         <graphic url="A-Gf_S1_64-328.jpg" width="2000px" height="2938px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3138" xml:id="facs_326">
+         <graphic url="A-Gf_S1_64-329.jpg" width="2000px" height="3138px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3138" xml:id="facs_327">
+         <graphic url="A-Gf_S1_64-330.jpg" width="2000px" height="3138px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3101" xml:id="facs_328">
+         <graphic url="A-Gf_S1_64-331.jpg" width="2000px" height="3101px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3141" xml:id="facs_329">
+         <graphic url="A-Gf_S1_64-332.jpg" width="2000px" height="3141px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3099" xml:id="facs_330">
+         <graphic url="A-Gf_S1_64-333.jpg" width="2000px" height="3099px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3127" xml:id="facs_331">
+         <graphic url="A-Gf_S1_64-334.jpg" width="2000px" height="3127px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3123" xml:id="facs_332">
+         <graphic url="A-Gf_S1_64-335.jpg" width="2000px" height="3123px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3134" xml:id="facs_333">
+         <graphic url="A-Gf_S1_64-336.jpg" width="2000px" height="3134px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3146" xml:id="facs_334">
+         <graphic url="A-Gf_S1_64-337.jpg" width="2000px" height="3146px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3130" xml:id="facs_335">
+         <graphic url="A-Gf_S1_64-338.jpg" width="2000px" height="3130px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_336">
+         <graphic url="A-Gf_S1_64-339.jpg" width="2000px" height="3032px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3065" xml:id="facs_337">
+         <graphic url="A-Gf_S1_64-340.jpg" width="2000px" height="3065px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_338">
+         <graphic url="A-Gf_S1_64-341.jpg" width="2000px" height="3038px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3138" xml:id="facs_339">
+         <graphic url="A-Gf_S1_64-342.jpg" width="2000px" height="3138px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3040" xml:id="facs_340">
+         <graphic url="A-Gf_S1_64-343.jpg" width="2000px" height="3040px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3128" xml:id="facs_341">
+         <graphic url="A-Gf_S1_64-344.jpg" width="2000px" height="3128px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3081" xml:id="facs_342">
+         <graphic url="A-Gf_S1_64-345.jpg" width="2000px" height="3081px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3109" xml:id="facs_343">
+         <graphic url="A-Gf_S1_64-346.jpg" width="2000px" height="3109px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3076" xml:id="facs_344">
+         <graphic url="A-Gf_S1_64-347.jpg" width="2000px" height="3076px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3113" xml:id="facs_345">
+         <graphic url="A-Gf_S1_64-348.jpg" width="2000px" height="3113px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3063" xml:id="facs_346">
+         <graphic url="A-Gf_S1_64-349.jpg" width="2000px" height="3063px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3112" xml:id="facs_347">
+         <graphic url="A-Gf_S1_64-350.jpg" width="2000px" height="3112px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3070" xml:id="facs_348">
+         <graphic url="A-Gf_S1_64-351.jpg" width="2000px" height="3070px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3109" xml:id="facs_349">
+         <graphic url="A-Gf_S1_64-352.jpg" width="2000px" height="3109px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3066" xml:id="facs_350">
+         <graphic url="A-Gf_S1_64-353.jpg" width="2000px" height="3066px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3102" xml:id="facs_351">
+         <graphic url="A-Gf_S1_64-354.jpg" width="2000px" height="3102px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3053" xml:id="facs_352">
+         <graphic url="A-Gf_S1_64-355.jpg" width="2000px" height="3053px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3103" xml:id="facs_353">
+         <graphic url="A-Gf_S1_64-356.jpg" width="2000px" height="3103px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3091" xml:id="facs_354">
+         <graphic url="A-Gf_S1_64-357.jpg" width="2000px" height="3091px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3112" xml:id="facs_355">
+         <graphic url="A-Gf_S1_64-358.jpg" width="2000px" height="3112px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3060" xml:id="facs_356">
+         <graphic url="A-Gf_S1_64-359.jpg" width="2000px" height="3060px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3117" xml:id="facs_357">
+         <graphic url="A-Gf_S1_64-360.jpg" width="2000px" height="3117px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3057" xml:id="facs_358">
+         <graphic url="A-Gf_S1_64-361.jpg" width="2000px" height="3057px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3121" xml:id="facs_359">
+         <graphic url="A-Gf_S1_64-362.jpg" width="2000px" height="3121px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3093" xml:id="facs_360">
+         <graphic url="A-Gf_S1_64-363.jpg" width="2000px" height="3093px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3122" xml:id="facs_361">
+         <graphic url="A-Gf_S1_64-364.jpg" width="2000px" height="3122px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3077" xml:id="facs_362">
+         <graphic url="A-Gf_S1_64-365.jpg" width="2000px" height="3077px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3123" xml:id="facs_363">
+         <graphic url="A-Gf_S1_64-366.jpg" width="2000px" height="3123px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3054" xml:id="facs_364">
+         <graphic url="A-Gf_S1_64-367.jpg" width="2000px" height="3054px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3116" xml:id="facs_365">
+         <graphic url="A-Gf_S1_64-368.jpg" width="2000px" height="3116px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3053" xml:id="facs_366">
+         <graphic url="A-Gf_S1_64-369.jpg" width="2000px" height="3053px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3103" xml:id="facs_367">
+         <graphic url="A-Gf_S1_64-370.jpg" width="2000px" height="3103px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3053" xml:id="facs_368">
+         <graphic url="A-Gf_S1_64-371.jpg" width="2000px" height="3053px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3104" xml:id="facs_369">
+         <graphic url="A-Gf_S1_64-372.jpg" width="2000px" height="3104px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3091" xml:id="facs_370">
+         <graphic url="A-Gf_S1_64-373.jpg" width="2000px" height="3091px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3112" xml:id="facs_371">
+         <graphic url="A-Gf_S1_64-374.jpg" width="2000px" height="3112px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3056" xml:id="facs_372">
+         <graphic url="A-Gf_S1_64-375.jpg" width="2000px" height="3056px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3119" xml:id="facs_373">
+         <graphic url="A-Gf_S1_64-376.jpg" width="2000px" height="3119px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3044" xml:id="facs_374">
+         <graphic url="A-Gf_S1_64-377.jpg" width="2000px" height="3044px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3102" xml:id="facs_375">
+         <graphic url="A-Gf_S1_64-378.jpg" width="2000px" height="3102px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3069" xml:id="facs_376">
+         <graphic url="A-Gf_S1_64-379.jpg" width="2000px" height="3069px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3109" xml:id="facs_377">
+         <graphic url="A-Gf_S1_64-380.jpg" width="2000px" height="3109px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3052" xml:id="facs_378">
+         <graphic url="A-Gf_S1_64-381.jpg" width="2000px" height="3052px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3112" xml:id="facs_379">
+         <graphic url="A-Gf_S1_64-382.jpg" width="2000px" height="3112px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3052" xml:id="facs_380">
+         <graphic url="A-Gf_S1_64-383.jpg" width="2000px" height="3052px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3086" xml:id="facs_381">
+         <graphic url="A-Gf_S1_64-384.jpg" width="2000px" height="3086px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3065" xml:id="facs_382">
+         <graphic url="A-Gf_S1_64-385.jpg" width="2000px" height="3065px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3089" xml:id="facs_383">
+         <graphic url="A-Gf_S1_64-386.jpg" width="2000px" height="3089px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3075" xml:id="facs_384">
+         <graphic url="A-Gf_S1_64-387.jpg" width="2000px" height="3075px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3091" xml:id="facs_385">
+         <graphic url="A-Gf_S1_64-388.jpg" width="2000px" height="3091px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3083" xml:id="facs_386">
+         <graphic url="A-Gf_S1_64-389.jpg" width="2000px" height="3083px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3097" xml:id="facs_387">
+         <graphic url="A-Gf_S1_64-390.jpg" width="2000px" height="3097px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3102" xml:id="facs_388">
+         <graphic url="A-Gf_S1_64-391.jpg" width="2000px" height="3102px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3090" xml:id="facs_389">
+         <graphic url="A-Gf_S1_64-392.jpg" width="2000px" height="3090px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3094" xml:id="facs_390">
+         <graphic url="A-Gf_S1_64-393.jpg" width="2000px" height="3094px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3121" xml:id="facs_391">
+         <graphic url="A-Gf_S1_64-394.jpg" width="2000px" height="3121px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3016" xml:id="facs_392">
+         <graphic url="A-Gf_S1_64-395.jpg" width="2000px" height="3016px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3056" xml:id="facs_393">
+         <graphic url="A-Gf_S1_64-396.jpg" width="2000px" height="3056px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3044" xml:id="facs_394">
+         <graphic url="A-Gf_S1_64-397.jpg" width="2000px" height="3044px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3134" xml:id="facs_395">
+         <graphic url="A-Gf_S1_64-398.jpg" width="2000px" height="3134px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3073" xml:id="facs_396">
+         <graphic url="A-Gf_S1_64-399.jpg" width="2000px" height="3073px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3126" xml:id="facs_397">
+         <graphic url="A-Gf_S1_64-400.jpg" width="2000px" height="3126px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3043" xml:id="facs_398">
+         <graphic url="A-Gf_S1_64-401.jpg" width="2000px" height="3043px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3127" xml:id="facs_399">
+         <graphic url="A-Gf_S1_64-402.jpg" width="2000px" height="3127px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3067" xml:id="facs_400">
+         <graphic url="A-Gf_S1_64-403.jpg" width="2000px" height="3067px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3131" xml:id="facs_401">
+         <graphic url="A-Gf_S1_64-404.jpg" width="2000px" height="3131px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3057" xml:id="facs_402">
+         <graphic url="A-Gf_S1_64-405.jpg" width="2000px" height="3057px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3132" xml:id="facs_403">
+         <graphic url="A-Gf_S1_64-406.jpg" width="2000px" height="3132px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3090" xml:id="facs_404">
+         <graphic url="A-Gf_S1_64-407.jpg" width="2000px" height="3090px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3126" xml:id="facs_405">
+         <graphic url="A-Gf_S1_64-408.jpg" width="2000px" height="3126px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3051" xml:id="facs_406">
+         <graphic url="A-Gf_S1_64-409.jpg" width="2000px" height="3051px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3107" xml:id="facs_407">
+         <graphic url="A-Gf_S1_64-410.jpg" width="2000px" height="3107px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3073" xml:id="facs_408">
+         <graphic url="A-Gf_S1_64-411.jpg" width="2000px" height="3073px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3100" xml:id="facs_409">
+         <graphic url="A-Gf_S1_64-412.jpg" width="2000px" height="3100px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3072" xml:id="facs_410">
+         <graphic url="A-Gf_S1_64-413.jpg" width="2000px" height="3072px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3116" xml:id="facs_411">
+         <graphic url="A-Gf_S1_64-414.jpg" width="2000px" height="3116px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2984" xml:id="facs_412">
+         <graphic url="A-Gf_S1_64-415.jpg" width="2000px" height="2984px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3049" xml:id="facs_413">
+         <graphic url="A-Gf_S1_64-416.jpg" width="2000px" height="3049px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3003" xml:id="facs_414">
+         <graphic url="A-Gf_S1_64-417.jpg" width="2000px" height="3003px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3114" xml:id="facs_415">
+         <graphic url="A-Gf_S1_64-418.jpg" width="2000px" height="3114px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3054" xml:id="facs_416">
+         <graphic url="A-Gf_S1_64-419.jpg" width="2000px" height="3054px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3121" xml:id="facs_417">
+         <graphic url="A-Gf_S1_64-420.jpg" width="2000px" height="3121px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3041" xml:id="facs_418">
+         <graphic url="A-Gf_S1_64-421.jpg" width="2000px" height="3041px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3122" xml:id="facs_419">
+         <graphic url="A-Gf_S1_64-422.jpg" width="2000px" height="3122px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3024" xml:id="facs_420">
+         <graphic url="A-Gf_S1_64-423.jpg" width="2000px" height="3024px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3111" xml:id="facs_421">
+         <graphic url="A-Gf_S1_64-424.jpg" width="2000px" height="3111px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3025" xml:id="facs_422">
+         <graphic url="A-Gf_S1_64-425.jpg" width="2000px" height="3025px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3109" xml:id="facs_423">
+         <graphic url="A-Gf_S1_64-426.jpg" width="2000px" height="3109px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3083" xml:id="facs_424">
+         <graphic url="A-Gf_S1_64-427.jpg" width="2000px" height="3083px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3112" xml:id="facs_425">
+         <graphic url="A-Gf_S1_64-428.jpg" width="2000px" height="3112px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3087" xml:id="facs_426">
+         <graphic url="A-Gf_S1_64-429.jpg" width="2000px" height="3087px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3092" xml:id="facs_427">
+         <graphic url="A-Gf_S1_64-430.jpg" width="2000px" height="3092px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3087" xml:id="facs_428">
+         <graphic url="A-Gf_S1_64-431.jpg" width="2000px" height="3087px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3114" xml:id="facs_429">
+         <graphic url="A-Gf_S1_64-432.jpg" width="2000px" height="3114px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_430">
+         <graphic url="A-Gf_S1_64-433.jpg" width="2000px" height="3032px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3109" xml:id="facs_431">
+         <graphic url="A-Gf_S1_64-434.jpg" width="2000px" height="3109px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3031" xml:id="facs_432">
+         <graphic url="A-Gf_S1_64-435.jpg" width="2000px" height="3031px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3140" xml:id="facs_433">
+         <graphic url="A-Gf_S1_64-436.jpg" width="2000px" height="3140px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3030" xml:id="facs_434">
+         <graphic url="A-Gf_S1_64-437.jpg" width="2000px" height="3030px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3106" xml:id="facs_435">
+         <graphic url="A-Gf_S1_64-438.jpg" width="2000px" height="3106px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3108" xml:id="facs_436">
+         <graphic url="A-Gf_S1_64-439.jpg" width="2000px" height="3108px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3129" xml:id="facs_437">
+         <graphic url="A-Gf_S1_64-440.jpg" width="2000px" height="3129px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3123" xml:id="facs_438">
+         <graphic url="A-Gf_S1_64-441.jpg" width="2000px" height="3123px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3115" xml:id="facs_439">
+         <graphic url="A-Gf_S1_64-442.jpg" width="2000px" height="3115px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2999" xml:id="facs_440">
+         <graphic url="A-Gf_S1_64-443.jpg" width="2000px" height="2999px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3076" xml:id="facs_441">
+         <graphic url="A-Gf_S1_64-444.jpg" width="2000px" height="3076px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3002" xml:id="facs_442">
+         <graphic url="A-Gf_S1_64-445.jpg" width="2000px" height="3002px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3095" xml:id="facs_443">
+         <graphic url="A-Gf_S1_64-446.jpg" width="2000px" height="3095px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3021" xml:id="facs_444">
+         <graphic url="A-Gf_S1_64-447.jpg" width="2000px" height="3021px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3100" xml:id="facs_445">
+         <graphic url="A-Gf_S1_64-448.jpg" width="2000px" height="3100px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3015" xml:id="facs_446">
+         <graphic url="A-Gf_S1_64-449.jpg" width="2000px" height="3015px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3102" xml:id="facs_447">
+         <graphic url="A-Gf_S1_64-450.jpg" width="2000px" height="3102px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3014" xml:id="facs_448">
+         <graphic url="A-Gf_S1_64-451.jpg" width="2000px" height="3014px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3061" xml:id="facs_449">
+         <graphic url="A-Gf_S1_64-452.jpg" width="2000px" height="3061px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2976" xml:id="facs_450">
+         <graphic url="A-Gf_S1_64-453.jpg" width="2000px" height="2976px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3062" xml:id="facs_451">
+         <graphic url="A-Gf_S1_64-454.jpg" width="2000px" height="3062px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2975" xml:id="facs_452">
+         <graphic url="A-Gf_S1_64-455.jpg" width="2000px" height="2975px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3061" xml:id="facs_453">
+         <graphic url="A-Gf_S1_64-456.jpg" width="2000px" height="3061px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2989" xml:id="facs_454">
+         <graphic url="A-Gf_S1_64-457.jpg" width="2000px" height="2989px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3063" xml:id="facs_455">
+         <graphic url="A-Gf_S1_64-458.jpg" width="2000px" height="3063px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2998" xml:id="facs_456">
+         <graphic url="A-Gf_S1_64-459.jpg" width="2000px" height="2998px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3066" xml:id="facs_457">
+         <graphic url="A-Gf_S1_64-460.jpg" width="2000px" height="3066px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2996" xml:id="facs_458">
+         <graphic url="A-Gf_S1_64-461.jpg" width="2000px" height="2996px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3067" xml:id="facs_459">
+         <graphic url="A-Gf_S1_64-462.jpg" width="2000px" height="3067px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2994" xml:id="facs_460">
+         <graphic url="A-Gf_S1_64-463.jpg" width="2000px" height="2994px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3057" xml:id="facs_461">
+         <graphic url="A-Gf_S1_64-464.jpg" width="2000px" height="3057px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2986" xml:id="facs_462">
+         <graphic url="A-Gf_S1_64-465.jpg" width="2000px" height="2986px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3057" xml:id="facs_463">
+         <graphic url="A-Gf_S1_64-466.jpg" width="2000px" height="3057px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2987" xml:id="facs_464">
+         <graphic url="A-Gf_S1_64-467.jpg" width="2000px" height="2987px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3060" xml:id="facs_465">
+         <graphic url="A-Gf_S1_64-468.jpg" width="2000px" height="3060px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2985" xml:id="facs_466">
+         <graphic url="A-Gf_S1_64-469.jpg" width="2000px" height="2985px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3057" xml:id="facs_467">
+         <graphic url="A-Gf_S1_64-470.jpg" width="2000px" height="3057px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2983" xml:id="facs_468">
+         <graphic url="A-Gf_S1_64-471.jpg" width="2000px" height="2983px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3056" xml:id="facs_469">
+         <graphic url="A-Gf_S1_64-472.jpg" width="2000px" height="3056px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2982" xml:id="facs_470">
+         <graphic url="A-Gf_S1_64-473.jpg" width="2000px" height="2982px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3058" xml:id="facs_471">
+         <graphic url="A-Gf_S1_64-474.jpg" width="2000px" height="3058px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2967" xml:id="facs_472">
+         <graphic url="A-Gf_S1_64-475.jpg" width="2000px" height="2967px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3060" xml:id="facs_473">
+         <graphic url="A-Gf_S1_64-476.jpg" width="2000px" height="3060px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2983" xml:id="facs_474">
+         <graphic url="A-Gf_S1_64-477.jpg" width="2000px" height="2983px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3022" xml:id="facs_475">
+         <graphic url="A-Gf_S1_64-478.jpg" width="2000px" height="3022px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2962" xml:id="facs_476">
+         <graphic url="A-Gf_S1_64-479.jpg" width="2000px" height="2962px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3020" xml:id="facs_477">
+         <graphic url="A-Gf_S1_64-480.jpg" width="2000px" height="3020px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2967" xml:id="facs_478">
+         <graphic url="A-Gf_S1_64-481.jpg" width="2000px" height="2967px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3015" xml:id="facs_479">
+         <graphic url="A-Gf_S1_64-482.jpg" width="2000px" height="3015px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2983" xml:id="facs_480">
+         <graphic url="A-Gf_S1_64-483.jpg" width="2000px" height="2983px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2998" xml:id="facs_481">
+         <graphic url="A-Gf_S1_64-484.jpg" width="2000px" height="2998px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2988" xml:id="facs_482">
+         <graphic url="A-Gf_S1_64-485.jpg" width="2000px" height="2988px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3000" xml:id="facs_483">
+         <graphic url="A-Gf_S1_64-486.jpg" width="2000px" height="3000px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2979" xml:id="facs_484">
+         <graphic url="A-Gf_S1_64-487.jpg" width="2000px" height="2979px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3014" xml:id="facs_485">
+         <graphic url="A-Gf_S1_64-488.jpg" width="2000px" height="3014px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2978" xml:id="facs_486">
+         <graphic url="A-Gf_S1_64-489.jpg" width="2000px" height="2978px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3044" xml:id="facs_487">
+         <graphic url="A-Gf_S1_64-490.jpg" width="2000px" height="3044px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3019" xml:id="facs_488">
+         <graphic url="A-Gf_S1_64-491.jpg" width="2000px" height="3019px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3044" xml:id="facs_489">
+         <graphic url="A-Gf_S1_64-492.jpg" width="2000px" height="3044px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2921" xml:id="facs_490">
+         <graphic url="A-Gf_S1_64-a001.jpg" width="2000px" height="2921px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="3019" xml:id="facs_491">
+         <graphic url="A-Gf_S1_64-a002.jpg" width="2000px" height="3019px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="9694" xml:id="facs_492">
+         <graphic url="A-Gf_S1_64-BR.jpg" width="2000px" height="9694px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2736" xml:id="facs_493">
+         <graphic url="A-Gf_S1_64-HD.jpg" width="2000px" height="2736px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2908" xml:id="facs_494">
+         <graphic url="A-Gf_S1_64-HDS.jpg" width="2000px" height="2908px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2809" xml:id="facs_495">
+         <graphic url="A-Gf_S1_64-VD.jpg" width="2000px" height="2809px"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="2000" lry="2827" xml:id="facs_496">
+         <graphic url="A-Gf_S1_64-VDS.jpg" width="2000px" height="2827px"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb facs="#facs_1" n="1" xml:id="img_0001"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <ab facs="#facs_3_r_5" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_3_r_10" type="notation">
+            </ab>
+            <ab facs="#facs_3_r_15" type="text">
+            </ab>
+            <ab facs="#facs_3_r_20" type="notation">
+            </ab>
+            <ab facs="#facs_3_r_25" type="text">
+            </ab>
+            <ab facs="#facs_3_r_30" type="rubrik">
+            </ab>
+            <ab facs="#facs_3_r_35" type="text">
+            </ab>
+            <ab facs="#facs_3_r_40" type="rubrik">
+            </ab>
+            <ab facs="#facs_3_r_45" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_3_r_50" type="strophen">
+            </ab>
+            <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+            <ab facs="#facs_4_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_4_r_5" type="strophen">
+            </ab>
+            <ab facs="#facs_4_r_15" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_4_r_20" type="notation">
+            </ab>
+            <ab facs="#facs_4_r_25" type="text">
+            </ab>
+            <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+            <ab facs="#facs_5_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_5_r_5" type="notation">
+            </ab>
+            <ab facs="#facs_5_r_10" type="text">
+            </ab>
+            <ab facs="#facs_5_r_15" type="notation">
+            </ab>
+            <ab facs="#facs_5_r_20" type="text">
+            </ab>
+            <ab facs="#facs_5_r_25" type="strophen">
+            </ab>
+            <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+            <ab facs="#facs_6_r">
+            </ab>
+            <ab facs="#facs_6_r_5" type="strophen">
+            </ab>
+            <ab facs="#facs_6_r_18" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_6_r_23" type="notation">
+            </ab>
+            <ab facs="#facs_6_r_28" type="text">
+            </ab>
+            <ab facs="#facs_6_r_33" type="notation">
+            </ab>
+            <ab facs="#facs_6_r_38" type="text">
+            </ab>
+            <ab facs="#facs_6_r_43" type="notation">
+            </ab>
+            <ab facs="#facs_6_r_48" type="text">
+            </ab>
+            <ab facs="#facs_6_r_53" type="notation">
+            </ab>
+            <ab facs="#facs_6_r_58" type="text">
+            </ab>
+            <ab facs="#facs_6_r_63" type="strophen">
+            </ab>
+            <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+            <ab facs="#facs_7_r_5" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_7_r_10" type="notation">
+            </ab>
+            <ab facs="#facs_7_r_25" type="text">
+            </ab>
+            <ab facs="#facs_7_r_30" type="notation">
+            </ab>
+            <ab facs="#facs_7_r_35" type="text">
+            </ab>
+            <ab facs="#facs_7_r_40" type="notation">
+            </ab>
+            <ab facs="#facs_7_r_50" type="text">
+            </ab>
+            <ab facs="#facs_7_r_45" type="rubrik">
+            </ab>
+            <ab facs="#facs_7_r_60" type="strophen">
+            </ab>
+            <ab facs="#facs_7_r_55" type="initiale_lombarde">
+            </ab>
+            <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+            <ab facs="#facs_8_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_8_r_5" type="strophen">
+            </ab>
+            <ab facs="#facs_8_r_15" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_8_r_20" type="strophen">
+            </ab>
+            <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+            <ab facs="#facs_9_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_9_r_5" type="strophen">
+            </ab>
+            <ab facs="#facs_9_r_12" type="rubrik">
+            </ab>
+            <ab facs="#facs_9_r_17" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_9_r_22" type="strophen">
+            </ab>
+            <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+            <ab facs="#facs_10_r_9" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_10_r_14" type="strophen">
+            </ab>
+            <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+            <ab facs="#facs_11_r_5" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_11_r_10" type="notation">
+            </ab>
+            <ab facs="#facs_11_r_15" type="text">
+            </ab>
+            <ab facs="#facs_11_r_20" type="notation">
+            </ab>
+            <ab facs="#facs_11_r_25" type="text">
+            </ab>
+            <ab facs="#facs_11_r_30" type="notation">
+            </ab>
+            <ab facs="#facs_11_r_35" type="text">
+            </ab>
+            <ab facs="#facs_11_r_40" type="rubrik">
+            </ab>
+            <ab facs="#facs_11_r_45" type="text">
+            </ab>
+            <ab facs="#facs_11_r_50" type="notation">
+            </ab>
+            <ab facs="#facs_11_r_55" type="text">
+            </ab>
+            <ab facs="#facs_11_r_60" type="rubrik">
+            </ab>
+            <ab facs="#facs_11_r_65" type="notation">
+            </ab>
+            <ab facs="#facs_11_r_70" type="text">
+            </ab>
+            <ab facs="#facs_11_r_75" type="notation">
+            </ab>
+            <ab facs="#facs_11_r_80" type="text">
+            </ab>
+            <ab facs="#facs_11_r_85" type="rubrik">
+            </ab>
+            <ab facs="#facs_11_r_90" type="text">
+            </ab>
+            <ab facs="#facs_11_r_95" type="notation">
+            </ab>
+            <ab facs="#facs_11_r_100" type="text">
+            </ab>
+            <ab facs="#facs_11_r_105" type="rubrik">
+            </ab>
+            <ab facs="#facs_11_r_110" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_11_r_115" type="strophen">
+            </ab>
+            <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+            <ab facs="#facs_12_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_12_r_5" type="strophen">
+            </ab>
+            <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+            <ab facs="#facs_13_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_13_r_5" type="strophen">
+            </ab>
+            <ab facs="#facs_13_r_12" type="rubrik">
+            </ab>
+            <ab facs="#facs_13_r_17" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_13_r_22" type="strophen">
+            </ab>
+            <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+            <ab facs="#facs_14_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_14_r_5" type="strophen">
+            </ab>
+            <ab facs="#facs_14_r_12" type="rubrik">
+            </ab>
+            <ab facs="#facs_14_r_17" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_14_r_22" type="strophen">
+            </ab>
+            <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+            <ab facs="#facs_15_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_15_r_5" type="strophen">
+            </ab>
+            <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+            <ab facs="#facs_16_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_16_r_5" type="strophen">
+            </ab>
+            <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+            <ab facs="#facs_17_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_17_r_5" type="strophen">
+            </ab>
+            <ab facs="#facs_17_r_12" type="rubrik">
+            </ab>
+            <ab facs="#facs_17_r_17" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_17_r_22" type="strophen">
+            </ab>
+            <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+            <ab facs="#facs_18_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_18_r_5" type="strophen">
+            </ab>
+            <ab facs="#facs_18_r_10" type="rubrik">
+            </ab>
+            <ab facs="#facs_18_r_25" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_18_r_15" type="notation">
+            </ab>
+            <ab facs="#facs_18_r_20" type="text">
+            </ab>
+            <ab facs="#facs_18_r_65" type="notation">
+            </ab>
+            <ab facs="#facs_18_r_60" type="text">
+            </ab>
+            <ab facs="#facs_18_r_55" type="notation">
+            </ab>
+            <ab facs="#facs_18_r_50" type="text">
+            </ab>
+            <ab facs="#facs_18_r_45" type="notation">
+            </ab>
+            <ab facs="#facs_18_r_35" type="rubrik">
+            </ab>
+            <ab facs="#facs_18_r_40" type="text">
+            </ab>
+            <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+            <ab facs="#facs_19_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_19_r_5" type="notation">
+            </ab>
+            <ab facs="#facs_19_r_10" type="text">
+            </ab>
+            <ab facs="#facs_19_r_15" type="notation">
+            </ab>
+            <ab facs="#facs_19_r_20" type="text">
+            </ab>
+            <ab facs="#facs_19_r_25" type="notation">
+            </ab>
+            <ab facs="#facs_19_r_30" type="rubrik">
+            </ab>
+            <ab facs="#facs_19_r_40" type="text">
+            </ab>
+            <ab facs="#facs_19_r_35" type="rubrik">
+            </ab>
+            <ab facs="#facs_19_r_45" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_19_r_50" type="strophen">
+            </ab>
+            <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+            <ab facs="#facs_20_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_20_r_10" type="strophen">
+            </ab>
+            <ab facs="#facs_20_r_5" type="rubrik">
+            </ab>
+            <ab facs="#facs_20_r_25" type="strophen">
+            </ab>
+            <ab facs="#facs_20_r_17" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_20_r_34" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_20_r_43" type="rubrik">
+            </ab>
+            <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+            <ab facs="#facs_21_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_21_r_5" type="strophen">
+            </ab>
+            <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+            <ab facs="#facs_22_r_10" type="strophen">
+            </ab>
+            <ab facs="#facs_22_r_5" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_22_r_15" type="rubrik">
+            </ab>
+            <ab facs="#facs_22_r_25" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_22_r_20" type="notation">
+            </ab>
+            <ab facs="#facs_22_r_30" type="text">
+            </ab>
+            <ab facs="#facs_22_r_35" type="notation">
+            </ab>
+            <ab facs="#facs_22_r_40" type="text">
+            </ab>
+            <ab facs="#facs_22_r_45" type="notation">
+            </ab>
+            <ab facs="#facs_22_r_50" type="text">
+            </ab>
+            <pb facs="#facs_23" n="23" xml:id="img_0023"/>
+            <ab facs="#facs_23_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_23_r_5" type="notation">
+            </ab>
+            <ab facs="#facs_23_r_15" type="text">
+            </ab>
+            <ab facs="#facs_23_r_20" type="notation">
+            </ab>
+            <ab facs="#facs_23_r_25" type="text">
+            </ab>
+            <ab facs="#facs_23_r_35" type="notation">
+            </ab>
+            <ab facs="#facs_23_r_40" type="text">
+            </ab>
+            <ab facs="#facs_23_r_45" type="notation">
+            </ab>
+            <ab facs="#facs_23_r_50" type="text">
+            </ab>
+            <ab facs="#facs_23_r_60" type="notation">
+            </ab>
+            <ab facs="#facs_23_r_65" type="text">
+            </ab>
+            <ab facs="#facs_23_r_80" type="notation">
+            </ab>
+            <ab facs="#facs_23_r_85" type="text">
+            </ab>
+            <ab facs="#facs_23_r_90" type="notation">
+            </ab>
+            <ab facs="#facs_23_r_95" type="text">
+            </ab>
+            <ab facs="#facs_23_r_100" type="rubrik">
+            </ab>
+            <ab facs="#facs_23_r_105" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_23_r_110" type="strophen">
+            </ab>
+            <pb facs="#facs_24" n="24" xml:id="img_0024"/>
+            <ab facs="#facs_24_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_24_r_5" type="strophen">
+            </ab>
+            <ab facs="#facs_24_r_17" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_24_r_22" type="notation">
+            </ab>
+            <ab facs="#facs_24_r_27" type="text">
+            </ab>
+            <pb facs="#facs_25" n="25" xml:id="img_0025"/>
+            <ab facs="#facs_25_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_25_r_5" type="notation">
+            </ab>
+            <ab facs="#facs_25_r_10" type="text">
+            </ab>
+            <ab facs="#facs_25_r_15" type="notation">
+            </ab>
+            <ab facs="#facs_25_r_20" type="text">
+            </ab>
+            <ab facs="#facs_25_r_25" type="notation">
+            </ab>
+            <ab facs="#facs_25_r_30" type="rubrik">
+            </ab>
+            <ab facs="#facs_25_r_35" type="text">
+            </ab>
+            <ab facs="#facs_25_r_40" type="rubrik">
+            </ab>
+            <ab facs="#facs_25_r_45" type="notation">
+            </ab>
+            <ab facs="#facs_25_r_50" type="text">
+            </ab>
+            <ab facs="#facs_25_r_55" type="notation">
+            </ab>
+            <ab facs="#facs_25_r_60" type="text">
+            </ab>
+            <ab facs="#facs_25_r_65" type="notation">
+            </ab>
+            <ab facs="#facs_25_r_75" type="rubrik">
+            </ab>
+            <ab facs="#facs_25_r_80" type="text">
+            </ab>
+            <ab facs="#facs_25_r_70" type="rubrik">
+            </ab>
+            <ab facs="#facs_25_r_85" type="initiale_lombarde">
+            </ab>
+            <ab facs="#facs_25_r_90" type="strophen">
+            </ab>
+            <pb facs="#facs_26" n="26" xml:id="img_0026"/>
+            <ab facs="#facs_26_r" type="rubrik">
+            </ab>
+            <ab facs="#facs_26_r_5" type="strophen">
+            </ab>
+            <pb facs="#facs_27" n="27" xml:id="img_0027"/>
+            <pb facs="#facs_28" n="28" xml:id="img_0028"/>
+            <pb facs="#facs_29" n="29" xml:id="img_0029"/>
+            <pb facs="#facs_30" n="30" xml:id="img_0030"/>
+            <pb facs="#facs_31" n="31" xml:id="img_0031"/>
+            <pb facs="#facs_32" n="32" xml:id="img_0032"/>
+            <pb facs="#facs_33" n="33" xml:id="img_0033"/>
+            <pb facs="#facs_34" n="34" xml:id="img_0034"/>
+            <pb facs="#facs_35" n="35" xml:id="img_0035"/>
+            <pb facs="#facs_36" n="36" xml:id="img_0036"/>
+            <pb facs="#facs_37" n="37" xml:id="img_0037"/>
+            <pb facs="#facs_38" n="38" xml:id="img_0038"/>
+            <pb facs="#facs_39" n="39" xml:id="img_0039"/>
+            <pb facs="#facs_40" n="40" xml:id="img_0040"/>
+            <pb facs="#facs_41" n="41" xml:id="img_0041"/>
+            <pb facs="#facs_42" n="42" xml:id="img_0042"/>
+            <pb facs="#facs_43" n="43" xml:id="img_0043"/>
+            <pb facs="#facs_44" n="44" xml:id="img_0044"/>
+            <pb facs="#facs_45" n="45" xml:id="img_0045"/>
+            <pb facs="#facs_46" n="46" xml:id="img_0046"/>
+            <pb facs="#facs_47" n="47" xml:id="img_0047"/>
+            <pb facs="#facs_48" n="48" xml:id="img_0048"/>
+            <pb facs="#facs_49" n="49" xml:id="img_0049"/>
+            <pb facs="#facs_50" n="50" xml:id="img_0050"/>
+            <pb facs="#facs_51" n="51" xml:id="img_0051"/>
+            <pb facs="#facs_52" n="52" xml:id="img_0052"/>
+            <pb facs="#facs_53" n="53" xml:id="img_0053"/>
+            <pb facs="#facs_54" n="54" xml:id="img_0054"/>
+            <pb facs="#facs_55" n="55" xml:id="img_0055"/>
+            <pb facs="#facs_56" n="56" xml:id="img_0056"/>
+            <pb facs="#facs_57" n="57" xml:id="img_0057"/>
+            <pb facs="#facs_58" n="58" xml:id="img_0058"/>
+            <pb facs="#facs_59" n="59" xml:id="img_0059"/>
+            <pb facs="#facs_60" n="60" xml:id="img_0060"/>
+            <pb facs="#facs_61" n="61" xml:id="img_0061"/>
+            <pb facs="#facs_62" n="62" xml:id="img_0062"/>
+            <pb facs="#facs_63" n="63" xml:id="img_0063"/>
+            <pb facs="#facs_64" n="64" xml:id="img_0064"/>
+            <pb facs="#facs_65" n="65" xml:id="img_0065"/>
+            <pb facs="#facs_66" n="66" xml:id="img_0066"/>
+            <pb facs="#facs_67" n="67" xml:id="img_0067"/>
+            <pb facs="#facs_68" n="68" xml:id="img_0068"/>
+            <pb facs="#facs_69" n="69" xml:id="img_0069"/>
+            <pb facs="#facs_70" n="70" xml:id="img_0070"/>
+            <pb facs="#facs_71" n="71" xml:id="img_0071"/>
+            <pb facs="#facs_72" n="72" xml:id="img_0072"/>
+            <pb facs="#facs_73" n="73" xml:id="img_0073"/>
+            <pb facs="#facs_74" n="74" xml:id="img_0074"/>
+            <pb facs="#facs_75" n="75" xml:id="img_0075"/>
+            <pb facs="#facs_76" n="76" xml:id="img_0076"/>
+            <pb facs="#facs_77" n="77" xml:id="img_0077"/>
+            <pb facs="#facs_78" n="78" xml:id="img_0078"/>
+            <pb facs="#facs_79" n="79" xml:id="img_0079"/>
+            <pb facs="#facs_80" n="80" xml:id="img_0080"/>
+            <pb facs="#facs_81" n="81" xml:id="img_0081"/>
+            <pb facs="#facs_82" n="82" xml:id="img_0082"/>
+            <pb facs="#facs_83" n="83" xml:id="img_0083"/>
+            <pb facs="#facs_84" n="84" xml:id="img_0084"/>
+            <pb facs="#facs_85" n="85" xml:id="img_0085"/>
+            <pb facs="#facs_86" n="86" xml:id="img_0086"/>
+            <pb facs="#facs_87" n="87" xml:id="img_0087"/>
+            <pb facs="#facs_88" n="88" xml:id="img_0088"/>
+            <pb facs="#facs_89" n="89" xml:id="img_0089"/>
+            <pb facs="#facs_90" n="90" xml:id="img_0090"/>
+            <pb facs="#facs_91" n="91" xml:id="img_0091"/>
+            <pb facs="#facs_92" n="92" xml:id="img_0092"/>
+            <pb facs="#facs_93" n="93" xml:id="img_0093"/>
+            <pb facs="#facs_94" n="94" xml:id="img_0094"/>
+            <pb facs="#facs_95" n="95" xml:id="img_0095"/>
+            <pb facs="#facs_96" n="96" xml:id="img_0096"/>
+            <pb facs="#facs_97" n="97" xml:id="img_0097"/>
+            <pb facs="#facs_98" n="98" xml:id="img_0098"/>
+            <pb facs="#facs_99" n="99" xml:id="img_0099"/>
+            <pb facs="#facs_100" n="100" xml:id="img_0100"/>
+            <pb facs="#facs_101" n="101" xml:id="img_0101"/>
+            <pb facs="#facs_102" n="102" xml:id="img_0102"/>
+            <pb facs="#facs_103" n="103" xml:id="img_0103"/>
+            <pb facs="#facs_104" n="104" xml:id="img_0104"/>
+            <pb facs="#facs_105" n="105" xml:id="img_0105"/>
+            <pb facs="#facs_106" n="106" xml:id="img_0106"/>
+            <pb facs="#facs_107" n="107" xml:id="img_0107"/>
+            <pb facs="#facs_108" n="108" xml:id="img_0108"/>
+            <pb facs="#facs_109" n="109" xml:id="img_0109"/>
+            <pb facs="#facs_110" n="110" xml:id="img_0110"/>
+            <pb facs="#facs_111" n="111" xml:id="img_0111"/>
+            <pb facs="#facs_112" n="112" xml:id="img_0112"/>
+            <pb facs="#facs_113" n="113" xml:id="img_0113"/>
+            <pb facs="#facs_114" n="114" xml:id="img_0114"/>
+            <pb facs="#facs_115" n="115" xml:id="img_0115"/>
+            <pb facs="#facs_116" n="116" xml:id="img_0116"/>
+            <pb facs="#facs_117" n="117" xml:id="img_0117"/>
+            <pb facs="#facs_118" n="118" xml:id="img_0118"/>
+            <pb facs="#facs_119" n="119" xml:id="img_0119"/>
+            <pb facs="#facs_120" n="120" xml:id="img_0120"/>
+            <pb facs="#facs_121" n="121" xml:id="img_0121"/>
+            <pb facs="#facs_122" n="122" xml:id="img_0122"/>
+            <pb facs="#facs_123" n="123" xml:id="img_0123"/>
+            <pb facs="#facs_124" n="124" xml:id="img_0124"/>
+            <pb facs="#facs_125" n="125" xml:id="img_0125"/>
+            <pb facs="#facs_126" n="126" xml:id="img_0126"/>
+            <pb facs="#facs_127" n="127" xml:id="img_0127"/>
+            <pb facs="#facs_128" n="128" xml:id="img_0128"/>
+            <pb facs="#facs_129" n="129" xml:id="img_0129"/>
+            <pb facs="#facs_130" n="130" xml:id="img_0130"/>
+            <pb facs="#facs_131" n="131" xml:id="img_0131"/>
+            <pb facs="#facs_132" n="132" xml:id="img_0132"/>
+            <pb facs="#facs_133" n="133" xml:id="img_0133"/>
+            <pb facs="#facs_134" n="134" xml:id="img_0134"/>
+            <pb facs="#facs_135" n="135" xml:id="img_0135"/>
+            <pb facs="#facs_136" n="136" xml:id="img_0136"/>
+            <pb facs="#facs_137" n="137" xml:id="img_0137"/>
+            <pb facs="#facs_138" n="138" xml:id="img_0138"/>
+            <pb facs="#facs_139" n="139" xml:id="img_0139"/>
+            <pb facs="#facs_140" n="140" xml:id="img_0140"/>
+            <pb facs="#facs_141" n="141" xml:id="img_0141"/>
+            <pb facs="#facs_142" n="142" xml:id="img_0142"/>
+            <pb facs="#facs_143" n="143" xml:id="img_0143"/>
+            <pb facs="#facs_144" n="144" xml:id="img_0144"/>
+            <pb facs="#facs_145" n="145" xml:id="img_0145"/>
+            <pb facs="#facs_146" n="146" xml:id="img_0146"/>
+            <pb facs="#facs_147" n="147" xml:id="img_0147"/>
+            <pb facs="#facs_148" n="148" xml:id="img_0148"/>
+            <pb facs="#facs_149" n="149" xml:id="img_0149"/>
+            <pb facs="#facs_150" n="150" xml:id="img_0150"/>
+            <pb facs="#facs_151" n="151" xml:id="img_0151"/>
+            <pb facs="#facs_152" n="152" xml:id="img_0152"/>
+            <pb facs="#facs_153" n="153" xml:id="img_0153"/>
+            <pb facs="#facs_154" n="154" xml:id="img_0154"/>
+            <pb facs="#facs_155" n="155" xml:id="img_0155"/>
+            <pb facs="#facs_156" n="156" xml:id="img_0156"/>
+            <pb facs="#facs_157" n="157" xml:id="img_0157"/>
+            <pb facs="#facs_158" n="158" xml:id="img_0158"/>
+            <pb facs="#facs_159" n="159" xml:id="img_0159"/>
+            <pb facs="#facs_160" n="160" xml:id="img_0160"/>
+            <pb facs="#facs_161" n="161" xml:id="img_0161"/>
+            <pb facs="#facs_162" n="162" xml:id="img_0162"/>
+            <pb facs="#facs_163" n="163" xml:id="img_0163"/>
+            <pb facs="#facs_164" n="164" xml:id="img_0164"/>
+            <pb facs="#facs_165" n="165" xml:id="img_0165"/>
+            <pb facs="#facs_166" n="166" xml:id="img_0166"/>
+            <pb facs="#facs_167" n="167" xml:id="img_0167"/>
+            <pb facs="#facs_168" n="168" xml:id="img_0168"/>
+            <pb facs="#facs_169" n="169" xml:id="img_0169"/>
+            <pb facs="#facs_170" n="170" xml:id="img_0170"/>
+            <pb facs="#facs_171" n="171" xml:id="img_0171"/>
+            <pb facs="#facs_172" n="172" xml:id="img_0172"/>
+            <pb facs="#facs_173" n="173" xml:id="img_0173"/>
+            <pb facs="#facs_174" n="174" xml:id="img_0174"/>
+            <pb facs="#facs_175" n="175" xml:id="img_0175"/>
+            <pb facs="#facs_176" n="176" xml:id="img_0176"/>
+            <pb facs="#facs_177" n="177" xml:id="img_0177"/>
+            <pb facs="#facs_178" n="178" xml:id="img_0178"/>
+            <pb facs="#facs_179" n="179" xml:id="img_0179"/>
+            <pb facs="#facs_180" n="180" xml:id="img_0180"/>
+            <pb facs="#facs_181" n="181" xml:id="img_0181"/>
+            <pb facs="#facs_182" n="182" xml:id="img_0182"/>
+            <pb facs="#facs_183" n="183" xml:id="img_0183"/>
+            <pb facs="#facs_184" n="184" xml:id="img_0184"/>
+            <pb facs="#facs_185" n="185" xml:id="img_0185"/>
+            <pb facs="#facs_186" n="186" xml:id="img_0186"/>
+            <pb facs="#facs_187" n="187" xml:id="img_0187"/>
+            <pb facs="#facs_188" n="188" xml:id="img_0188"/>
+            <pb facs="#facs_189" n="189" xml:id="img_0189"/>
+            <pb facs="#facs_190" n="190" xml:id="img_0190"/>
+            <pb facs="#facs_191" n="191" xml:id="img_0191"/>
+            <pb facs="#facs_192" n="192" xml:id="img_0192"/>
+            <pb facs="#facs_193" n="193" xml:id="img_0193"/>
+            <pb facs="#facs_194" n="194" xml:id="img_0194"/>
+            <pb facs="#facs_195" n="195" xml:id="img_0195"/>
+            <pb facs="#facs_196" n="196" xml:id="img_0196"/>
+            <pb facs="#facs_197" n="197" xml:id="img_0197"/>
+            <pb facs="#facs_198" n="198" xml:id="img_0198"/>
+            <pb facs="#facs_199" n="199" xml:id="img_0199"/>
+            <pb facs="#facs_200" n="200" xml:id="img_0200"/>
+            <pb facs="#facs_201" n="201" xml:id="img_0201"/>
+            <pb facs="#facs_202" n="202" xml:id="img_0202"/>
+            <pb facs="#facs_203" n="203" xml:id="img_0203"/>
+            <pb facs="#facs_204" n="204" xml:id="img_0204"/>
+            <pb facs="#facs_205" n="205" xml:id="img_0205"/>
+            <pb facs="#facs_206" n="206" xml:id="img_0206"/>
+            <pb facs="#facs_207" n="207" xml:id="img_0207"/>
+            <pb facs="#facs_208" n="208" xml:id="img_0208"/>
+            <pb facs="#facs_209" n="209" xml:id="img_0209"/>
+            <pb facs="#facs_210" n="210" xml:id="img_0210"/>
+            <pb facs="#facs_211" n="211" xml:id="img_0211"/>
+            <pb facs="#facs_212" n="212" xml:id="img_0212"/>
+            <pb facs="#facs_213" n="213" xml:id="img_0213"/>
+            <pb facs="#facs_214" n="214" xml:id="img_0214"/>
+            <pb facs="#facs_215" n="215" xml:id="img_0215"/>
+            <pb facs="#facs_216" n="216" xml:id="img_0216"/>
+            <pb facs="#facs_217" n="217" xml:id="img_0217"/>
+            <pb facs="#facs_218" n="218" xml:id="img_0218"/>
+            <pb facs="#facs_219" n="219" xml:id="img_0219"/>
+            <pb facs="#facs_220" n="220" xml:id="img_0220"/>
+            <pb facs="#facs_221" n="221" xml:id="img_0221"/>
+            <pb facs="#facs_222" n="222" xml:id="img_0222"/>
+            <pb facs="#facs_223" n="223" xml:id="img_0223"/>
+            <pb facs="#facs_224" n="224" xml:id="img_0224"/>
+            <pb facs="#facs_225" n="225" xml:id="img_0225"/>
+            <pb facs="#facs_226" n="226" xml:id="img_0226"/>
+            <pb facs="#facs_227" n="227" xml:id="img_0227"/>
+            <pb facs="#facs_228" n="228" xml:id="img_0228"/>
+            <pb facs="#facs_229" n="229" xml:id="img_0229"/>
+            <pb facs="#facs_230" n="230" xml:id="img_0230"/>
+            <pb facs="#facs_231" n="231" xml:id="img_0231"/>
+            <pb facs="#facs_232" n="232" xml:id="img_0232"/>
+            <pb facs="#facs_233" n="233" xml:id="img_0233"/>
+            <pb facs="#facs_234" n="234" xml:id="img_0234"/>
+            <pb facs="#facs_235" n="235" xml:id="img_0235"/>
+            <pb facs="#facs_236" n="236" xml:id="img_0236"/>
+            <pb facs="#facs_237" n="237" xml:id="img_0237"/>
+            <pb facs="#facs_238" n="238" xml:id="img_0238"/>
+            <pb facs="#facs_239" n="239" xml:id="img_0239"/>
+            <pb facs="#facs_240" n="240" xml:id="img_0240"/>
+            <pb facs="#facs_241" n="241" xml:id="img_0241"/>
+            <pb facs="#facs_242" n="242" xml:id="img_0242"/>
+            <pb facs="#facs_243" n="243" xml:id="img_0243"/>
+            <pb facs="#facs_244" n="244" xml:id="img_0244"/>
+            <pb facs="#facs_245" n="245" xml:id="img_0245"/>
+            <pb facs="#facs_246" n="246" xml:id="img_0246"/>
+            <pb facs="#facs_247" n="247" xml:id="img_0247"/>
+            <pb facs="#facs_248" n="248" xml:id="img_0248"/>
+            <pb facs="#facs_249" n="249" xml:id="img_0249"/>
+            <pb facs="#facs_250" n="250" xml:id="img_0250"/>
+            <pb facs="#facs_251" n="251" xml:id="img_0251"/>
+            <pb facs="#facs_252" n="252" xml:id="img_0252"/>
+            <pb facs="#facs_253" n="253" xml:id="img_0253"/>
+            <pb facs="#facs_254" n="254" xml:id="img_0254"/>
+            <pb facs="#facs_255" n="255" xml:id="img_0255"/>
+            <pb facs="#facs_256" n="256" xml:id="img_0256"/>
+            <pb facs="#facs_257" n="257" xml:id="img_0257"/>
+            <pb facs="#facs_258" n="258" xml:id="img_0258"/>
+            <pb facs="#facs_259" n="259" xml:id="img_0259"/>
+            <pb facs="#facs_260" n="260" xml:id="img_0260"/>
+            <pb facs="#facs_261" n="261" xml:id="img_0261"/>
+            <pb facs="#facs_262" n="262" xml:id="img_0262"/>
+            <pb facs="#facs_263" n="263" xml:id="img_0263"/>
+            <pb facs="#facs_264" n="264" xml:id="img_0264"/>
+            <pb facs="#facs_265" n="265" xml:id="img_0265"/>
+            <pb facs="#facs_266" n="266" xml:id="img_0266"/>
+            <pb facs="#facs_267" n="267" xml:id="img_0267"/>
+            <pb facs="#facs_268" n="268" xml:id="img_0268"/>
+            <pb facs="#facs_269" n="269" xml:id="img_0269"/>
+            <pb facs="#facs_270" n="270" xml:id="img_0270"/>
+            <pb facs="#facs_271" n="271" xml:id="img_0271"/>
+            <pb facs="#facs_272" n="272" xml:id="img_0272"/>
+            <pb facs="#facs_273" n="273" xml:id="img_0273"/>
+            <pb facs="#facs_274" n="274" xml:id="img_0274"/>
+            <pb facs="#facs_275" n="275" xml:id="img_0275"/>
+            <pb facs="#facs_276" n="276" xml:id="img_0276"/>
+            <pb facs="#facs_277" n="277" xml:id="img_0277"/>
+            <pb facs="#facs_278" n="278" xml:id="img_0278"/>
+            <pb facs="#facs_279" n="279" xml:id="img_0279"/>
+            <pb facs="#facs_280" n="280" xml:id="img_0280"/>
+            <pb facs="#facs_281" n="281" xml:id="img_0281"/>
+            <pb facs="#facs_282" n="282" xml:id="img_0282"/>
+            <pb facs="#facs_283" n="283" xml:id="img_0283"/>
+            <pb facs="#facs_284" n="284" xml:id="img_0284"/>
+            <pb facs="#facs_285" n="285" xml:id="img_0285"/>
+            <pb facs="#facs_286" n="286" xml:id="img_0286"/>
+            <pb facs="#facs_287" n="287" xml:id="img_0287"/>
+            <pb facs="#facs_288" n="288" xml:id="img_0288"/>
+            <pb facs="#facs_289" n="289" xml:id="img_0289"/>
+            <pb facs="#facs_290" n="290" xml:id="img_0290"/>
+            <pb facs="#facs_291" n="291" xml:id="img_0291"/>
+            <pb facs="#facs_292" n="292" xml:id="img_0292"/>
+            <pb facs="#facs_293" n="293" xml:id="img_0293"/>
+            <pb facs="#facs_294" n="294" xml:id="img_0294"/>
+            <pb facs="#facs_295" n="295" xml:id="img_0295"/>
+            <pb facs="#facs_296" n="296" xml:id="img_0296"/>
+            <pb facs="#facs_297" n="297" xml:id="img_0297"/>
+            <pb facs="#facs_298" n="298" xml:id="img_0298"/>
+            <pb facs="#facs_299" n="299" xml:id="img_0299"/>
+            <pb facs="#facs_300" n="300" xml:id="img_0300"/>
+            <pb facs="#facs_301" n="301" xml:id="img_0301"/>
+            <pb facs="#facs_302" n="302" xml:id="img_0302"/>
+            <pb facs="#facs_303" n="303" xml:id="img_0303"/>
+            <pb facs="#facs_304" n="304" xml:id="img_0304"/>
+            <pb facs="#facs_305" n="305" xml:id="img_0305"/>
+            <pb facs="#facs_306" n="306" xml:id="img_0306"/>
+            <pb facs="#facs_307" n="307" xml:id="img_0307"/>
+            <pb facs="#facs_308" n="308" xml:id="img_0308"/>
+            <pb facs="#facs_309" n="309" xml:id="img_0309"/>
+            <pb facs="#facs_310" n="310" xml:id="img_0310"/>
+            <pb facs="#facs_311" n="311" xml:id="img_0311"/>
+            <pb facs="#facs_312" n="312" xml:id="img_0312"/>
+            <pb facs="#facs_313" n="313" xml:id="img_0313"/>
+            <pb facs="#facs_314" n="314" xml:id="img_0314"/>
+            <pb facs="#facs_315" n="315" xml:id="img_0315"/>
+            <pb facs="#facs_316" n="316" xml:id="img_0316"/>
+            <pb facs="#facs_317" n="317" xml:id="img_0317"/>
+            <pb facs="#facs_318" n="318" xml:id="img_0318"/>
+            <pb facs="#facs_319" n="319" xml:id="img_0319"/>
+            <pb facs="#facs_320" n="320" xml:id="img_0320"/>
+            <pb facs="#facs_321" n="321" xml:id="img_0321"/>
+            <pb facs="#facs_322" n="322" xml:id="img_0322"/>
+            <pb facs="#facs_323" n="323" xml:id="img_0323"/>
+            <pb facs="#facs_324" n="324" xml:id="img_0324"/>
+            <pb facs="#facs_325" n="325" xml:id="img_0325"/>
+            <pb facs="#facs_326" n="326" xml:id="img_0326"/>
+            <pb facs="#facs_327" n="327" xml:id="img_0327"/>
+            <pb facs="#facs_328" n="328" xml:id="img_0328"/>
+            <pb facs="#facs_329" n="329" xml:id="img_0329"/>
+            <pb facs="#facs_330" n="330" xml:id="img_0330"/>
+            <pb facs="#facs_331" n="331" xml:id="img_0331"/>
+            <pb facs="#facs_332" n="332" xml:id="img_0332"/>
+            <pb facs="#facs_333" n="333" xml:id="img_0333"/>
+            <pb facs="#facs_334" n="334" xml:id="img_0334"/>
+            <pb facs="#facs_335" n="335" xml:id="img_0335"/>
+            <pb facs="#facs_336" n="336" xml:id="img_0336"/>
+            <pb facs="#facs_337" n="337" xml:id="img_0337"/>
+            <pb facs="#facs_338" n="338" xml:id="img_0338"/>
+            <pb facs="#facs_339" n="339" xml:id="img_0339"/>
+            <pb facs="#facs_340" n="340" xml:id="img_0340"/>
+            <pb facs="#facs_341" n="341" xml:id="img_0341"/>
+            <pb facs="#facs_342" n="342" xml:id="img_0342"/>
+            <pb facs="#facs_343" n="343" xml:id="img_0343"/>
+            <pb facs="#facs_344" n="344" xml:id="img_0344"/>
+            <pb facs="#facs_345" n="345" xml:id="img_0345"/>
+            <pb facs="#facs_346" n="346" xml:id="img_0346"/>
+            <pb facs="#facs_347" n="347" xml:id="img_0347"/>
+            <pb facs="#facs_348" n="348" xml:id="img_0348"/>
+            <pb facs="#facs_349" n="349" xml:id="img_0349"/>
+            <pb facs="#facs_350" n="350" xml:id="img_0350"/>
+            <pb facs="#facs_351" n="351" xml:id="img_0351"/>
+            <pb facs="#facs_352" n="352" xml:id="img_0352"/>
+            <pb facs="#facs_353" n="353" xml:id="img_0353"/>
+            <pb facs="#facs_354" n="354" xml:id="img_0354"/>
+            <pb facs="#facs_355" n="355" xml:id="img_0355"/>
+            <pb facs="#facs_356" n="356" xml:id="img_0356"/>
+            <pb facs="#facs_357" n="357" xml:id="img_0357"/>
+            <pb facs="#facs_358" n="358" xml:id="img_0358"/>
+            <pb facs="#facs_359" n="359" xml:id="img_0359"/>
+            <pb facs="#facs_360" n="360" xml:id="img_0360"/>
+            <pb facs="#facs_361" n="361" xml:id="img_0361"/>
+            <pb facs="#facs_362" n="362" xml:id="img_0362"/>
+            <pb facs="#facs_363" n="363" xml:id="img_0363"/>
+            <pb facs="#facs_364" n="364" xml:id="img_0364"/>
+            <pb facs="#facs_365" n="365" xml:id="img_0365"/>
+            <pb facs="#facs_366" n="366" xml:id="img_0366"/>
+            <pb facs="#facs_367" n="367" xml:id="img_0367"/>
+            <pb facs="#facs_368" n="368" xml:id="img_0368"/>
+            <pb facs="#facs_369" n="369" xml:id="img_0369"/>
+            <pb facs="#facs_370" n="370" xml:id="img_0370"/>
+            <pb facs="#facs_371" n="371" xml:id="img_0371"/>
+            <pb facs="#facs_372" n="372" xml:id="img_0372"/>
+            <pb facs="#facs_373" n="373" xml:id="img_0373"/>
+            <pb facs="#facs_374" n="374" xml:id="img_0374"/>
+            <pb facs="#facs_375" n="375" xml:id="img_0375"/>
+            <pb facs="#facs_376" n="376" xml:id="img_0376"/>
+            <pb facs="#facs_377" n="377" xml:id="img_0377"/>
+            <pb facs="#facs_378" n="378" xml:id="img_0378"/>
+            <pb facs="#facs_379" n="379" xml:id="img_0379"/>
+            <pb facs="#facs_380" n="380" xml:id="img_0380"/>
+            <pb facs="#facs_381" n="381" xml:id="img_0381"/>
+            <pb facs="#facs_382" n="382" xml:id="img_0382"/>
+            <pb facs="#facs_383" n="383" xml:id="img_0383"/>
+            <pb facs="#facs_384" n="384" xml:id="img_0384"/>
+            <pb facs="#facs_385" n="385" xml:id="img_0385"/>
+            <pb facs="#facs_386" n="386" xml:id="img_0386"/>
+            <pb facs="#facs_387" n="387" xml:id="img_0387"/>
+            <pb facs="#facs_388" n="388" xml:id="img_0388"/>
+            <pb facs="#facs_389" n="389" xml:id="img_0389"/>
+            <pb facs="#facs_390" n="390" xml:id="img_0390"/>
+            <pb facs="#facs_391" n="391" xml:id="img_0391"/>
+            <pb facs="#facs_392" n="392" xml:id="img_0392"/>
+            <pb facs="#facs_393" n="393" xml:id="img_0393"/>
+            <pb facs="#facs_394" n="394" xml:id="img_0394"/>
+            <pb facs="#facs_395" n="395" xml:id="img_0395"/>
+            <pb facs="#facs_396" n="396" xml:id="img_0396"/>
+            <pb facs="#facs_397" n="397" xml:id="img_0397"/>
+            <pb facs="#facs_398" n="398" xml:id="img_0398"/>
+            <pb facs="#facs_399" n="399" xml:id="img_0399"/>
+            <pb facs="#facs_400" n="400" xml:id="img_0400"/>
+            <pb facs="#facs_401" n="401" xml:id="img_0401"/>
+            <pb facs="#facs_402" n="402" xml:id="img_0402"/>
+            <pb facs="#facs_403" n="403" xml:id="img_0403"/>
+            <pb facs="#facs_404" n="404" xml:id="img_0404"/>
+            <pb facs="#facs_405" n="405" xml:id="img_0405"/>
+            <pb facs="#facs_406" n="406" xml:id="img_0406"/>
+            <pb facs="#facs_407" n="407" xml:id="img_0407"/>
+            <pb facs="#facs_408" n="408" xml:id="img_0408"/>
+            <pb facs="#facs_409" n="409" xml:id="img_0409"/>
+            <pb facs="#facs_410" n="410" xml:id="img_0410"/>
+            <pb facs="#facs_411" n="411" xml:id="img_0411"/>
+            <pb facs="#facs_412" n="412" xml:id="img_0412"/>
+            <pb facs="#facs_413" n="413" xml:id="img_0413"/>
+            <pb facs="#facs_414" n="414" xml:id="img_0414"/>
+            <pb facs="#facs_415" n="415" xml:id="img_0415"/>
+            <pb facs="#facs_416" n="416" xml:id="img_0416"/>
+            <pb facs="#facs_417" n="417" xml:id="img_0417"/>
+            <pb facs="#facs_418" n="418" xml:id="img_0418"/>
+            <pb facs="#facs_419" n="419" xml:id="img_0419"/>
+            <pb facs="#facs_420" n="420" xml:id="img_0420"/>
+            <pb facs="#facs_421" n="421" xml:id="img_0421"/>
+            <pb facs="#facs_422" n="422" xml:id="img_0422"/>
+            <pb facs="#facs_423" n="423" xml:id="img_0423"/>
+            <pb facs="#facs_424" n="424" xml:id="img_0424"/>
+            <pb facs="#facs_425" n="425" xml:id="img_0425"/>
+            <pb facs="#facs_426" n="426" xml:id="img_0426"/>
+            <pb facs="#facs_427" n="427" xml:id="img_0427"/>
+            <pb facs="#facs_428" n="428" xml:id="img_0428"/>
+            <pb facs="#facs_429" n="429" xml:id="img_0429"/>
+            <pb facs="#facs_430" n="430" xml:id="img_0430"/>
+            <pb facs="#facs_431" n="431" xml:id="img_0431"/>
+            <pb facs="#facs_432" n="432" xml:id="img_0432"/>
+            <pb facs="#facs_433" n="433" xml:id="img_0433"/>
+            <pb facs="#facs_434" n="434" xml:id="img_0434"/>
+            <pb facs="#facs_435" n="435" xml:id="img_0435"/>
+            <pb facs="#facs_436" n="436" xml:id="img_0436"/>
+            <pb facs="#facs_437" n="437" xml:id="img_0437"/>
+            <pb facs="#facs_438" n="438" xml:id="img_0438"/>
+            <pb facs="#facs_439" n="439" xml:id="img_0439"/>
+            <pb facs="#facs_440" n="440" xml:id="img_0440"/>
+            <pb facs="#facs_441" n="441" xml:id="img_0441"/>
+            <pb facs="#facs_442" n="442" xml:id="img_0442"/>
+            <pb facs="#facs_443" n="443" xml:id="img_0443"/>
+            <pb facs="#facs_444" n="444" xml:id="img_0444"/>
+            <pb facs="#facs_445" n="445" xml:id="img_0445"/>
+            <pb facs="#facs_446" n="446" xml:id="img_0446"/>
+            <pb facs="#facs_447" n="447" xml:id="img_0447"/>
+            <pb facs="#facs_448" n="448" xml:id="img_0448"/>
+            <pb facs="#facs_449" n="449" xml:id="img_0449"/>
+            <pb facs="#facs_450" n="450" xml:id="img_0450"/>
+            <pb facs="#facs_451" n="451" xml:id="img_0451"/>
+            <pb facs="#facs_452" n="452" xml:id="img_0452"/>
+            <pb facs="#facs_453" n="453" xml:id="img_0453"/>
+            <pb facs="#facs_454" n="454" xml:id="img_0454"/>
+            <pb facs="#facs_455" n="455" xml:id="img_0455"/>
+            <pb facs="#facs_456" n="456" xml:id="img_0456"/>
+            <pb facs="#facs_457" n="457" xml:id="img_0457"/>
+            <pb facs="#facs_458" n="458" xml:id="img_0458"/>
+            <pb facs="#facs_459" n="459" xml:id="img_0459"/>
+            <pb facs="#facs_460" n="460" xml:id="img_0460"/>
+            <pb facs="#facs_461" n="461" xml:id="img_0461"/>
+            <pb facs="#facs_462" n="462" xml:id="img_0462"/>
+            <pb facs="#facs_463" n="463" xml:id="img_0463"/>
+            <pb facs="#facs_464" n="464" xml:id="img_0464"/>
+            <pb facs="#facs_465" n="465" xml:id="img_0465"/>
+            <pb facs="#facs_466" n="466" xml:id="img_0466"/>
+            <pb facs="#facs_467" n="467" xml:id="img_0467"/>
+            <pb facs="#facs_468" n="468" xml:id="img_0468"/>
+            <pb facs="#facs_469" n="469" xml:id="img_0469"/>
+            <pb facs="#facs_470" n="470" xml:id="img_0470"/>
+            <pb facs="#facs_471" n="471" xml:id="img_0471"/>
+            <pb facs="#facs_472" n="472" xml:id="img_0472"/>
+            <pb facs="#facs_473" n="473" xml:id="img_0473"/>
+            <pb facs="#facs_474" n="474" xml:id="img_0474"/>
+            <pb facs="#facs_475" n="475" xml:id="img_0475"/>
+            <pb facs="#facs_476" n="476" xml:id="img_0476"/>
+            <pb facs="#facs_477" n="477" xml:id="img_0477"/>
+            <pb facs="#facs_478" n="478" xml:id="img_0478"/>
+            <pb facs="#facs_479" n="479" xml:id="img_0479"/>
+            <pb facs="#facs_480" n="480" xml:id="img_0480"/>
+            <pb facs="#facs_481" n="481" xml:id="img_0481"/>
+            <pb facs="#facs_482" n="482" xml:id="img_0482"/>
+            <pb facs="#facs_483" n="483" xml:id="img_0483"/>
+            <pb facs="#facs_484" n="484" xml:id="img_0484"/>
+            <pb facs="#facs_485" n="485" xml:id="img_0485"/>
+            <pb facs="#facs_486" n="486" xml:id="img_0486"/>
+            <pb facs="#facs_487" n="487" xml:id="img_0487"/>
+            <pb facs="#facs_488" n="488" xml:id="img_0488"/>
+            <pb facs="#facs_489" n="489" xml:id="img_0489"/>
+            <pb facs="#facs_490" n="490" xml:id="img_0490"/>
+            <pb facs="#facs_491" n="491" xml:id="img_0491"/>
+            <pb facs="#facs_492" n="492" xml:id="img_0492"/>
+            <pb facs="#facs_493" n="493" xml:id="img_0493"/>
+            <pb facs="#facs_494" n="494" xml:id="img_0494"/>
+            <pb facs="#facs_495" n="495" xml:id="img_0495"/>
+            <pb facs="#facs_496" n="496" xml:id="img_0496"/>
+         </div>
+      </body>
+   </text>
+</TEI>
