@@ -1,0 +1,18 @@
+{
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:titleInfo/mods:title": "tei:fileDesc/tei:titleStmt/tei:title",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:recordInfo/mods:recordIdentifier[@source='obv-ac']": "tei:fileDesc/tei:titleStmt/tei:idno",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:originInfo/mods:edition": "tei:fileDesc/tei:editionStmt/p",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:physicalDescription/mods:digitalOrigin": "tei:fileDesc/tei:publicationStmt/tei:p",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:originInfo/mods:place/mods:placeTerm[@type='text']": "tei:fileDesc/tei:publicationStmt/tei:pubPlace",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:originInfo/mods:dateCaptured": "tei:fileDesc/tei:publicationStmt/tei:date",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:originInfo/mods:publisher": "tei:fileDesc/tei:publicationStmt/tei:publisher",
+	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:owner": "tei:fileDesc/tei:publicationStmt/tei:authority",
+	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:ownerSiteURL": "tei:fileDesc/tei:publicationStmt/",
+	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:ownerContact": "tei:fileDesc/tei:publicationStmt/tei:address/tei:email",
+	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:sponsor": "tei:fileDesc/tei:publicationStmt/tei:address/tei:addrLine",
+	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:license": "tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:titleInfo[@type='uniform']/mods:title": "tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:originInfo/mods:dateIssued": "tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:date",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:location/mods:physicalLocation": "tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:repository",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:classification[@authority='ivdcc']": "tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/"
+}
