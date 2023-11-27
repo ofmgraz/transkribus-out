@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import glob
-from urllib.request import urlopen
 from datetime import datetime
 from acdh_tei_pyutils.tei import TeiReader, TeiEnricher
 from lxml import etree as ET
@@ -8,7 +7,7 @@ import json
 import os
 import re
 
-source_directory = 'testdir'
+source_directory = 'tei'
 logn = 'fetchteiheader'
 
 with open('mets2tei.json', 'r') as f:
@@ -28,14 +27,13 @@ def log(logname, filename, arg='could not be parsed'):
 
 
 def getxml(docid):
-    root = False
+    metsdoc = False
     url = f'https://viewer.acdh.oeaw.ac.at/viewer/sourcefile?id={docid}'
-    print(url)
     try:
-        root = TeiReader(url)
+        metsdoc = TeiReader(url)
     except Exception:
         log(logn, url)
-    return root
+    return metsdoc
 
 
 def parseattributes(element, value):
@@ -75,11 +73,11 @@ def normalisedate(date):
     return ddate
 
 
-def mets2tei(tei, metshdr, trs=dictionary):
-    teidoc = TeiEnricher(tei)
+def mets2tei(teifile, mets, trs=dictionary):
+    tei = TeiEnricher(teifile)
     for i in dictionary:
-        add_nodes(teidoc.tree, dictionary[i].split('/'), metshdr.tree.xpath(f'//{i}', namespaces=nsmap)[0].text)
-    return teidoc
+        add_nodes(tei.tree, dictionary[i].split('/'), mets.tree.xpath(f'//{i}', namespaces=nsmap)[0].text)
+    return tei
 
 
 def add_nodes(teitree, nodes, value):
@@ -99,9 +97,6 @@ def add_nodes(teitree, nodes, value):
 
 for filename in glob.glob(os.path.join(source_directory, '*.xml')):
     log(logn, filename, 'Parsing')
-    # filename = 'A63_51.xml'
-    print(os.path.basename(filename).rstrip('.xml'))
-    if xmlmets := getxml(os.path.basename(filename).rstrip('.xml')):
-        a = mets2tei(filename, xmlmets, dictionary)
-        a.tree_to_file(f'{filename}_m2t.xml')
-        # break
+    if metsdoc := getxml(os.path.basename(filename).rstrip('.xml')):
+        teidoc = mets2tei(filename, metsdoc, dictionary)
+        teidoc.tree_to_file(f'{filename.rstrip(".xml")}_m2t.xml')
