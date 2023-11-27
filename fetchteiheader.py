@@ -72,9 +72,9 @@ def normalisedate(date):
             na = year * 100 + 100
             nb = na - 50
         else:
-            factor = int(second.split('/')[0]) / int(second.split('/')[1])
-            na = year * 100 + int(factor * 100)
-            nb = year * 100 + int(factor * 100) - 25
+            factor = int(second.split('/')[0]) * 100 / int(second.split('/')[1])
+            na = year * 100 + factor
+            nb = year * 100 + factor - 25
         ddate = {'notBefore': f'{nb}', 'notAfter': f'{na}'}
     return ddate
 
@@ -111,4 +111,4 @@ for filename in glob.glob(os.path.join(source_directory, '*.xml')):
         a = mets2tei(filename, xmlmets, dictionary)
         printtree(a)
         with open(os.path.join(f'{filename}_m2t.xml'), 'wb') as f:
-            f.write(etree.tostring(a, pretty_print=True))
+            f.write(etree.tostring(a, encoding='UTF-8', pretty_print=True))
