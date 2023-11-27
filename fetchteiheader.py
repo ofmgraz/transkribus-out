@@ -36,6 +36,7 @@ def getxml(docid):
             root = tree.getroot()
     except Exception:
         log(logn, url)
+    print('RROT', root)
     return root
 
 
@@ -44,7 +45,7 @@ def printtree(tree):
 
 
 def mets2tei(tei, metshdr, trs=dictionary):
-    tei='teitest/test.xml'
+    tei = 'teitest/test.xml'
     doc = etree.parse(tei, parser)
     doc = doc.getroot()
     for i in dictionary:
@@ -52,21 +53,23 @@ def mets2tei(tei, metshdr, trs=dictionary):
     return doc
 
 
-def add_nodes(parent, nodes, value):
-    if not parent.xpath(f'tei:{nodes[0]}', namespaces=nsmap):
-        terminal = etree.SubElement(parent, nodes[0])
-        if len(nodes) > 1:
-            add_nodes(parent.xpath(nodes[0])[0], nodes[1:], value)
-        else:
-            terminal.text = value
+def add_nodes(teitree, nodes, value):
+    if parent := teitree.xpath(f'tei:{nodes[0]}', namespaces=nsmap):
+        parent = parent[0]
     else:
-        etree.SubElement(parent, nodes[0])
+        parent = etree.SubElement(teitree, nodes[0])
+    if len(nodes) > 1:
+        add_nodes(parent, nodes[1:], value)
+    else:
+        parent.text = value
+    return teitree
 
 
 for filename in glob.glob(os.path.join(source_directory, '*.xml')):
     # filename = 'A63_51.xml'
     print(filename)
     if xmlmets := getxml(os.path.basename(filename).rstrip('.xml')):
+        print(xmlmets)
         a = mets2tei(filename, xmlmets, dictionary)
         printtree(a)
         break   # For testing purposes
