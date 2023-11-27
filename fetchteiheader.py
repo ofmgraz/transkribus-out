@@ -50,7 +50,8 @@ def parseattributes(element, value):
 
 def normalisedate(date):
     try:
-        year = int(date.lstrip('~').replace('x', '0').split()[0].split('-')[0].strip('.'))
+        year = re.sub('x+', '00', date).lstrip('~').split()[0]
+        year = int(year.split('-')[0].strip('.'))
     except Exception:
         log(logn, date, 'is not a valid date')
         year = 'nan'
@@ -59,10 +60,10 @@ def normalisedate(date):
         ddate = {'notBefore': f'{year - 20}', 'notAfter': f'{year + 20}'}
     elif date.endswith('Jh.'):
         ddate = {'notBefore': f'{(year - 1) * 100}', 'notAfter':  f'{(year - 1) * 100 + 99}'}
-    elif date.endswith('xx'):
-        ddate = {'notBefore': f'{year}', 'notAfter': '{year + 99}'}
+    elif date.endswith('x'):
+        ddate = {'notBefore': f'{year}', 'notAfter': f'{year + 99}'}
     elif re.findall(r'^\d{2}\-\d(?:/\d)*', date):
-        ddate = {'notBefore': f'{year * 100}', 'notAfter': '{year + 99}'}
+        ddate = {'notBefore': f'{year * 100}', 'notAfter': f'{year + 99}'}
         second = date.split('-')[1]
         if second == '1':
             nb = year * 100
@@ -109,3 +110,5 @@ for filename in glob.glob(os.path.join(source_directory, '*.xml')):
     if xmlmets := getxml(os.path.basename(filename).rstrip('.xml')):
         a = mets2tei(filename, xmlmets, dictionary)
         printtree(a)
+        with open(os.path.join(f'{filename}_m2t.xml'), 'wb') as f:
+            f.write(etree.tostring(a, pretty_print=True))
