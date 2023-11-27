@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 import glob
-from lxml import etree
 from urllib.request import urlopen
 from datetime import datetime
+from acdh_tei_pyutils.tei import TeiReader, TeiEnricher
+from lxml import etree as ET
 import json
 import os
 import re
 
-source_directory = 'teitest'
+source_directory = 'testdir'
 logn = 'fetchteiheader'
-parser = etree.XMLParser()
 
 with open('mets2tei.json', 'r') as f:
     dictionary = json.load(f)
@@ -30,10 +30,9 @@ def log(logname, filename, arg='could not be parsed'):
 def getxml(docid):
     root = False
     url = f'https://viewer.acdh.oeaw.ac.at/viewer/sourcefile?id={docid}'
+    print(url)
     try:
-        with urlopen(url) as u:
-            tree = etree.parse(u, parser)
-            root = tree.getroot()
+        root = TeiReader(url)
     except Exception:
         log(logn, url)
     return root
@@ -63,14 +62,11 @@ def normalisedate(date):
     elif date.endswith('x'):
         ddate = {'notBefore': f'{year}', 'notAfter': f'{year + 99}'}
     elif re.findall(r'^\d{2}\-\d(?:/\d)*', date):
-        ddate = {'notBefore': f'{year * 100}', 'notAfter': f'{year + 99}'}
         second = date.split('-')[1]
-        if second == '1':
-            nb = year * 100
+        if second in '12':
+            factor = 100 / int(second)
+            nb = year * 100 - factor
             na = nb + 50
-        elif second == '2':
-            na = year * 100 + 100
-            nb = na - 50
         else:
             factor = int(second.split('/')[0]) * 100 / int(second.split('/')[1])
             na = year * 100 + factor
@@ -79,36 +75,33 @@ def normalisedate(date):
     return ddate
 
 
-def printtree(tree):
-    print(etree.tostring(tree, pretty_print=True, encoding=str))
-
-
 def mets2tei(tei, metshdr, trs=dictionary):
-    tei = 'teitest/test.xml'
-    doc = etree.parse(tei, parser)
-    doc = doc.getroot()
+    teidoc = TeiEnricher(tei)
     for i in dictionary:
-        add_nodes(doc, dictionary[i].split('/'), metshdr.xpath(f'.//{i}', namespaces=nsmap)[0].text)
-    return doc
+        add_nodes(teidoc.tree, dictionary[i].split('/'), metshdr.tree.xpath(f'//{i}', namespaces=nsmap)[0].text)
+    return teidoc
 
 
 def add_nodes(teitree, nodes, value):
-    if parent := teitree.xpath(f'tei:{nodes[0]}', namespaces=nsmap):
-        parent = parent[0]
-    else:
-        parent = etree.SubElement(teitree, nodes[0])
+    new_node = parseattributes(ET.Element('{http://www.tei-c.org/ns/1.0}' + nodes[0]), '')
     if len(nodes) > 1:
+        if parent := teitree.xpath(f'//tei:{nodes[0]}', namespaces=nsmap):
+            parent = parent[0]
+        else:
+            teitree.append(new_node)
+            parent = teitree.xpath(f'//tei:{nodes[0]}', namespaces=nsmap)[0]
         add_nodes(parent, nodes[1:], value)
     else:
-        parent = parseattributes(parent, value)
+        new_node = parseattributes(new_node, value)
+        teitree.append(new_node)
     return teitree
 
 
 for filename in glob.glob(os.path.join(source_directory, '*.xml')):
     log(logn, filename, 'Parsing')
     # filename = 'A63_51.xml'
+    print(os.path.basename(filename).rstrip('.xml'))
     if xmlmets := getxml(os.path.basename(filename).rstrip('.xml')):
         a = mets2tei(filename, xmlmets, dictionary)
-        printtree(a)
-        with open(os.path.join(f'{filename}_m2t.xml'), 'wb') as f:
-            f.write(etree.tostring(a, encoding='UTF-8', pretty_print=True))
+        a.tree_to_file(f'{filename}_m2t.xml')
+        # break
