@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 import glob
 from datetime import datetime
-from acdh_tei_pyutils.tei import TeiReader, TeiEnricher
+from acdh_tei_pyutils.tei import TeiReader
 from lxml import etree as ET
 import json
 import os
 import re
 
-source_directory = "tei"
-logn = "fetchteiheader"
+source_directory = "testdir"
+log_file_name = "fetchteiheader"
 
 with open("mets2tei.json", "r") as f:
     dictionary = json.load(f)
@@ -21,37 +21,37 @@ nsmap = {
 }
 
 
-def log(logname, filename, arg="could not be parsed"):
+def log(log_name, file_name, arg="could not be parsed"):
     now = datetime.now()
-    with open(f"{logname}.log", "a") as f:
-        f.write(f'{now.strftime("%Y/%m/%d %H:%M:%S")}\t' f"File `{filename}` {arg}\n")
+    with open(f"{log_name}.log", "a") as f:
+        f.write(f'{now.strftime("%Y/%m/%d %H:%M:%S")}\t' f"File `{file_name}` {arg}\n")
 
 
-def getxml(docid):
-    metsdoc = False
+def get_xml(docid):
+    mets_doc = False
     url = f"https://viewer.acdh.oeaw.ac.at/viewer/sourcefile?id={docid}"
     try:
-        metsdoc = TeiReader(url)
+        mets_doc = TeiReader(url)
     except Exception:
-        log(logn, url)
-    return metsdoc
+        log(log_file_name, url)
+    return mets_doc
 
 
-def parseattributes(element, value):
+def parse_attributes(element, value):
     if "date" in element.tag:
-        attr = normalisedate(value)
+        attr = normalise_date(value)
         for x in attr:
             element.attrib[x] = attr[x]
     element.text = value
     return element
 
 
-def normalisedate(date):
+def normalise_date(date):
     try:
         year = re.sub("x+", "00", date).lstrip("~").split()[0]
         year = int(year.split("-")[0].strip("."))
     except Exception:
-        log(logn, date, "is not a valid date")
+        log(log_file_name, date, "is not a valid date")
         year = "nan"
     ddate = {"when": f"{year}"}
     if date.startswith("~"):
@@ -77,36 +77,36 @@ def normalisedate(date):
     return ddate
 
 
-def mets2tei(teifile, mets, trs=dictionary):
-    tei = TeiEnricher(teifile)
-    for i in dictionary:
+def mets2tei(tei_file, mets_tree):
+    tei_tree = TeiReader(tei_file)
+    for mets_element in dictionary:
         add_nodes(
-            tei.tree,
-            dictionary[i].split("/"),
-            mets.tree.xpath(f"//{i}", namespaces=nsmap)[0].text,
+            tei_tree.tree,
+            dictionary[mets_element].split("/"),
+            mets_tree.tree.xpath(f"//{mets_element}", namespaces=nsmap)[0].text,
         )
-    return tei
+    return tei_tree
 
 
-def add_nodes(teitree, nodes, value):
-    new_node = parseattributes(
+def add_nodes(tei_tree, nodes, value):
+    new_node = parse_attributes(
         ET.Element("{http://www.tei-c.org/ns/1.0}" + nodes[0]), ""
     )
     if len(nodes) > 1:
-        if parent := teitree.xpath(f"//tei:{nodes[0]}", namespaces=nsmap):
+        if parent := tei_tree.xpath(f"//tei:{nodes[0]}", namespaces=nsmap):
             parent = parent[0]
         else:
-            teitree.append(new_node)
-            parent = teitree.xpath(f"//tei:{nodes[0]}", namespaces=nsmap)[0]
+            tei_tree.append(new_node)
+            parent = tei_tree.xpath(f"//tei:{nodes[0]}", namespaces=nsmap)[0]
         add_nodes(parent, nodes[1:], value)
     else:
-        new_node = parseattributes(new_node, value)
-        teitree.append(new_node)
-    return teitree
+        new_node = parse_attributes(new_node, value)
+        tei_tree.append(new_node)
+    return tei_tree
 
 
-for filename in glob.glob(os.path.join(source_directory, "*.xml")):
-    log(logn, filename, "Parsing")
-    if metsdoc := getxml(os.path.basename(filename).rstrip(".xml")):
-        teidoc = mets2tei(filename, metsdoc, dictionary)
-        teidoc.tree_to_file(f'{filename.rstrip(".xml")}_m2t.xml')
+for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
+    log(log_file_name, input_file, "Parsing")
+    if mets_doc := get_xml(os.path.basename(input_file).rstrip(".xml")):
+        tei_doc = mets2tei(input_file, mets_doc)
+        tei_doc.tree_to_file(f'{input_file.rstrip(".xml")}_m2t.xml')
