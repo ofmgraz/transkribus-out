@@ -7,7 +7,7 @@ import json
 import os
 import re
 
-source_directory = "testdir"
+source_directory = "tei"
 log_file_name = "fetchteiheader"
 
 with open("mets2tei.json", "r") as f:
