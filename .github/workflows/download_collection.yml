@@ -7,6 +7,10 @@ jobs:
   build_pages:
     name: Download METS files from Transkribus and convert them to TEIs
     runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # # added or changed files to the repository.
+      contents: write
     env:
       ANT_OPTS: -Xmx5g
       TR_USER: ${{ secrets.TR_USER }}
