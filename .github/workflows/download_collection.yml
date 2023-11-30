@@ -3,7 +3,6 @@ name: Download and process
 on: 
   workflow_dispatch:
 
-
 jobs:
   build_pages:
     name: Download METS files from Transkribus and convert them to TEIs
