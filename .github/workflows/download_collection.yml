@@ -19,9 +19,9 @@ jobs:
     - name: Download and transform
       run: python download_and_transform.py
     - name: rename files
-      run: python renamefiles.py
+      run: ./renamefiles.py
     - name: mets to tei
-      run: fetchteiheader.py
+      run: ./fetchteiheader.py
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Export and Transformation done
