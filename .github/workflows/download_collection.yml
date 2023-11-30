@@ -16,9 +16,9 @@ jobs:
     - name: Perform Checkout
       uses: actions/checkout@v3
     - name: Install Python Packages
-      run: |
-        pip install -r requirements.txt
-        python download_and_transform.py
+      run: pip install -r requirements.txt
+    - name: Download and transform
+      run: python download_and_transform.py
     - name: rename files
       run: python renamefiles.py
     - name: mets to tei
