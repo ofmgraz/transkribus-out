@@ -42,6 +42,7 @@ def parse_attributes(element, value):
         attr = normalise_date(value)
         for x in attr:
             element.attrib[x] = attr[x]
+    # elifs to do something with the attribs
     element.text = value
     return element
 
