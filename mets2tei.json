@@ -1,6 +1,6 @@
 {
 	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:titleInfo/mods:title": 					"teiHeader/fileDesc/titleStmt/title",
-	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:recordInfo/mods:recordIdentifier[@source='obv-ac']":	"teiHeader/fileDesc/titleStmt/idno",
+	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:recordInfo/mods:recordIdentifier[@source='obv-ac']":	"teiHeader/fileDesc/titleStmt/sponsor",
 	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:originInfo/mods:edition":					"teiHeader/fileDesc/editionStmt/p",
 	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:physicalDescription/mods:digitalOrigin":			"teiHeader/fileDesc/publicationStmt/p",
 	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:originInfo/mods:place/mods:placeTerm[@type='text']":	"teiHeader/fileDesc/publicationStmt/pubPlace",
