@@ -9,7 +9,7 @@
 	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:owner":		"teiHeader/fileDesc/publicationStmt/authority",
 	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:ownerSiteURL":	"teiHeader/fileDesc/publicationStmt/address/addrLine",
 	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:ownerContact":	"teiHeader/fileDesc/publicationStmt/address/email",
-	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:sponsor":		"teiHeader/fileDesc/publicationStmt/address/addrLine",
+	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:sponsor":		"teiHeader/fileDesc/publicationStmt/address/sponsor",
 	"mets:amdSec[@ID='AMD']/mets:rightsMD[@ID='RIGHTS']/mets:mdWrap/mets:xmlData/dv:rights/dv:license":		"teiHeader/fileDesc/publicationStmt/availability/licence",
 	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:titleInfo[@type='uniform']/mods:title":			"teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/idno",
 	"mets:dmdSec/mets:mdWrap/mets:xmlData/mods:mods/mods:originInfo/mods:dateIssued":				"teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/date",
