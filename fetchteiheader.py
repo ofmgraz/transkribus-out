@@ -43,6 +43,7 @@ def parse_attributes(element, value):
         for x in attr:
             element.attrib[x] = attr[x]
     # elifs to do something with the attribs
+    # e.g. mods:recordIdentifier[@source='obv-ac']" may be something like'type'?
     element.text = value
     return element
 
