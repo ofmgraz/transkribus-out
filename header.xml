@@ -1,0 +1,64 @@
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="shelfmark"></idno>
+               </msIdentifier>
+               <msContents class="#antiphonale #orgelbuch #ofm">
+                  <summary>Psalter mit Ferialhymnen, Hymnen Advent bis Pfingsten <title>Libellus Antiphonarum in Vesperis solemniter intonare darum</title></summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <dimensions unit="mm">
+                              <height>620</height>
+                              <width>400</width>
+                           </dimensions>
+                        </support>
+                        <extent>
+                           <unit type="pages" quantity="178"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <musicNotation>
+                     <binaryObject></binaryObject>
+                  </musicNotation>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>generiert mit Trk. …, weiterverarbeitet m. custom scirpt</p>
+         <classDecl>
+            <taxonomy>
+               <desc>Liturgien</desc>
+               <category xml:id="OFM">
+                  <catDesc>Liturgie OFM</catDesc>
+               </category>
+               <category xml:id="OSC">
+                  <catDesc>Liturgie </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <desc>Buchxtypen</desc>
+               <category xml:id="antiphonale">
+                  <catDesc>Antiphonale</catDesc>
+               </category>
+               <category xml:id="orgelbuch">
+                  <catDesc>Orgelbuch</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
