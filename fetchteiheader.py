@@ -6,9 +6,12 @@ from lxml import etree as ET
 import json
 import os
 import re
+import pandas as pd
 
-source_directory = "tei"
+source_directory = "testdir"
 log_file_name = "fetchteiheader"
+source_table = "path/to/table"
+
 
 with open("mets2tei.json", "r") as f:
     dictionary = json.load(f)
@@ -90,6 +93,45 @@ def mets2tei(tei_file, mets_tree):
     return tei_tree
 
 
+def define_encoding_skeleton():
+    enc = ET.Element("{http://www.tei-c.org/ns/1.0}encodingDesc")
+    p = ET.SubElement(enc, 'p')
+    cD = ET.SubElement(enc, 'classDecl')
+    t1 = ET.SubElement(cD, 'taxonomy')
+    d1 = ET.SubElement(t1, 'desc')
+    t2 = ET.SubElement(cD, 'taxonomy')
+    d2 = ET.SubElement(t2, 'desc')
+    p.text = 'Generiert mit Transkribus, weiterverarbeitet m. custom script'
+    d1.text = 'Liturgien'
+    d2.text = 'Buchtypen'
+    return enc
+
+
+def get_table(table):
+    df = pd.read_excel(table)
+    books = df['Buchtyp'].unique()
+    liturgies = df['Liturgie'].unique()
+    # STUB
+    # There may be more than one element per cell
+    return books, liturgies
+
+
+def fill_encoding():
+    booktypes, liturgies = get_table(source_table)
+    root = define_encoding_skeleton()
+    for book in booktypes:
+        # STUB
+        # <category xml:id=book><catDesc>book</catDesc></category>
+        # e.g. "Graduale"... but also "Graduale/Sequentiar"
+        pass
+    for lit in liturgies:
+        # STUB
+        # <category xml:id=lit><catDesc>lit</catDesc></category>
+        # e.g.  "OFM", "OSC"
+        pass
+    return root
+
+
 def add_nodes(tei_tree, nodes, value):
     new_node = parse_attributes(
         ET.Element("{http://www.tei-c.org/ns/1.0}" + nodes[0]), ""
@@ -111,4 +153,6 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     log(log_file_name, input_file, "Parsing")
     if mets_doc := get_xml(os.path.basename(input_file).rstrip(".xml")):
         tei_doc = mets2tei(input_file, mets_doc)
+        header = tei_doc.any_xpath('//tei:teiHeader')[0]
+        header.append(define_encoding_skeleton())
         tei_doc.tree_to_file(f'{input_file.rstrip(".xml")}_m2t.xml')
