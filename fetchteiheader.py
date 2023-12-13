@@ -10,7 +10,7 @@ import pandas as pd
 
 source_directory = "testdir"
 log_file_name = "fetchteiheader"
-source_table = "path/to/table"
+source_table = "../../goobi-processing/001_src/Quellen_OFM_Graz.xlsx"
 
 
 with open("mets2tei.json", "r") as f:
@@ -94,16 +94,17 @@ def mets2tei(tei_file, mets_tree):
 
 
 def define_encoding_skeleton():
+    categories = {"Book types": ["graduale", "antiphonale", "sequentiar", "psalterium", "hymnar", "prozessionale",
+                               "responsoriale", "orgelbuch", "lamentationen", "manuale", "litaneien", "gesaenge",
+                               "coralbuch", "intonationsbuch", "temporale"],
+                  "Liturgies": ["OFM", "OSC", "OESA"]}
     enc = ET.Element("{http://www.tei-c.org/ns/1.0}encodingDesc")
-    p = ET.SubElement(enc, 'p')
+    ET.SubElement(enc, 'p').text = 'Generiert mit Transkribus, weiterverarbeitet m. custom script'
     cD = ET.SubElement(enc, 'classDecl')
-    t1 = ET.SubElement(cD, 'taxonomy')
-    d1 = ET.SubElement(t1, 'desc')
-    t2 = ET.SubElement(cD, 'taxonomy')
-    d2 = ET.SubElement(t2, 'desc')
-    p.text = 'Generiert mit Transkribus, weiterverarbeitet m. custom script'
-    d1.text = 'Liturgien'
-    d2.text = 'Buchtypen'
+    for taxonomy in categories:
+        cD.append(
+            fill_encoding(taxonomy, categories[taxonomy])
+        )
     return enc
 
 
@@ -116,20 +117,25 @@ def get_table(table):
     return books, liturgies
 
 
-def fill_encoding():
-    booktypes, liturgies = get_table(source_table)
-    root = define_encoding_skeleton()
-    for book in booktypes:
-        # STUB
-        # <category xml:id=book><catDesc>book</catDesc></category>
-        # e.g. "Graduale"... but also "Graduale/Sequentiar"
-        pass
-    for lit in liturgies:
-        # STUB
-        # <category xml:id=lit><catDesc>lit</catDesc></category>
-        # e.g.  "OFM", "OSC"
-        pass
+def fill_encoding(desc, attributes):
+    root = ET.Element("{http://www.tei-c.org/ns/1.0}taxonomy")
+    ET.SubElement(root, "desc").text = desc
+    for attr in attributes:
+        cat = ET.SubElement(root, "category")
+        cat.attrib["{http://www.w3.org/XML/1998/namespace}id"] = attr
+        ET.SubElement(cat, "catDesc").text = attr[0].upper() + attr[1:]
     return root
+
+
+def classify_books(booktype):
+    books = ' '.join(' '.join(booktype.split(',')).split('/')).split()
+    keys = []
+    with open("bookypes.json", "r") as f:
+        dictionary = json.load(f)
+    for book in books:
+        if any(x.lower() in book for x in dictionary(keys)):
+            keys.append(dictionary[x])
+    return keys
 
 
 def add_nodes(tei_tree, nodes, value):
@@ -155,4 +161,5 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
         tei_doc = mets2tei(input_file, mets_doc)
         header = tei_doc.any_xpath('//tei:teiHeader')[0]
         header.append(define_encoding_skeleton())
+        #header.addnext(define_encoding_skeleton())
         tei_doc.tree_to_file(f'{input_file.rstrip(".xml")}_m2t.xml')
