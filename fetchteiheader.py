@@ -8,6 +8,7 @@ import os
 import re
 import pandas as pd
 
+
 source_directory = "testdir"
 log_file_name = "fetchteiheader"
 source_table = "../../goobi-processing/001_src/Quellen_OFM_Graz.xlsx"
@@ -94,24 +95,40 @@ def mets2tei(tei_file, mets_tree):
 
 
 def define_encoding_skeleton():
-    categories = {"Book types": ["graduale", "antiphonale", "sequentiar", "psalterium", "hymnar", "prozessionale",
-                               "responsoriale", "orgelbuch", "lamentationen", "manuale", "litaneien", "gesaenge",
-                               "coralbuch", "intonationsbuch", "temporale"],
-                  "Liturgies": ["OFM", "OSC", "OESA"]}
+    categories = {
+        "Book types": [
+            "graduale",
+            "antiphonale",
+            "sequentiar",
+            "psalterium",
+            "hymnar",
+            "prozessionale",
+            "responsoriale",
+            "orgelbuch",
+            "lamentationen",
+            "manuale",
+            "litaneien",
+            "gesaenge",
+            "coralbuch",
+            "intonationsbuch",
+            "temporale",
+        ],
+        "Liturgies": ["OFM", "OSC", "OESA"],
+    }
     enc = ET.Element("{http://www.tei-c.org/ns/1.0}encodingDesc")
-    ET.SubElement(enc, 'p').text = 'Generiert mit Transkribus, weiterverarbeitet m. custom script'
-    cD = ET.SubElement(enc, 'classDecl')
+    ET.SubElement(
+        enc, "p"
+    ).text = "Generiert mit Transkribus, weiterverarbeitet m. custom script"
+    cD = ET.SubElement(enc, "classDecl")
     for taxonomy in categories:
-        cD.append(
-            fill_encoding(taxonomy, categories[taxonomy])
-        )
+        cD.append(fill_encoding(taxonomy, categories[taxonomy]))
     return enc
 
 
 def get_table(table):
     df = pd.read_excel(table)
-    books = df['Buchtyp'].unique()
-    liturgies = df['Liturgie'].unique()
+    books = df["Buchtyp"].unique()
+    liturgies = df["Liturgie"].unique()
     # STUB
     # There may be more than one element per cell
     return books, liturgies
@@ -128,13 +145,14 @@ def fill_encoding(desc, attributes):
 
 
 def classify_books(booktype):
-    books = ' '.join(' '.join(booktype.split(',')).split('/')).split()
+    books = " ".join(" ".join(booktype.split(",")).split("/")).split()
     keys = []
     with open("bookypes.json", "r") as f:
         dictionary = json.load(f)
     for book in books:
-        if any(x.lower() in book for x in dictionary(keys)):
-            keys.append(dictionary[x])
+        for booktype in dictionary.values():
+            if booktype in book:
+                keys.append(dictionary[booktype])
     return keys
 
 
@@ -159,7 +177,6 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     log(log_file_name, input_file, "Parsing")
     if mets_doc := get_xml(os.path.basename(input_file).rstrip(".xml")):
         tei_doc = mets2tei(input_file, mets_doc)
-        header = tei_doc.any_xpath('//tei:teiHeader')[0]
+        header = tei_doc.any_xpath("//tei:teiHeader")[0]
         header.append(define_encoding_skeleton())
-        #header.addnext(define_encoding_skeleton())
         tei_doc.tree_to_file(f'{input_file.rstrip(".xml")}_m2t.xml')
