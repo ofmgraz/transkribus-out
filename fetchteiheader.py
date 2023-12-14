@@ -42,10 +42,10 @@ def get_xml(docid):
 
 
 def parse_attributes(element, value):
-    if "date" in element.tag:
-        attr = normalise_date(value)
-        for x in attr:
-            element.attrib[x] = attr[x]
+    # if "date" in element.tag:
+    #    attr = normalise_date(value)
+    #    for x in attr:
+    #        element.attrib[x] = attr[x]
     # elifs to do something with the attribs
     # e.g. mods:recordIdentifier[@source='obv-ac']" may be something like'type'?
     element.text = value
@@ -79,7 +79,10 @@ def normalise_date(date):
             factor = int(second.split("/")[0]) * 100 / int(second.split("/")[1])
             na = year * 100 + factor
             nb = year * 100 + factor - 25
-        ddate = {"notBefore": f"{nb}", "notAfter": f"{na}"}
+    ddate = ET.Element('tei:{date}')
+    ddate.text = date
+    ddate.attrib["notBefore"] = f"{nb}"
+    ddate.attrib["notAfter"] = f"{na}"
     return ddate
 
 
@@ -125,13 +128,72 @@ def define_encoding_skeleton():
     return enc
 
 
-def get_table(table):
+def extract_from_table(table):
+    elements = {}
     df = pd.read_excel(table)
-    books = df["Buchtyp"].unique()
-    liturgies = df["Liturgie"].unique()
+    for idx, row in table.iterrows():
+        name = row['Signatur'].replace('/', '_')
+        elements[name] = {}
+        elements[name]['Signature'] = parse_signature(row['Signatur'])
+        book = classify_books(row['Buchtyp'])
+        if row['Liturgie']:
+            liturgy = f'#{row["Liturgie"].lower()}'
+        else:
+             liturgy = ''
+        elements[name]['Origin'] = make_origin(row['Provenienz'])
+        attr = normalise_date(row['Zeit'])
+        elements[name]['Summary'] = parse_summary(row['Inhalt'], ' '.join([book, liturgy]))
+        elements[name]['Extension'] = write_extension(row['Umfang fol.'])
+        elements[name]['Format'] = parse_format(row['Format'])
+        elements[name]['Device'] = row['Gerät']
+        elements[name]['Pictures'] = row['Bilder']
+    return elements
+
+#def put_elements(tree, elements):
+#    teiHeader/fileDesc/sourceDesc/
+
+
+def make_origin(origin):
+    return origin
+
+
+def parse_summary(summary, attributes):
+    contents = ET.Element(f'tei:{msContents}')
+    contents.attrib['class'] = attributes
+
+def title_seek(summary):
     # STUB
-    # There may be more than one element per cell
-    return books, liturgies
+    # It still has to identify italics in the Excel table... somehow
+    summary = ET.Element(f'tei:{summary}')
+    return summary
+
+
+def write_extension(umfang):
+    uf = ET.Element('tei:extent')
+    unit = ET.SubElement(uf, 'unit')
+    unit.attrib['type'] = 'leaves'
+    unit.attrib['quantity'] = umfang
+    return uf
+
+def parse_format(size):
+    size = size.replace('*', '+').split()
+    support = ET.Element(f'tei:{support}')
+    dim = ET.SubElement(support, 'dimensions')
+    dim.attrib['unit'] = 'mm'
+    ET.SubElement(dim, 'height').text = size[0]
+    ET.SubElement(dim, 'width').text = size[1]
+    return size
+
+def parse_signature(signature):
+    element = ET.Element('tei:msIdentifier')
+    signa = ET.SubElement(element, 'idno')
+    signa.text = signature
+    signa.attrib['type'] = 'shelfmark'
+
+def add_from_table(table):
+    elements = extract_from_table(table)
+    element = ET.xpath('//teiHeader/fileDesc/sourceDesc/msDesc')
+    signature = ET.SubElement(element, 'msIdentifier')
 
 
 def fill_encoding(desc, attributes):
@@ -146,13 +208,13 @@ def fill_encoding(desc, attributes):
 
 def classify_books(booktype):
     books = " ".join(" ".join(booktype.split(",")).split("/")).split()
-    keys = []
+    keys = ''
     with open("bookypes.json", "r") as f:
         dictionary = json.load(f)
     for book in books:
         for booktype in dictionary.values():
             if booktype in book:
-                keys.append(dictionary[booktype])
+                keys += f' #{dictionary[booktype]}'
     return keys
 
 
