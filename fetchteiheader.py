@@ -52,40 +52,6 @@ def parse_attributes(element, value):
     return element
 
 
-def normalise_date(date):
-    try:
-        year = re.sub("x+", "00", date).lstrip("~").split()[0]
-        year = int(year.split("-")[0].strip("."))
-    except Exception:
-        log(log_file_name, date, "is not a valid date")
-        year = "nan"
-    ddate = {"when": f"{year}"}
-    if date.startswith("~"):
-        ddate = {"notBefore": f"{year - 20}", "notAfter": f"{year + 20}"}
-    elif date.endswith("Jh."):
-        ddate = {
-            "notBefore": f"{(year - 1) * 100}",
-            "notAfter": f"{(year - 1) * 100 + 99}",
-        }
-    elif date.endswith("x"):
-        ddate = {"notBefore": f"{year}", "notAfter": f"{year + 99}"}
-    elif re.findall(r"^\d{2}\-\d(?:/\d)*", date):
-        second = date.split("-")[1]
-        if second in "12":
-            factor = 100 / int(second)
-            nb = year * 100 - factor
-            na = nb + 50
-        else:
-            factor = int(second.split("/")[0]) * 100 / int(second.split("/")[1])
-            na = year * 100 + factor
-            nb = year * 100 + factor - 25
-    ddate = ET.Element('tei:{date}')
-    ddate.text = date
-    ddate.attrib["notBefore"] = f"{nb}"
-    ddate.attrib["notAfter"] = f"{na}"
-    return ddate
-
-
 def mets2tei(tei_file, mets_tree):
     tei_tree = TeiReader(tei_file)
     for mets_element in dictionary:
@@ -131,73 +97,131 @@ def define_encoding_skeleton():
 def extract_from_table(table):
     elements = {}
     df = pd.read_excel(table)
-    for idx, row in table.iterrows():
+    for idx, row in df.iterrows():
         name = row['Signatur'].replace('/', '_')
         elements[name] = {}
         elements[name]['Signature'] = parse_signature(row['Signatur'])
         book = classify_books(row['Buchtyp'])
-        if row['Liturgie']:
+        if row['Liturgie'] == row['Liturgie']:  # In case of empty cell
             liturgy = f'#{row["Liturgie"].lower()}'
         else:
-             liturgy = ''
-        elements[name]['Origin'] = make_origin(row['Provenienz'])
-        attr = normalise_date(row['Zeit'])
-        elements[name]['Summary'] = parse_summary(row['Inhalt'], ' '.join([book, liturgy]))
-        elements[name]['Extension'] = write_extension(row['Umfang fol.'])
+            liturgy = ''
+        elements[name]['Origin'] = parse_origin(row['Provenienz'])
+        elements[name]['Year'] = parse_date(str(row['Zeit']))
+        if row['Inhalt'] == row['Inhalt']:  # In case of empty cell
+            content = row['Inhalt']
+        else:
+            content = ''
+        elements[name]['Summary'] = parse_summary(inhalt, ' '.join([book, liturgy]))
+        elements[name]['Extension'] = parse_extension(row['Umfang fol.'])
         elements[name]['Format'] = parse_format(row['Format'])
         elements[name]['Device'] = row['Gerät']
         elements[name]['Pictures'] = row['Bilder']
+        elements[name]['Notation'] = parse_notation(False)  # Placeholder
     return elements
 
-#def put_elements(tree, elements):
-#    teiHeader/fileDesc/sourceDesc/
+
+def put_ms_elements(tree, elements):
+    msid = ET.SubElement(tree, 'msIdentifier')
+    msid.append(elements['Signature'])
+    msid.append(elements['Origin'])
+    msid.append(elements['Year'])
+    tree.append(elements['Summary'])
+    physd = ET.SubElement(tree, 'physDesc')
+    obj = ET.SubElement(physd, 'objectDesc')
+    obj.attrib['form'] = 'codex'
+    suppdesc = ET.SubElement(obj, 'supportDesc')
+    [suppdesc.append(elements[x]) for x in ('Format', 'Extension')]
+    tree.append(elements['Notation'])
+    return tree
 
 
-def make_origin(origin):
-    return origin
+def parse_origin(origin):
+    tree = ET.Element('repository')
+    tree.text = origin
+    return tree
+
+
+def parse_date(date):
+    try:
+        year = re.sub("x+", "00", date).lstrip("~").split()[0]
+        year = int(year.split("-")[0].strip("."))
+    except Exception:
+        log(log_file_name, date, "is not a valid date")
+        year = "nan"
+    ddate = {"when": f"{year}"}
+    if date.startswith("~"):
+        ddate = {"notBefore": f"{year - 20}", "notAfter": f"{year + 20}"}
+    elif date.endswith("Jh."):
+        ddate = {
+            "notBefore": f"{(year - 1) * 100}",
+            "notAfter": f"{(year - 1) * 100 + 99}",
+        }
+    elif date.endswith("x"):
+        ddate = {"notBefore": f"{year}", "notAfter": f"{year + 99}"}
+    elif re.findall(r"^\d{2}\-\d(?:/\d)*", date):
+        second = date.split("-")[1]
+        if second in "12":
+            factor = 100 / int(second)
+            ddate = {"notBefore":  year * 100 - factor, "notAfter": ddate["notBefore"] + 50}
+        else:
+            factor = int(second.split("/")[0]) * 100 / int(second.split("/")[1])
+            ddate = {"notAfter": year * 100 + factor, "notBefore": year * 100 + factor - 25}
+    tree = ET.Element('date')
+    tree.text = date
+    for time in ddate:
+        tree.attrib[time] = ddate[time]
+    return tree
 
 
 def parse_summary(summary, attributes):
-    contents = ET.Element(f'tei:{msContents}')
-    contents.attrib['class'] = attributes
+    tree = ET.Element('msContents')
+    tree.attrib['class'] = attributes
+    tree.append(title_seek(summary))
+    return tree
+
 
 def title_seek(summary):
     # STUB
     # It still has to identify italics in the Excel table... somehow
-    summary = ET.Element(f'tei:{summary}')
+    summary = ET.Element('summary')
     return summary
 
 
-def write_extension(umfang):
-    uf = ET.Element('tei:extent')
-    unit = ET.SubElement(uf, 'unit')
+def parse_extension(umfang):
+    tree = ET.Element('extent')
+    unit = ET.SubElement(tree, 'unit')
     unit.attrib['type'] = 'leaves'
     unit.attrib['quantity'] = umfang
-    return uf
+    return tree
+
 
 def parse_format(size):
     size = size.replace('*', '+').split()
-    support = ET.Element(f'tei:{support}')
-    dim = ET.SubElement(support, 'dimensions')
+    tree = ET.Element('support')
+    dim = ET.SubElement(tree, 'dimensions')
     dim.attrib['unit'] = 'mm'
     ET.SubElement(dim, 'height').text = size[0]
     ET.SubElement(dim, 'width').text = size[1]
-    return size
+    return tree
+
 
 def parse_signature(signature):
-    element = ET.Element('tei:msIdentifier')
-    signa = ET.SubElement(element, 'idno')
-    signa.text = signature
-    signa.attrib['type'] = 'shelfmark'
+    tree = ET.Element('idno')
+    tree.text = signature
+    tree.attrib['type'] = 'shelfmark'
+    return tree
 
-def add_from_table(table):
-    elements = extract_from_table(table)
-    element = ET.xpath('//teiHeader/fileDesc/sourceDesc/msDesc')
-    signature = ET.SubElement(element, 'msIdentifier')
+
+def parse_notation():
+    # We don't have the source yet.
+    tree = ET.Element('musicNotation')
+    ET.SubElement('binaryObject')
+    return tree
 
 
 def fill_encoding(desc, attributes):
-    root = ET.Element("{http://www.tei-c.org/ns/1.0}taxonomy")
+    root = ET.Element("taxonomy")
     ET.SubElement(root, "desc").text = desc
     for attr in attributes:
         cat = ET.SubElement(root, "category")
@@ -209,7 +233,7 @@ def fill_encoding(desc, attributes):
 def classify_books(booktype):
     books = " ".join(" ".join(booktype.split(",")).split("/")).split()
     keys = ''
-    with open("bookypes.json", "r") as f:
+    with open("booktypes.json", "r") as f:
         dictionary = json.load(f)
     for book in books:
         for booktype in dictionary.values():
@@ -237,8 +261,11 @@ def add_nodes(tei_tree, nodes, value):
 
 for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     log(log_file_name, input_file, "Parsing")
-    if mets_doc := get_xml(os.path.basename(input_file).rstrip(".xml")):
+    docid = os.path.basename(input_file).rstrip(".xml")
+    if mets_doc := get_xml(docid):
         tei_doc = mets2tei(input_file, mets_doc)
         header = tei_doc.any_xpath("//tei:teiHeader")[0]
         header.append(define_encoding_skeleton())
+        metadata = extract_from_table(source_table)
+        put_ms_elements(header, metadata[docid])
         tei_doc.tree_to_file(f'{input_file.rstrip(".xml")}_m2t.xml')
