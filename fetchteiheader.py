@@ -59,27 +59,33 @@ class TeiTree:
         self.doc_id = os.path.basename(source_tkb).rstrip(".xml")
         self.tkb = TeiReader(source_tkb)
         self.tei = TeiReader('template.xml')
+        self.root = self.tei.any_xpath('//tei:TEI')[0]
         self.header = self.tei.any_xpath('//tei:teiHeader')[0]
         self.msdesc = self.tei.any_xpath('//tei:msDesc')[0]
         self.elements = self.extract_from_table(source_table, self.header)
+        self.root.append(self.tkb.any_xpath('//tei:facsimile')[0])
+        self.root.append(self.tkb.any_xpath('//tei:text')[0])
 
     def extract_from_table(self, table, header):
         self.header = header
-        df = pd.read_excel(table)
-        df.fillna("", inplace=True)  # Fill empty cells with 0-length strings
-        for idx, row in df.iterrows():
+        df = pd.read_excel(table).fillna("")
+        column_name = self.doc_id[0] + ' ' + self.doc_id[1:].replace('_', '/')
+
+        for idx, row in df.loc[df['Signatur'] == column_name].iterrows():
             self.parse_signature(row["Signatur"])
             self.parse_origin(row["Provenienz"])
             self.parse_date(str(row["Zeit"]))
             keys = self.classify_books(row["Buchtyp"], row["Liturgie"])
-            self.parse_summary(row["Inhalt"], keys, idx)
+            self.parse_summary(row["Inhalt"], row["Buchtyp"], keys, idx)
             self.parse_extension(row["Umfang fol."])
             self.parse_format(row["Format"])
             self.parse_notation(False)  # Placeholder
 
     def parse_signature(self, sign):
-        sign = sign.replace("/", "_").replace(" ", "")
+        # sign = sign.replace("/", "_").replace(" ", "")
         self.msdesc.xpath('//tei:msIdentifier/tei:idno', namespaces=nsmap)[0].text = sign
+        if not self.header.xpath('//tei:titleStmt/tei:title', namespaces=nsmap)[0].text:
+            self.header.xpath('//tei:titleStmt/tei:title', namespaces=nsmap)[0].text = sign
 
     def parse_origin(self, origin):
         self.msdesc.xpath('//tei:history/tei:provenance', namespaces=nsmap)[0].text = origin
@@ -92,7 +98,6 @@ class TeiTree:
         except Exception:
             log.print_log(date, "is not a valid date")
             year = "nan"
-        ddate = {"when": f"{year}"}
         if date.startswith("~"):
             ddate = {"notBefore": f"{year - 20}", "notAfter": f"{year + 20}"}
         elif date.endswith("Jh."):
@@ -114,6 +119,8 @@ class TeiTree:
                     "notBefore": year + factor - 25,
                     "notAfter": year + factor,
                 }
+        else:
+            ddate = {"when": f"{year}"}
         element.text = date
         for time in ddate:
             element.attrib[time] = str(ddate[time])
@@ -121,20 +128,19 @@ class TeiTree:
     @staticmethod
     def classify_books(booktype, lit):
         if lit == lit:
-            liturgy = f'#{lit.lower()}'
+            keys = f'#{lit.lower()}'
         else:
-            lit = ''
+            keys = ''
         books = " ".join(" ".join(booktype.split(",")).split("/")).split()
-        keys = ""
         with open("booktypes.json", "r") as f:
             dictionary = json.load(f)
         for book in books:
-            for booktype in dictionary.values():
-                if booktype in book:
+            for booktype in dictionary:
+                if booktype in book.lower():
                     keys += f" #{dictionary[booktype]}"
-        return " ".join([keys, liturgy])
+        return keys
 
-    def parse_summary(self, summary, attributes, line):
+    def parse_summary(self, summary, bookt, attributes, line):
         if summary == summary:
             content = self.wb_obj.cell(row=line + 1, column=6)
         else:
@@ -142,15 +148,22 @@ class TeiTree:
         element = self.msdesc.xpath('//tei:msContents', namespaces=nsmap)[0]
         element.attrib["class"] = attributes
         subelement = element.xpath('//tei:summary', namespaces=nsmap)[0]
-        subelement.text = str(content)
+        ET.SubElement(subelement, 'p').text = str(content)
+        ET.SubElement(subelement, 'p').text = bookt
+
 
     def parse_extension(self, umfang):
-        tree = self.msdesc.xpath('//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent', namespaces=nsmap)[0]
-        unit = ET.SubElement(tree, "unit")
-        unit.attrib["type"] = "leaves"
+        tree = self.msdesc.xpath('//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:measure', namespaces=nsmap)[0]
+        tree.attrib["unit"] = "leaf"
         if isinstance(umfang, (int, float)):
             umfang = str(int(umfang))
-        unit.attrib["quantity"] = umfang
+            tree.attrib["quantity"] = umfang
+        else:
+            for i in umfang.split():
+                if i.isnumeric():
+                    tree.attrib["quantity"] = i
+                    break
+        tree.text = umfang
 
     def parse_format(self, size):
         tree = self.msdesc.xpath('//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions', namespaces=nsmap)[0]
