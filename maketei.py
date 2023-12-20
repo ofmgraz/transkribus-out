@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from datetime import datetime
 from acdh_tei_pyutils.tei import TeiReader
 from lxml import etree as ET
