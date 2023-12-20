@@ -39,26 +39,6 @@ class Log:
 log = Log("0mets2tei")
 
 
-class TEIValidator:
-    from lxml import objectify
-    from lxml.etree import XMLSchema, parse
-    from lxml import etree as ET
-
-    def __init__(self, xml_tree, xsd_file):
-        self.xsd_root = self.ET.parse(xsd_file)
-        self.xml_tree = xml_tree
-        self.valid = self.validate()
-
-    def validate(self):
-        validated = 0
-        try:
-            schema = self.XMLSchema(self.xsd_root)
-            schema.validate(self.xml_tree)
-        except XMLSyntaxError as e:
-            validated = e
-        return validated
-
-
 class TeiTree:
     def __init__(self, source_table, source_tkb):
         self.wb_obj = load_workbook(source_table).active
