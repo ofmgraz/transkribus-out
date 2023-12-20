@@ -2,9 +2,11 @@
 from datetime import datetime
 from acdh_tei_pyutils.tei import TeiReader
 from lxml import etree as ET
+from lxml.etree import XMLSyntaxError
 import json
 import os
 import re
+import sys
 import pandas as pd
 from openpyxl import load_workbook
 
@@ -35,7 +37,7 @@ log = Log("mets2tei.log")
 
 class TEIValidator:
     from lxml import objectify
-    from lxml.etree import XMLSyntaxError, XMLSchema, parse
+    from lxml.etree import XMLSchema, parse
     from lxml import etree as ET
 
     def __init__(self, xml_tree, xsd_file):
@@ -44,12 +46,12 @@ class TEIValidator:
         self.valid = self.validate()
 
     def validate(self):
-        validated = True
+        validated = 0
         try:
             schema = self.XMLSchema(self.xsd_root)
             schema.validate(self.xml_tree)
-        except self.XMLSyntaxError:
-            validated = False
+        except XMLSyntaxError as e:
+            validated = e
         return validated
 
 
@@ -57,14 +59,24 @@ class TeiTree:
     def __init__(self, source_table, source_tkb):
         self.wb_obj = load_workbook(source_table).active
         self.doc_id = os.path.basename(source_tkb).rstrip(".xml")
-        self.tkb = TeiReader(source_tkb)
-        self.tei = TeiReader("template.xml")
+        self.tkb = self.read_xml_input(source_tkb)
+        self.tei = self.read_xml_input("template.xml")
         self.root = self.tei.any_xpath("//tei:TEI")[0]
         self.header = self.tei.any_xpath("//tei:teiHeader")[0]
         self.msdesc = self.tei.any_xpath("//tei:msDesc")[0]
         self.elements = self.extract_from_table(source_table, self.header)
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
+
+    @staticmethod
+    def read_xml_input(input_file):
+        try:
+            tree = TeiReader(input_file)
+        except XMLSyntaxError as e:
+            log.print_log(input_file, e)
+            print(f"{input_file}:\t{e}")
+            sys.exit(-1)
+        return tree
 
     def extract_from_table(self, table, header):
         self.header = header
