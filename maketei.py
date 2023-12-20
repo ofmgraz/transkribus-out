@@ -136,7 +136,7 @@ class TeiTree:
             dictionary = json.load(f)
         for book in books:
             for booktype in dictionary:
-                if booktype in book.lower():
+                if booktype in book.lower() and dictionary[booktype] not in keys:
                     keys += f" #{dictionary[booktype]}"
         return keys
 
@@ -153,8 +153,7 @@ class TeiTree:
 
     def parse_extension(self, umfang):
         tree = self.msdesc.xpath(
-            "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:measure",
-            namespaces=nsmap,
+            "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:measure", namespaces=nsmap
         )[0]
         tree.attrib["unit"] = "leaf"
         if isinstance(umfang, (int, float)):
@@ -169,8 +168,7 @@ class TeiTree:
 
     def parse_format(self, size):
         tree = self.msdesc.xpath(
-            "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions",
-            namespaces=nsmap,
+            "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions", namespaces=nsmap
         )[0]
         size = size.replace("*", "x").split("x")
         if len(size) < 2:
