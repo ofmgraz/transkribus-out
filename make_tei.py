@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Executable file that calls library maketei
 import maketei
 import glob
 from os import path
