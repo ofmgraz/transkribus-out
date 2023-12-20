@@ -6,7 +6,6 @@ from lxml.etree import XMLSyntaxError
 import json
 import os
 import re
-import sys
 import pandas as pd
 from openpyxl import load_workbook
 
@@ -21,18 +20,24 @@ nsmap = {
 
 
 class Log:
-    def __init__(self, logfile):
-        self.file_name = logfile
+    def __init__(self, logfile, stdout=False):
+        if logfile:
+            self.file_name = logfile
+        else:
+            self.file_name = False
+        self.stdout = stdout
 
-    def print_log(self, faulty_item, arg="could not be parsed"):
-        now = datetime.now()
-        with open(f"{self.file_name}.log", "a") as f:
-            f.write(
-                f'{now.strftime("%Y/%m/%d %H:%M:%S")}\t' f"File `{faulty_item}` {arg}\n"
-            )
+    def print_log(self, faulty_item, arg="could not be parsed", stdout=False):
+        now = datetime.now().strftime("%Y/%m/%d %H:%M:%S")
+        log_entry = f"{faulty_item}: {arg}"
+        if stdout:
+            print(log_entry)
+        if self.file_name:
+            with open(f"{self.file_name}.log", "a") as f:
+                f.write(f"{now}\t{log_entry}\n")
 
 
-log = Log("mets2tei.log")
+log = Log("0mets2tei")
 
 
 class TEIValidator:
@@ -58,6 +63,8 @@ class TEIValidator:
 class TeiTree:
     def __init__(self, source_table, source_tkb):
         self.wb_obj = load_workbook(source_table).active
+        self.filename = source_tkb
+        self.tablename = source_table
         self.doc_id = os.path.basename(source_tkb).rstrip(".xml")
         self.tkb = self.read_xml_input(source_tkb)
         self.tei = self.read_xml_input("template.xml")
@@ -67,15 +74,17 @@ class TeiTree:
         self.elements = self.extract_from_table(source_table, self.header)
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
+        self.printable = ET.tostring(
+            self.tei.tree, pretty_print=True, encoding="unicode"
+        )
 
     @staticmethod
     def read_xml_input(input_file):
         try:
             tree = TeiReader(input_file)
         except XMLSyntaxError as e:
-            log.print_log(input_file, e)
-            print(f"{input_file}:\t{e}")
-            sys.exit(-1)
+            log.print_log(input_file, e, True)
+            tree = False
         return tree
 
     def extract_from_table(self, table, header):
@@ -116,9 +125,11 @@ class TeiTree:
             year = re.sub("x+", "00", date).lstrip("~").split()[0]
             year = int(year.split("-")[0].strip("."))
         except Exception:
-            log.print_log(date, "is not a valid date")
-            year = "nan"
-        if date.startswith("~"):
+            log.print_log(self.tablename, f"`{date}` is not a valid date")
+            year = "2023"
+        if year == "2023":
+            ddate = {"notBefore": "1000", "notAfter": year}
+        elif date.startswith("~"):
             ddate = {"notBefore": f"{year - 20}", "notAfter": f"{year + 20}"}
         elif date.endswith("Jh."):
             ddate = {
