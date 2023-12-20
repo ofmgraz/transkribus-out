@@ -53,9 +53,7 @@ class TeiTree:
         self.elements = self.extract_from_table(source_table, self.header)
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
-        self.printable = ET.tostring(
-            self.tei.tree, pretty_print=True, encoding="unicode"
-        )
+        self.printable = ET.tostring(self.tei.tree, pretty_print=True, encoding="unicode")
 
     @staticmethod
     def read_xml_input(input_file):
@@ -83,23 +81,15 @@ class TeiTree:
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
-        self.msdesc.xpath("//tei:msIdentifier/tei:idno", namespaces=nsmap)[
-            0
-        ].text = sign
+        self.msdesc.xpath("//tei:msIdentifier/tei:idno", namespaces=nsmap)[0].text = sign
         if not self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
-                0
-            ].text = sign
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = sign
 
     def parse_origin(self, origin):
-        self.msdesc.xpath("//tei:history/tei:provenance", namespaces=nsmap)[
-            0
-        ].text = origin
+        self.msdesc.xpath("//tei:history/tei:provenance", namespaces=nsmap)[0].text = origin
 
     def parse_date(self, date):
-        element = self.msdesc.xpath(
-            "//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date", namespaces=nsmap
-        )[0]
+        element = self.msdesc.xpath("//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date", namespaces=nsmap)[0]
         try:
             year = re.sub("x+", "00", date).lstrip("~").split()[0]
             year = int(year.split("-")[0].strip("."))
@@ -192,8 +182,6 @@ class TeiTree:
 
     def parse_notation(self, placeholder):
         # We don't have the source yet.
-        tree = self.msdesc.xpath("//tei:physDesc/tei:musicNotation", namespaces=nsmap)[
-            0
-        ]
+        tree = self.msdesc.xpath("//tei:physDesc/tei:musicNotation", namespaces=nsmap)[0]
         tree.text = "Placeholder"
         return tree
