@@ -6,7 +6,6 @@ import json
 import os
 import re
 import pandas as pd
-from openpyxl import load_workbook
 
 
 nsmap = {
@@ -41,7 +40,6 @@ log = Log("0mets2tei")
 
 class TeiTree:
     def __init__(self, source_table, source_tkb):
-        self.wb_obj = load_workbook(source_table).active
         self.filename = source_tkb
         self.tablename = source_table
         self.doc_id = os.path.basename(source_tkb).rstrip(".xml")
@@ -53,7 +51,9 @@ class TeiTree:
         self.elements = self.extract_from_table(source_table, self.header)
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
-        self.printable = ET.tostring(self.tei.tree, pretty_print=True, encoding="unicode")
+        self.printable = ET.tostring(
+            self.tei.tree, pretty_print=True, encoding="unicode"
+        )
 
     @staticmethod
     def read_xml_input(input_file):
@@ -64,9 +64,20 @@ class TeiTree:
             tree = False
         return tree
 
+    @staticmethod
+    def read_table(table):
+        try:
+            df = pd.read_csv(table).fillna("")
+        except Exception:
+            try:
+                df = pd.read_excel(table).fillna("")
+            except Exception:
+                log.print_log(table, "Unsupported format", True)
+        return df
+
     def extract_from_table(self, table, header):
         self.header = header
-        df = pd.read_excel(table).fillna("")
+        df = self.read_table(table)
         column_name = self.doc_id[0] + " " + self.doc_id[1:].replace("_", "/")
 
         for idx, row in df.loc[df["Signatur"] == column_name].iterrows():
@@ -81,26 +92,34 @@ class TeiTree:
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
-        self.msdesc.xpath("//tei:msIdentifier/tei:idno", namespaces=nsmap)[0].text = sign
+        self.msdesc.xpath("//tei:msIdentifier/tei:idno", namespaces=nsmap)[
+            0
+        ].text = sign
         if not self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = sign
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
+                0
+            ].text = sign
 
     def parse_origin(self, origin):
-        self.msdesc.xpath("//tei:history/tei:provenance", namespaces=nsmap)[0].text = origin
+        self.msdesc.xpath("//tei:history/tei:provenance", namespaces=nsmap)[
+            0
+        ].text = origin
 
     def parse_date(self, date):
-        element = self.msdesc.xpath("//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date", namespaces=nsmap)[0]
+        element = self.msdesc.xpath(
+            "//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date", namespaces=nsmap
+        )[0]
         try:
             year = re.sub("x+", "00", date).lstrip("~").split()[0]
             year = int(year.split("-")[0].strip("."))
         except Exception:
-            log.print_log(self.tablename, f"`{date}` is not a valid date")
+            log.print_log(self.tablename, f"“{date}”´ is not a valid date")
             year = "2023"
         if year == "2023":
             ddate = {"notBefore": "1000", "notAfter": year}
         elif date.startswith("~"):
             ddate = {"notBefore": f"{year - 20}", "notAfter": f"{year + 20}"}
-        elif date.endswith("Jh."):
+        elif date.endswith("Jh.") or re.match(r"^\d{2}$", date):
             ddate = {
                 "notBefore": f"{(year - 1) * 100}",
                 "notAfter": f"{(year - 1) * 100 + 99}",
@@ -141,19 +160,39 @@ class TeiTree:
         return keys
 
     def parse_summary(self, summary, bookt, attributes, line):
-        if summary == summary:
-            content = self.wb_obj.cell(row=line + 1, column=6)
-        else:
-            content = ""
+        if summary != summary:
+            summary = ""
+        title = re.findall("„(.*)“", summary)
+        summary = summary.replace("„", "<title>").replace("“", "</title>")
         element = self.msdesc.xpath("//tei:msContents", namespaces=nsmap)[0]
         element.attrib["class"] = attributes
         subelement = element.xpath("//tei:summary", namespaces=nsmap)[0]
-        ET.SubElement(subelement, "p").text = str(content)
-        ET.SubElement(subelement, "p").text = bookt
+        subelement.append(ET.fromstring(f"<p>{summary}</p>"))
+        subelement.append(ET.fromstring(f"<p>{bookt}</p>"))
+        if title:
+            tistmt = self.header.xpath(
+                "//tei:fileDesc/tei:titleStmt", namespaces=nsmap
+            )[0]
+            title, subtitle = self.parse_title(title[0])
+            if subtitle:
+                ET.SubElement(tistmt, "title", type="sub").text = subtitle
+            if tistmt.xpath("//tei:title", namespaces=nsmap)[0].text:
+                ET.SubElement(tistmt, "title", type="desc").text = tistmt.xpath(
+                    "//tei:title", namespaces=nsmap
+                )[0].text
+            tistmt.xpath("//tei:title", namespaces=nsmap)[0].text = title
+
+    @staticmethod
+    def parse_title(title):
+        title = title.split(":")
+        if len(title) < 2:
+            title += [False]
+        return title[0], title[1]
 
     def parse_extension(self, umfang):
         tree = self.msdesc.xpath(
-            "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:measure", namespaces=nsmap
+            "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:measure",
+            namespaces=nsmap,
         )[0]
         tree.attrib["unit"] = "leaf"
         if isinstance(umfang, (int, float)):
@@ -168,7 +207,8 @@ class TeiTree:
 
     def parse_format(self, size):
         tree = self.msdesc.xpath(
-            "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions", namespaces=nsmap
+            "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions",
+            namespaces=nsmap,
         )[0]
         size = size.replace("*", "x").split("x")
         if len(size) < 2:
@@ -180,6 +220,8 @@ class TeiTree:
 
     def parse_notation(self, placeholder):
         # We don't have the source yet.
-        tree = self.msdesc.xpath("//tei:physDesc/tei:musicNotation", namespaces=nsmap)[0]
+        tree = self.msdesc.xpath("//tei:physDesc/tei:musicNotation", namespaces=nsmap)[
+            0
+        ]
         tree.text = "Placeholder"
         return tree

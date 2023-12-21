@@ -3,11 +3,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"></title>
+            <title type="main"/>
          </titleStmt>
          <editionStmt>
             <edition>Electronic edition</edition>
-            <funder>BMKÖS Kulturerbe Digital</funder> 
+            <funder>BMKÖS Kulturerbe Digital</funder>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften</publisher>
@@ -18,7 +18,8 @@
                <addrLine>Bäckerstraße 13</addrLine>
                <addrLine>1100 Vienna</addrLine>
                <addrLine>Austria</addrLine>
-               <addrLine><ref target="https://www.oeaw.ac.at/">https://www.oeaw.ac.at/</ref></addrLine>
+               <addrLine><ref target="https://www.oeaw.ac.at/"
+                  >https://www.oeaw.ac.at/</ref></addrLine>
                <addrLine><email>acdh-ch@oeaw.ac.at</email></addrLine>
             </address>
             <pubPlace>Wien</pubPlace>
@@ -29,12 +30,15 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <date></date>
+               <date/>
             </bibl>
             <msDesc>
                <msIdentifier>
-                  <repository>Hardcoded</repository>
-                  <idno type="shelfmark"></idno>
+                  <country>Austria</country>
+                  <settlement>Graz</settlement>
+                  <institution>Franziskanerkloster Graz</institution>
+                  <repository>Zentralbibliothek der Wiener Franziskanerprovinz Graz</repository>
+                  <idno type="shelfmark"/>
                </msIdentifier>
                <msContents class="">
                   <summary/>
@@ -43,26 +47,24 @@
                   <objectDesc form="codex">
                      <supportDesc>
                         <support>
-                           <dimensions unit="mm">
-                             <!-- <height></height>
-                              <width></width> -->
-                           </dimensions>
+                           <dimensions unit="mm"> </dimensions>
                         </support>
                         <extent>
                            <measure/>
-                         </extent>
+                        </extent>
                      </supportDesc>
                   </objectDesc>
                   <musicNotation><binaryObject/></musicNotation>
                </physDesc>
                <history>
-                  <provenance></provenance>
+                  <provenance/>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p>Generiert mit Transkribus, weiterverarbeitet m. custom script</p>
+         <editorialDecl><p>Generated with <address><addrLine><ref target="https://readcoop.eu/de/transkribus/">Transkribus</ref></addrLine></address>.</p>
+            <p>Edited with <address><addrLine><ref target="https://github.com/ofmgraz/transkribus-out">custom scripts</ref></addrLine></address></p>.</editorialDecl>
          <classDecl>
             <taxonomy>
                <desc>Book types</desc>

@@ -5,7 +5,7 @@ import glob
 from os import path
 
 source_directory = "tei"
-source_table = "../../goobi-processing/001_src/Quellen_OFM_Graz.xlsx"
+source_table = "Quellen_OFM_Graz.csv"
 schema_file = "tei_ms.xsd"
 i = 1
 
@@ -19,4 +19,5 @@ for input_file in glob.glob(path.join(source_directory, "*.xml")):
         with open(input_file, "w") as f:
             f.write(tei_source.printable)
     except Exception as e:
-        log.print_log(input_file, e, stdout=True)
+        error = f"{type(e).__name__} {__file__} {e.__traceback__.tb_lineno}"
+        log.print_log(input_file, error, stdout=True)
