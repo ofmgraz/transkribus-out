@@ -129,7 +129,7 @@ class TeiTree:
         except Exception:
             log.print_log(self.tablename, f"“{date}”´ is not a valid date")
             year = "2023"
-        if year == "2023":
+        if year == 2023:
             ddate = {"notBefore": "1000", "notAfter": year}
         elif date.startswith("~"):
             ddate = {"notBefore": f"{year - 20}", "notAfter": f"{year + 20}"}
@@ -144,16 +144,16 @@ class TeiTree:
             second = date.split("-")[1]
             year *= 100
             if second in "12":
-                factor = 100 / int(second)
+                factor = int(100 / int(second))
                 ddate = {"notBefore": year - factor, "notAfter": year - factor + 50}
             else:
-                factor = int(second.split("/")[0]) * 100 / int(second.split("/")[1])
+                factor = int(int(second.split("/")[0]) * 100 / int(second.split("/")[1]))
                 ddate = {
                     "notBefore": year + factor - 25,
-                    "notAfter": year + factor,
+                    "notAfter": year + factor
                 }
         else:
-            ddate = {"when": f"{year}"}
+            ddate = {"when": f"{int(year)}"}
         element.text = date
         for time in ddate:
             element.attrib[time] = str(ddate[time])
