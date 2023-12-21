@@ -44,6 +44,7 @@ class TeiTree:
         self.tablename = source_table
         self.doc_id = os.path.basename(source_tkb).rstrip(".xml")
         self.tkb = self.read_xml_input(source_tkb)
+        self.tkb = self.amend_pics_url(self.tkb, self.doc_id)
         self.tei = self.read_xml_input("template.xml")
         self.root = self.tei.any_xpath("//tei:TEI")[0]
         self.header = self.tei.any_xpath("//tei:teiHeader")[0]
@@ -54,6 +55,18 @@ class TeiTree:
         self.printable = ET.tostring(
             self.tei.tree, pretty_print=True, encoding="unicode"
         )
+
+    @staticmethod
+    def amend_pics_url(tree, doc_id):
+        graphic_elements = tree.any_xpath(".//tei:graphic")
+        for element in graphic_elements:
+            img_name = element.attrib["url"].split('.')[0].replace('Gu', 'Gf')
+            element.attrib["url"] = 'https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/'\
+                f'{doc_id}/files/images/{img_name}/full/full/0/default.jpg'
+            for empty_url in tree.any_xpath(".//tei:graphic[@url='']"):
+                empty_url.getparent().remove(empty_url)
+        # https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
+        return tree
 
     @staticmethod
     def read_xml_input(input_file):
