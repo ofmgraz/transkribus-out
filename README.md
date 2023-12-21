@@ -14,6 +14,15 @@ Automagically export and upconvert data from [Transkribus](https://readcoop.eu/)
 run `source ./secret.env` to set your Transkribus credentials as environment variables.
 * run `python download_and_transform.py`
 
+## Rename files
+
+* Renames Transkribus files to descriptive filenames to match their METS counterparts and the table
+* Run `./renamefiles.py`
+
+## Create TEI
+* Creates TEI files with the required teiHeader
+* Run `./make_tei.py`
+
 ## GitHub-Actions
 
 * Create GitHub secrets called `TR_USER` and `TR_PW` and add your Transkribus credentials

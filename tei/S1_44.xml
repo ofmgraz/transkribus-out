@@ -1,14 +1,133 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-         <titleStmt><title type="main">A-Gf_S1_44_Antiphonale</title></titleStmt>
-         <seriesStmt><title>OFM_Graz_Choralhandschriften</title></seriesStmt>
+         <titleStmt>
+            <title type="main">S 1/44</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Electronic edition</edition>
+            <funder>BMKÖS Kulturerbe Digital</funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <authority>Österreichische Akademie der Wissenschaften</authority>
+            <address>
+               <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
+               <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
+               <addrLine>Bäckerstraße 13</addrLine>
+               <addrLine>1100 Vienna</addrLine>
+               <addrLine>Austria</addrLine>
+               <addrLine><ref target="https://www.oeaw.ac.at/">https://www.oeaw.ac.at/</ref></addrLine>
+               <addrLine><email>acdh-ch@oeaw.ac.at</email></addrLine>
+            </address>
+            <pubPlace>Wien</pubPlace>
+            <availability>
+               <licence>cc0</licence>
+            </availability>
+            <date when="2023">2023</date>
+         </publicationStmt>
          <sourceDesc>
-            <bibl><title type="main">A-Gf_S1_44_Antiphonale</title><idno type="Transkribus">1581459</idno><idno type="external">NA</idno></bibl>
+            <bibl>
+               <date notBefore="1700" notAfter="1799">18. Jh.</date>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Austria</country>
+                  <settlement>Graz</settlement>
+                  <institution>Franziskanerkloster Graz</institution>
+                  <repository>Zentralbibliothek der Wiener Franziskanerprovinz Graz</repository>
+                  <idno type="shelfmark">S 1/44</idno>
+               </msIdentifier>
+               <msContents class="#ofm #antiphonale #temporale">
+                  <summary><p>Auszüge aus dem Antiphonale (Advent bis Mariä Namen): Magnificat-Antiphonen, bei größeren Festen Laudes und Vesper, mit Hymnen</p><p>Antiphonale, Teil 1</p></summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <dimensions unit="mm"> <height>553</height><width>380</width></dimensions>
+                        </support>
+                        <extent>
+                           <measure unit="leaf" quantity="336">336</measure>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <musicNotation>Placeholder<binaryObject/></musicNotation>
+               </physDesc>
+               <history>
+                  <provenance>Graz</provenance>
+               </history>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <editorialDecl><p>Generated with <address><addrLine><ref target="https://readcoop.eu/de/transkribus/">Transkribus</ref></addrLine></address>.</p>
+            <p>Edited with <address><addrLine><ref target="https://github.com/ofmgraz/transkribus-out">custom scripts</ref></addrLine></address></p>.</editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <desc>Book types</desc>
+               <category xml:id="graduale">
+                  <catDesc>Graduale</catDesc>
+               </category>
+               <category xml:id="antiphonale">
+                  <catDesc>Antiphonale</catDesc>
+               </category>
+               <category xml:id="sequentiar">
+                  <catDesc>Sequentiar</catDesc>
+               </category>
+               <category xml:id="psalterium">
+                  <catDesc>Psalterium</catDesc>
+               </category>
+               <category xml:id="hymnar">
+                  <catDesc>Hymnar</catDesc>
+               </category>
+               <category xml:id="prozessionale">
+                  <catDesc>Prozessionale</catDesc>
+               </category>
+               <category xml:id="responsoriale">
+                  <catDesc>Responsoriale</catDesc>
+               </category>
+               <category xml:id="orgelbuch">
+                  <catDesc>Orgelbuch</catDesc>
+               </category>
+               <category xml:id="lamentationen">
+                  <catDesc>Lamentationen</catDesc>
+               </category>
+               <category xml:id="manuale">
+                  <catDesc>Manuale</catDesc>
+               </category>
+               <category xml:id="litaneien">
+                  <catDesc>Litaneien</catDesc>
+               </category>
+               <category xml:id="gesaenge">
+                  <catDesc>Gesaenge</catDesc>
+               </category>
+               <category xml:id="coralbuch">
+                  <catDesc>Coralbuch</catDesc>
+               </category>
+               <category xml:id="intonationsbuch">
+                  <catDesc>Intonationsbuch</catDesc>
+               </category>
+               <category xml:id="temporale">
+                  <catDesc>Temporale</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <desc>Liturgies</desc>
+               <category xml:id="OFM">
+                  <catDesc>OFM</catDesc>
+               </category>
+               <category xml:id="OSC">
+                  <catDesc>OSC</catDesc>
+               </category>
+               <category xml:id="OESA">
+                  <catDesc>OESA</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
    </teiHeader>
-   <facsimile>
+<facsimile>
       <surface ulx="0" uly="0" lrx="2000" lry="2880" xml:id="facs_1">
          <graphic url="A-Gf_S1_44-00Iv.jpg" width="2000px" height="2880px"/>
          <graphic url="" width="2000px" height="2880px"/>
