@@ -1,4 +1,4 @@
-teiname: Download and process
+name: Download and process
 
 on: 
   workflow_dispatch:
@@ -30,4 +30,3 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
-  
