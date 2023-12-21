@@ -1,4 +1,4 @@
-name: Download and process
+teiname: Download and process
 
 on: 
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
     - name: rename files
       run: ./renamefiles.py
     - name: mets to tei
-      run: ./fetchteiheader.py
+      run: ./make_tei.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
