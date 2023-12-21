@@ -61,6 +61,7 @@ class TeiTree:
         graphic_elements = tree.any_xpath(".//tei:graphic")
         for element in graphic_elements:
             img_name = element.attrib["url"].split('.')[0].replace('Gu', 'Gf')
+            img_name = re.sub(r'^[\d_]*', '', img_name)
             element.attrib["url"] = 'https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/'\
                 f'{doc_id}/files/images/{img_name}/full/full/0/default.jpg'
             for empty_url in tree.any_xpath(".//tei:graphic[@url='']"):
