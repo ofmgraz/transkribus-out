@@ -63,8 +63,14 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-<editorialDecl><p>Generated with <address><addrLine><ref target="https://readcoop.eu/de/transkribus/">Transkribus</ref></addrLine></address>.</p><p>Edited with <address><addrLine><ref target="https://github.com/ofmgraz/transkribus-out">custom scripts</ref></addrLine></address>.</p>
-            </editorialDecl>
+         <editorialDecl>
+            <p>Generated with <address>
+                  <addrLine><ref target="https://readcoop.eu/de/transkribus/">Transkribus</ref></addrLine>
+               </address>.</p>
+            <p>Edited with <address>
+                  <addrLine><ref target="https://github.com/ofmgraz/transkribus-out">custom scripts</ref></addrLine>
+               </address>.</p>
+         </editorialDecl>
          <classDecl>
             <taxonomy>
                <desc>Book types</desc>
@@ -128,5 +134,26 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textDesc n="choirbook">
+            <channel mode="ws">manuscript</channel>
+            <constitution type="composite"/>
+            <derivation/>
+            <domain type="religious"/>
+            <factuality type="inapplicable"/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <settingDesc>
+            <setting>
+               <name>Styria</name>
+               <time/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
    </teiHeader>
 </TEI>
