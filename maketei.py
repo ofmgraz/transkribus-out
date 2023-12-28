@@ -142,6 +142,7 @@ class TeiTree:
             self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[
                 0
             ].attrib["form"] = "print"
+            self.header.xpath("//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap)[0].text = 'book'
 
     def make_publisher(self, place, publisher):
         bibl = self.header.xpath(
