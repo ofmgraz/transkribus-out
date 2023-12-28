@@ -60,10 +60,12 @@ class TeiTree:
     def amend_pics_url(tree, doc_id):
         graphic_elements = tree.any_xpath(".//tei:graphic")
         for element in graphic_elements:
-            img_name = element.attrib["url"].split('.')[0].replace('Gu', 'Gf')
-            img_name = re.sub(r'^[\d_]*', '', img_name)
-            element.attrib["url"] = 'https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/'\
-                f'{doc_id}/files/images/{img_name}/full/full/0/default.jpg'
+            img_name = element.attrib["url"].split(".")[0].replace("Gu", "Gf")
+            img_name = re.sub(r"^[\d_]*", "", img_name)
+            element.attrib["url"] = (
+                "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/"
+                f"{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
+            )
             for empty_url in tree.any_xpath(".//tei:graphic[@url='']"):
                 empty_url.getparent().remove(empty_url)
         # https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
@@ -115,9 +117,40 @@ class TeiTree:
             ].text = sign
 
     def parse_origin(self, origin):
-        self.msdesc.xpath("//tei:history/tei:provenance", namespaces=nsmap)[
-            0
-        ].text = origin
+        places = {
+            "Graz": "GRZ",
+            "Ljubljana": "LJB",
+            "Wien": "VIE",
+            "Lankowitz": "MRL",
+            "München": "MUN",
+            "Pölten": "STP",
+            "Mautern": "MIS",
+            "Salzburg": "SLZ",
+            "Venedig": "VNZ",
+        }
+        origin = origin.split(",")
+        provenience = ET.Element("{http://www.tei-c.org/ns/1.0}placeName")
+        provenience.attrib["ref"] = " ".join(
+            [f"#{places[i]}" for i in places if i in origin[0]]
+        )
+        provenience.text = origin[0]
+        self.msdesc.xpath("//tei:history/tei:provenance", namespaces=nsmap)[0].append(
+            provenience
+        )
+        if len(origin) > 1:
+            self.make_publisher(provenience, origin[1])
+            self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[
+                0
+            ].attrib["form"] = "print"
+
+    def make_publisher(self, place, publisher):
+        bibl = self.header.xpath(
+            "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
+        )[0]
+        ET.SubElement(bibl, "{http://www.tei-c.org/ns/1.0}pubPlace").append(place)
+        ET.SubElement(
+            bibl, "{http://www.tei-c.org/ns/1.0}publisher"
+        ).text = publisher.strip()
 
     def parse_date(self, date):
         element = self.msdesc.xpath(
@@ -147,11 +180,10 @@ class TeiTree:
                 factor = int(100 / int(second))
                 ddate = {"notBefore": year - factor, "notAfter": year - factor + 50}
             else:
-                factor = int(int(second.split("/")[0]) * 100 / int(second.split("/")[1]))
-                ddate = {
-                    "notBefore": year + factor - 25,
-                    "notAfter": year + factor
-                }
+                factor = int(
+                    int(second.split("/")[0]) * 100 / int(second.split("/")[1])
+                )
+                ddate = {"notBefore": year + factor - 25, "notAfter": year + factor}
         else:
             ddate = {"when": f"{int(year)}"}
         element.text = date
