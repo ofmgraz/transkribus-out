@@ -1,4 +1,4 @@
-name: Process
+name: Download and process
 
   #on: 
   #workflow_dispatch:
@@ -13,16 +13,16 @@ jobs:
       contents: write
     env:
       ANT_OPTS: -Xmx5g
+      TR_USER: ${{ secrets.TR_USER }}
+      TR_PW: ${{ secrets.TR_PW }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v3
     - name: Install Python Packages
       run: pip install -r requirements.txt
-    - name: rename files
-      run: ./renamefiles.py
-    - name: mets to tei
-      run: ./make_tei.py
+    - name: Download and transform
+      run: python download_and_transform.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
