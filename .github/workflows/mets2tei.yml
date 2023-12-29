@@ -5,7 +5,7 @@ name: Process
 
 jobs:
   build_pages:
-    name: Download METS files from Transkribus and convert them to TEIs
+    name: Process TEIs
     runs-on: ubuntu-latest
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the
@@ -25,4 +25,4 @@ jobs:
       run: ./make_tei.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: Export and Transformation done
+        commit_message: Processed
