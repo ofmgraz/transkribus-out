@@ -55,6 +55,7 @@ class TeiTree:
         self.printable = ET.tostring(
             self.tei.tree, pretty_print=True, encoding="unicode"
         )
+        self.make_text()
 
     @staticmethod
     def amend_pics_url(tree, doc_id):
@@ -272,3 +273,6 @@ class TeiTree:
         ]
         tree.text = "Placeholder"
         return tree
+
+    def make_text(self):
+        text = self.root.xpath("./tei:text")[0]
