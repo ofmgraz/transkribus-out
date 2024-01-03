@@ -124,7 +124,6 @@ class TeiTree:
             ].text = sign
 
     def parse_origin(self, origin):
-        print(origin)
         tree = self.tei.any_xpath(".//tei:standOff/tei:listPlace")[0]
         origins = origin.split(",")
         if origins[0]:
@@ -136,7 +135,6 @@ class TeiTree:
             origins[0] = origins[0].strip('? ')
             dictentry = locdict[origins[0]]
             place.attrib['{http://www.w3.org/XML/1998/namespace}id'] = f"{dictentry['id']}"
-            print(f"{dictentry['id']}")
             ET.SubElement(place, '{http://www.tei-c.org/ns/1.0}placeName').text = origins[0]
             location = ET.SubElement(place, "{http://www.tei-c.org/ns/1.0}location")
             for i in dictentry['location']:
