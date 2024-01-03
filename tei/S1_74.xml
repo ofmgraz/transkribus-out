@@ -33,7 +33,7 @@
       <sourceDesc>
         <bibl>
           <date when="1702">1702</date>
-        <pubPlace><placeName ref="#VIE">Wien</placeName></pubPlace><publisher>Leopold Voigt</publisher></bibl>
+        </bibl>
         <msDesc>
           <msIdentifier>
             <institution>Franziskanerkloster Graz</institution>
@@ -46,7 +46,7 @@
             <summary><p><title>Ordo agendorum et cantandorum in actibus processionalibus: Pro EE Franciscanis strictioris observantiae, in alma Provincia Austriae DEO famulantibus Anno M.DCLVI accomodatus</title></p><p>Prozessionale</p></summary>
           </msContents>
           <physDesc>
-            <objectDesc form="print">
+            <objectDesc form="codex">
               <supportDesc>
                 <support>
                   <dimensions unit="mm"> <height>534</height><width>376</width></dimensions>
@@ -60,7 +60,7 @@
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance><placeName ref="#VIE">Wien</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -139,7 +139,7 @@
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws">book</channel>
+        <channel mode="ws">manuscript</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -224,7 +224,7 @@
             <geo>47.4 14.833333333333</geo>
           </location>
         </place>
-      </listPlace>
+      <place xml:id="VIE"><placeName>Wien</placeName><location><region>Vienna</region><country>Austria</country><geo>48.208333333333336 16.3725</geo></location></place></listPlace>
     </standOff>
   </standOff>
 <facsimile>

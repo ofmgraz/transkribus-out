@@ -33,7 +33,7 @@
       <sourceDesc>
         <bibl>
           <date notBefore="1450" notAfter="1500">15-2</date>
-        <pubPlace><placeName ref="#MUN">München?</placeName></pubPlace><publisher>Graz</publisher></bibl>
+        </bibl>
         <msDesc>
           <msIdentifier>
             <institution>Franziskanerkloster Graz</institution>
@@ -46,7 +46,7 @@
             <summary><p/><p>Graduale, Teil 2</p></summary>
           </msContents>
           <physDesc>
-            <objectDesc form="print">
+            <objectDesc form="codex">
               <supportDesc>
                 <support>
                   <dimensions unit="mm"> <height>210</height><width>160</width></dimensions>
@@ -60,7 +60,7 @@
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance><placeName ref="#MUN" cert="medium">München</placeName><placeName ref="#GRZ">Graz</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -139,7 +139,7 @@
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws">book</channel>
+        <channel mode="ws">manuscript</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -224,7 +224,7 @@
             <geo>47.4 14.833333333333</geo>
           </location>
         </place>
-      </listPlace>
+      <place xml:id="MUN"><placeName>München</placeName><location><region>Baviera</region><country>Germany</country><geo>48.1375 11.575</geo></location></place><place xml:id="GRZ"><placeName>Graz</placeName><location><region>Styria</region><country>Austria</country><geo>47.07083333333333 15.438611111111111</geo></location></place></listPlace>
     </standOff>
   </standOff>
 <facsimile>
