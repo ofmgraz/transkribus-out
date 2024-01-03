@@ -2,50 +2,64 @@
 	"Ljubljana": {
 		"id": "LJB",
 		"placeName": "Ljubjana",
-		"region": "Carniola",
-		"country": "Slovenia",
-		"geo": "46.05138888888889 14.50611111111111"
+		"location": {
+			"region": "Carniola",
+			"country": "Slovenia",
+			"geo": "46.05138888888889 14.50611111111111"
+		}
 	},
 	"Lankowitz": {
 		"id": "MRL",
 		"placeName": "Maria Lankowitz",
-		"region": "Styria",
-		"country": "Austria",
-		"geo": "47.063888888889 15.063055555556"
+		"location": {
+			"region": "Styria",
+			"country": "Austria",
+			"geo": "47.063888888889 15.063055555556"
+		}
 	},
 	"Graz": {
 		"id": "GRZ",
 		"placeName": "Graz",
-		"region": "Styria",
-		"country": "Austria",
-		"geo": "47.07083333333333 15.438611111111111"
+		"location": {
+			"region": "Styria",
+			"country": "Austria",
+			"geo": "47.07083333333333 15.438611111111111"
+		}
 	},
 	"Wien": {
 		"id": "VIE",
 		"placeName": "Vienna",
-		"region": "Vienna",
-		"country": "Austria",
-		"geo": "48.208333333333336 16.3725"
+		"location": {
+			"region": "Vienna",
+			"country": "Austria",
+			"geo": "48.208333333333336 16.3725"
+		}
 	},
 	"München": {
 		"id": "MUN",
 		"placeName": "Munich" ,
-		"region": "Baviera",
-		"country": "Germany",
-		"geo": "48.1375 11.575"
+		"location": {
+			"region": "Baviera",
+			"country": "Germany",
+			"geo": "48.1375 11.575"
+		}
 	},
 	"Pölten": {
 		"id": "STP",
 		"placeName": "St. Pölten",
-		"region": "Lower Austria",
-		"country": "Austria",
-		"geo": "48.2 15.616666666667"
+		"location": {
+			"region": "Lower Austria",
+			"country": "Austria",
+			"geo": "48.2 15.616666666667"
+		}
 	},
 	"Mautern": {
 		"id": "MIS",
 		"placeName": "Mautern in Steiermark",
-		"region": "Styria",
-		"country": "Austria",
-		"geo": "47.4 14.833333333333"
+		"location": {
+			"region": "Styria",
+			"country": "Austria",
+			"geo": "47.4 14.833333333333"
+			}
 	}
 }
