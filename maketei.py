@@ -58,10 +58,18 @@ class TeiTree:
         self.elements = self.extract_from_table(source_table, self.header)
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
-        self.printable = ET.tostring(
+        self.printableib = ET.tostring(
             self.tei.tree, pretty_print=True, encoding="unicode"
         )
+        self.printable = self.make_printable(self.tei.tree)
         self.make_text()
+
+    @staticmethod
+    def make_printable(tree):
+        parser = ET.XMLParser(remove_blank_text=True)
+        string = ET.tostring(tree, pretty_print=True, encoding="unicode")
+        xml = ET.fromstring(string, parser=parser)
+        return ET.tostring(xml, pretty_print=True, encoding="unicode")
 
     @staticmethod
     def amend_pics_url(tree, doc_id):
@@ -105,7 +113,7 @@ class TeiTree:
 
         for idx, row in df.loc[df["Signatur"] == column_name].iterrows():
             self.parse_signature(row["Signatur"])
-            self.parse_origin(row["Provenienz"])
+            self.parse_origin(row["Provenienz"], row["Drucker"])
             self.parse_date(str(row["Zeit"]))
             keys = self.classify_books(row["Buchtyp"], row["Liturgie"])
             self.parse_summary(row["Inhalt"], row["Buchtyp"], keys, idx)
@@ -123,11 +131,11 @@ class TeiTree:
                 0
             ].text = sign
 
-    def parse_origin(self, origin):
+    def parse_origin(self, origin, publisher=False):
         tree = self.tei.any_xpath(".//tei:standOff/tei:listPlace")[0]
         origins = origin.split(",")
         if origins[0]:
-            place = ET.SubElement(tree, "{http://www.tei-c.org/ns/1.0}place")
+            place = ET.SubElement(tree, "place")
             if '?' in origins[0]:
                 cert = True
             else:
@@ -135,16 +143,20 @@ class TeiTree:
             origins[0] = origins[0].strip('? ')
             dictentry = locdict[origins[0]]
             place.attrib['{http://www.w3.org/XML/1998/namespace}id'] = f"{dictentry['id']}"
-            ET.SubElement(place, '{http://www.tei-c.org/ns/1.0}placeName').text = origins[0]
-            location = ET.SubElement(place, "{http://www.tei-c.org/ns/1.0}location")
+            ET.SubElement(place, "placeName").text = origins[0]
+            location = ET.SubElement(place, "location")
+            ET.tostring(location, pretty_print=True, encoding="unicode")
             for i in dictentry['location']:
-                ET.SubElement(location, "{http://www.tei-c.org/ns/1.0}" + i).text = dictentry['location'][i]
+                ET.SubElement(location, i).text = dictentry['location'][i]
             provenance = self.msdesc.xpath("./tei:history/tei:provenance", namespaces=nsmap)[0]
-            placename = ET.SubElement(provenance, "{http://www.tei-c.org/ns/1.0}placeName")
+            placename = ET.SubElement(provenance, "placeName")
             placename.text = origins[0]
             placename.attrib['ref'] = f"#{dictentry['id']}"
             if cert:
                 placename.attrib['cert'] = "medium"
+            if publisher:
+                self.make_publisher(ET.fromstring(ET.tostring(placename, pretty_print=True, encoding="unicode")),
+                                    publisher)
         if len(origins) > 1 and origins[1].strip('? ') in locdict:
             self.parse_origin(','.join(origins[1:]))
 
@@ -152,10 +164,12 @@ class TeiTree:
         bibl = self.header.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
         )[0]
-        ET.SubElement(bibl, "{http://www.tei-c.org/ns/1.0}pubPlace").append(place)
+        ET.SubElement(bibl, "pubPlace").append(place)
         ET.SubElement(
-            bibl, "{http://www.tei-c.org/ns/1.0}publisher"
+            bibl, "publisher"
         ).text = publisher.strip()
+        self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib["form"] = "print"
+        self.header.xpath("//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap)[0].text = 'book'
 
     def parse_date(self, date):
         element = self.msdesc.xpath(

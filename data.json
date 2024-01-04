@@ -25,6 +25,7 @@
 			"id": "LJB",
 			"placeName": "Ljubjana",
 			"location": {
+				"settlement": "Ljubjana",
 				"region": "Carniola",
 				"country": "Slovenia",
 				"geo": "46.05138888888889 14.50611111111111"
@@ -34,6 +35,7 @@
 			"id": "MRL",
 			"placeName": "Maria Lankowitz",
 			"location": {
+				"settlement": "Maria Lankowitz",
 				"region": "Styria",
 				"country": "Austria",
 				"geo": "47.063888888889 15.063055555556"
@@ -43,6 +45,7 @@
 			"id": "GRZ",
 			"placeName": "Graz",
 			"location": {
+				"settlement": "Graz",
 				"region": "Styria",
 				"country": "Austria",
 				"geo": "47.07083333333333 15.438611111111111"
@@ -52,6 +55,7 @@
 			"id": "VIE",
 			"placeName": "Vienna",
 			"location": {
+				"settlement": "Vienna",
 				"region": "Vienna",
 				"country": "Austria",
 				"geo": "48.208333333333336 16.3725"
@@ -61,7 +65,8 @@
 			"id": "MUN",
 			"placeName": "Munich" ,
 			"location": {
-				"region": "Baviera",
+				"settlement": "Munich" ,
+				"region": "Bavaria",
 				"country": "Germany",
 				"geo": "48.1375 11.575"
 			}
@@ -70,6 +75,7 @@
 			"id": "STP",
 			"placeName": "St. Pölten",
 			"location": {
+				"settlement": "St. Pölten",
 				"region": "Lower Austria",
 				"country": "Austria",
 				"geo": "48.2 15.616666666667"
@@ -79,6 +85,7 @@
 			"id": "MIS",
 			"placeName": "Mautern in Steiermark",
 			"location": {
+				"settlement": "Mautern in Steiermark",
 				"region": "Styria",
 				"country": "Austria",
 				"geo": "47.4 14.833333333333"
@@ -88,6 +95,7 @@
 			"id": "VNZ",
 			"placeName": "Venice",
 			"location": {
+				"settlement": "Venice",
 				"region": "Veneto",
 				"country": "Italy",
 				"geo": "45.439722222222 12.331944444444"
@@ -98,6 +106,7 @@
 			"id": "SLZ",
 			"placeName": "Salzburg",
 			"location": {
+				"settlement": "Salzburg",
 				"region": "Salzburg",
 				"country": "Austria",
 				"geo": "47.8 13.045"
