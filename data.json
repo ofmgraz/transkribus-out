@@ -30,7 +30,7 @@
 				"geo": "46.05138888888889 14.50611111111111"
 			}
 		},
-		"Lankowitz": {
+		"Maria Lankowitz": {
 			"id": "MRL",
 			"placeName": "Maria Lankowitz",
 			"location": {
@@ -66,7 +66,7 @@
 				"geo": "48.1375 11.575"
 			}
 		},
-		"Pölten": {
+		"St. Pölten": {
 			"id": "STP",
 			"placeName": "St. Pölten",
 			"location": {
@@ -82,6 +82,25 @@
 				"region": "Styria",
 				"country": "Austria",
 				"geo": "47.4 14.833333333333"
+			}
+		},
+		"Venedig": {
+			"id": "VNZ",
+			"placeName": "Venice",
+			"location": {
+				"region": "Veneto",
+				"country": "Italy",
+				"geo": "45.439722222222 12.331944444444"
+			}
+		},
+
+		"Salzburg": {
+			"id": "SLZ",
+			"placeName": "Salzburg",
+			"location": {
+				"region": "Salzburg",
+				"country": "Austria",
+				"geo": "47.8 13.045"
 			}
 		}
 	}
