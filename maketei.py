@@ -75,7 +75,7 @@ class TeiTree:
             )
             for empty_url in tree.any_xpath(".//tei:graphic[@url='']"):
                 empty_url.getparent().remove(empty_url)
-        # https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
+        # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
 
     @staticmethod
@@ -276,4 +276,6 @@ class TeiTree:
         return tree
 
     def make_text(self):
+        # Stub to include later required divs or milestones if required
         text = self.root.xpath("./tei:text", namespaces=nsmap)[0]
+        return text
