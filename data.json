@@ -1,0 +1,107 @@
+{
+	"booktypes": {
+		"graduale": "graduale",
+		"antiphona": "antiphonale",
+		"sequentiar": "sequentiar",
+		"psalterium": "psalterium",
+		"Hymnar": "hymnar",
+		"prozessionale": "prozessionale",
+		"responsoriale": "responsoriale",
+		"orgelbuch": "orgelbuch",
+		"lamentatio": "lamentationen",
+		"manuale": "manuale",
+		"litaneien": "litaneien",
+		"gesänge": "gesaenge",
+		"choral": "coralbuch",
+		"intonation": "intonationsbuch",
+		"temporale": "temporale",
+		"teil": "temporale",
+		"diurnale": "temporale",
+		"nocturnale": "temporale",
+		"osterzeit": "temporale"
+	},
+	"locations": {
+		"Ljubljana": {
+			"id": "LJB",
+			"placeName": "Ljubjana",
+			"location": {
+				"region": "Carniola",
+				"country": "Slovenia",
+				"geo": "46.05138888888889 14.50611111111111"
+			}
+		},
+		"Maria Lankowitz": {
+			"id": "MRL",
+			"placeName": "Maria Lankowitz",
+			"location": {
+				"region": "Styria",
+				"country": "Austria",
+				"geo": "47.063888888889 15.063055555556"
+			}
+		},
+		"Graz": {
+			"id": "GRZ",
+			"placeName": "Graz",
+			"location": {
+				"region": "Styria",
+				"country": "Austria",
+				"geo": "47.07083333333333 15.438611111111111"
+			}
+		},
+		"Wien": {
+			"id": "VIE",
+			"placeName": "Vienna",
+			"location": {
+				"region": "Vienna",
+				"country": "Austria",
+				"geo": "48.208333333333336 16.3725"
+			}
+		},
+		"München": {
+			"id": "MUN",
+			"placeName": "Munich" ,
+			"location": {
+				"region": "Baviera",
+				"country": "Germany",
+				"geo": "48.1375 11.575"
+			}
+		},
+		"St. Pölten": {
+			"id": "STP",
+			"placeName": "St. Pölten",
+			"location": {
+				"region": "Lower Austria",
+				"country": "Austria",
+				"geo": "48.2 15.616666666667"
+			}
+		},
+		"Mautern": {
+			"id": "MIS",
+			"placeName": "Mautern in Steiermark",
+			"location": {
+				"region": "Styria",
+				"country": "Austria",
+				"geo": "47.4 14.833333333333"
+			}
+		},
+		"Venedig": {
+			"id": "VNZ",
+			"placeName": "Venice",
+			"location": {
+				"region": "Veneto",
+				"country": "Italy",
+				"geo": "45.439722222222 12.331944444444"
+			}
+		},
+
+		"Salzburg": {
+			"id": "SLZ",
+			"placeName": "Salzburg",
+			"location": {
+				"region": "Salzburg",
+				"country": "Austria",
+				"geo": "47.8 13.045"
+			}
+		}
+	}
+}

@@ -16,6 +16,12 @@ nsmap = {
     "default": "http://www.tei-c.org/ns/1.0",
 }
 
+with open("data.json", "r") as f:
+    data = json.load(f)
+
+locdict = data["locations"]
+bookdict = data["booktypes"]
+
 
 class Log:
     def __init__(self, logfile, stdout=False):
@@ -55,6 +61,7 @@ class TeiTree:
         self.printable = ET.tostring(
             self.tei.tree, pretty_print=True, encoding="unicode"
         )
+        self.make_text()
 
     @staticmethod
     def amend_pics_url(tree, doc_id):
@@ -68,7 +75,7 @@ class TeiTree:
             )
             for empty_url in tree.any_xpath(".//tei:graphic[@url='']"):
                 empty_url.getparent().remove(empty_url)
-        # https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
+        # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
 
     @staticmethod
@@ -117,32 +124,29 @@ class TeiTree:
             ].text = sign
 
     def parse_origin(self, origin):
-        places = {
-            "Graz": "GRZ",
-            "Ljubljana": "LJB",
-            "Wien": "VIE",
-            "Lankowitz": "MRL",
-            "München": "MUN",
-            "Pölten": "STP",
-            "Mautern": "MIS",
-            "Salzburg": "SLZ",
-            "Venedig": "VNZ",
-        }
-        origin = origin.split(",")
-        provenience = ET.Element("{http://www.tei-c.org/ns/1.0}placeName")
-        provenience.attrib["ref"] = " ".join(
-            [f"#{places[i]}" for i in places if i in origin[0]]
-        )
-        provenience.text = origin[0]
-        self.msdesc.xpath("//tei:history/tei:provenance", namespaces=nsmap)[0].append(
-            provenience
-        )
-        if len(origin) > 1:
-            self.make_publisher(provenience, origin[1])
-            self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[
-                0
-            ].attrib["form"] = "print"
-            self.header.xpath("//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap)[0].text = 'book'
+        tree = self.tei.any_xpath(".//tei:standOff/tei:listPlace")[0]
+        origins = origin.split(",")
+        if origins[0]:
+            place = ET.SubElement(tree, "{http://www.tei-c.org/ns/1.0}place")
+            if '?' in origins[0]:
+                cert = True
+            else:
+                cert = False
+            origins[0] = origins[0].strip('? ')
+            dictentry = locdict[origins[0]]
+            place.attrib['{http://www.w3.org/XML/1998/namespace}id'] = f"{dictentry['id']}"
+            ET.SubElement(place, '{http://www.tei-c.org/ns/1.0}placeName').text = origins[0]
+            location = ET.SubElement(place, "{http://www.tei-c.org/ns/1.0}location")
+            for i in dictentry['location']:
+                ET.SubElement(location, "{http://www.tei-c.org/ns/1.0}" + i).text = dictentry['location'][i]
+            provenance = self.msdesc.xpath("./tei:history/tei:provenance", namespaces=nsmap)[0]
+            placename = ET.SubElement(provenance, "{http://www.tei-c.org/ns/1.0}placeName")
+            placename.text = origins[0]
+            placename.attrib['ref'] = f"#{dictentry['id']}"
+            if cert:
+                placename.attrib['cert'] = "medium"
+        if len(origins) > 1 and origins[1].strip('? ') in locdict:
+            self.parse_origin(','.join(origins[1:]))
 
     def make_publisher(self, place, publisher):
         bibl = self.header.xpath(
@@ -198,12 +202,10 @@ class TeiTree:
         else:
             keys = ""
         books = " ".join(" ".join(booktype.split(",")).split("/")).split()
-        with open("booktypes.json", "r") as f:
-            dictionary = json.load(f)
         for book in books:
-            for booktype in dictionary:
-                if booktype in book.lower() and dictionary[booktype] not in keys:
-                    keys += f" #{dictionary[booktype]}"
+            for booktype in bookdict:
+                if booktype in book.lower() and bookdict[booktype] not in keys:
+                    keys += f" #{bookdict[booktype]}"
         return keys
 
     def parse_summary(self, summary, bookt, attributes, line):
@@ -272,3 +274,8 @@ class TeiTree:
         ]
         tree.text = "Placeholder"
         return tree
+
+    def make_text(self):
+        # Stub to include later required divs or milestones if required
+        text = self.root.xpath("./tei:text", namespaces=nsmap)[0]
+        return text
