@@ -58,11 +58,8 @@ class TeiTree:
         self.elements = self.extract_from_table(source_table, self.header)
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
-        self.printableib = ET.tostring(
-            self.tei.tree, pretty_print=True, encoding="unicode"
-        )
-        self.printable = self.make_printable(self.tei.tree)
         self.make_text()
+        self.printable = self.make_printable(self.tei.tree)
 
     @staticmethod
     def make_printable(tree):
