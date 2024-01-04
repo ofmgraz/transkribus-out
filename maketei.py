@@ -159,13 +159,21 @@ class TeiTree:
             self.parse_origin(','.join(origins[1:]))
 
     def make_publisher(self, place, publisher):
+        tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
+        dictentry = persdict[publisher]
+        person = ET.SubElement(tree, 'person')
+        for att in dictentry['attr']:
+            person.attrib[att] = dictentry['attr'][att]
+        person.attrib['{http://www.w3.org/XML/1998/namespace}id'] = publisher.lower()
+        for att in dictentry['data']:
+            ET.SubElement(person, att).text = dictentry['data'][att]
         bibl = self.header.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
         )[0]
         ET.SubElement(bibl, "pubPlace").append(place)
-        ET.SubElement(
-            bibl, "publisher"
-        ).text = publisher.strip()
+        pub = ET.SubElement(bibl, "publisher")
+        pub.text = publisher.strip()
+        pub.attrib['ref'] = f"#{publisher.lower()}"
         self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib["form"] = "print"
         self.header.xpath("//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap)[0].text = 'book'
 
