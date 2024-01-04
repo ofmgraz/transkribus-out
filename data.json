@@ -112,5 +112,76 @@
 				"geo": "47.8 13.045"
 			}
 		}
+	},
+	"persons": {
+		"Voigt": {
+			"attr": {
+				"sex": "M",
+				"role": "printer",
+				"age": "adult",
+				"ref": "http://d-nb.info/gnd/1037512057"
+			},
+			"data": {
+				"surname": "Voigt",
+				"forename": "Leopold",
+				"roleName": "printer",
+				"ref": ""
+			}
+		},
+		"Mayr": {
+			"attr": {
+				"sex": "M",
+				"role": "printer",
+				"age": "adult",
+				"ref": "http://d-nb.info/gnd/124751946"
+			},
+			"data": {
+				"surname": "Mayr",
+				"forename": "Johann",
+				"forename": "Baptist",
+				"roleName": "printer",
+				"ref": "http://d-nb.info/gnd/124751946"
+			}
+		},
+		"Pezzana": {
+			"attr": {
+				"sex": "M",
+				"role": "printer",
+				"age": "adult",
+				"ref": "http://d-nb.info/gnd/1102696757"},
+			"data": {
+				"surname": "Pezzana",
+				"forename": "Giovanni",
+				"forename": "Antonio",
+				"roleName": "printer"
+			}
+		},
+		"Balleoni": {
+			"attr": {
+				"sex": "M",
+				"role": "printer",
+				"age": "adult",
+				"ref": "http://d-nb.info/gnd/1037524810"
+			},
+			"data": {
+				"surname": "Baglioni",
+				"forename": "Paolo",
+				"roleName": "printer"
+			}
+		},
+		"Ciera": {
+			"attr": {
+				"sex": "M",
+				"role": "printer",
+				"age": "adult",
+				"ref": "https://d-nb.info/gnd/1051039606"
+			},
+			"data": {
+				"surname": "Ciera",
+				"forename": "Pietro",
+				"roleName": "printer"
+
+			}
+		}
 	}
 }
