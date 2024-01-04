@@ -21,6 +21,7 @@ with open("data.json", "r") as f:
 
 locdict = data["locations"]
 bookdict = data["booktypes"]
+persdict = data["persons"]
 
 
 class Log:
