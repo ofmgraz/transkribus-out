@@ -58,10 +58,18 @@ class TeiTree:
         self.elements = self.extract_from_table(source_table, self.header)
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
-        self.printable = ET.tostring(
+        self.printableib = ET.tostring(
             self.tei.tree, pretty_print=True, encoding="unicode"
         )
+        self.printable = self.make_printable(self.tei.tree)
         self.make_text()
+
+    @staticmethod
+    def make_printable(tree):
+        parser = ET.XMLParser(remove_blank_text=True)
+        string = ET.tostring(tree, pretty_print=True, encoding="unicode")
+        xml = ET.fromstring(string, parser=parser)
+        return ET.tostring(xml, pretty_print=True, encoding="unicode")
 
     @staticmethod
     def amend_pics_url(tree, doc_id):
@@ -125,7 +133,6 @@ class TeiTree:
 
     def parse_origin(self, origin, publisher=False):
         tree = self.tei.any_xpath(".//tei:standOff/tei:listPlace")[0]
-        print(ET.tostring(tree))
         origins = origin.split(",")
         if origins[0]:
             place = ET.SubElement(tree, "place")
@@ -138,10 +145,9 @@ class TeiTree:
             place.attrib['{http://www.w3.org/XML/1998/namespace}id'] = f"{dictentry['id']}"
             ET.SubElement(place, "placeName").text = origins[0]
             location = ET.SubElement(place, "location")
-            ET.tostring(location)
+            ET.tostring(location, pretty_print=True, encoding="unicode")
             for i in dictentry['location']:
                 ET.SubElement(location, i).text = dictentry['location'][i]
-            print(ET.tostring(tree))
             provenance = self.msdesc.xpath("./tei:history/tei:provenance", namespaces=nsmap)[0]
             placename = ET.SubElement(provenance, "placeName")
             placename.text = origins[0]
@@ -149,7 +155,8 @@ class TeiTree:
             if cert:
                 placename.attrib['cert'] = "medium"
             if publisher:
-                self.make_publisher(place, publisher)
+                self.make_publisher(ET.fromstring(ET.tostring(placename, pretty_print=True, encoding="unicode")),
+                                    publisher)
         if len(origins) > 1 and origins[1].strip('? ') in locdict:
             self.parse_origin(','.join(origins[1:]))
 
