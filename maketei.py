@@ -206,16 +206,24 @@ class TeiTree:
         for time in ddate:
             element.attrib[time] = str(ddate[time])
 
-    @staticmethod
-    def classify_books(booktype, lit):
-        if lit == lit:
+    def classify_books(self, booktype, lit):
+        taxonomies = self.header.xpath("./tei:encodingDesc/tei:classDecl/tei:taxonomy", namespaces=nsmap)
+        if lit:
             keys = f"#{lit.lower()}"
+            cat = ET.Element('category')
+            cat.attrib["{http://www.w3.org/XML/1998/namespace}id"] = lit.lower()
+            ET.SubElement(cat, "catDesc").text = lit
+            taxonomies[1].append(cat)
         else:
             keys = ""
         books = " ".join(" ".join(booktype.split(",")).split("/")).split()
         for book in books:
             for booktype in bookdict:
                 if booktype in book.lower() and bookdict[booktype] not in keys:
+                    cat = ET.Element('category')
+                    cat.attrib["{http://www.w3.org/XML/1998/namespace}id"] = bookdict[booktype]
+                    ET.SubElement(cat, "catDesc").text = book
+                    taxonomies[0].append(cat)
                     keys += f" #{bookdict[booktype]}"
         return keys
 
