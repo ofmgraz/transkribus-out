@@ -208,7 +208,7 @@ class TeiTree:
 
     def classify_books(self, booktype, lit):
         taxonomies = self.header.xpath("./tei:encodingDesc/tei:classDecl/tei:taxonomy", namespaces=nsmap)
-        if lit == lit:
+        if lit:
             keys = f"#{lit.lower()}"
             cat = ET.Element('category')
             cat.attrib["{http://www.w3.org/XML/1998/namespace}id"] = lit.lower()
