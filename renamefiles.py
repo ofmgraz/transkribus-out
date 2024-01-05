@@ -3,6 +3,7 @@ import glob
 import os
 from acdh_tei_pyutils.tei import TeiReader
 from maketei import Log
+import re
 
 directory = "tei"
 log = Log("0rename")
@@ -19,14 +20,9 @@ def checkfile(filename):
 
 def getname(root):
     name = False
-    docids = root.any_xpath('//tei:teiHeader//tei:title[@type="main"]')
-    for i in docids:
-        parts = i.text.split("_")
-        # Not being sure of whether the content of each element <title type="main"> is what we are looking for, we get
-        # the first one that follows the format we're expecting to find to improve our chances
-        if len(parts) > 2:
-            name = f"{parts[1]}_{parts[2]}"
-            break
+    regex = re.compile(r'A-Gf_(\w)_*(\d{1,2}_\S{2,3})_.*')
+    docid = root.any_xpath('//tei:teiHeader//tei:title[@type="main"]')[0].text
+    name = re.sub(regex, r'\g<1>\g<2>', docid)
     return name
 
 
