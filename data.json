@@ -22,7 +22,10 @@
 	},
 	"locations": {
 		"Ljubljana": {
-			"id": "LJB",
+			"attr": {
+				"id": "LJB",
+				"url": ""
+			},
 			"placeName": "Ljubjana",
 			"location": {
 				"settlement": "Ljubjana",
@@ -32,7 +35,10 @@
 			}
 		},
 		"Maria Lankowitz": {
-			"id": "MRL",
+			"attr": {
+				"id": "MRL",
+				"url": ""
+			},
 			"placeName": "Maria Lankowitz",
 			"location": {
 				"settlement": "Maria Lankowitz",
@@ -42,7 +48,10 @@
 			}
 		},
 		"Graz": {
-			"id": "GRZ",
+			"attr": {
+				"id": "GRZ",
+				"url": ""
+			},
 			"placeName": "Graz",
 			"location": {
 				"settlement": "Graz",
@@ -52,7 +61,10 @@
 			}
 		},
 		"Wien": {
-			"id": "VIE",
+			"attr": {
+				"id": "VIE",
+				"url": ""
+			},
 			"placeName": "Vienna",
 			"location": {
 				"settlement": "Vienna",
@@ -62,8 +74,11 @@
 			}
 		},
 		"München": {
-			"id": "MUN",
-			"placeName": "Munich" ,
+			"attr": {
+				"id": "MUN",
+				"url": ""
+			},
+			"placeName": "Munich",
 			"location": {
 				"settlement": "Munich" ,
 				"region": "Bavaria",
@@ -72,7 +87,10 @@
 			}
 		},
 		"St. Pölten": {
-			"id": "STP",
+			"attr": {
+				"id": "STP",
+				"url": ""i
+			},
 			"placeName": "St. Pölten",
 			"location": {
 				"settlement": "St. Pölten",
@@ -82,7 +100,10 @@
 			}
 		},
 		"Mautern": {
-			"id": "MIS",
+			"attr": {
+				"id": "MIS",
+				"url": ""
+			},
 			"placeName": "Mautern in Steiermark",
 			"location": {
 				"settlement": "Mautern in Steiermark",
@@ -92,7 +113,10 @@
 			}
 		},
 		"Venedig": {
-			"id": "VNZ",
+			"attr": {
+				"id": "VNZ",
+				"url": ""
+			},
 			"placeName": "Venice",
 			"location": {
 				"settlement": "Venice",
@@ -103,7 +127,10 @@
 		},
 
 		"Salzburg": {
-			"id": "SLZ",
+			"attr": {
+				"id": "SLZ",
+				"url": ""
+			},
 			"placeName": "Salzburg",
 			"location": {
 				"settlement": "Salzburg",
