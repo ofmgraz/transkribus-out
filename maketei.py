@@ -134,48 +134,60 @@ class TeiTree:
         origins = origin.split(",")
         if origins[0]:
             place = ET.SubElement(tree, "place")
-            if '?' in origins[0]:
+            if "?" in origins[0]:
                 cert = True
             else:
                 cert = False
-            origins[0] = origins[0].strip('? ')
+            origins[0] = origins[0].strip("? ")
             dictentry = locdict[origins[0]]
-            place.attrib['{http://www.w3.org/XML/1998/namespace}id'] = f"{dictentry['id']}"
+            place.attrib[
+                "{http://www.w3.org/XML/1998/namespace}id"
+            ] = f"{dictentry['id']}"
             ET.SubElement(place, "placeName").text = origins[0]
             location = ET.SubElement(place, "location")
             ET.tostring(location, pretty_print=True, encoding="unicode")
-            for i in dictentry['location']:
-                ET.SubElement(location, i).text = dictentry['location'][i]
-            provenance = self.msdesc.xpath("./tei:history/tei:provenance", namespaces=nsmap)[0]
+            for i in dictentry["location"]:
+                ET.SubElement(location, i).text = dictentry["location"][i]
+            provenance = self.msdesc.xpath(
+                "./tei:history/tei:provenance", namespaces=nsmap
+            )[0]
             placename = ET.SubElement(provenance, "placeName")
             placename.text = origins[0]
-            placename.attrib['ref'] = f"#{dictentry['id']}"
+            placename.attrib["ref"] = f"#{dictentry['id']}"
             if cert:
-                placename.attrib['cert'] = "medium"
+                placename.attrib["cert"] = "medium"
             if publisher:
-                self.make_publisher(ET.fromstring(ET.tostring(placename, pretty_print=True, encoding="unicode")),
-                                    publisher)
-        if len(origins) > 1 and origins[1].strip('? ') in locdict:
-            self.parse_origin(','.join(origins[1:]))
+                self.make_publisher(
+                    ET.fromstring(
+                        ET.tostring(placename, pretty_print=True, encoding="unicode")
+                    ),
+                    publisher,
+                )
+        if len(origins) > 1 and origins[1].strip("? ") in locdict:
+            self.parse_origin(",".join(origins[1:]))
 
     def make_publisher(self, place, publisher):
         tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
         dictentry = persdict[publisher]
-        person = ET.SubElement(tree, 'person')
-        for att in dictentry['attr']:
-            person.attrib[att] = dictentry['attr'][att]
-        person.attrib['{http://www.w3.org/XML/1998/namespace}id'] = publisher.lower()
-        for att in dictentry['data']:
-            ET.SubElement(person, att).text = dictentry['data'][att]
+        person = ET.SubElement(tree, "person")
+        for att in dictentry["attr"]:
+            person.attrib[att] = dictentry["attr"][att]
+        person.attrib["{http://www.w3.org/XML/1998/namespace}id"] = publisher.lower()
+        for att in dictentry["data"]:
+            ET.SubElement(person, att).text = dictentry["data"][att]
         bibl = self.header.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
         )[0]
         ET.SubElement(bibl, "pubPlace").append(place)
         pub = ET.SubElement(bibl, "publisher")
         pub.text = publisher.strip()
-        pub.attrib['ref'] = f"#{publisher.lower()}"
-        self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib["form"] = "print"
-        self.header.xpath("//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap)[0].text = 'book'
+        pub.attrib["ref"] = f"#{publisher.lower()}"
+        self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib[
+            "form"
+        ] = "print"
+        self.header.xpath(
+            "//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap
+        )[0].text = "book"
 
     def parse_date(self, date):
         element = self.msdesc.xpath(
@@ -216,10 +228,12 @@ class TeiTree:
             element.attrib[time] = str(ddate[time])
 
     def classify_books(self, booktype, lit):
-        taxonomies = self.header.xpath("./tei:encodingDesc/tei:classDecl/tei:taxonomy", namespaces=nsmap)
+        taxonomies = self.header.xpath(
+            "./tei:encodingDesc/tei:classDecl/tei:taxonomy", namespaces=nsmap
+        )
         if lit:
             keys = f"#{lit.lower()}"
-            cat = ET.Element('category')
+            cat = ET.Element("category")
             cat.attrib["{http://www.w3.org/XML/1998/namespace}id"] = lit.lower()
             ET.SubElement(cat, "catDesc").text = lit
             taxonomies[1].append(cat)
@@ -229,8 +243,10 @@ class TeiTree:
         for book in books:
             for booktype in bookdict:
                 if booktype in book.lower() and bookdict[booktype] not in keys:
-                    cat = ET.Element('category')
-                    cat.attrib["{http://www.w3.org/XML/1998/namespace}id"] = bookdict[booktype]
+                    cat = ET.Element("category")
+                    cat.attrib["{http://www.w3.org/XML/1998/namespace}id"] = bookdict[
+                        booktype
+                    ]
                     ET.SubElement(cat, "catDesc").text = book
                     taxonomies[0].append(cat)
                     keys += f" #{bookdict[booktype]}"
