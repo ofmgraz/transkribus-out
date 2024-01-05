@@ -26,12 +26,14 @@
 				"id": "LJB",
 				"ref": "https://www.wikidata.org/wiki/Q437"
 			},
-			"placeName": "Ljubiljana",
-			"location": {
-				"settlement": "Ljubljana",
-				"region": "Carniola",
-				"country": "Slovenia",
-				"geo": "46.05138888888889 14.50611111111111"
+			"data": {
+				"placeName": "Ljubiljana",
+				"location": {
+					"settlement": "Ljubljana",
+					"region": "Carniola",
+					"country": "Slovenia",
+					"geo": "46.05138888888889 14.50611111111111"
+				}
 			}
 		},
 		"Maria Lankowitz": {
@@ -39,12 +41,14 @@
 				"id": "MRL",
 				"ref": "https://www.wikidata.org/wiki/Q699807"
 			},
-			"placeName": "Maria Lankowitz",
-			"location": {
-				"settlement": "Maria Lankowitz",
-				"region": "Styria",
-				"country": "Austria",
-				"geo": "47.063888888889 15.063055555556"
+			"data": {
+				"placeName": "Maria Lankowitz",
+				"location": {
+					"settlement": "Maria Lankowitz",
+					"region": "Styria",
+					"country": "Austria",
+					"geo": "47.063888888889 15.063055555556"
+				}
 			}
 		},
 		"Graz": {
@@ -52,12 +56,14 @@
 				"id": "GRZ",
 				"ref": "https://www.wikidata.org/wiki/Q13298"
 			},
-			"placeName": "Graz",
-			"location": {
-				"settlement": "Graz",
-				"region": "Styria",
-				"country": "Austria",
-				"geo": "47.07083333333333 15.438611111111111"
+			"data": {
+				"placeName": "Graz",
+				"location": {
+					"settlement": "Graz",
+					"region": "Styria",
+					"country": "Austria",
+					"geo": "47.07083333333333 15.438611111111111"
+				}
 			}
 		},
 		"Wien": {
@@ -65,12 +71,14 @@
 				"id": "VIE",
 				"ref": "https://www.wikidata.org/wiki/Q1741"
 			},
-			"placeName": "Vienna",
-			"location": {
-				"settlement": "Vienna",
-				"region": "Vienna",
-				"country": "Austria",
-				"geo": "48.208333333333336 16.3725"
+			"data": {
+				"placeName": "Vienna",
+				"location": {
+					"settlement": "Vienna",
+					"region": "Vienna",
+					"country": "Austria",
+					"geo": "48.208333333333336 16.3725"
+				}
 			}
 		},
 		"München": {
@@ -78,12 +86,14 @@
 				"id": "MUN",
 				"ref": "https://www.wikidata.org/wiki/Q1726"
 			},
-			"placeName": "Munich",
-			"location": {
-				"settlement": "Munich" ,
-				"region": "Bavaria",
-				"country": "Germany",
-				"geo": "48.1375 11.575"
+			"data": {
+				"placeName": "Munich",
+				"location": {
+					"settlement": "Munich" ,
+					"region": "Bavaria",
+					"country": "Germany",
+					"geo": "48.1375 11.575"
+				}
 			}
 		},
 		"St. Pölten": {
@@ -91,12 +101,14 @@
 				"id": "STP",
 				"ref": "https://www.wikidata.org/wiki/Q82500"
 			},
-			"placeName": "St. Pölten",
-			"location": {
-				"settlement": "St. Pölten",
-				"region": "Lower Austria",
-				"country": "Austria",
-				"geo": "48.2 15.616666666667"
+			"data": {
+				"placeName": "St. Pölten",
+				"location": {
+					"settlement": "St. Pölten",
+					"region": "Lower Austria",
+					"country": "Austria",
+					"geo": "48.2 15.616666666667"
+				}
 			}
 		},
 		"Mautern": {
@@ -104,12 +116,14 @@
 				"id": "MIS",
 				"ref": "https://www.wikidata.org/wiki/Q258162"
 			},
-			"placeName": "Mautern in Steiermark",
-			"location": {
-				"settlement": "Mautern in Steiermark",
-				"region": "Styria",
-				"country": "Austria",
-				"geo": "47.4 14.833333333333"
+			"data": {
+				"placeName": "Mautern in Steiermark",
+				"location": {
+					"settlement": "Mautern in Steiermark",
+					"region": "Styria",
+					"country": "Austria",
+					"geo": "47.4 14.833333333333"
+				}
 			}
 		},
 		"Venedig": {
@@ -117,26 +131,29 @@
 				"id": "VNZ",
 				"ref": "https://www.wikidata.org/wiki/Q641"
 			},
-			"placeName": "Venice",
-			"location": {
-				"settlement": "Venice",
-				"region": "Veneto",
-				"country": "Italy",
-				"geo": "45.439722222222 12.331944444444"
+			"data": {
+				"placeName": "Venice",
+				"location": {
+					"settlement": "Venice",
+					"region": "Veneto",
+					"country": "Italy",
+					"geo": "45.439722222222 12.331944444444"
+				}
 			}
 		},
-
 		"Salzburg": {
 			"attr": {
 				"id": "SLZ",
 				"ref": "https://www.wikidata.org/wiki/Q34713"
 			},
-			"placeName": "Salzburg",
-			"location": {
-				"settlement": "Salzburg",
-				"region": "Salzburg",
-				"country": "Austria",
-				"geo": "47.8 13.045"
+			"data": {
+				"placeName": "Salzburg",
+				"location": {
+					"settlement": "Salzburg",
+					"region": "Salzburg",
+					"country": "Austria",
+					"geo": "47.8 13.045"
+				}
 			}
 		}
 	},
