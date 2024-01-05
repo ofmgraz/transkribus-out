@@ -119,7 +119,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG">
+      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -128,7 +128,7 @@
           <geo>47.070483333333 15.436780555556</geo>
         </location>
       </place>
-      <place xml:id="SLZ">
+      <place xml:id="SLZ" ref="https://www.wikidata.org/wiki/Q34713">
         <placeName>Salzburg</placeName>
         <location>
           <settlement>Salzburg</settlement>

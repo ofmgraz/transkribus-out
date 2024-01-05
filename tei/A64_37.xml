@@ -123,7 +123,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG">
+      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -132,7 +132,7 @@
           <geo>47.070483333333 15.436780555556</geo>
         </location>
       </place>
-      <place xml:id="GRZ">
+      <place xml:id="GRZ" ref="https://www.wikidata.org/wiki/Q13298">
         <placeName>Graz</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -141,16 +141,16 @@
           <geo>47.07083333333333 15.438611111111111</geo>
         </location>
       </place>
-      <place xml:id="LJB">
+      <place xml:id="LJB" ref="https://www.wikidata.org/wiki/Q437">
         <placeName>Ljubljana</placeName>
         <location>
-          <settlement>Ljubjana</settlement>
+          <settlement>Ljubljana</settlement>
           <region>Carniola</region>
           <country>Slovenia</country>
           <geo>46.05138888888889 14.50611111111111</geo>
         </location>
       </place>
-      <place xml:id="MRL">
+      <place xml:id="MRL" ref="https://www.wikidata.org/wiki/Q699807">
         <placeName>Maria Lankowitz</placeName>
         <location>
           <settlement>Maria Lankowitz</settlement>
