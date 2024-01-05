@@ -142,18 +142,19 @@ class TeiTree:
             dictentry = locdict[origins[0]]
             place.attrib[
                 "{http://www.w3.org/XML/1998/namespace}id"
-            ] = f"{dictentry['id']}"
+            ] = dictentry['attr']['id']
+            place.attrib["ref"] = dictentry['attr']['ref']
             ET.SubElement(place, "placeName").text = origins[0]
             location = ET.SubElement(place, "location")
             ET.tostring(location, pretty_print=True, encoding="unicode")
-            for i in dictentry["location"]:
-                ET.SubElement(location, i).text = dictentry["location"][i]
+            for i in dictentry["data"]["location"]:
+                ET.SubElement(location, i).text = dictentry["data"]["location"][i]
             provenance = self.msdesc.xpath(
                 "./tei:history/tei:provenance", namespaces=nsmap
             )[0]
             placename = ET.SubElement(provenance, "placeName")
             placename.text = origins[0]
-            placename.attrib["ref"] = f"#{dictentry['id']}"
+            placename.attrib["ref"] = f"#{dictentry['attr']['id']}"
             if cert:
                 placename.attrib["cert"] = "medium"
             if publisher:
