@@ -133,6 +133,7 @@ class TeiTree:
         tree = self.tei.any_xpath(".//tei:standOff/tei:listPlace")[0]
         origins = origin.split(",")
         if origins[0]:
+            # Entry in the standOff list of places
             place = ET.SubElement(tree, "place")
             if "?" in origins[0]:
                 cert = True
@@ -143,12 +144,17 @@ class TeiTree:
             place.attrib[
                 "{http://www.w3.org/XML/1998/namespace}id"
             ] = dictentry['attr']['id']
-            place.attrib["ref"] = dictentry['attr']['ref']
+                    place.attrib["ref"] = dictentry['attr']['ref']
             ET.SubElement(place, "placeName").text = origins[0]
             location = ET.SubElement(place, "location")
             ET.tostring(location, pretty_print=True, encoding="unicode")
             for i in dictentry["data"]["location"]:
-                ET.SubElement(location, i).text = dictentry["data"]["location"][i]
+                if data == "idno":
+                    atb = {"type": "Wikidata"}
+                else:
+                    atb == {}
+                ET.SubElement(location, i, attrib=atb).text = dictentry["data"]["location"][i]
+            # Element in msDesc/history referencing the entry above
             provenance = self.msdesc.xpath(
                 "./tei:history/tei:provenance", namespaces=nsmap
             )[0]
@@ -174,14 +180,19 @@ class TeiTree:
         for att in dictentry["attr"]:
             person.attrib[att] = dictentry["attr"][att]
         person.attrib["{http://www.w3.org/XML/1998/namespace}id"] = publisher.lower()
-        for att in dictentry["data"]:
-            ET.SubElement(person, att).text = dictentry["data"][att]
+        for data in dictentry["data"]:
+            if data == "idno":
+                atb = {"type": "GND"}
+            else:
+                atb == {}
+            ET.SubElement(person, data, attrib=atb).text = dictentry["data"][att]
         bibl = self.header.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
         )[0]
         ET.SubElement(bibl, "pubPlace").append(place)
         pub = ET.SubElement(bibl, "publisher")
         pub.text = publisher.strip()
+
         pub.attrib["ref"] = f"#{publisher.lower()}"
         self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib[
             "form"
