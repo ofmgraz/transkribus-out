@@ -19,11 +19,9 @@ def checkfile(filename):
 
 
 def getname(root):
-    name = False
     regex = re.compile(r'A-Gf_(\w)_*(\d{1,2}_\S{2,3})_.*')
     docid = root.any_xpath('//tei:teiHeader//tei:title[@type="main"]')[0].text
-    name = re.sub(regex, r'\g<1>\g<2>', docid)
-    return name
+    return re.sub(regex, r'\g<1>\g<2>', docid)
 
 
 for filename in glob.glob(os.path.join(directory, "*.xml")):

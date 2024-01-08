@@ -20,208 +20,185 @@
 		"nocturnale": "temporale",
 		"osterzeit": "temporale"
 	},
-	"locations": {
+	"listPlace": {
 		"Ljubljana": {
-			"attr": {
-				"id": "LJB",
-				"ref": "https://www.wikidata.org/wiki/Q437"
-			},
-			"data": {
+			"id": "LJB",
+			"place": {
 				"placeName": "Ljubiljana",
 				"location": {
 					"settlement": "Ljubljana",
 					"region": "Carniola",
 					"country": "Slovenia",
 					"geo": "46.05138888888889 14.50611111111111"
-				}
+				},
+			"idno": "https://www.wikidata.org/wiki/Q437"
 			}
 		},
 		"Maria Lankowitz": {
-			"attr": {
-				"id": "MRL",
-				"ref": "https://www.wikidata.org/wiki/Q699807"
-			},
-			"data": {
+			"id": "MRL",
+			"place": {
 				"placeName": "Maria Lankowitz",
 				"location": {
 					"settlement": "Maria Lankowitz",
 					"region": "Styria",
 					"country": "Austria",
 					"geo": "47.063888888889 15.063055555556"
-				}
+				},
+				"idno": "https://www.wikidata.org/wiki/Q699807"
 			}
 		},
 		"Graz": {
-			"attr": {
-				"id": "GRZ",
-				"ref": "https://www.wikidata.org/wiki/Q13298"
-			},
-			"data": {
+			"id": "GRZ",
+			"place": {
 				"placeName": "Graz",
 				"location": {
 					"settlement": "Graz",
 					"region": "Styria",
 					"country": "Austria",
 					"geo": "47.07083333333333 15.438611111111111"
-				}
+				},
+				"idno": "https://www.wikidata.org/wiki/Q13298"
 			}
 		},
 		"Wien": {
-			"attr": {
-				"id": "VIE",
-				"ref": "https://www.wikidata.org/wiki/Q1741"
-			},
-			"data": {
+			"id": "VIE",
+			"place": {
 				"placeName": "Vienna",
 				"location": {
 					"settlement": "Vienna",
 					"region": "Vienna",
 					"country": "Austria",
 					"geo": "48.208333333333336 16.3725"
-				}
+				},
+				"idno": "https://www.wikidata.org/wiki/Q1741"
 			}
 		},
 		"München": {
-			"attr": {
-				"id": "MUN",
-				"ref": "https://www.wikidata.org/wiki/Q1726"
-			},
-			"data": {
+			"id": "MUN",
+			"place": {
 				"placeName": "Munich",
 				"location": {
 					"settlement": "Munich" ,
 					"region": "Bavaria",
 					"country": "Germany",
 					"geo": "48.1375 11.575"
-				}
+				},
+				"idno": "https://www.wikidata.org/wiki/Q1726"
 			}
 		},
 		"St. Pölten": {
-			"attr": {
-				"id": "STP",
-				"ref": "https://www.wikidata.org/wiki/Q82500"
-			},
-			"data": {
+			"id": "STP",
+			"place": {
 				"placeName": "St. Pölten",
 				"location": {
 					"settlement": "St. Pölten",
 					"region": "Lower Austria",
 					"country": "Austria",
 					"geo": "48.2 15.616666666667"
-				}
+				},
+				"idno": "https://www.wikidata.org/wiki/Q82500"
 			}
 		},
 		"Mautern": {
-			"attr": {
-				"id": "MIS",
-				"ref": "https://www.wikidata.org/wiki/Q258162"
-			},
-			"data": {
+			"id": "MIS",
+			"place": {
 				"placeName": "Mautern in Steiermark",
 				"location": {
 					"settlement": "Mautern in Steiermark",
 					"region": "Styria",
 					"country": "Austria",
 					"geo": "47.4 14.833333333333"
-				}
+				},
+					"idno": "https://www.wikidata.org/wiki/Q258162"
 			}
 		},
 		"Venedig": {
-			"attr": {
-				"id": "VNZ",
-				"ref": "https://www.wikidata.org/wiki/Q641"
-			},
-			"data": {
+			"id": "VNZ",
+			"place": {
 				"placeName": "Venice",
 				"location": {
 					"settlement": "Venice",
 					"region": "Veneto",
 					"country": "Italy",
 					"geo": "45.439722222222 12.331944444444"
-				}
+				},
+				"idno": "https://www.wikidata.org/wiki/Q641"
 			}
 		},
 		"Salzburg": {
-			"attr": {
-				"id": "SLZ",
-				"ref": "https://www.wikidata.org/wiki/Q34713"
-			},
-			"data": {
+			"id": "SLZ",
+			"place": {
 				"placeName": "Salzburg",
 				"location": {
 					"settlement": "Salzburg",
 					"region": "Salzburg",
 					"country": "Austria",
 					"geo": "47.8 13.045"
-				}
+				},
+				"idno": "https://www.wikidata.org/wiki/Q34713"
 			}
 		}
 	},
-	"persons": {
+	"listPerson": {
 		"Voigt": {
 			"attr": {
 				"sex": "M",
 				"role": "printer",
-				"age": "adult",
-				"ref": "http://d-nb.info/gnd/1037512057"
+				"age": "adult"
 			},
-			"data": {
+			"persName": {
 				"surname": "Voigt",
-				"forename": "Leopold",
-				"roleName": "printer"
-			}
+				"forename": "Leopold"
+			},
+			"idno": "http://d-nb.info/gnd/1037512057"
 		},
 		"Mayr": {
 			"attr": {
 				"sex": "M",
 				"role": "printer",
-				"age": "adult",
-				"ref": "http://d-nb.info/gnd/124751946"
+				"age": "adult"
 			},
-			"data": {
+			"persName": {
 				"surname": "Mayr",
-				"forename": "Johann Baptist",
-				"roleName": "printer"
-			}
-		},
+				"forename": "Johann Baptist"
+			},
+			"idno": "http://d-nb.info/gnd/124751946"
+			},
 		"Pezzana": {
 			"attr": {
 				"sex": "M",
 				"role": "printer",
-				"age": "adult",
-				"ref": "http://d-nb.info/gnd/1102696757"},
-			"data": {
+				"age": "adult"
+			},
+			"persName": {
 				"surname": "Pezzana",
-				"forename": "Giovanni Antonio",
-				"roleName": "printer"
-			}
+				"forename": "Giovanni Antonio"
+			},
+			"idno": "http://d-nb.info/gnd/1102696757"
 		},
 		"Balleoni": {
 			"attr": {
 				"sex": "M",
 				"role": "printer",
-				"age": "adult",
-				"ref": "http://d-nb.info/gnd/1037524810"
+				"age": "adult"
 			},
-			"data": {
+			"persName": {
 				"surname": "Baglioni",
-				"forename": "Paolo",
-				"roleName": "printer"
-			}
-		},
+				"forename": "Paolo"
+			},
+			"idno": "http://d-nb.info/gnd/1037524810"
+			},
 		"Ciera": {
 			"attr": {
 				"sex": "M",
 				"role": "printer",
-				"age": "adult",
-				"ref": "https://d-nb.info/gnd/1051039606"
+				"age": "adult"
 			},
-			"data": {
+			"persName": {
 				"surname": "Ciera",
-				"forename": "Pietro",
-				"roleName": "printer"
-
-			}
+				"forename": "Pietro"
+			},
+			"idno": "https://d-nb.info/gnd/1051039606"
 		}
 	}
 }
