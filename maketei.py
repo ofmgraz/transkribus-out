@@ -19,9 +19,9 @@ nsmap = {
 with open("data.json", "r") as f:
     data = json.load(f)
 
-locdict = data["locations"]
+locdict = data["listPlace"]
 bookdict = data["booktypes"]
-persdict = data["persons"]
+persdict = data["listPerson"]
 
 
 class Log:
@@ -145,12 +145,8 @@ class TeiTree:
             ET.SubElement(place, "placeName").text = origins[0]
             location = ET.SubElement(place, "location")
             ET.tostring(location, pretty_print=True, encoding="unicode")
-            for i in dictentry["data"]["location"]:
-                if data == "idno":
-                    atb = {"type": "Wikidata"}
-                else:
-                    atb = {}
-                ET.SubElement(location, i, attrib=atb).text = dictentry["data"]["location"][i]
+            for i in dictentry["place"]["location"]:
+                ET.SubElement(location, i).text = dictentry["place"]["location"][i]
             # Element in msDesc/history referencing the entry above
             provenance = self.msdesc.xpath(
                 "./tei:history/tei:provenance", namespaces=nsmap
@@ -166,6 +162,7 @@ class TeiTree:
                     ),
                     publisher,
                 )
+            ET.SubElement(place, "idno", attrib={"type": "Wikidata"}).text = dictentry["place"]["idno"]
         if len(origins) > 1 and origins[1].strip("? ") in locdict:
             self.parse_origin(",".join(origins[1:]), False)
 
@@ -176,12 +173,10 @@ class TeiTree:
         for att in dictentry["attr"]:
             person.attrib[att] = dictentry["attr"][att]
         person.attrib["{http://www.w3.org/XML/1998/namespace}id"] = publisher.lower()
-        for data in dictentry["data"]:
-            if data == "idno":
-                atb = {"type": "GND"}
-            else:
-                atb = {}
-            ET.SubElement(person, data, attrib=atb).text = dictentry["data"][data]
+        pname = ET.SubElement(person, "persName")
+        ET.SubElement(person, "idno", attrib={"type": "GND"}).text = dictentry["idno"]
+        for name in dictentry["persName"]:
+            ET.SubElement(pname, name).text = dictentry["persName"][name]
         bibl = self.header.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
         )[0]
