@@ -162,7 +162,7 @@ class TeiTree:
                     ),
                     publisher,
                 )
-            ET.SubElement(place, "idno", attrib={"type": "Wikidata"}).text = dictentry["place"]["idno"]
+            self.make_idno(place, dictentry["place"]["idno"])
         if len(origins) > 1 and origins[1].strip("? ") in locdict:
             self.parse_origin(",".join(origins[1:]), False)
 
@@ -174,7 +174,7 @@ class TeiTree:
             person.attrib[att] = dictentry["attr"][att]
         person.attrib["{http://www.w3.org/XML/1998/namespace}id"] = publisher.lower()
         pname = ET.SubElement(person, "persName")
-        ET.SubElement(person, "idno", attrib={"type": "GND"}).text = dictentry["idno"]
+        self.makeidno(person, dictentry["idno"])
         for name in dictentry["persName"]:
             ET.SubElement(pname, name).text = dictentry["persName"][name]
         bibl = self.header.xpath(
@@ -188,6 +188,11 @@ class TeiTree:
         self.header.xpath(
             "//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap
         )[0].text = "book"
+
+    @staticmethod
+    def make_idno(person, idno):
+        for i in idno:
+            ET.SubElement(person, "idno", attrib={"type": i}).text = person[i]
 
     def parse_date(self, date):
         element = self.msdesc.xpath(
