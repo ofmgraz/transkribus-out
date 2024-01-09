@@ -31,7 +31,10 @@
 					"country": "Slovenia",
 					"geo": "46.05138888888889 14.50611111111111"
 				},
-			"idno": "https://www.wikidata.org/wiki/Q437"
+				"idno": {
+					"GND": "http://d-nb.info/gnd/4073953-3",
+					"Wikidata": "https://www.wikidata.org/wiki/Q437"
+				}
 			}
 		},
 		"Maria Lankowitz": {
@@ -44,7 +47,10 @@
 					"country": "Austria",
 					"geo": "47.063888888889 15.063055555556"
 				},
-				"idno": "https://www.wikidata.org/wiki/Q699807"
+				"idno": {
+					"GND": "http://d-nb.info/gnd/4400654-8",
+					"Wikidata": "https://www.wikidata.org/wiki/Q699807"
+				}
 			}
 		},
 		"Graz": {
@@ -57,7 +63,10 @@
 					"country": "Austria",
 					"geo": "47.07083333333333 15.438611111111111"
 				},
-				"idno": "https://www.wikidata.org/wiki/Q13298"
+				"idno": {
+					"GND": "http://d-nb.info/gnd/4021912-4",
+					"Wikidata": "https://www.wikidata.org/wiki/Q13298"
+				}
 			}
 		},
 		"Wien": {
@@ -70,7 +79,10 @@
 					"country": "Austria",
 					"geo": "48.208333333333336 16.3725"
 				},
-				"idno": "https://www.wikidata.org/wiki/Q1741"
+				"idno": {
+					"GND": "http://d-nb.info/gnd/4066009-6",
+					"Wikidata": "https://www.wikidata.org/wiki/Q1741"
+				}
 			}
 		},
 		"München": {
@@ -83,7 +95,10 @@
 					"country": "Germany",
 					"geo": "48.1375 11.575"
 				},
-				"idno": "https://www.wikidata.org/wiki/Q1726"
+				"idno": {
+					"GND": "http://d-nb.info/gnd/4127793-4",
+					"Wikidata": "https://www.wikidata.org/wiki/Q1726"
+				}
 			}
 		},
 		"St. Pölten": {
@@ -96,7 +111,10 @@
 					"country": "Austria",
 					"geo": "48.2 15.616666666667"
 				},
-				"idno": "https://www.wikidata.org/wiki/Q82500"
+				"idno": {
+					"GND": "http://d-nb.info/gnd/4051622-2",
+					"Wikidata": "https://www.wikidata.org/wiki/Q82500"
+				}
 			}
 		},
 		"Mautern": {
@@ -109,7 +127,10 @@
 					"country": "Austria",
 					"geo": "47.4 14.833333333333"
 				},
-					"idno": "https://www.wikidata.org/wiki/Q258162"
+					"idno": {
+						"GND": "http://d-nb.info/gnd/4115047-8",
+						"Wikidata": "https://www.wikidata.org/wiki/Q258162"
+					}
 			}
 		},
 		"Venedig": {
@@ -122,7 +143,10 @@
 					"country": "Italy",
 					"geo": "45.439722222222 12.331944444444"
 				},
-				"idno": "https://www.wikidata.org/wiki/Q641"
+				"idno": {
+					"GND": "",
+					"Wikidata": "https://www.wikidata.org/wiki/Q641"
+				}
 			}
 		},
 		"Salzburg": {
@@ -135,7 +159,10 @@
 					"country": "Austria",
 					"geo": "47.8 13.045"
 				},
-				"idno": "https://www.wikidata.org/wiki/Q34713"
+				"idno": {
+					"GND": "http://d-nb.info/gnd/4062501-1",
+					"Wikidata": "https://www.wikidata.org/wiki/Q34713"
+				}
 			}
 		}
 	},
@@ -150,7 +177,10 @@
 				"surname": "Voigt",
 				"forename": "Leopold"
 			},
-			"idno": "http://d-nb.info/gnd/1037512057"
+			"idno": {
+				"GND": "http://d-nb.info/gnd/1037512057",
+				"Wikidata": "https://www.wikidata.org/wiki/Q56118770"
+			}
 		},
 		"Mayr": {
 			"attr": {
@@ -162,8 +192,10 @@
 				"surname": "Mayr",
 				"forename": "Johann Baptist"
 			},
-			"idno": "http://d-nb.info/gnd/124751946"
-			},
+			"idno": {
+				"GND": "http://d-nb.info/gnd/124751946"
+			}
+		},
 		"Pezzana": {
 			"attr": {
 				"sex": "M",
@@ -174,7 +206,10 @@
 				"surname": "Pezzana",
 				"forename": "Giovanni Antonio"
 			},
-			"idno": "http://d-nb.info/gnd/1102696757"
+			"idno": {
+				"GND": "http://d-nb.info/gnd/1102696757",
+				"Wikidata": "https://www.wikidata.org/wiki/Q105889193"
+			}
 		},
 		"Balleoni": {
 			"attr": {
@@ -186,8 +221,11 @@
 				"surname": "Baglioni",
 				"forename": "Paolo"
 			},
-			"idno": "http://d-nb.info/gnd/1037524810"
-			},
+			"idno": {
+				"GND": "http://d-nb.info/gnd/1037524810",
+				"Wikidata": "https://www.wikidata.org/wiki/Q112399622"
+			}
+		},
 		"Ciera": {
 			"attr": {
 				"sex": "M",
@@ -198,7 +236,9 @@
 				"surname": "Ciera",
 				"forename": "Pietro"
 			},
-			"idno": "https://d-nb.info/gnd/1051039606"
+			"idno": {
+				"GND": "https://d-nb.info/gnd/1051039606"
+			}
 		}
 	}
 }
