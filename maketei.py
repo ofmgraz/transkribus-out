@@ -174,7 +174,7 @@ class TeiTree:
             person.attrib[att] = dictentry["attr"][att]
         person.attrib["{http://www.w3.org/XML/1998/namespace}id"] = publisher.lower()
         pname = ET.SubElement(person, "persName")
-        self.makeidno(person, dictentry["idno"])
+        self.make_idno(person, dictentry["idno"])
         for name in dictentry["persName"]:
             ET.SubElement(pname, name).text = dictentry["persName"][name]
         bibl = self.header.xpath(
@@ -192,7 +192,7 @@ class TeiTree:
     @staticmethod
     def make_idno(person, idno):
         for i in idno:
-            ET.SubElement(person, "idno", attrib={"type": i}).text = person[i]
+            ET.SubElement(person, "idno", attrib={"type": i}).text = idno[i]
 
     def parse_date(self, date):
         element = self.msdesc.xpath(
