@@ -10,7 +10,7 @@ source_table = "Quellen_OFM_Graz.csv"
 schema_file = "tei_ms.xsd"
 i = 1
 test = False
-if len(argv) > 0:
+if len(argv) > 1:
     test = True
 log = maketei.Log("0make_tei")
 
