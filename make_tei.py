@@ -3,12 +3,15 @@
 import maketei
 import glob
 from os import path
+from sys import argv
 
 source_directory = "tei"
 source_table = "Quellen_OFM_Graz.csv"
 schema_file = "tei_ms.xsd"
 i = 1
 test = False
+if len(argv) > 0:
+    test = True
 log = maketei.Log("0make_tei")
 
 for input_file in glob.glob(path.join(source_directory, "*.xml")):
