@@ -259,7 +259,8 @@ class TeiTree:
         title = re.findall("„(.*)“", summary)
         summary = summary.replace("„", "<title>").replace("“", "</title>")
         element = self.msdesc.xpath("//tei:msContents", namespaces=nsmap)[0]
-        element.attrib["class"] = attributes.strip()
+        if attributes:
+            element.attrib["class"] = attributes.strip()
         subelement = element.xpath("//tei:summary", namespaces=nsmap)[0]
         subelement.append(ET.fromstring(f"<p>{summary}</p>"))
         subelement.append(ET.fromstring(f"<p>{bookt}</p>"))
