@@ -42,7 +42,7 @@
             </repository>
             <idno type="shelfmark">S 1/45</idno>
           </msIdentifier>
-          <msContents class="#ofm #antiphonale #temporale">
+          <msContents class="#ofm">
             <summary>
               <p>Impressio Stigm. bis Advent, wie S 1/44</p>
               <p>Antiphonale, Teil 2</p>
@@ -82,12 +82,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="antiphonale">
-            <catDesc>Antiphonale</catDesc>
-          </category>
-          <category xml:id="temporale">
-            <catDesc>Teil</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -121,7 +115,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -129,8 +123,11 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
-      <place xml:id="GRZ" ref="https://www.wikidata.org/wiki/Q13298">
+      <place/>
+      <place xml:id="GRZ">
         <placeName>Graz</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -138,6 +135,8 @@
           <country>Austria</country>
           <geo>47.07083333333333 15.438611111111111</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4021912-4</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q13298</idno>
       </place>
     </listPlace>
   </standOff>

@@ -42,7 +42,7 @@
             </repository>
             <idno type="shelfmark">A 70/41</idno>
           </msIdentifier>
-          <msContents class="#ofm #antiphonale">
+          <msContents class="#ofm">
             <summary>
               <p>Ad Mandatum Antiphonae</p>
               <p>Antiphonale</p>
@@ -80,9 +80,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="antiphonale">
-            <catDesc>Antiphonale</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -116,7 +113,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -124,6 +121,8 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
     </listPlace>
   </standOff>

@@ -42,7 +42,7 @@
             </repository>
             <idno type="shelfmark">S 1/40</idno>
           </msIdentifier>
-          <msContents class="#ofm #intonationsbuch">
+          <msContents class="#ofm">
             <summary>
               <p>Intonationen für Vespern</p>
               <p>Intonationsbuch für Zelebranten</p>
@@ -82,9 +82,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="intonationsbuch">
-            <catDesc>Intonationsbuch</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -118,7 +115,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -126,8 +123,11 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
-      <place xml:id="MRL" ref="https://www.wikidata.org/wiki/Q699807">
+      <place/>
+      <place xml:id="MRL">
         <placeName>Maria Lankowitz</placeName>
         <location>
           <settlement>Maria Lankowitz</settlement>
@@ -135,6 +135,8 @@
           <country>Austria</country>
           <geo>47.063888888889 15.063055555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4400654-8</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q699807</idno>
       </place>
     </listPlace>
   </standOff>

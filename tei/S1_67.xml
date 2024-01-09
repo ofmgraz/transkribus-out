@@ -2,7 +2,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
+        <title type="main">Antiphonarium de Sanctis Ordinis Minorum</title>
+        <title type="desc">S 1/67</title>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
@@ -32,7 +33,11 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <date/>
+          <date when="1690">1690</date>
+          <pubPlace>
+            <placeName ref="#VNZ">Venedig</placeName>
+          </pubPlace>
+          <publisher ref="#balleoni">Balleoni</publisher>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -40,28 +45,35 @@
             <repository>
               <placeName ref="#FCG">Zentralbibliothek der Wiener Franziskanerprovinz Graz</placeName>
             </repository>
-            <idno type="shelfmark"/>
+            <idno type="shelfmark">S 1/67</idno>
           </msIdentifier>
-          <msContents class="">
-            <summary/>
+          <msContents class="#ofm">
+            <summary>
+              <p>Mit Anhang: <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
+              <p>Antiphonarium Romanum</p>
+            </summary>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="print">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm">
+                    <height>190</height>
+                    <width>145</width>
+                  </dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="leaf" quantity="290">290</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance>
+              <placeName ref="#VNZ">Venedig</placeName>
+            </provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -78,6 +90,9 @@
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
+          <category xml:id="ofm">
+            <catDesc>OFM</catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -86,7 +101,7 @@
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws">manuscript</channel>
+        <channel mode="ws">book</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -105,7 +120,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -113,8 +128,32 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
+      </place>
+      <place/>
+      <place xml:id="VNZ">
+        <placeName>Venedig</placeName>
+        <location>
+          <settlement>Venice</settlement>
+          <region>Veneto</region>
+          <country>Italy</country>
+          <geo>45.439722222222 12.331944444444</geo>
+        </location>
+        <idno type="GND"/>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q641</idno>
       </place>
     </listPlace>
+    <listPerson>
+      <person sex="M" role="printer" age="adult" xml:id="balleoni">
+        <persName>
+          <surname>Baglioni</surname>
+          <forename>Paolo</forename>
+        </persName>
+        <idno type="GND">http://d-nb.info/gnd/1037524810</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q112399622</idno>
+      </person>
+    </listPerson>
   </standOff>
   <facsimile>
     <surface ulx="0" uly="0" lrx="2000" lry="2942" xml:id="facs_1">

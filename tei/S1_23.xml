@@ -42,7 +42,7 @@
             </repository>
             <idno type="shelfmark">S 1/23</idno>
           </msIdentifier>
-          <msContents class="#ofm #lamentationen">
+          <msContents class="#ofm">
             <summary>
               <p/>
               <p>Lamentationes Ieremiae Prophetae</p>
@@ -82,9 +82,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="lamentationen">
-            <catDesc>Lamentationes</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -118,7 +115,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -126,8 +123,11 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
-      <place xml:id="MIS" ref="https://www.wikidata.org/wiki/Q258162">
+      <place/>
+      <place xml:id="MIS">
         <placeName>Mautern</placeName>
         <location>
           <settlement>Mautern in Steiermark</settlement>
@@ -135,6 +135,8 @@
           <country>Austria</country>
           <geo>47.4 14.833333333333</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4115047-8</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q258162</idno>
       </place>
     </listPlace>
   </standOff>

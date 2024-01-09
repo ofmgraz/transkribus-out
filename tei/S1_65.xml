@@ -46,7 +46,7 @@
             </repository>
             <idno type="shelfmark">S 1/65</idno>
           </msIdentifier>
-          <msContents class="#ofm #graduale">
+          <msContents class="#ofm">
             <summary>
               <p>Mit Anhang: Graduale Missarum in Festis Trium Ordinum Sancti Patris Francisci</p>
               <p>Graduale Romanum</p>
@@ -86,9 +86,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="graduale">
-            <catDesc>Graduale</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -122,7 +119,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -130,8 +127,11 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
-      <place xml:id="VNZ" ref="https://www.wikidata.org/wiki/Q641">
+      <place/>
+      <place xml:id="VNZ">
         <placeName>Venedig</placeName>
         <location>
           <settlement>Venice</settlement>
@@ -139,13 +139,18 @@
           <country>Italy</country>
           <geo>45.439722222222 12.331944444444</geo>
         </location>
+        <idno type="GND"/>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q641</idno>
       </place>
     </listPlace>
     <listPerson>
-      <person sex="M" role="printer" age="adult" ref="http://d-nb.info/gnd/1037524810" xml:id="balleoni">
-        <surname>Baglioni</surname>
-        <forename>Paolo</forename>
-        <roleName>printer</roleName>
+      <person sex="M" role="printer" age="adult" xml:id="balleoni">
+        <persName>
+          <surname>Baglioni</surname>
+          <forename>Paolo</forename>
+        </persName>
+        <idno type="GND">http://d-nb.info/gnd/1037524810</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q112399622</idno>
       </person>
     </listPerson>
   </standOff>

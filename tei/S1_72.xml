@@ -46,7 +46,7 @@
             </repository>
             <idno type="shelfmark">S 1/72</idno>
           </msIdentifier>
-          <msContents class=" #psalterium">
+          <msContents>
             <summary>
               <p>Mit Hymnar</p>
               <p>Psalterium Romanum</p>
@@ -86,9 +86,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="psalterium">
-            <catDesc>Psalterium</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -119,7 +116,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -127,8 +124,11 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
-      <place xml:id="SLZ" ref="https://www.wikidata.org/wiki/Q34713">
+      <place/>
+      <place xml:id="SLZ">
         <placeName>Salzburg</placeName>
         <location>
           <settlement>Salzburg</settlement>
@@ -136,13 +136,17 @@
           <country>Austria</country>
           <geo>47.8 13.045</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4062501-1</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q34713</idno>
       </place>
     </listPlace>
     <listPerson>
-      <person sex="M" role="printer" age="adult" ref="http://d-nb.info/gnd/124751946" xml:id="mayr">
-        <surname>Mayr</surname>
-        <forename>Johann Baptist</forename>
-        <roleName>printer</roleName>
+      <person sex="M" role="printer" age="adult" xml:id="mayr">
+        <persName>
+          <surname>Mayr</surname>
+          <forename>Johann Baptist</forename>
+        </persName>
+        <idno type="GND">http://d-nb.info/gnd/124751946</idno>
       </person>
     </listPerson>
   </standOff>

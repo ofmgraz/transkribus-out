@@ -42,7 +42,7 @@
             </repository>
             <idno type="shelfmark">S 1/29</idno>
           </msIdentifier>
-          <msContents class="#oesa #prozessionale">
+          <msContents class="#oesa">
             <summary>
               <p>Manuale Complectens Omnia Quae in ecclesis nostris pro Publicis functionibus canenda sunt. Gesänge für die wichtigsten Prozessionen des Jahres. In Besitz von P. Ludwig Jeditschka OFM. Enthält auch eine mehrstimmige Litanei und 2 deutsche Kirchenlieder. Vermutlich Steindruck, fast identisch mit S 1/40.</p>
               <p>Prozessionale</p>
@@ -82,9 +82,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="prozessionale">
-            <catDesc>Prozessionale</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -118,7 +115,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -126,8 +123,11 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
-      <place xml:id="VIE" ref="https://www.wikidata.org/wiki/Q1741">
+      <place/>
+      <place xml:id="VIE">
         <placeName>Wien</placeName>
         <location>
           <settlement>Vienna</settlement>
@@ -135,6 +135,8 @@
           <country>Austria</country>
           <geo>48.208333333333336 16.3725</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4066009-6</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q1741</idno>
       </place>
     </listPlace>
   </standOff>

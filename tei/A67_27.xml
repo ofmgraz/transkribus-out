@@ -43,7 +43,7 @@
             </repository>
             <idno type="shelfmark">A 67/27</idno>
           </msIdentifier>
-          <msContents class="#osc #antiphonale">
+          <msContents class="#osc">
             <summary>
               <p>
                 <title>Pro divino officio in choro</title>
@@ -86,9 +86,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="antiphonale">
-            <catDesc>Antiphonale</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -122,7 +119,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -130,8 +127,11 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
-      <place xml:id="MUN" ref="https://www.wikidata.org/wiki/Q1726">
+      <place/>
+      <place xml:id="MUN">
         <placeName>München</placeName>
         <location>
           <settlement>Munich</settlement>
@@ -139,8 +139,11 @@
           <country>Germany</country>
           <geo>48.1375 11.575</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4127793-4</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q1726</idno>
       </place>
-      <place xml:id="GRZ" ref="https://www.wikidata.org/wiki/Q13298">
+      <place/>
+      <place xml:id="GRZ">
         <placeName>Graz</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -148,6 +151,8 @@
           <country>Austria</country>
           <geo>47.07083333333333 15.438611111111111</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4021912-4</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q13298</idno>
       </place>
     </listPlace>
   </standOff>

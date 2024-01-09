@@ -48,7 +48,7 @@
             </repository>
             <idno type="shelfmark">S 1/74</idno>
           </msIdentifier>
-          <msContents class="#ofm #prozessionale">
+          <msContents class="#ofm">
             <summary>
               <p>
                 <title>Ordo agendorum et cantandorum in actibus processionalibus: Pro EE Franciscanis strictioris observantiae, in alma Provincia Austriae DEO famulantibus Anno M.DCLVI accomodatus</title>
@@ -90,9 +90,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="prozessionale">
-            <catDesc>Prozessionale</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -126,7 +123,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -134,8 +131,11 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
-      <place xml:id="VIE" ref="https://www.wikidata.org/wiki/Q1741">
+      <place/>
+      <place xml:id="VIE">
         <placeName>Wien</placeName>
         <location>
           <settlement>Vienna</settlement>
@@ -143,13 +143,18 @@
           <country>Austria</country>
           <geo>48.208333333333336 16.3725</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4066009-6</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q1741</idno>
       </place>
     </listPlace>
     <listPerson>
-      <person sex="M" role="printer" age="adult" ref="http://d-nb.info/gnd/1037512057" xml:id="voigt">
-        <surname>Voigt</surname>
-        <forename>Leopold</forename>
-        <roleName>printer</roleName>
+      <person sex="M" role="printer" age="adult" xml:id="voigt">
+        <persName>
+          <surname>Voigt</surname>
+          <forename>Leopold</forename>
+        </persName>
+        <idno type="GND">http://d-nb.info/gnd/1037512057</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q56118770</idno>
       </person>
     </listPerson>
   </standOff>

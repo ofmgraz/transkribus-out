@@ -42,7 +42,7 @@
             </repository>
             <idno type="shelfmark">A 64/42</idno>
           </msIdentifier>
-          <msContents class="#ofm #antiphonale #temporale">
+          <msContents class="#ofm">
             <summary>
               <p>Auch Psalterium, Hymnar</p>
               <p>Antiphonale, Diurnale</p>
@@ -83,12 +83,6 @@
       <classDecl>
         <taxonomy>
           <desc>Book types</desc>
-          <category xml:id="antiphonale">
-            <catDesc>Antiphonale</catDesc>
-          </category>
-          <category xml:id="temporale">
-            <catDesc>Diurnale</catDesc>
-          </category>
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
@@ -122,7 +116,7 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG" ref="https://www.wikidata.org/wiki/Q64487580">
+      <place xml:id="FCG">
         <placeName>Franciscan Church</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -130,8 +124,11 @@
           <country>Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q64487580</idno>
       </place>
-      <place xml:id="GRZ" ref="https://www.wikidata.org/wiki/Q13298">
+      <place/>
+      <place xml:id="GRZ">
         <placeName>Graz</placeName>
         <location>
           <settlement>Graz</settlement>
@@ -139,8 +136,11 @@
           <country>Austria</country>
           <geo>47.07083333333333 15.438611111111111</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4021912-4</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q13298</idno>
       </place>
-      <place xml:id="LJB" ref="https://www.wikidata.org/wiki/Q437">
+      <place/>
+      <place xml:id="LJB">
         <placeName>Ljubljana</placeName>
         <location>
           <settlement>Ljubljana</settlement>
@@ -148,6 +148,8 @@
           <country>Slovenia</country>
           <geo>46.05138888888889 14.50611111111111</geo>
         </location>
+        <idno type="GND">http://d-nb.info/gnd/4073953-3</idno>
+        <idno type="Wikidata">https://www.wikidata.org/wiki/Q437</idno>
       </place>
     </listPlace>
   </standOff>
