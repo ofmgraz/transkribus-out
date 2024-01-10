@@ -205,32 +205,42 @@ class TeiTree:
             log.print_log(self.tablename, f"“{date}”´ is not a valid date")
             year = "2023"
         if year == 2023:
-            ddate = {"notBefore": "1000", "notAfter": year}
+            nb = datetime.strptime("1 Jan 1000 00:00:00", "%d %b %Y %H:%M:%S")
+            na = datetime.strptime(f"31 Dec {year} 23:59:59", "%d %b %Y %H:%M:%S")
+            ddate = {"notBefore": nb, "notAfter": na}
         elif date.startswith("~"):
-            ddate = {"notBefore": f"{year - 20}", "notAfter": f"{year + 20}"}
+            nb = datetime.strptime(f"1 Jan {year - 20} 00:00:00", "%d %b %Y %H:%M:%S")
+            na = datetime.strptime(f"31 Dec {year + 20} 23:59:59", "%d %b %Y %H:%M:%S")
+            ddate = {"notBefore": nb, "notAfter": na}
         elif date.endswith("Jh.") or re.match(r"^\d{2}$", date):
-            ddate = {
-                "notBefore": f"{(year - 1) * 100}",
-                "notAfter": f"{(year - 1) * 100 + 99}",
-            }
+            nb = datetime.strptime(f"1 Jan {(year - 1) * 100} 00:00:00", "%d %b %Y %H:%M:%S")
+            na = datetime.strptime(f"31 Dec {(year - 1) * 100 + 99} 23:59:59", "%d %b %Y %H:%M:%S")
+            ddate = {"notBefore": nb, "notAfter": na}
         elif date.endswith("x"):
-            ddate = {"notBefore": f"{year}", "notAfter": f"{year + 99}"}
+            nb = datetime.strptime(f"1 Jan {year} 00:00:00", "%d %b %Y %H:%M:%S")
+            na = datetime.strptime(f"31 Dec {year + 99} 23:59:59", "%d %b %Y %H:%M:%S")
+            ddate = {"notBefore": nb, "notAfter": na}
         elif re.findall(r"^\d{2}\-\d(?:/\d)*", date):
             second = date.split("-")[1]
             year *= 100
             if second in "12":
                 factor = int(100 / int(second))
-                ddate = {"notBefore": year - factor, "notAfter": year - factor + 50}
+                nb = datetime.strptime(f"1 Jan {year - factor} 00:00:00", "%d %b %Y %H:%M:%S")
+                na = datetime.strptime(f"31 Dec {year - factor + 50} 23:59:59", "%d %b %Y %H:%M:%S")
+                ddate = {"notBefore": nb, "notAfter": na}
             else:
                 factor = int(
                     int(second.split("/")[0]) * 100 / int(second.split("/")[1])
                 )
-                ddate = {"notBefore": year + factor - 25, "notAfter": year + factor}
+                nb = datetime.strptime(f"1 Jan {year + factor - 25} 00:00:00", "%d %b %Y %H:%M:%S")
+                na = datetime.strptime(f"31 Dec {year + factor} 23:59:59", "%d %b %Y %H:%M:%S")
+                ddate = {"notBefore": nb, "notAfter": na}
         else:
-            ddate = {"when": f"{int(year)}"}
+            year = datetime.strptime(f"1 Jan {year} 00:00:00", "%d %b %Y %H:%M:%S")
+            ddate = {"when": year}
         element.text = date
         for time in ddate:
-            element.attrib[time] = str(ddate[time])
+            element.attrib[time] = str(ddate[time].isoformat())
 
     def classify_books(self, booktype, lit):
         taxonomies = self.header.xpath(
