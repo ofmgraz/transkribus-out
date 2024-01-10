@@ -2,9 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Antiphonas Festorum Principaliorum</title>
-        <title type="sub"> totius anni una cum intonationibus psalmorum</title>
-        <title type="desc">A 70/45</title>
+        <title type="main"/>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
@@ -34,7 +32,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="2023-01-01T00:00:00+01:00" notAfter="2023-12-31T23:59:59+01:00"/>
+          <date/>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -42,31 +40,24 @@
             <repository>
               <placeName ref="#FCG">Zentralbibliothek der Wiener Franziskanerprovinz Graz</placeName>
             </repository>
-            <idno type="shelfmark">A 70/45</idno>
+            <idno type="shelfmark"/>
           </msIdentifier>
-          <msContents class="#ofm">
-            <summary>
-              <p>
-                <title>Antiphonas Festorum Principaliorum: totius anni una cum intonationibus psalmorum</title>
-              </p>
-              <p>Antiphonale</p>
-            </summary>
+          <msContents>
+            <summary/>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm">
-                    <height>120</height>
-                    <width>80</width>
-                  </dimensions>
+                  <dimensions unit="mm"> </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="46">46</measure>
+                  <measure/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>Placeholder<binaryObject/>
+            <musicNotation>
+              <binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
@@ -87,9 +78,6 @@
         </taxonomy>
         <taxonomy>
           <desc>Liturgies</desc>
-          <category xml:id="ofm">
-            <catDesc>OFM</catDesc>
-          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -132,13 +120,13 @@
   </standOff>
   <facsimile>
     <surface ulx="0" uly="0" lrx="2000" lry="2971" xml:id="facs_1">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-001r/full/full/0/default.jpg" width="2000px" height="2971px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2971px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3022" xml:id="facs_2">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-001v/full/full/0/default.jpg" width="2000px" height="3022px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3022px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2990" xml:id="facs_3">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-002r/full/full/0/default.jpg" width="2000px" height="2990px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2990px"/>
       <zone points="1442,536 92,536 92,173 1442,173" rendition="TextRegion" xml:id="facs_3_r" subtype="notation">
         <zone points="1442,536 92,536 92,173 1442,173" rendition="Line" xml:id="facs_3_r_line_000"/>
       </zone>
@@ -173,7 +161,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2998" xml:id="facs_4">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-002v/full/full/0/default.jpg" width="2000px" height="2998px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2998px"/>
       <zone points="558,1244 221,1244 221,163 558,163" rendition="TextRegion" xml:id="facs_4_r" subtype="rubrik2">
          </zone>
       <zone points="1926,529 559,529 559,164 1926,164" rendition="TextRegion" xml:id="facs_4_r_10" subtype="notation">
@@ -210,7 +198,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2983" xml:id="facs_5">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-003r/full/full/0/default.jpg" width="2000px" height="2983px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2983px"/>
       <zone points="1450,555 127,555 127,206 1450,206" rendition="TextRegion" xml:id="facs_5_r_5" subtype="notation">
         <zone points="1450,555 127,555 127,206 1450,206" rendition="Line" xml:id="facs_5_r_5_line_000"/>
       </zone>
@@ -245,7 +233,7 @@
          </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2996" xml:id="facs_6">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-003v/full/full/0/default.jpg" width="2000px" height="2996px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2996px"/>
       <zone points="218,185 558,185 558,552 218,552" rendition="TextRegion" xml:id="facs_6_r_5" subtype="rubrik2">
          </zone>
       <zone points="1906,533 567,533 567,174 1906,174" rendition="TextRegion" xml:id="facs_6_r_10" subtype="notation">
@@ -282,7 +270,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3029" xml:id="facs_7">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-004r/full/full/0/default.jpg" width="2000px" height="3029px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3029px"/>
       <zone points="1389,516 55,516 55,188 1389,188" rendition="TextRegion" xml:id="facs_7_r_5" subtype="notation">
         <zone points="1389,516 55,516 55,188 1389,188" rendition="Line" xml:id="facs_7_r_5_line_000"/>
       </zone>
@@ -317,7 +305,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3006" xml:id="facs_8">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-004v/full/full/0/default.jpg" width="2000px" height="3006px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3006px"/>
       <zone points="1903,525 567,525 567,179 1903,179" rendition="TextRegion" xml:id="facs_8_r_5" subtype="notation">
         <zone points="1903,525 567,525 567,179 1903,179" rendition="Line" xml:id="facs_8_r_5_line_000"/>
       </zone>
@@ -352,7 +340,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3044" xml:id="facs_9">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-005r/full/full/0/default.jpg" width="2000px" height="3044px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3044px"/>
       <zone points="1414,519 30,519 30,171 1414,171" rendition="TextRegion" xml:id="facs_9_r_5" subtype="notation">
         <zone points="1414,519 30,519 30,171 1414,171" rendition="Line" xml:id="facs_9_r_5_line_000"/>
       </zone>
@@ -387,7 +375,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2983" xml:id="facs_10">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-005v/full/full/0/default.jpg" width="2000px" height="2983px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2983px"/>
       <zone points="1926,507 589,507 589,172 1926,172" rendition="TextRegion" xml:id="facs_10_r_5" subtype="notation">
         <zone points="1926,507 589,507 589,172 1926,172" rendition="Line" xml:id="facs_10_r_5_line_000"/>
       </zone>
@@ -422,7 +410,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3039" xml:id="facs_11">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-006r/full/full/0/default.jpg" width="2000px" height="3039px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3039px"/>
       <zone points="804,264 337,264 337,173 804,173" rendition="TextRegion" xml:id="facs_11_r_5" subtype="rubrik">
         <zone points="804,264 337,264 337,173 804,173" rendition="Line" xml:id="facs_11_r_5_line_000"/>
       </zone>
@@ -460,7 +448,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2981" xml:id="facs_12">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-006v/full/full/0/default.jpg" width="2000px" height="2981px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2981px"/>
       <zone points="1892,536 609,536 609,172 1892,172" rendition="TextRegion" xml:id="facs_12_r_5" subtype="notation">
         <zone points="1892,536 609,536 609,172 1892,172" rendition="Line" xml:id="facs_12_r_5_line_000"/>
       </zone>
@@ -495,7 +483,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3017" xml:id="facs_13">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-007r/full/full/0/default.jpg" width="2000px" height="3017px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3017px"/>
       <zone points="1381,519 39,519 39,248 1381,248" rendition="TextRegion" xml:id="facs_13_r_5" subtype="notation">
         <zone points="1381,519 39,519 39,248 1381,248" rendition="Line" xml:id="facs_13_r_5_line_000"/>
       </zone>
@@ -530,7 +518,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2985" xml:id="facs_14">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-007v/full/full/0/default.jpg" width="2000px" height="2985px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2985px"/>
       <zone points="1899,539 605,539 605,168 1899,168" rendition="TextRegion" xml:id="facs_14_r_11" subtype="notation">
         <zone points="1899,539 605,539 605,168 1899,168" rendition="Line" xml:id="facs_14_r_11_line_000"/>
       </zone>
@@ -567,7 +555,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3014" xml:id="facs_15">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-008r/full/full/0/default.jpg" width="2000px" height="3014px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3014px"/>
       <zone points="1397,570 61,570 61,290 1397,290" rendition="TextRegion" xml:id="facs_15_r_15" subtype="notation">
         <zone points="1397,570 61,570 61,290 1397,290" rendition="Line" xml:id="facs_15_r_15_line_000"/>
       </zone>
@@ -606,7 +594,7 @@
          </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2989" xml:id="facs_16">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-008v/full/full/0/default.jpg" width="2000px" height="2989px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2989px"/>
       <zone points="590,671 228,671 228,206 590,206" rendition="TextRegion" xml:id="facs_16_r" subtype="rubrik2">
          </zone>
       <zone points="1893,594 594,594 594,309 1893,309" rendition="TextRegion" xml:id="facs_16_r_10" subtype="notation">
@@ -643,7 +631,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3016" xml:id="facs_17">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-009r/full/full/0/default.jpg" width="2000px" height="3016px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3016px"/>
       <zone points="1413,554 65,554 65,216 1413,216" rendition="TextRegion" xml:id="facs_17_r" subtype="notation">
         <zone points="1413,554 65,554 65,216 1413,216" rendition="Line" xml:id="facs_17_r_line_000"/>
       </zone>
@@ -678,7 +666,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3011" xml:id="facs_18">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-009v/full/full/0/default.jpg" width="2000px" height="3011px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3011px"/>
       <zone points="1857,515 576,515 576,167 1857,167" rendition="TextRegion" xml:id="facs_18_r_10" subtype="notation">
         <zone points="1857,515 576,515 576,167 1857,167" rendition="Line" xml:id="facs_18_r_10_line_000"/>
       </zone>
@@ -715,7 +703,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3028" xml:id="facs_19">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-010r/full/full/0/default.jpg" width="2000px" height="3028px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3028px"/>
       <zone points="1418,577 97,577 97,260 1418,260" rendition="TextRegion" xml:id="facs_19_r_5" subtype="notation">
         <zone points="1418,577 97,577 97,260 1418,260" rendition="Line" xml:id="facs_19_r_5_line_000"/>
       </zone>
@@ -750,7 +738,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3001" xml:id="facs_20">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-010v/full/full/0/default.jpg" width="2000px" height="3001px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3001px"/>
       <zone points="1869,545 573,524 571,203 1866,203" rendition="TextRegion" xml:id="facs_20_r" subtype="notation">
         <zone points="1869,545 573,524 571,203 1866,203" rendition="Line" xml:id="facs_20_r_line_000"/>
       </zone>
@@ -785,7 +773,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3073" xml:id="facs_21">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-011r/full/full/0/default.jpg" width="2000px" height="3073px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3073px"/>
       <zone points="1384,577 77,577 77,201 1384,201" rendition="TextRegion" xml:id="facs_21_r_5" subtype="notation">
         <zone points="1384,577 77,577 77,201 1384,201" rendition="Line" xml:id="facs_21_r_5_line_000"/>
       </zone>
@@ -820,7 +808,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2992" xml:id="facs_22">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-011v/full/full/0/default.jpg" width="2000px" height="2992px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2992px"/>
       <zone points="1882,570 608,570 608,289 1882,289" rendition="TextRegion" xml:id="facs_22_r_10" subtype="notation">
         <zone points="1882,570 608,570 608,289 1882,289" rendition="Line" xml:id="facs_22_r_10_line_000"/>
       </zone>
@@ -857,7 +845,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2995" xml:id="facs_23">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-012r/full/full/0/default.jpg" width="2000px" height="2995px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2995px"/>
       <zone points="1409,528 69,528 69,146 1409,146" rendition="TextRegion" xml:id="facs_23_r_10" subtype="notation">
         <zone points="1409,528 69,528 69,146 1409,146" rendition="Line" xml:id="facs_23_r_10_line_000"/>
       </zone>
@@ -894,274 +882,274 @@
          </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2992" xml:id="facs_24">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-012v/full/full/0/default.jpg" width="2000px" height="2992px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2992px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3009" xml:id="facs_25">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-013r/full/full/0/default.jpg" width="2000px" height="3009px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3009px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3000" xml:id="facs_26">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-013v/full/full/0/default.jpg" width="2000px" height="3000px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3000px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3011" xml:id="facs_27">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-014r/full/full/0/default.jpg" width="2000px" height="3011px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3011px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3003" xml:id="facs_28">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-014v/full/full/0/default.jpg" width="2000px" height="3003px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3003px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3045" xml:id="facs_29">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-015r/full/full/0/default.jpg" width="2000px" height="3045px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3045px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2975" xml:id="facs_30">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-015v/full/full/0/default.jpg" width="2000px" height="2975px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2975px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3006" xml:id="facs_31">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-016r/full/full/0/default.jpg" width="2000px" height="3006px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3006px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2985" xml:id="facs_32">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-016v/full/full/0/default.jpg" width="2000px" height="2985px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2985px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_33">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-017r/full/full/0/default.jpg" width="2000px" height="3032px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3032px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2928" xml:id="facs_34">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-017v/full/full/0/default.jpg" width="2000px" height="2928px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2928px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3013" xml:id="facs_35">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-018r/full/full/0/default.jpg" width="2000px" height="3013px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3013px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2933" xml:id="facs_36">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-018v/full/full/0/default.jpg" width="2000px" height="2933px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2933px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2998" xml:id="facs_37">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-019r/full/full/0/default.jpg" width="2000px" height="2998px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2998px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2923" xml:id="facs_38">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-019v/full/full/0/default.jpg" width="2000px" height="2923px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2923px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3022" xml:id="facs_39">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-020r/full/full/0/default.jpg" width="2000px" height="3022px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3022px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2930" xml:id="facs_40">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-020v/full/full/0/default.jpg" width="2000px" height="2930px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2930px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3039" xml:id="facs_41">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-021r/full/full/0/default.jpg" width="2000px" height="3039px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3039px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2933" xml:id="facs_42">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-021v/full/full/0/default.jpg" width="2000px" height="2933px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2933px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3049" xml:id="facs_43">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-022r/full/full/0/default.jpg" width="2000px" height="3049px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3049px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2936" xml:id="facs_44">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-022v/full/full/0/default.jpg" width="2000px" height="2936px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2936px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3037" xml:id="facs_45">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-023r/full/full/0/default.jpg" width="2000px" height="3037px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3037px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2944" xml:id="facs_46">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-023v/full/full/0/default.jpg" width="2000px" height="2944px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2944px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3037" xml:id="facs_47">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-024r/full/full/0/default.jpg" width="2000px" height="3037px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3037px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2951" xml:id="facs_48">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-024v/full/full/0/default.jpg" width="2000px" height="2951px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2951px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2953" xml:id="facs_49">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-025r/full/full/0/default.jpg" width="2000px" height="2953px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2953px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2961" xml:id="facs_50">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-025v/full/full/0/default.jpg" width="2000px" height="2961px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2961px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2994" xml:id="facs_51">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-026r/full/full/0/default.jpg" width="2000px" height="2994px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2994px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2957" xml:id="facs_52">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-026v/full/full/0/default.jpg" width="2000px" height="2957px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2957px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3039" xml:id="facs_53">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-027r/full/full/0/default.jpg" width="2000px" height="3039px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3039px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2989" xml:id="facs_54">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-027v/full/full/0/default.jpg" width="2000px" height="2989px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2989px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3015" xml:id="facs_55">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-028r/full/full/0/default.jpg" width="2000px" height="3015px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3015px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3002" xml:id="facs_56">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-028v/full/full/0/default.jpg" width="2000px" height="3002px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3002px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2986" xml:id="facs_57">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-029r/full/full/0/default.jpg" width="2000px" height="2986px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2986px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2980" xml:id="facs_58">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-029v/full/full/0/default.jpg" width="2000px" height="2980px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2980px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3015" xml:id="facs_59">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-030r/full/full/0/default.jpg" width="2000px" height="3015px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3015px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2987" xml:id="facs_60">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-030v/full/full/0/default.jpg" width="2000px" height="2987px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2987px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3003" xml:id="facs_61">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-031r/full/full/0/default.jpg" width="2000px" height="3003px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3003px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3001" xml:id="facs_62">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-031v/full/full/0/default.jpg" width="2000px" height="3001px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3001px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3013" xml:id="facs_63">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-032r/full/full/0/default.jpg" width="2000px" height="3013px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3013px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2989" xml:id="facs_64">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-032v/full/full/0/default.jpg" width="2000px" height="2989px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2989px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3005" xml:id="facs_65">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-033r/full/full/0/default.jpg" width="2000px" height="3005px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3005px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3003" xml:id="facs_66">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-033v/full/full/0/default.jpg" width="2000px" height="3003px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3003px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2994" xml:id="facs_67">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-034r/full/full/0/default.jpg" width="2000px" height="2994px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2994px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3002" xml:id="facs_68">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-034v/full/full/0/default.jpg" width="2000px" height="3002px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3002px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_69">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-035r/full/full/0/default.jpg" width="2000px" height="3032px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3032px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2999" xml:id="facs_70">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-035v/full/full/0/default.jpg" width="2000px" height="2999px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2999px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3023" xml:id="facs_71">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-036r/full/full/0/default.jpg" width="2000px" height="3023px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3023px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3011" xml:id="facs_72">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-036v/full/full/0/default.jpg" width="2000px" height="3011px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3011px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3054" xml:id="facs_73">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-037r/full/full/0/default.jpg" width="2000px" height="3054px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3054px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2962" xml:id="facs_74">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-037v/full/full/0/default.jpg" width="2000px" height="2962px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2962px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3044" xml:id="facs_75">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-038r/full/full/0/default.jpg" width="2000px" height="3044px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3044px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2915" xml:id="facs_76">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-038v/full/full/0/default.jpg" width="2000px" height="2915px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2915px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3005" xml:id="facs_77">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-039r/full/full/0/default.jpg" width="2000px" height="3005px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3005px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2944" xml:id="facs_78">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-039v/full/full/0/default.jpg" width="2000px" height="2944px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2944px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3000" xml:id="facs_79">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-040r/full/full/0/default.jpg" width="2000px" height="3000px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3000px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2942" xml:id="facs_80">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-040v/full/full/0/default.jpg" width="2000px" height="2942px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2942px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2984" xml:id="facs_81">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-041r/full/full/0/default.jpg" width="2000px" height="2984px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2984px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2903" xml:id="facs_82">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-041v/full/full/0/default.jpg" width="2000px" height="2903px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2903px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3002" xml:id="facs_83">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-042r/full/full/0/default.jpg" width="2000px" height="3002px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3002px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2995" xml:id="facs_84">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-042v/full/full/0/default.jpg" width="2000px" height="2995px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2995px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2982" xml:id="facs_85">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-043r/full/full/0/default.jpg" width="2000px" height="2982px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2982px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2972" xml:id="facs_86">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-043v/full/full/0/default.jpg" width="2000px" height="2972px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2972px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2991" xml:id="facs_87">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-044r/full/full/0/default.jpg" width="2000px" height="2991px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2991px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2930" xml:id="facs_88">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-044v/full/full/0/default.jpg" width="2000px" height="2930px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2930px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3023" xml:id="facs_89">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-045r/full/full/0/default.jpg" width="2000px" height="3023px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3023px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2920" xml:id="facs_90">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-045v/full/full/0/default.jpg" width="2000px" height="2920px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2920px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3027" xml:id="facs_91">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-046r/full/full/0/default.jpg" width="2000px" height="3027px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3027px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2942" xml:id="facs_92">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-046v/full/full/0/default.jpg" width="2000px" height="2942px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2942px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3010" xml:id="facs_93">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-047r/full/full/0/default.jpg" width="2000px" height="3010px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3010px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2797" xml:id="facs_94">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-047v/full/full/0/default.jpg" width="2000px" height="2797px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2797px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3043" xml:id="facs_95">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-048r/full/full/0/default.jpg" width="2000px" height="3043px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3043px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2844" xml:id="facs_96">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-048v/full/full/0/default.jpg" width="2000px" height="2844px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2844px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3017" xml:id="facs_97">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-049r/full/full/0/default.jpg" width="2000px" height="3017px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3017px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2852" xml:id="facs_98">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-049v/full/full/0/default.jpg" width="2000px" height="2852px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2852px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3022" xml:id="facs_99">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-050r/full/full/0/default.jpg" width="2000px" height="3022px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3022px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2901" xml:id="facs_100">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-050v/full/full/0/default.jpg" width="2000px" height="2901px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2901px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2910" xml:id="facs_101">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-a001r/full/full/0/default.jpg" width="2000px" height="2910px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2910px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3002" xml:id="facs_102">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-a001v/full/full/0/default.jpg" width="2000px" height="3002px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3002px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2836" xml:id="facs_103">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-a002r/full/full/0/default.jpg" width="2000px" height="2836px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2836px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2956" xml:id="facs_104">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-a002v/full/full/0/default.jpg" width="2000px" height="2956px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2956px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2947" xml:id="facs_105">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-a003r/full/full/0/default.jpg" width="2000px" height="2947px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2947px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2985" xml:id="facs_106">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-a003v/full/full/0/default.jpg" width="2000px" height="2985px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2985px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2975" xml:id="facs_107">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-a004r/full/full/0/default.jpg" width="2000px" height="2975px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2975px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2982" xml:id="facs_108">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-a004v/full/full/0/default.jpg" width="2000px" height="2982px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2982px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="11659" xml:id="facs_109">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-BR/full/full/0/default.jpg" width="2000px" height="11659px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="11659px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2748" xml:id="facs_110">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-HD/full/full/0/default.jpg" width="2000px" height="2748px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2748px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2818" xml:id="facs_111">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-HDS/full/full/0/default.jpg" width="2000px" height="2818px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2818px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2724" xml:id="facs_112">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-VD/full/full/0/default.jpg" width="2000px" height="2724px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2724px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2769" xml:id="facs_113">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A70_45/files/images/A-Gf_A70_45-VDS/full/full/0/default.jpg" width="2000px" height="2769px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Antiphonas Festorum Principalioru/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2769px"/>
     </surface>
   </facsimile>
   <text>
