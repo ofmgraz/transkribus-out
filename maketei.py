@@ -198,8 +198,8 @@ class TeiTree:
         element = self.msdesc.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date", namespaces=nsmap
         )[0]
-        nb = "-01-01T00:00:00+01:00"
-        na = "-12-31T23:59:59+01:00"
+        nb = "-01-01"
+        na = "-12-31"
         try:
             year = re.sub("x+", "00", date).lstrip("~").split()[0]
             year = int(year.split("-")[0].strip("."))
