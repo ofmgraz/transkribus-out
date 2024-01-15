@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">OFM Graz: Orte</title>
+        <title level="a">Verzeichnis der vorkommenden Orte</title>
+        <respStmt>
+          <resp>providing the content</resp>
+          <name>Fernando Sanz-Lázaro</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace>Vienna, Austria</pubPlace>
+        <date>2023-11-21+01:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Entitäten für für die Beschreibung der Choralhandschriften der Zentralbibliothek der Wiener Franziskanerprovinz Graz</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
+        <place xml:id="FCG">
+          <placeName>Franziskaner Kirche</placeName>
+          <location>
+            <settlement>Graz</settlement>
+            <region>Steiermark</region>
+            <country>Österreich</country>
+            <geo>47.070483333333 15.436780555556</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+        </place>
+        <place xml:id="GRZ">
+          <placeName>Graz</placeName>
+          <location>
+            <settlement>Graz</settlement>
+            <region>Steiermark</region>
+            <country>Österreich</country>
+            <geo>47.07083333333333 15.438611111111111</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4021912-4</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q13298</idno>
+        </place>
+        <place/>
+        <place xml:id="LJB">
+          <placeName>Ljubljana</placeName>
+          <location>
+            <settlement>Ljubljana</settlement>
+            <region>Oberkrain</region>
+            <country>Slovenien</country>
+            <geo>46.05138888888889 14.50611111111111</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4073953-3</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3239318</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q437</idno>
+        </place>
+        <place xml:id="VIE">
+          <placeName>Wien</placeName>
+          <location>
+            <settlement>Wien</settlement>
+            <region>Wien</region>
+            <country>Österreich</country>
+            <geo>48.208333333333336 16.3725</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q1741</idno>
+        </place>
+        <place xml:id="SLZ">
+          <placeName>Salzburg</placeName>
+          <location>
+            <settlement>Salzburg</settlement>
+            <region>Land Salzburg</region>
+            <country>Österreich</country>
+            <geo>47.8 13.045</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4062501-1</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
+          <idno type="URL" subtype="Wikidata">http://www.wikidata.org/entity/Q34713</idno>
+        </place>
+        <place xml:id="VNZ">
+          <placeName>Venedig</placeName>
+          <location>
+            <settlement>Venedig</settlement>
+            <region>Venetien</region>
+            <country>Italien</country>
+            <geo>45.439722222222 12.331944444444</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4062501-1/4062501-1</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q641</idno>
+        </place>
+        <place xml:id="MRL">
+          <placeName>Maria Lankowitz</placeName>
+          <location>
+            <settlement>Maria Lankowitz</settlement>
+            <region>Steiermark</region>
+            <country>Österreich</country>
+            <geo>47.063888888889 15.063055555556</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4400654-8</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q699807</idno>
+        </place>
+        <place xml:id="MUN">
+          <placeName>München</placeName>
+          <location>
+            <settlement>München</settlement>
+            <region>Bayern</region>
+            <country>Deutschland</country>
+            <geo>48.1375 11.575</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4127793-4</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/6559171</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q1726</idno>
+        </place>
+        <place xml:id="STP">
+          <placeName>St. Pölten</placeName>
+          <location>
+            <settlement>St. Pölten</settlement>
+            <region>Niederösterreich</region>
+            <country>Österreich</country>
+            <geo>48.2 15.616666666667</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4051622-2</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766426</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q82500</idno>
+        </place>
+        <place xml:id="MIS">
+          <placeName>Mautern</placeName>
+          <location>
+            <settlement>Mautern in Steiermark</settlement>
+            <region>Steiermark</region>
+            <country>Österreich</country>
+            <geo>47.4 14.833333333333</geo>
+          </location>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4115047-8</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771761</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q258162</idno>
+        </place>
+      </listPlace>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">OFM Graz: Drucker</title>
+            <title level="a">Verzeichnis der vorkommenden Personen</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Fernando Sanz-Lázaro</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <pubPlace>Vienna, Austria</pubPlace>
+            <date>2023-11-21+01:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Entitäten für die Beschreibung der Choralhandschriften der Zentralbibliothek der Wiener Franziskanerprovinz Graz</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="Voigt">
+               <persName xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                         xmlns:tei="http://www.tei-c.org/ns/1.0"
+                         xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <forename>Leopold</forename>
+                  <surname>Voigt</surname>
+               </persName>
+               <residence xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                      xmlns:tei="http://www.tei-c.org/ns/1.0"
+                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <date notBefore="1650-01-01" notAfter="1706-12-31">1650-1706</date>
+                  <settlement key="1">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </residence>
+               <sex xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                    xmlns:tei="http://www.tei-c.org/ns/1.0"
+                    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    value="male"/>
+               <occupation xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                           xmlns:tei="http://www.tei-c.org/ns/1.0"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                           key="90">Drucker</occupation>
+               <idno xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                     xmlns:tei="http://www.tei-c.org/ns/1.0"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     type="URL"
+                     subtype="gnd">https://d-nb.info/gnd/1037512057</idno>
+               <idno xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                     xmlns:tei="http://www.tei-c.org/ns/1.0"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     type="URL"
+                     subtype="wikidata">http://www.wikidata.org/entity/Q56118770</idno>
+            </person>
+
+            <person xml:id="Mayr">
+               <persName xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                         xmlns:tei="http://www.tei-c.org/ns/1.0"
+                         xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <forename>Johann Baptist</forename>
+                  <surname>Mayr</surname>
+               </persName>
+               <residence xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                      xmlns:tei="http://www.tei-c.org/ns/1.0"
+                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <date notBefore="1634-01-01" notAfter="1708-12-31">1634-1708</date>
+                  <settlement key="2">
+                     <placeName type="pref">Salzburg</placeName>
+                     <location>
+                        <geo>47.8 13.045</geo>
+                     </location>
+                  </settlement>
+               </residence>
+               <sex xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                    xmlns:tei="http://www.tei-c.org/ns/1.0"
+                    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    value="male"/>
+               <occupation xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                           xmlns:tei="http://www.tei-c.org/ns/1.0"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                           key="90">Drucker</occupation>
+               <idno xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                     xmlns:tei="http://www.tei-c.org/ns/1.0"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     type="URL"
+                     subtype="gnd">https://d-nb.info/gnd/124751946</idno>
+            </person>
+
+            <person xml:id="Voigt">
+               <persName xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                         xmlns:tei="http://www.tei-c.org/ns/1.0"
+                         xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <forename>Giovanni Antonio</forename>
+                  <surname>Pezzana</surname>
+               </persName>
+               <residence xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                      xmlns:tei="http://www.tei-c.org/ns/1.0"
+                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <date notBefore="1717-01-01" notAfter="1779-12-31">1717-1779</date>
+                  <settlement key="4">
+                     <placeName type="pref">Venedig</placeName>
+                     <location>
+                        <geo>45.439722222222 12.331944444444</geo>
+                     </location>
+                  </settlement>
+               </residence>
+               <sex xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                    xmlns:tei="http://www.tei-c.org/ns/1.0"
+                    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    value="male"/>
+               <occupation xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                           xmlns:tei="http://www.tei-c.org/ns/1.0"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                           key="90">Drucker</occupation>
+               <idno xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                     xmlns:tei="http://www.tei-c.org/ns/1.0"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     type="URL"
+                     subtype="gnd">http://d-nb.info/gnd/1102696757</idno>
+               <idno xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                     xmlns:tei="http://www.tei-c.org/ns/1.0"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     type="URL"
+                     subtype="wikidata">https://www.wikidata.org/entity/Q105889193</idno>
+            </person>
+
+            <person xml:id="Balleoni">
+               <persName xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                         xmlns:tei="http://www.tei-c.org/ns/1.0"
+                         xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <forename>Paolo</forename>
+                  <surname>Baglioni</surname>
+               </persName>
+               <residence xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                      xmlns:tei="http://www.tei-c.org/ns/1.0"
+                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <date notBefore="1632-01-01" notAfter="1721-12-31" cert="med">1632-1721?</date>
+                  <settlement key="4">
+                     <placeName type="pref">Venedig</placeName>
+                     <location>
+                        <geo>45.439722222222 12.331944444444</geo>
+                     </location>
+                  </settlement>
+               </residence>
+               <sex xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                    xmlns:tei="http://www.tei-c.org/ns/1.0"
+                    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    value="male"/>
+               <occupation xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                           xmlns:tei="http://www.tei-c.org/ns/1.0"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                           key="90">Drucker</occupation>
+               <idno xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                     xmlns:tei="http://www.tei-c.org/ns/1.0"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     type="URL"
+                     subtype="gnd">http://d-nb.info/gnd/1037524810</idno>
+               <idno xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                     xmlns:tei="http://www.tei-c.org/ns/1.0"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     type="URL"
+                     subtype="wikidata">https://www.wikidata.org/entity/Q112399622</idno>
+            </person>
+
+            <person xml:id="Ciera">
+               <persName xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                         xmlns:tei="http://www.tei-c.org/ns/1.0"
+                         xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <forename>Pietro</forename>
+                  <surname>Ciera</surname>
+               </persName>
+               <residence xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                      xmlns:tei="http://www.tei-c.org/ns/1.0"
+                      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                  <date notBefore="1650-01-01" notAfter="1706-12-31">1650-1706</date>
+                  <settlement key="4">
+                     <placeName type="pref">Venedig</placeName>
+                     <location>
+                        <geo>45.439722222222 12.331944444444</geo>
+                     </location>
+                  </settlement>
+               </residence>
+               <sex xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                    xmlns:tei="http://www.tei-c.org/ns/1.0"
+                    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    value="male"/>
+               <occupation xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                           xmlns:tei="http://www.tei-c.org/ns/1.0"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                           key="90">Drucker</occupation>
+               <idno xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                     xmlns:tei="http://www.tei-c.org/ns/1.0"
+                     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     type="URL"
+                     subtype="gnd">https://d-nb.info/gnd/1051039606</idno>
+            </person>
+
+</listPerson>
+</body>
+</text>
+</TEI>
