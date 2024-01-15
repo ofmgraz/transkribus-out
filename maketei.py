@@ -61,7 +61,14 @@ class TeiTree:
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
         self.make_text()
+        self.make_hodie()
         self.printable = self.make_printable(self.tei.tree)
+
+    def make_hodie(self):
+        hodie = datetime.today().strftime("%Y-%m-%d")
+        date = self.header.xpath('//tei:fileDesc/tei:publicationStmt/tei:date', namespaces=nsmap)[0]
+        date.attrib['when-iso'] = hodie
+        date.text = hodie
 
     @staticmethod
     def make_printable(tree):
