@@ -167,7 +167,6 @@ class TeiTree:
         place = entry.xpath('//tei:residence/tei:settlement/tei:placeName', namespaces=nsmap)[0].text
         fullname = ' '.join([n.strip() for n in entry.xpath('//tei:persName', namespaces=nsmap)[0].itertext()]).strip()
         fullname = fullname.replace('  ', ' ')
-        print('FN', fullname)
         bibl = self.header.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
         )[0]
