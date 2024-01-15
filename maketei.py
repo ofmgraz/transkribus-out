@@ -23,6 +23,9 @@ locdict = data["listPlace"]
 bookdict = data["booktypes"]
 persdict = data["listPerson"]
 
+locations = TeiReader("data/indices/listplace.xml")
+persons = TeiReader("data/indices/listplace.xml")
+
 
 class Log:
     def __init__(self, logfile, stdout=False):
@@ -129,42 +132,39 @@ class TeiTree:
                 0
             ].text = sign
 
+    @staticmethod
+    def make_pid(pid):
+        pid = re.sub(r'[\?\s\.]', '', pid)
+        pid = pid.replace('ü', 'ue').replace('ö', 'oe')
+        return pid
+
     def parse_origin(self, origin, publisher=False):
-        tree = self.tei.any_xpath(".//tei:standOff/tei:listPlace")[0]
-        origins = origin.split(",")
-        if origins[0]:
-            # Entry in the standOff list of places
-            place = ET.SubElement(tree, "place")
-            if "?" in origins[0]:
-                cert = True
-            else:
-                cert = False
-            origins[0] = origins[0].strip("? ")
-            dictentry = locdict[origins[0]]
-            place = ET.SubElement(tree, "place", attrib={"{http://www.w3.org/XML/1998/namespace}id": dictentry['id']})
-            ET.SubElement(place, "placeName").text = origins[0]
-            location = ET.SubElement(place, "location")
-            ET.tostring(location, pretty_print=True, encoding="unicode")
-            for i in dictentry["place"]["location"]:
-                ET.SubElement(location, i).text = dictentry["place"]["location"][i]
+        print(origin)
+        tree = self.tei.any_xpath("//tei:standOff/tei:listPlace")[0]
+        origins = [x.strip() for x in origin.split(",")]
+        # Entry in the standOff list of places
+        # place = ET.SubElement(tree, "place")
+        pid = self.make_pid(origins[0])
+        if pid:
+            print('pid', pid)
+            entry = ET.fromstring(ET.tostring(locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
+                                              pretty_print=True, encoding="unicode"))
+            tree.append(entry)
             # Element in msDesc/history referencing the entry above
-            provenance = self.msdesc.xpath(
-                "./tei:history/tei:provenance", namespaces=nsmap
-            )[0]
-            placename = ET.SubElement(provenance, "placeName", attrib={"ref": f"#{dictentry['id']}"})
+            provenance = self.msdesc.xpath("./tei:history/tei:provenance", namespaces=nsmap)[0]
+            attribs = {"ref": f"#{pid}"}
+            if "?" in origins[0]:
+                attribs['cert'] = 'medium'
+            placename = ET.SubElement(provenance, "placeName", attrib=attribs)
             placename.text = origins[0]
-            if cert:
-                placename.attrib["cert"] = "medium"
             if publisher:
-                self.make_publisher(
-                    ET.fromstring(
-                        ET.tostring(placename, pretty_print=True, encoding="unicode")
-                    ),
-                    publisher,
+                self.make_publisher(ET.fromstring(
+                    ET.tostring(placename, pretty_print=True, encoding="unicode")
+                ), publisher,
                 )
-            self.make_idno(place, dictentry["place"]["idno"])
-        if len(origins) > 1 and origins[1].strip("? ") in locdict:
-            self.parse_origin(",".join(origins[1:]), False)
+                # self.make_idno(place, dictentry["place"]["idno"])
+            if len(origins) > 1:
+                self.parse_origin(",".join(origins[1:]), False)
 
     def make_publisher(self, place, publisher):
         tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
@@ -172,7 +172,7 @@ class TeiTree:
         person = ET.SubElement(tree, "person")
         for att in dictentry["attr"]:
             person.attrib[att] = dictentry["attr"][att]
-        person.attrib["{http://www.w3.org/XML/1998/namespace}id"] = publisher.lower()
+        person.attrib["{http://www.w3.org///XML/1998/namespace}id"] = publisher.lower()
         pname = ET.SubElement(person, "persName")
         self.make_idno(person, dictentry["idno"])
         for name in dictentry["persName"]:
