@@ -192,7 +192,7 @@ class TeiTree:
     @staticmethod
     def make_idno(person, idno):
         for i in idno:
-            ET.SubElement(person, "idno", attrib={"type": i}).text = idno[i]
+            ET.SubElement(person, "idno", attrib={"type": "URL", "subtype": i}).text = idno[i]
 
     def parse_date(self, date):
         element = self.msdesc.xpath(
