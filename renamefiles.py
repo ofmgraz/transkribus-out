@@ -5,7 +5,7 @@ from lxml import etree as ET
 from maketei import Log
 import re
 
-directory = "tei"
+directory = "./data/editions"
 log = Log("0rename")
 
 
@@ -23,7 +23,7 @@ def checkfile(filename):
 
 
 def getname(root):
-    name = False  
+    name = False
     regex = re.compile(r'A-Gf_(\w)_*(\d{1,2}_\S{2,3})_.*')
     docid = root.xpath('//tei:teiHeader//tei:title[@type="main"]',
                        namespaces={"tei": "http://www.tei-c.org/ns/1.0"})[0].text

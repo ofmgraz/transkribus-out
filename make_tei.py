@@ -5,7 +5,7 @@ import glob
 from os import path
 from sys import argv
 
-source_directory = "tei"
+source_directory = "./data/editions"
 source_table = "Quellen_OFM_Graz.csv"
 schema_file = "tei_ms.xsd"
 i = 1
