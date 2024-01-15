@@ -19,12 +19,10 @@ nsmap = {
 with open("data.json", "r") as f:
     data = json.load(f)
 
-locdict = data["listPlace"]
 bookdict = data["booktypes"]
-persdict = data["listPerson"]
 
 locations = TeiReader("data/indices/listplace.xml")
-persons = TeiReader("data/indices/listplace.xml")
+persons = TeiReader("data/indices/listperson.xml")
 
 
 class Log:
@@ -139,14 +137,12 @@ class TeiTree:
         return pid
 
     def parse_origin(self, origin, publisher=False):
-        print(origin)
         tree = self.tei.any_xpath("//tei:standOff/tei:listPlace")[0]
         origins = [x.strip() for x in origin.split(",")]
         # Entry in the standOff list of places
         # place = ET.SubElement(tree, "place")
         pid = self.make_pid(origins[0])
         if pid:
-            print('pid', pid)
             entry = ET.fromstring(ET.tostring(locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
                                               pretty_print=True, encoding="unicode"))
             tree.append(entry)
@@ -158,30 +154,25 @@ class TeiTree:
             placename = ET.SubElement(provenance, "placeName", attrib=attribs)
             placename.text = origins[0]
             if publisher:
-                self.make_publisher(ET.fromstring(
-                    ET.tostring(placename, pretty_print=True, encoding="unicode")
-                ), publisher,
-                )
+                self.make_publisher(publisher)
                 # self.make_idno(place, dictentry["place"]["idno"])
             if len(origins) > 1:
                 self.parse_origin(",".join(origins[1:]), False)
 
-    def make_publisher(self, place, publisher):
+    def make_publisher(self, publisher):
         tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
-        dictentry = persdict[publisher]
-        person = ET.SubElement(tree, "person")
-        for att in dictentry["attr"]:
-            person.attrib[att] = dictentry["attr"][att]
-        person.attrib["{http://www.w3.org///XML/1998/namespace}id"] = publisher.lower()
-        pname = ET.SubElement(person, "persName")
-        self.make_idno(person, dictentry["idno"])
-        for name in dictentry["persName"]:
-            ET.SubElement(pname, name).text = dictentry["persName"][name]
+        entry = ET.fromstring(ET.tostring(persons.any_xpath(f'//tei:person[@xml:id="{publisher}"]')[0],
+                                          pretty_print=True, encoding="unicode"))
+        tree.append(entry)
+        place = entry.xpath('//tei:residence/tei:settlement/tei:placeName', namespaces=nsmap)[0].text
+        fullname = ' '.join([n.strip() for n in entry.xpath('//tei:persName', namespaces=nsmap)[0].itertext()]).strip()
+        fullname = fullname.replace('  ', ' ')
+        print('FN', fullname)
         bibl = self.header.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
         )[0]
-        ET.SubElement(bibl, "pubPlace").append(place)
-        ET.SubElement(bibl, "publisher", attrib={"ref": f"#{publisher.lower()}"}).text = publisher.strip()
+        ET.SubElement(bibl, "pubPlace").text = place
+        ET.SubElement(bibl, "publisher", attrib={"ref": f"#{publisher}"}).text = fullname.strip()
         self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib[
             "form"
         ] = "print"
