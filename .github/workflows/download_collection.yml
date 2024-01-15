@@ -23,7 +23,7 @@ jobs:
       run: pip install -r requirements.txt
     - name: Download and transform
       run: python download_and_transform.py
-    - run: Delete old files
+    - name: Delete old files
       run: rm -f ./tei/{A,S}*
     - name: rename files
       run: ./renamefiles.py
