@@ -30,7 +30,7 @@
         <availability>
           <licence>cc0</licence>
         </availability>
-        <date when="2024-01-10" when-iso="2024-01-15">2024-01-15</date>
+        <date when="2024-01-10" when-iso="2024-01-16">2024-01-16</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -46,7 +46,7 @@
             </repository>
             <idno type="shelfmark">S 1/74</idno>
           </msIdentifier>
-          <msContents class="#ofm">
+          <msContents class="#ofm #prozessionale">
             <summary>
               <p>
                 <title>Ordo agendorum et cantandorum in actibus processionalibus: Pro EE Franciscanis strictioris observantiae, in alma Provincia Austriae DEO famulantibus Anno M.DCLVI accomodatus</title>
@@ -86,10 +86,13 @@
                         scripts</ref></addrLine></address>.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy>
+        <taxonomy xml:id="booktypes">
           <desc>Book types</desc>
+          <category xml:id="prozessionale">
+            <catDesc>Prozessionale</catDesc>
+          </category>
         </taxonomy>
-        <taxonomy>
+        <taxonomy xml:id="liturgies">
           <desc>Liturgies</desc>
           <category xml:id="ofm">
             <catDesc>OFM</catDesc>

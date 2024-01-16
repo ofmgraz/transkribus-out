@@ -28,7 +28,7 @@
         <availability>
           <licence>cc0</licence>
         </availability>
-        <date when="2024-01-10" when-iso="2024-01-15">2024-01-15</date>
+        <date when="2024-01-10" when-iso="2024-01-16">2024-01-16</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -42,7 +42,7 @@
             </repository>
             <idno type="shelfmark">A 67/17</idno>
           </msIdentifier>
-          <msContents class="#osc">
+          <msContents class="#osc #antiphonale #temporale">
             <summary>
               <p>Temporale: Passionssonntag bis Sonntag in der Himmelfahrtsoktav, Sanctorale: Annuntiatio bis Inventio crucis</p>
               <p>Antiphonale, Passions- und Osterzeit</p>
@@ -81,10 +81,16 @@
                         scripts</ref></addrLine></address>.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy>
+        <taxonomy xml:id="booktypes">
           <desc>Book types</desc>
+          <category xml:id="antiphonale">
+            <catDesc>Antiphonale</catDesc>
+          </category>
+          <category xml:id="temporale">
+            <catDesc>Osterzeit</catDesc>
+          </category>
         </taxonomy>
-        <taxonomy>
+        <taxonomy xml:id="liturgies">
           <desc>Liturgies</desc>
           <category xml:id="osc">
             <catDesc>OSC</catDesc>

@@ -28,7 +28,7 @@
         <availability>
           <licence>cc0</licence>
         </availability>
-        <date when="2024-01-10" when-iso="2024-01-15">2024-01-15</date>
+        <date when="2024-01-10" when-iso="2024-01-16">2024-01-16</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -42,7 +42,7 @@
             </repository>
             <idno type="shelfmark">A 64/37</idno>
           </msIdentifier>
-          <msContents class="#ofm">
+          <msContents class="#ofm #psalterium #hymnar">
             <summary>
               <p>Psalter mit Ferialhymnen, Hymnen Advent bis Pfingsten</p>
               <p>Psalterium / Hymnar</p>
@@ -82,10 +82,16 @@
                         scripts</ref></addrLine></address>.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy>
+        <taxonomy xml:id="booktypes">
           <desc>Book types</desc>
+          <category xml:id="psalterium">
+            <catDesc>Psalterium</catDesc>
+          </category>
+          <category xml:id="hymnar">
+            <catDesc>Hymnar</catDesc>
+          </category>
         </taxonomy>
-        <taxonomy>
+        <taxonomy xml:id="liturgies">
           <desc>Liturgies</desc>
           <category xml:id="ofm">
             <catDesc>OFM</catDesc>

@@ -28,7 +28,7 @@
         <availability>
           <licence>cc0</licence>
         </availability>
-        <date when="2024-01-10" when-iso="2024-01-15">2024-01-15</date>
+        <date when="2024-01-10" when-iso="2024-01-16">2024-01-16</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -42,7 +42,7 @@
             </repository>
             <idno type="shelfmark">S 1/44</idno>
           </msIdentifier>
-          <msContents class="#ofm">
+          <msContents class="#ofm #antiphonale #temporale">
             <summary>
               <p>Auszüge aus dem Antiphonale (Advent bis Mariä Namen): Magnificat-Antiphonen, bei größeren Festen Laudes und Vesper, mit Hymnen</p>
               <p>Antiphonale, Teil 1</p>
@@ -80,10 +80,16 @@
                         scripts</ref></addrLine></address>.</p>
       </editorialDecl>
       <classDecl>
-        <taxonomy>
+        <taxonomy xml:id="booktypes">
           <desc>Book types</desc>
+          <category xml:id="antiphonale">
+            <catDesc>Antiphonale</catDesc>
+          </category>
+          <category xml:id="temporale">
+            <catDesc>Teil</catDesc>
+          </category>
         </taxonomy>
-        <taxonomy>
+        <taxonomy xml:id="liturgies">
           <desc>Liturgies</desc>
           <category xml:id="ofm">
             <catDesc>OFM</catDesc>
