@@ -18,7 +18,6 @@ nsmap = {
 
 with open("data.json", "r") as f:
     data = json.load(f)
-
 bookdict = data["booktypes"]
 
 locations = TeiReader("data/indices/listplace.xml")
@@ -242,7 +241,7 @@ class TeiTree:
         books = " ".join(" ".join(booktype.split(",")).split("/")).split()
         for book in books:
             for btype in bookdict:
-                if booktype in book.lower() and bookdict[booktype] not in keys:
+                if btype in book.lower() and bookdict[btype] not in keys:
                     cat = ET.Element("category", attrib={"{http://www.w3.org/XML/1998/namespace}id": bookdict[btype]})
                     ET.SubElement(cat, "catDesc").text = book
                     taxonomies[0].append(cat)
