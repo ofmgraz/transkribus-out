@@ -28,7 +28,7 @@
         <availability>
           <licence>cc0</licence>
         </availability>
-        <date when="2024-01-10" when-iso="2024-01-16">2024-01-16</date>
+        <date when="2024-01-10" when-iso="2024-01-17">2024-01-17</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -81,19 +81,19 @@
                         scripts</ref></addrLine></address>.</p>
       </editorialDecl>
       <classDecl>
+        <taxonomy xml:id="liturgies">
+          <desc>Liturgies</desc>
+          <category xml:id="osc">
+            <catDesc>OSC</catDesc>
+          </category>
+        </taxonomy>
         <taxonomy xml:id="booktypes">
-          <desc>Book types</desc>
+          <desc>Book Types</desc>
           <category xml:id="graduale">
             <catDesc>Graduale</catDesc>
           </category>
           <category xml:id="temporale">
             <catDesc>Teil</catDesc>
-          </category>
-        </taxonomy>
-        <taxonomy xml:id="liturgies">
-          <desc>Liturgies</desc>
-          <category xml:id="osc">
-            <catDesc>OSC</catDesc>
           </category>
         </taxonomy>
       </classDecl>
