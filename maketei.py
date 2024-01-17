@@ -17,6 +17,7 @@ nsmap = {
 }
 
 xmlid = "{http://www.w3.org/XML/1998/namespace}id"
+xmlbase = "{http://www.w3.org/XML/1998/namespace}base"
 
 with open("data.json", "r") as f:
     data = json.load(f)
@@ -68,7 +69,7 @@ class TeiTree:
 
     def make_meta(self):
         self.root.attrib[xmlid] = self.doc_id
-        self.root.attrib['xml:base'] = "https://ofmgraz.github.io/ofm-static/"
+        self.root.attrib[xmlbase] = "https://ofmgraz.github.io/ofm-static/"
 
     def make_hodie(self):
         hodie = datetime.today().strftime("%Y-%m-%d")
