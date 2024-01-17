@@ -16,6 +16,8 @@ nsmap = {
     "default": "http://www.tei-c.org/ns/1.0",
 }
 
+xmlid = "{http://www.w3.org/XML/1998/namespace}id"
+
 with open("data.json", "r") as f:
     data = json.load(f)
 bookdict = data["booktypes"]
@@ -120,7 +122,8 @@ class TeiTree:
             self.parse_signature(row["Signatur"])
             self.parse_origin(row["Provenienz"], row["Drucker"])
             self.parse_date(str(row["Zeit"]))
-            keys = self.classify_books(row["Buchtyp"], row["Liturgie"])
+            if row["Buchtyp"] + row["Liturgie"]:
+                keys = self.classify_books(row["Buchtyp"], row["Liturgie"])
             self.parse_summary(row["Inhalt"], row["Buchtyp"], keys, idx)
             self.parse_extension(row["Umfang fol."])
             self.parse_format(row["Format"])
@@ -140,6 +143,7 @@ class TeiTree:
     def make_pid(pid):
         pid = re.sub(r'[\?\s\.]', '', pid)
         pid = pid.replace('ü', 'ue').replace('ö', 'oe')
+        pid = pid.replace('Mautern', 'MauterninSteiermark')
         return pid
 
     def parse_origin(self, origin, publisher=False):
@@ -227,25 +231,27 @@ class TeiTree:
         for time in ddate:
             element.attrib[time] = str(ddate[time])
 
-    def classify_books(self, booktype, lit):
-        taxonomies = self.header.xpath(
-            "./tei:encodingDesc/tei:classDecl/tei:taxonomy", namespaces=nsmap
-        )
+    def classify_books(self, btype, lit):
+        classdecl = ET.SubElement(self.header.xpath("//tei:encodingDesc", namespaces=nsmap)[0], "classDecl")
+        keys = ""
         if lit:
+            tax = ET.SubElement(classdecl, "taxonomy", attrib={xmlid: "liturgies"})
+            ET.SubElement(tax, 'desc').text = "Liturgies"
             keys = f"#{lit.lower()}"
-            cat = ET.Element("category", attrib={"{http://www.w3.org/XML/1998/namespace}id": lit.lower()})
+            cat = ET.Element("category", attrib={xmlid: lit.lower()})
             ET.SubElement(cat, "catDesc").text = lit
-            taxonomies[1].append(cat)
-        else:
-            keys = ""
-        books = " ".join(" ".join(booktype.split(",")).split("/")).split()
-        for book in books:
-            for btype in bookdict:
-                if btype in book.lower() and bookdict[btype] not in keys:
-                    cat = ET.Element("category", attrib={"{http://www.w3.org/XML/1998/namespace}id": bookdict[btype]})
-                    ET.SubElement(cat, "catDesc").text = book
-                    taxonomies[0].append(cat)
-                    keys += f" #{bookdict[btype]}"
+            tax.append(cat)
+        books = " ".join(" ".join(btype.split(",")).split("/")).split()
+        if btype:
+            tax = ET.SubElement(classdecl, "taxonomy", attrib={xmlid: "booktypes"})
+            ET.SubElement(tax, 'desc').text = "Book Types"
+            for book in books:
+                for btype in bookdict:
+                    if btype in book.lower() and bookdict[btype] not in keys:
+                        cat = ET.Element("category", attrib={xmlid: bookdict[btype]})
+                        ET.SubElement(cat, "catDesc").text = book
+                        tax.append(cat)
+                        keys += f" #{bookdict[btype]}"
         return keys
 
     def parse_summary(self, summary, bookt, attributes, line):
