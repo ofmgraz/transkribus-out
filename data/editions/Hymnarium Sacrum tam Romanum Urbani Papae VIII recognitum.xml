@@ -2,7 +2,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
+        <title type="main">Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitum</title>
+        <title type="sub"> Quam Franciscanum complectens omnia Festa Totius Ordinis Fratrum Minorum</title>
+        <title type="desc">S 1/62</title>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
@@ -32,7 +34,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <date/>
+          <date notBefore="1685-01-01" notAfter="1685-12-31">1685</date>
+          <pubPlace>Salzburg</pubPlace>
+          <publisher ref="#Mayr">Johann Baptist Mayr</publisher>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -40,28 +44,37 @@
             <repository>
               <placeName ref="#FCG">Zentralbibliothek der Wiener Franziskanerprovinz Graz</placeName>
             </repository>
-            <idno type="shelfmark"/>
+            <idno type="shelfmark">S 1/62</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#ofm #hymnar">
+            <summary>
+              <p>
+                <title>Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitum: Quam Franciscanum complectens omnia Festa Totius Ordinis Fratrum Minorum</title>
+              </p>
+              <p>Hymnarium Romanum</p>
+            </summary>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="print">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm">
+                    <height>526</height>
+                    <width>355</width>
+                  </dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="leaf" quantity="84">84</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance>
+              <placeName ref="#Salzburg">Salzburg</placeName>
+            </provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -72,13 +85,27 @@
         <p>Edited with <address><addrLine><ref target="https://github.com/ofmgraz/transkribus-out">custom
                         scripts</ref></addrLine></address>.</p>
       </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="liturgies">
+          <desc>Liturgies</desc>
+          <category xml:id="ofm">
+            <catDesc>OFM</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="booktypes">
+          <desc>Book Types</desc>
+          <category xml:id="hymnar">
+            <catDesc>Hymnarium</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws">manuscript</channel>
+        <channel mode="ws">book</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -108,11 +135,43 @@
         <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
         <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
       </place>
+      <place xml:id="Salzburg">
+        <placeName>Salzburg</placeName>
+        <location>
+          <settlement>Salzburg</settlement>
+          <region>Land Salzburg</region>
+          <country>Österreich</country>
+          <geo>47.8 13.045</geo>
+        </location>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4062501-1</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
+        <idno type="URL" subtype="Wikidata">http://www.wikidata.org/entity/Q34713</idno>
+      </place>
     </listPlace>
+    <listPerson>
+      <person xml:id="Mayr">
+        <persName>
+          <forename>Johann Baptist</forename>
+          <surname>Mayr</surname>
+        </persName>
+        <residence>
+          <date notBefore="1634-01-01" notAfter="1708-12-31">1634-1708</date>
+          <settlement key="2">
+            <placeName type="pref">Salzburg</placeName>
+            <location>
+              <geo>47.8 13.045</geo>
+            </location>
+          </settlement>
+        </residence>
+        <sex value="male"/>
+        <occupation key="90">Drucker</occupation>
+        <idno type="URL" subtype="gnd">https://d-nb.info/gnd/124751946</idno>
+      </person>
+    </listPerson>
   </standOff>
   <facsimile>
     <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_1">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3032px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-001/full/full/0/default.jpg" width="2000px" height="3032px"/>
       <zone points="1494,534 311,534 311,226 1494,226" rendition="TextRegion" xml:id="facs_1_r" subtype="rubrik2">
          </zone>
       <zone points="378,893 93,893 93,597 378,597" rendition="TextRegion" xml:id="facs_1_r_5" subtype="initiale_lombarde">
@@ -141,7 +200,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2953" xml:id="facs_2">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2953px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-002/full/full/0/default.jpg" width="2000px" height="2953px"/>
       <zone points="1358,180 768,180 768,113 1358,113" rendition="TextRegion" xml:id="facs_2_r_9" subtype="rubrik">
         <zone points="1358,180 768,180 768,113 1358,113" rendition="Line" xml:id="facs_2_r_9_line_000"/>
       </zone>
@@ -159,7 +218,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3027" xml:id="facs_3">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3027px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-003/full/full/0/default.jpg" width="2000px" height="3027px"/>
       <zone points="1454,244 1452,316 345,324 356,229 643,217 644,127 1250,122 1246,229" rendition="TextRegion" xml:id="facs_3_r_16" subtype="rubrik2">
          </zone>
       <zone points="348,686 96,686 96,357 348,357" rendition="TextRegion" xml:id="facs_3_r_21" subtype="initiale_lombarde">
@@ -188,7 +247,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2976" xml:id="facs_4">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2976px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-004/full/full/0/default.jpg" width="2000px" height="2976px"/>
       <zone points="1862,523 273,523 273,120 1862,120" rendition="TextRegion" xml:id="facs_4_r" subtype="rubrik2">
          </zone>
       <zone points="419,885 300,885 300,561 419,561" rendition="TextRegion" xml:id="facs_4_r_5" subtype="initiale_lombarde">
@@ -217,7 +276,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3052" xml:id="facs_5">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3052px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-005/full/full/0/default.jpg" width="2000px" height="3052px"/>
       <zone points="1223,186 544,186 544,103 1223,103" rendition="TextRegion" xml:id="facs_5_r_37" subtype="rubrik">
         <zone points="1223,186 544,186 544,103 1223,103" rendition="Line" xml:id="facs_5_r_37_line_000"/>
       </zone>
@@ -250,7 +309,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2975" xml:id="facs_6">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2975px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-006/full/full/0/default.jpg" width="2000px" height="2975px"/>
       <zone points="1421,201 794,201 794,101 1421,101" rendition="TextRegion" xml:id="facs_6_r_21" subtype="rubrik">
         <zone points="1421,201 794,201 794,101 1421,101" rendition="Line" xml:id="facs_6_r_21_line_000"/>
       </zone>
@@ -270,7 +329,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3029" xml:id="facs_7">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3029px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-007/full/full/0/default.jpg" width="2000px" height="3029px"/>
       <zone points="1261,203 533,203 533,129 1261,129" rendition="TextRegion" xml:id="facs_7_r_45" subtype="rubrik">
         <zone points="1261,203 533,203 533,129 1261,129" rendition="Line" xml:id="facs_7_r_45_line_000"/>
       </zone>
@@ -305,7 +364,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2935" xml:id="facs_8">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2935px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-008/full/full/0/default.jpg" width="2000px" height="2935px"/>
       <zone points="1921,533 349,533 349,140 1921,140" rendition="TextRegion" xml:id="facs_8_r" subtype="rubrik2">
          </zone>
       <zone points="1934,790 648,790 648,571 1934,571" rendition="TextRegion" xml:id="facs_8_r_10" subtype="notation">
@@ -337,7 +396,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_9">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3038px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-009/full/full/0/default.jpg" width="2000px" height="3038px"/>
       <zone points="1443,316 325,316 325,113 1443,113" rendition="TextRegion" xml:id="facs_9_r" subtype="rubrik2">
          </zone>
       <zone points="1699,336 1521,336 1521,203 1699,203" rendition="TextRegion" xml:id="facs_9_r_5" subtype="rubrik2">
@@ -361,7 +420,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2990" xml:id="facs_10">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2990px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-010/full/full/0/default.jpg" width="2000px" height="2990px"/>
       <zone points="1488,183 735,183 735,109 1488,109" rendition="TextRegion" xml:id="facs_10_r_35" subtype="rubrik">
         <zone points="1488,183 735,183 735,109 1488,109" rendition="Line" xml:id="facs_10_r_35_line_000"/>
       </zone>
@@ -391,7 +450,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_11">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3038px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-011/full/full/0/default.jpg" width="2000px" height="3038px"/>
       <zone points="1313,171 562,171 562,98 1313,98" rendition="TextRegion" xml:id="facs_11_r_31" subtype="rubrik">
         <zone points="1313,171 562,171 562,98 1313,98" rendition="Line" xml:id="facs_11_r_31_line_000"/>
       </zone>
@@ -415,7 +474,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2990" xml:id="facs_12">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2990px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-012/full/full/0/default.jpg" width="2000px" height="2990px"/>
       <zone points="1422,169 687,169 687,103 1422,103" rendition="TextRegion" xml:id="facs_12_r_39" subtype="rubrik">
         <zone points="1422,169 687,169 687,103 1422,103" rendition="Line" xml:id="facs_12_r_39_line_000"/>
       </zone>
@@ -447,7 +506,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3037" xml:id="facs_13">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3037px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-013/full/full/0/default.jpg" width="2000px" height="3037px"/>
       <zone points="1232,177 562,177 562,114 1232,114" rendition="TextRegion" xml:id="facs_13_r_29" subtype="rubrik">
         <zone points="1232,177 562,177 562,114 1232,114" rendition="Line" xml:id="facs_13_r_29_line_000"/>
       </zone>
@@ -474,7 +533,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2981" xml:id="facs_14">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2981px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-014/full/full/0/default.jpg" width="2000px" height="2981px"/>
       <zone points="1430,181 763,181 763,120 1430,120" rendition="TextRegion" xml:id="facs_14_r_57" subtype="rubrik">
         <zone points="1430,181 763,181 763,120 1430,120" rendition="Line" xml:id="facs_14_r_57_line_000"/>
       </zone>
@@ -522,7 +581,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3049" xml:id="facs_15">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3049px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-015/full/full/0/default.jpg" width="2000px" height="3049px"/>
       <zone points="1204,177 565,177 565,104 1204,104" rendition="TextRegion" xml:id="facs_15_r_23" subtype="rubrik">
         <zone points="1204,177 565,177 565,104 1204,104" rendition="Line" xml:id="facs_15_r_23_line_000"/>
       </zone>
@@ -542,7 +601,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2987" xml:id="facs_16">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2987px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-016/full/full/0/default.jpg" width="2000px" height="2987px"/>
       <zone points="1443,177 792,177 792,110 1443,110" rendition="TextRegion" xml:id="facs_16_r_28" subtype="rubrik">
         <zone points="1443,177 792,177 792,110 1443,110" rendition="Line" xml:id="facs_16_r_28_line_000"/>
       </zone>
@@ -565,7 +624,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3043" xml:id="facs_17">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3043px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-017/full/full/0/default.jpg" width="2000px" height="3043px"/>
       <zone points="1153,177 616,177 616,106 1153,106" rendition="TextRegion" xml:id="facs_17_r_21" subtype="rubrik">
         <zone points="1153,177 616,177 616,106 1153,106" rendition="Line" xml:id="facs_17_r_21_line_000"/>
       </zone>
@@ -586,7 +645,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2994" xml:id="facs_18">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2994px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-018/full/full/0/default.jpg" width="2000px" height="2994px"/>
       <zone points="1366,175 833,175 833,102 1366,102" rendition="TextRegion" xml:id="facs_18_r_26" subtype="rubrik">
         <zone points="1366,175 833,175 833,102 1366,102" rendition="Line" xml:id="facs_18_r_26_line_000"/>
       </zone>
@@ -607,7 +666,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3041" xml:id="facs_19">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3041px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-019/full/full/0/default.jpg" width="2000px" height="3041px"/>
       <zone points="1434,305 369,305 369,112 1434,112" rendition="TextRegion" xml:id="facs_19_r" subtype="rubrik2">
          </zone>
       <zone points="386,639 100,639 100,327 386,327" rendition="TextRegion" xml:id="facs_19_r_5" subtype="initiale_lombarde">
@@ -632,7 +691,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2996" xml:id="facs_20">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2996px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-020/full/full/0/default.jpg" width="2000px" height="2996px"/>
       <zone points="1446,179 766,179 766,103 1446,103" rendition="TextRegion" xml:id="facs_20_r_37" subtype="rubrik">
         <zone points="1446,179 766,179 766,103 1446,103" rendition="Line" xml:id="facs_20_r_37_line_000"/>
       </zone>
@@ -665,7 +724,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3052" xml:id="facs_21">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3052px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-021/full/full/0/default.jpg" width="2000px" height="3052px"/>
       <zone points="1240,178 544,178 544,106 1240,106" rendition="TextRegion" xml:id="facs_21_r_21" subtype="rubrik">
         <zone points="1240,178 544,178 544,106 1240,106" rendition="Line" xml:id="facs_21_r_21_line_000"/>
       </zone>
@@ -686,7 +745,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2998" xml:id="facs_22">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2998px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-022/full/full/0/default.jpg" width="2000px" height="2998px"/>
       <zone points="1457,181 785,181 785,116 1457,116" rendition="TextRegion" xml:id="facs_22_r_41" subtype="rubrik">
         <zone points="1457,181 785,181 785,116 1457,116" rendition="Line" xml:id="facs_22_r_41_line_000"/>
       </zone>
@@ -721,7 +780,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3031" xml:id="facs_23">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3031px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-023/full/full/0/default.jpg" width="2000px" height="3031px"/>
       <zone points="1198,180 554,180 554,104 1198,104" rendition="TextRegion" xml:id="facs_23_r_41" subtype="rubrik">
         <zone points="1198,180 554,180 554,104 1198,104" rendition="Line" xml:id="facs_23_r_41_line_000"/>
       </zone>
@@ -757,7 +816,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3005" xml:id="facs_24">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3005px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-024/full/full/0/default.jpg" width="2000px" height="3005px"/>
       <zone points="1426,182 803,182 803,108 1426,108" rendition="TextRegion" xml:id="facs_24_r_34" subtype="rubrik">
         <zone points="1426,182 803,182 803,108 1426,108" rendition="Line" xml:id="facs_24_r_34_line_000"/>
       </zone>
@@ -780,7 +839,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3035" xml:id="facs_25">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3035px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-025/full/full/0/default.jpg" width="2000px" height="3035px"/>
       <zone points="1179,188 540,188 540,105 1179,105" rendition="TextRegion" xml:id="facs_25_r_38" subtype="rubrik">
         <zone points="1179,188 540,188 540,105 1179,105" rendition="Line" xml:id="facs_25_r_38_line_000"/>
       </zone>
@@ -815,7 +874,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3009" xml:id="facs_26">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3009px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-026/full/full/0/default.jpg" width="2000px" height="3009px"/>
       <zone points="1471,178 789,178 789,107 1471,107" rendition="TextRegion" xml:id="facs_26_r_41" subtype="rubrik">
         <zone points="1471,178 789,178 789,107 1471,107" rendition="Line" xml:id="facs_26_r_41_line_000"/>
       </zone>
@@ -851,7 +910,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3033" xml:id="facs_27">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3033px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-027/full/full/0/default.jpg" width="2000px" height="3033px"/>
       <zone points="1403,323 360,323 360,117 1403,117" rendition="TextRegion" xml:id="facs_27_r" subtype="rubrik2">
          </zone>
       <zone points="1716,344 1590,344 1590,199 1716,199" rendition="TextRegion" xml:id="facs_27_r_5" subtype="rubrik2">
@@ -887,7 +946,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3002" xml:id="facs_28">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3002px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-028/full/full/0/default.jpg" width="2000px" height="3002px"/>
       <zone points="1501,185 739,185 739,117 1501,117" rendition="TextRegion" xml:id="facs_28_r_14" subtype="rubrik">
         <zone points="1501,185 739,185 739,117 1501,117" rendition="Line" xml:id="facs_28_r_14_line_000"/>
       </zone>
@@ -902,7 +961,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3034" xml:id="facs_29">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3034px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-029/full/full/0/default.jpg" width="2000px" height="3034px"/>
       <zone points="1549,308 300,308 300,108 1549,108" rendition="TextRegion" xml:id="facs_29_r" subtype="rubrik2">
          </zone>
       <zone points="1714,565 306,565 306,313 1714,313" rendition="TextRegion" xml:id="facs_29_r_5" subtype="notation">
@@ -952,7 +1011,7 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2997" xml:id="facs_30">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2997px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-030/full/full/0/default.jpg" width="2000px" height="2997px"/>
       <zone points="1481,182 709,182 709,112 1481,112" rendition="TextRegion" xml:id="facs_30_r_57" subtype="rubrik">
         <zone points="1481,182 709,182 709,112 1481,112" rendition="Line" xml:id="facs_30_r_57_line_000"/>
       </zone>
@@ -1000,445 +1059,445 @@
       </zone>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3035" xml:id="facs_31">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3035px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-031/full/full/0/default.jpg" width="2000px" height="3035px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2971" xml:id="facs_32">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2971px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-032/full/full/0/default.jpg" width="2000px" height="2971px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3012" xml:id="facs_33">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3012px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-033/full/full/0/default.jpg" width="2000px" height="3012px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2972" xml:id="facs_34">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2972px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-034/full/full/0/default.jpg" width="2000px" height="2972px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3040" xml:id="facs_35">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3040px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-035/full/full/0/default.jpg" width="2000px" height="3040px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2977" xml:id="facs_36">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2977px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-036/full/full/0/default.jpg" width="2000px" height="2977px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3030" xml:id="facs_37">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3030px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-037/full/full/0/default.jpg" width="2000px" height="3030px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2981" xml:id="facs_38">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2981px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-038/full/full/0/default.jpg" width="2000px" height="2981px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3037" xml:id="facs_39">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3037px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-039/full/full/0/default.jpg" width="2000px" height="3037px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2998" xml:id="facs_40">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2998px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-040/full/full/0/default.jpg" width="2000px" height="2998px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3047" xml:id="facs_41">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3047px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-041/full/full/0/default.jpg" width="2000px" height="3047px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2951" xml:id="facs_42">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2951px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-042/full/full/0/default.jpg" width="2000px" height="2951px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3041" xml:id="facs_43">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3041px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-043/full/full/0/default.jpg" width="2000px" height="3041px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2956" xml:id="facs_44">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2956px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-044/full/full/0/default.jpg" width="2000px" height="2956px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3041" xml:id="facs_45">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3041px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-045/full/full/0/default.jpg" width="2000px" height="3041px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2955" xml:id="facs_46">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2955px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-046/full/full/0/default.jpg" width="2000px" height="2955px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_47">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3038px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-047/full/full/0/default.jpg" width="2000px" height="3038px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2974" xml:id="facs_48">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2974px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-048/full/full/0/default.jpg" width="2000px" height="2974px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_49">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3038px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-049/full/full/0/default.jpg" width="2000px" height="3038px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3036" xml:id="facs_50">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3036px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-050/full/full/0/default.jpg" width="2000px" height="3036px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3037" xml:id="facs_51">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3037px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-051/full/full/0/default.jpg" width="2000px" height="3037px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3042" xml:id="facs_52">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3042px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-052/full/full/0/default.jpg" width="2000px" height="3042px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3030" xml:id="facs_53">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3030px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-053/full/full/0/default.jpg" width="2000px" height="3030px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2976" xml:id="facs_54">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2976px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-054/full/full/0/default.jpg" width="2000px" height="2976px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3024" xml:id="facs_55">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3024px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-055/full/full/0/default.jpg" width="2000px" height="3024px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2978" xml:id="facs_56">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2978px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-056/full/full/0/default.jpg" width="2000px" height="2978px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3043" xml:id="facs_57">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3043px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-057/full/full/0/default.jpg" width="2000px" height="3043px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2976" xml:id="facs_58">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2976px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-058/full/full/0/default.jpg" width="2000px" height="2976px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3027" xml:id="facs_59">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3027px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-059/full/full/0/default.jpg" width="2000px" height="3027px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2977" xml:id="facs_60">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2977px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-060/full/full/0/default.jpg" width="2000px" height="2977px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3037" xml:id="facs_61">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3037px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-061/full/full/0/default.jpg" width="2000px" height="3037px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2987" xml:id="facs_62">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2987px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-062/full/full/0/default.jpg" width="2000px" height="2987px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3024" xml:id="facs_63">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3024px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-063/full/full/0/default.jpg" width="2000px" height="3024px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2982" xml:id="facs_64">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2982px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-064/full/full/0/default.jpg" width="2000px" height="2982px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3040" xml:id="facs_65">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3040px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-065/full/full/0/default.jpg" width="2000px" height="3040px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2993" xml:id="facs_66">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2993px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-066/full/full/0/default.jpg" width="2000px" height="2993px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2993" xml:id="facs_67">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2993px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-067/full/full/0/default.jpg" width="2000px" height="2993px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2997" xml:id="facs_68">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2997px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-068/full/full/0/default.jpg" width="2000px" height="2997px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2984" xml:id="facs_69">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2984px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-069/full/full/0/default.jpg" width="2000px" height="2984px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3008" xml:id="facs_70">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3008px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-070/full/full/0/default.jpg" width="2000px" height="3008px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2983" xml:id="facs_71">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2983px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-071/full/full/0/default.jpg" width="2000px" height="2983px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3007" xml:id="facs_72">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3007px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-072/full/full/0/default.jpg" width="2000px" height="3007px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3041" xml:id="facs_73">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3041px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-073/full/full/0/default.jpg" width="2000px" height="3041px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3014" xml:id="facs_74">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3014px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-074/full/full/0/default.jpg" width="2000px" height="3014px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_75">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3038px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-075/full/full/0/default.jpg" width="2000px" height="3038px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3012" xml:id="facs_76">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3012px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-076/full/full/0/default.jpg" width="2000px" height="3012px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3038" xml:id="facs_77">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3038px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-077/full/full/0/default.jpg" width="2000px" height="3038px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3010" xml:id="facs_78">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3010px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-078/full/full/0/default.jpg" width="2000px" height="3010px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3039" xml:id="facs_79">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3039px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-079/full/full/0/default.jpg" width="2000px" height="3039px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3019" xml:id="facs_80">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3019px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-080/full/full/0/default.jpg" width="2000px" height="3019px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3037" xml:id="facs_81">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3037px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-081/full/full/0/default.jpg" width="2000px" height="3037px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3015" xml:id="facs_82">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3015px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-082/full/full/0/default.jpg" width="2000px" height="3015px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3028" xml:id="facs_83">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3028px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-083/full/full/0/default.jpg" width="2000px" height="3028px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3018" xml:id="facs_84">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3018px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-084/full/full/0/default.jpg" width="2000px" height="3018px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3030" xml:id="facs_85">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3030px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-085/full/full/0/default.jpg" width="2000px" height="3030px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3022" xml:id="facs_86">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3022px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-086/full/full/0/default.jpg" width="2000px" height="3022px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_87">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3032px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-087/full/full/0/default.jpg" width="2000px" height="3032px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3016" xml:id="facs_88">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3016px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-088/full/full/0/default.jpg" width="2000px" height="3016px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3046" xml:id="facs_89">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3046px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-089/full/full/0/default.jpg" width="2000px" height="3046px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3010" xml:id="facs_90">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3010px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-090/full/full/0/default.jpg" width="2000px" height="3010px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3017" xml:id="facs_91">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3017px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-091/full/full/0/default.jpg" width="2000px" height="3017px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3033" xml:id="facs_92">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3033px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-092/full/full/0/default.jpg" width="2000px" height="3033px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3019" xml:id="facs_93">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3019px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-093/full/full/0/default.jpg" width="2000px" height="3019px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3040" xml:id="facs_94">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3040px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-094/full/full/0/default.jpg" width="2000px" height="3040px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3009" xml:id="facs_95">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3009px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-095/full/full/0/default.jpg" width="2000px" height="3009px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3040" xml:id="facs_96">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3040px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-096/full/full/0/default.jpg" width="2000px" height="3040px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3009" xml:id="facs_97">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3009px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-097/full/full/0/default.jpg" width="2000px" height="3009px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3027" xml:id="facs_98">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3027px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-098/full/full/0/default.jpg" width="2000px" height="3027px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3017" xml:id="facs_99">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3017px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-099/full/full/0/default.jpg" width="2000px" height="3017px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3028" xml:id="facs_100">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3028px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-100/full/full/0/default.jpg" width="2000px" height="3028px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3023" xml:id="facs_101">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3023px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-101/full/full/0/default.jpg" width="2000px" height="3023px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3023" xml:id="facs_102">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3023px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-102/full/full/0/default.jpg" width="2000px" height="3023px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2964" xml:id="facs_103">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2964px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-103/full/full/0/default.jpg" width="2000px" height="2964px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3023" xml:id="facs_104">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3023px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-104/full/full/0/default.jpg" width="2000px" height="3023px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2994" xml:id="facs_105">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2994px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-105/full/full/0/default.jpg" width="2000px" height="2994px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3016" xml:id="facs_106">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3016px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-106/full/full/0/default.jpg" width="2000px" height="3016px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2984" xml:id="facs_107">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2984px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-107/full/full/0/default.jpg" width="2000px" height="2984px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3019" xml:id="facs_108">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3019px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-108/full/full/0/default.jpg" width="2000px" height="3019px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2985" xml:id="facs_109">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2985px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-109/full/full/0/default.jpg" width="2000px" height="2985px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3026" xml:id="facs_110">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3026px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-110/full/full/0/default.jpg" width="2000px" height="3026px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2985" xml:id="facs_111">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2985px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-111/full/full/0/default.jpg" width="2000px" height="2985px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3027" xml:id="facs_112">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3027px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-112/full/full/0/default.jpg" width="2000px" height="3027px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2985" xml:id="facs_113">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2985px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-113/full/full/0/default.jpg" width="2000px" height="2985px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3019" xml:id="facs_114">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3019px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-114/full/full/0/default.jpg" width="2000px" height="3019px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2983" xml:id="facs_115">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2983px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-115/full/full/0/default.jpg" width="2000px" height="2983px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3031" xml:id="facs_116">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3031px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-116/full/full/0/default.jpg" width="2000px" height="3031px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2992" xml:id="facs_117">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2992px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-117/full/full/0/default.jpg" width="2000px" height="2992px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3028" xml:id="facs_118">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3028px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-118/full/full/0/default.jpg" width="2000px" height="3028px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2996" xml:id="facs_119">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2996px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-119/full/full/0/default.jpg" width="2000px" height="2996px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3011" xml:id="facs_120">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3011px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-120/full/full/0/default.jpg" width="2000px" height="3011px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2997" xml:id="facs_121">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2997px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-121/full/full/0/default.jpg" width="2000px" height="2997px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3010" xml:id="facs_122">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3010px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-122/full/full/0/default.jpg" width="2000px" height="3010px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2998" xml:id="facs_123">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2998px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-123/full/full/0/default.jpg" width="2000px" height="2998px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3043" xml:id="facs_124">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3043px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-124/full/full/0/default.jpg" width="2000px" height="3043px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3001" xml:id="facs_125">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3001px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-125/full/full/0/default.jpg" width="2000px" height="3001px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3041" xml:id="facs_126">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3041px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-126/full/full/0/default.jpg" width="2000px" height="3041px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2996" xml:id="facs_127">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2996px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-127/full/full/0/default.jpg" width="2000px" height="2996px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3041" xml:id="facs_128">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3041px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-128/full/full/0/default.jpg" width="2000px" height="3041px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2949" xml:id="facs_129">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2949px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-129/full/full/0/default.jpg" width="2000px" height="2949px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3055" xml:id="facs_130">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3055px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-130/full/full/0/default.jpg" width="2000px" height="3055px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2951" xml:id="facs_131">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2951px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-131/full/full/0/default.jpg" width="2000px" height="2951px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3051" xml:id="facs_132">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3051px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-132/full/full/0/default.jpg" width="2000px" height="3051px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2949" xml:id="facs_133">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2949px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-133/full/full/0/default.jpg" width="2000px" height="2949px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3036" xml:id="facs_134">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3036px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-134/full/full/0/default.jpg" width="2000px" height="3036px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2941" xml:id="facs_135">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2941px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-135/full/full/0/default.jpg" width="2000px" height="2941px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3034" xml:id="facs_136">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3034px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-136/full/full/0/default.jpg" width="2000px" height="3034px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2961" xml:id="facs_137">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2961px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-137/full/full/0/default.jpg" width="2000px" height="2961px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3033" xml:id="facs_138">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3033px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-138/full/full/0/default.jpg" width="2000px" height="3033px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2956" xml:id="facs_139">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2956px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-139/full/full/0/default.jpg" width="2000px" height="2956px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_140">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3032px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-140/full/full/0/default.jpg" width="2000px" height="3032px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2948" xml:id="facs_141">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2948px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-141/full/full/0/default.jpg" width="2000px" height="2948px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3032" xml:id="facs_142">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3032px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-142/full/full/0/default.jpg" width="2000px" height="3032px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2929" xml:id="facs_143">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2929px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-143/full/full/0/default.jpg" width="2000px" height="2929px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3031" xml:id="facs_144">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3031px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-144/full/full/0/default.jpg" width="2000px" height="3031px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2978" xml:id="facs_145">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2978px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-145/full/full/0/default.jpg" width="2000px" height="2978px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3040" xml:id="facs_146">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3040px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-146/full/full/0/default.jpg" width="2000px" height="3040px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3001" xml:id="facs_147">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3001px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-147/full/full/0/default.jpg" width="2000px" height="3001px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3056" xml:id="facs_148">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3056px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-148/full/full/0/default.jpg" width="2000px" height="3056px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2954" xml:id="facs_149">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2954px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-149/full/full/0/default.jpg" width="2000px" height="2954px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3058" xml:id="facs_150">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3058px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-150/full/full/0/default.jpg" width="2000px" height="3058px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3016" xml:id="facs_151">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3016px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-a001/full/full/0/default.jpg" width="2000px" height="3016px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2949" xml:id="facs_152">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2949px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-a002/full/full/0/default.jpg" width="2000px" height="2949px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3014" xml:id="facs_153">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3014px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-a003/full/full/0/default.jpg" width="2000px" height="3014px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2964" xml:id="facs_154">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2964px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-a004/full/full/0/default.jpg" width="2000px" height="2964px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="19143" xml:id="facs_155">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="19143px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-BR/full/full/0/default.jpg" width="2000px" height="19143px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2826" xml:id="facs_156">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2826px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-HD/full/full/0/default.jpg" width="2000px" height="2826px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2863" xml:id="facs_157">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2863px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-HDS/full/full/0/default.jpg" width="2000px" height="2863px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2979" xml:id="facs_158">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2979px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o001/full/full/0/default.jpg" width="2000px" height="2979px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2953" xml:id="facs_159">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2953px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o002/full/full/0/default.jpg" width="2000px" height="2953px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2979" xml:id="facs_160">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2979px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o003/full/full/0/default.jpg" width="2000px" height="2979px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2964" xml:id="facs_161">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2964px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o004/full/full/0/default.jpg" width="2000px" height="2964px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3022" xml:id="facs_162">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3022px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o005/full/full/0/default.jpg" width="2000px" height="3022px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2959" xml:id="facs_163">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2959px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o006/full/full/0/default.jpg" width="2000px" height="2959px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3026" xml:id="facs_164">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3026px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o007/full/full/0/default.jpg" width="2000px" height="3026px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2962" xml:id="facs_165">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2962px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o008/full/full/0/default.jpg" width="2000px" height="2962px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3017" xml:id="facs_166">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3017px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o009/full/full/0/default.jpg" width="2000px" height="3017px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2963" xml:id="facs_167">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2963px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o010/full/full/0/default.jpg" width="2000px" height="2963px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2955" xml:id="facs_168">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2955px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o011/full/full/0/default.jpg" width="2000px" height="2955px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2978" xml:id="facs_169">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2978px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o012/full/full/0/default.jpg" width="2000px" height="2978px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2970" xml:id="facs_170">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2970px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o013/full/full/0/default.jpg" width="2000px" height="2970px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2982" xml:id="facs_171">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2982px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o014/full/full/0/default.jpg" width="2000px" height="2982px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2966" xml:id="facs_172">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2966px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o015/full/full/0/default.jpg" width="2000px" height="2966px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2989" xml:id="facs_173">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2989px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o016/full/full/0/default.jpg" width="2000px" height="2989px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2967" xml:id="facs_174">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2967px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o017/full/full/0/default.jpg" width="2000px" height="2967px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="3019" xml:id="facs_175">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="3019px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-o018/full/full/0/default.jpg" width="2000px" height="3019px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2833" xml:id="facs_176">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2833px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-VD/full/full/0/default.jpg" width="2000px" height="2833px"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2000" lry="2872" xml:id="facs_177">
-      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitu/files/images/https://viewer/full/full/0/default.jpg" width="2000px" height="2872px"/>
+      <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_62/files/images/A-Gf_S1_62-VDS/full/full/0/default.jpg" width="2000px" height="2872px"/>
     </surface>
   </facsimile>
   <text>
