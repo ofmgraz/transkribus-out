@@ -17,6 +17,7 @@ nsmap = {
 }
 
 xmlid = "{http://www.w3.org/XML/1998/namespace}id"
+xmlbase = "{http://www.w3.org/XML/1998/namespace}base"
 
 with open("data.json", "r") as f:
     data = json.load(f)
@@ -56,6 +57,7 @@ class TeiTree:
         self.tkb = self.amend_pics_url(self.tkb, self.doc_id)
         self.tei = self.read_xml_input("template.xml")
         self.root = self.tei.any_xpath("//tei:TEI")[0]
+        self.make_meta()
         self.header = self.tei.any_xpath("//tei:teiHeader")[0]
         self.msdesc = self.tei.any_xpath("//tei:msDesc")[0]
         self.elements = self.extract_from_table(source_table, self.header)
@@ -64,6 +66,10 @@ class TeiTree:
         self.make_text()
         self.make_hodie()
         self.printable = self.make_printable(self.tei.tree)
+
+    def make_meta(self):
+        self.root.attrib[xmlid] = self.doc_id
+        self.root.attrib[xmlbase] = "https://ofmgraz.github.io/ofm-static/"
 
     def make_hodie(self):
         hodie = datetime.today().strftime("%Y-%m-%d")
