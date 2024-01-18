@@ -24,7 +24,7 @@ jobs:
     - name: Download and transform
       run: python download_and_transform.py
     - name: Delete old files
-      run: rm -f ./tei/{A,S}*
+      run: rm -f ./data/editions/[A-S]*
     - name: rename files
       run: ./renamefiles.py
     - name: mets to tei
