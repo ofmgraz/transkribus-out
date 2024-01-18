@@ -39,8 +39,8 @@
           </residence>
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
-          <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1037512057</idno>
-          <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q56118770</idno>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/1037512057</idno>
+          <idno type="URL" subtype="WIKIDATA">http://www.wikidata.org/entity/Q56118770</idno>
         </person>
         <person xml:id="Mayr">
           <persName>
@@ -58,7 +58,7 @@
           </residence>
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
-          <idno type="URL" subtype="gnd">https://d-nb.info/gnd/124751946</idno>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/124751946</idno>
         </person>
         <person xml:id="Pezzana">
           <persName>
@@ -76,8 +76,8 @@
           </residence>
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
-          <idno type="URL" subtype="gnd">http://d-nb.info/gnd/1102696757</idno>
-          <idno type="URL" subtype="wikidata">https://www.wikidata.org/entity/Q105889193</idno>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1102696757</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q105889193</idno>
         </person>
         <person xml:id="Balleoni">
           <persName>
@@ -95,8 +95,8 @@
           </residence>
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
-          <idno type="URL" subtype="gnd">http://d-nb.info/gnd/1037524810</idno>
-          <idno type="URL" subtype="wikidata">https://www.wikidata.org/entity/Q112399622</idno>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1037524810</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q112399622</idno>
         </person>
         <person xml:id="Ciera">
           <persName>
@@ -114,7 +114,7 @@
           </residence>
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
-          <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1051039606</idno>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/1051039606</idno>
         </person>
       </listPerson>
     </body>
