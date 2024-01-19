@@ -3,7 +3,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="s">OFM Graz: Orte</title>
+        <title level="s" xml:lang="en">Locations</title>
+        <title level="s" xml:lang="de">Orte</title>
+        <title level="s" xml:lang="it">Luoghi</title>
         <title level="a">Verzeichnis der vorkommenden Orte</title>
         <respStmt>
           <resp>providing the content</resp>
@@ -11,35 +13,53 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <publisher>Austrian Centre for Digital Humanities and Cultural Heritage
+          (ACDH-CH)</publisher>
         <pubPlace>Vienna, Austria</pubPlace>
         <date>2023-11-21+01:00</date>
       </publicationStmt>
       <sourceDesc>
-        <p>Entitäten für für die Beschreibung der Choralhandschriften der Zentralbibliothek der Wiener Franziskanerprovinz Graz</p>
+        <p>Entitäten für für die Beschreibung der Choralhandschriften der Zentralbibliothek der
+          Wiener Franziskanerprovinz Graz</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
       <listPlace>
-        <place xml:id="FranziskanerKirche">
-          <placeName>Franziskaner Kirche</placeName>
+        <place xml:id="FCG">
+          <placeName xml:lang="en">Franciscan Church</placeName>
+          <placeName xml:lang="de">Franziskanerkirche</placeName>
+          <placeName xml:lang="it">Chiesa dei Francescani</placeName>
           <location>
-            <settlement>Graz</settlement>
-            <region>Steiermark</region>
-            <country>Österreich</country>
+            <settlement xml:lang="en">Graz</settlement>
+            <settlement xml:lang="de">Graz</settlement>
+            <settlement xml:lang="it">Graz</settlement>
+            <region xml:lang="en">Styria</region>
+            <region xml:lang="de">Steirmark</region>
+            <region xml:lang="it">Stiria</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">Österreich</country>
+            <country xml:lang="it">Austria</country>
             <geo>47.070483333333 15.436780555556</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q64487580</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
         </place>
         <place xml:id="Graz">
-          <placeName>Graz</placeName>
+          <placeName xml:lang="en">Graz</placeName>
+          <placeName xml:lang="de">Graz</placeName>
+          <placeName xml:lang="it">Graz</placeName>
           <location>
-            <settlement>Graz</settlement>
-            <region>Steiermark</region>
-            <country>Österreich</country>
+            <settlement xml:lang="en">Graz</settlement>
+            <settlement xml:lang="de">Graz</settlement>
+            <settlement xml:lang="it">Graz</settlement>
+            <region xml:lang="en">Styria</region>
+            <region xml:lang="de">Steiermark</region>
+            <region xml:lang="it">Stiria</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">Österreich</country>
+            <country xml:lang="it">Austria</country>
             <geo>47.07083333333333 15.438611111111111</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4021912-4</idno>
@@ -47,11 +67,19 @@
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
         </place>
         <place xml:id="Ljubljana">
-          <placeName>Ljubljana</placeName>
+          <placeName xml:lang="en">Ljubljana</placeName>
+          <placeName xml:lang="de">Ljubljana</placeName>
+          <placeName xml:lang="it">Lubiana</placeName>
           <location>
-            <settlement>Ljubljana</settlement>
-            <region>Oberkrain</region>
-            <country>Slovenien</country>
+            <settlement xml:lang="en">Ljubljana</settlement>
+            <settlement xml:lang="de">Ljubljana</settlement>
+            <settlement xml:lang="it">Lubiana</settlement>
+            <region xml:lang="en">Central Solovenia</region>
+            <region xml:lang="de">Zentralslowenien</region>
+            <region xml:lang="it">Slovenia Centrale</region>
+            <country xml:lang="en">Slovenia</country>
+            <country xml:lang="de">Slovenien</country>
+            <country xml:lang="it">Slovenia</country>
             <geo>46.05138888888889 14.50611111111111</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4073953-3</idno>
@@ -59,11 +87,19 @@
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q437</idno>
         </place>
         <place xml:id="Wien">
-          <placeName>Wien</placeName>
+          <placeName xml:lang="en">Vienna</placeName>
+          <placeName xml:lang="en">Wien</placeName>
+          <placeName xml:lang="it">Wien</placeName>
           <location>
-            <settlement>Wien</settlement>
-            <region>Wien</region>
-            <country>Österreich</country>
+            <settlement xml:lang="en">Vienna</settlement>
+            <settlement xml:lang="de">Wien</settlement>
+            <settlement xml:lang="it">Vienna</settlement>
+            <region xml:lang="en">Vienna (federal state)</region>
+            <region xml:lang="de">Wien</region>
+            <region xml:lang="it">Vienna</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">Österreich</country>
+            <country xml:lang="it">Austria</country>
             <geo>48.208333333333336 16.3725</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
@@ -71,11 +107,19 @@
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
         </place>
         <place xml:id="Salzburg">
-          <placeName>Salzburg</placeName>
+          <placeName xml:lang="en">Salzburg</placeName>
+          <placeName xml:lang="de">Salzburg</placeName>
+          <placeName xml:lang="it">Salisburgo</placeName>
           <location>
-            <settlement>Salzburg</settlement>
-            <region>Land Salzburg</region>
-            <country>Österreich</country>
+            <settlement xml:lang="en">Salzburg</settlement>
+            <settlement xml:lang="de">Salzburg</settlement>
+            <settlement xml:lang="it">Salisburgo</settlement>
+            <region xml:lang="en">Salzburg (federal state)</region>
+            <region xml:lang="de">Land Salzburg</region>
+            <region xml:lang="it">Salisburghese</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">Österreich</country>
+            <country xml:lang="it">Austria</country>
             <geo>47.8 13.045</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4062501-1</idno>
@@ -83,11 +127,19 @@
           <idno type="URL" subtype="WIKIDATA">http://www.wikidata.org/entity/Q34713</idno>
         </place>
         <place xml:id="Venedig">
-          <placeName>Venedig</placeName>
+          <placeName xml:lang="en">Venice</placeName>
+          <placeName xml:lang="de">Venedig</placeName>
+          <placeName xml:lang="it">Venezia</placeName>
           <location>
-            <settlement>Venedig</settlement>
-            <region>Venetien</region>
-            <country>Italien</country>
+            <settlement xml:lang="en">Venice</settlement>
+            <settlement xml:lang="de">Venedig</settlement>
+            <settlement xml:lang="it">Venezia</settlement>
+            <region xml:lang="en">Venetien</region>
+            <region xml:lang="de">Veneto</region>
+            <region xml:lang="it">Veneto</region>
+            <country xml:lang="en">Italy</country>
+            <country xml:lang="de">Italien</country>
+            <country xml:lang="it">Italia</country>
             <geo>45.439722222222 12.331944444444</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4062501-1/4062501-1</idno>
@@ -95,11 +147,19 @@
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
         </place>
         <place xml:id="MariaLankowitz">
-          <placeName>Maria Lankowitz</placeName>
+          <placeName xml:lang="en">Maria Lankowitz</placeName>
+          <placeName xml:lang="de">Maria Lankowitz</placeName>
+          <placeName xml:lang="it">Maria Lankowitz</placeName>
           <location>
-            <settlement>Maria Lankowitz</settlement>
-            <region>Steiermark</region>
-            <country>Österreich</country>
+            <settlement xml:lang="en">Maria Lankowitz</settlement>
+            <settlement xml:lang="de">Maria Lankowitz</settlement>
+            <settlement xml:lang="it">Maria Lankowitz</settlement>
+            <region xml:lang="en">Styria</region>
+            <region xml:lang="de">Steiermark</region>
+            <region xml:lang="it">Stiria</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">Österreich</country>
+            <country xml:lang="it">Austria</country>
             <geo>47.063888888889 15.063055555556</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4400654-8</idno>
@@ -107,11 +167,19 @@
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
         </place>
         <place xml:id="Muenchen">
-          <placeName>München</placeName>
+          <placeName xml:lang="en">Munich</placeName>
+          <placeName xml:lang="de">München</placeName>
+          <placeName xml:lang="it">Monaco di Baviera</placeName>
           <location>
-            <settlement>München</settlement>
-            <region>Bayern</region>
-            <country>Deutschland</country>
+            <settlement xml:lang="en">Munich</settlement>
+            <settlement xml:lang="de">München</settlement>
+            <settlement xml:lang="it">Monaco di Baviera</settlement>
+            <region xml:lang="en">Bavaria</region>
+            <region xml:lang="de">Bayern</region>
+            <region xml:lang="it">Baviera</region>
+            <country xml:lang="en">Germany</country>
+            <country xml:lang="de">Deutschland</country>
+            <country xml:lang="it">Germania</country>
             <geo>48.1375 11.575</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4127793-4</idno>
@@ -119,11 +187,19 @@
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1726</idno>
         </place>
         <place xml:id="StPoelten">
-          <placeName>St. Pölten</placeName>
+          <placeName xml:lang="en">Sankt Pölten</placeName>
+          <placeName xml:lang="de">St. Pölten</placeName>
+          <placeName xml:lang="it">Sankt Pölten</placeName>
           <location>
-            <settlement>St. Pölten</settlement>
-            <region>Niederösterreich</region>
-            <country>Österreich</country>
+            <settlement xml:lang="en">Sankt. Pölten</settlement>
+            <settlement xml:lang="de">St. Pölten</settlement>
+            <settlement xml:lang="it">Sankt Pölten</settlement>
+            <region xml:lang="en">Lower Austria</region>
+            <region xml:lang="de">Niederösterreich</region>
+            <region xml:lang="it">Bassa Austria</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">Österreich</country>
+            <country xml:lang="it">Austria</country>
             <geo>48.2 15.616666666667</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4051622-2</idno>
@@ -131,11 +207,19 @@
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q82500</idno>
         </place>
         <place xml:id="MauterninSteiermark">
-          <placeName>Mautern in Steiermark</placeName>
+          <placeName xml:lang="en">Mautern in Steiermark</placeName>
+          <placeName xml:lang="de">Mautern in Steiermark</placeName>
+          <placeName xml:lang="it">Mautern in Steiermark</placeName>
           <location>
-            <settlement>Mautern in Steiermark</settlement>
-            <region>Steiermark</region>
-            <country>Österreich</country>
+            <settlement xml:lang="en">Mautern in Steiermark</settlement>
+            <settlement xml:lang="de">Mautern in Steiermark</settlement>
+            <settlement xml:lang="it">Mautern in Steiermark</settlement>
+            <region xml:lang="en">Styria</region>
+            <region xml:lang="de">Steiermark</region>
+            <region xml:lang="it">Stiria</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">Österreich</country>
+            <country xml:lang="it">Austria</country>
             <geo>47.4 14.833333333333</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4115047-8</idno>
