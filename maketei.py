@@ -57,6 +57,7 @@ class TeiTree:
         self.tkb = self.amend_pics_url(self.tkb, self.doc_id)
         self.tei = self.read_xml_input("template.xml")
         self.root = self.tei.any_xpath("//tei:TEI")[0]
+        self.add_digitaledition_origin()
         self.make_meta()
         self.header = self.tei.any_xpath("//tei:teiHeader")[0]
         self.msdesc = self.tei.any_xpath("//tei:msDesc")[0]
@@ -153,12 +154,12 @@ class TeiTree:
         return pid
 
     def parse_origin(self, origin, publisher=False):
-        tree = self.tei.any_xpath("//tei:standOff/tei:listPlace")[0]
         origins = [x.strip() for x in origin.split(",")]
-        # Entry in the standOff list of places
-        # place = ET.SubElement(tree, "place")
         pid = self.make_pid(origins[0])
-        if pid:
+        tree = self.root.xpath(".//tei:standOff/tei:listPlace",  namespaces=nsmap)[0]
+        if pid and not self.root.xpath(f'//tei:place[@xml:id="{pid}"]', namespaces=nsmap):
+            # Entry in the standOff list of places
+            # place = ET.SubElement(tree, "place")
             entry = ET.fromstring(ET.tostring(locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
                                               pretty_print=True, encoding="unicode"))
             tree.append(entry)
@@ -169,24 +170,31 @@ class TeiTree:
                 attribs['cert'] = 'medium'
             placename = ET.SubElement(provenance, "placeName", attrib=attribs)
             placename.text = origins[0]
-            if publisher:
-                self.make_publisher(publisher)
-                # self.make_idno(place, dictentry["place"]["idno"])
-            if len(origins) > 1:
-                self.parse_origin(",".join(origins[1:]), False)
+        if publisher:
+            self.make_publisher(publisher)
+            # self.make_idno(place, dictentry["place"]["idno"])
+        if len(origins) > 1:
+            self.parse_origin(",".join(origins[1:]), False)
+
+    def add_digitaledition_origin(self):
+        tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "{http://www.tei-c.org/ns/1.0}listPlace")
+        for pid in ('Wien', 'FCG'):
+            entry = ET.fromstring(ET.tostring(locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
+                                              pretty_print=True, encoding="unicode"))
+            tree.append(entry)
 
     def make_publisher(self, publisher):
         tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
         entry = ET.fromstring(ET.tostring(persons.any_xpath(f'//tei:person[@xml:id="{publisher}"]')[0],
                                           pretty_print=True, encoding="unicode"))
         tree.append(entry)
-        place = entry.xpath('//tei:residence/tei:settlement/tei:placeName', namespaces=nsmap)[0].text
+        place = entry.xpath('//tei:residence/tei:settlement/tei:placeName', namespaces=nsmap)[0]
         fullname = ' '.join([n.strip() for n in entry.xpath('//tei:persName', namespaces=nsmap)[0].itertext()]).strip()
         fullname = fullname.replace('  ', ' ')
         bibl = self.header.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
         )[0]
-        ET.SubElement(bibl, "pubPlace").text = place
+        ET.SubElement(bibl, "pubPlace", attrib={"ref": place.attrib['ref']}).text = place.text
         ET.SubElement(bibl, "publisher", attrib={"ref": f"#{publisher}"}).text = fullname.strip()
         self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib[
             "form"

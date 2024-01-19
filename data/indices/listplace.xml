@@ -13,19 +13,20 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <publisher>Austrian Centre for Digital Humanities and Cultural Heritage
+          (ACDH-CH)</publisher>
         <pubPlace>Vienna, Austria</pubPlace>
         <date>2023-11-21+01:00</date>
       </publicationStmt>
       <sourceDesc>
-        <p>Entitäten für für die Beschreibung der Choralhandschriften der Zentralbibliothek der Wiener Franziskanerprovinz Graz</p>
+        <p>Entitäten für für die Beschreibung der Choralhandschriften der Zentralbibliothek der
+          Wiener Franziskanerprovinz Graz</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
       <listPlace>
-	<listPlace>
         <place xml:id="FCG">
           <placeName xml:lang="en">Franciscan Church</placeName>
           <placeName xml:lang="de">Franziskanerkirche</placeName>
@@ -43,7 +44,7 @@
             <geo>47.070483333333 15.436780555556</geo>
           </location>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
-	 <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
         </place>
         <place xml:id="Graz">
           <placeName xml:lang="en">Graz</placeName>
@@ -75,7 +76,7 @@
             <settlement xml:lang="it">Lubiana</settlement>
             <region xml:lang="en">Central Solovenia</region>
             <region xml:lang="de">Zentralslowenien</region>
-            <region xml:lang="it">Slovenia Centrale</region> 
+            <region xml:lang="it">Slovenia Centrale</region>
             <country xml:lang="en">Slovenia</country>
             <country xml:lang="de">Slovenien</country>
             <country xml:lang="it">Slovenia</country>
