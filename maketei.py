@@ -338,5 +338,15 @@ class TeiTree:
 
     def make_text(self):
         # Stub to include later required divs or milestones if required
-        text = self.root.xpath("./tei:text", namespaces=nsmap)[0]
-        return text
+        body = self.tei.any_xpath(".//tei:body")[0]
+        for e in body.xpath('./tei:div/tei:*', namespaces=nsmap):
+            if e.tag == 'tei:pb':
+                page = ET.SubElement(body, 'div', attrib=e.attrib)
+                page.attrib['type'] = 'page'
+            elif e.tag == 'tei:ab':
+                e.tag = 'tei:p'
+                for line in e.xpath('//tei:lb', namespaces=nsmap):
+                    line.tag = 'tei:li'
+                    page.append(ET.fromstring(ET.tostring(e, prettyprint=True)))
+            e.getparent().remove(e)
+        body.xpath('./tei:div', namespaces=nsmap)[0].getparent().remove(body.xpath('./tei:div', namespaces=nsmap)[0])
