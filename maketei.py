@@ -397,12 +397,6 @@ class TeiTree:
                 for lb in element.iter():
                     if lb.tag:
                         line = ET.SubElement(page, "li", attrib=lb.attrib)
-                    else:
-                        line.text = lb
-                page.append(
-                    ET.fromstring(
-                        ET.tostring(line, pretty_print=True, encoding="unicode")
-                    )
-                )
+                        line.text = lb.tail
         body.remove(body.xpath("./tei:div", namespaces=nsmap)[0])
         # e.getparent().remove(e)
