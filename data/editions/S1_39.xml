@@ -24,11 +24,12 @@
             <email>acdh-ch@oeaw.ac.at</email>
           </addrLine>
         </address>
-        <pubPlace>Wien</pubPlace>
+        <pubPlace ref="#Wien" xml:lang="de">Wien</pubPlace>
+        <pubPlace ref="#Wien" xml:lang="en">Vienna</pubPlace>
         <availability>
           <licence>cc0</licence>
         </availability>
-        <date when="2024-01-10" when-iso="2024-01-18">2024-01-18</date>
+        <date when="2024-01-10" when-iso="2024-01-23">2024-01-23</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -102,7 +103,8 @@
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws">manuscript</channel>
+        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws" xml:lang="de">Handschrift</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -113,7 +115,8 @@
       </textDesc>
       <settingDesc>
         <setting>
-          <name>Styria</name>
+          <name xml:lang="en">Styria</name>
+          <name xml:lang="de">Steirmark</name>
           <time/>
         </setting>
       </settingDesc>
@@ -121,28 +124,64 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="FCG">
-        <placeName>Franciscan Church</placeName>
+      <place xml:id="Wien">
+        <placeName xml:lang="en">Vienna</placeName>
+        <placeName xml:lang="en">Wien</placeName>
+        <placeName xml:lang="it">Wien</placeName>
         <location>
-          <settlement>Graz</settlement>
-          <region>Styria</region>
-          <country>Austria</country>
+          <settlement xml:lang="en">Vienna</settlement>
+          <settlement xml:lang="de">Wien</settlement>
+          <settlement xml:lang="it">Vienna</settlement>
+          <region xml:lang="en">Vienna (federal state)</region>
+          <region xml:lang="de">Wien</region>
+          <region xml:lang="it">Vienna</region>
+          <country xml:lang="en">Austria</country>
+          <country xml:lang="de">Österreich</country>
+          <country xml:lang="it">Austria</country>
+          <geo>48.208333333333336 16.3725</geo>
+        </location>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
+      </place>
+      <place xml:id="FCG">
+        <placeName xml:lang="en">Franciscan Church</placeName>
+        <placeName xml:lang="de">Franziskanerkirche</placeName>
+        <placeName xml:lang="it">Chiesa dei Francescani</placeName>
+        <location>
+          <settlement xml:lang="en">Graz</settlement>
+          <settlement xml:lang="de">Graz</settlement>
+          <settlement xml:lang="it">Graz</settlement>
+          <region xml:lang="en">Styria</region>
+          <region xml:lang="de">Steirmark</region>
+          <region xml:lang="it">Stiria</region>
+          <country xml:lang="en">Austria</country>
+          <country xml:lang="de">Österreich</country>
+          <country xml:lang="it">Austria</country>
           <geo>47.070483333333 15.436780555556</geo>
         </location>
         <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
         <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
       </place>
       <place xml:id="Graz">
-        <placeName>Graz</placeName>
+        <placeName xml:lang="en">Graz</placeName>
+        <placeName xml:lang="de">Graz</placeName>
+        <placeName xml:lang="it">Graz</placeName>
         <location>
-          <settlement>Graz</settlement>
-          <region>Steiermark</region>
-          <country>Österreich</country>
+          <settlement xml:lang="en">Graz</settlement>
+          <settlement xml:lang="de">Graz</settlement>
+          <settlement xml:lang="it">Graz</settlement>
+          <region xml:lang="en">Styria</region>
+          <region xml:lang="de">Steiermark</region>
+          <region xml:lang="it">Stiria</region>
+          <country xml:lang="en">Austria</country>
+          <country xml:lang="de">Österreich</country>
+          <country xml:lang="it">Austria</country>
           <geo>47.07083333333333 15.438611111111111</geo>
         </location>
         <idno type="URL" subtype="GND">http://d-nb.info/gnd/4021912-4</idno>
         <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
-        <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q13298</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
       </place>
     </listPlace>
   </standOff>
@@ -527,21 +566,19 @@
   </facsimile>
   <text>
     <body>
-      <div>
-        <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-        <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-        <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-        <pb facs="#facs_4" n="4" xml:id="img_0004"/>
-        <pb facs="#facs_5" n="5" xml:id="img_0005"/>
-        <pb facs="#facs_6" n="6" xml:id="img_0006"/>
-        <pb facs="#facs_7" n="7" xml:id="img_0007"/>
-        <pb facs="#facs_8" n="8" xml:id="img_0008"/>
-        <pb facs="#facs_9" n="9" xml:id="img_0009"/>
-        <pb facs="#facs_10" n="10" xml:id="img_0010"/>
-        <pb facs="#facs_11" n="11" xml:id="img_0011"/>
-        <pb facs="#facs_12" n="12" xml:id="img_0012"/>
-        <pb facs="#facs_13" n="13" xml:id="img_0013"/>
-      </div>
+      <div facs="#facs_1" n="1" xml:id="img_0001" type="page"/>
+      <div facs="#facs_2" n="2" xml:id="img_0002" type="page"/>
+      <div facs="#facs_3" n="3" xml:id="img_0003" type="page"/>
+      <div facs="#facs_4" n="4" xml:id="img_0004" type="page"/>
+      <div facs="#facs_5" n="5" xml:id="img_0005" type="page"/>
+      <div facs="#facs_6" n="6" xml:id="img_0006" type="page"/>
+      <div facs="#facs_7" n="7" xml:id="img_0007" type="page"/>
+      <div facs="#facs_8" n="8" xml:id="img_0008" type="page"/>
+      <div facs="#facs_9" n="9" xml:id="img_0009" type="page"/>
+      <div facs="#facs_10" n="10" xml:id="img_0010" type="page"/>
+      <div facs="#facs_11" n="11" xml:id="img_0011" type="page"/>
+      <div facs="#facs_12" n="12" xml:id="img_0012" type="page"/>
+      <div facs="#facs_13" n="13" xml:id="img_0013" type="page"/>
     </body>
   </text>
 </TEI>
