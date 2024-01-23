@@ -74,8 +74,10 @@ class TeiTree:
 
     def make_hodie(self):
         hodie = datetime.today().strftime("%Y-%m-%d")
-        date = self.header.xpath('//tei:fileDesc/tei:publicationStmt/tei:date', namespaces=nsmap)[0]
-        date.attrib['when-iso'] = hodie
+        date = self.header.xpath(
+            "//tei:fileDesc/tei:publicationStmt/tei:date", namespaces=nsmap
+        )[0]
+        date.attrib["when-iso"] = hodie
         date.text = hodie
 
     @staticmethod
@@ -148,26 +150,35 @@ class TeiTree:
 
     @staticmethod
     def make_pid(pid):
-        pid = re.sub(r'[\?\s\.]', '', pid)
-        pid = pid.replace('ü', 'ue').replace('ö', 'oe')
-        pid = pid.replace('Mautern', 'MauterninSteiermark')
+        pid = re.sub(r"[\?\s\.]", "", pid)
+        pid = pid.replace("ü", "ue").replace("ö", "oe")
+        pid = pid.replace("Mautern", "MauterninSteiermark")
         return pid
 
     def parse_origin(self, origin, publisher=False):
         origins = [x.strip() for x in origin.split(",")]
         pid = self.make_pid(origins[0])
-        tree = self.root.xpath(".//tei:standOff/tei:listPlace",  namespaces=nsmap)[0]
-        if pid and not self.root.xpath(f'//tei:place[@xml:id="{pid}"]', namespaces=nsmap):
+        tree = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)[0]
+        if pid and not self.root.xpath(
+            f'//tei:place[@xml:id="{pid}"]', namespaces=nsmap
+        ):
             # Entry in the standOff list of places
             # place = ET.SubElement(tree, "place")
-            entry = ET.fromstring(ET.tostring(locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
-                                              pretty_print=True, encoding="unicode"))
+            entry = ET.fromstring(
+                ET.tostring(
+                    locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
+                    pretty_print=True,
+                    encoding="unicode",
+                )
+            )
             tree.append(entry)
             # Element in msDesc/history referencing the entry above
-            provenance = self.msdesc.xpath("./tei:history/tei:provenance", namespaces=nsmap)[0]
+            provenance = self.msdesc.xpath(
+                "./tei:history/tei:provenance", namespaces=nsmap
+            )[0]
             attribs = {"ref": f"#{pid}"}
             if "?" in origins[0]:
-                attribs['cert'] = 'medium'
+                attribs["cert"] = "medium"
             placename = ET.SubElement(provenance, "placeName", attrib=attribs)
             placename.text = origins[0]
         if publisher:
@@ -177,25 +188,48 @@ class TeiTree:
             self.parse_origin(",".join(origins[1:]), False)
 
     def add_digitaledition_origin(self):
-        tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], f"{tei}listPlace")
-        for pid in ('Wien', 'FCG'):
-            entry = ET.fromstring(ET.tostring(locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
-                                              pretty_print=True, encoding="unicode"))
+        tree = ET.SubElement(
+            self.tei.any_xpath(".//tei:standOff")[0], f"{tei}listPlace"
+        )
+        for pid in ("Wien", "FCG"):
+            entry = ET.fromstring(
+                ET.tostring(
+                    locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
+                    pretty_print=True,
+                    encoding="unicode",
+                )
+            )
             tree.append(entry)
 
     def make_publisher(self, publisher):
         tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
-        entry = ET.fromstring(ET.tostring(persons.any_xpath(f'//tei:person[@xml:id="{publisher}"]')[0],
-                                          pretty_print=True, encoding="unicode"))
+        entry = ET.fromstring(
+            ET.tostring(
+                persons.any_xpath(f'//tei:person[@xml:id="{publisher}"]')[0],
+                pretty_print=True,
+                encoding="unicode",
+            )
+        )
         tree.append(entry)
-        place = entry.xpath('//tei:residence/tei:settlement/tei:placeName', namespaces=nsmap)[0]
-        fullname = ' '.join([n.strip() for n in entry.xpath('//tei:persName', namespaces=nsmap)[0].itertext()]).strip()
-        fullname = fullname.replace('  ', ' ')
+        place = entry.xpath(
+            "//tei:residence/tei:settlement/tei:placeName", namespaces=nsmap
+        )[0]
+        fullname = " ".join(
+            [
+                n.strip()
+                for n in entry.xpath("//tei:persName", namespaces=nsmap)[0].itertext()
+            ]
+        ).strip()
+        fullname = fullname.replace("  ", " ")
         bibl = self.header.xpath(
             "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
         )[0]
-        ET.SubElement(bibl, "pubPlace", attrib={"ref": place.attrib['ref']}).text = place.text
-        ET.SubElement(bibl, "publisher", attrib={"ref": f"#{publisher}"}).text = fullname.strip()
+        ET.SubElement(
+            bibl, "pubPlace", attrib={"ref": place.attrib["ref"]}
+        ).text = place.text
+        ET.SubElement(
+            bibl, "publisher", attrib={"ref": f"#{publisher}"}
+        ).text = fullname.strip()
         self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib[
             "form"
         ] = "print"
@@ -206,7 +240,9 @@ class TeiTree:
     @staticmethod
     def make_idno(person, idno):
         for i in idno:
-            ET.SubElement(person, "idno", attrib={"type": "URL", "subtype": i}).text = idno[i]
+            ET.SubElement(
+                person, "idno", attrib={"type": "URL", "subtype": i}
+            ).text = idno[i]
 
     def parse_date(self, date):
         element = self.msdesc.xpath(
@@ -225,7 +261,10 @@ class TeiTree:
         elif date.startswith("~"):
             ddate = {"notBefore": f"{year - 20}{nb}", "notAfter": f"{year + 20}{na}"}
         elif date.endswith("Jh.") or re.match(r"^\d{2}$", date):
-            ddate = {"notBefore": f"{(year - 1) * 100}{nb}", "notAfter": f"{(year - 1) * 100 + 99}{na}"}
+            ddate = {
+                "notBefore": f"{(year - 1) * 100}{nb}",
+                "notAfter": f"{(year - 1) * 100 + 99}{na}",
+            }
         elif date.endswith("x"):
             ddate = {"notBefore": f"{year}{nb}", "notAfter": f"{year + 99}{na}"}
         elif re.findall(r"^\d{2}\-\d(?:/\d)*", date):
@@ -233,12 +272,18 @@ class TeiTree:
             year *= 100
             if second in "12":
                 factor = int(100 / int(second))
-                ddate = {"notBefore": f"{year - factor}{nb}", "notAfter": f"{year - factor + 50}{na}"}
+                ddate = {
+                    "notBefore": f"{year - factor}{nb}",
+                    "notAfter": f"{year - factor + 50}{na}",
+                }
             else:
                 factor = int(
                     int(second.split("/")[0]) * 100 / int(second.split("/")[1])
                 )
-                ddate = {"notBefore": f"{year + factor - 25}{nb}", "notAfter": f"{year + factor}{na}"}
+                ddate = {
+                    "notBefore": f"{year + factor - 25}{nb}",
+                    "notAfter": f"{year + factor}{na}",
+                }
         else:
             ddate = {"notBefore": f"{year}{nb}", "notAfter": f"{year}{na}"}
         element.text = date
@@ -246,11 +291,13 @@ class TeiTree:
             element.attrib[time] = str(ddate[time])
 
     def classify_books(self, btype, lit):
-        classdecl = ET.SubElement(self.header.xpath("//tei:encodingDesc", namespaces=nsmap)[0], "classDecl")
+        classdecl = ET.SubElement(
+            self.header.xpath("//tei:encodingDesc", namespaces=nsmap)[0], "classDecl"
+        )
         keys = ""
         if lit:
             tax = ET.SubElement(classdecl, "taxonomy", attrib={f"{xml}id": "liturgies"})
-            ET.SubElement(tax, 'desc').text = "Liturgies"
+            ET.SubElement(tax, "desc").text = "Liturgies"
             keys = f"#{lit.lower()}"
             cat = ET.Element("category", attrib={f"{xml}id": lit.lower()})
             ET.SubElement(cat, "catDesc").text = lit
@@ -258,11 +305,13 @@ class TeiTree:
         books = " ".join(" ".join(btype.split(",")).split("/")).split()
         if btype:
             tax = ET.SubElement(classdecl, "taxonomy", attrib={f"{xml}id": "booktypes"})
-            ET.SubElement(tax, 'desc').text = "Book Types"
+            ET.SubElement(tax, "desc").text = "Book Types"
             for book in books:
                 for btype in bookdict:
                     if btype in book.lower() and bookdict[btype] not in keys:
-                        cat = ET.Element("category", attrib={f"{xml}id": bookdict[btype]})
+                        cat = ET.Element(
+                            "category", attrib={f"{xml}id": bookdict[btype]}
+                        )
                         ET.SubElement(cat, "catDesc").text = book
                         tax.append(cat)
                         keys += f" #{bookdict[btype]}"
@@ -339,20 +388,21 @@ class TeiTree:
     def make_text(self):
         # Stub to include later required divs or milestones if required
         body = self.tei.any_xpath(".//tei:body")[0]
-        for element in body.xpath('.//tei:div/*', namespaces=nsmap):
-            print(element.tag)
-            if element.tag == f'{tei}pb':
-                page = ET.SubElement(body, 'div', attrib=element.attrib)
-                page.attrib['type'] = 'page'
-            elif element.tag == f'{tei}ab':
-                element.tag = f'{tei}p'
+        for element in body.xpath(".//tei:div/*", namespaces=nsmap):
+            if element.tag == f"{tei}pb":
+                page = ET.SubElement(body, "div", attrib=element.attrib)
+                page.attrib["type"] = "page"
+            elif element.tag == f"{tei}ab":
+                element.tag = f"{tei}p"
                 for lb in element.iter():
-                    print(lb)
                     if lb.tag:
-                        line = ET.SubElement(page, 'li', attrib=lb.attrib)
+                        line = ET.SubElement(page, "li", attrib=lb.attrib)
                     else:
                         line.text = lb
-                    print(ET.tostring(line, pretty_print=True, encoding="unicode"))
-                page.append(ET.fromstring(ET.tostring(line, pretty_print=True, encoding="unicode")))
-        body.remove(body.xpath('./tei:div', namespaces=nsmap)[0])
+                page.append(
+                    ET.fromstring(
+                        ET.tostring(line, pretty_print=True, encoding="unicode")
+                    )
+                )
+        body.remove(body.xpath("./tei:div", namespaces=nsmap)[0])
         # e.getparent().remove(e)
