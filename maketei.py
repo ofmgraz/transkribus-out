@@ -339,17 +339,20 @@ class TeiTree:
     def make_text(self):
         # Stub to include later required divs or milestones if required
         body = self.tei.any_xpath(".//tei:body")[0]
-        for e in body.xpath('./tei:div', namespaces=nsmap)[0].iter():
-            print(e.tag)
-            if e.tag == f'{tei}pb':
-                print('A')
-                page = ET.SubElement(body, 'div', attrib=e.attrib)
+        for element in body.xpath('.//tei:div/*', namespaces=nsmap):
+            print(element.tag)
+            if element.tag == f'{tei}pb':
+                page = ET.SubElement(body, 'div', attrib=element.attrib)
                 page.attrib['type'] = 'page'
-            elif e.tag == f'{tei}ab':
-                print('B')
-                e.tag = f'{tei}p'
-                for line in e.xpath('//tei:lb', namespaces=nsmap):
-                    line.tag = f'{tei}li'
-                    page.append(ET.fromstring(ET.tostring(e, pretty_print=True, encoding="unicode")))
+            elif element.tag == f'{tei}ab':
+                element.tag = f'{tei}p'
+                for lb in element.iter():
+                    print(lb)
+                    if lb.tag:
+                        line = ET.SubElement(page, 'li', attrib=lb.attrib)
+                    else:
+                        line.text = lb
+                    print(ET.tostring(line, pretty_print=True, encoding="unicode"))
+                page.append(ET.fromstring(ET.tostring(line, pretty_print=True, encoding="unicode")))
         body.remove(body.xpath('./tei:div', namespaces=nsmap)[0])
         # e.getparent().remove(e)
