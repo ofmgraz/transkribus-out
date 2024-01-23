@@ -16,8 +16,8 @@ nsmap = {
     "default": "http://www.tei-c.org/ns/1.0",
 }
 
-xmlid = "{http://www.w3.org/XML/1998/namespace}id"
-xmlbase = "{http://www.w3.org/XML/1998/namespace}base"
+xml = "{http://www.w3.org/XML/1998/namespace}"
+tei = "{http://www.tei-c.org/ns/1.0}"
 
 with open("data.json", "r") as f:
     data = json.load(f)
@@ -69,8 +69,8 @@ class TeiTree:
         self.printable = self.make_printable(self.tei.tree)
 
     def make_meta(self):
-        self.root.attrib[xmlid] = self.doc_id
-        self.root.attrib[xmlbase] = "https://ofmgraz.github.io/ofm-static/"
+        self.root.attrib[f"{xml}id"] = self.doc_id
+        self.root.attrib[f"{xml}base"] = "https://ofmgraz.github.io/ofm-static/"
 
     def make_hodie(self):
         hodie = datetime.today().strftime("%Y-%m-%d")
@@ -177,7 +177,7 @@ class TeiTree:
             self.parse_origin(",".join(origins[1:]), False)
 
     def add_digitaledition_origin(self):
-        tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "{http://www.tei-c.org/ns/1.0}listPlace")
+        tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], f"{tei}listPlace")
         for pid in ('Wien', 'FCG'):
             entry = ET.fromstring(ET.tostring(locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
                                               pretty_print=True, encoding="unicode"))
@@ -249,20 +249,20 @@ class TeiTree:
         classdecl = ET.SubElement(self.header.xpath("//tei:encodingDesc", namespaces=nsmap)[0], "classDecl")
         keys = ""
         if lit:
-            tax = ET.SubElement(classdecl, "taxonomy", attrib={xmlid: "liturgies"})
+            tax = ET.SubElement(classdecl, "taxonomy", attrib={f"{xml}id": "liturgies"})
             ET.SubElement(tax, 'desc').text = "Liturgies"
             keys = f"#{lit.lower()}"
-            cat = ET.Element("category", attrib={xmlid: lit.lower()})
+            cat = ET.Element("category", attrib={f"{xml}id": lit.lower()})
             ET.SubElement(cat, "catDesc").text = lit
             tax.append(cat)
         books = " ".join(" ".join(btype.split(",")).split("/")).split()
         if btype:
-            tax = ET.SubElement(classdecl, "taxonomy", attrib={xmlid: "booktypes"})
+            tax = ET.SubElement(classdecl, "taxonomy", attrib={f"{xml}id": "booktypes"})
             ET.SubElement(tax, 'desc').text = "Book Types"
             for book in books:
                 for btype in bookdict:
                     if btype in book.lower() and bookdict[btype] not in keys:
-                        cat = ET.Element("category", attrib={xmlid: bookdict[btype]})
+                        cat = ET.Element("category", attrib={f"{xml}id": bookdict[btype]})
                         ET.SubElement(cat, "catDesc").text = book
                         tax.append(cat)
                         keys += f" #{bookdict[btype]}"
@@ -338,5 +338,21 @@ class TeiTree:
 
     def make_text(self):
         # Stub to include later required divs or milestones if required
-        text = self.root.xpath("./tei:text", namespaces=nsmap)[0]
-        return text
+        body = self.tei.any_xpath(".//tei:body")[0]
+        for element in body.xpath('.//tei:div/*', namespaces=nsmap):
+            print(element.tag)
+            if element.tag == f'{tei}pb':
+                page = ET.SubElement(body, 'div', attrib=element.attrib)
+                page.attrib['type'] = 'page'
+            elif element.tag == f'{tei}ab':
+                element.tag = f'{tei}p'
+                for lb in element.iter():
+                    print(lb)
+                    if lb.tag:
+                        line = ET.SubElement(page, 'li', attrib=lb.attrib)
+                    else:
+                        line.text = lb
+                    print(ET.tostring(line, pretty_print=True, encoding="unicode"))
+                page.append(ET.fromstring(ET.tostring(line, pretty_print=True, encoding="unicode")))
+        body.remove(body.xpath('./tei:div', namespaces=nsmap)[0])
+        # e.getparent().remove(e)
