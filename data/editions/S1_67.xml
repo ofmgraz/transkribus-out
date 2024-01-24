@@ -29,7 +29,7 @@
         <availability>
           <licence>cc0</licence>
         </availability>
-        <date when="2024-01-10" when-iso="2024-01-23">2024-01-23</date>
+        <date when="2024-01-10" when-iso="2024-01-24">2024-01-24</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -123,8 +123,8 @@
     <listPlace>
       <place xml:id="Wien">
         <placeName xml:lang="en">Vienna</placeName>
-        <placeName xml:lang="en">Wien</placeName>
-        <placeName xml:lang="it">Wien</placeName>
+        <placeName xml:lang="de">Wien</placeName>
+        <placeName xml:lang="it">Vienna</placeName>
         <location>
           <settlement xml:lang="en">Vienna</settlement>
           <settlement xml:lang="de">Wien</settlement>
@@ -137,6 +137,56 @@
           <country xml:lang="it">Austria</country>
           <geo>48.208333333333336 16.3725</geo>
         </location>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 70/41</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_41.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Antiphonas Festorum Principaliorum</title></p>
+            <linkGrp>
+              <link type="URL" target="70_45.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Libellus Antiphonarum</title></p>
+            <linkGrp>
+              <link type="URL" target="A70_23.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/29</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_29.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Cantus Ecclesiasticus</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_40a.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_75.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_74.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
+            <linkGrp>
+              <link type="URL" target="A67_21.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
         <idno type="URL" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
         <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
         <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
@@ -176,6 +226,44 @@
           <country xml:lang="it">Italia</country>
           <geo>45.439722222222 12.331944444444</geo>
         </location>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/66</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_66.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/65</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_65.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_69.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_64.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_67.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/68</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_68.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
         <idno type="URL" subtype="GND">http://d-nb.info/gnd/4062501-1/4062501-1</idno>
         <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
         <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
@@ -188,7 +276,7 @@
           <surname>Baglioni</surname>
         </persName>
         <residence>
-          <date notBefore="1632-01-01" notAfter="1721-12-31" cert="med">1632-1721?</date>
+          <date notBefore="1632-01-01" notAfter="1721-12-31" cert="medium">1632-1721?</date>
           <settlement key="4">
             <placeName type="pref" ref="#Venedig">Venedig</placeName>
             <location>
@@ -200,6 +288,26 @@
         <occupation key="90">Drucker</occupation>
         <idno type="URL" subtype="GND">http://d-nb.info/gnd/1037524810</idno>
         <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q112399622</idno>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/65</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_65.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_67.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/68</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_68.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
       </person>
     </listPerson>
   </standOff>
