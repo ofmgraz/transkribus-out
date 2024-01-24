@@ -25,7 +25,6 @@
           </addrLine>
         </address>
         <pubPlace ref="#Wien" xml:lang="de">Wien</pubPlace>
-        <pubPlace ref="#Wien" xml:lang="en">Vienna</pubPlace>
         <availability>
           <licence>cc0</licence>
         </availability>
@@ -99,7 +98,6 @@
       </langUsage>
       <textDesc n="choirbook">
         <channel mode="ws" xml:lang="en">manuscript</channel>
-        <channel mode="ws" xml:lang="de">Handschrift</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -110,7 +108,6 @@
       </textDesc>
       <settingDesc>
         <setting>
-          <name xml:lang="en">Styria</name>
           <name xml:lang="de">Steirmark</name>
           <time/>
         </setting>
@@ -1708,624 +1705,624 @@
   <text>
     <body>
       <div facs="#facs_1" n="1" xml:id="img_0001" type="page">
-        <li facs="#facs_1_r" type="initiale_lombarde">
-            </li>
-        <li facs="#facs_1_r_5" type="notation">
-            </li>
-        <li facs="#facs_1_r_10" type="text">
-            </li>
-        <li facs="#facs_1_r_15" type="notation">
-            </li>
-        <li facs="#facs_1_r_20" type="text">
-            </li>
-        <li facs="#facs_1_r_25" type="notation">
-            </li>
-        <li facs="#facs_1_r_30" type="text">
-            </li>
-        <li facs="#facs_1_r_35" type="notation">
-            </li>
-        <li facs="#facs_1_r_40" type="text">
-            </li>
-        <li facs="#facs_1_r_45" type="notation">
-            </li>
-        <li facs="#facs_1_r_50" type="text">
-            </li>
+        <ab facs="#facs_1_r" type="initiale_lombarde">
+            </ab>
+        <ab facs="#facs_1_r_5" type="notation">
+            </ab>
+        <ab facs="#facs_1_r_10" type="text">
+            </ab>
+        <ab facs="#facs_1_r_15" type="notation">
+            </ab>
+        <ab facs="#facs_1_r_20" type="text">
+            </ab>
+        <ab facs="#facs_1_r_25" type="notation">
+            </ab>
+        <ab facs="#facs_1_r_30" type="text">
+            </ab>
+        <ab facs="#facs_1_r_35" type="notation">
+            </ab>
+        <ab facs="#facs_1_r_40" type="text">
+            </ab>
+        <ab facs="#facs_1_r_45" type="notation">
+            </ab>
+        <ab facs="#facs_1_r_50" type="text">
+            </ab>
       </div>
       <div facs="#facs_2" n="2" xml:id="img_0002" type="page">
-        <li facs="#facs_2_r" type="notation">
-            </li>
-        <li facs="#facs_2_r_5" type="text">
-            </li>
-        <li facs="#facs_2_r_10" type="notation">
-            </li>
-        <li facs="#facs_2_r_15" type="text">
-            </li>
-        <li facs="#facs_2_r_20" type="notation">
-            </li>
-        <li facs="#facs_2_r_25" type="rubrik">
-            </li>
-        <li facs="#facs_2_r_30" type="text">
-            </li>
-        <li facs="#facs_2_r_35" type="notation">
-            </li>
-        <li facs="#facs_2_r_40" type="text">
-            </li>
-        <li facs="#facs_2_r_45" type="notation">
-            </li>
-        <li facs="#facs_2_r_50" type="rubrik">
-            </li>
-        <li facs="#facs_2_r_55" type="text">
-            </li>
-        <li facs="#facs_2_r_60" type="notation">
-            </li>
-        <li facs="#facs_2_r_65" type="text">
-            </li>
-        <li facs="#facs_2_r_70" type="notation">
-            </li>
-        <li facs="#facs_2_r_75" type="rubrik">
-            </li>
-        <li facs="#facs_2_r_80" type="text">
-            </li>
+        <ab facs="#facs_2_r" type="notation">
+            </ab>
+        <ab facs="#facs_2_r_5" type="text">
+            </ab>
+        <ab facs="#facs_2_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_2_r_15" type="text">
+            </ab>
+        <ab facs="#facs_2_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_2_r_25" type="rubrik">
+            </ab>
+        <ab facs="#facs_2_r_30" type="text">
+            </ab>
+        <ab facs="#facs_2_r_35" type="notation">
+            </ab>
+        <ab facs="#facs_2_r_40" type="text">
+            </ab>
+        <ab facs="#facs_2_r_45" type="notation">
+            </ab>
+        <ab facs="#facs_2_r_50" type="rubrik">
+            </ab>
+        <ab facs="#facs_2_r_55" type="text">
+            </ab>
+        <ab facs="#facs_2_r_60" type="notation">
+            </ab>
+        <ab facs="#facs_2_r_65" type="text">
+            </ab>
+        <ab facs="#facs_2_r_70" type="notation">
+            </ab>
+        <ab facs="#facs_2_r_75" type="rubrik">
+            </ab>
+        <ab facs="#facs_2_r_80" type="text">
+            </ab>
       </div>
       <div facs="#facs_3" n="3" xml:id="img_0003" type="page">
-        <li facs="#facs_3_r" type="notation">
-            </li>
-        <li facs="#facs_3_r_5" type="text">
-            </li>
-        <li facs="#facs_3_r_10" type="notation">
-            </li>
-        <li facs="#facs_3_r_15">
-            </li>
-        <li facs="#facs_3_r_20" type="text">
-            </li>
-        <li facs="#facs_3_r_25" type="notation">
-            </li>
-        <li facs="#facs_3_r_30" type="text">
-            </li>
-        <li facs="#facs_3_r_35" type="notation">
-            </li>
-        <li facs="#facs_3_r_40" type="text">
-            </li>
-        <li facs="#facs_3_r_50" type="notation">
-            </li>
-        <li facs="#facs_3_r_58" type="text">
-            </li>
-        <li facs="#facs_3_r_63" type="notation">
-            </li>
-        <li facs="#facs_3_r_68" type="text">
-            </li>
-        <li facs="#facs_3_r_73" type="notation">
-            </li>
-        <li facs="#facs_3_r_78" type="text">
-            </li>
+        <ab facs="#facs_3_r" type="notation">
+            </ab>
+        <ab facs="#facs_3_r_5" type="text">
+            </ab>
+        <ab facs="#facs_3_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_3_r_15">
+            </ab>
+        <ab facs="#facs_3_r_20" type="text">
+            </ab>
+        <ab facs="#facs_3_r_25" type="notation">
+            </ab>
+        <ab facs="#facs_3_r_30" type="text">
+            </ab>
+        <ab facs="#facs_3_r_35" type="notation">
+            </ab>
+        <ab facs="#facs_3_r_40" type="text">
+            </ab>
+        <ab facs="#facs_3_r_50" type="notation">
+            </ab>
+        <ab facs="#facs_3_r_58" type="text">
+            </ab>
+        <ab facs="#facs_3_r_63" type="notation">
+            </ab>
+        <ab facs="#facs_3_r_68" type="text">
+            </ab>
+        <ab facs="#facs_3_r_73" type="notation">
+            </ab>
+        <ab facs="#facs_3_r_78" type="text">
+            </ab>
       </div>
       <div facs="#facs_4" n="4" xml:id="img_0004" type="page">
-        <li facs="#facs_4_r" type="notation">
-            </li>
-        <li facs="#facs_4_r_5" type="text">
-            </li>
-        <li facs="#facs_4_r_10" type="notation">
-            </li>
-        <li facs="#facs_4_r_15" type="text">
-            </li>
-        <li facs="#facs_4_r_20" type="rubrik">
-            </li>
-        <li facs="#facs_4_r_25" type="notation">
-            </li>
-        <li facs="#facs_4_r_30" type="text">
-            </li>
-        <li facs="#facs_4_r_35" type="notation">
-            </li>
-        <li facs="#facs_4_r_40" type="text">
-            </li>
-        <li facs="#facs_4_r_45" type="notation">
-            </li>
-        <li facs="#facs_4_r_50" type="text">
-            </li>
-        <li facs="#facs_4_r_55" type="notation">
-            </li>
-        <li facs="#facs_4_r_77" type="text">
-            </li>
-        <li facs="#facs_4_r_78" type="rubrik">
-            </li>
-        <li facs="#facs_4_r_76" type="text">
-            </li>
-        <li facs="#facs_4_r_65" type="notation">
-            </li>
-        <li facs="#facs_4_r_70" type="text">
-            </li>
+        <ab facs="#facs_4_r" type="notation">
+            </ab>
+        <ab facs="#facs_4_r_5" type="text">
+            </ab>
+        <ab facs="#facs_4_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_4_r_15" type="text">
+            </ab>
+        <ab facs="#facs_4_r_20" type="rubrik">
+            </ab>
+        <ab facs="#facs_4_r_25" type="notation">
+            </ab>
+        <ab facs="#facs_4_r_30" type="text">
+            </ab>
+        <ab facs="#facs_4_r_35" type="notation">
+            </ab>
+        <ab facs="#facs_4_r_40" type="text">
+            </ab>
+        <ab facs="#facs_4_r_45" type="notation">
+            </ab>
+        <ab facs="#facs_4_r_50" type="text">
+            </ab>
+        <ab facs="#facs_4_r_55" type="notation">
+            </ab>
+        <ab facs="#facs_4_r_77" type="text">
+            </ab>
+        <ab facs="#facs_4_r_78" type="rubrik">
+            </ab>
+        <ab facs="#facs_4_r_76" type="text">
+            </ab>
+        <ab facs="#facs_4_r_65" type="notation">
+            </ab>
+        <ab facs="#facs_4_r_70" type="text">
+            </ab>
       </div>
       <div facs="#facs_5" n="5" xml:id="img_0005" type="page">
-        <li facs="#facs_5_r" type="notation">
-            </li>
-        <li facs="#facs_5_r_5" type="text">
-            </li>
-        <li facs="#facs_5_r_15" type="notation">
-            </li>
-        <li facs="#facs_5_r_20" type="text">
-            </li>
-        <li facs="#facs_5_r_25" type="rubrik">
-            </li>
-        <li facs="#facs_5_r_30" type="notation">
-            </li>
-        <li facs="#facs_5_r_35" type="text">
-            </li>
-        <li facs="#facs_5_r_45" type="notation">
-            </li>
-        <li facs="#facs_5_r_50" type="text">
-            </li>
-        <li facs="#facs_5_r_55" type="notation">
-            </li>
-        <li facs="#facs_5_r_60" type="text">
-            </li>
-        <li facs="#facs_5_r_65" type="notation">
-            </li>
-        <li facs="#facs_5_r_70" type="text">
-            </li>
+        <ab facs="#facs_5_r" type="notation">
+            </ab>
+        <ab facs="#facs_5_r_5" type="text">
+            </ab>
+        <ab facs="#facs_5_r_15" type="notation">
+            </ab>
+        <ab facs="#facs_5_r_20" type="text">
+            </ab>
+        <ab facs="#facs_5_r_25" type="rubrik">
+            </ab>
+        <ab facs="#facs_5_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_5_r_35" type="text">
+            </ab>
+        <ab facs="#facs_5_r_45" type="notation">
+            </ab>
+        <ab facs="#facs_5_r_50" type="text">
+            </ab>
+        <ab facs="#facs_5_r_55" type="notation">
+            </ab>
+        <ab facs="#facs_5_r_60" type="text">
+            </ab>
+        <ab facs="#facs_5_r_65" type="notation">
+            </ab>
+        <ab facs="#facs_5_r_70" type="text">
+            </ab>
       </div>
       <div facs="#facs_6" n="6" xml:id="img_0006" type="page">
-        <li facs="#facs_6_r" type="notation">
-            </li>
-        <li facs="#facs_6_r_5" type="text">
-            </li>
-        <li facs="#facs_6_r_10" type="notation">
-            </li>
-        <li facs="#facs_6_r_15" type="text">
-            </li>
-        <li facs="#facs_6_r_20" type="notation">
-            </li>
-        <li facs="#facs_6_r_25" type="text">
-            </li>
-        <li facs="#facs_6_r_30" type="notation">
-            </li>
-        <li facs="#facs_6_r_35" type="text">
-            </li>
-        <li facs="#facs_6_r_40" type="notation">
-            </li>
-        <li facs="#facs_6_r_45" type="text">
-            </li>
-        <li facs="#facs_6_r_50" type="notation">
-            </li>
-        <li facs="#facs_6_r_55" type="text">
-            </li>
-        <li facs="#facs_6_r_60" type="notation">
-            </li>
-        <li facs="#facs_6_r_65" type="text">
-            </li>
+        <ab facs="#facs_6_r" type="notation">
+            </ab>
+        <ab facs="#facs_6_r_5" type="text">
+            </ab>
+        <ab facs="#facs_6_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_6_r_15" type="text">
+            </ab>
+        <ab facs="#facs_6_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_6_r_25" type="text">
+            </ab>
+        <ab facs="#facs_6_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_6_r_35" type="text">
+            </ab>
+        <ab facs="#facs_6_r_40" type="notation">
+            </ab>
+        <ab facs="#facs_6_r_45" type="text">
+            </ab>
+        <ab facs="#facs_6_r_50" type="notation">
+            </ab>
+        <ab facs="#facs_6_r_55" type="text">
+            </ab>
+        <ab facs="#facs_6_r_60" type="notation">
+            </ab>
+        <ab facs="#facs_6_r_65" type="text">
+            </ab>
       </div>
       <div facs="#facs_7" n="7" xml:id="img_0007" type="page">
-        <li facs="#facs_7_r" type="notation">
-            </li>
-        <li facs="#facs_7_r_5" type="text">
-            </li>
-        <li facs="#facs_7_r_10" type="notation">
-            </li>
-        <li facs="#facs_7_r_15" type="text">
-            </li>
-        <li facs="#facs_7_r_20" type="notation">
-            </li>
-        <li facs="#facs_7_r_25" type="text">
-            </li>
-        <li facs="#facs_7_r_30" type="notation">
-            </li>
-        <li facs="#facs_7_r_35" type="text">
-            </li>
-        <li facs="#facs_7_r_40" type="notation">
-            </li>
-        <li facs="#facs_7_r_45" type="text">
-            </li>
-        <li facs="#facs_7_r_50" type="notation">
-            </li>
-        <li facs="#facs_7_r_55" type="text">
-            </li>
-        <li facs="#facs_7_r_60" type="notation">
-            </li>
-        <li facs="#facs_7_r_65" type="text">
-            </li>
+        <ab facs="#facs_7_r" type="notation">
+            </ab>
+        <ab facs="#facs_7_r_5" type="text">
+            </ab>
+        <ab facs="#facs_7_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_7_r_15" type="text">
+            </ab>
+        <ab facs="#facs_7_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_7_r_25" type="text">
+            </ab>
+        <ab facs="#facs_7_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_7_r_35" type="text">
+            </ab>
+        <ab facs="#facs_7_r_40" type="notation">
+            </ab>
+        <ab facs="#facs_7_r_45" type="text">
+            </ab>
+        <ab facs="#facs_7_r_50" type="notation">
+            </ab>
+        <ab facs="#facs_7_r_55" type="text">
+            </ab>
+        <ab facs="#facs_7_r_60" type="notation">
+            </ab>
+        <ab facs="#facs_7_r_65" type="text">
+            </ab>
       </div>
       <div facs="#facs_8" n="8" xml:id="img_0008" type="page">
-        <li facs="#facs_8_r" type="notation">
-            </li>
-        <li facs="#facs_8_r_5" type="text">
-            </li>
-        <li facs="#facs_8_r_10" type="notation">
-            </li>
-        <li facs="#facs_8_r_15" type="text">
-            </li>
-        <li facs="#facs_8_r_20" type="notation">
-            </li>
-        <li facs="#facs_8_r_25" type="text">
-            </li>
-        <li facs="#facs_8_r_30" type="notation">
-            </li>
-        <li facs="#facs_8_r_40" type="rubrik">
-            </li>
-        <li facs="#facs_8_r_35" type="text">
-            </li>
-        <li facs="#facs_8_r_45" type="notation">
-            </li>
-        <li facs="#facs_8_r_50" type="text">
-            </li>
-        <li facs="#facs_8_r_55" type="notation">
-            </li>
-        <li facs="#facs_8_r_60" type="text">
-            </li>
-        <li facs="#facs_8_r_65" type="notation">
-            </li>
-        <li facs="#facs_8_r_70" type="text">
-            </li>
+        <ab facs="#facs_8_r" type="notation">
+            </ab>
+        <ab facs="#facs_8_r_5" type="text">
+            </ab>
+        <ab facs="#facs_8_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_8_r_15" type="text">
+            </ab>
+        <ab facs="#facs_8_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_8_r_25" type="text">
+            </ab>
+        <ab facs="#facs_8_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_8_r_40" type="rubrik">
+            </ab>
+        <ab facs="#facs_8_r_35" type="text">
+            </ab>
+        <ab facs="#facs_8_r_45" type="notation">
+            </ab>
+        <ab facs="#facs_8_r_50" type="text">
+            </ab>
+        <ab facs="#facs_8_r_55" type="notation">
+            </ab>
+        <ab facs="#facs_8_r_60" type="text">
+            </ab>
+        <ab facs="#facs_8_r_65" type="notation">
+            </ab>
+        <ab facs="#facs_8_r_70" type="text">
+            </ab>
       </div>
       <div facs="#facs_9" n="9" xml:id="img_0009" type="page">
-        <li facs="#facs_9_r" type="notation">
-            </li>
-        <li facs="#facs_9_r_5" type="text">
-            </li>
-        <li facs="#facs_9_r_10" type="notation">
-            </li>
-        <li facs="#facs_9_r_15" type="text">
-            </li>
-        <li facs="#facs_9_r_20" type="notation">
-            </li>
-        <li facs="#facs_9_r_25" type="text">
-            </li>
-        <li facs="#facs_9_r_30" type="notation">
-            </li>
-        <li facs="#facs_9_r_35" type="text">
-            </li>
-        <li facs="#facs_9_r_40" type="notation">
-            </li>
-        <li facs="#facs_9_r_45" type="text">
-            </li>
-        <li facs="#facs_9_r_50" type="rubrik">
-            </li>
-        <li facs="#facs_9_r_55" type="text">
-            </li>
-        <li facs="#facs_9_r_60" type="notation">
-            </li>
-        <li facs="#facs_9_r_65" type="text">
-            </li>
-        <li facs="#facs_9_r_70" type="notation">
-            </li>
-        <li facs="#facs_9_r_75" type="text">
-            </li>
+        <ab facs="#facs_9_r" type="notation">
+            </ab>
+        <ab facs="#facs_9_r_5" type="text">
+            </ab>
+        <ab facs="#facs_9_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_9_r_15" type="text">
+            </ab>
+        <ab facs="#facs_9_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_9_r_25" type="text">
+            </ab>
+        <ab facs="#facs_9_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_9_r_35" type="text">
+            </ab>
+        <ab facs="#facs_9_r_40" type="notation">
+            </ab>
+        <ab facs="#facs_9_r_45" type="text">
+            </ab>
+        <ab facs="#facs_9_r_50" type="rubrik">
+            </ab>
+        <ab facs="#facs_9_r_55" type="text">
+            </ab>
+        <ab facs="#facs_9_r_60" type="notation">
+            </ab>
+        <ab facs="#facs_9_r_65" type="text">
+            </ab>
+        <ab facs="#facs_9_r_70" type="notation">
+            </ab>
+        <ab facs="#facs_9_r_75" type="text">
+            </ab>
       </div>
       <div facs="#facs_10" n="10" xml:id="img_0010" type="page">
-        <li facs="#facs_10_r" type="notation">
-            </li>
-        <li facs="#facs_10_r_5" type="text">
-            </li>
-        <li facs="#facs_10_r_10" type="notation">
-            </li>
-        <li facs="#facs_10_r_15" type="text">
-            </li>
-        <li facs="#facs_10_r_20" type="notation">
-            </li>
-        <li facs="#facs_10_r_25" type="text">
-            </li>
-        <li facs="#facs_10_r_30" type="notation">
-            </li>
-        <li facs="#facs_10_r_35" type="text">
-            </li>
-        <li facs="#facs_10_r_40" type="notation">
-            </li>
-        <li facs="#facs_10_r_45" type="text">
-            </li>
-        <li facs="#facs_10_r_50" type="notation">
-            </li>
-        <li facs="#facs_10_r_55" type="text">
-            </li>
-        <li facs="#facs_10_r_60" type="notation">
-            </li>
-        <li facs="#facs_10_r_65" type="text">
-            </li>
+        <ab facs="#facs_10_r" type="notation">
+            </ab>
+        <ab facs="#facs_10_r_5" type="text">
+            </ab>
+        <ab facs="#facs_10_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_10_r_15" type="text">
+            </ab>
+        <ab facs="#facs_10_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_10_r_25" type="text">
+            </ab>
+        <ab facs="#facs_10_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_10_r_35" type="text">
+            </ab>
+        <ab facs="#facs_10_r_40" type="notation">
+            </ab>
+        <ab facs="#facs_10_r_45" type="text">
+            </ab>
+        <ab facs="#facs_10_r_50" type="notation">
+            </ab>
+        <ab facs="#facs_10_r_55" type="text">
+            </ab>
+        <ab facs="#facs_10_r_60" type="notation">
+            </ab>
+        <ab facs="#facs_10_r_65" type="text">
+            </ab>
       </div>
       <div facs="#facs_11" n="11" xml:id="img_0011" type="page">
-        <li facs="#facs_11_r" type="notation">
-            </li>
-        <li facs="#facs_11_r_5" type="text">
-            </li>
-        <li facs="#facs_11_r_10" type="notation">
-            </li>
-        <li facs="#facs_11_r_15" type="text">
-            </li>
-        <li facs="#facs_11_r_26" type="initiale_lombarde">
-            </li>
-        <li facs="#facs_11_r_31" type="notation">
-            </li>
-        <li facs="#facs_11_r_36" type="text">
-            </li>
-        <li facs="#facs_11_r_41" type="notation">
-            </li>
-        <li facs="#facs_11_r_46" type="text">
-            </li>
-        <li facs="#facs_11_r_51" type="notation">
-            </li>
-        <li facs="#facs_11_r_56" type="text">
-            </li>
+        <ab facs="#facs_11_r" type="notation">
+            </ab>
+        <ab facs="#facs_11_r_5" type="text">
+            </ab>
+        <ab facs="#facs_11_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_11_r_15" type="text">
+            </ab>
+        <ab facs="#facs_11_r_26" type="initiale_lombarde">
+            </ab>
+        <ab facs="#facs_11_r_31" type="notation">
+            </ab>
+        <ab facs="#facs_11_r_36" type="text">
+            </ab>
+        <ab facs="#facs_11_r_41" type="notation">
+            </ab>
+        <ab facs="#facs_11_r_46" type="text">
+            </ab>
+        <ab facs="#facs_11_r_51" type="notation">
+            </ab>
+        <ab facs="#facs_11_r_56" type="text">
+            </ab>
       </div>
       <div facs="#facs_12" n="12" xml:id="img_0012" type="page">
-        <li facs="#facs_12_r" type="notation">
-            </li>
-        <li facs="#facs_12_r_5" type="text">
-            </li>
-        <li facs="#facs_12_r_10" type="notation">
-            </li>
-        <li facs="#facs_12_r_15" type="text">
-            </li>
-        <li facs="#facs_12_r_20" type="notation">
-            </li>
-        <li facs="#facs_12_r_25" type="text">
-            </li>
-        <li facs="#facs_12_r_30" type="notation">
-            </li>
-        <li facs="#facs_12_r_40" type="rubrik">
-            </li>
-        <li facs="#facs_12_r_35" type="text">
-            </li>
-        <li facs="#facs_12_r_45" type="notation">
-            </li>
-        <li facs="#facs_12_r_50" type="text">
-            </li>
-        <li facs="#facs_12_r_55" type="notation">
-            </li>
-        <li facs="#facs_12_r_60" type="text">
-            </li>
-        <li facs="#facs_12_r_65" type="notation">
-            </li>
-        <li facs="#facs_12_r_70" type="text">
-            </li>
-        <li facs="#facs_12_r_76" type="rubrik">
-            </li>
-        <li facs="#facs_12_r_81" type="text">
-            </li>
+        <ab facs="#facs_12_r" type="notation">
+            </ab>
+        <ab facs="#facs_12_r_5" type="text">
+            </ab>
+        <ab facs="#facs_12_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_12_r_15" type="text">
+            </ab>
+        <ab facs="#facs_12_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_12_r_25" type="text">
+            </ab>
+        <ab facs="#facs_12_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_12_r_40" type="rubrik">
+            </ab>
+        <ab facs="#facs_12_r_35" type="text">
+            </ab>
+        <ab facs="#facs_12_r_45" type="notation">
+            </ab>
+        <ab facs="#facs_12_r_50" type="text">
+            </ab>
+        <ab facs="#facs_12_r_55" type="notation">
+            </ab>
+        <ab facs="#facs_12_r_60" type="text">
+            </ab>
+        <ab facs="#facs_12_r_65" type="notation">
+            </ab>
+        <ab facs="#facs_12_r_70" type="text">
+            </ab>
+        <ab facs="#facs_12_r_76" type="rubrik">
+            </ab>
+        <ab facs="#facs_12_r_81" type="text">
+            </ab>
       </div>
       <div facs="#facs_13" n="13" xml:id="img_0013" type="page">
-        <li facs="#facs_13_r" type="notation">
-            </li>
-        <li facs="#facs_13_r_5" type="rubrik">
-            </li>
-        <li facs="#facs_13_r_10" type="text">
-            </li>
-        <li facs="#facs_13_r_15" type="notation">
-            </li>
-        <li facs="#facs_13_r_20" type="text">
-            </li>
-        <li facs="#facs_13_r_25" type="notation">
-            </li>
-        <li facs="#facs_13_r_31">
-            </li>
-        <li facs="#facs_13_r_36" type="notation">
-            </li>
-        <li facs="#facs_13_r_41" type="text">
-            </li>
-        <li facs="#facs_13_r_46" type="notation">
-            </li>
-        <li facs="#facs_13_r_51" type="text">
-            </li>
-        <li facs="#facs_13_r_56" type="notation">
-            </li>
-        <li facs="#facs_13_r_61" type="text">
-            </li>
-        <li facs="#facs_13_r_66" type="notation">
-            </li>
-        <li facs="#facs_13_r_71" type="text">
-            </li>
-        <li facs="#facs_13_r_76" type="rubrik">
-            </li>
+        <ab facs="#facs_13_r" type="notation">
+            </ab>
+        <ab facs="#facs_13_r_5" type="rubrik">
+            </ab>
+        <ab facs="#facs_13_r_10" type="text">
+            </ab>
+        <ab facs="#facs_13_r_15" type="notation">
+            </ab>
+        <ab facs="#facs_13_r_20" type="text">
+            </ab>
+        <ab facs="#facs_13_r_25" type="notation">
+            </ab>
+        <ab facs="#facs_13_r_31">
+            </ab>
+        <ab facs="#facs_13_r_36" type="notation">
+            </ab>
+        <ab facs="#facs_13_r_41" type="text">
+            </ab>
+        <ab facs="#facs_13_r_46" type="notation">
+            </ab>
+        <ab facs="#facs_13_r_51" type="text">
+            </ab>
+        <ab facs="#facs_13_r_56" type="notation">
+            </ab>
+        <ab facs="#facs_13_r_61" type="text">
+            </ab>
+        <ab facs="#facs_13_r_66" type="notation">
+            </ab>
+        <ab facs="#facs_13_r_71" type="text">
+            </ab>
+        <ab facs="#facs_13_r_76" type="rubrik">
+            </ab>
       </div>
       <div facs="#facs_14" n="14" xml:id="img_0014" type="page">
-        <li facs="#facs_14_r_5" type="notation">
-            </li>
-        <li facs="#facs_14_r_10" type="text">
-            </li>
-        <li facs="#facs_14_r_15" type="notation">
-            </li>
-        <li facs="#facs_14_r_20" type="text">
-            </li>
-        <li facs="#facs_14_r_25" type="notation">
-            </li>
-        <li facs="#facs_14_r_30" type="text">
-            </li>
-        <li facs="#facs_14_r_35" type="notation">
-            </li>
-        <li facs="#facs_14_r_40" type="text">
-            </li>
-        <li facs="#facs_14_r_45" type="notation">
-            </li>
-        <li facs="#facs_14_r_50" type="text">
-            </li>
-        <li facs="#facs_14_r_55" type="notation">
-            </li>
-        <li facs="#facs_14_r_60" type="text">
-            </li>
-        <li facs="#facs_14_r_65" type="notation">
-            </li>
-        <li facs="#facs_14_r_70" type="text">
-            </li>
+        <ab facs="#facs_14_r_5" type="notation">
+            </ab>
+        <ab facs="#facs_14_r_10" type="text">
+            </ab>
+        <ab facs="#facs_14_r_15" type="notation">
+            </ab>
+        <ab facs="#facs_14_r_20" type="text">
+            </ab>
+        <ab facs="#facs_14_r_25" type="notation">
+            </ab>
+        <ab facs="#facs_14_r_30" type="text">
+            </ab>
+        <ab facs="#facs_14_r_35" type="notation">
+            </ab>
+        <ab facs="#facs_14_r_40" type="text">
+            </ab>
+        <ab facs="#facs_14_r_45" type="notation">
+            </ab>
+        <ab facs="#facs_14_r_50" type="text">
+            </ab>
+        <ab facs="#facs_14_r_55" type="notation">
+            </ab>
+        <ab facs="#facs_14_r_60" type="text">
+            </ab>
+        <ab facs="#facs_14_r_65" type="notation">
+            </ab>
+        <ab facs="#facs_14_r_70" type="text">
+            </ab>
       </div>
       <div facs="#facs_15" n="15" xml:id="img_0015" type="page">
-        <li facs="#facs_15_r" type="notation">
-            </li>
-        <li facs="#facs_15_r_5" type="text">
-            </li>
-        <li facs="#facs_15_r_10" type="notation">
-            </li>
-        <li facs="#facs_15_r_15" type="text">
-            </li>
-        <li facs="#facs_15_r_27" type="notation">
-            </li>
-        <li facs="#facs_15_r_32" type="text">
-            </li>
-        <li facs="#facs_15_r_37" type="notation">
-            </li>
-        <li facs="#facs_15_r_42" type="text">
-            </li>
-        <li facs="#facs_15_r_47" type="notation">
-            </li>
-        <li facs="#facs_15_r_52" type="text">
-            </li>
-        <li facs="#facs_15_r_57" type="notation">
-            </li>
-        <li facs="#facs_15_r_62" type="text">
-            </li>
-        <li facs="#facs_15_r_67" type="notation">
-            </li>
-        <li facs="#facs_15_r_72" type="text">
-            </li>
+        <ab facs="#facs_15_r" type="notation">
+            </ab>
+        <ab facs="#facs_15_r_5" type="text">
+            </ab>
+        <ab facs="#facs_15_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_15_r_15" type="text">
+            </ab>
+        <ab facs="#facs_15_r_27" type="notation">
+            </ab>
+        <ab facs="#facs_15_r_32" type="text">
+            </ab>
+        <ab facs="#facs_15_r_37" type="notation">
+            </ab>
+        <ab facs="#facs_15_r_42" type="text">
+            </ab>
+        <ab facs="#facs_15_r_47" type="notation">
+            </ab>
+        <ab facs="#facs_15_r_52" type="text">
+            </ab>
+        <ab facs="#facs_15_r_57" type="notation">
+            </ab>
+        <ab facs="#facs_15_r_62" type="text">
+            </ab>
+        <ab facs="#facs_15_r_67" type="notation">
+            </ab>
+        <ab facs="#facs_15_r_72" type="text">
+            </ab>
       </div>
       <div facs="#facs_16" n="16" xml:id="img_0016" type="page">
-        <li facs="#facs_16_r" type="notation">
-            </li>
-        <li facs="#facs_16_r_5" type="text">
-            </li>
-        <li facs="#facs_16_r_10" type="notation">
-            </li>
-        <li facs="#facs_16_r_15" type="text">
-            </li>
-        <li facs="#facs_16_r_20" type="notation">
-            </li>
-        <li facs="#facs_16_r_25" type="text">
-            </li>
-        <li facs="#facs_16_r_30" type="notation">
-            </li>
-        <li facs="#facs_16_r_35" type="text">
-            </li>
-        <li facs="#facs_16_r_40" type="rubrik">
-            </li>
-        <li facs="#facs_16_r_45" type="notation">
-            </li>
-        <li facs="#facs_16_r_50" type="text">
-            </li>
-        <li facs="#facs_16_r_55" type="notation">
-            </li>
-        <li facs="#facs_16_r_60" type="text">
-            </li>
-        <li facs="#facs_16_r_65" type="notation">
-            </li>
-        <li facs="#facs_16_r_70" type="text">
-            </li>
+        <ab facs="#facs_16_r" type="notation">
+            </ab>
+        <ab facs="#facs_16_r_5" type="text">
+            </ab>
+        <ab facs="#facs_16_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_16_r_15" type="text">
+            </ab>
+        <ab facs="#facs_16_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_16_r_25" type="text">
+            </ab>
+        <ab facs="#facs_16_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_16_r_35" type="text">
+            </ab>
+        <ab facs="#facs_16_r_40" type="rubrik">
+            </ab>
+        <ab facs="#facs_16_r_45" type="notation">
+            </ab>
+        <ab facs="#facs_16_r_50" type="text">
+            </ab>
+        <ab facs="#facs_16_r_55" type="notation">
+            </ab>
+        <ab facs="#facs_16_r_60" type="text">
+            </ab>
+        <ab facs="#facs_16_r_65" type="notation">
+            </ab>
+        <ab facs="#facs_16_r_70" type="text">
+            </ab>
       </div>
       <div facs="#facs_17" n="17" xml:id="img_0017" type="page">
-        <li facs="#facs_17_r" type="notation">
-            </li>
-        <li facs="#facs_17_r_5" type="text">
-            </li>
-        <li facs="#facs_17_r_10" type="notation">
-            </li>
-        <li facs="#facs_17_r_15" type="text">
-            </li>
-        <li facs="#facs_17_r_20" type="notation">
-            </li>
-        <li facs="#facs_17_r_25" type="text">
-            </li>
-        <li facs="#facs_17_r_30" type="notation">
-            </li>
-        <li facs="#facs_17_r_35" type="text">
-            </li>
-        <li facs="#facs_17_r_40" type="notation">
-            </li>
-        <li facs="#facs_17_r_50" type="text">
-            </li>
-        <li facs="#facs_17_r_55" type="rubrik">
-            </li>
-        <li facs="#facs_17_r_45" type="text">
-            </li>
-        <li facs="#facs_17_r_60" type="notation">
-            </li>
-        <li facs="#facs_17_r_65" type="text">
-            </li>
-        <li facs="#facs_17_r_70" type="notation">
-            </li>
-        <li facs="#facs_17_r_75" type="text">
-            </li>
+        <ab facs="#facs_17_r" type="notation">
+            </ab>
+        <ab facs="#facs_17_r_5" type="text">
+            </ab>
+        <ab facs="#facs_17_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_17_r_15" type="text">
+            </ab>
+        <ab facs="#facs_17_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_17_r_25" type="text">
+            </ab>
+        <ab facs="#facs_17_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_17_r_35" type="text">
+            </ab>
+        <ab facs="#facs_17_r_40" type="notation">
+            </ab>
+        <ab facs="#facs_17_r_50" type="text">
+            </ab>
+        <ab facs="#facs_17_r_55" type="rubrik">
+            </ab>
+        <ab facs="#facs_17_r_45" type="text">
+            </ab>
+        <ab facs="#facs_17_r_60" type="notation">
+            </ab>
+        <ab facs="#facs_17_r_65" type="text">
+            </ab>
+        <ab facs="#facs_17_r_70" type="notation">
+            </ab>
+        <ab facs="#facs_17_r_75" type="text">
+            </ab>
       </div>
       <div facs="#facs_18" n="18" xml:id="img_0018" type="page">
-        <li facs="#facs_18_r" type="notation">
-            </li>
-        <li facs="#facs_18_r_5" type="text">
-            </li>
-        <li facs="#facs_18_r_10" type="rubrik">
-            </li>
-        <li facs="#facs_18_r_15" type="text">
-            </li>
-        <li facs="#facs_18_r_20" type="notation">
-            </li>
-        <li facs="#facs_18_r_25" type="text">
-            </li>
-        <li facs="#facs_18_r_30" type="notation">
-            </li>
-        <li facs="#facs_18_r_35" type="text">
-            </li>
-        <li facs="#facs_18_r_40" type="notation">
-            </li>
-        <li facs="#facs_18_r_45" type="text">
-            </li>
-        <li facs="#facs_18_r_50" type="notation">
-            </li>
-        <li facs="#facs_18_r_55" type="text">
-            </li>
-        <li facs="#facs_18_r_60" type="notation">
-            </li>
-        <li facs="#facs_18_r_65" type="text">
-            </li>
-        <li facs="#facs_18_r_70" type="notation">
-            </li>
-        <li facs="#facs_18_r_75" type="text">
-            </li>
+        <ab facs="#facs_18_r" type="notation">
+            </ab>
+        <ab facs="#facs_18_r_5" type="text">
+            </ab>
+        <ab facs="#facs_18_r_10" type="rubrik">
+            </ab>
+        <ab facs="#facs_18_r_15" type="text">
+            </ab>
+        <ab facs="#facs_18_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_18_r_25" type="text">
+            </ab>
+        <ab facs="#facs_18_r_30" type="notation">
+            </ab>
+        <ab facs="#facs_18_r_35" type="text">
+            </ab>
+        <ab facs="#facs_18_r_40" type="notation">
+            </ab>
+        <ab facs="#facs_18_r_45" type="text">
+            </ab>
+        <ab facs="#facs_18_r_50" type="notation">
+            </ab>
+        <ab facs="#facs_18_r_55" type="text">
+            </ab>
+        <ab facs="#facs_18_r_60" type="notation">
+            </ab>
+        <ab facs="#facs_18_r_65" type="text">
+            </ab>
+        <ab facs="#facs_18_r_70" type="notation">
+            </ab>
+        <ab facs="#facs_18_r_75" type="text">
+            </ab>
       </div>
       <div facs="#facs_19" n="19" xml:id="img_0019" type="page">
-        <li facs="#facs_19_r" type="notation">
-            </li>
-        <li facs="#facs_19_r_5" type="text">
-            </li>
-        <li facs="#facs_19_r_10" type="notation">
-            </li>
-        <li facs="#facs_19_r_15" type="text">
-            </li>
-        <li facs="#facs_19_r_20" type="notation">
-            </li>
-        <li facs="#facs_19_r_25" type="text">
-            </li>
-        <li facs="#facs_19_r_35" type="initiale_lombarde">
-            </li>
-        <li facs="#facs_19_r_40" type="notation">
-            </li>
-        <li facs="#facs_19_r_45" type="text">
-            </li>
-        <li facs="#facs_19_r_50" type="notation">
-            </li>
-        <li facs="#facs_19_r_55" type="text">
-            </li>
+        <ab facs="#facs_19_r" type="notation">
+            </ab>
+        <ab facs="#facs_19_r_5" type="text">
+            </ab>
+        <ab facs="#facs_19_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_19_r_15" type="text">
+            </ab>
+        <ab facs="#facs_19_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_19_r_25" type="text">
+            </ab>
+        <ab facs="#facs_19_r_35" type="initiale_lombarde">
+            </ab>
+        <ab facs="#facs_19_r_40" type="notation">
+            </ab>
+        <ab facs="#facs_19_r_45" type="text">
+            </ab>
+        <ab facs="#facs_19_r_50" type="notation">
+            </ab>
+        <ab facs="#facs_19_r_55" type="text">
+            </ab>
       </div>
       <div facs="#facs_20" n="20" xml:id="img_0020" type="page">
-        <li facs="#facs_20_r" type="notation">
-            </li>
-        <li facs="#facs_20_r_5" type="text">
-            </li>
-        <li facs="#facs_20_r_10" type="notation">
-            </li>
-        <li facs="#facs_20_r_15" type="text">
-            </li>
-        <li facs="#facs_20_r_20" type="notation">
-            </li>
-        <li facs="#facs_20_r_25" type="text">
-            </li>
-        <li facs="#facs_20_r_37" type="notation">
-            </li>
-        <li facs="#facs_20_r_42" type="text">
-            </li>
-        <li facs="#facs_20_r_47" type="notation">
-            </li>
-        <li facs="#facs_20_r_52" type="text">
-            </li>
-        <li facs="#facs_20_r_57" type="notation">
-            </li>
-        <li facs="#facs_20_r_62" type="text">
-            </li>
-        <li facs="#facs_20_r_67" type="notation">
-            </li>
-        <li facs="#facs_20_r_72" type="text">
-            </li>
+        <ab facs="#facs_20_r" type="notation">
+            </ab>
+        <ab facs="#facs_20_r_5" type="text">
+            </ab>
+        <ab facs="#facs_20_r_10" type="notation">
+            </ab>
+        <ab facs="#facs_20_r_15" type="text">
+            </ab>
+        <ab facs="#facs_20_r_20" type="notation">
+            </ab>
+        <ab facs="#facs_20_r_25" type="text">
+            </ab>
+        <ab facs="#facs_20_r_37" type="notation">
+            </ab>
+        <ab facs="#facs_20_r_42" type="text">
+            </ab>
+        <ab facs="#facs_20_r_47" type="notation">
+            </ab>
+        <ab facs="#facs_20_r_52" type="text">
+            </ab>
+        <ab facs="#facs_20_r_57" type="notation">
+            </ab>
+        <ab facs="#facs_20_r_62" type="text">
+            </ab>
+        <ab facs="#facs_20_r_67" type="notation">
+            </ab>
+        <ab facs="#facs_20_r_72" type="text">
+            </ab>
       </div>
       <div facs="#facs_21" n="21" xml:id="img_0021" type="page"/>
       <div facs="#facs_22" n="22" xml:id="img_0022" type="page"/>

@@ -25,7 +25,6 @@
           </addrLine>
         </address>
         <pubPlace ref="#Wien" xml:lang="de">Wien</pubPlace>
-        <pubPlace ref="#Wien" xml:lang="en">Vienna</pubPlace>
         <availability>
           <licence>cc0</licence>
         </availability>
@@ -80,7 +79,6 @@
       </langUsage>
       <textDesc n="choirbook">
         <channel mode="ws" xml:lang="en">manuscript</channel>
-        <channel mode="ws" xml:lang="de">Handschrift</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -91,7 +89,6 @@
       </textDesc>
       <settingDesc>
         <setting>
-          <name xml:lang="en">Styria</name>
           <name xml:lang="de">Steirmark</name>
           <time/>
         </setting>
