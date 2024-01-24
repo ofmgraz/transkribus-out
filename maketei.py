@@ -152,7 +152,6 @@ class TeiTree:
     def make_pid(pid):
         pid = re.sub(r"[\?\s\.]", "", pid)
         pid = pid.replace("ü", "ue").replace("ö", "oe")
-        pid = pid.replace("Mautern", "MauterninSteiermark")
         return pid
 
     def parse_origin(self, origin, publisher=False):
