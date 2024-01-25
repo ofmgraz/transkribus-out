@@ -392,9 +392,11 @@ class TeiTree:
                 page = ET.SubElement(body, "div", attrib={"type": "page"})
                 element.attrib['source'] = self.get_graphicid(element.attrib['facs'])
                 page.append(element)
+                p = ET.SubElement(page, "p", attrib={"facs": element.attrib["facs"]})
             elif element.tag == f"{tei}ab":
-                element.tag = f"{tei}p"
-                page.append(ET.fromstring(ET.tostring(element, pretty_print=True, encoding="unicode")))
+                elefake = ET.fromstring(ET.tostring(element, pretty_print=True, encoding="unicode"))
+                for t in elefake.xpath('.//*'):
+                    p.append(t)
                 # for lb in element.iter():
                 #    if lb.tag:
                 #        line = ET.SubElement(page, "li", attrib=lb.attrib)
