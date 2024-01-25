@@ -28,7 +28,7 @@
         <availability>
           <licence>cc0</licence>
         </availability>
-        <date when="2024-01-10" when-iso="2024-01-24">2024-01-24</date>
+        <date when="2024-01-10" when-iso="2024-01-25">2024-01-25</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -784,19 +784,45 @@
   </facsimile>
   <text>
     <body>
-      <div facs="#facs_1" n="1" xml:id="img_0001" type="page"/>
-      <div facs="#facs_2" n="2" xml:id="img_0002" type="page"/>
-      <div facs="#facs_3" n="3" xml:id="img_0003" type="page"/>
-      <div facs="#facs_4" n="4" xml:id="img_0004" type="page"/>
-      <div facs="#facs_5" n="5" xml:id="img_0005" type="page"/>
-      <div facs="#facs_6" n="6" xml:id="img_0006" type="page"/>
-      <div facs="#facs_7" n="7" xml:id="img_0007" type="page"/>
-      <div facs="#facs_8" n="8" xml:id="img_0008" type="page"/>
-      <div facs="#facs_9" n="9" xml:id="img_0009" type="page"/>
-      <div facs="#facs_10" n="10" xml:id="img_0010" type="page"/>
-      <div facs="#facs_11" n="11" xml:id="img_0011" type="page"/>
-      <div facs="#facs_12" n="12" xml:id="img_0012" type="page"/>
-      <div facs="#facs_13" n="13" xml:id="img_0013" type="page"/>
+      <div type="page">
+        <pb facs="#facs_1" n="1" xml:id="img_0001" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-001r/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_2" n="2" xml:id="img_0002" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-001v/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_3" n="3" xml:id="img_0003" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-002r/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_4" n="4" xml:id="img_0004" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-002v/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_5" n="5" xml:id="img_0005" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-003r/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_6" n="6" xml:id="img_0006" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-003v/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_7" n="7" xml:id="img_0007" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-004r/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_8" n="8" xml:id="img_0008" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-004v/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_9" n="9" xml:id="img_0009" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-005r/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_10" n="10" xml:id="img_0010" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-005v/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_11" n="11" xml:id="img_0011" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-006r/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_12" n="12" xml:id="img_0012" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-006v/full/800,/0/default.jpg"/>
+      </div>
+      <div type="page">
+        <pb facs="#facs_13" n="13" xml:id="img_0013" source="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_39/files/images/A-Gf_S1_39-BR/full/800,/0/default.jpg"/>
+      </div>
     </body>
   </text>
 </TEI>
