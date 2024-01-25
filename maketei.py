@@ -404,4 +404,5 @@ class TeiTree:
 
     def get_graphicid(self, facs):
         facs = facs.strip('#')
-        return self.tei.any_xpath(f'.//tei:surface[@xml:id="{facs}"]/tei:graphic/@url')[0]
+        url = self.tei.any_xpath(f'.//tei:surface[@xml:id="{facs}"]/tei:graphic/@url')[0]
+        return url.replace("full/full", "full/800,")
