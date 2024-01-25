@@ -389,10 +389,11 @@ class TeiTree:
         body = self.tei.any_xpath(".//tei:body")[0]
         for element in body.xpath(".//tei:div/*", namespaces=nsmap):
             if element.tag == f"{tei}pb":
-                page = ET.SubElement(body, "div", attrib=element.attrib)
-                page.attrib["type"] = "page"
+                page = ET.SubElement(body, "div", attrib={"type": "page"})
+                element.attrib['source'] = self.get_graphicid(element.attrib['facs'])
+                page.append(element)
             elif element.tag == f"{tei}ab":
-                # element.tag = f"{tei}p"
+                element.tag = f"{tei}p"
                 page.append(ET.fromstring(ET.tostring(element, pretty_print=True, encoding="unicode")))
                 # for lb in element.iter():
                 #    if lb.tag:
@@ -400,3 +401,7 @@ class TeiTree:
                 #        line.text = lb.tail
         body.remove(body.xpath("./tei:div", namespaces=nsmap)[0])
         # e.getparent().remove(e)
+
+    def get_graphicid(self, facs):
+        facs = facs.strip('#')
+        return self.tei.any_xpath(f'.//tei:surface[@xml:id="{facs}"]/tei:graphic/@url')[0]
