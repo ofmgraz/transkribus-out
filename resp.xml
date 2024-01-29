@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Responsibility</title>
+        <respStmt>
+          <resp>providing the content</resp>
+          <persName role="acdh:createdBy" key="https://orcid.org/0000-0002-8815-6741">Fernando Sanz-Lázaro</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace>Vienna, Austria</pubPlace>
+        <date>2023-11-21+01:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born Digital</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPerson>
+        <person xml:id="RK">
+          <persName role="acdh:hasDigitisingAgent"  key="https://orcid.org/0000-0002-0484-832X">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+          </persName>
+        </person>
+        <person xml:id="JL" >
+          <persName role="acdh:hasDigitisingAgent"  key="placeholder">
+            <forename>J</forename>
+            <surname>L</surname>
+          </persName>
+        </person>
+        <person xml:id="PA">
+          <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">
+            <forename>Peter</forename>
+            <surname>Andorfer</surname>
+          </persName>
+        </person>
+        <person xml:id="FS" role="acdh:hasContributor" key="https://orcid.org/0000-0002-8815-6741">
+          <persName>
+            <forename>Fernando</forename>
+            <surname>Sanz-Lázaro</surname>
+          </persName>
+        </person>
+      </listPerson>
+    </body>
+  </text>
+</TEI>
