@@ -137,6 +137,7 @@ class TeiTree:
             self.parse_extension(row["Umfang fol."])
             self.parse_format(row["Format"])
             self.parse_notation(False)  # Placeholder
+            self.parse_photographer(row["Fotograf"])
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
@@ -408,3 +409,16 @@ class TeiTree:
         facs = facs.strip('#')
         url = self.tei.any_xpath(f'.//tei:surface[@xml:id="{facs}"]/tei:graphic/@url')[0]
         return url.replace("full/full", "full/600,")
+
+    def parse_photographer(self, photographer):
+        resps = TeiReader("resp.xml")
+        photographer = resps.any_xpath(f'.//tei:person[@xml:id="{photographer}"]')[0]
+        titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
+        respstmt = ET.SubElement(titlestmt, 'respStmt')
+        ET.SubElement(respstmt, "resp").text = "Digitalisierung (Fotografieren) des Archivmaterials"
+        respstmt.append(photographer)
+        for person in ('PA', 'FS'):
+            dataresp = resps.any_xpath(f'.//tei:person[@xml:id ="{person}"]')[0]
+            respstmt = ET.SubElement(titlestmt, 'respStmt')
+            ET.SubElement(respstmt, "resp").text = "XML/TEI Datenmodellierung und Datengenerierung"
+            respstmt.append(dataresp)
