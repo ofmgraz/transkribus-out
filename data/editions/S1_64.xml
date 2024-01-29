@@ -5,6 +5,33 @@
         <title type="main">Psalterium Romanum dispositum per Hebdomadam</title>
         <title type="sub"> cum omnibus, quae pro Psalmis, Hymnis, Antiphonis modulandis necessaria sunt, mit Anhang</title>
         <title type="desc">S 1/64</title>
+        <respStmt>
+          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+          <person xml:id="JL">
+            <persName role="acdh:hasDigitisingAgent" key="placeholder">
+              <forename>J</forename>
+              <surname>L</surname>
+            </persName>
+          </person>
+        </respStmt>
+        <respStmt>
+          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+          <person xml:id="PA">
+            <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">
+              <forename>Peter</forename>
+              <surname>Andorfer</surname>
+            </persName>
+          </person>
+        </respStmt>
+        <respStmt>
+          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+          <person xml:id="FS" role="acdh:hasContributor" key="https://orcid.org/0000-0002-8815-6741">
+            <persName>
+              <forename>Fernando</forename>
+              <surname>Sanz-Lázaro</surname>
+            </persName>
+          </person>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
@@ -30,7 +57,7 @@
         <availability>
           <licence>cc0</licence>
         </availability>
-        <date when="2024-01-10" when-iso="2024-01-25">2024-01-25</date>
+        <date when="2024-01-10" when-iso="2024-01-29">2024-01-29</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
