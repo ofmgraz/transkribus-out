@@ -78,7 +78,6 @@ class TeiBody(TeiTree):
         super().__init__(source_tkb, source_tei)
         self.tkb = self.read_xml_input(self.filename)
         self.tkb = self.amend_pics_url(self.tkb, self.doc_id)
-        self.tree = self.tei.any_xpath("//tei:TEI")[0]
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
         # self.make_text()
@@ -104,30 +103,6 @@ class TeiBody(TeiTree):
         body.remove(body.xpath("./tei:div", namespaces=nsmap)[0])
         # e.getparent().remove(e)
 
-
-class TeiHeader(TeiTree):
-    def __init__(self, source_tkb, source_tei, source_table):
-        super().__init__(source_tkb, source_tei)
-        self.tablename = source_table
-        self.add_digitaledition_origin()
-        self.make_meta()
-        self.msdesc = self.tei.any_xpath("//tei:msDesc")[0]
-        self.elements = self.extract_from_table(source_table, self.header)
-        self.make_hodie()
-        self.printable = self.make_printable(self.tei.tree)
-
-    def make_meta(self):
-        self.root.attrib[f"{xml}id"] = self.doc_id
-        self.root.attrib[f"{xml}base"] = "https://ofmgraz.github.io/ofm-static/"
-
-    def make_hodie(self):
-        hodie = datetime.today().strftime("%Y-%m-%d")
-        date = self.header.xpath(
-            "//tei:fileDesc/tei:publicationStmt/tei:date", namespaces=nsmap
-        )[0]
-        date.attrib["when-iso"] = hodie
-        date.text = hodie
-
     @staticmethod
     def amend_pics_url(tree, doc_id):
         graphic_elements = tree.any_xpath(".//tei:graphic")
@@ -142,6 +117,29 @@ class TeiHeader(TeiTree):
                 empty_url.getparent().remove(empty_url)
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
+
+
+class TeiHeader(TeiTree):
+    def __init__(self, source_tkb, source_tei, source_table):
+        super().__init__(source_tkb, source_tei)
+        self.tablename = source_table
+        self.add_digitaledition_origin()
+        self.make_meta()
+        self.msdesc = self.tei.any_xpath("//tei:msDesc")[0]
+        self.elements = self.extract_from_table(source_table, self.header)
+        self.printable = self.make_printable(self.tei.tree)
+
+    def make_meta(self):
+        self.root.attrib[f"{xml}id"] = self.doc_id
+        self.root.attrib[f"{xml}base"] = "https://ofmgraz.github.io/ofm-static/"
+
+    def make_hodie(self):
+        hodie = datetime.today().strftime("%Y-%m-%d")
+        date = self.header.xpath(
+            "//tei:fileDesc/tei:publicationStmt/tei:date", namespaces=nsmap
+        )[0]
+        date.attrib["when-iso"] = hodie
+        date.text = hodie
 
     @staticmethod
     def read_table(table):
