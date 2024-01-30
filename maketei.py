@@ -62,9 +62,9 @@ class TeiTree:
         self.header = self.tei.any_xpath("//tei:teiHeader")[0]
         self.msdesc = self.tei.any_xpath("//tei:msDesc")[0]
         self.elements = self.extract_from_table(source_table, self.header)
-        self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
-        self.root.append(self.tkb.any_xpath("//tei:text")[0])
-        self.make_text()
+        # self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
+        # self.root.append(self.tkb.any_xpath("//tei:text")[0])
+        # self.make_text()
         self.make_hodie()
         self.printable = self.make_printable(self.tei.tree)
 
