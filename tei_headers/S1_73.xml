@@ -1,0 +1,191 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_73" xml:base="https://ofmgraz.github.io/ofm-static/">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Electronic edition</edition>
+        <funder>BMKÖS Kulturerbe Digital</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Österreichische Akademie der Wissenschaften</publisher>
+        <authority>Österreichische Akademie der Wissenschaften</authority>
+        <address>
+          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
+          <addrLine>Bäckerstraße 13</addrLine>
+          <addrLine>1100 Vienna</addrLine>
+          <addrLine>Austria</addrLine>
+          <addrLine>
+            <ref target="https://www.oeaw.ac.at/">https://www.oeaw.ac.at/</ref>
+          </addrLine>
+          <addrLine>
+            <email>acdh-ch@oeaw.ac.at</email>
+          </addrLine>
+        </address>
+        <pubPlace ref="#Wien" xml:lang="de">Wien</pubPlace>
+        <availability>
+          <licence>cc0</licence>
+        </availability>
+        <date when="2024-01-10">2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <date/>
+        </bibl>
+        <msDesc>
+          <msIdentifier>
+            <institution>Franziskanerkloster Graz</institution>
+            <repository>
+              <placeName ref="#FCG">Zentralbibliothek der Wiener Franziskanerprovinz Graz</placeName>
+            </repository>
+            <idno type="shelfmark"/>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc>
+                <support>
+                  <dimensions unit="mm"> </dimensions>
+                </support>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <musicNotation>
+              <binaryObject/>
+            </musicNotation>
+          </physDesc>
+          <history>
+            <provenance/>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Generated with <address><addrLine><ref target="https://readcoop.eu/de/transkribus/">Transkribus</ref></addrLine></address>.</p>
+        <p>Edited with <address><addrLine><ref target="https://github.com/ofmgraz/transkribus-out">custom
+                        scripts</ref></addrLine></address>.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+      <textDesc n="choirbook">
+        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <constitution type="composite"/>
+        <derivation/>
+        <domain type="religious"/>
+        <factuality type="inapplicable"/>
+        <interaction/>
+        <preparedness/>
+        <purpose/>
+      </textDesc>
+      <settingDesc>
+        <setting>
+          <name xml:lang="de">Steirmark</name>
+          <time/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listPlace>
+      <place xml:id="Wien">
+        <placeName xml:lang="en">Vienna</placeName>
+        <placeName xml:lang="de">Wien</placeName>
+        <placeName xml:lang="it">Vienna</placeName>
+        <location>
+          <settlement xml:lang="en">Vienna</settlement>
+          <settlement xml:lang="de">Wien</settlement>
+          <settlement xml:lang="it">Vienna</settlement>
+          <region xml:lang="en">Vienna (federal state)</region>
+          <region xml:lang="de">Wien</region>
+          <region xml:lang="it">Vienna</region>
+          <country xml:lang="en">Austria</country>
+          <country xml:lang="de">Österreich</country>
+          <country xml:lang="it">Austria</country>
+          <geo>48.208333333333336 16.3725</geo>
+        </location>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 70/41</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_41.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Antiphonas Festorum Principaliorum</title></p>
+            <linkGrp>
+              <link type="URL" target="70_45.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Libellus Antiphonarum</title></p>
+            <linkGrp>
+              <link type="URL" target="A70_23.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/29</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_29.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Cantus Ecclesiasticus</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_40a.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_75.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_74.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
+            <linkGrp>
+              <link type="URL" target="A67_21.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
+      </place>
+      <place xml:id="FCG">
+        <placeName xml:lang="en">Franciscan Church</placeName>
+        <placeName xml:lang="de">Franziskanerkirche</placeName>
+        <placeName xml:lang="it">Chiesa dei Francescani</placeName>
+        <location>
+          <settlement xml:lang="en">Graz</settlement>
+          <settlement xml:lang="de">Graz</settlement>
+          <settlement xml:lang="it">Graz</settlement>
+          <region xml:lang="en">Styria</region>
+          <region xml:lang="de">Steirmark</region>
+          <region xml:lang="it">Stiria</region>
+          <country xml:lang="en">Austria</country>
+          <country xml:lang="de">Österreich</country>
+          <country xml:lang="it">Austria</country>
+          <geo>47.070483333333 15.436780555556</geo>
+        </location>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
+        <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+      </place>
+    </listPlace>
+  </standOff>
+</TEI>
