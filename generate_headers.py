@@ -34,5 +34,6 @@ for input_file in glob.glob(path.join(source_directory, "*.xml")):
             error = f"{type(e).__name__} {__file__} {e.__traceback__.tb_lineno}"
             log.print_log(input_file, error, stdout=True)
     output_file = path.join(output_directory, input_file.split('/')[-1])
-    with open(output_file, "w") as f:
-        f.write(tei_source.printable)
+    if tei_source:
+        with open(output_file, "w") as f:
+            f.write(tei_source.printable)
