@@ -49,36 +49,21 @@ log = Log("0mets2tei")
 
 
 class TeiTree:
-    def __init__(self, source_table, source_tkb):
+    def __init__(self, source_tkb, source_tei):
         self.filename = source_tkb
-        self.tablename = source_table
         self.doc_id = os.path.basename(source_tkb).rstrip(".xml")
-        self.tkb = self.read_xml_input(source_tkb)
-        self.tkb = self.amend_pics_url(self.tkb, self.doc_id)
-        self.tei = self.read_xml_input("template.xml")
+        self.tei = self.read_xml_input(source_tei)
         self.root = self.tei.any_xpath("//tei:TEI")[0]
-        self.add_digitaledition_origin()
-        self.make_meta()
         self.header = self.tei.any_xpath("//tei:teiHeader")[0]
-        self.msdesc = self.tei.any_xpath("//tei:msDesc")[0]
-        self.elements = self.extract_from_table(source_table, self.header)
-        self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
-        self.root.append(self.tkb.any_xpath("//tei:text")[0])
-        self.make_text()
-        self.make_hodie()
-        self.printable = self.make_printable(self.tei.tree)
 
-    def make_meta(self):
-        self.root.attrib[f"{xml}id"] = self.doc_id
-        self.root.attrib[f"{xml}base"] = "https://ofmgraz.github.io/ofm-static/"
-
-    def make_hodie(self):
-        hodie = datetime.today().strftime("%Y-%m-%d")
-        date = self.header.xpath(
-            "//tei:fileDesc/tei:publicationStmt/tei:date", namespaces=nsmap
-        )[0]
-        date.attrib["when-iso"] = hodie
-        date.text = hodie
+    @staticmethod
+    def read_xml_input(input_file):
+        try:
+            tree = TeiReader(input_file)
+        except XMLSyntaxError as e:
+            log.print_log(input_file, e, True)
+            tree = False
+        return tree
 
     @staticmethod
     def make_printable(tree):
@@ -86,6 +71,37 @@ class TeiTree:
         string = ET.tostring(tree, pretty_print=True, encoding="unicode")
         xml = ET.fromstring(string, parser=parser)
         return ET.tostring(xml, pretty_print=True, encoding="unicode")
+
+
+class TeiBody(TeiTree):
+    def __init__(self, source_tkb, source_tei):
+        super().__init__(source_tkb, source_tei)
+        self.tkb = self.read_xml_input(self.filename)
+        self.tkb = self.amend_pics_url(self.tkb, self.doc_id)
+        self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
+        self.root.append(self.tkb.any_xpath("//tei:text")[0])
+        # self.make_text()
+        self.printable = self.make_printable(self.tei.tree)
+
+    def make_text(self):
+        # Stub to include later required divs or milestones if required
+        body = self.tei.any_xpath(".//tei:body")[0]
+        for element in body.xpath(".//tei:div/*", namespaces=nsmap):
+            if element.tag == f"{tei}pb":
+                page = ET.SubElement(body, "div", attrib={"type": "page"})
+                element.attrib['source'] = self.get_graphicid(element.attrib['facs'])
+                page.append(element)
+                p = ET.SubElement(page, "p", attrib={"facs": element.attrib["facs"]})
+            elif element.tag == f"{tei}ab":
+                elefake = ET.fromstring(ET.tostring(element, pretty_print=True, encoding="unicode"))
+                for t in elefake.xpath('.//*'):
+                    p.append(t)
+                # for lb in element.iter():
+                #    if lb.tag:
+                #        line = ET.SubElement(page, "li", attrib=lb.attrib)
+                #        line.text = lb.tail
+        body.remove(body.xpath("./tei:div", namespaces=nsmap)[0])
+        # e.getparent().remove(e)
 
     @staticmethod
     def amend_pics_url(tree, doc_id):
@@ -102,14 +118,28 @@ class TeiTree:
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
 
-    @staticmethod
-    def read_xml_input(input_file):
-        try:
-            tree = TeiReader(input_file)
-        except XMLSyntaxError as e:
-            log.print_log(input_file, e, True)
-            tree = False
-        return tree
+
+class TeiHeader(TeiTree):
+    def __init__(self, source_tkb, source_tei, source_table):
+        super().__init__(source_tkb, source_tei)
+        self.tablename = source_table
+        self.add_digitaledition_origin()
+        self.make_meta()
+        self.msdesc = self.tei.any_xpath("//tei:msDesc")[0]
+        self.elements = self.extract_from_table(source_table, self.header)
+        self.printable = self.make_printable(self.tei.tree)
+
+    def make_meta(self):
+        self.root.attrib[f"{xml}id"] = self.doc_id
+        self.root.attrib[f"{xml}base"] = "https://ofmgraz.github.io/ofm-static/"
+
+    def make_hodie(self):
+        hodie = datetime.today().strftime("%Y-%m-%d")
+        date = self.header.xpath(
+            "//tei:fileDesc/tei:publicationStmt/tei:date", namespaces=nsmap
+        )[0]
+        date.attrib["when-iso"] = hodie
+        date.text = hodie
 
     @staticmethod
     def read_table(table):
@@ -384,26 +414,6 @@ class TeiTree:
         ]
         tree.text = "Placeholder"
         return tree
-
-    def make_text(self):
-        # Stub to include later required divs or milestones if required
-        body = self.tei.any_xpath(".//tei:body")[0]
-        for element in body.xpath(".//tei:div/*", namespaces=nsmap):
-            if element.tag == f"{tei}pb":
-                page = ET.SubElement(body, "div", attrib={"type": "page"})
-                element.attrib['source'] = self.get_graphicid(element.attrib['facs'])
-                page.append(element)
-                p = ET.SubElement(page, "p", attrib={"facs": element.attrib["facs"]})
-            elif element.tag == f"{tei}ab":
-                elefake = ET.fromstring(ET.tostring(element, pretty_print=True, encoding="unicode"))
-                for t in elefake.xpath('.//*'):
-                    p.append(t)
-                # for lb in element.iter():
-                #    if lb.tag:
-                #        line = ET.SubElement(page, "li", attrib=lb.attrib)
-                #        line.text = lb.tail
-        body.remove(body.xpath("./tei:div", namespaces=nsmap)[0])
-        # e.getparent().remove(e)
 
     def get_graphicid(self, facs):
         facs = facs.strip('#')
