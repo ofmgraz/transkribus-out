@@ -23,25 +23,25 @@
     <body>
       <listPerson>
         <person xml:id="RK">
-          <persName role="acdh:hasDigitisingAgent"  key="https://orcid.org/0000-0002-0484-832X">
+          <persName role="acdh:hasDigitisingAgent"  ref="https://orcid.org/0000-0002-0484-832X">
             <forename>Robert</forename>
             <surname>Klugseder</surname>
           </persName>
         </person>
         <person xml:id="JL" >
-          <persName role="acdh:hasDigitisingAgent"  key="placeholder">
+          <persName role="acdh:hasDigitisingAgent"  ref="placeholder">
             <forename>J</forename>
             <surname>L</surname>
           </persName>
         </person>
         <person xml:id="PA">
-          <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">
+          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-9575-9372">
             <forename>Peter</forename>
             <surname>Andorfer</surname>
           </persName>
         </person>
-        <person xml:id="FS" role="acdh:hasContributor" key="https://orcid.org/0000-0002-8815-6741">
-          <persName>
+        <person xml:id="FS">
+          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
             <surname>Sanz-Lázaro</surname>
           </persName>
