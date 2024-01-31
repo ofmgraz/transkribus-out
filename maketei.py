@@ -123,7 +123,7 @@ class TeiHeader(TeiTree):
     def __init__(self, source_tkb, source_tei, source_table):
         super().__init__(source_tkb, source_tei)
         self.tablename = source_table
-        self.add_digitaledition_origin()
+        # self.add_digitaledition_origin()
         self.make_meta()
         self.msdesc = self.tei.any_xpath("//tei:msDesc")[0]
         self.elements = self.extract_from_table(source_table, self.header)
@@ -188,7 +188,9 @@ class TeiHeader(TeiTree):
     def parse_origin(self, origin, publisher=False):
         origins = [x.strip() for x in origin.split(",")]
         pid = self.make_pid(origins[0])
-        tree = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)[0]
+        tree = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)
+        if len(tree) < 1:
+            tree = ET.SubElement(self.root.xpath(".//tei:standOff", namespaces=nsmap)[0], "listPlace")
         if pid and not self.root.xpath(
             f'//tei:place[@xml:id="{pid}"]', namespaces=nsmap
         ):
@@ -221,15 +223,14 @@ class TeiHeader(TeiTree):
         tree = ET.SubElement(
             self.tei.any_xpath(".//tei:standOff")[0], f"{tei}listPlace"
         )
-        for pid in ("Wien", "FCG"):
-            entry = ET.fromstring(
-                ET.tostring(
-                    locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
-                    pretty_print=True,
-                    encoding="unicode",
-                )
+        entry = ET.fromstring(
+            ET.tostring(
+                locations.any_xpath('//tei:place[@xml:id="Wien"]')[0],
+                pretty_print=True,
+                encoding="unicode",
             )
-            tree.append(entry)
+        )
+        tree.append(entry)
 
     def make_publisher(self, publisher):
         tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
@@ -421,14 +422,15 @@ class TeiHeader(TeiTree):
         return url.replace("full/full", "full/600,")
 
     def parse_photographer(self, photographer):
+        print(photographer)
         resps = TeiReader("resp.xml")
         photographer = resps.any_xpath(f'.//tei:person[@xml:id="{photographer}"]')[0]
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
         respstmt = ET.SubElement(titlestmt, 'respStmt')
         ET.SubElement(respstmt, "resp").text = "Digitalisierung (Fotografieren) des Archivmaterials"
-        respstmt.append(photographer)
+        respstmt.append(photographer.xpath("./tei:persName", namespaces=nsmap)[0])
         for person in ('PA', 'FS'):
-            dataresp = resps.any_xpath(f'.//tei:person[@xml:id ="{person}"]')[0]
+            dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')[0]
             respstmt = ET.SubElement(titlestmt, 'respStmt')
             ET.SubElement(respstmt, "resp").text = "XML/TEI Datenmodellierung und Datengenerierung"
             respstmt.append(dataresp)
