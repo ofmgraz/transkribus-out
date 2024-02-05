@@ -6,30 +6,24 @@
         <title type="desc">S 1/67</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <person xml:id="JL">
-            <persName role="acdh:hasDigitisingAgent" key="placeholder">
-              <forename>J</forename>
-              <surname>L</surname>
-            </persName>
-          </person>
+          <persName role="acdh:hasDigitisingAgent" ref="placeholder">
+            <forename>J</forename>
+            <surname>L</surname>
+          </persName>
         </respStmt>
         <respStmt>
           <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-          <person xml:id="PA">
-            <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">
-              <forename>Peter</forename>
-              <surname>Andorfer</surname>
-            </persName>
-          </person>
+          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-9575-9372">
+            <forename>Peter</forename>
+            <surname>Andorfer</surname>
+          </persName>
         </respStmt>
         <respStmt>
           <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-          <person xml:id="FS" role="acdh:hasContributor" key="https://orcid.org/0000-0002-8815-6741">
-            <persName>
-              <forename>Fernando</forename>
-              <surname>Sanz-Lázaro</surname>
-            </persName>
-          </person>
+          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
+            <forename>Fernando</forename>
+            <surname>Sanz-Lázaro</surname>
+          </persName>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -68,7 +62,9 @@
           <msIdentifier>
             <institution>Franziskanerkloster Graz</institution>
             <repository>
-              <placeName ref="#FCG">Zentralbibliothek der Wiener Franziskanerprovinz Graz</placeName>
+              <placeName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</placeName>
+              <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
+              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">S 1/67</idno>
           </msIdentifier>
@@ -148,95 +144,6 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="Wien">
-        <placeName xml:lang="en">Vienna</placeName>
-        <placeName xml:lang="de">Wien</placeName>
-        <placeName xml:lang="it">Vienna</placeName>
-        <location>
-          <settlement xml:lang="en">Vienna</settlement>
-          <settlement xml:lang="de">Wien</settlement>
-          <settlement xml:lang="it">Vienna</settlement>
-          <region xml:lang="en">Vienna (federal state)</region>
-          <region xml:lang="de">Wien</region>
-          <region xml:lang="it">Vienna</region>
-          <country xml:lang="en">Austria</country>
-          <country xml:lang="de">Österreich</country>
-          <country xml:lang="it">Austria</country>
-          <geo>48.208333333333336 16.3725</geo>
-        </location>
-        <listEvent>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 70/41</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_41.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Antiphonas Festorum Principaliorum</title></p>
-            <linkGrp>
-              <link type="URL" target="70_45.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Libellus Antiphonarum</title></p>
-            <linkGrp>
-              <link type="URL" target="A70_23.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/29</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_29.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Cantus Ecclesiasticus</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_40a.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_75.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_74.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_21.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
-      </place>
-      <place xml:id="FCG">
-        <placeName xml:lang="en">Franciscan Church</placeName>
-        <placeName xml:lang="de">Franziskanerkirche</placeName>
-        <placeName xml:lang="it">Chiesa dei Francescani</placeName>
-        <location>
-          <settlement xml:lang="en">Graz</settlement>
-          <settlement xml:lang="de">Graz</settlement>
-          <settlement xml:lang="it">Graz</settlement>
-          <region xml:lang="en">Styria</region>
-          <region xml:lang="de">Steirmark</region>
-          <region xml:lang="it">Stiria</region>
-          <country xml:lang="en">Austria</country>
-          <country xml:lang="de">Österreich</country>
-          <country xml:lang="it">Austria</country>
-          <geo>47.070483333333 15.436780555556</geo>
-        </location>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
-        <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
-      </place>
       <place xml:id="Venedig">
         <placeName xml:lang="en">Venice</placeName>
         <placeName xml:lang="de">Venedig</placeName>
