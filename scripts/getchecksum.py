@@ -6,6 +6,7 @@ import sys
 
 now = datetime.now().strftime("%Y-%m-%dT%H:%M")
 output_file = "checksum.csv"
+modus = "w"
 
 
 def get_hash(input_file):
@@ -26,6 +27,8 @@ def parse_dir(path, file_list=[]):
     return file_list
 
 
-file_list = parse_dir(sys.argv[1])
-with open(output_file, "w") as f:
-    f.writelines(file_list)
+for folder in sys.argv[1:]:
+    file_list = parse_dir(folder)
+    with open(output_file, modus) as f:
+        f.writelines(file_list)
+        modus = "a"
