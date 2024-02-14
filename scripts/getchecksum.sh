@@ -2,6 +2,7 @@
 # The script gets the checksums of the regular files in a given directory tree
 # and saves them in a CSV file with their names and the timestamp
 
+# For a visual info output
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 RED='\033[0;31m'
@@ -14,25 +15,24 @@ OUTPUTFILE="checksums.csv"
 if [ "$1" != "-d" ]; then
 	echo > $OUTPUTFILE
 else
-	for arg do
+	for ARG do
 		shift
-		[ "$arg" = "-d" ] && continue
-		set -- "$@" "$arg"
+		[ ${ARG} = "-d" ] && continue
+		set -- "$@" "${ARG}"
 	done
 fi
 
-for file in $@; do
+for FILE in $@; do
 	# If it is a directory, the script calls itself
-	if [ -d "$file" ]; then
-		echo "[${YELLOW}--${REG}]\tEntering directory $file"
-		eval "./$0 -d $file/*"
+	if [ -d ${FILE} ]; then
+		echo "[${YELLOW}--${REG}]\tEntering directory ${FILE}"
+		eval "./$0 -d ${FILE}/*"
 	# If it is a regular file, it gets the checksum
-	elif [ -f "$file" ]; then
-		echo "`cksum --untagged -a md5 $file|awk '{print $2","$1}'`,$DATE" >> $OUTPUTFILE
-		echo "`cksum --untagged -a md5 $file|awk '{print $2","$1}'`,$DATE"
-		echo "[${GREEN}OK${REG}]\t$file"
+	elif [ -f "$FILE" ]; then
+		echo "`cksum --untagged -a md5 ${FILE}|awk '{print $2","$1}'`,${DATE}" |tee -a ${OUTPUTFILE}
+		echo "[${GREEN}OK${REG}]\t${FILE}"
 	# In case it is something else such as symlink or a device, the script ignores it
 	else
-		echo "[${RED}KO${REG}]\t${file}: Unrecognised file type"
+		echo "[${RED}KO${REG}]\t${FILE}: Unrecognised file type"
 	fi
 done
