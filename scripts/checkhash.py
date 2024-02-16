@@ -2,7 +2,11 @@
 import csv
 from sys import argv
 # For a visual info output
-dicti = {}
+
+red = '\033[92mOK\033[00m'
+green = '\033[91mKO\033[00m'
+yellow = '\033[93m--\033[00m'
+
 
 
 if len(argv) < 2:
@@ -11,20 +15,19 @@ if len(argv) < 2:
 
 
 def get_dict(filename):
+    dicti = {}
     with open(filename) as f:
-        csv_reader = csv.reader(f, delimiter=',')
-        for row in csv_reader:
+        for row in csv.reader(f, delimiter=','):
             if row:
                 dicti[row[0]] = row[1]
-    return filename, dicti
+    return [filename, dicti]
 
 
 def compare_sums(d1, d2, common):
     for element in common:
-        OK = 'KO'
+        OK = red
         if d1[1][element] == d2[1][element]:
-            print(d1[1][element], d2[1][element])
-            OK = 'OK'
+            OK = green
         print(f'[{OK}]\t{element}')
 
 
@@ -35,10 +38,10 @@ def compare_dicts(dict1, dict2):
         if item in dict2[1].keys():
             intersect.append(item)
         else:
-            print(f'{item} not found in {dict2[0]}\n')
+            print(f'[{yellow}]\t{item} from {dict1[0]} not found in {dict2[0]}')
     for item in [x for x in dict2[1].keys() if x not in intersect]:
         if item not in dict1[1].keys():
-            print(f'{item} not found in {dict1[0]}\n')
+            print(f'[{yellow}]\t{item} from {dict2[0]} not found in {dict1[0]}')
     return intersect
 
 
