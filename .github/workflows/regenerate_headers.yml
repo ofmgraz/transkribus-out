@@ -1,0 +1,34 @@
+name: Download and process
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  build_pages:
+    name: Download METS files from Transkribus and convert them to TEIs
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # # added or changed files to the repository.
+      contents: write
+    env:
+      ANT_OPTS: -Xmx5g
+      TR_USER: ${{ secrets.TR_USER }}
+      TR_PW: ${{ secrets.TR_PW }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - name: Perform Checkout
+      uses: actions/checkout@v3
+    - name: Install Python Packages
+      run: pip install -r requirements.txt
+    - name: Download and transform
+      run: python download_and_transform.py
+    - name: Delete old files
+      run: rm -f ./data/editions/[A-S]*
+    - name: rename files
+      run: ./renamefiles.py
+    - name: Generate TEI text & facsimile
+      run: ./generate_body.py
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Export and Transformation done
