@@ -168,6 +168,7 @@ class TeiHeader(TeiTree):
             self.parse_format(row["Format"])
             self.parse_notation(False)  # Placeholder
             self.parse_photographer(row["Fotograf"])
+            self.parse_device(row["Gerät"])
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
@@ -422,7 +423,6 @@ class TeiHeader(TeiTree):
         return url.replace("full/full", "full/600,")
 
     def parse_photographer(self, photographer):
-        print(photographer)
         resps = TeiReader("resp.xml")
         photographer = resps.any_xpath(f'.//tei:person[@xml:id="{photographer}"]')[0]
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
@@ -434,3 +434,8 @@ class TeiHeader(TeiTree):
             respstmt = ET.SubElement(titlestmt, 'respStmt')
             ET.SubElement(respstmt, "resp").text = "XML/TEI Datenmodellierung und Datengenerierung"
             respstmt.append(dataresp)
+    
+    def parse_device(self, device):
+        devices = {"Stativlaser": "Stativlaser", "Traveller": "Traveller"}
+        note = self.header.xpath("//tei:fileDesc/tei:notesStmt/tei:note", namespaces=nsmap)[0]
+        note.text = f"Originals digitised with a {devices[device]} device"
