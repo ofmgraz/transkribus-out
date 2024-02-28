@@ -6,9 +6,9 @@
         <title type="desc">S 1/19</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName role="acdh:hasDigitisingAgent" ref="placeholder">
-            <forename>J</forename>
-            <surname>L</surname>
+          <persName role="acdh:hasDigitisingAgent">
+            <forename>Jakob</forename>
+            <surname>Leitner</surname>
           </persName>
         </respStmt>
         <respStmt>
@@ -52,6 +52,9 @@
         </availability>
         <date when="2024-01-10">2024</date>
       </publicationStmt>
+      <notesStmt>
+        <note>Originals digitised with a Traveller device</note>
+      </notesStmt>
       <sourceDesc>
         <bibl>
           <date notBefore="1710-01-01" notAfter="1710-12-31">1710</date>
@@ -59,10 +62,8 @@
         <msDesc>
           <msIdentifier>
             <institution>Franziskanerkloster Graz</institution>
-            <repository>
-+              <placeName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</placeName>
-+              <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
-+              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+            <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
+                Graz</placeName> + <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">S 1/19</idno>
           </msIdentifier>
@@ -99,10 +100,40 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Generated with <address><addrLine><ref target="https://readcoop.eu/de/transkribus/">Transkribus</ref></addrLine></address>.</p>
-        <p>Edited with <address><addrLine><ref target="https://github.com/ofmgraz/transkribus-out">custom
-                        scripts</ref></addrLine></address>.</p>
+        <p>Maschinell erfasster Rohtext </p>
       </editorialDecl>
+      <refsDecl>
+        <p>Digitization of 53 medieval and early modern chant manuscripts and modern rare chant
+          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the ÖAW.
+          Enrichment of the approximately 18,000 images with metadata (Goobi). Automated
+          transcription of the average of 2000 song texts per codex using the AI-supported
+          application Transkribus. Management and provision of image data via an IIIF interface,
+          long-term archiving in the ÖAW repository ARCHE. The digitized sources are of great
+          importance for music and liturgical studies and especially for art history (noteworthy
+          book decorations) and thus represent important monuments of the Austrian cultural
+          heritage. Through the complete digitization, images of the sources as well as the
+          searchable full texts of the chants will be available in open access. The source corpus
+          including metadata will be available for the online platform on the cultural heritage of
+          Austria (Europeana) after the end of the project.</p>
+        <p>The cooperation partner ACDH-CH of the Austrian Academy of Sciences, Center of
+          Excellence for digital research and musicology, guarantees a very high level of
+          expertise in the field of digitization, both in the creation of images, in the
+          preparation of manuscript descriptions, in metadata management, and in the visualization
+          of the results on the web, the visualization of the results on the web as well as the
+          long-term archiving. In a subsequent phase of the project, the melodies of the chants
+          will also be transcribed automatically with the help of a newly developed Transkribus
+          extension. (-&gt; Handwritten Music Recognition).</p>
+      </refsDecl>
+      <appInfo>
+        <application ident="transkribus" version="1.26.0">
+          <label>Transkribus</label>
+          <desc>collection 216937</desc>
+        </application>
+        <application ident="custom" version="0.0">
+          <label>custom scripts
+        </label>
+        </application>
+      </appInfo>
       <classDecl>
         <taxonomy xml:id="liturgies">
           <desc>Liturgies</desc>
@@ -335,4 +366,5 @@
       </place>
     </listPlace>
   </standOff>
+  <!-- Template does not validates due to this being empty-->
 </TEI>
