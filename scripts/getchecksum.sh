@@ -19,7 +19,7 @@ for FILE in "$@"; do
 		eval "./$0  \"$FILE\"/*"
 	# If it is a regular file, it gets the checksum
 	elif [ -f "$FILE" ]; then
-		echo "`cksum --untagged -a md5 \"$FILE\"|awk '{print $2","$1}'`" |tee -a $OUTPUTFILE
+		echo "`cksum --untagged -a md5 \"$FILE\"`"|tee -a $OUTPUTFILE
 		echo "[${GREEN}OK${REG}]\t${FILE}"
 	# In case it is something else such as symlink or a device, the script ignores it
 	else
