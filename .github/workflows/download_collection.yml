@@ -24,6 +24,8 @@ jobs:
       uses: actions/checkout@v4
     - name: Install Python Packages
       run: pip install -U -r requirements.txt
+    - name: Delete old METS
+      run: rm -rf mets/*
     - name: Download and transform
       run: python download_and_transform.py
     - name: Delete old files
