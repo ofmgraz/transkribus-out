@@ -20,6 +20,8 @@ jobs:
       TR_PW: ${{ secrets.TR_PW }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
+    - name: Pull
+      run: git pull
     - name: Perform Checkout
       uses: actions/checkout@v4
     - name: Install Python Packages
