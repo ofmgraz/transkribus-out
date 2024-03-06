@@ -13,9 +13,6 @@ jobs:
       contents: write
     env:
       ANT_OPTS: -Xmx5g
-      TR_USER: ${{ secrets.TR_USER }}
-      TR_PW: ${{ secrets.TR_PW }}
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v4
