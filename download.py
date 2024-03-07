@@ -1,16 +1,14 @@
 #!/usr/bin/env python
 import os
 from transkribus_utils.transkribus_utils import ACDHTranskribusUtils
-
+import glob
 
 user = os.environ.get("TR_USER")
 pw = os.environ.get("TR_PW")
 XSLT = "https://csae8092.github.io/page2tei/page2tei-0.xsl"
-METS_DIR = "./mets"
-TEI_DIR = "./data/editions"
-os.makedirs(METS_DIR, exist_ok=True)
-os.makedirs(TEI_DIR, exist_ok=True)
+METS_DIR = glob.glob("./mets")
 
+os.makedirs(METS_DIR, exist_ok=True)
 transkribus_client = ACDHTranskribusUtils(
     user=user, password=pw, transkribus_base_url="https://transkribus.eu/TrpServer/rest"
 )

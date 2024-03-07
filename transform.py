@@ -4,12 +4,12 @@ import glob
 from saxonche import PySaxonProcessor
 
 XSLT = "https://csae8092.github.io/page2tei/page2tei-0.xsl"
-METS_DIR = "./mets"
-TEI_DIR = "./data/editions"
-os.makedirs(TEI_DIR, exist_ok=True)
+METS_DIR = glob.glob("./mets")
+TEI_DIR = glob.glob("./data/editions")
 col_id = "216937"
-
 files = glob.glob(f"{METS_DIR}/{col_id}/*_mets.xml")
+os.makedirs(TEI_DIR, exist_ok=True)
+
 for x in files:
     tail = os.path.split(x)[-1]
     doc_id = tail.split("_")[0]
