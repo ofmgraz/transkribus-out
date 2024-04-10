@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 import os
+from pahtlib immport Path
 import glob
 from saxonche import PySaxonProcessor
 
 XSLT = "https://csae8092.github.io/page2tei/page2tei-0.xsl"
-METS_DIR = glob.glob("./mets")
-TEI_DIR = glob.glob("./data/editions")
+METS_DIR = Path("./mets")
+TEI_DIR = Path("./data/editions")
 col_id = "216937"
 files = glob.glob(f"{METS_DIR}/{col_id}/*_mets.xml")
 os.makedirs(TEI_DIR, exist_ok=True)
