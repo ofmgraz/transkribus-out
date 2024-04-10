@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import os
-from pahtlib import Path
+from pathlib import Path
 import glob
 from saxonche import PySaxonProcessor
 
