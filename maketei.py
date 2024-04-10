@@ -113,7 +113,7 @@ class TeiBody(TeiTree):
                 "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/"
                 f"{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
             )
-            for empty_url in tree.any_xpath(".//tei:graphic[@url='']"):
+            for empty_url in tree.any_xpath(".//tei:graphic[@url='']") + tree.any_xpath(".//tei:graphic[contains(@url, 'transkribus')]"):
                 empty_url.getparent().remove(empty_url)
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
