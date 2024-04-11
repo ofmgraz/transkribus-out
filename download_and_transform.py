@@ -4,7 +4,6 @@ from pathlib import Path
 import glob
 from saxonche import PySaxonProcessor
 from transkribus_utils.transkribus_utils import ACDHTranskribusUtils
-
 user = os.environ.get("TR_USER")
 pw = os.environ.get("TR_PW")
 XSLT = "https://csae8092.github.io/page2tei/page2tei-0.xsl"
