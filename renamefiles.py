@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import glob
 import os
-from lxml import etree as ET
+from acdh_tei_pyutils.tei import TeiReader, ET
 from maketei import Log
 import re
 
@@ -31,11 +31,13 @@ def getname(root):
     return name
 
 
-for filename in glob.glob(os.path.join(directory, "*.xml")):
+
+for  current_filepath in glob.glob(os.path.join(directory, "*.xml")):
     try:
-        xmltei = checkfile(filename)
-        new_name = os.path.join(directory, f"{getname(xmltei)}.xml")
-        os.rename(filename, new_name)
-        print(f"{filename}\t->\t{new_name}")
+        xmltei = checkfile(current_filepath)
+        current_file = f"{getname(xmltei)}.xml"
+        new_filepath = os.path.join(directory, current_file)
+        os.rename(current_filepath, new_filepath)
+        print(f"{current_filepath}\t->\t{new_filepath}")
     except Exception as e:
-        log.print_log(filename, e, True)
+        log.print_log(current_filepath, e, True)
