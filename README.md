@@ -14,6 +14,11 @@ Automagically export and upconvert data from [Transkribus](https://readcoop.eu/)
 run `source ./secret.env` to set your Transkribus credentials as environment variables.
 * run `python download_and_transform.py`
 
+## Ammend wrong paths
+
+* Some paths are wrong.
+* Run `./ammend_pics_paths.sh`
+
 ## Rename files
 
 * Renames Transkribus files to descriptive filenames to match their METS counterparts and the table
