@@ -26,7 +26,7 @@ run `source ./secret.env` to set your Transkribus credentials as environment var
 
 ## Create TEI
 * Creates TEI files with the required teiHeader
-* Run `./make_tei.py`
+* Run `./generate_body.py`
 
 ## GitHub-Actions
 
