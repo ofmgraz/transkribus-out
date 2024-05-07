@@ -111,7 +111,7 @@ class TeiBody(TeiTree):
             img_name = re.sub(r"^[\d_]*", "", img_name)
             img_name = re.sub(r"A-Gf_([\d])", "A-Gf_A\g<1>", img_name)
             img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
-            if tree.any_xpath("tei:occupation[text() = 'Drucker']"):
+            if tree.any_xpath(".//tei:measure[@unit = 'page']"):
                 img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
             element.attrib["url"] = (
                 "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/"
@@ -279,6 +279,7 @@ class TeiHeader(TeiTree):
         self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib[
             "form"
         ] = "print"
+
         self.header.xpath(
             "//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap
         )[0].text = "book"
@@ -386,7 +387,11 @@ class TeiHeader(TeiTree):
             "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:measure",
             namespaces=nsmap,
         )[0]
-        tree.attrib["unit"] = "leaf"
+        if self.msdesc.xpath(".//tei:objectDesc[@form ='print']", namespaces=nsmap) or self.msdesc.xpath(".//tei:idno[@type ='shelfmark']", namespaces=nsmap) == "S 1/23":
+            # S1/23 is a exception
+            tree.attrib["unit"] = "page"
+        else:
+            tree.attrib["unit"] = "leaf"
         if isinstance(umfang, (int, float)):
             umfang = str(int(umfang))
             tree.attrib["quantity"] = umfang
