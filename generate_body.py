@@ -29,7 +29,7 @@ for tkb_file in glob.glob(path.join(tkb_directory, "*.xml")):
         except Exception as e:
             error = f"{type(e).__name__} {__file__} {e.__traceback__.tb_lineno}"
             log.print_log(filename, error, stdout=True)
-    xml_current_root = tei_source.tei.tree.getroot() 
+    xml_current_root = tei_source.tei.tree.getroot()
     if prev_filepath:
         prev = prev_filepath.split("/")[-1]
         xml_current_root.attrib['prev'] = prev
@@ -37,7 +37,7 @@ for tkb_file in glob.glob(path.join(tkb_directory, "*.xml")):
         xml_prev_root = xml_prev.tree.getroot()
         xml_prev_root.attrib['next'] = filename
         with open(prev_filepath, "wb") as f:
-            f.write(ET.tostring(xml_prev_root, pretty_print=True))
+            f.write(ET.tostring(xml_prev_root, pretty_print=True, encoding='UTF-8'))
     prev_filepath = tkb_file
     with open(tkb_file, "wb") as f:
         f.write(ET.tostring(xml_current_root, pretty_print=True))
