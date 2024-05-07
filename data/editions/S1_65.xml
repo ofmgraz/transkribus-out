@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">S 1/65</title>
+        <title type="main">Ad te levavi animam meam</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
           <persName role="acdh:hasDigitisingAgent">
@@ -62,9 +62,9 @@
         </bibl>
         <msDesc>
           <msIdentifier>
-            <institution>Franziskanerkloster Graz</institution>
+            <institution ref="https://d-nb.info/gnd/16174362-6">Franziskanerkloster Graz</institution>
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
-                Graz</placeName> + <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+                Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">S 1/65</idno>
           </msIdentifier>
@@ -94,6 +94,7 @@
           <history>
             <provenance>
               <placeName ref="#Venedig">Venedig</placeName>
+              <placeName ref="#Balleoni">Balleoni</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -228,7 +229,7 @@
             </linkGrp>
           </event>
         </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4062501-1/4062501-1</idno>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4076982-3</idno>
         <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
         <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
       </place>
@@ -274,6 +275,7 @@
         </listEvent>
       </person>
     </listPerson>
+    <listPlace/>
   </standOff>
   <!-- Template does not validates due to this being empty-->
 <facsimile>

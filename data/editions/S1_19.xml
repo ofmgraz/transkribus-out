@@ -3,7 +3,6 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Tota pulchra</title>
-        <title type="desc">S 1/19</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
           <persName role="acdh:hasDigitisingAgent">
@@ -61,9 +60,9 @@
         </bibl>
         <msDesc>
           <msIdentifier>
-            <institution>Franziskanerkloster Graz</institution>
+            <institution ref="https://d-nb.info/gnd/16174362-6">Franziskanerkloster Graz</institution>
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
-                Graz</placeName> + <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+                Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">S 1/19</idno>
           </msIdentifier>
