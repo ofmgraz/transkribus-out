@@ -1,13 +1,13 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A64_34" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_23.xml" next="S1_22.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_64" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_23.xml" next="S1_22.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A 64/34</title>
+        <title type="main">Psalterium romanum</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName role="acdh:hasDigitisingAgent" ref="https://orcid.org/0000-0002-0484-832X">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
+          <persName role="acdh:hasDigitisingAgent">
+            <forename>Jakob</forename>
+            <surname>Leitner</surname>
           </persName>
         </respStmt>
         <respStmt>
@@ -21,21 +21,21 @@
           <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
           <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
-            <surname>Sanz-L&#225;zaro</surname>
+            <surname>Sanz-Lázaro</surname>
           </persName>
         </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMK&#214;S Kulturerbe Digital</funder>
+        <funder>BMKÖS Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>&#214;sterreichische Akademie der Wissenschaften</publisher>
-        <authority>&#214;sterreichische Akademie der Wissenschaften</authority>
+        <publisher>Österreichische Akademie der Wissenschaften</publisher>
+        <authority>Österreichische Akademie der Wissenschaften</authority>
         <address>
-          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
+          <addrLine>Bäckerstraße 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -56,7 +56,9 @@
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1425-01-01" notAfter="1450-12-31">14-2/4</date>
+          <date notBefore="1739-01-01" notAfter="1739-12-31">1739</date>
+          <pubPlace ref="#Venedig">Venedig</pubPlace>
+          <publisher ref="#Pezzana">Giovanni Antonio Pezzana</publisher>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -64,25 +66,27 @@
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
                 Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 64/34</idno>
+            <idno type="shelfmark">S 1/64</idno>
           </msIdentifier>
-          <msContents class="#ofm #graduale">
+          <msContents class="#ofm #psalterium">
             <summary>
-              <p>Temporale, Sanctorale, Marienmessen, Kyriale, Sequenzen</p>
-              <p>Graduale</p>
+              <p>
+                <title>Psalterium Romanum dispositum per Hebdomadam: cum omnibus, quae pro Psalmis, Hymnis, Antiphonis modulandis necessaria sunt, mit Anhang: Hymni proprii Sanctorum Trium Ordinum Fratrum Minorum S. P. Francisci</title>
+              </p>
+              <p>Psalterium Romanum</p>
             </summary>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="print">
               <supportDesc>
                 <support>
                   <dimensions unit="mm">
-                    <height>420</height>
-                    <width>310</width>
+                    <height>481</height>
+                    <width>337</width>
                   </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="185">185</measure>
+                  <measure unit="leaf" quantity="246">246</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -91,7 +95,8 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#MariaLankowitz">Maria Lankowitz</placeName>
+              <placeName ref="#Venedig">Venedig</placeName>
+              <placeName ref="#Pezzana">Pezzana</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -103,11 +108,11 @@
       </editorialDecl>
       <refsDecl>
         <p>Digitization of 53 medieval and early modern chant manuscripts and modern rare chant
-          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the &#214;AW.
+          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the ÖAW.
           Enrichment of the approximately 18,000 images with metadata (Goobi). Automated
           transcription of the average of 2000 song texts per codex using the AI-supported
           application Transkribus. Management and provision of image data via an IIIF interface,
-          long-term archiving in the &#214;AW repository ARCHE. The digitized sources are of great
+          long-term archiving in the ÖAW repository ARCHE. The digitized sources are of great
           importance for music and liturgical studies and especially for art history (noteworthy
           book decorations) and thus represent important monuments of the Austrian cultural
           heritage. Through the complete digitization, images of the sources as well as the
@@ -142,8 +147,8 @@
         </taxonomy>
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
-          <category xml:id="graduale">
-            <catDesc>Graduale</catDesc>
+          <category xml:id="psalterium">
+            <catDesc>Psalterium</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -153,7 +158,7 @@
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws" xml:lang="en">book</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -172,53 +177,102 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="MariaLankowitz">
-        <placeName xml:lang="en">Maria Lankowitz</placeName>
-        <placeName xml:lang="de">Maria Lankowitz</placeName>
-        <placeName xml:lang="it">Maria Lankowitz</placeName>
+      <place xml:id="Venedig">
+        <placeName xml:lang="en">Venice</placeName>
+        <placeName xml:lang="de">Venedig</placeName>
+        <placeName xml:lang="it">Venezia</placeName>
         <location>
-          <settlement xml:lang="en">Maria Lankowitz</settlement>
-          <settlement xml:lang="de">Maria Lankowitz</settlement>
-          <settlement xml:lang="it">Maria Lankowitz</settlement>
-          <region xml:lang="en">Styria</region>
-          <region xml:lang="de">Steiermark</region>
-          <region xml:lang="it">Stiria</region>
-          <country xml:lang="en">Austria</country>
-          <country xml:lang="de">&#214;sterreich</country>
-          <country xml:lang="it">Austria</country>
-          <geo>47.063888888889 15.063055555556</geo>
+          <settlement xml:lang="en">Venice</settlement>
+          <settlement xml:lang="de">Venedig</settlement>
+          <settlement xml:lang="it">Venezia</settlement>
+          <region xml:lang="en">Venetien</region>
+          <region xml:lang="de">Veneto</region>
+          <region xml:lang="it">Veneto</region>
+          <country xml:lang="en">Italy</country>
+          <country xml:lang="de">Italien</country>
+          <country xml:lang="it">Italia</country>
+          <geo>45.439722222222 12.331944444444</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/37</title></p>
+            <p>erwähnt in <title>S 1/66</title></p>
             <linkGrp>
-              <link type="URL" target="A64_37.xml"/>
+              <link type="URL" target="S1_66.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/34</title></p>
+            <p>erwähnt in <title>S 1/65</title></p>
             <linkGrp>
-              <link type="URL" target="A64_34.xml"/>
+              <link type="URL" target="S1_65.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/22</title></p>
+            <p>erwähnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
             <linkGrp>
-              <link type="URL" target="S1_22.xml"/>
+              <link type="URL" target="S1_69.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/40</title></p>
+            <p>erwähnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
             <linkGrp>
-              <link type="URL" target="S1_40.xml"/>
+              <link type="URL" target="S1_64.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_67.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/68</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_68.xml"/>
             </linkGrp>
           </event>
         </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4400654-8</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4076982-3</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
       </place>
     </listPlace>
+    <listPerson>
+      <person xml:id="Pezzana">
+        <persName>
+          <forename>Giovanni Antonio</forename>
+          <surname>Pezzana</surname>
+        </persName>
+        <residence>
+          <date notBefore="1717-01-01" notAfter="1779-12-31">1717-1779</date>
+          <settlement key="4">
+            <placeName type="pref" ref="#Venedig">Venedig</placeName>
+            <location>
+              <geo>45.439722222222 12.331944444444</geo>
+            </location>
+          </settlement>
+        </residence>
+        <sex value="male"/>
+        <occupation key="90">Drucker</occupation>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/1102696757</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q105889193</idno>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris
+                  Francisci</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_69.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_64.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
+      </person>
+    </listPerson>
+    <listPlace/>
   </standOff>
   <!-- Template does not validates due to this being empty-->
 <facsimile>

@@ -1,13 +1,13 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A64_34" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_69.xml" next="S1_64.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_23" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_69.xml" next="S1_64.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A 64/34</title>
+        <title type="main">Incipit lamentatio Ieremiae prophetae</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName role="acdh:hasDigitisingAgent" ref="https://orcid.org/0000-0002-0484-832X">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
+          <persName role="acdh:hasDigitisingAgent">
+            <forename>Jakob</forename>
+            <surname>Leitner</surname>
           </persName>
         </respStmt>
         <respStmt>
@@ -21,21 +21,21 @@
           <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
           <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
-            <surname>Sanz-L&#225;zaro</surname>
+            <surname>Sanz-Lázaro</surname>
           </persName>
         </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMK&#214;S Kulturerbe Digital</funder>
+        <funder>BMKÖS Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>&#214;sterreichische Akademie der Wissenschaften</publisher>
-        <authority>&#214;sterreichische Akademie der Wissenschaften</authority>
+        <publisher>Österreichische Akademie der Wissenschaften</publisher>
+        <authority>Österreichische Akademie der Wissenschaften</authority>
         <address>
-          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
+          <addrLine>Bäckerstraße 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -52,11 +52,11 @@
         <date when="2024-01-10">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Stativlaser device</note>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1425-01-01" notAfter="1450-12-31">14-2/4</date>
+          <date notBefore="1700-01-01" notAfter="1799-12-31">18. Jh.</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -64,12 +64,12 @@
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
                 Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 64/34</idno>
+            <idno type="shelfmark">S 1/23</idno>
           </msIdentifier>
-          <msContents class="#ofm #graduale">
+          <msContents class="#ofm #lamentationen">
             <summary>
-              <p>Temporale, Sanctorale, Marienmessen, Kyriale, Sequenzen</p>
-              <p>Graduale</p>
+              <p/>
+              <p>Lamentationes Ieremiae Prophetae</p>
             </summary>
           </msContents>
           <physDesc>
@@ -77,12 +77,12 @@
               <supportDesc>
                 <support>
                   <dimensions unit="mm">
-                    <height>420</height>
-                    <width>310</width>
+                    <height>230</height>
+                    <width>190</width>
                   </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="185">185</measure>
+                  <measure unit="leaf" quantity="18">18</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -91,7 +91,7 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#MariaLankowitz">Maria Lankowitz</placeName>
+              <placeName ref="#Mautern">Mautern</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -103,11 +103,11 @@
       </editorialDecl>
       <refsDecl>
         <p>Digitization of 53 medieval and early modern chant manuscripts and modern rare chant
-          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the &#214;AW.
+          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the ÖAW.
           Enrichment of the approximately 18,000 images with metadata (Goobi). Automated
           transcription of the average of 2000 song texts per codex using the AI-supported
           application Transkribus. Management and provision of image data via an IIIF interface,
-          long-term archiving in the &#214;AW repository ARCHE. The digitized sources are of great
+          long-term archiving in the ÖAW repository ARCHE. The digitized sources are of great
           importance for music and liturgical studies and especially for art history (noteworthy
           book decorations) and thus represent important monuments of the Austrian cultural
           heritage. Through the complete digitization, images of the sources as well as the
@@ -142,8 +142,8 @@
         </taxonomy>
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
-          <category xml:id="graduale">
-            <catDesc>Graduale</catDesc>
+          <category xml:id="lamentationen">
+            <catDesc>Lamentationes</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -171,54 +171,7 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listPlace>
-      <place xml:id="MariaLankowitz">
-        <placeName xml:lang="en">Maria Lankowitz</placeName>
-        <placeName xml:lang="de">Maria Lankowitz</placeName>
-        <placeName xml:lang="it">Maria Lankowitz</placeName>
-        <location>
-          <settlement xml:lang="en">Maria Lankowitz</settlement>
-          <settlement xml:lang="de">Maria Lankowitz</settlement>
-          <settlement xml:lang="it">Maria Lankowitz</settlement>
-          <region xml:lang="en">Styria</region>
-          <region xml:lang="de">Steiermark</region>
-          <region xml:lang="it">Stiria</region>
-          <country xml:lang="en">Austria</country>
-          <country xml:lang="de">&#214;sterreich</country>
-          <country xml:lang="it">Austria</country>
-          <geo>47.063888888889 15.063055555556</geo>
-        </location>
-        <listEvent>
-          <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/37</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_37.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/34</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_34.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/22</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_22.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/40</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_40.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4400654-8</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
-      </place>
-    </listPlace>
+    <listPlace/>
   </standOff>
   <!-- Template does not validates due to this being empty-->
 <facsimile>

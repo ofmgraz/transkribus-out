@@ -4,7 +4,6 @@
       <titleStmt>
         <title type="main">Libellus Antiphonarum</title>
         <title type="sub"> in Vesperis solemniter intonare darum</title>
-        <title type="desc">A 70/23</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
           <persName role="acdh:hasDigitisingAgent">
@@ -23,21 +22,21 @@
           <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
           <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
-            <surname>Sanz-L&#225;zaro</surname>
+            <surname>Sanz-Lázaro</surname>
           </persName>
         </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMK&#214;S Kulturerbe Digital</funder>
+        <funder>BMKÖS Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>&#214;sterreichische Akademie der Wissenschaften</publisher>
-        <authority>&#214;sterreichische Akademie der Wissenschaften</authority>
+        <publisher>Österreichische Akademie der Wissenschaften</publisher>
+        <authority>Österreichische Akademie der Wissenschaften</authority>
         <address>
-          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
+          <addrLine>Bäckerstraße 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -73,7 +72,7 @@
               <p>
                 <title>Libellus Antiphonarum: in Vesperis solemniter intonare darum</title>
               </p>
-              <p>Intonationsb&#252;chlein</p>
+              <p>Intonationsbüchlein</p>
             </summary>
           </msContents>
           <physDesc>
@@ -107,11 +106,11 @@
       </editorialDecl>
       <refsDecl>
         <p>Digitization of 53 medieval and early modern chant manuscripts and modern rare chant
-          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the &#214;AW.
+          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the ÖAW.
           Enrichment of the approximately 18,000 images with metadata (Goobi). Automated
           transcription of the average of 2000 song texts per codex using the AI-supported
           application Transkribus. Management and provision of image data via an IIIF interface,
-          long-term archiving in the &#214;AW repository ARCHE. The digitized sources are of great
+          long-term archiving in the ÖAW repository ARCHE. The digitized sources are of great
           importance for music and liturgical studies and especially for art history (noteworthy
           book decorations) and thus represent important monuments of the Austrian cultural
           heritage. Through the complete digitization, images of the sources as well as the
@@ -147,7 +146,7 @@
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
           <category xml:id="intonationsbuch">
-            <catDesc>Intonationsb&#252;chlein</catDesc>
+            <catDesc>Intonationsbüchlein</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -188,55 +187,55 @@
           <region xml:lang="de">Wien</region>
           <region xml:lang="it">Vienna</region>
           <country xml:lang="en">Austria</country>
-          <country xml:lang="de">&#214;sterreich</country>
+          <country xml:lang="de">Österreich</country>
           <country xml:lang="it">Austria</country>
           <geo>48.208333333333336 16.3725</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 70/41</title></p>
+            <p>erwähnt in <title>A 70/41</title></p>
             <linkGrp>
               <link type="URL" target="A64_41.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Antiphonas Festorum Principaliorum</title></p>
+            <p>erwähnt in <title>Antiphonas Festorum Principaliorum</title></p>
             <linkGrp>
               <link type="URL" target="70_45.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Libellus Antiphonarum</title></p>
+            <p>erwähnt in <title>Libellus Antiphonarum</title></p>
             <linkGrp>
               <link type="URL" target="A70_23.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/29</title></p>
+            <p>erwähnt in <title>S 1/29</title></p>
             <linkGrp>
               <link type="URL" target="S1_29.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Cantus Ecclesiasticus</title></p>
+            <p>erwähnt in <title>Cantus Ecclesiasticus</title></p>
             <linkGrp>
               <link type="URL" target="S1_40a.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
             <linkGrp>
               <link type="URL" target="S1_75.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
             <linkGrp>
               <link type="URL" target="S1_74.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
+            <p>erwähnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
             <linkGrp>
               <link type="URL" target="A67_21.xml"/>
             </linkGrp>
