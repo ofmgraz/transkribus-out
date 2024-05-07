@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">S 1/23</title>
+        <title type="main">Incipit lamentatio Ieremiae prophetae</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
           <persName role="acdh:hasDigitisingAgent">
@@ -60,9 +60,9 @@
         </bibl>
         <msDesc>
           <msIdentifier>
-            <institution>Franziskanerkloster Graz</institution>
+            <institution ref="https://d-nb.info/gnd/16174362-6">Franziskanerkloster Graz</institution>
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
-                Graz</placeName> + <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+                Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">S 1/23</idno>
           </msIdentifier>
@@ -91,7 +91,7 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#MauterninSteiermark">Mautern in Steiermark</placeName>
+              <placeName ref="#Mautern">Mautern</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -171,36 +171,7 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listPlace>
-      <place xml:id="MauterninSteiermark">
-        <placeName xml:lang="en">Mautern in Steiermark</placeName>
-        <placeName xml:lang="de">Mautern in Steiermark</placeName>
-        <placeName xml:lang="it">Mautern in Steiermark</placeName>
-        <location>
-          <settlement xml:lang="en">Mautern in Steiermark</settlement>
-          <settlement xml:lang="de">Mautern in Steiermark</settlement>
-          <settlement xml:lang="it">Mautern in Steiermark</settlement>
-          <region xml:lang="en">Styria</region>
-          <region xml:lang="de">Steiermark</region>
-          <region xml:lang="it">Stiria</region>
-          <country xml:lang="en">Austria</country>
-          <country xml:lang="de">Österreich</country>
-          <country xml:lang="it">Austria</country>
-          <geo>47.4 14.833333333333</geo>
-        </location>
-        <listEvent>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/23</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_23.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4115047-8</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771761</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q258162</idno>
-      </place>
-    </listPlace>
+    <listPlace/>
   </standOff>
   <!-- Template does not validates due to this being empty-->
 </TEI>
