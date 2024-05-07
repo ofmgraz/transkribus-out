@@ -144,7 +144,7 @@ class TeiHeader(TeiTree):
     @staticmethod
     def read_table(table):
         try:
-            df = pd.read_json(table).fillna("")
+            df = pd.read_json(table, orient='index').fillna("")
         except Exception:
             try:
                 df = pd.read_excel(table).fillna("")
