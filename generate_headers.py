@@ -2,11 +2,20 @@
 # Executable file that calls library maketei
 import maketei
 import glob
-from os import path, mkdir
+import os
 from sys import argv
+from acdh_baserow_pyutils import BaseRowClient
 
+BASEROW_DB_ID = 488
+BASEROW_URL = "https://baserow.acdh-dev.oeaw.ac.at/api/"
+BASEROW_TOKEN = "ZZlOZUBpKlBapPL09wQyuwKrdgCjrJnP"
+BASEROW_USER = os.environ.get("BASEROW_USER")
+BASEROW_PW = os.environ.get("BASEROW_PW")
+br_client = BaseRowClient(BASEROW_USER, BASEROW_PW, BASEROW_TOKEN, br_base_url=BASEROW_URL)
+jwt_token = br_client.get_jwt_token()
+files = br_client.dump_tables_as_json(BASEROW_DB_ID, folder_name='json')
 source_directory = "./data/editions"
-source_table = "Quellen_OFM_Graz.csv"
+source_table = "json/InputData.json"
 schema_file = "tei_ms.xsd"
 output_directory = "./tei_headers"
 template = "template.xml"
@@ -15,14 +24,14 @@ template = "template.xml"
 i = 1
 test = False
 
-if not path.isdir(output_directory):
-    mkdir(output_directory)
+if not os.path.isdir(output_directory):
+    os.mkdir(output_directory)
 
 if len(argv) > 1:
     test = True
 log = maketei.Log("0make_tei")
 
-for input_file in glob.glob(path.join(source_directory, "*.xml")):
+for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     print(f"{i}\t\tParsing {input_file}")
     i += 1
     if test:
@@ -33,7 +42,7 @@ for input_file in glob.glob(path.join(source_directory, "*.xml")):
         except Exception as e:
             error = f"{type(e).__name__} {__file__} {e.__traceback__.tb_lineno}"
             log.print_log(input_file, error, stdout=True)
-    output_file = path.join(output_directory, input_file.split('/')[-1])
+    output_file = os.path.join(output_directory, input_file.split('/')[-1])
     if tei_source:
         with open(output_file, "w") as f:
             f.write(tei_source.printable)
