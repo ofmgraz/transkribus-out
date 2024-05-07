@@ -111,7 +111,8 @@ class TeiBody(TeiTree):
             img_name = re.sub(r"^[\d_]*", "", img_name)
             img_name = re.sub(r"A-Gf_([\d])", "A-Gf_A\g<1>", img_name)
             img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
-            img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
+            if tree.any_xpath("tei:occupation[text() = 'Drucker']"):
+                img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
             element.attrib["url"] = (
                 "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/"
                 f"{doc_id}/files/images/{img_name}/full/full/0/default.jpg"

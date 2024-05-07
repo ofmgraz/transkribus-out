@@ -2,29 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Antiphonarium de Sanctis Ordinis Minorum</title>
-        <title type="desc">S 1/67</title>
-        <respStmt>
-          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName role="acdh:hasDigitisingAgent">
-            <forename>Jakob</forename>
-            <surname>Leitner</surname>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-9575-9372">
-            <forename>Peter</forename>
-            <surname>Andorfer</surname>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
-            <forename>Fernando</forename>
-            <surname>Sanz-Lázaro</surname>
-          </persName>
-        </respStmt>
+        <title type="main"/>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
@@ -53,49 +31,40 @@
         <date when="2024-01-10">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Stativlaser device</note>
+        <note/>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1690-01-01" notAfter="1690-12-31">1690</date>
-          <pubPlace ref="#Venedig">Venedig</pubPlace>
-          <publisher ref="#Balleoni">Paolo Baglioni</publisher>
+          <date/>
         </bibl>
         <msDesc>
           <msIdentifier>
-            <institution>Franziskanerkloster Graz</institution>
+            <institution ref="https://d-nb.info/gnd/16174362-6">Franziskanerkloster Graz</institution>
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
-                Graz</placeName> + <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+                Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">S 1/67</idno>
+            <idno type="shelfmark"/>
           </msIdentifier>
-          <msContents class="#ofm #antiphonale">
-            <summary>
-              <p>Mit Anhang: <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
-              <p>Antiphonarium Romanum</p>
-            </summary>
+          <msContents>
+            <summary/>
           </msContents>
           <physDesc>
-            <objectDesc form="print">
+            <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm">
-                    <height>190</height>
-                    <width>145</width>
-                  </dimensions>
+                  <dimensions unit="mm"> </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="290">290</measure>
+                  <measure/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>Placeholder<binaryObject/>
+            <musicNotation>
+              <binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance>
-              <placeName ref="#Venedig">Venedig</placeName>
-            </provenance>
+            <provenance/>
           </history>
         </msDesc>
       </sourceDesc>
@@ -136,27 +105,13 @@
         </label>
         </application>
       </appInfo>
-      <classDecl>
-        <taxonomy xml:id="liturgies">
-          <desc>Liturgies</desc>
-          <category xml:id="ofm">
-            <catDesc>OFM</catDesc>
-          </category>
-        </taxonomy>
-        <taxonomy xml:id="booktypes">
-          <desc>Book Types</desc>
-          <category xml:id="antiphonale">
-            <catDesc>Antiphonarium</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">book</channel>
+        <channel mode="ws" xml:lang="en">manuscript</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -173,109 +128,7 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listPlace>
-      <place xml:id="Venedig">
-        <placeName xml:lang="en">Venice</placeName>
-        <placeName xml:lang="de">Venedig</placeName>
-        <placeName xml:lang="it">Venezia</placeName>
-        <location>
-          <settlement xml:lang="en">Venice</settlement>
-          <settlement xml:lang="de">Venedig</settlement>
-          <settlement xml:lang="it">Venezia</settlement>
-          <region xml:lang="en">Venetien</region>
-          <region xml:lang="de">Veneto</region>
-          <region xml:lang="it">Veneto</region>
-          <country xml:lang="en">Italy</country>
-          <country xml:lang="de">Italien</country>
-          <country xml:lang="it">Italia</country>
-          <geo>45.439722222222 12.331944444444</geo>
-        </location>
-        <listEvent>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/66</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_66.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/65</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_65.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_69.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_64.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_67.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/68</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_68.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4062501-1/4062501-1</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
-      </place>
-    </listPlace>
-    <listPerson>
-      <person xml:id="Balleoni">
-        <persName>
-          <forename>Paolo</forename>
-          <surname>Baglioni</surname>
-        </persName>
-        <residence>
-          <date notBefore="1632-01-01" notAfter="1721-12-31" cert="medium">1632-1721?</date>
-          <settlement key="4">
-            <placeName type="pref" ref="#Venedig">Venedig</placeName>
-            <location>
-              <geo>45.439722222222 12.331944444444</geo>
-            </location>
-          </settlement>
-        </residence>
-        <sex value="male"/>
-        <occupation key="90">Drucker</occupation>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/1037524810</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q112399622</idno>
-        <listEvent>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/65</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_65.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_67.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/68</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_68.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-      </person>
-    </listPerson>
-  </standOff>
+  <standOff/>
   <!-- Template does not validates due to this being empty-->
 <facsimile>
       <surface ulx="0" uly="0" lrx="2000" lry="2942" xml:id="facs_1">
