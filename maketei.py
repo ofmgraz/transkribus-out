@@ -172,7 +172,6 @@ class TeiHeader(TeiTree):
             self.parse_device(row["Gerät"])
 
     def make_title(self, title, summary, incipit, signature):
-        print(title)
         if title:
             self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = title
         elif title := re.findall("„(.*)“", summary):
@@ -211,16 +210,16 @@ class TeiHeader(TeiTree):
         if pid and not self.root.xpath(
             f'//tei:place[@xml:id="{pid}"]', namespaces=nsmap
         ):
+            if entry := locations.any_xpath(f'.//tei:place[@xml:id="{pid}"]'):
             # Entry in the standOff list of places
             # place = ET.SubElement(tree, "place")
-            entry = ET.fromstring(
-                ET.tostring(
-                    locations.any_xpath(f'//tei:place[@xml:id="{pid}"]')[0],
-                    pretty_print=True,
-                    encoding="unicode",
+                entry = ET.fromstring(
+                    ET.tostring(entry[0],
+                        pretty_print=True,
+                        encoding="unicode",
+                    )
                 )
-            )
-            tree.append(entry)
+                tree.append(entry)
             # Element in msDesc/history referencing the entry above
             provenance = self.msdesc.xpath(
                 "./tei:history/tei:provenance", namespaces=nsmap
