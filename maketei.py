@@ -144,7 +144,7 @@ class TeiHeader(TeiTree):
     @staticmethod
     def read_table(table):
         try:
-            df = pd.read_csv(table).fillna("")
+            df = pd.read_json(table).fillna("")
         except Exception:
             try:
                 df = pd.read_excel(table).fillna("")
@@ -434,7 +434,7 @@ class TeiHeader(TeiTree):
             respstmt = ET.SubElement(titlestmt, 'respStmt')
             ET.SubElement(respstmt, "resp").text = "XML/TEI Datenmodellierung und Datengenerierung"
             respstmt.append(dataresp)
-    
+
     def parse_device(self, device):
         devices = {"Stativlaser": "Stativlaser", "Traveller": "Traveller"}
         note = self.header.xpath("//tei:fileDesc/tei:notesStmt/tei:note", namespaces=nsmap)[0]
