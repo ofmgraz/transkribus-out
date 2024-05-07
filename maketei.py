@@ -109,6 +109,7 @@ class TeiBody(TeiTree):
         for element in graphic_elements:
             img_name = element.attrib["url"].split(".")[0].replace("Gu", "Gf")
             img_name = re.sub(r"^[\d_]*", "", img_name)
+            img_name = re.sub(r"A-Gf_([\d])", "A-Gf_A\g<1>", img_name)
             element.attrib["url"] = (
                 "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/"
                 f"{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
@@ -211,14 +212,9 @@ class TeiHeader(TeiTree):
             f'//tei:place[@xml:id="{pid}"]', namespaces=nsmap
         ):
             if entry := locations.any_xpath(f'.//tei:place[@xml:id="{pid}"]'):
-            # Entry in the standOff list of places
-            # place = ET.SubElement(tree, "place")
-                entry = ET.fromstring(
-                    ET.tostring(entry[0],
-                        pretty_print=True,
-                        encoding="unicode",
-                    )
-                )
+                # Entry in the standOff list of places
+                # place = ET.SubElement(tree, "place")
+                entry = ET.fromstring(ET.tostring(entry[0], pretty_print=True, encoding="unicode"))
                 tree.append(entry)
             # Element in msDesc/history referencing the entry above
             provenance = self.msdesc.xpath(
