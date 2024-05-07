@@ -158,6 +158,7 @@ class TeiHeader(TeiTree):
         column_name = self.doc_id[0] + " " + self.doc_id[1:].replace("_", "/")
 
         for idx, row in df.loc[df["Signatur"] == column_name].iterrows():
+            self.make_title(row["Titel"], row["Inhalt"], row["Incipit"], row["Signatur"])
             self.parse_signature(row["Signatur"])
             self.parse_origin(row["Provenienz"], row["Drucker"])
             self.parse_date(str(row["Zeit"]))
@@ -170,15 +171,30 @@ class TeiHeader(TeiTree):
             self.parse_photographer(row["Fotograf"])
             self.parse_device(row["Gerät"])
 
+    def make_title(self, title, summary, incipit, signature):
+        print(title)
+        if not title.empty():
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = title
+        elif title := re.findall("„(.*)“", summary):
+            tistmt = self.header.xpath("//tei:fileDesc/tei:titleStmt", namespaces=nsmap)[0]
+            title, subtitle = self.parse_title(title[0])
+            if subtitle:
+                ET.SubElement(tistmt, "title", type="sub").text = subtitle
+            if tistmt.xpath("//tei:title", namespaces=nsmap)[0].text:
+                ET.SubElement(tistmt, "title", type="desc").text = tistmt.xpath("//tei:title", namespaces=nsmap)[0].text
+            tistmt.xpath("//tei:title", namespaces=nsmap)[0].text = title
+        elif incipit:
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = incipit
+        elif signature:
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = signature
+        else:
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = 'No title'
+
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
         self.msdesc.xpath("//tei:msIdentifier/tei:idno", namespaces=nsmap)[
             0
         ].text = sign
-        if not self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
-                0
-            ].text = sign
 
     @staticmethod
     def make_pid(pid):
@@ -352,7 +368,6 @@ class TeiHeader(TeiTree):
     def parse_summary(self, summary, bookt, attributes, line):
         if summary != summary:
             summary = ""
-        title = re.findall("„(.*)“", summary)
         summary = summary.replace("„", "<title>").replace("“", "</title>")
         element = self.msdesc.xpath("//tei:msContents", namespaces=nsmap)[0]
         if attributes:
@@ -360,18 +375,6 @@ class TeiHeader(TeiTree):
         subelement = element.xpath("//tei:summary", namespaces=nsmap)[0]
         subelement.append(ET.fromstring(f"<p>{summary}</p>"))
         subelement.append(ET.fromstring(f"<p>{bookt}</p>"))
-        if title:
-            tistmt = self.header.xpath(
-                "//tei:fileDesc/tei:titleStmt", namespaces=nsmap
-            )[0]
-            title, subtitle = self.parse_title(title[0])
-            if subtitle:
-                ET.SubElement(tistmt, "title", type="sub").text = subtitle
-            if tistmt.xpath("//tei:title", namespaces=nsmap)[0].text:
-                ET.SubElement(tistmt, "title", type="desc").text = tistmt.xpath(
-                    "//tei:title", namespaces=nsmap
-                )[0].text
-            tistmt.xpath("//tei:title", namespaces=nsmap)[0].text = title
 
     @staticmethod
     def parse_title(title):

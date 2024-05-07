@@ -1,13 +1,13 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_23" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_58.xml" next="A67_23.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A64_34" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_69.xml" next="S1_64.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">S 1/23</title>
+        <title type="main">A 64/34</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName role="acdh:hasDigitisingAgent">
-            <forename>Jakob</forename>
-            <surname>Leitner</surname>
+          <persName role="acdh:hasDigitisingAgent" ref="https://orcid.org/0000-0002-0484-832X">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
           </persName>
         </respStmt>
         <respStmt>
@@ -52,24 +52,24 @@
         <date when="2024-01-10">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Traveller device</note>
+        <note>Originals digitised with a Stativlaser device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1700-01-01" notAfter="1799-12-31">18. Jh.</date>
+          <date notBefore="1425-01-01" notAfter="1450-12-31">14-2/4</date>
         </bibl>
         <msDesc>
           <msIdentifier>
-            <institution>Franziskanerkloster Graz</institution>
+            <institution ref="https://d-nb.info/gnd/16174362-6">Franziskanerkloster Graz</institution>
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
-                Graz</placeName> + <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+                Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">S 1/23</idno>
+            <idno type="shelfmark">A 64/34</idno>
           </msIdentifier>
-          <msContents class="#ofm #lamentationen">
+          <msContents class="#ofm #graduale">
             <summary>
-              <p/>
-              <p>Lamentationes Ieremiae Prophetae</p>
+              <p>Temporale, Sanctorale, Marienmessen, Kyriale, Sequenzen</p>
+              <p>Graduale</p>
             </summary>
           </msContents>
           <physDesc>
@@ -77,12 +77,12 @@
               <supportDesc>
                 <support>
                   <dimensions unit="mm">
-                    <height>230</height>
-                    <width>190</width>
+                    <height>420</height>
+                    <width>310</width>
                   </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="18">18</measure>
+                  <measure unit="leaf" quantity="185">185</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -91,7 +91,7 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#MauterninSteiermark">Mautern in Steiermark</placeName>
+              <placeName ref="#MariaLankowitz">Maria Lankowitz</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -142,8 +142,8 @@
         </taxonomy>
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
-          <category xml:id="lamentationen">
-            <catDesc>Lamentationes</catDesc>
+          <category xml:id="graduale">
+            <catDesc>Graduale</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -172,33 +172,51 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="MauterninSteiermark">
-        <placeName xml:lang="en">Mautern in Steiermark</placeName>
-        <placeName xml:lang="de">Mautern in Steiermark</placeName>
-        <placeName xml:lang="it">Mautern in Steiermark</placeName>
+      <place xml:id="MariaLankowitz">
+        <placeName xml:lang="en">Maria Lankowitz</placeName>
+        <placeName xml:lang="de">Maria Lankowitz</placeName>
+        <placeName xml:lang="it">Maria Lankowitz</placeName>
         <location>
-          <settlement xml:lang="en">Mautern in Steiermark</settlement>
-          <settlement xml:lang="de">Mautern in Steiermark</settlement>
-          <settlement xml:lang="it">Mautern in Steiermark</settlement>
+          <settlement xml:lang="en">Maria Lankowitz</settlement>
+          <settlement xml:lang="de">Maria Lankowitz</settlement>
+          <settlement xml:lang="it">Maria Lankowitz</settlement>
           <region xml:lang="en">Styria</region>
           <region xml:lang="de">Steiermark</region>
           <region xml:lang="it">Stiria</region>
           <country xml:lang="en">Austria</country>
           <country xml:lang="de">&#214;sterreich</country>
           <country xml:lang="it">Austria</country>
-          <geo>47.4 14.833333333333</geo>
+          <geo>47.063888888889 15.063055555556</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/23</title></p>
+            <p>erw&#228;hnt in <title>A 64/37</title></p>
             <linkGrp>
-              <link type="URL" target="S1_23.xml"/>
+              <link type="URL" target="A64_37.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 64/34</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_34.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/22</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_22.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/40</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_40.xml"/>
             </linkGrp>
           </event>
         </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4115047-8</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771761</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q258162</idno>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4400654-8</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
       </place>
     </listPlace>
   </standOff>

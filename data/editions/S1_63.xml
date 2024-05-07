@@ -1,10 +1,10 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_63" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_19.xml" next="A63_51.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_41" xml:base="https://ofmgraz.github.io/ofm-static/" prev="A67_41.xml" next="A64_41.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title>
-        <title type="sub"> Festa nova omnia in hunc usque annum a Summis Pontificibus concessa. Officium defunctorum, Psalmi Graduales et Poenitentiales ..., mit Anhang</title>
-        <title type="desc">S 1/63</title>
+        <title type="main">Das 4. Respons Buch</title>
+        <title type="sub"> Ostern bis 1. August</title>
+        <title type="desc">A 67/41</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
           <persName role="acdh:hasDigitisingAgent">
@@ -54,41 +54,39 @@
         <date when="2024-01-10">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Stativlaser device</note>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1685-01-01" notAfter="1685-12-31">1685</date>
-          <pubPlace ref="#Salzburg">Salzburg</pubPlace>
-          <publisher ref="#Mayr">Johann Baptist Mayr</publisher>
+          <date notBefore="1636-01-01" notAfter="1636-12-31">1636</date>
         </bibl>
         <msDesc>
           <msIdentifier>
-            <institution>Franziskanerkloster Graz</institution>
+            <institution ref="https://d-nb.info/gnd/16174362-6">Franziskanerkloster Graz</institution>
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
-                Graz</placeName> + <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+                Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">S 1/63</idno>
+            <idno type="shelfmark">A 67/41</idno>
           </msIdentifier>
-          <msContents class="#ofm #hymnar">
+          <msContents class="#ofm #responsoriale">
             <summary>
               <p>
-                <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti: Festa nova omnia in hunc usque annum a Summis Pontificibus concessa. Officium defunctorum, Psalmi Graduales et Poenitentiales ..., mit Anhang: Hymni proprii Sanctorum Trium Ordinum Fratrum Minorum S. P. Francisci</title>
+                <title>Das 4. Respons Buch: Ostern bis 1. August</title>
               </p>
-              <p>Hymnarium Romanum</p>
+              <p>Responsoriale</p>
             </summary>
           </msContents>
           <physDesc>
-            <objectDesc form="print">
+            <objectDesc form="codex">
               <supportDesc>
                 <support>
                   <dimensions unit="mm">
-                    <height>487</height>
-                    <width>331</width>
+                    <height>210</height>
+                    <width>140</width>
                   </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="309">309</measure>
+                  <measure unit="leaf" quantity="205">205</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -97,7 +95,7 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#Salzburg">Salzburg</placeName>
+              <placeName ref="#Graz">Graz</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -148,8 +146,8 @@
         </taxonomy>
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
-          <category xml:id="hymnar">
-            <catDesc>Hymnarium</catDesc>
+          <category xml:id="responsoriale">
+            <catDesc>Responsoriale</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -159,7 +157,7 @@
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">book</channel>
+        <channel mode="ws" xml:lang="en">manuscript</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -178,111 +176,198 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="Salzburg">
-        <placeName xml:lang="en">Salzburg</placeName>
-        <placeName xml:lang="de">Salzburg</placeName>
-        <placeName xml:lang="it">Salisburgo</placeName>
+      <place xml:id="Graz">
+        <placeName xml:lang="en">Graz</placeName>
+        <placeName xml:lang="de">Graz</placeName>
+        <placeName xml:lang="it">Graz</placeName>
         <location>
-          <settlement xml:lang="en">Salzburg</settlement>
-          <settlement xml:lang="de">Salzburg</settlement>
-          <settlement xml:lang="it">Salisburgo</settlement>
-          <region xml:lang="en">Salzburg (federal state)</region>
-          <region xml:lang="de">Land Salzburg</region>
-          <region xml:lang="it">Salisburghese</region>
+          <settlement xml:lang="en">Graz</settlement>
+          <settlement xml:lang="de">Graz</settlement>
+          <settlement xml:lang="it">Graz</settlement>
+          <region xml:lang="en">Styria</region>
+          <region xml:lang="de">Steiermark</region>
+          <region xml:lang="it">Stiria</region>
           <country xml:lang="en">Austria</country>
           <country xml:lang="de">&#214;sterreich</country>
           <country xml:lang="it">Austria</country>
-          <geo>47.8 13.045</geo>
+          <geo>47.07083333333333 15.438611111111111</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+            <p>erw&#228;hnt in <title>Das 4. Respons Buch</title></p>
             <linkGrp>
-              <link type="URL" target="S1_63.xml"/>
+              <link type="URL" target="A67_41.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+            <p>erw&#228;hnt in <title>A 64/41</title></p>
             <linkGrp>
-              <link type="URL" target="S1_70.xml"/>
+              <link type="URL" target="A64_41.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitum</title></p>
+            <p>erw&#228;hnt in <title>A 67/19</title></p>
             <linkGrp>
-              <link type="URL" target="S1_62.xml"/>
+              <link type="URL" target="A67_19.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/72</title></p>
+            <p>erw&#228;hnt in <title>Das 4. Respons Buch</title></p>
             <linkGrp>
-              <link type="URL" target="S1_72.xml"/>
+              <link type="URL" target="A67_42.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+            <p>erw&#228;hnt in <title>A 67/17</title></p>
             <linkGrp>
-              <link type="URL" target="S1_61.xml"/>
+              <link type="URL" target="A67_17.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>Antiphonarium de Tempore et Sanctis Pro Choro
+                Graecensi</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_25.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 64/42</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_42.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/26</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_26.xml "/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 64/39</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_39.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/45</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_45.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/39</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_39.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 64/43</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_43.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 67/23</title></p>
+            <linkGrp>
+              <link type="URL" target="A67_23.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 67/18</title></p>
+            <linkGrp>
+              <link type="URL" target="A67_18.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/28</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_28.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 64/37</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_37.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 63/51</title></p>
+            <linkGrp>
+              <link type="URL" target="A63_51.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/24</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_24.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 67/20</title></p>
+            <linkGrp>
+              <link type="URL" target="A67_20.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>Tota pulchra</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_19.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 64/40</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_40.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 67/43</title></p>
+            <linkGrp>
+              <link type="URL" target="A67_43.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>Pro divino officio in choro</title></p>
+            <linkGrp>
+              <link type="URL" target="A67_27.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/44</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_44.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/30</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_30.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>S 1/27</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_27.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 67/22</title></p>
+            <linkGrp>
+              <link type="URL" target="A67_22.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erw&#228;hnt in <title>A 64/38</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_38.xml"/>
             </linkGrp>
           </event>
         </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4062501-1</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
-        <idno type="URL" subtype="WIKIDATA">http://www.wikidata.org/entity/Q34713</idno>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4021912-4</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
       </place>
     </listPlace>
-    <listPerson>
-      <person xml:id="Mayr">
-        <persName>
-          <forename>Johann Baptist</forename>
-          <surname>Mayr</surname>
-        </persName>
-        <residence>
-          <date notBefore="1634-01-01" notAfter="1708-12-31">1634-1708</date>
-          <settlement key="2">
-            <placeName type="pref" ref="#Salzburg">Salzburg</placeName>
-            <location>
-              <geo>47.8 13.045</geo>
-            </location>
-          </settlement>
-        </residence>
-        <sex value="male"/>
-        <occupation key="90">Drucker</occupation>
-        <idno type="URL" subtype="GND">https://d-nb.info/gnd/124751946</idno>
-        <listEvent>
-          <event type="mentioned">
-            <p>erw&#228;hnt in <title>Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitum</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_62.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/72</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_72.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_61.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_63.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_70.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-      </person>
-    </listPerson>
   </standOff>
   <!-- Template does not validates due to this being empty-->
 <facsimile>
