@@ -173,7 +173,7 @@ class TeiHeader(TeiTree):
 
     def make_title(self, title, summary, incipit, signature):
         print(title)
-        if not title.empty():
+        if title:
             self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = title
         elif title := re.findall("„(.*)“", summary):
             tistmt = self.header.xpath("//tei:fileDesc/tei:titleStmt", namespaces=nsmap)[0]
