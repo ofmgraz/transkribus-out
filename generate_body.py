@@ -16,6 +16,7 @@ if len(argv) > 1:
 log = maketei.Log("0generate_body")
 
 prev_filepath = ""
+
 for tkb_file in glob.glob(path.join(tkb_directory, "*.xml")):
     print(f"{i}\t\tParsing {tkb_file}")
     filename = tkb_file.split("/")[-1]
