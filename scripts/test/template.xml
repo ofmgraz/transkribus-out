@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Electronic edition</edition>
+        <funder>BMKÖS Kulturerbe Digital</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Österreichische Akademie der Wissenschaften</publisher>
+        <authority>Österreichische Akademie der Wissenschaften</authority>
+        <address>
+          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
+          <addrLine>Bäckerstraße 13</addrLine>
+          <addrLine>1100 Vienna</addrLine>
+          <addrLine>Austria</addrLine>
+          <addrLine>
+            <ref target="https://www.oeaw.ac.at/">https://www.oeaw.ac.at/</ref>
+          </addrLine>
+          <addrLine>
+            <email>acdh-ch@oeaw.ac.at</email>
+          </addrLine>
+        </address>
+        <pubPlace ref="#Wien" xml:lang="de">Wien</pubPlace>
+        <availability>
+          <licence>cc0</licence>
+        </availability>
+        <date when="2024-01-10">2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <date/>
+        </bibl>
+        <msDesc>
+          <msIdentifier>
+            <institution>Franziskanerkloster Graz</institution>
+            <repository>
+              <placeName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</placeName>
+              <idno type="URL" subtype="GND">http://d-nb.info/gnd/4482538-9</idno>
+              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+            </repository>
+            <idno type="shelfmark"/>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc>
+                <support>
+                  <dimensions unit="mm"> </dimensions>
+                </support>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <musicNotation>
+              <binaryObject/>
+            </musicNotation>
+          </physDesc>
+          <history>
+            <provenance/>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Generated with <address><addrLine><ref target="https://readcoop.eu/de/transkribus/">Transkribus</ref></addrLine></address>.</p>
+        <p>Edited with <address><addrLine><ref target="https://github.com/ofmgraz/transkribus-out">custom
+                        scripts</ref></addrLine></address>.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+      </langUsage>
+      <textDesc n="choirbook">
+        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <constitution type="composite"/>
+        <derivation/>
+        <domain type="religious"/>
+        <factuality type="inapplicable"/>
+        <interaction/>
+        <preparedness/>
+        <purpose/>
+      </textDesc>
+      <settingDesc>
+        <setting>
+          <name xml:lang="de">Steirmark</name>
+          <time/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff/>
+</TEI>

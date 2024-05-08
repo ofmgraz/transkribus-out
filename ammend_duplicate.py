@@ -13,7 +13,7 @@ for i in xmlids:
         counter += 1
     else:
         counter = 0
-        text = re.sub('"#({i})"', r'"#\1_0"', text)
+        text = re.sub(f'"#({i})"', r'"#\1_0"', text)
     text = re.sub(f'"({i})"', fr'"\1_{counter}"', text, count=1)
     ant = i
 with open("data/editions/1499840.xml", "w") as f:
