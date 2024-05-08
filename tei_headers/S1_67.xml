@@ -1,8 +1,29 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_67" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_22" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
+        <title type="main">Iube Domine benedicere</title>
+        <respStmt>
+          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+          <persName role="acdh:hasDigitisingAgent">
+            <forename>Jakob</forename>
+            <surname>Leitner</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-9575-9372">
+            <forename>Peter</forename>
+            <surname>Andorfer</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
+            <forename>Fernando</forename>
+            <surname>Sanz-Lázaro</surname>
+          </persName>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
@@ -31,11 +52,11 @@
         <date when="2024-01-10">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note/>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date/>
+          <date notBefore="1685-01-01" notAfter="1685-12-31">1685</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -43,28 +64,35 @@
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
                 Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark"/>
+            <idno type="shelfmark">S 1/22</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#ofm #coralbuch">
+            <summary>
+              <p>Lections- und Psalmtöne, Intonationen (Gloria, Antiphonen etc.), Lamentationen (für Graz)</p>
+              <p>Chorallehrbuch für Novizen</p>
+            </summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm">
+                    <height>300</height>
+                    <width>215</width>
+                  </dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="leaf" quantity="58">58</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance>
+              <placeName ref="#MariaLankowitz">Maria Lankowitz</placeName>
+            </provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -105,6 +133,20 @@
         </label>
         </application>
       </appInfo>
+      <classDecl>
+        <taxonomy xml:id="liturgies">
+          <desc>Liturgies</desc>
+          <category xml:id="ofm">
+            <catDesc>OFM</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="booktypes">
+          <desc>Book Types</desc>
+          <category xml:id="coralbuch">
+            <catDesc>Chorallehrbuch</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -128,6 +170,55 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/>
+  <standOff>
+    <listPlace>
+      <place xml:id="MariaLankowitz">
+        <placeName xml:lang="en">Maria Lankowitz</placeName>
+        <placeName xml:lang="de">Maria Lankowitz</placeName>
+        <placeName xml:lang="it">Maria Lankowitz</placeName>
+        <location>
+          <settlement xml:lang="en">Maria Lankowitz</settlement>
+          <settlement xml:lang="de">Maria Lankowitz</settlement>
+          <settlement xml:lang="it">Maria Lankowitz</settlement>
+          <region xml:lang="en">Styria</region>
+          <region xml:lang="de">Steiermark</region>
+          <region xml:lang="it">Stiria</region>
+          <country xml:lang="en">Austria</country>
+          <country xml:lang="de">Österreich</country>
+          <country xml:lang="it">Austria</country>
+          <geo>47.063888888889 15.063055555556</geo>
+        </location>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/37</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_37.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/34</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_34.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/22</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_22.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/40</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_40.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4400654-8</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
+      </place>
+    </listPlace>
+  </standOff>
   <!-- Template does not validates due to this being empty-->
 </TEI>
