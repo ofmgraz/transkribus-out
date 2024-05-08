@@ -30,6 +30,8 @@ jobs:
       run: python download_and_transform.py
     - name: Delete old files
       run: rm -f ./data/editions/[A-S]*
+    - name: Rename duplicates
+      run: ./ammend_duplicates.py
     - name: Rename files
       run: ./renamefiles.py
     - name: Generate TEI text & facsimile

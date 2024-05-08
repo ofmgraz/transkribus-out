@@ -22,6 +22,8 @@ jobs:
       run: ./transform.py
     - name: Delete old files
       run: rm -f ./data/editions/[A-S]*
+    - name: Rename duplicates
+      run: ./ammend_duplicates.py
     - name: rename files
       run: ./renamefiles.py
     - name: Generate TEI text & facsimile
