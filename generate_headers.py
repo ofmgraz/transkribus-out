@@ -18,6 +18,7 @@ if not test:
     BASEROW_PW = os.environ.get("BASEROW_PW")
     br_client = BaseRowClient(BASEROW_USER, BASEROW_PW, BASEROW_TOKEN, br_base_url=BASEROW_URL)
     jwt_token = br_client.get_jwt_token()
+    os.makedirs("json", exist_ok=True)
     files = br_client.dump_tables_as_json(BASEROW_DB_ID, folder_name='json')
 source_directory = "./data/editions"
 source_table = "json/InputData.json"
@@ -50,3 +51,5 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     if tei_source:
         with open(output_file, "w") as f:
             f.write(tei_source.printable)
+os.remove(source_table)
+os.rmdir("json")
