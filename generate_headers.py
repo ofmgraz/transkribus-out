@@ -6,14 +6,19 @@ import os
 from sys import argv
 from acdh_baserow_pyutils import BaseRowClient
 
-BASEROW_DB_ID = 488
-BASEROW_URL = "https://baserow.acdh-dev.oeaw.ac.at/api/"
-BASEROW_TOKEN = "ZZlOZUBpKlBapPL09wQyuwKrdgCjrJnP"
-BASEROW_USER = os.environ.get("BASEROW_USER")
-BASEROW_PW = os.environ.get("BASEROW_PW")
-br_client = BaseRowClient(BASEROW_USER, BASEROW_PW, BASEROW_TOKEN, br_base_url=BASEROW_URL)
-jwt_token = br_client.get_jwt_token()
-files = br_client.dump_tables_as_json(BASEROW_DB_ID, folder_name='json')
+if len(argv) > 1:
+    test = True
+else:
+    test = False
+if not test:
+    BASEROW_DB_ID = 488
+    BASEROW_URL = "https://baserow.acdh-dev.oeaw.ac.at/api/"
+    BASEROW_TOKEN = "ZZlOZUBpKlBapPL09wQyuwKrdgCjrJnP"
+    BASEROW_USER = os.environ.get("BASEROW_USER")
+    BASEROW_PW = os.environ.get("BASEROW_PW")
+    br_client = BaseRowClient(BASEROW_USER, BASEROW_PW, BASEROW_TOKEN, br_base_url=BASEROW_URL)
+    jwt_token = br_client.get_jwt_token()
+    files = br_client.dump_tables_as_json(BASEROW_DB_ID, folder_name='json')
 source_directory = "./data/editions"
 source_table = "json/InputData.json"
 schema_file = "tei_ms.xsd"
@@ -22,7 +27,6 @@ template = "template.xml"
 
 
 i = 1
-test = False
 
 if not os.path.isdir(output_directory):
     os.mkdir(output_directory)
