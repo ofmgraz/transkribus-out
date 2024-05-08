@@ -26,7 +26,6 @@ schema_file = "tei_ms.xsd"
 output_directory = "./tei_headers"
 template = "template.xml"
 
-input('Continue')
 i = 1
 
 if not os.path.isdir(output_directory):
