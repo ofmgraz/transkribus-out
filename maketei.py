@@ -387,7 +387,7 @@ class TeiHeader(TeiTree):
             "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:measure",
             namespaces=nsmap,
         )[0]
-        if self.msdesc.xpath(".//tei:objectDesc[@form ='print']", namespaces=nsmap) or self.msdesc.xpath(".//tei:idno[@type ='shelfmark']", namespaces=nsmap) == "S 1/23":
+        if self.msdesc.xpath(".//tei:objectDesc[@form ='print']", namespaces=nsmap) or self.msdesc.xpath(".//tei:idno[@type ='shelfmark']", namespaces=nsmap)[0] in ("S 1/23", "S 1/25", "S 1/26"):
             # S1/23 is a exception
             tree.attrib["unit"] = "page"
         else:
