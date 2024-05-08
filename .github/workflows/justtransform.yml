@@ -22,6 +22,8 @@ jobs:
       run: ./transform.py
     - name: Delete old files
       run: rm -f ./data/editions/[A-S]*
+    - name: Ammend picture paths
+      run: ./ammend_pics_paths.sh
     - name: rename files
       run: ./renamefiles.py
     - name: Generate TEI text & facsimile

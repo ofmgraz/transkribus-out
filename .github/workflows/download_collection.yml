@@ -30,7 +30,9 @@ jobs:
       run: python download_and_transform.py
     - name: Delete old files
       run: rm -f ./data/editions/[A-S]*
-    - name: rename files
+    - name: Ammend picture paths
+      run: ./ammend_pics_paths.sh
+    - name: Rename files
       run: ./renamefiles.py
     - name: Generate TEI text & facsimile
       run: ./generate_body.py
