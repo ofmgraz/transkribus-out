@@ -31,7 +31,7 @@ jobs:
     - name: Delete old files
       run: rm -f ./data/editions/[A-S]*
     - name: Rename duplicates
-      run: ./ammend_duplicates.py
+      run: ./ammend_duplicate.py
     - name: Rename files
       run: ./renamefiles.py
     - name: Generate TEI text & facsimile
