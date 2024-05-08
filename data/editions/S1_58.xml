@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_58" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_67.xml" next="S1_23.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_58" xml:base="https://ofmgraz.github.io/ofm-static/" prev="A67_21.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,21 +21,21 @@
           <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
           <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
-            <surname>Sanz-Lázaro</surname>
+            <surname>Sanz-L&#225;zaro</surname>
           </persName>
         </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMKÖS Kulturerbe Digital</funder>
+        <funder>BMK&#214;S Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>Österreichische Akademie der Wissenschaften</publisher>
-        <authority>Österreichische Akademie der Wissenschaften</authority>
+        <publisher>&#214;sterreichische Akademie der Wissenschaften</publisher>
+        <authority>&#214;sterreichische Akademie der Wissenschaften</authority>
         <address>
-          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>Bäckerstraße 13</addrLine>
+          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -68,7 +68,7 @@
           </msIdentifier>
           <msContents class="#ofm #antiphonale">
             <summary>
-              <p>Auszüge aus dem Antiphonale: Magnificat-Antiphonen, bei größeren Festen Laudes und Vesper, mit Hymnen. von Marco Kloz und Azmus Lamberto</p>
+              <p>Ausz&#252;ge aus dem Antiphonale: Magnificat-Antiphonen, bei gr&#246;&#223;eren Festen Laudes und Vesper, mit Hymnen. von Marco Kloz und Azmus Lamberto</p>
               <p>Antiphonarium Seraphicum</p>
             </summary>
           </msContents>
@@ -91,7 +91,7 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#StPoelten">St. Pölten</placeName>
+              <placeName ref="#StPoelten">St. P&#246;lten</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -103,11 +103,11 @@
       </editorialDecl>
       <refsDecl>
         <p>Digitization of 53 medieval and early modern chant manuscripts and modern rare chant
-          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the ÖAW.
+          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the &#214;AW.
           Enrichment of the approximately 18,000 images with metadata (Goobi). Automated
           transcription of the average of 2000 song texts per codex using the AI-supported
           application Transkribus. Management and provision of image data via an IIIF interface,
-          long-term archiving in the ÖAW repository ARCHE. The digitized sources are of great
+          long-term archiving in the &#214;AW repository ARCHE. The digitized sources are of great
           importance for music and liturgical studies and especially for art history (noteworthy
           book decorations) and thus represent important monuments of the Austrian cultural
           heritage. Through the complete digitization, images of the sources as well as the
@@ -173,30 +173,30 @@
   <standOff>
     <listPlace>
       <place xml:id="StPoelten">
-        <placeName xml:lang="en">Sankt Pölten</placeName>
-        <placeName xml:lang="de">St. Pölten</placeName>
-        <placeName xml:lang="it">Sankt Pölten</placeName>
+        <placeName xml:lang="en">Sankt P&#246;lten</placeName>
+        <placeName xml:lang="de">St. P&#246;lten</placeName>
+        <placeName xml:lang="it">Sankt P&#246;lten</placeName>
         <location>
-          <settlement xml:lang="en">Sankt. Pölten</settlement>
-          <settlement xml:lang="de">St. Pölten</settlement>
-          <settlement xml:lang="it">Sankt Pölten</settlement>
+          <settlement xml:lang="en">Sankt. P&#246;lten</settlement>
+          <settlement xml:lang="de">St. P&#246;lten</settlement>
+          <settlement xml:lang="it">Sankt P&#246;lten</settlement>
           <region xml:lang="en">Lower Austria</region>
-          <region xml:lang="de">Niederösterreich</region>
+          <region xml:lang="de">Nieder&#246;sterreich</region>
           <region xml:lang="it">Bassa Austria</region>
           <country xml:lang="en">Austria</country>
-          <country xml:lang="de">Österreich</country>
+          <country xml:lang="de">&#214;sterreich</country>
           <country xml:lang="it">Austria</country>
           <geo>48.2 15.616666666667</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erwähnt in <title>A 67/44</title></p>
+            <p>erw&#228;hnt in <title>A 67/44</title></p>
             <linkGrp>
               <link type="URL" target="A67_44.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>S 1/58</title></p>
+            <p>erw&#228;hnt in <title>S 1/58</title></p>
             <linkGrp>
               <link type="URL" target="S1_58.xml"/>
             </linkGrp>
