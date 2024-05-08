@@ -18,15 +18,15 @@ if not test:
     BASEROW_PW = os.environ.get("BASEROW_PW")
     br_client = BaseRowClient(BASEROW_USER, BASEROW_PW, BASEROW_TOKEN, br_base_url=BASEROW_URL)
     jwt_token = br_client.get_jwt_token()
-    os.makedirs("json", exist_ok=True)
-    files = br_client.dump_tables_as_json(BASEROW_DB_ID, folder_name='json')
+    os.makedirs("tmp", exist_ok=True)
+    files = br_client.dump_tables_as_json(BASEROW_DB_ID, folder_name="tmp")
 source_directory = "./data/editions"
-source_table = os.path.join("json", "InputData.json")
+source_table = os.path.join("tmp", "InputData.json")
 schema_file = "tei_ms.xsd"
 output_directory = "./tei_headers"
 template = "template.xml"
 
-
+input('Continue')
 i = 1
 
 if not os.path.isdir(output_directory):
@@ -51,5 +51,5 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     if tei_source:
         with open(output_file, "w") as f:
             f.write(tei_source.printable)
-[os.remove(os.path.join("json", f)) for f in os.listdir("json")]
-os.rmdir("json")
+#[os.remove(os.path.join("json", f)) for f in os.listdir("json")]
+#os.rmdir("json")
