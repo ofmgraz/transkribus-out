@@ -21,7 +21,7 @@ if not test:
     os.makedirs("json", exist_ok=True)
     files = br_client.dump_tables_as_json(BASEROW_DB_ID, folder_name='json')
 source_directory = "./data/editions"
-source_table = "json/InputData.json"
+source_table = os.path.join("json", "InputData.json")
 schema_file = "tei_ms.xsd"
 output_directory = "./tei_headers"
 template = "template.xml"
@@ -51,5 +51,5 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     if tei_source:
         with open(output_file, "w") as f:
             f.write(tei_source.printable)
-os.remove(source_table)
+[os.remove(os.path.join("json", f)) for f in os.listdir("json")]
 os.rmdir("json")
