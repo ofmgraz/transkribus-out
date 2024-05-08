@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_22" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_67" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Iube Domine benedicere</title>
+        <title type="main">Antiphonarium Romanum</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
           <persName role="acdh:hasDigitisingAgent">
@@ -52,11 +52,13 @@
         <date when="2024-01-10">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Traveller device</note>
+        <note>Originals digitised with a Stativlaser device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1685-01-01" notAfter="1685-12-31">1685</date>
+          <date notBefore="1690-01-01" notAfter="1690-12-31">1690</date>
+          <pubPlace ref="#Venedig">Venedig</pubPlace>
+          <publisher ref="#Balleoni">Paolo Baglioni</publisher>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -64,25 +66,27 @@
             <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
                 Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">S 1/22</idno>
+            <idno type="shelfmark">S 1/67</idno>
           </msIdentifier>
-          <msContents class="#ofm #coralbuch">
+          <msContents class="#ofm #prozessionale">
             <summary>
-              <p>Lections- und Psalmtöne, Intonationen (Gloria, Antiphonen etc.), Lamentationen (für Graz)</p>
-              <p>Chorallehrbuch für Novizen</p>
+              <p>
+                <title>Antiphonarium romanum de tempore et sanctis ad normam beviarii ex decreto sacrosancti Concilii Tridentini restituti, B. PII V.  Pontificis Maximi isussu editi, Clementis VIII. ac Urbani VIII auctoritate recogniti</title>
+              </p>
+              <p>Prozessionale</p>
             </summary>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="print">
               <supportDesc>
                 <support>
                   <dimensions unit="mm">
-                    <height>300</height>
-                    <width>215</width>
+                    <height>190</height>
+                    <width>145</width>
                   </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="58">58</measure>
+                  <measure unit="page" quantity="290">290</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -91,7 +95,8 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#MariaLankowitz">Maria Lankowitz</placeName>
+              <placeName ref="#Venedig">Venedig</placeName>
+              <placeName ref="#Balleoni">Balleoni</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -142,8 +147,8 @@
         </taxonomy>
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
-          <category xml:id="coralbuch">
-            <catDesc>Chorallehrbuch</catDesc>
+          <category xml:id="prozessionale">
+            <catDesc>Prozessionale</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -153,7 +158,7 @@
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws" xml:lang="en">book</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -172,53 +177,107 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="MariaLankowitz">
-        <placeName xml:lang="en">Maria Lankowitz</placeName>
-        <placeName xml:lang="de">Maria Lankowitz</placeName>
-        <placeName xml:lang="it">Maria Lankowitz</placeName>
+      <place xml:id="Venedig">
+        <placeName xml:lang="en">Venice</placeName>
+        <placeName xml:lang="de">Venedig</placeName>
+        <placeName xml:lang="it">Venezia</placeName>
         <location>
-          <settlement xml:lang="en">Maria Lankowitz</settlement>
-          <settlement xml:lang="de">Maria Lankowitz</settlement>
-          <settlement xml:lang="it">Maria Lankowitz</settlement>
-          <region xml:lang="en">Styria</region>
-          <region xml:lang="de">Steiermark</region>
-          <region xml:lang="it">Stiria</region>
-          <country xml:lang="en">Austria</country>
-          <country xml:lang="de">Österreich</country>
-          <country xml:lang="it">Austria</country>
-          <geo>47.063888888889 15.063055555556</geo>
+          <settlement xml:lang="en">Venice</settlement>
+          <settlement xml:lang="de">Venedig</settlement>
+          <settlement xml:lang="it">Venezia</settlement>
+          <region xml:lang="en">Venetien</region>
+          <region xml:lang="de">Veneto</region>
+          <region xml:lang="it">Veneto</region>
+          <country xml:lang="en">Italy</country>
+          <country xml:lang="de">Italien</country>
+          <country xml:lang="it">Italia</country>
+          <geo>45.439722222222 12.331944444444</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erwähnt in <title>A 64/37</title></p>
+            <p>erwähnt in <title>S 1/66</title></p>
             <linkGrp>
-              <link type="URL" target="A64_37.xml"/>
+              <link type="URL" target="S1_66.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>A 64/34</title></p>
+            <p>erwähnt in <title>S 1/65</title></p>
             <linkGrp>
-              <link type="URL" target="A64_34.xml"/>
+              <link type="URL" target="S1_65.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>S 1/22</title></p>
+            <p>erwähnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
             <linkGrp>
-              <link type="URL" target="S1_22.xml"/>
+              <link type="URL" target="S1_69.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>S 1/40</title></p>
+            <p>erwähnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
             <linkGrp>
-              <link type="URL" target="S1_40.xml"/>
+              <link type="URL" target="S1_64.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_67.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/68</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_68.xml"/>
             </linkGrp>
           </event>
         </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4400654-8</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4076982-3</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
       </place>
     </listPlace>
+    <listPerson>
+      <person xml:id="Balleoni">
+        <persName>
+          <forename>Paolo</forename>
+          <surname>Baglioni</surname>
+        </persName>
+        <residence>
+          <date notBefore="1632-01-01" notAfter="1721-12-31" cert="medium">1632-1721?</date>
+          <settlement key="4">
+            <placeName type="pref" ref="#Venedig">Venedig</placeName>
+            <location>
+              <geo>45.439722222222 12.331944444444</geo>
+            </location>
+          </settlement>
+        </residence>
+        <sex value="male"/>
+        <occupation key="90">Drucker</occupation>
+        <idno type="URL" subtype="GND">http://d-nb.info/gnd/1037524810</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q112399622</idno>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/65</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_65.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_67.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/68</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_68.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
+      </person>
+    </listPerson>
+    <listPlace/>
   </standOff>
   <!-- Template does not validates due to this being empty-->
 </TEI>
