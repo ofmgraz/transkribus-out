@@ -177,17 +177,17 @@ class TeiHeader(TeiTree):
 
     def make_title(self, title, summary, incipit, signature):
         if title:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = title
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = f"{signature} ({title})"
         elif title := re.findall("„(.*)“", summary):
             tistmt = self.header.xpath("//tei:fileDesc/tei:titleStmt", namespaces=nsmap)[0]
             title, subtitle = self.parse_title(title[0])
             if subtitle:
-                ET.SubElement(tistmt, "title", type="sub").text = subtitle
+                ET.SubElement(tistmt, "title", type="sub").text = f"{signature} ({subtitle})"
             if tistmt.xpath("//tei:title", namespaces=nsmap)[0].text:
                 ET.SubElement(tistmt, "title", type="desc").text = tistmt.xpath("//tei:title", namespaces=nsmap)[0].text
-            tistmt.xpath("//tei:title", namespaces=nsmap)[0].text = title
+            tistmt.xpath("//tei:title", namespaces=nsmap)[0].text = f"{signature} ({title})"
         elif incipit:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = incipit
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = f"{signature} ({incipit})"
         elif signature:
             self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = signature
         else:
@@ -303,8 +303,6 @@ class TeiHeader(TeiTree):
         except Exception:
             log.print_log(self.tablename, f"“{date}”´ is not a valid date")
             year = "1500"
-            notBefore = "1500"
-            notAfter = "1800"
         if year == 2023:
             ddate = {"notBefore": f"1000{nb}", "notAfter": f"{year}{na}"}
         elif date.startswith("~"):
