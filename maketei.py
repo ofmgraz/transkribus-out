@@ -302,7 +302,9 @@ class TeiHeader(TeiTree):
             year = int(year.split("-")[0].strip("."))
         except Exception:
             log.print_log(self.tablename, f"“{date}”´ is not a valid date")
-            year = "2023"
+            year = "1500"
+            notBefore = "1500"
+            notAfter = "1800"
         if year == 2023:
             ddate = {"notBefore": f"1000{nb}", "notAfter": f"{year}{na}"}
         elif date.startswith("~"):
