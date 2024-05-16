@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_40a" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_72.xml" next="A64_39.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_40a" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_68.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,21 +21,21 @@
           <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
           <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
-            <surname>Sanz-Lázaro</surname>
+            <surname>Sanz-L&#225;zaro</surname>
           </persName>
         </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMKÖS Kulturerbe Digital</funder>
+        <funder>BMK&#214;S Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>Österreichische Akademie der Wissenschaften</publisher>
-        <authority>Österreichische Akademie der Wissenschaften</authority>
+        <publisher>&#214;sterreichische Akademie der Wissenschaften</publisher>
+        <authority>&#214;sterreichische Akademie der Wissenschaften</authority>
         <address>
-          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>Bäckerstraße 13</addrLine>
+          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -69,7 +69,7 @@
           <msContents class="#oesa #prozessionale">
             <summary>
               <p>
-                <title>Cantus Ecclesiasticus: complectens Benedictiones Candelarum, Cinerum, Ramorum, et Panis S. Nicolai Tolent nec non omnia, quae … Accedit. Ad usum, et commodum Fratrum Eremit. Discal. P. N. Augustini</title>
+                <title>Cantus Ecclesiasticus: complectens Benedictiones Candelarum, Cinerum, Ramorum, et Panis S. Nicolai Tolent nec non omnia, quae &#8230; Accedit. Ad usum, et commodum Fratrum Eremit. Discal. P. N. Augustini</title>
               </p>
               <p>Prozessionale</p>
             </summary>
@@ -103,11 +103,11 @@
       </editorialDecl>
       <refsDecl>
         <p>Digitization of 53 medieval and early modern chant manuscripts and modern rare chant
-          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the ÖAW.
+          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the &#214;AW.
           Enrichment of the approximately 18,000 images with metadata (Goobi). Automated
           transcription of the average of 2000 song texts per codex using the AI-supported
           application Transkribus. Management and provision of image data via an IIIF interface,
-          long-term archiving in the ÖAW repository ARCHE. The digitized sources are of great
+          long-term archiving in the &#214;AW repository ARCHE. The digitized sources are of great
           importance for music and liturgical studies and especially for art history (noteworthy
           book decorations) and thus represent important monuments of the Austrian cultural
           heritage. Through the complete digitization, images of the sources as well as the

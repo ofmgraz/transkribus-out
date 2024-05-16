@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_21" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_68.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_21" xml:base="https://ofmgraz.github.io/ofm-static/" prev="A64_39.xml" next="S1_61.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,21 +21,21 @@
           <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
           <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
-            <surname>Sanz-L&#225;zaro</surname>
+            <surname>Sanz-Lázaro</surname>
           </persName>
         </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMK&#214;S Kulturerbe Digital</funder>
+        <funder>BMKÖS Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>&#214;sterreichische Akademie der Wissenschaften</publisher>
-        <authority>&#214;sterreichische Akademie der Wissenschaften</authority>
+        <publisher>Österreichische Akademie der Wissenschaften</publisher>
+        <authority>Österreichische Akademie der Wissenschaften</authority>
         <address>
-          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
+          <addrLine>Bäckerstraße 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -91,7 +91,7 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#Muenchen" cert="medium">M&#252;nchen?</placeName>
+              <placeName ref="#Muenchen" cert="medium">München?</placeName>
               <placeName ref="#Graz">Graz</placeName>
             </provenance>
           </history>
@@ -104,11 +104,11 @@
       </editorialDecl>
       <refsDecl>
         <p>Digitization of 53 medieval and early modern chant manuscripts and modern rare chant
-          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the &#214;AW.
+          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the ÖAW.
           Enrichment of the approximately 18,000 images with metadata (Goobi). Automated
           transcription of the average of 2000 song texts per codex using the AI-supported
           application Transkribus. Management and provision of image data via an IIIF interface,
-          long-term archiving in the &#214;AW repository ARCHE. The digitized sources are of great
+          long-term archiving in the ÖAW repository ARCHE. The digitized sources are of great
           importance for music and liturgical studies and especially for art history (noteworthy
           book decorations) and thus represent important monuments of the Austrian cultural
           heritage. Through the complete digitization, images of the sources as well as the
@@ -178,11 +178,11 @@
     <listPlace>
       <place xml:id="Muenchen">
         <placeName xml:lang="en">Munich</placeName>
-        <placeName xml:lang="de">M&#252;nchen</placeName>
+        <placeName xml:lang="de">München</placeName>
         <placeName xml:lang="it">Monaco di Baviera</placeName>
         <location>
           <settlement xml:lang="en">Munich</settlement>
-          <settlement xml:lang="de">M&#252;nchen</settlement>
+          <settlement xml:lang="de">München</settlement>
           <settlement xml:lang="it">Monaco di Baviera</settlement>
           <region xml:lang="en">Bavaria</region>
           <region xml:lang="de">Bayern</region>
@@ -194,43 +194,43 @@
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/23</title></p>
+            <p>erwähnt in <title>A 67/23</title></p>
             <linkGrp>
               <link type="URL" target="A67_23.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/19</title></p>
+            <p>erwähnt in <title>A 67/19</title></p>
             <linkGrp>
               <link type="URL" target="A67_19.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/17</title></p>
+            <p>erwähnt in <title>A 67/17</title></p>
             <linkGrp>
               <link type="URL" target="A67_17.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/18</title></p>
+            <p>erwähnt in <title>A 67/18</title></p>
             <linkGrp>
               <link type="URL" target="A67_18.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/20</title></p>
+            <p>erwähnt in <title>A 67/20</title></p>
             <linkGrp>
               <link type="URL" target="A67_20.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Pro divino officio in choro</title></p>
+            <p>erwähnt in <title>Pro divino officio in choro</title></p>
             <linkGrp>
               <link type="URL" target="A67_27.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/22</title></p>
+            <p>erwähnt in <title>A 67/22</title></p>
             <linkGrp>
               <link type="URL" target="A67_22.xml"/>
             </linkGrp>
@@ -254,176 +254,176 @@
           <region xml:lang="de">Steiermark</region>
           <region xml:lang="it">Stiria</region>
           <country xml:lang="en">Austria</country>
-          <country xml:lang="de">&#214;sterreich</country>
+          <country xml:lang="de">Österreich</country>
           <country xml:lang="it">Austria</country>
           <geo>47.07083333333333 15.438611111111111</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Das 4. Respons Buch</title></p>
+            <p>erwähnt in <title>Das 4. Respons Buch</title></p>
             <linkGrp>
               <link type="URL" target="A67_41.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/41</title></p>
+            <p>erwähnt in <title>A 64/41</title></p>
             <linkGrp>
               <link type="URL" target="A64_41.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/19</title></p>
+            <p>erwähnt in <title>A 67/19</title></p>
             <linkGrp>
               <link type="URL" target="A67_19.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Das 4. Respons Buch</title></p>
+            <p>erwähnt in <title>Das 4. Respons Buch</title></p>
             <linkGrp>
               <link type="URL" target="A67_42.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/17</title></p>
+            <p>erwähnt in <title>A 67/17</title></p>
             <linkGrp>
               <link type="URL" target="A67_17.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Antiphonarium de Tempore et Sanctis Pro Choro
+            <p>erwähnt in <title>Antiphonarium de Tempore et Sanctis Pro Choro
                 Graecensi</title></p>
             <linkGrp>
               <link type="URL" target="S1_25.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/42</title></p>
+            <p>erwähnt in <title>A 64/42</title></p>
             <linkGrp>
               <link type="URL" target="A64_42.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/26</title></p>
+            <p>erwähnt in <title>S 1/26</title></p>
             <linkGrp>
               <link type="URL" target="S1_26.xml "/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/39</title></p>
+            <p>erwähnt in <title>A 64/39</title></p>
             <linkGrp>
               <link type="URL" target="A64_39.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/45</title></p>
+            <p>erwähnt in <title>S 1/45</title></p>
             <linkGrp>
               <link type="URL" target="S1_45.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/39</title></p>
+            <p>erwähnt in <title>S 1/39</title></p>
             <linkGrp>
               <link type="URL" target="S1_39.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/43</title></p>
+            <p>erwähnt in <title>A 64/43</title></p>
             <linkGrp>
               <link type="URL" target="A64_43.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/23</title></p>
+            <p>erwähnt in <title>A 67/23</title></p>
             <linkGrp>
               <link type="URL" target="A67_23.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/18</title></p>
+            <p>erwähnt in <title>A 67/18</title></p>
             <linkGrp>
               <link type="URL" target="A67_18.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/28</title></p>
+            <p>erwähnt in <title>S 1/28</title></p>
             <linkGrp>
               <link type="URL" target="S1_28.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/37</title></p>
+            <p>erwähnt in <title>A 64/37</title></p>
             <linkGrp>
               <link type="URL" target="A64_37.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 63/51</title></p>
+            <p>erwähnt in <title>A 63/51</title></p>
             <linkGrp>
               <link type="URL" target="A63_51.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/24</title></p>
+            <p>erwähnt in <title>S 1/24</title></p>
             <linkGrp>
               <link type="URL" target="S1_24.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/20</title></p>
+            <p>erwähnt in <title>A 67/20</title></p>
             <linkGrp>
               <link type="URL" target="A67_20.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Tota pulchra</title></p>
+            <p>erwähnt in <title>Tota pulchra</title></p>
             <linkGrp>
               <link type="URL" target="S1_19.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/40</title></p>
+            <p>erwähnt in <title>A 64/40</title></p>
             <linkGrp>
               <link type="URL" target="A64_40.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/43</title></p>
+            <p>erwähnt in <title>A 67/43</title></p>
             <linkGrp>
               <link type="URL" target="A67_43.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>Pro divino officio in choro</title></p>
+            <p>erwähnt in <title>Pro divino officio in choro</title></p>
             <linkGrp>
               <link type="URL" target="A67_27.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/44</title></p>
+            <p>erwähnt in <title>S 1/44</title></p>
             <linkGrp>
               <link type="URL" target="S1_44.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/30</title></p>
+            <p>erwähnt in <title>S 1/30</title></p>
             <linkGrp>
               <link type="URL" target="S1_30.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/27</title></p>
+            <p>erwähnt in <title>S 1/27</title></p>
             <linkGrp>
               <link type="URL" target="S1_27.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/22</title></p>
+            <p>erwähnt in <title>A 67/22</title></p>
             <linkGrp>
               <link type="URL" target="A67_22.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 64/38</title></p>
+            <p>erwähnt in <title>A 64/38</title></p>
             <linkGrp>
               <link type="URL" target="A64_38.xml"/>
             </linkGrp>
