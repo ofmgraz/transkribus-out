@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="https://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,7 +44,7 @@
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/1037512057</idno>
-          <idno type="URL" subtype="WIKIDATA">http://www.wikidata.org/entity/Q56118770</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q56118770</idno>
           <listEvent>
             <event type="mentioned">
               <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus
@@ -132,7 +132,7 @@
           </residence>
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
-          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1102696757</idno>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/1102696757</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q105889193</idno>
           <listEvent>
             <event type="mentioned">
@@ -166,7 +166,7 @@
           </residence>
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
-          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1037524810</idno>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/1037524810</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q112399622</idno>
           <listEvent>
             <event type="mentioned">
