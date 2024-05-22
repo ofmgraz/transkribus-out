@@ -51,7 +51,7 @@ log = Log("0mets2tei")
 class TeiTree:
     def __init__(self, source_tkb, source_tei):
         self.filename = source_tkb
-        self.doc_id = os.path.basename(source_tkb).rstrip(".xml")
+        self.doc_id = os.path.basename(source_tkb).rstrip(".xml").replace("64_41", "A64_41")
         self.tei = self.read_xml_input(source_tei)
         self.root = self.tei.any_xpath("//tei:TEI")[0]
         self.header = self.tei.any_xpath("//tei:teiHeader")[0]
@@ -248,41 +248,37 @@ class TeiHeader(TeiTree):
         tree.append(entry)
 
     def make_publisher(self, publisher):
+        entry = False
         tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
-        entry = ET.fromstring(
-            ET.tostring(
-                persons.any_xpath(f'//tei:person[@xml:id="{publisher}"]')[0],
-                pretty_print=True,
-                encoding="unicode",
-            )
-        )
-        tree.append(entry)
-        place = entry.xpath(
-            "//tei:residence/tei:settlement/tei:placeName", namespaces=nsmap
-        )[0]
-        fullname = " ".join(
-            [
-                n.strip()
-                for n in entry.xpath("//tei:persName", namespaces=nsmap)[0].itertext()
-            ]
-        ).strip()
-        fullname = fullname.replace("  ", " ")
-        bibl = self.header.xpath(
-            "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
-        )[0]
-        ET.SubElement(
-            bibl, "pubPlace", attrib={"ref": place.attrib["ref"]}
-        ).text = place.text
-        ET.SubElement(
-            bibl, "publisher", attrib={"ref": f"#{publisher}"}
-        ).text = fullname.strip()
-        self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib[
-            "form"
-        ] = "print"
+        for person in persons.any_xpath(f'//tei:person[@xml:id="{publisher}"]'):
+            entry = ET.fromstring(ET.tostring(person, pretty_print=True, encoding="unicode"))
+            tree.append(entry)
+            break
+        if entry:
+            place = entry.xpath("//tei:residence/tei:settlement/tei:placeName", namespaces=nsmap)[0]
+            fullname = " ".join(
+                [
+                    n.strip()
+                    for n in entry.xpath("//tei:persName", namespaces=nsmap)[0].itertext()
+                ]
+            ).strip()
+            fullname = fullname.replace("  ", " ")
+            bibl = self.header.xpath(
+                "//tei:fileDesc/tei:sourceDesc/tei:bibl", namespaces=nsmap
+            )[0]
+            ET.SubElement(
+                bibl, "pubPlace", attrib={"ref": place.attrib["ref"]}
+            ).text = place.text
+            ET.SubElement(
+                bibl, "publisher", attrib={"ref": f"#{publisher}"}
+            ).text = fullname.strip()
+            self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib[
+                "form"
+            ] = "print"
 
-        self.header.xpath(
-            "//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap
-        )[0].text = "book"
+            self.header.xpath(
+                "//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap
+            )[0].text = "book"
 
     @staticmethod
     def make_idno(person, idno):
