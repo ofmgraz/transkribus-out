@@ -31,13 +31,13 @@ jobs:
     - name: Delete old files
       run: rm -f ./data/editions/[A-S]*
     - name: Rename duplicates
-      run: ./ammend_duplicate.py
+      run: ./amend_duplicate.py
     - name: Rename files
       run: ./renamefiles.py
     - name: Generate TEI text & facsimile
       run: ./generate_body.py
     - name: Ammend picture paths
-      run: ./ammend_pics_paths.sh
+      run: ./amend_pics_paths.sh
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
