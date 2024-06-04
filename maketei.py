@@ -1,6 +1,5 @@
 from datetime import datetime
-from acdh_tei_pyutils.tei import TeiReader
-from lxml import etree as ET
+from acdh_tei_pyutils.tei import TeiReader, ET
 from lxml.etree import XMLSyntaxError
 import json
 import os
@@ -206,19 +205,20 @@ class TeiHeader(TeiTree):
         return pid
 
     def parse_origin(self, origin, publisher=False):
+        locations = TeiReader("data/indices/listplace.xml")
         origins = [x.strip() for x in origin.split(",")]
         pid = self.make_pid(origins[0])
         tree = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)
         if len(tree) < 1:
             tree = ET.SubElement(self.root.xpath(".//tei:standOff", namespaces=nsmap)[0], "listPlace")
         if pid and not self.root.xpath(
-            f'//tei:place[@xml:id="{pid}"]', namespaces=nsmap
+            f'.//tei:place[@xml:id="{pid}"]', namespaces=nsmap
         ):
-            if entry := locations.any_xpath(f'.//tei:place[@xml:id="{pid}"]'):
+            locations = locations.any_xpath(f'.//tei:place[@xml:id="{pid}"]')
+            for location in locations:
                 # Entry in the standOff list of places
                 # place = ET.SubElement(tree, "place")
-                entry = ET.fromstring(ET.tostring(entry[0], pretty_print=True, encoding="unicode"))
-                tree.append(entry)
+                tree.append(ET.fromstring(ET.tostring(location, pretty_print=True, encoding="unicode")))
             # Element in msDesc/history referencing the entry above
             provenance = self.msdesc.xpath(
                 "./tei:history/tei:provenance", namespaces=nsmap
@@ -254,7 +254,7 @@ class TeiHeader(TeiTree):
             entry = ET.fromstring(ET.tostring(person, pretty_print=True, encoding="unicode"))
             tree.append(entry)
             break
-        if entry:
+        if len(entry) > 0:
             place = entry.xpath("//tei:residence/tei:settlement/tei:placeName", namespaces=nsmap)[0]
             fullname = " ".join(
                 [
@@ -304,10 +304,19 @@ class TeiHeader(TeiTree):
         elif date.startswith("~"):
             ddate = {"notBefore": f"{year - 20}{nb}", "notAfter": f"{year + 20}{na}"}
         elif date.endswith("Jh.") or re.match(r"^\d{2}$", date):
-            ddate = {
-                "notBefore": f"{(year - 1) * 100}{nb}",
-                "notAfter": f"{(year - 1) * 100 + 99}{na}",
-            }
+            if '/' in date:
+                dates = date.split('/')
+                yb = int(re.match(r'\d+', dates[0]).group(0))
+                ya = int(re.match(r'\d+', dates[1]).group(0))
+                ddate = {
+                    "notBefore": f"{yb  * 100}{nb}",
+                    "notAfter": f"{ya  * 100}{nb}"
+                }
+            else:
+                ddate = {
+                    "notBefore": f"{(year - 1) * 100}{nb}",
+                    "notAfter": f"{(year - 1) * 100 + 99}{na}",
+                }
         elif date.endswith("x"):
             ddate = {"notBefore": f"{year}{nb}", "notAfter": f"{year + 99}{na}"}
         elif re.findall(r"^\d{2}\-\d(?:/\d)*", date):
