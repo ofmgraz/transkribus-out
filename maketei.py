@@ -440,7 +440,7 @@ class TeiHeader(TeiTree):
         respstmt = ET.SubElement(titlestmt, 'respStmt')
         ET.SubElement(respstmt, "resp").text = "Digitalisierung (Fotografieren) des Archivmaterials"
         respstmt.append(photographer.xpath("./tei:persName", namespaces=nsmap)[0])
-        for person in ('PA', 'FS'):
+        for person in ('PA', 'FS', 'RK', 'DS'):
             dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')[0]
             respstmt = ET.SubElement(titlestmt, 'respStmt')
             ET.SubElement(respstmt, "resp").text = "XML/TEI Datenmodellierung und Datengenerierung"
