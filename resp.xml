@@ -41,9 +41,15 @@
           </persName>
         </person>
         <person xml:id="FS">
-          <persName role="Contributor" ref="https://orcid.org/0000-0002-8815-6741">
+          <persName role="Contributor MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
             <surname>Sanz-Lázaro</surname>
+          </persName>
+        </person>
+        <person xml:id="DS">
+          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+            <forename>Daniel</forename>
+            <surname>Schopper</surname>
           </persName>
         </person>
       </listPerson>
