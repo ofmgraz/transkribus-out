@@ -460,6 +460,8 @@
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2729" xml:id="facs_6">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A64_43/files/images/A-Gf_A64_43-003r/full/full/0/default.jpg" width="2000px" height="2729px"/>
+         <zone points="238,1080 1107,1080 1107,1997 238,1997" rendition="TextRegion" xml:id="facs_6_tr_1719777205" subtype="0.92">
+         </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2773" xml:id="facs_7">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A64_43/files/images/A-Gf_A64_43-003v/full/full/0/default.jpg" width="2000px" height="2773px"/>
@@ -502,7 +504,7 @@
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2710" xml:id="facs_20">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A64_43/files/images/A-Gf_A64_43-012r/full/full/0/default.jpg" width="2000px" height="2710px"/>
-      </surface>
+         </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2714" xml:id="facs_21">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A64_43/files/images/A-Gf_A64_43-013r/full/full/0/default.jpg" width="2000px" height="2714px"/>
       </surface>
@@ -1837,9 +1839,6 @@
          <zone points="387,2377 387,2096 1868,2096 1868,2377" rendition="TextRegion" xml:id="facs_458_r_15" subtype="notation">
             <zone points="387,2377 387,2096 1868,2096 1868,2377" rendition="Line" xml:id="facs_458_r_15_line_002"/>
          </zone>
-         <zone points="1850,2490 437,2490 437,2389 1850,2389" rendition="TextRegion" xml:id="facs_458_r_20" subtype="text">
-            <zone points="1850,2490 437,2490 437,2389 1850,2389" rendition="Line" xml:id="facs_458_r_20_line_003"/>
-         </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2909" xml:id="facs_459">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A64_43/files/images/A-Gf_A64_43-427v/full/full/0/default.jpg" width="2000px" height="2909px"/>
@@ -2885,8 +2884,6 @@
             <ab facs="#facs_458_r_9" type="rubrik">
             </ab>
             <ab facs="#facs_458_r_15" type="notation">
-            </ab>
-            <ab facs="#facs_458_r_20" type="text">
             </ab>
             <pb facs="#facs_459" n="459" xml:id="img_0459"/>
             <ab facs="#facs_459_r" type="strophen">
