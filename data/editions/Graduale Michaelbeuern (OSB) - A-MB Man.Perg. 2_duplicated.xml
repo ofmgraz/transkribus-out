@@ -291,7 +291,28 @@
   <!-- Template does not validates due to this being empty-->
 <facsimile>
       <surface ulx="0" uly="0" lrx="2000" lry="2990" xml:id="facs_1">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-000r/full/full/0/default.jpg" width="2000px" height="2990px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images//full/full/0/default.jpg" width="2000px" height="2990px"/>
+         <zone points="52,150 52,2845 1656,2845 1656,150" rendition="TextRegion" xml:id="facs_1_tr_1" subtype="rubrik2">
+            <zone points="56,272 1225,286 1368,330 1641,296 1639,189 54,177" rendition="Line" xml:id="facs_1_tr_1_tl_1"/>
+            <zone points="805,368 865,360 915,384 921,378 949,386 984,382 982,298 945,314 929,310 917,322 907,314 891,320 855,292 803,290" rendition="Line" xml:id="facs_1_tr_1_tl_2"/>
+            <zone points="485,465 581,451 654,479 752,453 857,485 1040,455 1199,477 1197,370 1132,352 971,386 656,352 563,392 483,354" rendition="Line" xml:id="facs_1_tr_1_tl_3"/>
+            <zone points="111,555 1603,577 1601,473 1149,503 1044,459 815,487 109,440" rendition="Line" xml:id="facs_1_tr_1_tl_4"/>
+            <zone points="674,632 736,640 754,624 766,636 827,640 915,615 978,642 1020,615 1020,585 879,557 833,573 782,557 674,575" rendition="Line" xml:id="facs_1_tr_1_tl_5"/>
+            <zone points="774,688 805,688 817,676 845,690 857,682 885,700 927,678 925,632 903,634 887,620 871,634 857,630 827,638 792,638 772,632" rendition="Line" xml:id="facs_1_tr_1_tl_6"/>
+            <zone points="199,660 1251,686 1490,702 1492,782 1408,788 1315,790 833,792 410,792 310,786 203,764" rendition="Line" xml:id="facs_1_l_745"/>
+            <zone points="84,849 1609,863 1607,803 1529,776 82,774" rendition="Line" xml:id="facs_1_tr_1_tl_10"/>
+            <zone points="766,915 813,921 857,909 879,923 909,915 915,923 937,909 976,911 976,859 961,853 947,865 905,867 891,857 863,867 815,849 807,855 799,845 768,845" rendition="Line" xml:id="facs_1_tr_1_tl_11"/>
+            <zone points="336,990 338,909 382,897 1279,901 1328,903 1410,909 1410,1008 1326,1012 990,1010 833,1008 445,1000 376,998" rendition="Line" xml:id="facs_1_l_832"/>
+            <zone points="121,1064 276,1079 428,1062 1323,1084 1571,1072 1569,1006 119,1004" rendition="Line" xml:id="facs_1_tr_1_tl_16"/>
+            <zone points="648,1132 796,1136 821,1124 869,1148 917,1130 1034,1136 1032,1080 1016,1074 961,1084 911,1064 825,1088 702,1058 646,1070" rendition="Line" xml:id="facs_1_tr_1_tl_17"/>
+            <zone points="131,1193 1565,1217 1565,1144 1362,1108 1006,1153 131,1120" rendition="Line" xml:id="facs_1_tr_1_tl_18"/>
+            <zone points="630,1251 674,1259 696,1243 730,1257 772,1241 871,1265 919,1243 1068,1259 1068,1197 1014,1213 976,1195 891,1209 871,1193 831,1205 692,1189 630,1209" rendition="Line" xml:id="facs_1_tr_1_tl_19"/>
+            <zone points="501,1243 533,1241 603,1237 907,1247 1191,1261 1191,1315 652,1319 587,1319 503,1313" rendition="Line" xml:id="facs_1_line_1720018031707_210"/>
+            <zone points="42,2015 84,2007 143,2025 161,2015 195,2036 274,2034 272,1935 219,1941 209,1933 197,1941 161,1931 125,1951 93,1925 40,1911" rendition="Line" xml:id="facs_1_tr_1_tl_25"/>
+            <zone points="1382,1999 1434,2015 1476,2013 1511,2046 1543,2036 1563,2015 1641,2036 1637,1913 1595,1923 1543,1909 1523,1927 1494,1915 1452,1933 1380,1929" rendition="Line" xml:id="facs_1_tr_1_tl_24"/>
+            <zone points="592,2677 1094,2677 1094,2723 592,2723" rendition="Line" xml:id="facs_1_line_1720018059599_227"/>
+            <zone points="56,2800 1569,2812 1651,2788 1653,2693 658,2754 225,2744 58,2671" rendition="Line" xml:id="facs_1_tr_1_tl_28"/>
+         </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2808" xml:id="facs_2">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-000v/full/full/0/default.jpg" width="2000px" height="2808px"/>
@@ -1651,6 +1672,26 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
+            <ab facs="#facs_1_tr_1" type="rubrik2">
+               <lb facs="#facs_1_tr_1_tl_1" n="N001"/>HYMNARIUM SACRUM
+               <lb facs="#facs_1_tr_1_tl_2" n="N002"/>TAM
+               <lb facs="#facs_1_tr_1_tl_3" n="N003"/>ROMANVM
+               <lb facs="#facs_1_tr_1_tl_4" n="N004"/>VRBANI PAPE VIII. Auctoritate
+               <lb facs="#facs_1_tr_1_tl_5" n="N005"/>recognitum
+               <lb facs="#facs_1_tr_1_tl_6" n="N006"/>CUM
+               <lb facs="#facs_1_l_745" n="N007"/>OMNIbUS FESTIS NOVIS
+               <lb facs="#facs_1_tr_1_tl_10" n="N008"/>In hunc usque Annum a Summis Pontificibus concessis,
+               <lb facs="#facs_1_tr_1_tl_11" n="N009"/>QUAM
+               <lb facs="#facs_1_l_832" n="N010"/>FRANCISCANVM
+               <lb facs="#facs_1_tr_1_tl_16" n="N011"/>Complectens omnia festa Totius Ordinis FRATRUM
+               <lb facs="#facs_1_tr_1_tl_17" n="N012"/>MINORUM
+               <lb facs="#facs_1_tr_1_tl_18" n="N013"/>Pro Majori Eorundem &amp; Omnium ceterorum ad Chorum
+               <lb facs="#facs_1_tr_1_tl_19" n="N014"/>Astricorum Commoditate.
+               <lb facs="#facs_1_line_1720018031707_210" n="N015"/>NOVO TYPO EDITUM
+               <lb facs="#facs_1_tr_1_tl_25" n="N016"/>M.DC.
+               <lb facs="#facs_1_tr_1_tl_24" n="N017"/>LXXXV.
+               <lb facs="#facs_1_tr_1_tl_28" n="N019"/>Ex Typographeo JOANNIS BAPTISTAE MAYR, Aulico-Academici Typographi
+            </ab>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <ab facs="#facs_3_r_5" type="initiale_lombarde">
