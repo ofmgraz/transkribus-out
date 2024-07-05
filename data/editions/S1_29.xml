@@ -1245,13 +1245,13 @@
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_29/files/images/A-Gf_S1_29-016d/full/full/0/default.jpg" width="2000px" height="3444px"/>
          <zone points="351,247 1916,247 1916,491 351,491" rendition="TextRegion" xml:id="facs_22_tr_1720019156" subtype="0.99">
          </zone>
-         <zone points="380,920 514,920 514,1056 380,1056" rendition="TextRegion" xml:id="facs_22_tr_1720019168" subtype="0.84">
-         </zone>
-         <zone points="462,916 1770,916 1770,1047 462,1047" rendition="TextRegion" xml:id="facs_22_tr_1720019161" subtype="0.99">
-         </zone>
          <zone points="470,526 1788,526 1788,656 470,656" rendition="TextRegion" xml:id="facs_22_tr_1720019167" subtype="0.99">
          </zone>
          <zone points="388,656 1931,656 1931,891 388,891" rendition="TextRegion" xml:id="facs_22_tr_1720019158" subtype="0.99">
+         </zone>
+         <zone points="380,920 514,920 514,1056 380,1056" rendition="TextRegion" xml:id="facs_22_tr_1720019168" subtype="0.84">
+         </zone>
+         <zone points="462,916 1770,916 1770,1047 462,1047" rendition="TextRegion" xml:id="facs_22_tr_1720019161" subtype="0.99">
          </zone>
          <zone points="374,1059 1945,1059 1945,1328 374,1328" rendition="TextRegion" xml:id="facs_22_tr_1720019159" subtype="0.99">
          </zone>
@@ -1818,6 +1818,12 @@
          </zone>
          <zone points="613,1785 1606,1785 1606,1930 613,1930" rendition="TextRegion" xml:id="facs_39_tr_1720019144" subtype="0.99">
          </zone>
+         <zone points="34,1936 1661,1936 1661,2192 34,2192" rendition="TextRegion" xml:id="facs_39_tr_1720019136" subtype="0.99">
+         </zone>
+         <zone points="120,2203 1579,2203 1579,2338 120,2338" rendition="TextRegion" xml:id="facs_39_tr_1720019141" subtype="0.99">
+         </zone>
+         <zone points="31,2350 1644,2350 1644,2639 31,2639" rendition="TextRegion" xml:id="facs_39_tr_1720019134" subtype="0.99">
+         </zone>
          <zone points="1483,2729 1471,2700 1473,2646 1458,2641 650,2646 603,2654 210,2652 168,2655 156,2664 150,2680 158,2713 154,2735 156,2756 170,2761 772,2760 969,2755 1071,2748 1389,2755 1468,2751 1480,2741" rendition="TextRegion" xml:id="facs_39_tr_1720019139" subtype="0.99">
          </zone>
          <zone points="309,2658 1036,2658 1036,2754 309,2754" rendition="TextRegion" xml:id="facs_39_tr_1720019147" subtype="0.77">
@@ -1825,12 +1831,6 @@
          <zone points="936,2659 1022,2659 1022,2762 936,2762" rendition="TextRegion" xml:id="facs_39_tr_1720019148" subtype="0.76">
          </zone>
          <zone points="1043,2619 1445,2619 1445,2742 1043,2742" rendition="TextRegion" xml:id="facs_39_tr_1720019146" subtype="0.83">
-         </zone>
-         <zone points="34,1936 1661,1936 1661,2192 34,2192" rendition="TextRegion" xml:id="facs_39_tr_1720019136" subtype="0.99">
-         </zone>
-         <zone points="120,2203 1579,2203 1579,2338 120,2338" rendition="TextRegion" xml:id="facs_39_tr_1720019141" subtype="0.99">
-         </zone>
-         <zone points="31,2350 1644,2350 1644,2639 31,2639" rendition="TextRegion" xml:id="facs_39_tr_1720019134" subtype="0.99">
          </zone>
          <zone points="41,2790 1659,2790 1659,3068 41,3068" rendition="TextRegion" xml:id="facs_39_tr_1720019132" subtype="0.99">
          </zone>
@@ -1969,11 +1969,11 @@
          </zone>
          <zone points="374,696 1977,696 1977,952 374,952" rendition="TextRegion" xml:id="facs_44_tr_1720019223" subtype="0.99">
          </zone>
-         <zone points="494,1362 868,1362 868,1476 494,1476" rendition="TextRegion" xml:id="facs_44_tr_1720019234" subtype="0.96">
-         </zone>
          <zone points="649,948 1909,948 1909,1062 649,1062" rendition="TextRegion" xml:id="facs_44_tr_1720019233" subtype="0.99">
          </zone>
          <zone points="372,1085 1941,1085 1941,1347 372,1347" rendition="TextRegion" xml:id="facs_44_tr_1720019222" subtype="0.99">
+         </zone>
+         <zone points="494,1362 868,1362 868,1476 494,1476" rendition="TextRegion" xml:id="facs_44_tr_1720019234" subtype="0.96">
          </zone>
          <zone points="380,1495 1976,1495 1976,1767 380,1767" rendition="TextRegion" xml:id="facs_44_tr_1720019224" subtype="0.99">
          </zone>
@@ -3819,13 +3819,13 @@
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="3456" xml:id="facs_116">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_29/files/images/A-Gf_S1_29-110/full/full/0/default.jpg" width="2000px" height="3456px"/>
+         <zone points="1341,143 1863,143 1863,237 1341,237" rendition="TextRegion" xml:id="facs_116_tr_1720019302" subtype="0.85">
+         </zone>
          <zone points="373,219 1207,219 1207,625 373,625" rendition="TextRegion" xml:id="facs_116_tr_1720019298" subtype="0.99">
          </zone>
          <zone points="1128,239 1927,239 1927,465 1128,465" rendition="TextRegion" xml:id="facs_116_tr_1720019287" subtype="0.99">
          </zone>
          <zone points="1224,465 1891,465 1891,594 1224,594" rendition="TextRegion" xml:id="facs_116_tr_1720019299" subtype="0.98">
-         </zone>
-         <zone points="1341,143 1863,143 1863,237 1341,237" rendition="TextRegion" xml:id="facs_116_tr_1720019302" subtype="0.85">
          </zone>
          <zone points="364,614 1925,614 1925,876 364,876" rendition="TextRegion" xml:id="facs_116_tr_1720019289" subtype="0.99">
          </zone>
