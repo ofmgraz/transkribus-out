@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_27" xml:base="https://ofmgraz.github.io/ofm-static/" prev="Graduale für den Gebrauch in der Diözese Brixen - I-SCAss VII a 7_duplicated.xml" next="S1_67.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_27" xml:base="https://ofmgraz.github.io/ofm-static/" prev="Graduale für den Gebrauch in der Diözese Brixen - I-SCAss VII a 7_duplicated.xml" next="S1_39.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1306,7 +1306,7 @@
       </surface>
       <surface ulx="0" uly="0" lrx="3579" lry="5056" xml:id="facs_16">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A67_27/files/images/A-Gf_A67_27-008v/full/full/0/default.jpg" width="3579px" height="5056px"/>
-         <zone points="1452,1195 804,1195 804,318 1452,318" rendition="TextRegion" xml:id="facs_16_r_339" subtype="initiale_lombarde">
+         <zone points="1452,1195 804,1195 804,318 1452,318" rendition="TextRegion" xml:id="facs_16_r_339" subtype="initiale_fleuro_lombarde">
             <zone points="1452,1195 804,1195 804,318 1452,318" rendition="Line" xml:id="facs_16_r_339_line_000"/>
          </zone>
          <zone points="3362,928 1495,928 1495,586 3362,586" rendition="TextRegion" xml:id="facs_16_r" subtype="notation">
@@ -1359,7 +1359,7 @@
       </surface>
       <surface ulx="0" uly="0" lrx="3639" lry="5137" xml:id="facs_17">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A67_27/files/images/A-Gf_A67_27-009r/full/full/0/default.jpg" width="3639px" height="5137px"/>
-         <zone points="989,1158 512,1158 512,523 989,523" rendition="TextRegion" xml:id="facs_17_r_284" subtype="initiale_lombarde">
+         <zone points="989,1158 512,1158 512,523 989,523" rendition="TextRegion" xml:id="facs_17_r_284" subtype="initiale_fleuro_lombarde">
             <zone points="989,1158 512,1158 512,523 989,523" rendition="Line" xml:id="facs_17_r_284_line_000"/>
          </zone>
          <zone points="2989,883 1063,883 1063,565 2989,565" rendition="TextRegion" xml:id="facs_17_r_294" subtype="notation">
@@ -1803,14 +1803,14 @@
          </zone>
          <zone points="902,2717 911,2776 939,2792 1001,2803 1756,2830 2150,2826 3107,2838 3177,2829 3195,2815 3214,2732 3211,2687 3189,2655 3140,2630 3090,2623 1025,2592 937,2597 915,2606 906,2622" rendition="TextRegion" xml:id="facs_26_tr_1720016563" subtype="0.99">
          </zone>
-         <zone points="953,2840 939,2920 937,3819 953,3947 979,3995 1961,4013 2244,3986 2360,3993 2441,3948 2382,3903 2399,3814 2742,3763 3093,3764 3178,3790 3260,3776 3288,3727 3300,3663 3299,3399 3278,2925 3229,2862 3177,2829 2823,2841 2341,2818 1795,2828 1227,2815 1061,2798 979,2814" rendition="TextRegion" xml:id="facs_26_tr_1720016566" subtype="0.99">
-         </zone>
-         <zone points="1773,2831 3291,2831 3291,3723 1773,3723" rendition="TextRegion" xml:id="facs_26_tr_1720016568" subtype="0.9">
+         <zone points="973,2831 3290,2831 3290,4007 973,4007" rendition="TextRegion" xml:id="facs_26_tr_1720016568" subtype="0.9">
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="3537" lry="5098" xml:id="facs_27">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A67_27/files/images/A-Gf_A67_27-014r/full/full/0/default.jpg" width="3537px" height="5098px"/>
          <zone points="1003,71 967,61 889,59 609,69 437,60 407,69 399,103 395,170 396,883 400,976 408,1015 440,1025 476,1028 793,1029 903,1026 966,1019 975,1011 980,981 976,938 991,712 1002,663 1012,558 1019,525 1040,490 1071,385 1073,342 1082,323 1094,315 1082,286 1070,210 1050,141 1023,108" rendition="TextRegion" xml:id="facs_27_tr_1720018106" subtype="0.84">
+         </zone>
+         <zone points="1099,229 1548,229 1548,1096 1099,1096" rendition="TextRegion" xml:id="facs_27_r" subtype="initiale_fleuro_lombarde">
          </zone>
          <zone points="1533,488 2942,488 2942,829 1533,829" rendition="TextRegion" xml:id="facs_27_tr_1720018101" subtype="0.99">
          </zone>
@@ -1899,6 +1899,8 @@
          <zone points="956,495 2888,495 2888,864 956,864" rendition="TextRegion" xml:id="facs_29_tr_1720017763" subtype="0.99">
          </zone>
          <zone points="1010,878 2723,878 2723,1110 1010,1110" rendition="TextRegion" xml:id="facs_29_tr_1720017764" subtype="0.99">
+         </zone>
+         <zone points="474,365 916,365 916,1118 474,1118" rendition="TextRegion" xml:id="facs_29_r" subtype="initiale_fleuro_lombarde">
          </zone>
          <zone points="275,1128 2895,1128 2895,1490 275,1490" rendition="TextRegion" xml:id="facs_29_tr_1720017762" subtype="0.99">
          </zone>
@@ -2460,7 +2462,7 @@
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A67_27/files/images/A-Gf_A67_27-022r/full/full/0/default.jpg" width="3567px" height="5099px"/>
          <zone points="309,498 576,498 576,1137 309,1137" rendition="TextRegion" xml:id="facs_43_tr_1720018327" subtype="0.94">
          </zone>
-         <zone points="655,363 1199,363 1199,1105 655,1105" rendition="TextRegion" xml:id="facs_43_tr_1720018325" subtype="0.97">
+         <zone points="596,325 1199,325 1199,1139 596,1139" rendition="TextRegion" xml:id="facs_43_tr_1720018325" subtype="0.97">
          </zone>
          <zone points="1223,507 2920,507 2920,874 1223,874" rendition="TextRegion" xml:id="facs_43_tr_1720018310" subtype="0.99">
          </zone>
@@ -2541,6 +2543,8 @@
          <zone points="1476,1178 2857,1178 2857,1536 1476,1536" rendition="TextRegion" xml:id="facs_45_tr_1720016942" subtype="0.99">
          </zone>
          <zone points="1563,1543 2676,1543 2676,1751 1563,1751" rendition="TextRegion" xml:id="facs_45_tr_1720016945" subtype="0.99">
+         </zone>
+         <zone points="292,515 1401,515 1401,1806 292,1806" rendition="TextRegion" xml:id="facs_45_r" subtype="initiale_historisch">
          </zone>
          <zone points="247,1767 2869,1767 2869,2131 247,2131" rendition="TextRegion" xml:id="facs_45_tr_1720016947" subtype="0.99">
          </zone>
@@ -2626,6 +2630,10 @@
          </zone>
          <zone points="1269,859 2700,859 2700,1129 1269,1129" rendition="TextRegion" xml:id="facs_47_tr_1720017590" subtype="0.99">
          </zone>
+         <zone points="317,442 540,442 540,1134 317,1134" rendition="TextRegion" xml:id="facs_47_r" subtype="rubrik2">
+         </zone>
+         <zone points="585,383 1145,383 1145,1123 585,1123" rendition="TextRegion" xml:id="facs_47_r_138" subtype="initiale_fleuro_lombarde">
+         </zone>
          <zone points="185,1134 2859,1134 2859,1502 185,1502" rendition="TextRegion" xml:id="facs_47_tr_1720017585" subtype="0.99">
          </zone>
          <zone points="301,1496 2613,1496 2613,1734 301,1734" rendition="TextRegion" xml:id="facs_47_tr_1720017591" subtype="0.99">
@@ -2666,6 +2674,8 @@
          <zone points="1876,1099 3359,1099 3359,1492 1876,1492" rendition="TextRegion" xml:id="facs_48_tr_1720017590" subtype="0.99">
          </zone>
          <zone points="1894,1497 3155,1497 3155,1715 1894,1715" rendition="TextRegion" xml:id="facs_48_tr_1720017603" subtype="0.97">
+         </zone>
+         <zone points="760,428 1877,428 1877,1770 760,1770" rendition="TextRegion" xml:id="facs_48_r" subtype="initiale_fleuro_lombarde">
          </zone>
          <zone points="689,1763 3363,1763 3363,2114 689,2114" rendition="TextRegion" xml:id="facs_48_tr_1720017591" subtype="0.99">
          </zone>
@@ -2709,6 +2719,12 @@
          <zone points="1509,1157 2900,1157 2900,1499 1509,1499" rendition="TextRegion" xml:id="facs_49_tr_1720017880" subtype="0.99">
          </zone>
          <zone points="1534,1512 2843,1512 2843,1746 1534,1746" rendition="TextRegion" xml:id="facs_49_tr_1720017889" subtype="0.98">
+         </zone>
+         <zone points="195,449 352,449 352,885 195,885" rendition="TextRegion" xml:id="facs_49_r_184" subtype="notation">
+         </zone>
+         <zone points="214,1122 344,1122 344,1470 214,1470" rendition="TextRegion" xml:id="facs_49_r_193" subtype="notation">
+         </zone>
+         <zone points="382,457 1484,457 1484,1818 382,1818" rendition="TextRegion" xml:id="facs_49_r" subtype="initiale_fleuro_lombarde">
          </zone>
          <zone points="248,1851 248,2100 262,2123 290,2133 1699,2136 2715,2181 2827,2178 2861,2157 2866,2138 2865,1831 2847,1803 1703,1807 291,1799 259,1812" rendition="TextRegion" xml:id="facs_49_tr_1720017890" subtype="0.98">
          </zone>
@@ -2762,6 +2778,12 @@
          <zone points="680,2340 3290,2340 3290,2698 680,2698" rendition="TextRegion" xml:id="facs_50_tr_1720017332" subtype="0.99">
          </zone>
          <zone points="788,2693 2606,2693 2606,2921 788,2921" rendition="TextRegion" xml:id="facs_50_tr_1720017335" subtype="0.99">
+         </zone>
+         <zone points="634,2902 829,2902 829,3307 634,3307" rendition="TextRegion" xml:id="facs_50_r_86" subtype="notation">
+         </zone>
+         <zone points="696,3483 784,3483 784,3914 696,3914" rendition="TextRegion" xml:id="facs_50_r_95" subtype="notation">
+         </zone>
+         <zone points="814,2917 1774,2917 1774,4209 814,4209" rendition="TextRegion" xml:id="facs_50_r" subtype="initiale_cadelle">
          </zone>
          <zone points="2677,2710 2898,2710 2898,2923 2677,2923" rendition="TextRegion" xml:id="facs_50_tr_1720017337" subtype="0.99">
          </zone>
@@ -19971,74 +19993,108 @@
             <ab facs="#facs_15_r_495" type="rubrik">
             </ab>
             <pb facs="#facs_16" n="16" xml:id="img_0016"/>
-            <ab facs="#facs_16_r_339" type="initiale_lombarde">
+            <ab facs="#facs_16_r_339" type="initiale_fleuro_lombarde">
+               <lb facs="#facs_16_r_339_line_000" n="N001"/>
             </ab>
             <ab facs="#facs_16_r" type="notation">
+               <lb facs="#facs_16_r_line_001" n="N001"/>c4 l2 , l2 , l2 , l2 , z2 l3 , l3 z2 LL cu_l2 
             </ab>
             <ab facs="#facs_16_r_334" type="text">
+               <lb facs="#facs_16_r_334_line_002" n="N001"/>
             </ab>
             <ab facs="#facs_16_rrNmK_9" type="notation">
+               <lb facs="#facs_16_rrNmK_9_line_003" n="N001"/>c4 l2 , z2 l3 , z2 , l2 l1 , l2 z2 , z2 , l2 , l2 cu_l3 
             </ab>
             <ab facs="#facs_16_r_360" type="text">
+               <lb facs="#facs_16_r_360_line_004" n="N001"/>
             </ab>
             <ab facs="#facs_16_r_349" type="rubrik">
+               <lb facs="#facs_16_r_349_line_005" n="N001"/>
             </ab>
             <ab facs="#facs_16_r_354" type="initiale_cadelle">
+               <lb facs="#facs_16_r_354_line_006" n="N001"/>
             </ab>
             <ab facs="#facs_16_rCVwz_8" type="notation">
+               <lb facs="#facs_16_rCVwz_8_line_007" n="N001"/>c4 l3 , l3 z3 , z2 , z2 , l3 , z2 , z2 LL cu_l3 
             </ab>
             <ab facs="#facs_16_r_344" type="text">
+               <lb facs="#facs_16_r_344_line_008" n="N001"/>
             </ab>
             <ab facs="#facs_16_rzOLf_7" type="notation">
+               <lb facs="#facs_16_rzOLf_7_line_009" n="N001"/>c4 l3 , z2 , l2 , z2 , l3 L l2 , z2 l3 , z2 
             </ab>
             <ab facs="#facs_16_r_366" type="text">
+               <lb facs="#facs_16_r_366_line_010" n="N001"/>
             </ab>
             <ab facs="#facs_16_r_376" type="initiale_cadelle">
+               <lb facs="#facs_16_r_376_line_011" n="N001"/>
             </ab>
             <ab facs="#facs_16_r_371" type="notation">
+               <lb facs="#facs_16_r_371_line_012" n="N001"/>c4 l3 , l3 , l3 , l3 z3 , z2 , z2 , l3 , z2 , z2 cu_z2 
             </ab>
             <ab facs="#facs_16_r_381" type="text">
+               <lb facs="#facs_16_r_381_line_013" n="N001"/>
             </ab>
             <ab facs="#facs_16_r_386" type="notation">
+               <lb facs="#facs_16_r_386_line_014" n="N001"/>c4 z2 , z2 , l3 , z2 , l2 , z2 , l3 
             </ab>
             <ab facs="#facs_16_r_393" type="text">
+               <lb facs="#facs_16_r_393_line_015" n="N001"/>
             </ab>
             <pb facs="#facs_17" n="17" xml:id="img_0017"/>
-            <ab facs="#facs_17_r_284" type="initiale_lombarde">
+            <ab facs="#facs_17_r_284" type="initiale_fleuro_lombarde">
+               <lb facs="#facs_17_r_284_line_000" n="N001"/>
             </ab>
             <ab facs="#facs_17_r_294" type="notation">
+               <lb facs="#facs_17_r_294_line_001" n="N001"/>c4 l2 , l2 , l2 , z2 l3 , l3 z2 LL z2 , l2 cu_z2 
             </ab>
             <ab facs="#facs_17_r_289" type="text">
+               <lb facs="#facs_17_r_289_line_002" n="N001"/>
             </ab>
             <ab facs="#facs_17_rwnBc_11" type="notation">
+               <lb facs="#facs_17_rwnBc_11_line_003" n="N001"/>c4 z2 , l3 , z2 , l2 , l2 l1 , l2 z2 , z2 cu_l2 
             </ab>
             <ab facs="#facs_17_r_304" type="text">
+               <lb facs="#facs_17_r_304_line_004" n="N001"/>
             </ab>
             <ab facs="#facs_17_r" type="notation">
+               <lb facs="#facs_17_r_line_005" n="N001"/>c4 l2 
             </ab>
             <ab facs="#facs_17_r_309" type="text">
+               <lb facs="#facs_17_r_309_line_006" n="N001"/>
             </ab>
             <ab facs="#facs_17_r_314" type="rubrik">
+               <lb facs="#facs_17_r_314_line_007" n="N001"/>
             </ab>
             <ab facs="#facs_17_r_299" type="initiale_cadelle">
+               <lb facs="#facs_17_r_299_line_008" n="N001"/>
             </ab>
             <ab facs="#facs_17_rakoH_10" type="notation">
+               <lb facs="#facs_17_rakoH_10_line_009" n="N001"/>[c4] l3 , l3 , l3 z3 , z2 , l3 cu_z2 
             </ab>
             <ab facs="#facs_17_r_319" type="text">
+               <lb facs="#facs_17_r_319_line_010" n="N001"/>
             </ab>
             <ab facs="#facs_17_rHtZ3_8" type="notation">
+               <lb facs="#facs_17_rHtZ3_8_line_011" n="N001"/>c4 z2 , z2 LL l3 , z2 , l2 , z2 cu_l3 
             </ab>
             <ab facs="#facs_17_ryUZj_17" type="text">
+               <lb facs="#facs_17_ryUZj_17_line_012" n="N001"/>
             </ab>
             <ab facs="#facs_17_r_324" type="notation">
+               <lb facs="#facs_17_r_324_line_013" n="N001"/>c4 l3 , l2 , z2 
             </ab>
             <ab facs="#facs_17_r_339" type="text">
+               <lb facs="#facs_17_r_339_line_014" n="N001"/>
             </ab>
             <ab facs="#facs_17_r_334" type="initiale_cadelle">
+               <lb facs="#facs_17_r_334_line_015" n="N001"/>
             </ab>
             <ab facs="#facs_17_r_329" type="notation">
+               <lb facs="#facs_17_r_329_line_016" n="N001"/>[c4] l3 , l3 , l3 , l3 z3 , z2 cu_z2 
             </ab>
             <ab facs="#facs_17_r_344" type="text">
+               <lb facs="#facs_17_r_344_line_017" n="N001"/>
             </ab>
             <pb facs="#facs_18" n="18" xml:id="img_0018"/>
             <ab facs="#facs_18_r" type="initiale_lombarde">
