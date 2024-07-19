@@ -1815,6 +1815,12 @@
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2921" xml:id="facs_457">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A64_43/files/images/A-Gf_A64_43-423v/full/full/0/default.jpg" width="2000px" height="2921px"/>
+         <zone points="435,211 1074,211 1074,392 435,392" rendition="TextRegion" xml:id="facs_457_region_1721337800584_9426" subtype="text">
+            <zone points="442,207 1060,207 1060,390 442,390" rendition="Line" xml:id="facs_457_line_1721337815560_9435"/>
+         </zone>
+         <zone points="703,391 1036,391 1036,513 703,513" rendition="TextRegion" xml:id="facs_457_region_1721337802736_9429" subtype="text">
+            <zone points="711,394 1026,394 1026,507 711,507" rendition="Line" xml:id="facs_457_line_1721337818376_9438"/>
+         </zone>
          <zone points="1818,2050 367,2050 367,1887 1818,1887" rendition="TextRegion" xml:id="facs_457_r" subtype="rubrik">
             <zone points="1818,2050 367,2050 367,1887 1818,1887" rendition="Line" xml:id="facs_457_r_line_000"/>
          </zone>
@@ -1831,7 +1837,19 @@
       <surface ulx="0" uly="0" lrx="2000" lry="2935" xml:id="facs_458">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A64_43/files/images/A-Gf_A64_43-425v/full/full/0/default.jpg" width="2000px" height="2935px"/>
          <zone points="1831,1917 1698,1944 1512,1924 1273,1926 1265,2072 347,2072 347,209 1831,209" rendition="TextRegion" xml:id="facs_458_r" subtype="strophen">
-            <zone points="1831,1917 1698,1944 1512,1924 1273,1926 1265,2072 347,2072 347,209 1831,209" rendition="Line" xml:id="facs_458_r_line_000"/>
+            <zone points="364,208 1796,208 1796,402 364,402" rendition="Line" xml:id="facs_458_line_1721337868672_9452"/>
+            <zone points="381,375 1827,375 1827,545 381,545" rendition="Line" xml:id="facs_458_line_1721337876600_9455"/>
+            <zone points="373,549 1819,549 1819,687 373,687" rendition="Line" xml:id="facs_458_line_1721337882152_9458"/>
+            <zone points="384,685 1805,685 1805,806 384,806" rendition="Line" xml:id="facs_458_line_1721337887416_9461"/>
+            <zone points="377,803 1818,797 1818,976 377,982" rendition="Line" xml:id="facs_458_line_1721337897624_9464"/>
+            <zone points="378,987 1823,953 1823,1088 378,1122" rendition="Line" xml:id="facs_458_line_1721338013208_9474"/>
+            <zone points="392,1126 1821,1086 1821,1214 392,1254" rendition="Line" xml:id="facs_458_line_1721338018927_9477"/>
+            <zone points="388,1246 1811,1246 1811,1393 388,1393" rendition="Line" xml:id="facs_458_line_1721338024168_9480"/>
+            <zone points="390,1383 1809,1383 1809,1528 390,1528" rendition="Line" xml:id="facs_458_line_1721338032744_9483"/>
+            <zone points="390,1538 1795,1538 1795,1664 390,1664" rendition="Line" xml:id="facs_458_line_1721338037776_9486"/>
+            <zone points="396,1676 1787,1676 1787,1811 396,1811" rendition="Line" xml:id="facs_458_line_1721338043872_9489"/>
+            <zone points="364,1815 1809,1815 1823,1925 364,1994" rendition="Line" xml:id="facs_458_line_1721338051224_9492"/>
+            <zone points="398,1972 1274,1972 1274,2080 398,2080" rendition="Line" xml:id="facs_458_line_1721338054607_9495"/>
          </zone>
          <zone points="1834,2075 1279,2075 1279,1934 1694,1957 1834,1934" rendition="TextRegion" xml:id="facs_458_r_9" subtype="rubrik">
             <zone points="1834,2075 1279,2075 1279,1934 1694,1957 1834,1934" rendition="Line" xml:id="facs_458_r_9_line_001"/>
@@ -2870,6 +2888,10 @@
             <pb facs="#facs_455" n="455" xml:id="img_0455"/>
             <pb facs="#facs_456" n="456" xml:id="img_0456"/>
             <pb facs="#facs_457" n="457" xml:id="img_0457"/>
+            <ab facs="#facs_457_region_1721337800584_9426" type="text">
+            </ab>
+            <ab facs="#facs_457_region_1721337802736_9429" type="text">
+            </ab>
             <ab facs="#facs_457_r" type="rubrik">
             </ab>
             <ab facs="#facs_457_r_5" type="initiale_lombarde">
