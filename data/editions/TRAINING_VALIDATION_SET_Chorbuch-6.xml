@@ -279,10 +279,8 @@
       <surface ulx="0" uly="0" lrx="2000" lry="2915" xml:id="facs_1">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_64/files/images//full/full/0/default.jpg" width="2000px" height="2915px"/>
          <zone points="124,109 1702,109 1702,1605 124,1605" rendition="TextRegion" xml:id="facs_1_tr_1719772114" subtype="0.93">
-            <zone points="124,109 1702,109 1702,1605 124,1605" rendition="Line" xml:id="facs_1_tr_1719772114_line_000"/>
          </zone>
          <zone points="203,2362 1648,2362 1648,2581 203,2581" rendition="TextRegion" xml:id="facs_1_tr_1719772113" subtype="0.97">
-            <zone points="203,2362 1648,2362 1648,2581 203,2581" rendition="Line" xml:id="facs_1_tr_1719772113_line_001"/>
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2997" xml:id="facs_2">
@@ -16780,10 +16778,6 @@
       <body>
          <div>
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <ab facs="#facs_1_tr_1719772114">
-            </ab>
-            <ab facs="#facs_1_tr_1719772113">
-            </ab>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <ab facs="#facs_3_r" type="rubrik2">
