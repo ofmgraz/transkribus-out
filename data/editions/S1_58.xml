@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_58" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_19.xml" next="A67_41.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_58" xml:base="https://ofmgraz.github.io/ofm-static/" prev="Graduale Michaelbeuern (OSB) - A-MB Man.Perg. 2_duplicated.xml" next="A67_41.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -241,19 +241,22 @@
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2846" xml:id="facs_3">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_58/files/images//full/full/0/default.jpg" width="2000px" height="2846px"/>
+         <zone points="326,435 280,436 272,504 248,506 125,512 118,498 118,393 326,393" rendition="TextRegion" xml:id="facs_3_r_344" subtype="rubrik2">
+            <zone points="130,386 322,386 322,441 130,441" rendition="Line" xml:id="facs_3_line_1721635812054_1083"/>
+            <zone points="120,434 274,434 274,478 120,478" rendition="Line" xml:id="facs_3_line_1721635815213_1086"/>
+            <zone points="124,476 268,476 268,515 124,515" rendition="Line" xml:id="facs_3_line_1721635819309_1089"/>
+         </zone>
+         <zone points="1979,262 1765,262 1765,169 1979,169" rendition="TextRegion" xml:id="facs_3_r" subtype="rubrik">
+            <zone points="1979,262 1765,262 1765,169 1979,169" rendition="Line" xml:id="facs_3_r_line_004"/>
+         </zone>
          <zone points="323,367 113,391 117,518 279,508 279,487 301,437 322,506 322,556 26,556 26,202 322,202" rendition="TextRegion" xml:id="facs_3_r_335" subtype="initiale_lombarde">
             <zone points="323,367 113,391 117,518 279,508 301,437 322,556 26,556 26,202 322,202" rendition="Line" xml:id="facs_3_r_335_line_000"/>
-         </zone>
-         <zone points="326,435 280,436 272,504 248,506 125,512 118,498 118,393 326,393" rendition="TextRegion" xml:id="facs_3_r_344" subtype="rubrik2">
          </zone>
          <zone points="1752,444 334,444 334,161 1752,161" rendition="TextRegion" xml:id="facs_3_r_356" subtype="notation">
             <zone points="1752,444 334,444 334,161 1752,161" rendition="Line" xml:id="facs_3_r_356_line_002"/>
          </zone>
          <zone points="1675,566 435,566 435,455 1675,455" rendition="TextRegion" xml:id="facs_3_r_361" subtype="text">
             <zone points="1675,566 435,566 435,455 1675,455" rendition="Line" xml:id="facs_3_r_361_line_003"/>
-         </zone>
-         <zone points="1979,262 1765,262 1765,169 1979,169" rendition="TextRegion" xml:id="facs_3_r" subtype="rubrik">
-            <zone points="1979,262 1765,262 1765,169 1979,169" rendition="Line" xml:id="facs_3_r_line_004"/>
          </zone>
          <zone points="1769,806 32,806 32,574 1769,574" rendition="TextRegion" xml:id="facs_3_r_366" subtype="notation">
             <zone points="1769,806 32,806 32,574 1769,574" rendition="Line" xml:id="facs_3_r_366_line_005"/>
@@ -264,11 +267,16 @@
          <zone points="1741,1179 1500,1178 1401,1151 1194,1172 1155,1205 439,1197 386,1226 37,1225 37,962 594,998 1032,993 1749,989" rendition="TextRegion" xml:id="facs_3_r_378" subtype="notation">
             <zone points="1741,1179 1500,1178 1401,1151 1194,1172 1155,1205 439,1197 386,1226 37,1225 37,962 594,998 1032,993 1749,989" rendition="Line" xml:id="facs_3_r_378_line_007"/>
          </zone>
+         <zone points="1278,1356 298,1356 276,1391 165,1356 115,1356 115,1243 1278,1243" rendition="TextRegion" xml:id="facs_3_r_402" subtype="text">
+            <zone points="1278,1356 298,1356 276,1391 115,1356 115,1243 1278,1243" rendition="Line" xml:id="facs_3_r_402_line_009"/>
+         </zone>
          <zone points="1443,1297 1363,1297 1366,1162 1402,1156 1440,1167" rendition="TextRegion" xml:id="facs_3_r_391" subtype="rubrik">
             <zone points="1443,1297 1363,1297 1366,1162 1402,1156 1440,1167" rendition="Line" xml:id="facs_3_r_391_line_008"/>
          </zone>
-         <zone points="1278,1356 298,1356 276,1391 165,1356 115,1356 115,1243 1278,1243" rendition="TextRegion" xml:id="facs_3_r_402" subtype="text">
-            <zone points="1278,1356 298,1356 276,1391 115,1356 115,1243 1278,1243" rendition="Line" xml:id="facs_3_r_402_line_009"/>
+         <zone points="1967,1535 1751,1535 1751,1313 1967,1313" rendition="TextRegion" xml:id="facs_3_r_397" subtype="rubrik2">
+            <zone points="1753,1320 1953,1320 1953,1408 1753,1408" rendition="Line" xml:id="facs_3_line_1721635942700_1125"/>
+            <zone points="1804,1396 1877,1396 1877,1452 1804,1452" rendition="Line" xml:id="facs_3_line_1721635945299_1128"/>
+            <zone points="1751,1449 1949,1439 1936,1534 1751,1534" rendition="Line" xml:id="facs_3_line_1721635948500_1131"/>
          </zone>
          <zone points="258,1745 16,1745 16,1396 258,1396" rendition="TextRegion" xml:id="facs_3_r_415" subtype="initiale_lombarde">
             <zone points="258,1745 16,1745 16,1396 258,1396" rendition="Line" xml:id="facs_3_r_415_line_010"/>
@@ -278,8 +286,6 @@
          </zone>
          <zone points="1692,1728 366,1728 366,1609 1692,1609" rendition="TextRegion" xml:id="facs_3_r_420" subtype="text">
             <zone points="1692,1728 366,1728 366,1609 1692,1609" rendition="Line" xml:id="facs_3_r_420_line_012"/>
-         </zone>
-         <zone points="1967,1535 1751,1535 1751,1313 1967,1313" rendition="TextRegion" xml:id="facs_3_r_397" subtype="rubrik2">
          </zone>
          <zone points="1765,1983 36,1983 36,1754 570,1750 1765,1754" rendition="TextRegion" xml:id="facs_3_r_425" subtype="notation">
             <zone points="1765,1983 36,1983 36,1754 570,1750 1765,1754" rendition="Line" xml:id="facs_3_r_425_line_014"/>
@@ -305,7 +311,10 @@
          <zone points="870,490 783,490 783,437 783,386 870,386" rendition="TextRegion" xml:id="facs_4_r_346" subtype="rubrik">
             <zone points="870,490 783,490 783,386 870,386" rendition="Line" xml:id="facs_4_r_346_line_002"/>
          </zone>
-         <zone points="252,703 74,703 74,539 252,539" rendition="TextRegion" xml:id="facs_4_r_353" subtype="rubrik2">
+         <zone points="252,703 74,703 74,539 288,539" rendition="TextRegion" xml:id="facs_4_r_353" subtype="rubrik2">
+            <zone points="81,539 276,539 276,603 81,603" rendition="Line" xml:id="facs_4_line_1721635993611_1146"/>
+            <zone points="124,600 201,600 201,638 124,638" rendition="Line" xml:id="facs_4_line_1721635996491_1149"/>
+            <zone points="78,637 259,637 259,700 78,700" rendition="Line" xml:id="facs_4_line_1721635999531_1152"/>
          </zone>
          <zone points="460,906 256,906 256,590 460,590" rendition="TextRegion" xml:id="facs_4_r_358" subtype="initiale_lombarde">
             <zone points="460,906 256,906 256,590 460,590" rendition="Line" xml:id="facs_4_r_358_line_004"/>
@@ -337,6 +346,10 @@
          <zone points="1139,2075 1036,2075 1036,1926 1139,1926" rendition="TextRegion" xml:id="facs_4_r_410" subtype="rubrik">
             <zone points="1139,2075 1036,2075 1036,1926 1139,1926" rendition="Line" xml:id="facs_4_r_410_line_013"/>
          </zone>
+         <zone points="278,2183 266,2199 255,2204 111,2204 111,2076 278,2076" rendition="TextRegion" xml:id="facs_4_r_420" subtype="rubrik2">
+            <zone points="156,2074 248,2074 248,2133 156,2133" rendition="Line" xml:id="facs_4_line_1721636140236_1176"/>
+            <zone points="122,2131 283,2132 269,2200 122,2200" rendition="Line" xml:id="facs_4_line_1721636144516_1179"/>
+         </zone>
          <zone points="517,2435 234,2435 234,2234 270,2199 306,2142 517,2142" rendition="TextRegion" xml:id="facs_4_r_425" subtype="initiale_lombarde">
             <zone points="517,2435 234,2435 234,2234 306,2142 517,2142" rendition="Line" xml:id="facs_4_r_425_line_014"/>
          </zone>
@@ -345,8 +358,6 @@
          </zone>
          <zone points="1929,2434 1395,2434 1359,2471 1266,2473 1266,2441 667,2430 667,2326 1414,2321 1539,2298 1929,2326" rendition="TextRegion" xml:id="facs_4_r_441" subtype="text">
             <zone points="1929,2434 1395,2434 1266,2473 1266,2441 667,2430 667,2326 1539,2298 1929,2326" rendition="Line" xml:id="facs_4_r_441_line_016"/>
-         </zone>
-         <zone points="278,2183 266,2199 255,2204 111,2204 111,2076 278,2076" rendition="TextRegion" xml:id="facs_4_r_420" subtype="rubrik2">
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2812" xml:id="facs_5">
@@ -366,6 +377,10 @@
          <zone points="1006,900 905,900 905,777 1006,777" rendition="TextRegion" xml:id="facs_5_r_25" subtype="rubrik">
             <zone points="1006,900 905,900 905,777 1006,777" rendition="Line" xml:id="facs_5_r_25_line_004"/>
          </zone>
+         <zone points="1909,1107 1765,1107 1765,950 1909,950" rendition="TextRegion" xml:id="facs_5_r_20" subtype="rubrik2">
+            <zone points="1792,951 1872,951 1872,1007 1792,1007" rendition="Line" xml:id="facs_5_line_1721636280547_1213"/>
+            <zone points="1768,1002 1903,1002 1903,1105 1768,1105" rendition="Line" xml:id="facs_5_line_1721636284003_1216"/>
+         </zone>
          <zone points="315,1301 31,1301 31,970 315,970" rendition="TextRegion" xml:id="facs_5_r_30" subtype="initiale_lombarde">
             <zone points="315,1301 31,1301 31,970 315,970" rendition="Line" xml:id="facs_5_r_30_line_005"/>
          </zone>
@@ -374,8 +389,6 @@
          </zone>
          <zone points="1745,1339 414,1339 414,1175 1745,1175" rendition="TextRegion" xml:id="facs_5_r_40" subtype="text">
             <zone points="1745,1339 414,1339 414,1175 1745,1175" rendition="Line" xml:id="facs_5_r_40_line_007"/>
-         </zone>
-         <zone points="1909,1107 1765,1107 1765,950 1909,950" rendition="TextRegion" xml:id="facs_5_r_20" subtype="rubrik2">
          </zone>
          <zone points="56,1558 56,1351 1765,1351 1765,1558" rendition="TextRegion" xml:id="facs_5_r_45" subtype="notation">
             <zone points="56,1558 56,1351 1765,1351 1765,1558" rendition="Line" xml:id="facs_5_r_45_line_009"/>
@@ -389,8 +402,12 @@
          <zone points="1513,2096 83,2096 83,1956 1513,1956" rendition="TextRegion" xml:id="facs_5_r_60" subtype="text">
             <zone points="1513,2096 83,2096 83,1956 1513,1956" rendition="Line" xml:id="facs_5_r_60_line_012"/>
          </zone>
-         <zone points="1623,2013 1531,2013 1531,1957 1623,1957" rendition="TextRegion" xml:id="facs_5_r_65" subtype="rubrik">
-            <zone points="1623,2013 1531,2013 1531,1957 1623,1957" rendition="Line" xml:id="facs_5_r_65_line_013"/>
+         <zone points="1623,2013 1531,2013 1536,1920 1628,1920" rendition="TextRegion" xml:id="facs_5_r_65" subtype="rubrik">
+            <zone points="1623,2013 1531,2013 1535,1915 1627,1915" rendition="Line" xml:id="facs_5_r_65_line_013"/>
+         </zone>
+         <zone points="1916,2251 1751,2231 1765,2107 1821,2096 1916,2107" rendition="TextRegion" xml:id="facs_5_r_70" subtype="rubrik2">
+            <zone points="1770,2108 1832,2097 1841,2158 1770,2158" rendition="Line" xml:id="facs_5_line_1721636298556_1225"/>
+            <zone points="1760,2162 1911,2153 1912,2248 1756,2229" rendition="Line" xml:id="facs_5_line_1721636302059_1228"/>
          </zone>
          <zone points="324,2461 40,2461 40,2119 324,2119" rendition="TextRegion" xml:id="facs_5_r_76" subtype="initiale_lombarde">
             <zone points="324,2461 40,2461 40,2119 324,2119" rendition="Line" xml:id="facs_5_r_76_line_014"/>
@@ -400,8 +417,6 @@
          </zone>
          <zone points="1747,2483 414,2483 414,2328 1747,2328" rendition="TextRegion" xml:id="facs_5_r_86" subtype="text">
             <zone points="1747,2483 414,2483 414,2328 1747,2328" rendition="Line" xml:id="facs_5_r_86_line_016"/>
-         </zone>
-         <zone points="1916,2251 1751,2231 1765,2107 1821,2096 1916,2107" rendition="TextRegion" xml:id="facs_5_r_70" subtype="rubrik2">
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2783" xml:id="facs_6">
@@ -422,6 +437,8 @@
             <zone points="1472,889 1375,889 1375,777 1472,777" rendition="Line" xml:id="facs_6_r_22_line_004"/>
          </zone>
          <zone points="230,1074 101,1074 101,931 230,931" rendition="TextRegion" xml:id="facs_6_r_27" subtype="rubrik2">
+            <zone points="132,930 213,930 213,992 132,992" rendition="Line" xml:id="facs_6_line_1721636397643_1261"/>
+            <zone points="104,992 230,992 230,1071 104,1071" rendition="Line" xml:id="facs_6_line_1721636402155_1264"/>
          </zone>
          <zone points="457,1279 233,1279 233,956 457,956" rendition="TextRegion" xml:id="facs_6_r_32" subtype="initiale_lombarde">
             <zone points="457,1279 233,1279 233,956 457,956" rendition="Line" xml:id="facs_6_r_32_line_006"/>
@@ -448,6 +465,8 @@
             <zone points="850,2043 748,2043 748,1923 850,1923" rendition="Line" xml:id="facs_6_r_67_line_013"/>
          </zone>
          <zone points="234,2211 89,2211 89,2081 234,2081" rendition="TextRegion" xml:id="facs_6_r_72" subtype="rubrik2">
+            <zone points="148,2087 210,2087 210,2137 148,2137" rendition="Line" xml:id="facs_6_line_1721636420979_1275"/>
+            <zone points="92,2147 231,2136 231,2208 92,2208" rendition="Line" xml:id="facs_6_line_1721636423291_1278"/>
          </zone>
          <zone points="483,2470 247,2470 247,2099 483,2099" rendition="TextRegion" xml:id="facs_6_r_77" subtype="initiale_lombarde">
             <zone points="483,2470 247,2470 247,2099 483,2099" rendition="Line" xml:id="facs_6_r_77_line_015"/>
@@ -476,21 +495,21 @@
          <zone points="1044,924 931,924 931,804 1044,804" rendition="TextRegion" xml:id="facs_7_r_25" subtype="rubrik">
             <zone points="1044,924 931,924 931,804 1044,804" rendition="Line" xml:id="facs_7_r_25_line_004"/>
          </zone>
-         <zone points="1727,1171 373,1171 373,979 1727,979" rendition="TextRegion" xml:id="facs_7_r_48" subtype="notation">
-            <zone points="1727,1171 373,1171 373,979 1727,979" rendition="Line" xml:id="facs_7_r_48_line_005"/>
-         </zone>
          <zone points="1949,1124 1729,1124 1729,902 1949,902" rendition="TextRegion" xml:id="facs_7_r" subtype="rubrik2">
             <zone points="1732,911 1936,911 1936,1008 1732,1008" rendition="Line" xml:id="facs_7_line_1721383740755_2452"/>
             <zone points="1773,1000 1892,1000 1892,1050 1773,1050" rendition="Line" xml:id="facs_7_line_1721383742467_2455"/>
             <zone points="1745,1050 1943,1050 1943,1105 1745,1105" rendition="Line" xml:id="facs_7_line_1721383744581_2458"/>
          </zone>
-         <zone points="341,1037 210,1034 216,1307 124,1308 133,1047 25,1053 25,978 342,978" rendition="TextRegion" xml:id="facs_7_r_30" subtype="initiale_lombarde">
-            <zone points="341,1037 210,1034 216,1307 124,1308 133,1047 25,1053 25,978 342,978" rendition="Line" xml:id="facs_7_r_30_line_007"/>
-         </zone>
          <zone points="323,1112 317,1156 314,1177 448,1175 441,1250 214,1250 214,1039 372,1039 375,1111" rendition="TextRegion" xml:id="facs_7_r_39" subtype="rubrik2">
             <zone points="217,1042 369,1042 369,1083 217,1083" rendition="Line" xml:id="facs_7_line_1721383733030_2443"/>
             <zone points="221,1092 331,1092 331,1152 221,1152" rendition="Line" xml:id="facs_7_line_1721383735425_2446"/>
             <zone points="226,1156 446,1156 446,1246 226,1246" rendition="Line" xml:id="facs_7_line_1721383737787_2449"/>
+         </zone>
+         <zone points="341,1037 210,1034 216,1307 124,1308 133,1047 25,1053 25,978 342,978" rendition="TextRegion" xml:id="facs_7_r_30" subtype="initiale_lombarde">
+            <zone points="341,1037 210,1034 216,1307 124,1308 133,1047 25,1053 25,978 342,978" rendition="Line" xml:id="facs_7_r_30_line_007"/>
+         </zone>
+         <zone points="1727,1171 373,1171 373,979 1727,979" rendition="TextRegion" xml:id="facs_7_r_48" subtype="notation">
+            <zone points="1727,1171 373,1171 373,979 1727,979" rendition="Line" xml:id="facs_7_r_48_line_005"/>
          </zone>
          <zone points="1628,1349 464,1349 464,1218 1628,1218" rendition="TextRegion" xml:id="facs_7_r_54" subtype="text">
             <zone points="1628,1349 464,1349 464,1218 1628,1218" rendition="Line" xml:id="facs_7_r_54_line_009"/>
@@ -584,6 +603,10 @@
          <zone points="1341,482 1241,482 1241,391 1341,391" rendition="TextRegion" xml:id="facs_9_r_5" subtype="rubrik">
             <zone points="1341,482 1241,482 1241,391 1341,391" rendition="Line" xml:id="facs_9_r_5_line_002"/>
          </zone>
+         <zone points="1906,684 1753,684 1753,536 1906,536" rendition="TextRegion" xml:id="facs_9_r_32" subtype="rubrik2">
+            <zone points="1765,543 1861,543 1861,603 1765,603" rendition="Line" xml:id="facs_9_line_1721383783828_2485"/>
+            <zone points="1746,596 1894,596 1894,665 1746,665" rendition="Line" xml:id="facs_9_line_1721383785793_2488"/>
+         </zone>
          <zone points="324,929 44,929 44,606 324,606" rendition="TextRegion" xml:id="facs_9_r_17" subtype="initiale_lombarde">
             <zone points="324,929 44,929 44,606 324,606" rendition="Line" xml:id="facs_9_r_17_line_003"/>
          </zone>
@@ -592,10 +615,6 @@
          </zone>
          <zone points="1719,934 423,934 423,807 1719,807" rendition="TextRegion" xml:id="facs_9_r_27" subtype="text">
             <zone points="1719,934 423,934 423,807 1719,807" rendition="Line" xml:id="facs_9_r_27_line_005"/>
-         </zone>
-         <zone points="1906,684 1753,684 1753,536 1906,536" rendition="TextRegion" xml:id="facs_9_r_32" subtype="rubrik2">
-            <zone points="1765,543 1861,543 1861,603 1765,603" rendition="Line" xml:id="facs_9_line_1721383783828_2485"/>
-            <zone points="1746,596 1894,596 1894,665 1746,665" rendition="Line" xml:id="facs_9_line_1721383785793_2488"/>
          </zone>
          <zone points="1749,1177 1309,1174 1010,1199 844,1179 44,1177 44,955 1749,955" rendition="TextRegion" xml:id="facs_9_r_37" subtype="notation">
             <zone points="1749,1177 1309,1174 1010,1199 844,1179 44,1177 44,955 1749,955" rendition="Line" xml:id="facs_9_r_37_line_007"/>
@@ -612,6 +631,10 @@
          <zone points="520,1669 416,1669 416,1550 520,1550" rendition="TextRegion" xml:id="facs_9_r_68" subtype="rubrik">
             <zone points="520,1669 416,1669 416,1550 520,1550" rendition="Line" xml:id="facs_9_r_68_line_011"/>
          </zone>
+         <zone points="1901,1848 1740,1848 1740,1693 1901,1693" rendition="TextRegion" xml:id="facs_9_r_98" subtype="rubrik2">
+            <zone points="1748,1696 1828,1696 1828,1764 1748,1764" rendition="Line" xml:id="facs_9_line_1721383774783_2479"/>
+            <zone points="1744,1755 1887,1755 1887,1829 1744,1829" rendition="Line" xml:id="facs_9_line_1721383776600_2482"/>
+         </zone>
          <zone points="368,2079 60,2079 60,1802 368,1802" rendition="TextRegion" xml:id="facs_9_r_78" subtype="initiale_lombarde">
             <zone points="368,2079 60,2079 60,1802 368,1802" rendition="Line" xml:id="facs_9_r_78_line_012"/>
          </zone>
@@ -620,10 +643,6 @@
          </zone>
          <zone points="1602,2097 493,2097 493,1963 1602,1963" rendition="TextRegion" xml:id="facs_9_r_88" subtype="text">
             <zone points="1602,2097 493,2097 493,1963 1602,1963" rendition="Line" xml:id="facs_9_r_88_line_014"/>
-         </zone>
-         <zone points="1901,1848 1740,1848 1740,1693 1901,1693" rendition="TextRegion" xml:id="facs_9_r_98" subtype="rubrik2">
-            <zone points="1748,1696 1828,1696 1828,1764 1748,1764" rendition="Line" xml:id="facs_9_line_1721383774783_2479"/>
-            <zone points="1744,1755 1887,1755 1887,1829 1744,1829" rendition="Line" xml:id="facs_9_line_1721383776600_2482"/>
          </zone>
          <zone points="1727,2311 31,2311 31,2106 1727,2106" rendition="TextRegion" xml:id="facs_9_r_83" subtype="notation">
             <zone points="1727,2311 31,2311 31,2106 1727,2106" rendition="Line" xml:id="facs_9_r_83_line_016"/>
@@ -711,6 +730,11 @@
          <zone points="1500,1295 1390,1295 1390,1157 1500,1157" rendition="TextRegion" xml:id="facs_11_r_37" subtype="rubrik">
             <zone points="1500,1295 1390,1295 1390,1157 1500,1157" rendition="Line" xml:id="facs_11_r_37_line_006"/>
          </zone>
+         <zone points="1953,1503 1730,1503 1730,1300 1953,1300" rendition="TextRegion" xml:id="facs_11_r_42" subtype="rubrik2">
+            <zone points="1729,1299 1938,1299 1938,1380 1729,1380" rendition="Line" xml:id="facs_11_line_1721383816206_2510"/>
+            <zone points="1774,1370 1870,1370 1870,1423 1774,1423" rendition="Line" xml:id="facs_11_line_1721383817931_2513"/>
+            <zone points="1727,1416 1943,1416 1943,1497 1727,1497" rendition="Line" xml:id="facs_11_line_1721383820376_2516"/>
+         </zone>
          <zone points="285,1698 38,1698 38,1368 285,1368" rendition="TextRegion" xml:id="facs_11_r_56" subtype="initiale_lombarde">
             <zone points="285,1698 38,1698 38,1368 285,1368" rendition="Line" xml:id="facs_11_r_56_line_007"/>
          </zone>
@@ -719,11 +743,6 @@
          </zone>
          <zone points="1725,1690 365,1690 365,1579 1725,1579" rendition="TextRegion" xml:id="facs_11_r_61" subtype="text">
             <zone points="1725,1690 365,1690 365,1579 1725,1579" rendition="Line" xml:id="facs_11_r_61_line_009"/>
-         </zone>
-         <zone points="1953,1503 1730,1503 1730,1300 1953,1300" rendition="TextRegion" xml:id="facs_11_r_42" subtype="rubrik2">
-            <zone points="1729,1299 1938,1299 1938,1380 1729,1380" rendition="Line" xml:id="facs_11_line_1721383816206_2510"/>
-            <zone points="1774,1370 1870,1370 1870,1423 1774,1423" rendition="Line" xml:id="facs_11_line_1721383817931_2513"/>
-            <zone points="1727,1416 1943,1416 1943,1497 1727,1497" rendition="Line" xml:id="facs_11_line_1721383820376_2516"/>
          </zone>
          <zone points="1743,1924 52,1942 52,1717 1743,1717" rendition="TextRegion" xml:id="facs_11_r_66" subtype="notation">
             <zone points="1743,1924 52,1942 52,1717 1743,1717" rendition="Line" xml:id="facs_11_r_66_line_011"/>
@@ -750,7 +769,7 @@
             <zone points="946,508 843,508 843,386 946,386" rendition="Line" xml:id="facs_12_r_5_line_002"/>
          </zone>
          <zone points="259,707 115,707 115,554 259,554" rendition="TextRegion" xml:id="facs_12_r_15" subtype="rubrik2">
-            <zone points="155,553 253,553 253,618 155,618" rendition="Line" xml:id="facs_12_line_1721383831445_2522"/>
+            <zone points="155,553 236,557 236,622 155,618" rendition="Line" xml:id="facs_12_line_1721383831445_2522"/>
             <zone points="124,610 253,610 253,698 124,698" rendition="Line" xml:id="facs_12_line_1721383833419_2525"/>
          </zone>
          <zone points="494,896 261,896 261,587 494,587" rendition="TextRegion" xml:id="facs_12_r_20" subtype="initiale_lombarde">
@@ -788,7 +807,7 @@
             <zone points="1927,1906 540,1906 540,1677 966,1707 1796,1674 1927,1677" rendition="Line" xml:id="facs_12_r_70_line_014"/>
          </zone>
          <zone points="1858,2046 684,2046 684,1935 1725,1913 1858,1935" rendition="TextRegion" xml:id="facs_12_r_84" subtype="text">
-            <zone points="1858,2046 684,2046 684,1935 1858,1935" rendition="Line" xml:id="facs_12_r_84_line_015"/>
+            <zone points="1858,2046 684,2046 684,1935 1696,1909 1858,1935" rendition="Line" xml:id="facs_12_r_84_line_015"/>
          </zone>
          <zone points="1942,2285 263,2285 263,2072 1942,2072" rendition="TextRegion" xml:id="facs_12_r_89" subtype="notation">
             <zone points="1942,2285 263,2285 263,2072 1942,2072" rendition="Line" xml:id="facs_12_r_89_line_016"/>
@@ -918,6 +937,10 @@
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2771" xml:id="facs_15">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_58/files/images//full/full/0/default.jpg" width="2000px" height="2771px"/>
+         <zone points="1971,347 1755,347 1755,194 1971,194" rendition="TextRegion" xml:id="facs_15_r" subtype="rubrik2">
+            <zone points="1787,198 1892,198 1892,270 1787,270" rendition="Line" xml:id="facs_15_line_1721383877077_2558"/>
+            <zone points="1766,268 1948,268 1948,356 1766,356" rendition="Line" xml:id="facs_15_line_1721383878712_2561"/>
+         </zone>
          <zone points="408,525 83,525 83,188 408,188" rendition="TextRegion" xml:id="facs_15_r_15" subtype="initiale_lombarde">
             <zone points="408,525 83,525 83,188 408,188" rendition="Line" xml:id="facs_15_r_15_line_000"/>
          </zone>
@@ -926,10 +949,6 @@
          </zone>
          <zone points="1777,563 535,563 535,417 1777,417" rendition="TextRegion" xml:id="facs_15_r_10" subtype="text">
             <zone points="1777,563 535,563 535,417 1777,417" rendition="Line" xml:id="facs_15_r_10_line_002"/>
-         </zone>
-         <zone points="1971,347 1755,347 1755,194 1971,194" rendition="TextRegion" xml:id="facs_15_r" subtype="rubrik2">
-            <zone points="1787,198 1892,198 1892,270 1787,270" rendition="Line" xml:id="facs_15_line_1721383877077_2558"/>
-            <zone points="1766,268 1948,268 1948,356 1766,356" rendition="Line" xml:id="facs_15_line_1721383878712_2561"/>
          </zone>
          <zone points="1790,780 64,780 64,582 1790,582" rendition="TextRegion" xml:id="facs_15_r_20" subtype="notation">
             <zone points="1790,780 64,780 64,582 1790,582" rendition="Line" xml:id="facs_15_r_20_line_004"/>
@@ -1093,8 +1112,8 @@
          <zone points="1928,1903 241,1903 241,1715 1928,1715" rendition="TextRegion" xml:id="facs_18_r_50" subtype="notation">
             <zone points="1928,1903 241,1903 241,1715 1928,1715" rendition="Line" xml:id="facs_18_r_50_line_010"/>
          </zone>
-         <zone points="1842,2050 319,2050 319,1917 1842,1917" rendition="TextRegion" xml:id="facs_18_r_55" subtype="text">
-            <zone points="1842,2050 319,2050 319,1917 1842,1917" rendition="Line" xml:id="facs_18_r_55_line_011"/>
+         <zone points="1842,2050 1302,2042 1271,1999 1249,2004 1241,2051 319,2050 319,1917 1842,1917" rendition="TextRegion" xml:id="facs_18_r_55" subtype="text">
+            <zone points="1842,2050 1303,2048 1289,1992 1253,2006 1240,2044 319,2050 319,1917 1842,1917" rendition="Line" xml:id="facs_18_r_55_line_011"/>
          </zone>
          <zone points="1939,2280 255,2280 255,2061 1939,2061" rendition="TextRegion" xml:id="facs_18_r_60" subtype="notation">
             <zone points="1939,2280 255,2280 255,2061 1939,2061" rendition="Line" xml:id="facs_18_r_60_line_012"/>
@@ -1138,8 +1157,8 @@
          <zone points="1744,1943 406,1943 406,1747 1744,1747" rendition="TextRegion" xml:id="facs_19_r_52" subtype="notation">
             <zone points="1744,1943 406,1943 406,1747 1744,1747" rendition="Line" xml:id="facs_19_r_52_line_010"/>
          </zone>
-         <zone points="1628,2101 647,2101 647,1958 1628,1958" rendition="TextRegion" xml:id="facs_19_r_57" subtype="text">
-            <zone points="1628,2101 647,2101 647,1958 1628,1958" rendition="Line" xml:id="facs_19_r_57_line_011"/>
+         <zone points="1628,2047 1598,2051 1588,2087 1582,2099 647,2101 647,1958 1628,1958" rendition="TextRegion" xml:id="facs_19_r_57" subtype="text">
+            <zone points="1631,2047 1603,2051 1585,2103 647,2101 647,1958 1628,1958" rendition="Line" xml:id="facs_19_r_57_line_011"/>
          </zone>
          <zone points="1741,2303 39,2303 39,2104 1741,2104" rendition="TextRegion" xml:id="facs_19_r_62" subtype="notation">
             <zone points="1741,2303 39,2303 39,2104 1741,2104" rendition="Line" xml:id="facs_19_r_62_line_012"/>
@@ -1159,11 +1178,11 @@
          <zone points="1924,758 1046,758 812,791 237,758 237,567 1924,567" rendition="TextRegion" xml:id="facs_20_r_10" subtype="notation">
             <zone points="1924,758 1046,758 812,791 237,758 237,567 1924,567" rendition="Line" xml:id="facs_20_r_10_line_002"/>
          </zone>
-         <zone points="1811,846 1692,846 1692,776 1811,776" rendition="TextRegion" xml:id="facs_20_r_15" subtype="rubrik">
-            <zone points="1811,846 1692,846 1692,776 1811,776" rendition="Line" xml:id="facs_20_r_15_line_003"/>
-         </zone>
          <zone points="1689,923 353,923 353,789 1666,812" rendition="TextRegion" xml:id="facs_20_r_20" subtype="text">
             <zone points="1689,923 353,923 353,789 1666,812" rendition="Line" xml:id="facs_20_r_20_line_004"/>
+         </zone>
+         <zone points="1811,846 1692,846 1692,776 1811,776" rendition="TextRegion" xml:id="facs_20_r_15" subtype="rubrik">
+            <zone points="1811,846 1692,846 1692,776 1811,776" rendition="Line" xml:id="facs_20_r_15_line_003"/>
          </zone>
          <zone points="609,1266 271,1266 271,954 609,954" rendition="TextRegion" xml:id="facs_20_r_27" subtype="initiale_lombarde">
             <zone points="609,1266 271,1266 271,954 609,954" rendition="Line" xml:id="facs_20_r_27_line_005"/>
@@ -12979,13 +12998,15 @@
             <p facs="#facs_1_region_1721383239510_2304"/>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+            <ab facs="#facs_3_r_344" type="rubrik2">
+            </ab>
+            <ab facs="#facs_3_r" type="rubrik">
+            </ab>
             <ab facs="#facs_3_r_335" type="initiale_lombarde">
             </ab>
             <ab facs="#facs_3_r_356" type="notation">
             </ab>
             <ab facs="#facs_3_r_361" type="text">
-            </ab>
-            <ab facs="#facs_3_r" type="rubrik">
             </ab>
             <ab facs="#facs_3_r_366" type="notation">
             </ab>
@@ -12993,9 +13014,11 @@
             </ab>
             <ab facs="#facs_3_r_378" type="notation">
             </ab>
+            <ab facs="#facs_3_r_402" type="text">
+            </ab>
             <ab facs="#facs_3_r_391" type="rubrik">
             </ab>
-            <ab facs="#facs_3_r_402" type="text">
+            <ab facs="#facs_3_r_397" type="rubrik2">
             </ab>
             <ab facs="#facs_3_r_415" type="initiale_lombarde">
             </ab>
@@ -13018,6 +13041,8 @@
             </ab>
             <ab facs="#facs_4_r_346" type="rubrik">
             </ab>
+            <ab facs="#facs_4_r_353" type="rubrik2">
+            </ab>
             <ab facs="#facs_4_r_358" type="initiale_lombarde">
             </ab>
             <ab facs="#facs_4_r_363" type="notation">
@@ -13038,6 +13063,8 @@
             </ab>
             <ab facs="#facs_4_r_410" type="rubrik">
             </ab>
+            <ab facs="#facs_4_r_420" type="rubrik2">
+            </ab>
             <ab facs="#facs_4_r_425" type="initiale_lombarde">
             </ab>
             <ab facs="#facs_4_r_434" type="notation">
@@ -13055,6 +13082,8 @@
             </ab>
             <ab facs="#facs_5_r_25" type="rubrik">
             </ab>
+            <ab facs="#facs_5_r_20" type="rubrik2">
+            </ab>
             <ab facs="#facs_5_r_30" type="initiale_lombarde">
             </ab>
             <ab facs="#facs_5_r_35" type="notation">
@@ -13070,6 +13099,8 @@
             <ab facs="#facs_5_r_60" type="text">
             </ab>
             <ab facs="#facs_5_r_65" type="rubrik">
+            </ab>
+            <ab facs="#facs_5_r_70" type="rubrik2">
             </ab>
             <ab facs="#facs_5_r_76" type="initiale_lombarde">
             </ab>
@@ -13088,6 +13119,8 @@
             </ab>
             <ab facs="#facs_6_r_22" type="rubrik">
             </ab>
+            <ab facs="#facs_6_r_27" type="rubrik2">
+            </ab>
             <ab facs="#facs_6_r_32" type="initiale_lombarde">
             </ab>
             <ab facs="#facs_6_r_37" type="notation">
@@ -13103,6 +13136,8 @@
             <ab facs="#facs_6_r_62" type="text">
             </ab>
             <ab facs="#facs_6_r_67" type="rubrik">
+            </ab>
+            <ab facs="#facs_6_r_72" type="rubrik2">
             </ab>
             <ab facs="#facs_6_r_77" type="initiale_lombarde">
             </ab>
@@ -13121,13 +13156,13 @@
             </ab>
             <ab facs="#facs_7_r_25" type="rubrik">
             </ab>
-            <ab facs="#facs_7_r_48" type="notation">
-            </ab>
             <ab facs="#facs_7_r" type="rubrik2">
+            </ab>
+            <ab facs="#facs_7_r_39" type="rubrik2">
             </ab>
             <ab facs="#facs_7_r_30" type="initiale_lombarde">
             </ab>
-            <ab facs="#facs_7_r_39" type="rubrik2">
+            <ab facs="#facs_7_r_48" type="notation">
             </ab>
             <ab facs="#facs_7_r_54" type="text">
             </ab>
@@ -13187,13 +13222,13 @@
             </ab>
             <ab facs="#facs_9_r_5" type="rubrik">
             </ab>
+            <ab facs="#facs_9_r_32" type="rubrik2">
+            </ab>
             <ab facs="#facs_9_r_17" type="initiale_lombarde">
             </ab>
             <ab facs="#facs_9_r_22" type="notation">
             </ab>
             <ab facs="#facs_9_r_27" type="text">
-            </ab>
-            <ab facs="#facs_9_r_32" type="rubrik2">
             </ab>
             <ab facs="#facs_9_r_37" type="notation">
             </ab>
@@ -13205,13 +13240,13 @@
             </ab>
             <ab facs="#facs_9_r_68" type="rubrik">
             </ab>
+            <ab facs="#facs_9_r_98" type="rubrik2">
+            </ab>
             <ab facs="#facs_9_r_78" type="initiale_lombarde">
             </ab>
             <ab facs="#facs_9_r_73" type="notation">
             </ab>
             <ab facs="#facs_9_r_88" type="text">
-            </ab>
-            <ab facs="#facs_9_r_98" type="rubrik2">
             </ab>
             <ab facs="#facs_9_r_83" type="notation">
             </ab>
@@ -13267,13 +13302,13 @@
             </ab>
             <ab facs="#facs_11_r_37" type="rubrik">
             </ab>
+            <ab facs="#facs_11_r_42" type="rubrik2">
+            </ab>
             <ab facs="#facs_11_r_56" type="initiale_lombarde">
             </ab>
             <ab facs="#facs_11_r_48" type="notation">
             </ab>
             <ab facs="#facs_11_r_61" type="text">
-            </ab>
-            <ab facs="#facs_11_r_42" type="rubrik2">
             </ab>
             <ab facs="#facs_11_r_66" type="notation">
             </ab>
@@ -13397,13 +13432,13 @@
             <ab facs="#facs_14_r_114" type="rubrik">
             </ab>
             <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+            <ab facs="#facs_15_r" type="rubrik2">
+            </ab>
             <ab facs="#facs_15_r_15" type="initiale_lombarde">
             </ab>
             <ab facs="#facs_15_r_5" type="notation">
             </ab>
             <ab facs="#facs_15_r_10" type="text">
-            </ab>
-            <ab facs="#facs_15_r" type="rubrik2">
             </ab>
             <ab facs="#facs_15_r_20" type="notation">
             </ab>
@@ -13552,9 +13587,9 @@
             </ab>
             <ab facs="#facs_20_r_10" type="notation">
             </ab>
-            <ab facs="#facs_20_r_15" type="rubrik">
-            </ab>
             <ab facs="#facs_20_r_20" type="text">
+            </ab>
+            <ab facs="#facs_20_r_15" type="rubrik">
             </ab>
             <ab facs="#facs_20_r_27" type="initiale_lombarde">
             </ab>
