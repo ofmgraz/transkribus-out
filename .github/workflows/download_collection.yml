@@ -31,7 +31,7 @@ jobs:
     - name: Download and transform
       run: python download_and_transform.py
     - name: Rename duplicates
-      run: ./amend_duplicate.py
+      run: ./amend_duplicate.py || true
     - name: Rename files
       run: ./renamefiles.py
     - name: Remove duplicates
