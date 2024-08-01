@@ -21,7 +21,7 @@ jobs:
     - name: Transform
       run: ./transform.py
     - name: Delete old files
-      run: rm -f ./data/editions/[A-S]*
+      run: rm -f ./data/editions/[A-Z]*
     - name: Rename duplicates
       run: ./amend_duplicate.py
     - name: rename files
