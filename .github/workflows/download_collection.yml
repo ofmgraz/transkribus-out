@@ -30,7 +30,7 @@ jobs:
       run: rm -f data/editions/*
     - name: Download and transform
       run: python download_and_transform.py
-    - name: Rename duplicates
+    - name: Amend file paths
       run: ./amend_duplicate.py || true
     - name: Rename files
       run: ./renamefiles.py
