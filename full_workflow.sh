@@ -2,7 +2,7 @@
 . ./secret.env
 rm -rf editions
 ./download.py
-rm -f data/editions/[A-Z]*
+rm -f data/editions/*[A-Z_]*
 cd data
 tar cvf numbers.tar editions
 # tar xvf numbers.tar
