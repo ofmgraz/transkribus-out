@@ -1,5 +1,5 @@
 #!/bin/sh
-source ./secret.env
+. ./secret.env
 rm -rf editions
 ./download.py
 rm -f data/editions/[A-Z]*
