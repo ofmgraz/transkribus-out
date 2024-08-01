@@ -30,8 +30,8 @@ jobs:
       run: rm -f data/editions/*duplicate*
     - name: Generate TEI text & facsimile
       run: ./generate_body.py
-    - name: Ammend picture paths
-      run: ./amend_pics_paths.sh
+    - name: Amend picture paths
+      run: ./amend_pics_paths.sh || true
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
