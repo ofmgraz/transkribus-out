@@ -26,10 +26,10 @@ jobs:
       run: pip install -U -r requirements.txt
     - name: Delete old METS
       run: rm -rf mets/*
+    - name: Delete old files
+      run: rm -f data/editions/*
     - name: Download and transform
       run: python download_and_transform.py
-    - name: Delete old files
-      run: rm -f ./data/editions/[A-Z]*
     - name: Rename duplicates
       run: ./amend_duplicate.py
     - name: Rename files
