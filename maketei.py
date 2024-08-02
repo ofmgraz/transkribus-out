@@ -5,6 +5,7 @@ import json
 import os
 import re
 import pandas as pd
+import requests
 
 
 nsmap = {
@@ -106,18 +107,24 @@ class TeiBody(TeiTree):
     def amend_pics_url(tree, doc_id):
         graphic_elements = tree.any_xpath(".//tei:graphic")
         for element in graphic_elements:
-            img_name = element.attrib["url"].split(".")[0].replace("Gu", "Gf")
-            img_name = re.sub(r"^[\d_]*", "", img_name)
-            img_name = re.sub(r"A-Gf_([\d])", "A-Gf_A\g<1>", img_name)
-            img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
-            if tree.any_xpath(".//tei:measure[@unit = 'page']"):
-                img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
-            element.attrib["url"] = (
-                "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/"
-                f"{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
-            )
-            for empty_url in tree.any_xpath(".//tei:graphic[@url='']") + tree.any_xpath(".//tei:graphic[contains(@url, 'transkribus')]"):
-                empty_url.getparent().remove(empty_url)
+            img_name = element.attrib["url"].replace("Gu", "Gf").split(".jpg")[0]
+            if len(img_name) < 1 or img_name.isdigit():
+                element.getparent().remove(element)
+            else:
+                if "http" in img_name:
+                    response = requests.get(element.attrib["url"])
+                    img_name = response.headers.get("Content-Disposition").split("filename=")[1].split(".jpg")[0]
+                img_name = img_name.replace("Gu", "Gf").split(".jpg")[0]
+                img_name = re.sub(r"^.*A-Gf_", "A-Gf_", img_name)
+                img_name = re.sub(r"^[\d_]*", "", img_name)
+                img_name = re.sub(r"A-Gf_([\d])", "A-Gf_A\g<1>", img_name)
+                img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
+                if tree.any_xpath(".//tei:measure[@unit = 'page']"):
+                    img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
+                element.attrib["url"] = (
+                    "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/"
+                    f"{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
+                )
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
 
