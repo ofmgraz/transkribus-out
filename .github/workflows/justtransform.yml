@@ -27,7 +27,7 @@ jobs:
     - name: rename files
       run: ./renamefiles.py
     - name: Remove duplicates
-      run: rm -f data/editions/*duplicate* || true ; rm -f data/editions/2926205* || true ; rm -f data/editions/*TRAINING* || true
+      run: rm -f data/editions/*duplicate* || true ; rm -f data/editions/2926205* || true ; rm -f data/editions/*TRAINING* || true || rm -f data/editions/S1_44.xml || true
     - name: Generate TEI text & facsimile
       run: ./generate_body.py
     - name: Amend picture paths
