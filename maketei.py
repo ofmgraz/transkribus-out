@@ -447,16 +447,16 @@ class TeiHeader(TeiTree):
         respstmt = ET.SubElement(titlestmt, 'respStmt')
         ET.SubElement(respstmt, "resp").text = "Digitalisierung (Fotografieren) des Archivmaterials"
         respstmt.append(photographer.xpath("./tei:persName", namespaces=nsmap)[0])
-        for person in ('PA', 'RK', 'DS'):
-            dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')
-            if dataresp:
-                respstmt = ET.SubElement(titlestmt, 'respStmt')
-                ET.SubElement(respstmt, "resp").text = "Datengenerierung"
-                respstmt.append(dataresp)
-        dataresp = resps.any_xpath(f'.//tei:person[@xml:id="FS"]/tei:persName')[0]
-        respstmt = ET.SubElement(titlestmt, 'respStmt')
-        ET.SubElement(respstmt, "resp").text = "XML Datenmodellierung"
-        respstmt.append(dataresp)
+
+        for person in ('PA', 'RK', 'DS', 'FS'):
+            dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')[0]
+            respstmt = ET.SubElement(titlestmt, 'respStmt')
+            if person == 'FS':
+                role = "XML Datenmodellierung"
+            else:
+                role = "Datengenerierung"
+            ET.SubElement(respstmt, "resp").text = role
+            respstmt.append(dataresp)
         if other:
             dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{other}"]/tei:persName')[0]
             respstmt = ET.SubElement(titlestmt, 'respStmt')
