@@ -178,9 +178,8 @@ class TeiHeader(TeiTree):
             self.parse_extension(row["Umfang fol."])
             self.parse_format(row["Format"])
             self.parse_notation(False)  # Placeholder
-            self.parse_photographer(row["Fotograf"])
+            self.parse_photographer(row["Fotograf"], row["Bearbeiter"])
             self.parse_device(row["Gerät"])
-            self.parse_others(row["Bearbeiter"])
 
     def make_title(self, title, summary, incipit, signature):
         if title:
@@ -199,10 +198,6 @@ class TeiHeader(TeiTree):
             self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = signature
         else:
             self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = 'No title'
-    def parse_others(self, other):
-        others = {"ALH": "Anna-Lena Huber", "MS": " Moritz Schmoetten"}
-        tree = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)
-
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
@@ -445,22 +440,26 @@ class TeiHeader(TeiTree):
         url = self.tei.any_xpath(f'.//tei:surface[@xml:id="{facs}"]/tei:graphic/@url')[0]
         return url.replace("full/full", "full/600,")
 
-    def parse_photographer(self, photographer):
+    def parse_photographer(self, photographer, other=""):
         resps = TeiReader("resp.xml")
         photographer = resps.any_xpath(f'.//tei:person[@xml:id="{photographer}"]')[0]
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
         respstmt = ET.SubElement(titlestmt, 'respStmt')
         ET.SubElement(respstmt, "resp").text = "Digitalisierung (Fotografieren) des Archivmaterials"
         respstmt.append(photographer.xpath("./tei:persName", namespaces=nsmap)[0])
-        for person in ('PA', 'FS', 'RK', 'DS'):
+        for person in ('PA', 'RK', 'DS'):
             dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')[0]
             respstmt = ET.SubElement(titlestmt, 'respStmt')
-            ET.SubElement(respstmt, "resp").text = "XML/TEI Datenmodellierung und Datengenerierung"
+            ET.SubElement(respstmt, "resp").text = "Datengenerierung"
             respstmt.append(dataresp)
-        for person in ('ALH', 'MS'):
-            dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')[0]
+        dataresp = resps.any_xpath(f'.//tei:person[@xml:id="FS"]/tei:persName')[0]
+        respstmt = ET.SubElement(titlestmt, 'respStmt')
+        ET.SubElement(respstmt, "resp").text = "XML Datenmodellierung"
+        respstmt.append(dataresp)
+        if other:
+            dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{other}"]/tei:persName')[0]
             respstmt = ET.SubElement(titlestmt, 'respStmt')
-            ET.SubElement(respstmt, "resp").text = "Transkribus transcription works"
+            ET.SubElement(respstmt, "resp").text = "Transkribus Mitarbeit"
             respstmt.append(dataresp)
 
 
