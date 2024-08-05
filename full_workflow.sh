@@ -10,5 +10,5 @@ tar cvf numbers.tar editions
 cd ..
 ./amend_pics_paths.sh || true
 ./renamefiles.py
-rm -f data/editions/*(duplicate|2926205|TRAINING)*
+rm -f data/editions/*(duplicate|2926205|TRAINING|S1_44)*
 ./generate_body.py
