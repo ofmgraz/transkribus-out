@@ -10,8 +10,14 @@
         <funder>BMKÖS Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>Österreichische Akademie der Wissenschaften</publisher>
-        <authority>Österreichische Akademie der Wissenschaften</authority>
+        <publisher>
+            <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307<idno>
+        </publisher>
+        <authority>
+          <orgName>Österreichische Akademie der Wissenschaften</orgName>
+          <idno type="URL" subtype="GND>">http://d-nb.info/gnd/1001454-8</idno>
+        </authority>
         <address>
           <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
@@ -19,17 +25,23 @@
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
-            <ref target="https://www.oeaw.ac.at/">https://www.oeaw.ac.at/</ref>
+            <ref target="https://www.oeaw.ac.at/acdh/acdh-ch-home">https://www.oeaw.ac.at/acdh/acdh-ch-home</ref>
           </addrLine>
           <addrLine>
             <email>acdh-ch@oeaw.ac.at</email>
           </addrLine>
         </address>
-        <pubPlace ref="#Wien" xml:lang="de">Wien</pubPlace>
+        <pubPlace>
+          <placeName xml:lang="de">Wien</placeName>
+          <placeName xml:lang="en">Vienna</placeName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q1741</idno>
+        </pubPlace>
         <availability>
-          <licence>cc0</licence>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
         </availability>
-        <date when="2024-01-10">2024</date>
+        <date when="2024-08-31">2024</date>
+        <idno type="handle">XXXX</idno>
       </publicationStmt>
       <notesStmt>
         <note />
@@ -40,13 +52,16 @@
         </bibl>
         <msDesc>
           <msIdentifier>
-            <institution ref="https://d-nb.info/gnd/16174362-6">Franziskanerkloster Graz</institution>
-            <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
-                Graz</placeName> + <idno type="URL" subtype="GND"
-                >https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata"
-                >https://www.wikidata.org/entity/Q64487580</idno>
+            <institution>
+               <orgName>Franziskanerkloster Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+            </institution>
+            <repository>
+               <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark"/>
+            <idno type="shelfmark">A 63/51</idno>
           </msIdentifier>
           <msContents>
             <summary/>
