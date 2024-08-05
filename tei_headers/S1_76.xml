@@ -1,43 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A70_41" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_76" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A 70/41 (Ad mandatum antiphonae)</title>
-        <respStmt>
-          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName role="DigitisingAgent" ref="https://orcid.org/0000-0001-6195-2935">
-            <forename>Jakob</forename>
-            <surname>Leitner</surname>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
-            <forename>Peter</forename>
-            <surname>Andorfer</surname>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="DigitisingAgent Contributor" ref="https://orcid.org/0000-0002-0484-832X">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
-            <forename>Daniel</forename>
-            <surname>Schopper</surname>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>XML Datenmodellierung</resp>
-          <persName role="Contributor MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
-            <forename>Fernando</forename>
-            <surname>Sanz-Lázaro</surname>
-          </persName>
-        </respStmt>
+        <title type="main"/>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
@@ -78,11 +43,11 @@
         <idno type="handle">XXXX</idno>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Traveller device</note>
+        <note/>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1700-01-01" notAfter="1800-01-01">17./18. Jh.</date>
+          <date/>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -95,29 +60,24 @@
               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 70/41</idno>
+            <idno type="shelfmark">A 63/51</idno>
           </msIdentifier>
-          <msContents class="#ofm #antiphonale">
-            <summary>
-              <p>Ad Mandatum Antiphonae</p>
-              <p>Antiphonale</p>
-            </summary>
+          <msContents>
+            <summary/>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm">
-                    <height>115</height>
-                    <width>111</width>
-                  </dimensions>
+                  <dimensions unit="mm"> </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="54">54</measure>
+                  <measure/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>Placeholder<binaryObject/>
+            <musicNotation>
+              <binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
@@ -140,20 +100,6 @@
         </label>
         </application>
       </appInfo>
-      <classDecl>
-        <taxonomy xml:id="liturgies">
-          <desc>Liturgies</desc>
-          <category xml:id="ofm">
-            <catDesc>OFM</catDesc>
-          </category>
-        </taxonomy>
-        <taxonomy xml:id="booktypes">
-          <desc>Book Types</desc>
-          <category xml:id="antiphonale">
-            <catDesc>Antiphonale</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -177,8 +123,6 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listPlace/>
-  </standOff>
+  <standOff/>
   <!-- Template does not validates due to this being empty-->
 </TEI>
