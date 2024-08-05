@@ -41,11 +41,11 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     if test:
         tei_source = maketei.TeiHeader(input_file, template, source_table)
     else:
-        try:
-            tei_source = maketei.TeiHeader(input_file, template, source_table)
-        except Exception as e:
-            error = f"{type(e).__name__} {__file__} {e.__traceback__.tb_lineno}"
-            log.print_log(input_file, error, stdout=True)
+        # try:
+        tei_source = maketei.TeiHeader(input_file, template, source_table)
+        #except Exception as e:
+        #    error = f"{type(e).__name__} {__file__} {e.__traceback__.tb_lineno}"
+        #    log.print_log(input_file, error, stdout=True)
     output_file = os.path.join(output_directory, input_file.split('/')[-1])
     if tei_source:
         with open(output_file, "w") as f:

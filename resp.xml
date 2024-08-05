@@ -6,11 +6,13 @@
         <title>Responsibility</title>
         <respStmt>
           <resp>providing the content</resp>
-          <persName role="acdh:createdBy" key="https://orcid.org/0000-0002-8815-6741">Fernando Sanz-Lázaro</persName>
+          <persName role="acdh:createdBy" key="https://orcid.org/0000-0002-8815-6741">Fernando
+            Sanz-Lázaro</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <publisher>Austrian Centre for Digital Humanities and Cultural Heritage
+          (ACDH-CH)</publisher>
         <pubPlace>Vienna, Austria</pubPlace>
         <date>2023-11-21+01:00</date>
       </publicationStmt>
@@ -23,12 +25,12 @@
     <body>
       <listPerson>
         <person xml:id="RK">
-          <persName role="DigitisingAgent Contributor"  ref="https://orcid.org/0000-0002-0484-832X">
+          <persName role="DigitisingAgent Contributor" ref="https://orcid.org/0000-0002-0484-832X">
             <forename>Robert</forename>
             <surname>Klugseder</surname>
           </persName>
         </person>
-        <person xml:id="JL" >
+        <person xml:id="JL">
           <persName role="DigitisingAgent" ref="https://orcid.org/0000-0001-6195-2935">
             <forename>Jakob</forename>
             <surname>Leitner</surname>
@@ -50,6 +52,18 @@
           <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
             <forename>Daniel</forename>
             <surname>Schopper</surname>
+          </persName>
+        </person>
+        <person xml:id="ALH">
+          <persName role="Transcriptor">
+            <forename>Anna-Lena</forename>
+            <surname>Huber</surname>
+          </persName>
+        </person>
+        <person xml:id="MS">
+          <persName role="Transcriptor">
+            <forename>Moritz</forename>
+            <surname>Schmoetten</surname>
           </persName>
         </person>
       </listPerson>

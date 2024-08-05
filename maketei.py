@@ -180,6 +180,7 @@ class TeiHeader(TeiTree):
             self.parse_notation(False)  # Placeholder
             self.parse_photographer(row["Fotograf"])
             self.parse_device(row["Gerät"])
+            self.parse_others(row["Bearbeiter"])
 
     def make_title(self, title, summary, incipit, signature):
         if title:
@@ -198,6 +199,10 @@ class TeiHeader(TeiTree):
             self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = signature
         else:
             self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = 'No title'
+    def parse_others(self, other):
+        others = {"ALH": "Anna-Lena Huber", "MS": " Moritz Schmoetten"}
+        tree = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)
+
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
@@ -452,6 +457,12 @@ class TeiHeader(TeiTree):
             respstmt = ET.SubElement(titlestmt, 'respStmt')
             ET.SubElement(respstmt, "resp").text = "XML/TEI Datenmodellierung und Datengenerierung"
             respstmt.append(dataresp)
+        for person in ('ALH', 'MS'):
+            dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')[0]
+            respstmt = ET.SubElement(titlestmt, 'respStmt')
+            ET.SubElement(respstmt, "resp").text = "Transkribus transcription works"
+            respstmt.append(dataresp)
+
 
     def parse_device(self, device):
         devices = {"Stativlaser": "Stativlaser", "Traveller": "Traveller"}
