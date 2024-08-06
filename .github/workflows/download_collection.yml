@@ -39,7 +39,7 @@ jobs:
     - name: Rename files
       run: ./renamefiles.py
     - name: Regenerate headers
-      run: generate_headers.py
+      run: ./generate_headers.py
     - name: Generate TEI text & facsimile
       run: ./generate_body.py
     - name: Ammend picture paths
