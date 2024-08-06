@@ -15,7 +15,7 @@ for x in files:
     tail = os.path.split(x)[-1]
     doc_id = tail.split("_")[0]
     tei_file = f"{doc_id}.xml"
-    print(f"transforming mets: {x} to {tei_file}")
+    print(f"transforming mets: {x} to {TEI_DIR}/{tei_file}")
     with PySaxonProcessor(license=False) as proc:
         xsltproc = proc.new_xslt30_processor()
         xsltproc.set_parameter("combine", proc.make_boolean_value(True))
