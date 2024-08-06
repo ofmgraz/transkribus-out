@@ -28,8 +28,12 @@ jobs:
       run: rm -rf mets/*
     - name: Delete old files
       run: rm -f data/editions/*
-    - name: Download and transform
-      run: python download_and_transform.py
+    - name: Download
+      run: python download.py
+    - name: Delete non included files
+      run: rm -f mets/216937/{2926205,1523134,2914584,2926205,3374447,3374448,3374547,3376967,377127,3377287,3385787,3406471}* || true
+    - name: Transform
+      run: python transform.py
     - name: Amend duplicates
       run: ./amend_duplicate.py || true
     - name: Rename files

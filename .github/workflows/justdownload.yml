@@ -23,6 +23,8 @@ jobs:
       run: pip install -r requirements.txt
     - name: Download
       run: python download.py
+    - name: Delete non included files
+      run: rm -f mets/216937/{2926205,1523134,2914584,2926205,3374447,3374448,3374547,3376967,377127,3377287,3385787,3406471}* || true
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
