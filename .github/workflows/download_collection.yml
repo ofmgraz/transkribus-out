@@ -19,6 +19,9 @@ jobs:
       TR_USER: ${{ secrets.TR_USER }}
       TR_PW: ${{ secrets.TR_PW }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      BASEROW_USER: ${{ secrets.BASEROW_USER }}
+      BASEROW_PW: ${{ secrets.BASEROW_PW }}
+      BASEROW_READ_TOKEN: ${{ secrets.BASEROW_READ_TOKEN }}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v4
