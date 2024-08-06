@@ -1,27 +1,48 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A64_42" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_68.xml" next="A67_22.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_68" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_68.xml" next="A67_22.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A 64/42 (Iam lucis orto sidere)</title>
+        <title type="main">S 1/68 (Gradual romanum de tempore)</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName role="acdh:hasDigitisingAgent" ref="https://orcid.org/0000-0002-0484-832X">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
+          <persName role="DigitisingAgent" ref="https://orcid.org/0000-0001-6195-2935">
+            <forename>Jakob</forename>
+            <surname>Leitner</surname>
           </persName>
         </respStmt>
         <respStmt>
-          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-9575-9372">
+          <resp>Datengenerierung</resp>
+          <persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
             <forename>Peter</forename>
             <surname>Andorfer</surname>
           </persName>
         </respStmt>
         <respStmt>
-          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
+          <resp>Datengenerierung</resp>
+          <persName role="DigitisingAgent Contributor" ref="https://orcid.org/0000-0002-0484-832X">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datengenerierung</resp>
+          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+            <forename>Daniel</forename>
+            <surname>Schopper</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML Datenmodellierung</resp>
+          <persName role="Contributor MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
             <surname>Sanz-Lázaro</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkribus Mitarbeit</resp>
+          <persName role="Transcriptor">
+            <forename>Anna-Lena</forename>
+            <surname>Huber</surname>
           </persName>
         </respStmt>
       </titleStmt>
@@ -30,8 +51,14 @@
         <funder>BMKÖS Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>Österreichische Akademie der Wissenschaften</publisher>
-        <authority>Österreichische Akademie der Wissenschaften</authority>
+        <publisher>
+          <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+        </publisher>
+        <authority>
+          <orgName>Österreichische Akademie der Wissenschaften</orgName>
+          <idno type="URL" subtype="GND&gt;">http://d-nb.info/gnd/1001454-8</idno>
+        </authority>
         <address>
           <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
@@ -39,50 +66,63 @@
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
-            <ref target="https://www.oeaw.ac.at/">https://www.oeaw.ac.at/</ref>
+            <ref target="https://www.oeaw.ac.at/acdh/acdh-ch-home">https://www.oeaw.ac.at/acdh/acdh-ch-home</ref>
           </addrLine>
           <addrLine>
             <email>acdh-ch@oeaw.ac.at</email>
           </addrLine>
         </address>
-        <pubPlace ref="#Wien" xml:lang="de">Wien</pubPlace>
+        <pubPlace>
+          <placeName xml:lang="de">Wien</placeName>
+          <placeName xml:lang="en">Vienna</placeName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q1741</idno>
+        </pubPlace>
         <availability>
-          <licence>cc0</licence>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
         </availability>
-        <date when="2024-01-10">2024</date>
+        <date when="2024-08-31">2024</date>
+        <idno type="handle">XXXX</idno>
       </publicationStmt>
       <notesStmt>
         <note>Originals digitised with a Stativlaser device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1492-01-01" notAfter="1492-12-31">1492</date>
+          <date notBefore="1729-01-01" notAfter="1729-12-31">1729</date>
+          <pubPlace ref="#Venedig">Venedig</pubPlace>
+          <publisher ref="#Balleoni">Paolo Baglioni</publisher>
         </bibl>
         <msDesc>
           <msIdentifier>
-            <institution ref="https://d-nb.info/gnd/16174362-6">Franziskanerkloster Graz</institution>
-            <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
-                Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+            <institution>
+              <orgName>Franziskanerkloster Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+            </institution>
+            <repository>
+              <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 64/42</idno>
+            <idno type="shelfmark">S 1/68</idno>
           </msIdentifier>
-          <msContents class="#ofm #antiphonale #temporale">
+          <msContents class="#rom #graduale">
             <summary>
-              <p>Auch Psalterium, Hymnar</p>
-              <p>Antiphonale, Diurnale</p>
+              <p/>
+              <p>Graduale Romanum</p>
             </summary>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="print">
               <supportDesc>
                 <support>
                   <dimensions unit="mm">
-                    <height>540</height>
-                    <width>380</width>
+                    <height>479</height>
+                    <width>329</width>
                   </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="168">168</measure>
+                  <measure unit="page" quantity="247">247</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -91,8 +131,8 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#Graz">Graz</placeName>
-              <placeName ref="#Ljubljana">Ljubljana</placeName>
+              <placeName ref="#Venedig">Venedig</placeName>
+              <placeName ref="#Balleoni">Balleoni</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -102,28 +142,6 @@
       <editorialDecl>
         <p>Maschinell erfasster Rohtext </p>
       </editorialDecl>
-      <refsDecl>
-        <p>Digitization of 53 medieval and early modern chant manuscripts and modern rare chant
-          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the ÖAW.
-          Enrichment of the approximately 18,000 images with metadata (Goobi). Automated
-          transcription of the average of 2000 song texts per codex using the AI-supported
-          application Transkribus. Management and provision of image data via an IIIF interface,
-          long-term archiving in the ÖAW repository ARCHE. The digitized sources are of great
-          importance for music and liturgical studies and especially for art history (noteworthy
-          book decorations) and thus represent important monuments of the Austrian cultural
-          heritage. Through the complete digitization, images of the sources as well as the
-          searchable full texts of the chants will be available in open access. The source corpus
-          including metadata will be available for the online platform on the cultural heritage of
-          Austria (Europeana) after the end of the project.</p>
-        <p>The cooperation partner ACDH-CH of the Austrian Academy of Sciences, Center of
-          Excellence for digital research and musicology, guarantees a very high level of
-          expertise in the field of digitization, both in the creation of images, in the
-          preparation of manuscript descriptions, in metadata management, and in the visualization
-          of the results on the web, the visualization of the results on the web as well as the
-          long-term archiving. In a subsequent phase of the project, the melodies of the chants
-          will also be transcribed automatically with the help of a newly developed Transkribus
-          extension. (-&gt; Handwritten Music Recognition).</p>
-      </refsDecl>
       <appInfo>
         <application ident="transkribus" version="1.26.0">
           <label>Transkribus</label>
@@ -137,17 +155,14 @@
       <classDecl>
         <taxonomy xml:id="liturgies">
           <desc>Liturgies</desc>
-          <category xml:id="ofm">
-            <catDesc>OFM</catDesc>
+          <category xml:id="rom">
+            <catDesc>ROM</catDesc>
           </category>
         </taxonomy>
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
-          <category xml:id="antiphonale">
-            <catDesc>Antiphonale</catDesc>
-          </category>
-          <category xml:id="temporale">
-            <catDesc>Diurnale</catDesc>
+          <category xml:id="graduale">
+            <catDesc>Graduale</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -157,7 +172,7 @@
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws" xml:lang="en">book</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -176,270 +191,107 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="Graz">
-        <placeName xml:lang="en">Graz</placeName>
-        <placeName xml:lang="de">Graz</placeName>
-        <placeName xml:lang="it">Graz</placeName>
+      <place xml:id="Venedig">
+        <placeName xml:lang="en">Venice</placeName>
+        <placeName xml:lang="de">Venedig</placeName>
+        <placeName xml:lang="it">Venezia</placeName>
         <location>
-          <settlement xml:lang="en">Graz</settlement>
-          <settlement xml:lang="de">Graz</settlement>
-          <settlement xml:lang="it">Graz</settlement>
-          <region xml:lang="en">Styria</region>
-          <region xml:lang="de">Steiermark</region>
-          <region xml:lang="it">Stiria</region>
-          <country xml:lang="en">Austria</country>
-          <country xml:lang="de">Österreich</country>
-          <country xml:lang="it">Austria</country>
-          <geo>47.07083333333333 15.438611111111111</geo>
+          <settlement xml:lang="en">Venice</settlement>
+          <settlement xml:lang="de">Venedig</settlement>
+          <settlement xml:lang="it">Venezia</settlement>
+          <region xml:lang="en">Venetien</region>
+          <region xml:lang="de">Veneto</region>
+          <region xml:lang="it">Veneto</region>
+          <country xml:lang="en">Italy</country>
+          <country xml:lang="de">Italien</country>
+          <country xml:lang="it">Italia</country>
+          <geo>45.439722222222 12.331944444444</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erwähnt in <title>Das 4. Respons Buch</title></p>
+            <p>erwähnt in <title>S 1/66</title></p>
             <linkGrp>
-              <link type="URL" target="A67_41.xml"/>
+              <link type="URL" target="S1_66.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>A 64/41</title></p>
+            <p>erwähnt in <title>S 1/65</title></p>
             <linkGrp>
-              <link type="URL" target="A64_41.xml"/>
+              <link type="URL" target="S1_65.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>A 67/19</title></p>
+            <p>erwähnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
             <linkGrp>
-              <link type="URL" target="A67_19.xml"/>
+              <link type="URL" target="S1_69.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>Das 4. Respons Buch</title></p>
+            <p>erwähnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
             <linkGrp>
-              <link type="URL" target="A67_42.xml"/>
+              <link type="URL" target="S1_64.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>A 67/17</title></p>
+            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
             <linkGrp>
-              <link type="URL" target="A67_17.xml"/>
+              <link type="URL" target="S1_67.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>Antiphonarium de Tempore et Sanctis Pro Choro
-                Graecensi</title></p>
+            <p>erwähnt in <title>S 1/68</title></p>
             <linkGrp>
-              <link type="URL" target="S1_25.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/42</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_42.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/26</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_26.xml "/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/39</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_39.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/45</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_45.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/39</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_39.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/43</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_43.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/23</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_23.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/18</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_18.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/28</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_28.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/37</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_37.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 63/51</title></p>
-            <linkGrp>
-              <link type="URL" target="A63_51.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/24</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_24.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/20</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_20.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Tota pulchra</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_19.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/40</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_40.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/43</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_43.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Pro divino officio in choro</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_27.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/44</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_44.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/30</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_30.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/27</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_27.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/22</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_22.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/38</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_38.xml"/>
+              <link type="URL" target="S1_68.xml"/>
             </linkGrp>
           </event>
         </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4021912-4</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
+        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4062501-1</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
       </place>
     </listPlace>
-    <listPlace>
-      <place xml:id="Ljubljana">
-        <placeName xml:lang="en">Ljubljana</placeName>
-        <placeName xml:lang="de">Ljubljana</placeName>
-        <placeName xml:lang="it">Lubiana</placeName>
-        <location>
-          <settlement xml:lang="en">Ljubljana</settlement>
-          <settlement xml:lang="de">Ljubljana</settlement>
-          <settlement xml:lang="it">Lubiana</settlement>
-          <region xml:lang="en">Central Solovenia</region>
-          <region xml:lang="de">Zentralslowenien</region>
-          <region xml:lang="it">Slovenia Centrale</region>
-          <country xml:lang="en">Slovenia</country>
-          <country xml:lang="de">Slovenien</country>
-          <country xml:lang="it">Slovenia</country>
-          <geo>46.05138888888889 14.50611111111111</geo>
-        </location>
+    <listPerson>
+      <person xml:id="Balleoni">
+        <persName>
+          <forename>Paolo</forename>
+          <surname>Baglioni</surname>
+        </persName>
+        <residence>
+          <date notBefore="1632-01-01" notAfter="1721-12-31" cert="medium">1632-1721?</date>
+          <settlement key="4">
+            <placeName type="pref" ref="#Venedig">Venedig</placeName>
+            <location>
+              <geo>45.439722222222 12.331944444444</geo>
+            </location>
+          </settlement>
+        </residence>
+        <sex value="male"/>
+        <occupation key="90">Drucker</occupation>
+        <idno type="URL" subtype="GND">https://d-nb.info/gnd/1037524810</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q112399622</idno>
         <listEvent>
           <event type="mentioned">
-            <p>erwähnt in <title>A 64/41</title></p>
+            <p>erwähnt in <title>S 1/65</title></p>
             <linkGrp>
-              <link type="URL" target="A64_41.xml"/>
+              <link type="URL" target="S1_65.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>A 64/42</title></p>
+            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
             <linkGrp>
-              <link type="URL" target="A67_42.xml"/>
+              <link type="URL" target="S1_67.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>A 64/39</title></p>
+            <p>erwähnt in <title>S 1/68</title></p>
             <linkGrp>
-              <link type="URL" target="A64_39.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/43</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_43.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/37</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_37.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/51</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_51.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/40</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_40.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/38</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_38.xml"/>
+              <link type="URL" target="S1_68.xml"/>
             </linkGrp>
           </event>
         </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4073953-3</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3239318</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q437</idno>
-      </place>
-    </listPlace>
+      </person>
+    </listPerson>
+    <listPlace/>
   </standOff>
   <!-- Template does not validates due to this being empty-->
 <facsimile>

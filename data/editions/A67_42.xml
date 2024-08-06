@@ -6,23 +6,44 @@
         <title type="sub">A 67/42 ( Ostern bis 1. August)</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName role="acdh:hasDigitisingAgent" ref="https://orcid.org/0000-0001-6195-2935">
+          <persName role="DigitisingAgent" ref="https://orcid.org/0000-0001-6195-2935">
             <forename>Jakob</forename>
             <surname>Leitner</surname>
           </persName>
         </respStmt>
         <respStmt>
-          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-9575-9372">
+          <resp>Datengenerierung</resp>
+          <persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
             <forename>Peter</forename>
             <surname>Andorfer</surname>
           </persName>
         </respStmt>
         <respStmt>
-          <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-          <persName role="acdh:hasContributor" ref="https://orcid.org/0000-0002-8815-6741">
+          <resp>Datengenerierung</resp>
+          <persName role="DigitisingAgent Contributor" ref="https://orcid.org/0000-0002-0484-832X">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datengenerierung</resp>
+          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+            <forename>Daniel</forename>
+            <surname>Schopper</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML Datenmodellierung</resp>
+          <persName role="Contributor MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
             <surname>Sanz-Lázaro</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkribus Mitarbeit</resp>
+          <persName role="Transcriptor">
+            <forename>Anna-Lena</forename>
+            <surname>Huber</surname>
           </persName>
         </respStmt>
       </titleStmt>
@@ -31,8 +52,14 @@
         <funder>BMKÖS Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
-        <publisher>Österreichische Akademie der Wissenschaften</publisher>
-        <authority>Österreichische Akademie der Wissenschaften</authority>
+        <publisher>
+          <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+        </publisher>
+        <authority>
+          <orgName>Österreichische Akademie der Wissenschaften</orgName>
+          <idno type="URL" subtype="GND&gt;">http://d-nb.info/gnd/1001454-8</idno>
+        </authority>
         <address>
           <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
@@ -40,17 +67,23 @@
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
-            <ref target="https://www.oeaw.ac.at/">https://www.oeaw.ac.at/</ref>
+            <ref target="https://www.oeaw.ac.at/acdh/acdh-ch-home">https://www.oeaw.ac.at/acdh/acdh-ch-home</ref>
           </addrLine>
           <addrLine>
             <email>acdh-ch@oeaw.ac.at</email>
           </addrLine>
         </address>
-        <pubPlace ref="#Wien" xml:lang="de">Wien</pubPlace>
+        <pubPlace>
+          <placeName xml:lang="de">Wien</placeName>
+          <placeName xml:lang="en">Vienna</placeName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
+          <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q1741</idno>
+        </pubPlace>
         <availability>
-          <licence>cc0</licence>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
         </availability>
-        <date when="2024-01-10">2024</date>
+        <date when="2024-08-31">2024</date>
+        <idno type="handle">XXXX</idno>
       </publicationStmt>
       <notesStmt>
         <note>Originals digitised with a Traveller device</note>
@@ -61,9 +94,14 @@
         </bibl>
         <msDesc>
           <msIdentifier>
-            <institution ref="https://d-nb.info/gnd/16174362-6">Franziskanerkloster Graz</institution>
-            <repository> + <placeName>Zentralbibliothek der Wiener Franziskanerprovinz
-                Graz</placeName> + <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno> + <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+            <institution>
+              <orgName>Franziskanerkloster Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+            </institution>
+            <repository>
+              <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">A 67/42</idno>
           </msIdentifier>
@@ -104,28 +142,6 @@
       <editorialDecl>
         <p>Maschinell erfasster Rohtext </p>
       </editorialDecl>
-      <refsDecl>
-        <p>Digitization of 53 medieval and early modern chant manuscripts and modern rare chant
-          prints of the Central Library of the Franciscans in Graz by the ACDH-CH of the ÖAW.
-          Enrichment of the approximately 18,000 images with metadata (Goobi). Automated
-          transcription of the average of 2000 song texts per codex using the AI-supported
-          application Transkribus. Management and provision of image data via an IIIF interface,
-          long-term archiving in the ÖAW repository ARCHE. The digitized sources are of great
-          importance for music and liturgical studies and especially for art history (noteworthy
-          book decorations) and thus represent important monuments of the Austrian cultural
-          heritage. Through the complete digitization, images of the sources as well as the
-          searchable full texts of the chants will be available in open access. The source corpus
-          including metadata will be available for the online platform on the cultural heritage of
-          Austria (Europeana) after the end of the project.</p>
-        <p>The cooperation partner ACDH-CH of the Austrian Academy of Sciences, Center of
-          Excellence for digital research and musicology, guarantees a very high level of
-          expertise in the field of digitization, both in the creation of images, in the
-          preparation of manuscript descriptions, in metadata management, and in the visualization
-          of the results on the web, the visualization of the results on the web as well as the
-          long-term archiving. In a subsequent phase of the project, the melodies of the chants
-          will also be transcribed automatically with the help of a newly developed Transkribus
-          extension. (-&gt; Handwritten Music Recognition).</p>
-      </refsDecl>
       <appInfo>
         <application ident="transkribus" version="1.26.0">
           <label>Transkribus</label>
@@ -362,7 +378,7 @@
             </linkGrp>
           </event>
         </listEvent>
-        <idno type="URL" subtype="GND">http://d-nb.info/gnd/4021912-4</idno>
+        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4021912-4</idno>
         <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
         <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
       </place>
