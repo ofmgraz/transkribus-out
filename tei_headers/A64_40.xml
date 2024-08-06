@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_21" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_43" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A 67/21 (Asperges me Domine)</title>
+        <title type="main">A 67/43 (Christus dominus secundum ordinem Melchisedech)</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
           <persName role="DigitisingAgent" ref="https://orcid.org/0000-0001-6195-2935">
@@ -41,8 +41,8 @@
         <respStmt>
           <resp>Transkribus Mitarbeit</resp>
           <persName role="Transcriptor">
-            <forename>Moritz</forename>
-            <surname>Schmoetten</surname>
+            <forename>Anna-Lena</forename>
+            <surname>Huber</surname>
           </persName>
         </respStmt>
       </titleStmt>
@@ -89,7 +89,7 @@
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1450-01-01" notAfter="1500-12-31">15-2</date>
+          <date notBefore="1636-01-01" notAfter="1636-12-31">1636</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -102,12 +102,12 @@
               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 67/21</idno>
+            <idno type="shelfmark">A 67/43</idno>
           </msIdentifier>
-          <msContents class="#osc #graduale #temporale">
+          <msContents class="#ofm #responsoriale">
             <summary>
-              <p/>
-              <p>Graduale, Teil 3</p>
+              <p>Ab Fronleichnam</p>
+              <p>Responsoriale</p>
             </summary>
           </msContents>
           <physDesc>
@@ -116,11 +116,11 @@
                 <support>
                   <dimensions unit="mm">
                     <height>210</height>
-                    <width>160</width>
+                    <width>140</width>
                   </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="149">149</measure>
+                  <measure unit="leaf" quantity="209">209</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -129,7 +129,6 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#Muenchen" cert="medium">München?</placeName>
               <placeName ref="#Graz">Graz</placeName>
             </provenance>
           </history>
@@ -153,17 +152,14 @@
       <classDecl>
         <taxonomy xml:id="liturgies">
           <desc>Liturgies</desc>
-          <category xml:id="osc">
-            <catDesc>OSC</catDesc>
+          <category xml:id="ofm">
+            <catDesc>OFM</catDesc>
           </category>
         </taxonomy>
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
-          <category xml:id="graduale">
-            <catDesc>Graduale</catDesc>
-          </category>
-          <category xml:id="temporale">
-            <catDesc>Teil</catDesc>
+          <category xml:id="responsoriale">
+            <catDesc>Responsoriale</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -191,72 +187,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listPlace>
-      <place xml:id="Muenchen">
-        <placeName xml:lang="en">Munich</placeName>
-        <placeName xml:lang="de">München</placeName>
-        <placeName xml:lang="it">Monaco di Baviera</placeName>
-        <location>
-          <settlement xml:lang="en">Munich</settlement>
-          <settlement xml:lang="de">München</settlement>
-          <settlement xml:lang="it">Monaco di Baviera</settlement>
-          <region xml:lang="en">Bavaria</region>
-          <region xml:lang="de">Bayern</region>
-          <region xml:lang="it">Baviera</region>
-          <country xml:lang="en">Germany</country>
-          <country xml:lang="de">Deutschland</country>
-          <country xml:lang="it">Germania</country>
-          <geo>48.1375 11.575</geo>
-        </location>
-        <listEvent>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/23</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_23.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/19</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_19.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/17</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_17.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/18</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_18.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/20</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_20.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Pro divino officio in choro</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_27.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/22</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_22.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4127793-4</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/6559171</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1726</idno>
-      </place>
-    </listPlace>
     <listPlace>
       <place xml:id="Graz">
         <placeName xml:lang="en">Graz</placeName>

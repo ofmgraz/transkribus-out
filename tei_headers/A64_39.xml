@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_44" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_22" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A 67/44 (In processionibus Fraternitatis S. P. N. Francisci)</title>
+        <title type="main">S 1/22 (Iube Domine benedicere)</title>
         <respStmt>
           <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
           <persName role="DigitisingAgent" ref="https://orcid.org/0000-0001-6195-2935">
@@ -82,7 +82,7 @@
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1500-01-01" notAfter="1599-12-31">16</date>
+          <date notBefore="1685-01-01" notAfter="1685-12-31">1685</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -95,12 +95,12 @@
               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 67/44</idno>
+            <idno type="shelfmark">S 1/22</idno>
           </msIdentifier>
-          <msContents class="#ofm #prozessionale">
+          <msContents class="#ofm #coralbuch">
             <summary>
-              <p/>
-              <p>Prozessionale</p>
+              <p>Lections- und Psalmtöne, Intonationen (Gloria, Antiphonen etc.), Lamentationen (für Graz)</p>
+              <p>Chorallehrbuch für Novizen</p>
             </summary>
           </msContents>
           <physDesc>
@@ -108,12 +108,12 @@
               <supportDesc>
                 <support>
                   <dimensions unit="mm">
-                    <height>140</height>
-                    <width>200</width>
+                    <height>300</height>
+                    <width>215</width>
                   </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="144">144</measure>
+                  <measure unit="leaf" quantity="58">58</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -122,7 +122,7 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#StPoelten">St. Pölten</placeName>
+              <placeName ref="#MariaLankowitz">Maria Lankowitz</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -151,8 +151,8 @@
         </taxonomy>
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
-          <category xml:id="prozessionale">
-            <catDesc>Prozessionale</catDesc>
+          <category xml:id="coralbuch">
+            <catDesc>Chorallehrbuch</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -181,39 +181,51 @@
   </teiHeader>
   <standOff>
     <listPlace>
-      <place xml:id="StPoelten">
-        <placeName xml:lang="en">Sankt Pölten</placeName>
-        <placeName xml:lang="de">St. Pölten</placeName>
-        <placeName xml:lang="it">Sankt Pölten</placeName>
+      <place xml:id="MariaLankowitz">
+        <placeName xml:lang="en">Maria Lankowitz</placeName>
+        <placeName xml:lang="de">Maria Lankowitz</placeName>
+        <placeName xml:lang="it">Maria Lankowitz</placeName>
         <location>
-          <settlement xml:lang="en">Sankt. Pölten</settlement>
-          <settlement xml:lang="de">St. Pölten</settlement>
-          <settlement xml:lang="it">Sankt Pölten</settlement>
-          <region xml:lang="en">Lower Austria</region>
-          <region xml:lang="de">Niederösterreich</region>
-          <region xml:lang="it">Bassa Austria</region>
+          <settlement xml:lang="en">Maria Lankowitz</settlement>
+          <settlement xml:lang="de">Maria Lankowitz</settlement>
+          <settlement xml:lang="it">Maria Lankowitz</settlement>
+          <region xml:lang="en">Styria</region>
+          <region xml:lang="de">Steiermark</region>
+          <region xml:lang="it">Stiria</region>
           <country xml:lang="en">Austria</country>
           <country xml:lang="de">Österreich</country>
           <country xml:lang="it">Austria</country>
-          <geo>48.2 15.616666666667</geo>
+          <geo>47.063888888889 15.063055555556</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erwähnt in <title>A 67/44</title></p>
+            <p>erwähnt in <title>A 64/37</title></p>
             <linkGrp>
-              <link type="URL" target="A67_44.xml"/>
+              <link type="URL" target="A64_37.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erwähnt in <title>S 1/58</title></p>
+            <p>erwähnt in <title>A 64/34</title></p>
             <linkGrp>
-              <link type="URL" target="S1_58.xml"/>
+              <link type="URL" target="A64_34.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/22</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_22.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/40</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_40.xml"/>
             </linkGrp>
           </event>
         </listEvent>
-        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4051622-2</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766426</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q82500</idno>
+        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4400654-8</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
       </place>
     </listPlace>
   </standOff>
