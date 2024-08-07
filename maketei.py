@@ -60,7 +60,7 @@ class TeiTree:
     def read_xml_input(input_file):
         try:
             tree = TeiReader(input_file)
-        except XMLSyntaxError as e:
+        except Exception as e:
             log.print_log(input_file, e, True)
             tree = False
         return tree
@@ -155,11 +155,12 @@ class TeiHeader(TeiTree):
     def read_table(table):
         try:
             df = pd.read_json(table, orient='index').fillna("")
-        except Exception:
+        except Exception as e:
+            log.print_log(table, f"WARNING: {e}", True)
             try:
                 df = pd.read_excel(table).fillna("")
-            except Exception:
-                log.print_log(table, "Unsupported format", True)
+            except Exception as e:
+                log.print_log(table, e, True)
         return df
 
     def extract_from_table(self, table, header):
@@ -303,8 +304,8 @@ class TeiHeader(TeiTree):
         try:
             year = re.sub("x+", "00", date).lstrip("~").split()[0]
             year = int(year.split("-")[0].strip("."))
-        except Exception:
-            log.print_log(self.tablename, f"“{date}”´ is not a valid date")
+        except Exception as e:
+            log.print_log(self.tablename, e)
             year = "1500"
         if year == 2023:
             ddate = {"notBefore": f"1000{nb}", "notAfter": f"{year}{na}"}
@@ -442,27 +443,28 @@ class TeiHeader(TeiTree):
 
     def parse_photographer(self, photographer, other=""):
         resps = TeiReader("resp.xml")
-        photographer = resps.any_xpath(f'.//tei:person[@xml:id="{photographer}"]')[0]
+        roles = {"PA": ["Datengenerierung", "Contributor"],
+                 "DS": ["Datengenerierung", "Contributor"],
+                 "RK": ["Datengenerierung", ""],
+                 "FS": ["XML Datenmodellierung", ""],
+                 "JL": []}
+        roles[photographer] += ["Digitalisierung (Fotografieren) des Archivmaterials", "DigitisingAgent"]
+        if len(other) > 0 :
+            roles[other] = ["Transkribus Bearbeitung", "Contributor"]
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
-        respstmt = ET.SubElement(titlestmt, 'respStmt')
-        ET.SubElement(respstmt, "resp").text = "Digitalisierung (Fotografieren) des Archivmaterials"
-        respstmt.append(photographer.xpath("./tei:persName", namespaces=nsmap)[0])
-
-        for person in ('PA', 'RK', 'DS', 'FS'):
-            dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')[0]
-            respstmt = ET.SubElement(titlestmt, 'respStmt')
-            if person == 'FS':
-                role = "XML Datenmodellierung"
-            else:
-                role = "Datengenerierung"
-            ET.SubElement(respstmt, "resp").text = role
-            respstmt.append(dataresp)
-        if other:
-            dataresp = resps.any_xpath(f'.//tei:person[@xml:id="{other}"]/tei:persName')[0]
-            respstmt = ET.SubElement(titlestmt, 'respStmt')
-            ET.SubElement(respstmt, "resp").text = "Transkribus Mitarbeit"
-            respstmt.append(dataresp)
-
+        for person in roles:
+            inner_role = ''
+            for r in roles[person][:-1]:
+                if len(r) == 0:
+                    inner_role = roles[person][-1]
+                else:
+                    resps = TeiReader("resp.xml")
+                    respstmt = ET.SubElement(titlestmt, 'respStmt')
+                    collaborator = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')[0]
+                    ET.SubElement(respstmt, "resp").text = r
+                    if inner_role:
+                        collaborator.attrib["role"] = roles[person][-1]
+                    respstmt.append(collaborator)
 
     def parse_device(self, device):
         devices = {"Stativlaser": "Stativlaser", "Traveller": "Traveller"}
