@@ -1,6 +1,5 @@
 from datetime import datetime
 from acdh_tei_pyutils.tei import TeiReader, ET
-from lxml.etree import XMLSyntaxError
 import json
 import os
 import re
