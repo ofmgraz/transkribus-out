@@ -60,6 +60,8 @@ class TeiTree:
     def read_xml_input(input_file):
         try:
             tree = TeiReader(input_file)
+            for bad in tree.any_xpath(".//tei:span"):
+                bad.getparent().remove(bad) 
         except Exception as e:
             log.print_log(input_file, e, True)
             tree = False
