@@ -51,7 +51,9 @@ log = Log("0mets2tei")
 class TeiTree:
     def __init__(self, source_tkb, source_tei):
         self.filename = source_tkb
-        self.doc_id = os.path.basename(source_tkb).rstrip(".xml").replace("64_41", "A64_41")
+        self.doc_id = (
+            os.path.basename(source_tkb).rstrip(".xml").replace("64_41", "A64_41")
+        )
         self.tei = self.read_xml_input(source_tei)
         self.root = self.tei.any_xpath("//tei:TEI")[0]
         self.header = self.tei.any_xpath("//tei:teiHeader")[0]
@@ -61,7 +63,7 @@ class TeiTree:
         try:
             tree = TeiReader(input_file)
             for bad in tree.any_xpath(".//tei:span"):
-                bad.getparent().remove(bad) 
+                bad.getparent().remove(bad)
         except Exception as e:
             log.print_log(input_file, e, True)
             tree = False
@@ -91,12 +93,14 @@ class TeiBody(TeiTree):
         for element in body.xpath(".//tei:div/*", namespaces=nsmap):
             if element.tag == f"{tei}pb":
                 page = ET.SubElement(body, "div", attrib={"type": "page"})
-                element.attrib['source'] = self.get_graphicid(element.attrib['facs'])
+                element.attrib["source"] = self.get_graphicid(element.attrib["facs"])
                 page.append(element)
                 p = ET.SubElement(page, "p", attrib={"facs": element.attrib["facs"]})
             elif element.tag == f"{tei}ab":
-                elefake = ET.fromstring(ET.tostring(element, pretty_print=True, encoding="unicode"))
-                for t in elefake.xpath('.//*'):
+                elefake = ET.fromstring(
+                    ET.tostring(element, pretty_print=True, encoding="unicode")
+                )
+                for t in elefake.xpath(".//*"):
                     p.append(t)
                 # for lb in element.iter():
                 #    if lb.tag:
@@ -115,7 +119,11 @@ class TeiBody(TeiTree):
             else:
                 if "http" in img_name:
                     response = requests.get(element.attrib["url"])
-                    img_name = response.headers.get("Content-Disposition").split("filename=")[1].split(".jpg")[0]
+                    img_name = (
+                        response.headers.get("Content-Disposition")
+                        .split("filename=")[1]
+                        .split(".jpg")[0]
+                    )
                 img_name = img_name.replace("Gu", "Gf").split(".jpg")[0]
                 img_name = re.sub(r"^.*A-Gf_", "A-Gf_", img_name)
                 img_name = re.sub(r"^[\d_]*", "", img_name)
@@ -156,7 +164,7 @@ class TeiHeader(TeiTree):
     @staticmethod
     def read_table(table):
         try:
-            df = pd.read_json(table, orient='index').fillna("")
+            df = pd.read_json(table, orient="index").fillna("")
         except Exception as e:
             log.print_log(table, f"WARNING: {e}", True)
             try:
@@ -171,7 +179,9 @@ class TeiHeader(TeiTree):
         column_name = self.doc_id[0] + " " + self.doc_id[1:].replace("_", "/")
 
         for idx, row in df.loc[df["Signatur"] == column_name].iterrows():
-            self.make_title(row["Titel"], row["Inhalt"], row["Incipit"], row["Signatur"])
+            self.make_title(
+                row["Titel"], row["Inhalt"], row["Incipit"], row["Signatur"]
+            )
             self.parse_signature(row["Signatur"])
             self.parse_origin(row["Provenienz"], row["Drucker"])
             self.parse_date(str(row["Zeit"]))
@@ -186,21 +196,37 @@ class TeiHeader(TeiTree):
 
     def make_title(self, title, summary, incipit, signature):
         if title:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = f"{signature} ({title})"
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
+                0
+            ].text = f"{signature} ({title})"
         elif title := re.findall("„(.*)“", summary):
-            tistmt = self.header.xpath("//tei:fileDesc/tei:titleStmt", namespaces=nsmap)[0]
+            tistmt = self.header.xpath(
+                "//tei:fileDesc/tei:titleStmt", namespaces=nsmap
+            )[0]
             title, subtitle = self.parse_title(title[0])
             if subtitle:
-                ET.SubElement(tistmt, "title", type="sub").text = f"{signature} ({subtitle})"
+                ET.SubElement(
+                    tistmt, "title", type="sub"
+                ).text = f"{signature} ({subtitle})"
             if tistmt.xpath("//tei:title", namespaces=nsmap)[0].text:
-                ET.SubElement(tistmt, "title", type="desc").text = tistmt.xpath("//tei:title", namespaces=nsmap)[0].text
-            tistmt.xpath("//tei:title", namespaces=nsmap)[0].text = f"{signature} ({title})"
+                ET.SubElement(tistmt, "title", type="desc").text = tistmt.xpath(
+                    "//tei:title", namespaces=nsmap
+                )[0].text
+            tistmt.xpath("//tei:title", namespaces=nsmap)[
+                0
+            ].text = f"{signature} ({title})"
         elif incipit:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = f"{signature} ({incipit})"
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
+                0
+            ].text = f"{signature} ({incipit})"
         elif signature:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = signature
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
+                0
+            ].text = signature
         else:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[0].text = 'No title'
+            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
+                0
+            ].text = "No title"
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
@@ -220,7 +246,9 @@ class TeiHeader(TeiTree):
         pid = self.make_pid(origins[0])
         tree = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)
         if len(tree) < 1:
-            tree = ET.SubElement(self.root.xpath(".//tei:standOff", namespaces=nsmap)[0], "listPlace")
+            tree = ET.SubElement(
+                self.root.xpath(".//tei:standOff", namespaces=nsmap)[0], "listPlace"
+            )
         if pid and not self.root.xpath(
             f'.//tei:place[@xml:id="{pid}"]', namespaces=nsmap
         ):
@@ -228,7 +256,11 @@ class TeiHeader(TeiTree):
             for location in locations:
                 # Entry in the standOff list of places
                 # place = ET.SubElement(tree, "place")
-                tree.append(ET.fromstring(ET.tostring(location, pretty_print=True, encoding="unicode")))
+                tree.append(
+                    ET.fromstring(
+                        ET.tostring(location, pretty_print=True, encoding="unicode")
+                    )
+                )
             # Element in msDesc/history referencing the entry above
             provenance = self.msdesc.xpath(
                 "./tei:history/tei:provenance", namespaces=nsmap
@@ -261,15 +293,21 @@ class TeiHeader(TeiTree):
         entry = False
         tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
         for person in persons.any_xpath(f'//tei:person[@xml:id="{publisher}"]'):
-            entry = ET.fromstring(ET.tostring(person, pretty_print=True, encoding="unicode"))
+            entry = ET.fromstring(
+                ET.tostring(person, pretty_print=True, encoding="unicode")
+            )
             tree.append(entry)
             break
         if len(entry) > 0:
-            place = entry.xpath("//tei:residence/tei:settlement/tei:placeName", namespaces=nsmap)[0]
+            place = entry.xpath(
+                "//tei:residence/tei:settlement/tei:placeName", namespaces=nsmap
+            )[0]
             fullname = " ".join(
                 [
                     n.strip()
-                    for n in entry.xpath("//tei:persName", namespaces=nsmap)[0].itertext()
+                    for n in entry.xpath("//tei:persName", namespaces=nsmap)[
+                        0
+                    ].itertext()
                 ]
             ).strip()
             fullname = fullname.replace("  ", " ")
@@ -282,9 +320,9 @@ class TeiHeader(TeiTree):
             ET.SubElement(
                 bibl, "publisher", attrib={"ref": f"#{publisher}"}
             ).text = fullname.strip()
-            self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[0].attrib[
-                "form"
-            ] = "print"
+            self.msdesc.xpath("//tei:physDesc/tei:objectDesc", namespaces=nsmap)[
+                0
+            ].attrib["form"] = "print"
 
             self.header.xpath(
                 "//tei:profileDesc/tei:textDesc/tei:channel", namespaces=nsmap
@@ -314,13 +352,13 @@ class TeiHeader(TeiTree):
         elif date.startswith("~"):
             ddate = {"notBefore": f"{year - 20}{nb}", "notAfter": f"{year + 20}{na}"}
         elif date.endswith("Jh.") or re.match(r"^\d{2}$", date):
-            if '/' in date:
-                dates = date.split('/')
-                yb = int(re.match(r'\d+', dates[0]).group(0))
-                ya = int(re.match(r'\d+', dates[1]).group(0))
+            if "/" in date:
+                dates = date.split("/")
+                yb = int(re.match(r"\d+", dates[0]).group(0))
+                ya = int(re.match(r"\d+", dates[1]).group(0))
                 ddate = {
                     "notBefore": f"{yb  * 100}{nb}",
-                    "notAfter": f"{ya  * 100}{nb}"
+                    "notAfter": f"{ya  * 100}{nb}",
                 }
             else:
                 ddate = {
@@ -402,7 +440,15 @@ class TeiHeader(TeiTree):
             "//tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent/tei:measure",
             namespaces=nsmap,
         )[0]
-        if self.msdesc.xpath(".//tei:objectDesc[@form ='print']", namespaces=nsmap) or self.msdesc.xpath(".//tei:idno[@type ='shelfmark']", namespaces=nsmap)[0] in ("S 1/23", "S 1/25", "S 1/26"):
+        if self.msdesc.xpath(
+            ".//tei:objectDesc[@form ='print']", namespaces=nsmap
+        ) or self.msdesc.xpath(".//tei:idno[@type ='shelfmark']", namespaces=nsmap)[
+            0
+        ] in (
+            "S 1/23",
+            "S 1/25",
+            "S 1/26",
+        ):
             # S1/23 is a exception
             tree.attrib["unit"] = "page"
         else:
@@ -439,30 +485,39 @@ class TeiHeader(TeiTree):
         return tree
 
     def get_graphicid(self, facs):
-        facs = facs.strip('#')
-        url = self.tei.any_xpath(f'.//tei:surface[@xml:id="{facs}"]/tei:graphic/@url')[0]
+        facs = facs.strip("#")
+        url = self.tei.any_xpath(f'.//tei:surface[@xml:id="{facs}"]/tei:graphic/@url')[
+            0
+        ]
         return url.replace("full/full", "full/600,")
 
     def parse_photographer(self, photographer, other=""):
         resps = TeiReader("resp.xml")
-        roles = {"PA": ["Datengenerierung", "Contributor"],
-                 "DS": ["Datengenerierung", "Contributor"],
-                 "RK": ["Datengenerierung", ""],
-                 "FS": ["XML Datenmodellierung", ""],
-                 "JL": []}
-        roles[photographer] += ["Digitalisierung (Fotografieren) des Archivmaterials", "DigitisingAgent"]
-        if len(other) > 0 :
+        roles = {
+            "PA": ["Datengenerierung", "Contributor"],
+            "DS": ["Datengenerierung", "Contributor"],
+            "RK": ["Datengenerierung", ""],
+            "FS": ["XML Datenmodellierung", ""],
+            "JL": [],
+        }
+        roles[photographer] += [
+            "Digitalisierung (Fotografieren) des Archivmaterials",
+            "DigitisingAgent",
+        ]
+        if len(other) > 0:
             roles[other] = ["Transkribus Bearbeitung", "Contributor"]
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
         for person in roles:
-            inner_role = ''
+            inner_role = ""
             for r in roles[person][:-1]:
                 if len(r) == 0:
                     inner_role = roles[person][-1]
                 else:
                     resps = TeiReader("resp.xml")
-                    respstmt = ET.SubElement(titlestmt, 'respStmt')
-                    collaborator = resps.any_xpath(f'.//tei:person[@xml:id="{person}"]/tei:persName')[0]
+                    respstmt = ET.SubElement(titlestmt, "respStmt")
+                    collaborator = resps.any_xpath(
+                        f'.//tei:person[@xml:id="{person}"]/tei:persName'
+                    )[0]
                     ET.SubElement(respstmt, "resp").text = r
                     if inner_role:
                         collaborator.attrib["role"] = roles[person][-1]
@@ -470,5 +525,7 @@ class TeiHeader(TeiTree):
 
     def parse_device(self, device):
         devices = {"Stativlaser": "Stativlaser", "Traveller": "Traveller"}
-        note = self.header.xpath("//tei:fileDesc/tei:notesStmt/tei:note", namespaces=nsmap)[0]
+        note = self.header.xpath(
+            "//tei:fileDesc/tei:notesStmt/tei:note", namespaces=nsmap
+        )[0]
         note.text = f"Originals digitised with a {devices[device]} device"
