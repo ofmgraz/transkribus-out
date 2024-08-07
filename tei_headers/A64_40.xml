@@ -1,27 +1,14 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_43" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A64_40" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A 67/43 (Christus dominus secundum ordinem Melchisedech)</title>
-        <respStmt>
-          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName role="DigitisingAgent" ref="https://orcid.org/0000-0001-6195-2935">
-            <forename>Jakob</forename>
-            <surname>Leitner</surname>
-          </persName>
-        </respStmt>
+        <title type="main">A 64/40 (Surrexit Dominus vere)</title>
         <respStmt>
           <resp>Datengenerierung</resp>
           <persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
             <forename>Peter</forename>
             <surname>Andorfer</surname>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="DigitisingAgent Contributor" ref="https://orcid.org/0000-0002-0484-832X">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
           </persName>
         </respStmt>
         <respStmt>
@@ -29,20 +16,38 @@
           <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
             <forename>Daniel</forename>
             <surname>Schopper</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datengenerierung</resp>
+          <persName ref="https://orcid.org/0000-0002-0484-832X">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+          <persName ref="https://orcid.org/0000-0002-0484-832X" role="DigitisingAgent">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
           </persName>
         </respStmt>
         <respStmt>
           <resp>XML Datenmodellierung</resp>
-          <persName role="Contributor MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+          <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
             <surname>Sanz-Lázaro</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
           </persName>
         </respStmt>
         <respStmt>
-          <resp>Transkribus Mitarbeit</resp>
+          <resp>Transkribus Bearbeitung</resp>
           <persName role="Transcriptor">
-            <forename>Anna-Lena</forename>
-            <surname>Huber</surname>
+            <forename>Moritz</forename>
+            <surname>Schmoetten</surname>
           </persName>
         </respStmt>
       </titleStmt>
@@ -57,7 +62,7 @@
         </publisher>
         <authority>
           <orgName>Österreichische Akademie der Wissenschaften</orgName>
-          <idno type="URL" subtype="GND&gt;">http://d-nb.info/gnd/1001454-8</idno>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
           <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
@@ -85,11 +90,11 @@
         <idno type="handle">XXXX</idno>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Traveller device</note>
+        <note>Originals digitised with a Stativlaser device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1636-01-01" notAfter="1636-12-31">1636</date>
+          <date notBefore="1472-01-01" notAfter="1512-12-31">~1492</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -102,12 +107,12 @@
               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 67/43</idno>
+            <idno type="shelfmark">A 64/40</idno>
           </msIdentifier>
-          <msContents class="#ofm #responsoriale">
+          <msContents class="#ofm #antiphonale #temporale">
             <summary>
-              <p>Ab Fronleichnam</p>
-              <p>Responsoriale</p>
+              <p/>
+              <p>Antiphonale, Sommerteil</p>
             </summary>
           </msContents>
           <physDesc>
@@ -115,12 +120,12 @@
               <supportDesc>
                 <support>
                   <dimensions unit="mm">
-                    <height>210</height>
-                    <width>140</width>
+                    <height>570</height>
+                    <width>390</width>
                   </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="209">209</measure>
+                  <measure unit="leaf" quantity="261">261</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -130,6 +135,7 @@
           <history>
             <provenance>
               <placeName ref="#Graz">Graz</placeName>
+              <placeName ref="#Ljubljana">Ljubljana</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -158,8 +164,11 @@
         </taxonomy>
         <taxonomy xml:id="booktypes">
           <desc>Book Types</desc>
-          <category xml:id="responsoriale">
-            <catDesc>Responsoriale</catDesc>
+          <category xml:id="antiphonale">
+            <catDesc>Antiphonale</catDesc>
+          </category>
+          <category xml:id="temporale">
+            <catDesc>Sommerteil</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -380,6 +389,77 @@
         <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
       </place>
     </listPlace>
+    <listPlace>
+      <place xml:id="Ljubljana">
+        <placeName xml:lang="en">Ljubljana</placeName>
+        <placeName xml:lang="de">Ljubljana</placeName>
+        <placeName xml:lang="it">Lubiana</placeName>
+        <location>
+          <settlement xml:lang="en">Ljubljana</settlement>
+          <settlement xml:lang="de">Ljubljana</settlement>
+          <settlement xml:lang="it">Lubiana</settlement>
+          <region xml:lang="en">Central Solovenia</region>
+          <region xml:lang="de">Zentralslowenien</region>
+          <region xml:lang="it">Slovenia Centrale</region>
+          <country xml:lang="en">Slovenia</country>
+          <country xml:lang="de">Slovenien</country>
+          <country xml:lang="it">Slovenia</country>
+          <geo>46.05138888888889 14.50611111111111</geo>
+        </location>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/41</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_41.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/42</title></p>
+            <linkGrp>
+              <link type="URL" target="A67_42.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/39</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_39.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/43</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_43.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/37</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_37.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/51</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_51.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/40</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_40.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>A 64/38</title></p>
+            <linkGrp>
+              <link type="URL" target="A64_38.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
+        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4073953-3</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3239318</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q437</idno>
+      </place>
+    </listPlace>
   </standOff>
-  <!-- Template does not validates due to this being empty-->
 </TEI>

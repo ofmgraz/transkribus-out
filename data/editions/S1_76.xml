@@ -15,7 +15,7 @@
         </publisher>
         <authority>
           <orgName>Österreichische Akademie der Wissenschaften</orgName>
-          <idno type="URL" subtype="GND&gt;">http://d-nb.info/gnd/1001454-8</idno>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
           <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
@@ -124,7 +124,6 @@
     </profileDesc>
   </teiHeader>
   <standOff/>
-  <!-- Template does not validates due to this being empty-->
 <facsimile>
       <surface ulx="0" uly="0" lrx="2000" lry="2614" xml:id="facs_1">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_76/files/images/A-Gf_S1_76-001r/full/full/0/default.jpg" width="2000px" height="2614px"/>

@@ -1,8 +1,48 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="AA64_41" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_72" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
+        <title type="main">S 1/72 (Psalterium)</title>
+        <respStmt>
+          <resp>Datengenerierung</resp>
+          <persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
+            <forename>Peter</forename>
+            <surname>Andorfer</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datengenerierung</resp>
+          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+            <forename>Daniel</forename>
+            <surname>Schopper</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datengenerierung</resp>
+          <persName ref="https://orcid.org/0000-0002-0484-832X">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+          <persName ref="https://orcid.org/0000-0002-0484-832X" role="DigitisingAgent">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML Datenmodellierung</resp>
+          <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+            <forename>Fernando</forename>
+            <surname>Sanz-Lázaro</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
+          </persName>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
@@ -15,7 +55,7 @@
         </publisher>
         <authority>
           <orgName>Österreichische Akademie der Wissenschaften</orgName>
-          <idno type="URL" subtype="GND&gt;">http://d-nb.info/gnd/1001454-8</idno>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
           <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
@@ -43,11 +83,13 @@
         <idno type="handle">XXXX</idno>
       </publicationStmt>
       <notesStmt>
-        <note/>
+        <note>Originals digitised with a Stativlaser device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date/>
+          <date notBefore="1683-01-01" notAfter="1683-12-31">1683</date>
+          <pubPlace ref="#Salzburg">Salzburg</pubPlace>
+          <publisher ref="#Mayr">Johann Baptist Mayr</publisher>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -60,28 +102,36 @@
               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 63/51</idno>
+            <idno type="shelfmark">S 1/72</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#rom #psalterium">
+            <summary>
+              <p>Mit Hymnar</p>
+              <p>Psalterium Romanum</p>
+            </summary>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="print">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm">
+                    <height>516</height>
+                    <width>375</width>
+                  </dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="page" quantity="378">378</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance>
+              <placeName ref="#Salzburg">Salzburg</placeName>
+              <placeName ref="#JBMayr">J.B. Mayr</placeName>
+            </provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -100,13 +150,27 @@
         </label>
         </application>
       </appInfo>
+      <classDecl>
+        <taxonomy xml:id="liturgies">
+          <desc>Liturgies</desc>
+          <category xml:id="rom">
+            <catDesc>ROM</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="booktypes">
+          <desc>Book Types</desc>
+          <category xml:id="psalterium">
+            <catDesc>Psalterium</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws" xml:lang="en">book</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -123,6 +187,117 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/>
-  <!-- Template does not validates due to this being empty-->
+  <standOff>
+    <listPlace>
+      <place xml:id="Salzburg">
+        <placeName xml:lang="en">Salzburg</placeName>
+        <placeName xml:lang="de">Salzburg</placeName>
+        <placeName xml:lang="it">Salisburgo</placeName>
+        <location>
+          <settlement xml:lang="en">Salzburg</settlement>
+          <settlement xml:lang="de">Salzburg</settlement>
+          <settlement xml:lang="it">Salisburgo</settlement>
+          <region xml:lang="en">Salzburg (federal state)</region>
+          <region xml:lang="de">Land Salzburg</region>
+          <region xml:lang="it">Salisburghese</region>
+          <country xml:lang="en">Austria</country>
+          <country xml:lang="de">Österreich</country>
+          <country xml:lang="it">Austria</country>
+          <geo>47.8 13.045</geo>
+        </location>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_63.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_70.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitum</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_62.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/72</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_72.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_61.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
+        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4076982-3</idno>
+        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
+        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q34713</idno>
+      </place>
+    </listPlace>
+    <listPerson>
+      <person xml:id="Mayr">
+        <persName>
+          <forename>Johann Baptist</forename>
+          <surname>Mayr</surname>
+        </persName>
+        <residence>
+          <date notBefore="1634-01-01" notAfter="1708-12-31">1634-1708</date>
+          <settlement key="2">
+            <placeName type="pref" ref="#Salzburg">Salzburg</placeName>
+            <location>
+              <geo>47.8 13.045</geo>
+            </location>
+          </settlement>
+        </residence>
+        <sex value="male"/>
+        <occupation key="90">Drucker</occupation>
+        <idno type="URL" subtype="GND">https://d-nb.info/gnd/124751946</idno>
+        <listEvent>
+          <event type="mentioned">
+            <p>erwähnt in <title>Hymnarium Sacrum tam Romanum Urbani Papae VIII
+                recognitum</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_62.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>S 1/72</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_72.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate
+                  recogniti</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_61.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate
+                  recogniti</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_63.xml"/>
+            </linkGrp>
+          </event>
+          <event type="mentioned">
+            <p>erwähnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate
+                  recogniti</title></p>
+            <linkGrp>
+              <link type="URL" target="S1_70.xml"/>
+            </linkGrp>
+          </event>
+        </listEvent>
+      </person>
+    </listPerson>
+    <listPlace/>
+  </standOff>
 </TEI>
