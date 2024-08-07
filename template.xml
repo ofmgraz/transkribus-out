@@ -122,5 +122,5 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/> <!-- Template does not validates due to this being empty-->
+  <standOff><span/></standOff>
 </TEI>
