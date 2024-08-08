@@ -38,7 +38,7 @@ for tkb_file in glob.glob(path.join(tkb_directory, "*.xml")):
         xml_prev_root = xml_prev.tree.getroot()
         xml_prev_root.attrib['next'] = filename
         with open(prev_filepath, "wb") as f:
-            f.write(ET.tostring(xml_prev_root, pretty_print=True, encoding='UTF-8'))
+            f.write(ET.tostring(xml_prev_root, pretty_print=True, encoding='unicode'))
     prev_filepath = tkb_file
     with open(tkb_file, "wb") as f:
-        f.write(ET.tostring(xml_current_root, pretty_print=True))
+        f.write(ET.tostring(xml_current_root, pretty_print=True, encoding='unicode'))
