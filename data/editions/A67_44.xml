@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_44" xml:base="https://ofmgraz.github.io/ofm-static/" prev="A64_40.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_44" xml:base="https://ofmgraz.github.io/ofm-static/" prev="S1_44.xml" next="A64_39.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,7 +31,7 @@
           <resp>XML Datenmodellierung</resp>
           <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
-            <surname>Sanz-L&#225;zaro</surname>
+            <surname>Sanz-Lázaro</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
           </persName>
         </respStmt>
@@ -46,7 +46,7 @@
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMK&#214;S Kulturerbe Digital</funder>
+        <funder>BMKÖS Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
         <publisher>
@@ -54,13 +54,13 @@
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
         </publisher>
         <authority>
-          <orgName>&#214;sterreichische Akademie der Wissenschaften</orgName>
+          <orgName>Österreichische Akademie der Wissenschaften</orgName>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
-          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
+          <addrLine>Bäckerstraße 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -127,7 +127,7 @@
           </physDesc>
           <history>
             <provenance>
-              <placeName ref="#StPoelten">St. P&#246;lten</placeName>
+              <placeName ref="#StPoelten">St. Pölten</placeName>
             </provenance>
           </history>
         </msDesc>
@@ -187,30 +187,30 @@
   <standOff>
     <listPlace>
       <place xml:id="StPoelten">
-        <placeName xml:lang="en">Sankt P&#246;lten</placeName>
-        <placeName xml:lang="de">St. P&#246;lten</placeName>
-        <placeName xml:lang="it">Sankt P&#246;lten</placeName>
+        <placeName xml:lang="en">Sankt Pölten</placeName>
+        <placeName xml:lang="de">St. Pölten</placeName>
+        <placeName xml:lang="it">Sankt Pölten</placeName>
         <location>
-          <settlement xml:lang="en">Sankt. P&#246;lten</settlement>
-          <settlement xml:lang="de">St. P&#246;lten</settlement>
-          <settlement xml:lang="it">Sankt P&#246;lten</settlement>
+          <settlement xml:lang="en">Sankt. Pölten</settlement>
+          <settlement xml:lang="de">St. Pölten</settlement>
+          <settlement xml:lang="it">Sankt Pölten</settlement>
           <region xml:lang="en">Lower Austria</region>
-          <region xml:lang="de">Nieder&#246;sterreich</region>
+          <region xml:lang="de">Niederösterreich</region>
           <region xml:lang="it">Bassa Austria</region>
           <country xml:lang="en">Austria</country>
-          <country xml:lang="de">&#214;sterreich</country>
+          <country xml:lang="de">Österreich</country>
           <country xml:lang="it">Austria</country>
           <geo>48.2 15.616666666667</geo>
         </location>
         <listEvent>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>A 67/44</title></p>
+            <p>erwähnt in <title>A 67/44</title></p>
             <linkGrp>
               <link type="URL" target="A67_44.xml"/>
             </linkGrp>
           </event>
           <event type="mentioned">
-            <p>erw&#228;hnt in <title>S 1/58</title></p>
+            <p>erwähnt in <title>S 1/58</title></p>
             <linkGrp>
               <link type="URL" target="S1_58.xml"/>
             </linkGrp>
