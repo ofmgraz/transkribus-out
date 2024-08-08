@@ -37,8 +37,8 @@ for tkb_file in glob.glob(path.join(tkb_directory, "*.xml")):
         xml_prev = TeiReader(prev_filepath)
         xml_prev_root = xml_prev.tree.getroot()
         xml_prev_root.attrib['next'] = filename
-        with open(prev_filepath, "wb") as f:
-            f.write(ET.tostring(xml_prev_root, pretty_print=True, encoding='unicode'))
+        with open(prev_filepath, "w") as f:
+            f.write(ET.tostring(xml_prev_root, pretty_print=True, encoding="unicode"))
     prev_filepath = tkb_file
-    with open(tkb_file, "wb") as f:
-        f.write(ET.tostring(xml_current_root, pretty_print=True, encoding='unicode'))
+    with open(tkb_file, "w") as f:
+        f.write(ET.tostring(xml_current_root, pretty_print=True, encoding="unicode"))
