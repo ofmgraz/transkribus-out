@@ -502,6 +502,7 @@ class TeiHeader(TeiTree):
             )[0]
             ET.SubElement(respstmt, "resp").text = person[1]
             collaborator.attrib["role"] = person[2]
+            ET.tostring(collaborator)
             respstmt.append(collaborator)
 
     def parse_device(self, device):
