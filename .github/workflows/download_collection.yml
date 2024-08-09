@@ -47,6 +47,8 @@ jobs:
       run: ./generate_body.py
     - name: Ammend picture paths
       run: ./amend_pics_paths.sh || true
+    - name: Copy files not in Transkribus
+      run: cp data/constants/* data/editions
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
