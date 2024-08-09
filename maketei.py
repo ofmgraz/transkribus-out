@@ -492,7 +492,7 @@ class TeiHeader(TeiTree):
             [photographer, "Digitalisierung (Fotografieren) des Archivmaterials", "DigitisingAgent"]
         ]
         if len(other) > 0:
-            roles.append([other, "Transkribus Bearbeitung", "Contributor"])
+            roles.append([other, "Transkribus Bearbeitung", "Transcriptor"])
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
         for person in roles:
             resps = TeiReader("resp.xml")
