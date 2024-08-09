@@ -140,22 +140,19 @@
          </zone>
          <zone points="70,2328 1819,2328 1819,2592 70,2592" rendition="TextRegion" xml:id="facs_1_region_1722100912700_11" subtype="paragraph">
             <zone points="141,2439 166,2498 1761,2461 1733,2401 1580,2393 153,2385" rendition="Line" xml:id="facs_1_tl_1722103026"/>
+            <zone points="622,2504 1317,2504 1317,2583 622,2583" rendition="Line" xml:id="facs_1_line_1723120231489_390"/>
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2579" xml:id="facs_2">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_76/files/images/A-Gf_S1_76-001v/full/full/0/default.jpg" width="2000px" height="2579px"/>
-         <zone points="23,67 109,67 109,129 23,129" rendition="TextRegion" xml:id="facs_2_tr_1">
-            <zone points="23,72 53,72 83,72 109,74 109,124 83,122 53,122 23,122" rendition="Line" xml:id="facs_2_tr_1_tl_1"/>
-         </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2606" xml:id="facs_3">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_76/files/images/A-Gf_S1_76-002r/full/full/0/default.jpg" width="2000px" height="2606px"/>
          <zone points="113,377 162,365 699,351 1388,355 1489,369 1872,344 1788,1924 1784,2373 1759,2400 1243,2433 72,2431 56,2421 31,1926 66,437" rendition="TextRegion" xml:id="facs_3_TextRegion_1722100987755_38" subtype="0.99">
-            <zone points="104,160 1803,160 1803,352 104,352" rendition="Line" xml:id="facs_3_tl_1722103035"/>
             <zone points="236,407 244,492 411,516 1618,491 1612,403 1545,381 243,384" rendition="Line" xml:id="facs_3_tl_1722103019"/>
-            <zone points="123,535 146,614 322,635 1810,610 1785,554 1340,514 1061,554 127,516" rendition="Line" xml:id="facs_3_tl_1722103021"/>
-            <zone points="243,664 267,708 1804,695 1781,628 248,649" rendition="Line" xml:id="facs_3_tl_1722103025"/>
-            <zone points="170,744 195,780 1823,762 1814,717 1741,705 178,732" rendition="Line" xml:id="facs_3_tl_1722103037"/>
+            <zone points="345,543 368,622 322,635 1810,610 1785,554 1340,514 1061,554 127,516" rendition="Line" xml:id="facs_3_tl_1722103021"/>
+            <zone points="337,661 361,705 1804,695 1781,628 248,649" rendition="Line" xml:id="facs_3_tl_1722103025"/>
+            <zone points="296,738 321,774 1823,762 1814,717 1741,705 178,732" rendition="Line" xml:id="facs_3_tl_1722103037"/>
             <zone points="1820,833 1792,792 1475,772 90,796 111,840 1813,850" rendition="Line" xml:id="facs_3_tl_1722103029"/>
             <zone points="66,870 80,925 917,908 910,863 809,848 69,862" rendition="Line" xml:id="facs_3_tl_1722103028"/>
             <zone points="600,963 581,927 532,917 319,928 213,917 205,932 210,986 273,994 582,987 600,975" rendition="Line" xml:id="facs_3_tl_1722103012"/>
@@ -3035,29 +3032,14 @@
             <zone points="1875,1749 1684,1717 301,1752 393,1803 1870,1784" rendition="Line" xml:id="facs_56_tl_1722102998"/>
             <zone points="1812,1830 1692,1795 173,1824 195,1884 1809,1858" rendition="Line" xml:id="facs_56_tl_1722103001"/>
             <zone points="812,1931 1282,1931 1282,2058 812,2058" rendition="Line" xml:id="facs_56_tl_1722102990"/>
+            <zone points="297,2045 1711,2045 1711,2264 297,2264" rendition="Line" xml:id="facs_56_line_1723120391497_494"/>
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="19353" xml:id="facs_57">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_76/files/images/A-Gf_S1_76-BR/full/full/0/default.jpg" width="2000px" height="19353px"/>
-         <zone points="829,13913 829,14626 1049,14626 1049,13913" rendition="TextRegion" xml:id="facs_57_tr_1">
-            <zone points="926,14063 951,14063 977,14063 1003,14064 1029,14065 1029,13915 1003,13914 977,13913 951,13913 926,13913" rendition="Line" xml:id="facs_57_tr_1_tl_1"/>
-            <zone points="829,14609 856,14611 884,14614 911,14617 939,14620 966,14622 994,14624 1021,14626 1049,14623 1049,14473 1021,14476 994,14474 966,14472 939,14470 911,14467 884,14464 856,14461 829,14459" rendition="Line" xml:id="facs_57_tr_1_tl_2"/>
-         </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2502" xml:id="facs_58">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_76/files/images/A-Gf_S1_76-HD/full/full/0/default.jpg" width="2000px" height="2502px"/>
-         <zone points="1458,120 1458,284 1530,284 1530,120" rendition="TextRegion" xml:id="facs_58_tr_1">
-            <zone points="1458,284 1494,279 1530,270 1530,120 1494,129 1458,134" rendition="Line" xml:id="facs_58_tr_1_tl_1"/>
-         </zone>
-         <zone points="1600,124 1600,278 1762,278 1762,124" rendition="TextRegion" xml:id="facs_58_tr_3">
-            <zone points="1600,274 1627,276 1654,274 1681,275 1708,276 1735,276 1762,278 1762,128 1735,126 1708,126 1681,125 1654,124 1627,126 1600,124" rendition="Line" xml:id="facs_58_tr_3_tl_1"/>
-         </zone>
-         <zone points="1544,1896 1544,2068 1698,2068 1698,1896" rendition="TextRegion" xml:id="facs_58_tr_2">
-            <zone points="1544,2046 1569,2051 1595,2052 1621,2054 1646,2057 1672,2061 1698,2068 1698,1918 1672,1911 1646,1907 1621,1904 1595,1902 1569,1901 1544,1896" rendition="Line" xml:id="facs_58_tr_2_tl_1"/>
-         </zone>
-         <zone points="1726,1918 1726,2074 1828,2074 1828,1918" rendition="TextRegion" xml:id="facs_58_tr_4">
-            <zone points="1726,2068 1751,2071 1777,2073 1802,2074 1828,2074 1828,1924 1802,1924 1777,1923 1751,1921 1726,1918" rendition="Line" xml:id="facs_58_tr_4_tl_1"/>
-         </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2579" xml:id="facs_59">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_76/files/images/A-Gf_S1_76-HDS/full/full/0/default.jpg" width="2000px" height="2579px"/>
@@ -3067,13 +3049,6 @@
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2584" xml:id="facs_61">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_76/files/images/A-Gf_S1_76-VDS/full/full/0/default.jpg" width="2000px" height="2584px"/>
-         <zone points="754,1846 754,2002 800,2002 800,1846" rendition="TextRegion" xml:id="facs_61_tr_1">
-            <zone points="754,1996 800,2002 800,1852 754,1846" rendition="Line" xml:id="facs_61_tr_1_tl_1"/>
-         </zone>
-         <zone points="802,1864 802,2450 1037,2450 1037,1864" rendition="TextRegion" xml:id="facs_61_tr_2">
-            <zone points="866,2016 892,2019 918,2020 945,2019 971,2018 997,2016 1024,2014 1024,1864 997,1866 971,1868 945,1869 918,1870 892,1869 866,1866" rendition="Line" xml:id="facs_61_tr_2_tl_1"/>
-            <zone points="802,2448 828,2450 854,2444 880,2444 906,2444 932,2443 958,2440 984,2437 1010,2436 1037,2437 1037,2287 1010,2286 984,2287 958,2290 932,2293 906,2294 880,2294 854,2294 828,2300 802,2298" rendition="Line" xml:id="facs_61_tr_2_tl_2"/>
-         </zone>
       </surface>
    </facsimile>
    <text>
@@ -3084,47 +3059,43 @@
                <lb facs="#facs_1_tl_1722103027" n="N001"/>ORDO
                <lb facs="#facs_1_tl_1722103029" n="N002"/>AGENDORUM
                <lb facs="#facs_1_tl_1722103022" n="N003"/>ET CANTANDORUM
-               <lb facs="#facs_1_tl_1722103021" n="N006"/>SIONALIBOS.
-               <lb facs="#facs_1_tl_1722103024" n="N007"/>Pro FF Franciscanis strictioris.
-               <lb facs="#facs_1_tl_1722103025" n="N008"/>Observantiae in alma Provincia Austriae DE
-               <lb facs="#facs_1_tl_1722103023" n="N009"/>amulantibus ac commodatus.
+               <lb facs="#facs_1_tl_1722103021" n="N006"/>SIONALIBUS.
+               <lb facs="#facs_1_tl_1722103024" n="N007"/>Pro F.F. Franciscanis strictioris.
+               <lb facs="#facs_1_tl_1722103025" n="N008"/>Observantiae in alma Provincia Austriae DEO
+               <lb facs="#facs_1_tl_1722103023" n="N009"/>famulantibus ac commodatus.
             </ab>
             <p facs="#facs_1_region_1722100912700_11">
-               <lb facs="#facs_1_tl_1722103026" n="N001"/>VIENNAE AUSTRIAE, TDis MATTHAI RICXII.</p>
+               <lb facs="#facs_1_tl_1722103026" n="N001"/>VIENNAE AUSTRIAE, Typis MATTHAEI RICTII.</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <ab facs="#facs_2_tr_1">
-               <lb facs="#facs_2_tr_1_tl_1" n="N001"/>
-            </ab>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
             <ab facs="#facs_3_TextRegion_1722100987755_38">
-               <lb facs="#facs_3_tl_1722103035" n="N001"/>6l l l3 l3 l. l
-               <lb facs="#facs_3_tl_1722103019" n="N002"/>Modus Sepeliendi Fratres.
-               <lb facs="#facs_3_tl_1722103021" n="N003"/>N primis dato signo Campana Re fectorij omnes Pa-
-               <lb facs="#facs_3_tl_1722103025" n="N004"/>tres e Fratres compolant ad Sacristiam, ubi ordinatis Offi-
-               <lb facs="#facs_3_tl_1722103037" n="N005"/>catore, Ministris, Ceroferarijs, Cruciferario, e Acolytho
-               <lb facs="#facs_3_tl_1722103029" n="N006"/>processional ter transitur ad locum de functi dicendo Ps. Miserere, quoe-
-               <lb facs="#facs_3_tl_1722103028" n="N007"/>finito incipit Officiator sine Cantu.
-               <lb facs="#facs_3_tl_1722103012" n="N008"/>Kyrie eleison.
-               <lb facs="#facs_3_tl_1722103024" n="N009"/>R. Christe eleison. Kyrie eleison.
-               <lb facs="#facs_3_tl_1722103017" n="N010"/>V. Pater noster.
-               <lb facs="#facs_3_tl_1722103023" n="N011"/>Et ne nos inducas in tentationem.
-               <lb facs="#facs_3_tl_1722103011" n="N012"/>R. Sed libera nos a malo.
-               <lb facs="#facs_3_tl_1722103014" n="N013"/>V. A porta inferi.
-               <lb facs="#facs_3_tl_1722103018" n="N014"/>R. Erue Domine animam ejus.
-               <lb facs="#facs_3_tl_1722103010" n="N015"/>V. Requiescat in pace.
-               <lb facs="#facs_3_tl_1722103013" n="N016"/>R. Amen.
-               <lb facs="#facs_3_tl_1722103027" n="N017"/>V. Domine exaudi orationem meam,
-               <lb facs="#facs_3_tl_1722103016" n="N018"/>R. Et clamor meus ad te venia.
-               <lb facs="#facs_3_tl_1722103015" n="N019"/>V. Dominus vobiscum.
-               <lb facs="#facs_3_tl_1722103020" n="N020"/>R. Et cum Spiritu tuo.
-               <lb facs="#facs_3_tl_1722103036" n="N021"/>Orems.
-               <lb facs="#facs_3_tl_1722103030" n="N022"/>Guscipe Domine animam famuli tui N. confratris nostri, quam
-               <lb facs="#facs_3_tl_1722103033" n="N023"/>de ergastulo huius Saeculi vocare dignatus es, et libera eam de
-               <lb facs="#facs_3_tl_1722103031" n="N024"/>locis poenarum, ut quietis ac lucis aeternae beatitudine per frua-
-               <lb facs="#facs_3_tl_1722103034" n="N025"/>ur, et inter sanctos et electos tuos in resurrectionis gloria resu-
-               <lb facs="#facs_3_tl_1722103032" n="N026"/>scitari mereatur, per Christum Dominum nostrunt. R. Ame-
-               <lb facs="#facs_3_tl_1722103026" n="N027"/>V. Requiem aeternam dona ei Domine
-               <lb facs="#facs_3_tl_1722103022" n="N028"/>R. Et lux perpetua luceat ei.
+               <lb facs="#facs_3_tl_1722103019" n="N001"/>Modus Sepeliendi Fratres.
+               <lb facs="#facs_3_tl_1722103021" n="N002"/>IN primis dato signo Campana Re fectorij omnes Pa-
+               <lb facs="#facs_3_tl_1722103025" n="N003"/>tres e Fratres compolant ad Sacristiam, ubi ordinatis Offi-
+               <lb facs="#facs_3_tl_1722103037" n="N004"/>catore, Ministris, Ceroferarijs, Cruciferario, e Acolytho
+               <lb facs="#facs_3_tl_1722103029" n="N005"/>processional ter transitur ad locum de functi dicendo Ps. Miserere, quoe-
+               <lb facs="#facs_3_tl_1722103028" n="N006"/>finito incipit Officiator sine Cantu.
+               <lb facs="#facs_3_tl_1722103012" n="N007"/>Kyrie eleison.
+               <lb facs="#facs_3_tl_1722103024" n="N008"/>R. Christe eleison. Kyrie eleison.
+               <lb facs="#facs_3_tl_1722103017" n="N009"/>V. Pater noster.
+               <lb facs="#facs_3_tl_1722103023" n="N010"/>Et ne nos inducas in tentationem.
+               <lb facs="#facs_3_tl_1722103011" n="N011"/>R. Sed libera nos a malo.
+               <lb facs="#facs_3_tl_1722103014" n="N012"/>V. A porta inferi.
+               <lb facs="#facs_3_tl_1722103018" n="N013"/>R. Erue Domine animam ejus.
+               <lb facs="#facs_3_tl_1722103010" n="N014"/>V. Requiescat in pace.
+               <lb facs="#facs_3_tl_1722103013" n="N015"/>R. Amen.
+               <lb facs="#facs_3_tl_1722103027" n="N016"/>V. Domine exaudi orationem meam,
+               <lb facs="#facs_3_tl_1722103016" n="N017"/>R. Et clamor meus ad te venia.
+               <lb facs="#facs_3_tl_1722103015" n="N018"/>V. Dominus vobiscum.
+               <lb facs="#facs_3_tl_1722103020" n="N019"/>R. Et cum Spiritu tuo.
+               <lb facs="#facs_3_tl_1722103036" n="N020"/>Oremus.
+               <lb facs="#facs_3_tl_1722103030" n="N021"/>Suscipe Domine animam famuli tui N. confratris nostri, quam
+               <lb facs="#facs_3_tl_1722103033" n="N022"/>de ergastulo huius Saeculi vocare dignatus es, et libera eam de
+               <lb facs="#facs_3_tl_1722103031" n="N023"/>locis poenarum, ut quietis ac lucis aeternae beatitudine per frua-
+               <lb facs="#facs_3_tl_1722103034" n="N024"/>ur, et inter sanctos et electos tuos in resurrectionis gloria resu-
+               <lb facs="#facs_3_tl_1722103032" n="N025"/>scitari mereatur, per Christum Dominum nostrunt. R. Amen.
+               <lb facs="#facs_3_tl_1722103026" n="N026"/>V. Requiem aeternam dona ei Domine
+               <lb facs="#facs_3_tl_1722103022" n="N027"/>R. Et lux perpetua luceat ei.
             </ab>
             <pb facs="#facs_4" n="4" xml:id="img_0004"/>
             <ab facs="#facs_4_tr_1722100381">
@@ -5272,36 +5243,13 @@
                <lb facs="#facs_56_tl_1722102989" n="N024"/>Pss, Landate pueri Dominum, in sexto tons.
                <lb facs="#facs_56_tl_1722102998" n="N025"/>In aduentu Fratrum Lacorum pulsatur bis brevassiume ecant
                <lb facs="#facs_56_tl_1722103001" n="N026"/>tur in seaeto Tono Psalms, Laudate Dominum omnes Gentes.
-               <lb facs="#facs_56_tl_1722102990" n="N027"/>Laus DE.
+               <lb facs="#facs_56_tl_1722102990" n="N027"/>Laus DEO.
             </ab>
             <pb facs="#facs_57" n="57" xml:id="img_0057"/>
-            <ab facs="#facs_57_tr_1">
-               <lb facs="#facs_57_tr_1_tl_1" n="N001"/>
-               <lb facs="#facs_57_tr_1_tl_2" n="N002"/>
-            </ab>
             <pb facs="#facs_58" n="58" xml:id="img_0058"/>
-            <ab facs="#facs_58_tr_1">
-               <lb facs="#facs_58_tr_1_tl_1" n="N001"/>
-            </ab>
-            <ab facs="#facs_58_tr_3">
-               <lb facs="#facs_58_tr_3_tl_1" n="N001"/>
-            </ab>
-            <ab facs="#facs_58_tr_2">
-               <lb facs="#facs_58_tr_2_tl_1" n="N001"/>
-            </ab>
-            <ab facs="#facs_58_tr_4">
-               <lb facs="#facs_58_tr_4_tl_1" n="N001"/>
-            </ab>
             <pb facs="#facs_59" n="59" xml:id="img_0059"/>
             <pb facs="#facs_60" n="60" xml:id="img_0060"/>
             <pb facs="#facs_61" n="61" xml:id="img_0061"/>
-            <ab facs="#facs_61_tr_1">
-               <lb facs="#facs_61_tr_1_tl_1" n="N001"/>
-            </ab>
-            <ab facs="#facs_61_tr_2">
-               <lb facs="#facs_61_tr_2_tl_1" n="N001"/>
-               <lb facs="#facs_61_tr_2_tl_2" n="N002"/>
-            </ab>
          </div>
       </body>
    </text>

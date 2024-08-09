@@ -342,8 +342,7 @@
             <zone points="126,2026 159,2098 1624,2114 1601,2037 133,2011" rendition="Line" xml:id="facs_1_tl_1722073442"/>
             <zone points="155,2163 186,2203 873,2233 1631,2224 1607,2157 169,2107" rendition="Line" xml:id="facs_1_tl_1722073434"/>
             <zone points="839,2305 815,2244 663,2212 570,2235 199,2213 175,2241 181,2329 279,2347 837,2323" rendition="Line" xml:id="facs_1_tl_1722073437"/>
-            <zone points="109,2352 110,2421 152,2439 925,2443 893,2382 826,2351 112,2344" rendition="Line" xml:id="facs_1_tl_1722073445"/>
-            <zone points="118,2363 154,2435 1608,2457 1589,2369 1156,2358 946,2416 771,2346 122,2348" rendition="Line" xml:id="facs_1_tl_1722073446"/>
+            <zone points="112,2344 771,2346 1589,2369 1608,2457 152,2439 110,2421 109,2352" rendition="Line" xml:id="facs_1_line_1723120510072_527"/>
             <zone points="192,2499 214,2565 1564,2565 1546,2491 1472,2474 708,2489 516,2435 200,2480" rendition="Line" xml:id="facs_1_tl_1722073436"/>
             <zone points="195,2601 224,2671 746,2666 1094,2699 1158,2675 1142,2604 974,2576 199,2584" rendition="Line" xml:id="facs_1_tl_1722073439"/>
             <zone points="1448,2733 1427,2672 1262,2713 164,2680 143,2758 165,2799 285,2807 1388,2818 1447,2786" rendition="Line" xml:id="facs_1_tl_1722073440"/>
@@ -618,8 +617,6 @@
          </zone>
          <zone points="69,199 1758,199 1758,2164 69,2164" rendition="TextRegion" xml:id="facs_9_tr_1722066420" subtype="0.97">
             <zone points="328,238 330,306 376,318 1452,310 1433,222 333,221" rendition="Line" xml:id="facs_9_tl_1722073395"/>
-            <zone points="59,340 376,340 376,663 59,663" rendition="Line" xml:id="facs_9_tl_1722073379"/>
-            <zone points="1573,220 1572,260 1578,265 1718,268 1717,222 1574,219" rendition="Line" xml:id="facs_9_tl_1722073400"/>
             <zone points="414,344 430,418 1691,428 1676,354 419,328" rendition="Line" xml:id="facs_9_tl_1722073397"/>
             <zone points="455,449 477,538 1700,547 1688,462 1505,441 1366,469 460,436" rendition="Line" xml:id="facs_9_tl_1722073390"/>
             <zone points="455,561 476,652 1705,661 1689,573 1238,566 1100,600 882,552 463,546" rendition="Line" xml:id="facs_9_tl_1722073389"/>
@@ -636,9 +633,6 @@
             <zone points="107,1834 134,1911 1726,1898 1699,1821 828,1850 662,1811 113,1812" rendition="Line" xml:id="facs_9_tl_1722073386"/>
             <zone points="129,1961 158,2026 1748,2012 1738,1955 1664,1933 133,1935" rendition="Line" xml:id="facs_9_tl_1722073384"/>
             <zone points="144,2055 145,2130 195,2146 1213,2129 1208,2072 1158,2053 148,2044" rendition="Line" xml:id="facs_9_tl_1722073388"/>
-         </zone>
-         <zone points="1564,221 1732,221 1732,339 1564,339" rendition="TextRegion" xml:id="facs_9_tr_1722066422" subtype="0.95">
-            <zone points="1568,275 1573,306 1683,317 1715,315 1715,269 1600,266 1576,268 1569,274" rendition="Line" xml:id="facs_9_tl_1722073399"/>
          </zone>
          <zone points="193,2191 1622,2191 1622,2433 193,2433" rendition="TextRegion" xml:id="facs_9_tr_1722066423" subtype="0.91">
             <zone points="214,2228 217,2289 286,2303 1583,2309 1575,2241 1467,2207 219,2206" rendition="Line" xml:id="facs_9_tl_1722073391"/>
@@ -10466,6 +10460,7 @@
             <zone points="474,2521 496,2563 1797,2549 1777,2504 1654,2496 478,2508" rendition="Line" xml:id="facs_240_tl_1722073347"/>
             <zone points="511,2592 526,2626 883,2633 1636,2632 1696,2597 1677,2570 515,2570" rendition="Line" xml:id="facs_240_tl_1722073352"/>
             <zone points="1668,2656 1552,2628 547,2628 530,2675 584,2700 1615,2703 1667,2677" rendition="Line" xml:id="facs_240_tl_1722073345"/>
+            <zone points="780,2710 1467,2710 1467,2749 780,2749" rendition="Line" xml:id="facs_240_line_1723120985524_682"/>
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="3090" xml:id="facs_241">
@@ -10477,9 +10472,9 @@
             <zone points="119,467 122,519 196,533 1649,537 1634,453 127,441" rendition="Line" xml:id="facs_241_tl_1722073522"/>
             <zone points="1057,582 1046,552 927,543 716,548 700,562 700,595 716,609 851,616 898,604 1056,601" rendition="Line" xml:id="facs_241_tl_1722073527"/>
             <zone points="797,623 795,655 801,670 923,680 940,675 948,663 946,615 863,613 848,619 803,619" rendition="Line" xml:id="facs_241_tl_1722073523"/>
-            <zone points="763,856 767,894 791,908 990,902 989,849 888,851 777,838 764,855" rendition="Line" xml:id="facs_241_tl_1722073515"/>
             <zone points="1554,711 1260,662 580,704 208,680 176,762 1553,758" rendition="Line" xml:id="facs_241_tl_1722073532"/>
-            <zone points="1653,828 1646,784 1606,771 613,796 628,836 718,841 1651,838" rendition="Line" xml:id="facs_241_tl_1722073534"/>
+            <zone points="1653,828 1646,784 1606,771 93,784 108,824 718,841 1651,838" rendition="Line" xml:id="facs_241_tl_1722073534"/>
+            <zone points="763,856 767,894 791,908 990,902 989,849 888,851 777,838 764,855" rendition="Line" xml:id="facs_241_tl_1722073515"/>
             <zone points="276,896 1477,896 1477,1001 276,1001" rendition="Line" xml:id="facs_241_tl_1722073525"/>
             <zone points="141,1006 193,1068 1586,1070 1577,999 169,999" rendition="Line" xml:id="facs_241_tl_1722073526"/>
             <zone points="670,1073 671,1122 687,1132 1044,1138 1062,1127 1060,1085 1043,1077 672,1067" rendition="Line" xml:id="facs_241_tl_1722073517"/>
@@ -10503,20 +10498,9 @@
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2931" xml:id="facs_245">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_61/files/images/A-Gf_S1_61-VDS/full/full/0/default.jpg" width="2000px" height="2931px"/>
-         <zone points="843,2409 843,2568 979,2568 979,2409" rendition="TextRegion" xml:id="facs_245_tr_1">
-            <zone points="843,2567 870,2563 897,2564 924,2566 951,2568 979,2559 979,2409 951,2418 924,2416 897,2414 870,2413 843,2417" rendition="Line" xml:id="facs_245_tr_1_tl_1"/>
-         </zone>
-         <zone points="1029,2392 1029,2549 1293,2549 1293,2392" rendition="TextRegion" xml:id="facs_245_tr_2">
-            <zone points="1029,2549 1055,2549 1081,2547 1108,2545 1134,2544 1161,2542 1187,2542 1213,2544 1240,2545 1266,2543 1293,2543 1293,2393 1266,2393 1240,2395 1213,2394 1187,2392 1161,2392 1134,2394 1108,2395 1081,2397 1055,2399 1029,2399" rendition="Line" xml:id="facs_245_tr_2_tl_1"/>
-         </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="16685" xml:id="facs_246">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_61/files/images/&quot;view_IMG_0134/full/full/0/default.jpg" width="2000px" height="16685px"/>
-         <zone points="913,14909 913,15310 1423,15310 1423,14909" rendition="TextRegion" xml:id="facs_246_tr_1">
-            <zone points="1166,14987 1191,14992 1217,14997 1243,15001 1268,15005 1294,15011 1320,15018 1345,15023 1371,15027 1397,15027 1423,15027 1423,14949 1397,14949 1371,14949 1345,14945 1320,14940 1294,14933 1268,14927 1243,14923 1217,14919 1191,14914 1166,14909" rendition="Line" xml:id="facs_246_tr_1_tl_1"/>
-            <zone points="913,15104 938,15106 963,15107 989,15105 1014,15104 1040,15102 1065,15100 1091,15100 1116,15100 1142,15102 1167,15104 1193,15108 1218,15111 1244,15119 1269,15125 1295,15130 1320,15133 1346,15130 1346,15051 1320,15054 1295,15051 1269,15046 1244,15040 1218,15032 1193,15029 1167,15025 1142,15023 1116,15021 1091,15021 1065,15021 1040,15023 1014,15025 989,15026 963,15028 938,15027 913,15025" rendition="Line" xml:id="facs_246_tr_1_tl_2"/>
-            <zone points="986,15310 1013,15308 1041,15309 1069,15310 1097,15310 1125,15307 1153,15304 1153,15225 1125,15228 1097,15231 1069,15231 1041,15230 1013,15229 986,15231" rendition="Line" xml:id="facs_246_tr_1_tl_3"/>
-         </zone>
       </surface>
    </facsimile>
    <text>
@@ -10551,11 +10535,10 @@
                <lb facs="#facs_1_tl_1722073442" n="N004"/>Commune qu mund nefas vt expiares,
                <lb facs="#facs_1_tl_1722073434" n="N005"/>ad Crucem e Virginis Sacrario inta-
                <lb facs="#facs_1_tl_1722073437" n="N006"/>ctaprodis vstima.
-               <lb facs="#facs_1_tl_1722073445" n="N007"/>Cuiu potestas gloriae,
-               <lb facs="#facs_1_tl_1722073446" n="N008"/>Cuiu potestas gloriae, nomenque cum
-               <lb facs="#facs_1_tl_1722073436" n="N009"/>prinum sona, et Caelites, et inferi-
-               <lb facs="#facs_1_tl_1722073439" n="N010"/>trenente curiantur enua
-               <lb facs="#facs_1_tl_1722073440" n="N011"/>Te depecamu vltimae nagnum d
+               <lb facs="#facs_1_line_1723120510072_527" n="N007"/>Cuius potestas gloriae, nomenque cum
+               <lb facs="#facs_1_tl_1722073436" n="N008"/>primum sonat, et Caelites, et inferi
+               <lb facs="#facs_1_tl_1722073439" n="N009"/>trenente curiantur genua
+               <lb facs="#facs_1_tl_1722073440" n="N010"/>Te depecamur vltimae magnum d
             </ab>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <pb facs="#facs_3" n="3" xml:id="img_0003"/>
@@ -10769,27 +10752,22 @@
             </ab>
             <ab facs="#facs_9_tr_1722066420">
                <lb facs="#facs_9_tl_1722073395" n="N001"/>AD LAVDES, Hymnus.
-               <lb facs="#facs_9_tl_1722073379" n="N002"/>O
-               <lb facs="#facs_9_tl_1722073400" n="N003"/>Tonus u-
-               <lb facs="#facs_9_tl_1722073397" n="N004"/>Sola magnarum vrbium maio
-               <lb facs="#facs_9_tl_1722073390" n="N005"/>Bethlem, cui contigit ducem
-               <lb facs="#facs_9_tl_1722073389" n="N006"/>salutis caelitus incorporatum
-               <lb facs="#facs_9_tl_1722073378" n="N007"/>gignere.
-               <lb facs="#facs_9_tl_1722073394" n="N008"/>Quem stella, quae Solis rotam vincit de-
-               <lb facs="#facs_9_tl_1722073396" n="N009"/>core, ac lumine; venisse terris nun-
-               <lb facs="#facs_9_tl_1722073383" n="N010"/>ciat cum carne terrestri Deum.
-               <lb facs="#facs_9_tl_1722073382" n="N011"/>Videre postquam illum Magi, * eo pro-
-               <lb facs="#facs_9_tl_1722073380" n="N012"/>munt munera, stratique votis offerunt,
-               <lb facs="#facs_9_tl_1722073387" n="N013"/>thus, myrrham, et aurum regium.
-               <lb facs="#facs_9_tl_1722073393" n="N014"/>Regem, Deumque annuntiant thesaurus,
-               <lb facs="#facs_9_tl_1722073392" n="N015"/>et fragrans odorthuris Sabaei, ac my-
-               <lb facs="#facs_9_tl_1722073385" n="N016"/>rheus puluis sepulchrum praedocet.
-               <lb facs="#facs_9_tl_1722073386" n="N017"/>esu, tibi sit gloria, qui apparuisti Genti-
-               <lb facs="#facs_9_tl_1722073384" n="N018"/>bus, cum Patre, et almo Spiritu, * in
-               <lb facs="#facs_9_tl_1722073388" n="N019"/>sempiterna saecula. Amen.
-            </ab>
-            <ab facs="#facs_9_tr_1722066422">
-               <lb facs="#facs_9_tl_1722073399" n="N001"/>ad Vespe-
+               <lb facs="#facs_9_tl_1722073397" n="N002"/>Sola magnarum vrbium maior
+               <lb facs="#facs_9_tl_1722073390" n="N003"/>Bethlem, cui contigit ducem
+               <lb facs="#facs_9_tl_1722073389" n="N004"/>salutis caelitus incorporatum
+               <lb facs="#facs_9_tl_1722073378" n="N005"/>gignere.
+               <lb facs="#facs_9_tl_1722073394" n="N006"/>Quem stella, quae Solis rotam vincit de-
+               <lb facs="#facs_9_tl_1722073396" n="N007"/>core, ac lumine; venisse terris nun-
+               <lb facs="#facs_9_tl_1722073383" n="N008"/>ciat cum carne terrestri Deum.
+               <lb facs="#facs_9_tl_1722073382" n="N009"/>Videre postquam illum Magi, * eo pro-
+               <lb facs="#facs_9_tl_1722073380" n="N010"/>munt munera, stratique votis offerunt,
+               <lb facs="#facs_9_tl_1722073387" n="N011"/>thus, myrrham, et aurum regium.
+               <lb facs="#facs_9_tl_1722073393" n="N012"/>Regem, Deumque annuntiant thesaurus,
+               <lb facs="#facs_9_tl_1722073392" n="N013"/>et fragrans odorthuris Sabaei, ac my-
+               <lb facs="#facs_9_tl_1722073385" n="N014"/>rheus puluis sepulchrum praedocet.
+               <lb facs="#facs_9_tl_1722073386" n="N015"/>esu, tibi sit gloria, qui apparuisti Genti-
+               <lb facs="#facs_9_tl_1722073384" n="N016"/>bus, cum Patre, et almo Spiritu, * in
+               <lb facs="#facs_9_tl_1722073388" n="N017"/>sempiterna saecula. Amen.
             </ab>
             <ab facs="#facs_9_tr_1722066423">
                <lb facs="#facs_9_tl_1722073391" n="N001"/>Sabbato primo in Quadragesima,
@@ -18277,14 +18255,14 @@
             </ab>
             <ab facs="#facs_240_tr_1722066404">
                <lb facs="#facs_240_tl_1722073351" n="N001"/>Vltimo Notandum adhuc restat
-               <lb facs="#facs_240_tl_1722073343" n="N002"/>uod nempe in laudibus nihil aliud cantetur, nisi
-               <lb facs="#facs_240_tl_1722073356" n="N003"/>Versiculo dudivi Vocem etc uti supra in Vespe-sc-
-               <lb facs="#facs_240_tl_1722073355" n="N004"/>organo. Antipois ego sum etc: semper Cantatus, sine org-
-               <lb facs="#facs_240_tl_1722073349" n="N005"/>Benedictus vero semper Cum Orgini, sicuti ad funea
-               <lb facs="#facs_240_tl_1722073344" n="N006"/>saecularium fieri solet. post Benencdo suaviter Cani-
-               <lb facs="#facs_240_tl_1722073347" n="N007"/>tatum repetitus iterus An ego sum sine Org-
-               <lb facs="#facs_240_tl_1722073352" n="N008"/>Deinde Cantas oratio fidelius, et solem uiter, et post
-               <lb facs="#facs_240_tl_1722073345" n="N009"/>Requiescant in pace orant in Litaniae Bea. Virge.
+               <lb facs="#facs_240_tl_1722073343" n="N002"/>quod nempe in laudibus nihil aliud cantetur, nisi
+               <lb facs="#facs_240_tl_1722073356" n="N003"/>Versiculo dudivi Vocem etc uti supra in Vesp. cum
+               <lb facs="#facs_240_tl_1722073355" n="N004"/>organo. Antiph. ego sum etc: semper Cantatus, sine Org.
+               <lb facs="#facs_240_tl_1722073349" n="N005"/>Benedictus vero semper Cum Org. sicuti ad funera
+               <lb facs="#facs_240_tl_1722073344" n="N006"/>saecularium fieri solet. post Benedictus suaviter Can-
+               <lb facs="#facs_240_tl_1722073347" n="N007"/>tatum repetitur iterum An. ego sum sine Org.
+               <lb facs="#facs_240_tl_1722073352" n="N008"/>Deinde cantatur oratio fidelium, ets solemniter, et post
+               <lb facs="#facs_240_tl_1722073345" n="N009"/>Requiescant in pace orantur in Litaniae B. Virg.
             </ab>
             <pb facs="#facs_241" n="241" xml:id="img_0241"/>
             <p facs="#facs_241_r">
@@ -18294,35 +18272,24 @@
                <lb facs="#facs_241_tl_1722073522" n="N004"/>VRBANI PAPE VIII. Auctoritate
                <lb facs="#facs_241_tl_1722073527" n="N005"/>recognitum
                <lb facs="#facs_241_tl_1722073523" n="N006"/>CUM
-               <lb facs="#facs_241_tl_1722073515" n="N007"/>QUAM
-               <lb facs="#facs_241_tl_1722073532" n="N008"/>OMNIbUS FESTIS NOVIS
-               <lb facs="#facs_241_tl_1722073534" n="N009"/>num a Summis Pontificibus concessis,
+               <lb facs="#facs_241_tl_1722073532" n="N007"/>OMNIBUS FESTIS NOVIS
+               <lb facs="#facs_241_tl_1722073534" n="N008"/>In hunc usque Annum a Summis Pontificibus concessis,
+               <lb facs="#facs_241_tl_1722073515" n="N009"/>QUAM
                <lb facs="#facs_241_tl_1722073525" n="N010"/>FRANCISCANVM
-               <lb facs="#facs_241_tl_1722073526" n="N011"/>Complectens omnia festa Totius Ordinis FRATRUI
+               <lb facs="#facs_241_tl_1722073526" n="N011"/>Complectens omnia festa Totius Ordinis FRATRUM
                <lb facs="#facs_241_tl_1722073517" n="N012"/>MINORUM
                <lb facs="#facs_241_tl_1722073524" n="N013"/>Pro Majori Eorundem &amp; Omnium caeterorum ad Chorum
-               <lb facs="#facs_241_tl_1722073518" n="N014"/>Astrictorum Commoditate.
+               <lb facs="#facs_241_tl_1722073518" n="N014"/>Adstrictorum Commoditate.
                <lb facs="#facs_241_tl_1722073520" n="N015"/>NOVO TYPO EDITUM
                <lb facs="#facs_241_tl_1722073530" n="N016"/>M.DC.
-               <lb facs="#facs_241_tl_1722073533" n="N017"/>GU
+               <lb facs="#facs_241_tl_1722073533" n="N017"/>LXXXV.
                <lb facs="#facs_241_tl_1722073516" n="N018"/>SALISBURGI,
                <lb facs="#facs_241_tl_1722073529" n="N019"/>Ex Typographeo JOANNIS BAPTISTAE MAYR, Aulico- Academici Typographi.</p>
             <pb facs="#facs_242" n="242" xml:id="img_0242"/>
             <pb facs="#facs_243" n="243" xml:id="img_0243"/>
             <pb facs="#facs_244" n="244" xml:id="img_0244"/>
             <pb facs="#facs_245" n="245" xml:id="img_0245"/>
-            <ab facs="#facs_245_tr_1">
-               <lb facs="#facs_245_tr_1_tl_1" n="N001"/>
-            </ab>
-            <ab facs="#facs_245_tr_2">
-               <lb facs="#facs_245_tr_2_tl_1" n="N001"/>
-            </ab>
             <pb facs="#facs_246" n="246" xml:id="img_0246"/>
-            <ab facs="#facs_246_tr_1">
-               <lb facs="#facs_246_tr_1_tl_1" n="N001"/>
-               <lb facs="#facs_246_tr_1_tl_2" n="N002"/>
-               <lb facs="#facs_246_tr_1_tl_3" n="N003"/>
-            </ab>
          </div>
       </body>
    </text>

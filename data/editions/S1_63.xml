@@ -11387,6 +11387,7 @@
       <surface ulx="0" uly="0" lrx="2000" lry="2896" xml:id="facs_223">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_63/files/images/A-Gf_S1_63-a003/full/full/0/default.jpg" width="2000px" height="2896px"/>
          <zone points="36,63 1653,63 1653,2726 36,2726" rendition="TextRegion" xml:id="facs_223_region_1722072625103_445" subtype="paragraph">
+            <zone points="163,135 1593,135 1593,254 163,254" rendition="Line" xml:id="facs_223_line_1723126792054_2302"/>
             <zone points="383,248 1320,248 1320,324 383,324" rendition="Line" xml:id="facs_223_tl_1722073163"/>
             <zone points="235,349 255,426 1455,405 1432,330 238,332" rendition="Line" xml:id="facs_223_tl_1722073146"/>
             <zone points="941,421 924,416 762,425 748,433 744,454 745,466 764,473 866,479 926,472 941,466 941,425" rendition="Line" xml:id="facs_223_tl_1722073153"/>
@@ -11408,7 +11409,7 @@
             <zone points="1646,2593 112,2592 88,2637 1645,2617" rendition="Line" xml:id="facs_223_tl_1722073165"/>
          </zone>
          <zone points="54,2532 1644,2532 1644,2729 54,2729" rendition="TextRegion" xml:id="facs_223_tr_1722066670" subtype="0.89">
-            <zone points="1041,2667 995,2646 316,2674 321,2731 347,2741 1005,2715 1041,2687" rendition="Line" xml:id="facs_223_tl_1722073158"/>
+            <zone points="1041,2667 995,2646 706,2671 711,2728 347,2741 1005,2715 1041,2687" rendition="Line" xml:id="facs_223_tl_1722073158"/>
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2899" xml:id="facs_224">
@@ -11521,14 +11522,6 @@
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="14865" xml:id="facs_227">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_63/files/images/A-Gf_S1_63-BR/full/full/0/default.jpg" width="2000px" height="14865px"/>
-         <zone points="1033,533 1033,693 1183,693 1183,533" rendition="TextRegion" xml:id="facs_227_tr_1">
-            <zone points="1033,693 1058,690 1083,686 1108,684 1133,683 1158,683 1183,683 1183,533 1158,533 1133,533 1108,534 1083,536 1058,540 1033,543" rendition="Line" xml:id="facs_227_tr_1_tl_1"/>
-         </zone>
-         <zone points="1116,13261 1116,13662 1660,13662 1660,13261" rendition="TextRegion" xml:id="facs_227_tr_2">
-            <zone points="1453,13340 1478,13345 1504,13350 1530,13352 1556,13355 1582,13362 1608,13368 1634,13373 1660,13377 1660,13298 1634,13294 1608,13289 1582,13283 1556,13276 1530,13273 1504,13271 1478,13266 1453,13261" rendition="Line" xml:id="facs_227_tr_2_tl_1"/>
-            <zone points="1290,13460 1315,13460 1341,13460 1366,13460 1392,13460 1417,13458 1443,13457 1468,13457 1494,13458 1519,13462 1545,13465 1570,13468 1596,13474 1596,13395 1570,13389 1545,13386 1519,13383 1494,13379 1468,13378 1443,13378 1417,13379 1392,13381 1366,13381 1341,13381 1315,13381 1290,13381" rendition="Line" xml:id="facs_227_tr_2_tl_2"/>
-            <zone points="1116,13659 1142,13662 1168,13660 1195,13658 1221,13656 1248,13654 1274,13653 1301,13650 1327,13646 1353,13644 1380,13642 1406,13641 1433,13639 1459,13636 1486,13632 1486,13538 1459,13542 1433,13545 1406,13547 1380,13548 1353,13550 1327,13552 1301,13556 1274,13559 1248,13560 1221,13562 1195,13564 1168,13566 1142,13568 1116,13565" rendition="Line" xml:id="facs_227_tr_2_tl_3"/>
-         </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2747" xml:id="facs_228">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_63/files/images/A-Gf_S1_63-HD/full/full/0/default.jpg" width="2000px" height="2747px"/>
@@ -11798,7 +11791,7 @@
             </ab>
             <ab facs="#facs_8_tr_1722066695">
                <lb facs="#facs_8_tl_1722073195" n="N001"/>IN EPIPHANIA DOMINI,
-               <lb facs="#facs_8_tl_1722073194" n="N002"/>AD VESP. et infra Octavam ad MATVI.
+               <lb facs="#facs_8_tl_1722073194" n="N002"/>AD VESP. et infra Octavam ad MATVT.
                <lb facs="#facs_8_tl_1722073193" n="N003"/>Hymnus.
             </ab>
             <ab facs="#facs_8_tr_1722066694">
@@ -19660,27 +19653,27 @@
             <pb facs="#facs_222" n="222" xml:id="img_0222"/>
             <pb facs="#facs_223" n="223" xml:id="img_0223"/>
             <p facs="#facs_223_region_1722072625103_445">
-               <lb facs="#facs_223_tl_1722073163" n="N001"/>BREVIARII ROMANI
-               <lb facs="#facs_223_tl_1722073146" n="N002"/>VRBANI Papae VIII. Auctoritate.
-               <lb facs="#facs_223_tl_1722073153" n="N003"/>recogniti
-               <lb facs="#facs_223_tl_1722073164" n="N004"/>FESTA NOVA OMNIA
-               <lb facs="#facs_223_tl_1722073150" n="N005"/>In hunc vsque Annum a Summis Pontificibus concessa.
-               <lb facs="#facs_223_tl_1722073156" n="N006"/>OFFICIVM DEEVNCTORVM.
-               <lb facs="#facs_223_tl_1722073161" n="N007"/>PSALMI GRADUALES ET PENITENTIALES,
-               <lb facs="#facs_223_tl_1722073154" n="N008"/>Omnia pro majori commoditate Psallentium ad longum exposita, et nouo Typo adornata
-               <lb facs="#facs_223_tl_1722073148" n="N009"/>IVSSV ET PROMOTIONE
-               <lb facs="#facs_223_tl_1722073149" n="N010"/>CELSISSIMI ET REVERENDISSIMI
-               <lb facs="#facs_223_tl_1722073151" n="N011"/>S. R. I. PRINCIPIS
-               <lb facs="#facs_223_tl_1722073155" n="N012"/>MAXIMILIANI
-               <lb facs="#facs_223_tl_1722073162" n="N013"/>GANDOLPHI
-               <lb facs="#facs_223_tl_1722073147" n="N014"/>Ex Comit. de KÜENBURG Archi Episcopira.
-               <lb facs="#facs_223_tl_1722073160" n="N015"/>Salisburo. S. Sed Apost. Leg. Nati et Ger-
-               <lb facs="#facs_223_tl_1722073152" n="N016"/>maniae Primatis etc. etc.
-               <lb facs="#facs_223_tl_1722073159" n="N017"/>Cam Priilegio Sac. Ces. Majest. Specidi.
-               <lb facs="#facs_223_tl_1722073157" n="N018"/>SALISBVRGI,
-               <lb facs="#facs_223_tl_1722073165" n="N019"/>Ex Typographeo JOANNIS BAPTISTAE MAYR. Aulico- Academici Typographi.</p>
+               <lb facs="#facs_223_tl_1722073163" n="N002"/>BREVIARII ROMANI
+               <lb facs="#facs_223_tl_1722073146" n="N003"/>VRBANI Papae VIII. Auctoritate.
+               <lb facs="#facs_223_tl_1722073153" n="N004"/>recogniti
+               <lb facs="#facs_223_tl_1722073164" n="N005"/>FESTA NOVA OMNIA
+               <lb facs="#facs_223_tl_1722073150" n="N006"/>In hunc vsque Annum a Summis Pontificibus concessa.
+               <lb facs="#facs_223_tl_1722073156" n="N007"/>OFFICIVM DEEVNCTORVM.
+               <lb facs="#facs_223_tl_1722073161" n="N008"/>PSALMI GRADUALES ET PENITENTIALES,
+               <lb facs="#facs_223_tl_1722073154" n="N009"/>Omnia pro majori commoditate Psallentium ad longum exposita, et nouo Typo adornata
+               <lb facs="#facs_223_tl_1722073148" n="N010"/>IVSSV ET PROMOTIONE
+               <lb facs="#facs_223_tl_1722073149" n="N011"/>CELSISSIMI ET REVERENDISSIMI
+               <lb facs="#facs_223_tl_1722073151" n="N012"/>S. R. I. PRINCIPIS
+               <lb facs="#facs_223_tl_1722073155" n="N013"/>MAXIMILIANI
+               <lb facs="#facs_223_tl_1722073162" n="N014"/>GANDOLPHI
+               <lb facs="#facs_223_tl_1722073147" n="N015"/>Ex Comit. de KÜENBURG Archi Episcopira.
+               <lb facs="#facs_223_tl_1722073160" n="N016"/>Salisburo. S. Sed Apost. Leg. Nati et Ger-
+               <lb facs="#facs_223_tl_1722073152" n="N017"/>maniae Primatis etc. etc.
+               <lb facs="#facs_223_tl_1722073159" n="N018"/>Cam Priilegio Sac. Ces. Majest. Specidi.
+               <lb facs="#facs_223_tl_1722073157" n="N019"/>SALISBVRGI,
+               <lb facs="#facs_223_tl_1722073165" n="N020"/>Ex Typographeo JOANNIS BAPTISTAE MAYR. Aulico- Academici Typographi.</p>
             <ab facs="#facs_223_tr_1722066670">
-               <lb facs="#facs_223_tl_1722073158" n="N001"/>R ANNCXXXV
+               <lb facs="#facs_223_tl_1722073158" n="N001"/>M.DC.LXXXV
             </ab>
             <pb facs="#facs_224" n="224" xml:id="img_0224"/>
             <ab facs="#facs_224_tr_1">
@@ -19784,14 +19777,6 @@
                <lb facs="#facs_226_tl_1722073026" n="N046"/>Maestatis proprium subscripsit.
             </ab>
             <pb facs="#facs_227" n="227" xml:id="img_0227"/>
-            <ab facs="#facs_227_tr_1">
-               <lb facs="#facs_227_tr_1_tl_1" n="N001"/>
-            </ab>
-            <ab facs="#facs_227_tr_2">
-               <lb facs="#facs_227_tr_2_tl_1" n="N001"/>
-               <lb facs="#facs_227_tr_2_tl_2" n="N002"/>
-               <lb facs="#facs_227_tr_2_tl_3" n="N003"/>
-            </ab>
             <pb facs="#facs_228" n="228" xml:id="img_0228"/>
             <ab facs="#facs_228_tr_1">
                <lb facs="#facs_228_tr_1_tl_1" n="N001"/>
