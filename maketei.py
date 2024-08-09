@@ -493,7 +493,7 @@ class TeiHeader(TeiTree):
         ]
         resps = TeiReader("resp.xml")
         if len(other) > 0:
-            roles.append = [other, "Transkribus Bearbeitung", "Contributor"]
+            roles.append([other, "Transkribus Bearbeitung", "Contributor"])
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
         for person in roles:
             respstmt = ET.SubElement(titlestmt, "respStmt")
