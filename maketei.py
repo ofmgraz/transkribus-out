@@ -112,17 +112,13 @@ class TeiBody(TeiTree):
     def amend_pics_url(tree, doc_id):
         graphic_elements = tree.any_xpath(".//tei:graphic")
         for element in graphic_elements:
-            img_name = element.attrib["url"].replace("Gu", "Gf").split(".jpg")[0]
+            img_name = element.attrib["url"].replace("Gu", "Gf").split(".jpg")[0].strip()
             if len(img_name) < 1 or img_name.isdigit():
                 element.getparent().remove(element)
             else:
                 if "http" in img_name:
                     response = requests.get(element.attrib["url"])
-                    img_name = (
-                        response.headers.get("Content-Disposition")
-                        .split("filename=")[1]
-                        .split(".jpg")[0]
-                    )
+                    img_name = response.headers.get("Content-Disposition").split("filename=")[1].split(".jpg")[0].strip('"')
                 img_name = img_name.replace("Gu", "Gf").split(".jpg")[0]
                 img_name = re.sub(r"^.*A-Gf_", "A-Gf_", img_name)
                 img_name = re.sub(r"^[\d_]*", "", img_name)
@@ -130,10 +126,7 @@ class TeiBody(TeiTree):
                 img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
                 if tree.any_xpath(".//tei:measure[@unit = 'page']"):
                     img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
-                element.attrib["url"] = (
-                    "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/"
-                    f"{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
-                )
+                element.attrib["url"] = f"https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
 
@@ -491,36 +484,25 @@ class TeiHeader(TeiTree):
         return url.replace("full/full", "full/600,")
 
     def parse_photographer(self, photographer, other=""):
-        resps = TeiReader("resp.xml")
-        roles = {
-            "PA": ["Datengenerierung", "Contributor"],
-            "DS": ["Datengenerierung", "Contributor"],
-            "RK": ["Datengenerierung", ""],
-            "FS": ["XML Datenmodellierung", ""],
-            "JL": [],
-        }
-        roles[photographer] += [
-            "Digitalisierung (Fotografieren) des Archivmaterials",
-            "DigitisingAgent",
+        roles = [
+            ["FS", "XML Datenmodellierung", "MetadataCreator"],
+            ["PA", "Datengenerierung", "Contributor"],
+            ["DS", "Datengenerierung", "Contributor"],
+            ["RK", "Datengenerierung", "Contributor"],
+            [photographer, "Digitalisierung (Fotografieren) des Archivmaterials", "DigitisingAgent"]
         ]
+        resps = TeiReader("resp.xml")
         if len(other) > 0:
-            roles[other] = ["Transkribus Bearbeitung", "Contributor"]
+            roles.append = [other, "Transkribus Bearbeitung", "Contributor"]
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
         for person in roles:
-            inner_role = ""
-            for r in roles[person][:-1]:
-                if len(r) == 0:
-                    inner_role = roles[person][-1]
-                else:
-                    resps = TeiReader("resp.xml")
-                    respstmt = ET.SubElement(titlestmt, "respStmt")
-                    collaborator = resps.any_xpath(
-                        f'.//tei:person[@xml:id="{person}"]/tei:persName'
-                    )[0]
-                    ET.SubElement(respstmt, "resp").text = r
-                    if inner_role:
-                        collaborator.attrib["role"] = roles[person][-1]
-                    respstmt.append(collaborator)
+            respstmt = ET.SubElement(titlestmt, "respStmt")
+            collaborator = resps.any_xpath(
+                f'.//tei:person[@xml:id="{person[0]}"]/tei:persName'
+            )[0]
+            ET.SubElement(respstmt, "resp").text = person[1]
+            collaborator.attrib["role"] = person[2]
+            respstmt.append(collaborator)
 
     def parse_device(self, device):
         devices = {"Stativlaser": "Stativlaser", "Traveller": "Traveller"}
