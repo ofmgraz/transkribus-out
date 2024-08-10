@@ -4,6 +4,14 @@
       <titleStmt>
         <title type="main">S 1/44 (Salve crux pretiosa)</title>
         <respStmt>
+          <resp>XML Datenmodellierung</resp>
+          <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+            <forename>Fernando</forename>
+            <surname>Sanz-Lázaro</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
           <resp>Datengenerierung</resp>
           <persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
             <forename>Peter</forename>
@@ -21,7 +29,7 @@
         </respStmt>
         <respStmt>
           <resp>Datengenerierung</resp>
-          <persName ref="https://orcid.org/0000-0002-0484-832X">
+          <persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
             <forename>Robert</forename>
             <surname>Klugseder</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
@@ -33,14 +41,6 @@
             <forename>Robert</forename>
             <surname>Klugseder</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>XML Datenmodellierung</resp>
-          <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
-            <forename>Fernando</forename>
-            <surname>Sanz-Lázaro</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
           </persName>
         </respStmt>
       </titleStmt>
