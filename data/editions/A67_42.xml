@@ -851,14 +851,8 @@
          <zone points="51,1524 73,1750 114,1779 1535,1774 1524,1606 1498,1524 1453,1499 435,1495" rendition="TextRegion" xml:id="facs_9_rO2EN_6" subtype="notation">
             <zone points="51,1524 73,1750 114,1779 1535,1774 1524,1606 1498,1524 1453,1499 435,1495" rendition="Line" xml:id="facs_9_rO2EN_6_line_004"/>
          </zone>
-         <zone points="285,1945 185,1945 185,1821 285,1821" rendition="TextRegion" xml:id="facs_9_r" subtype="text">
-            <zone points="285,1945 185,1945 185,1821 285,1821" rendition="Line" xml:id="facs_9_r_line_005"/>
-         </zone>
-         <zone points="578,1960 454,1960 454,1802 578,1802" rendition="TextRegion" xml:id="facs_9_r_170" subtype="rubrik">
-            <zone points="578,1960 454,1960 454,1802 578,1802" rendition="Line" xml:id="facs_9_r_170_line_006"/>
-         </zone>
-         <zone points="1421,1959 739,1959 739,1830 1421,1830" rendition="TextRegion" xml:id="facs_9_r_160" subtype="text">
-            <zone points="1421,1959 739,1959 739,1830 1421,1830" rendition="Line" xml:id="facs_9_r_160_line_007"/>
+         <zone points="185,1821 285,1821 1421,1830 1421,1959 739,1959 185,1945" rendition="TextRegion" xml:id="facs_9_TextRegion_1723297007332_234" subtype="text">
+            <zone points="185,1821 285,1821 1421,1830 1421,1959 739,1959 185,1945" rendition="Line" xml:id="facs_9_line_1723297010417_240"/>
          </zone>
          <zone points="1603,1879 1603,1976 1440,1976 1440,1805 1538,1805 1575,1839" rendition="TextRegion" xml:id="facs_9_r_165" subtype="rubrik">
             <zone points="1603,1879 1603,1976 1440,1976 1440,1805 1538,1805 1575,1839" rendition="Line" xml:id="facs_9_r_165_line_008"/>
@@ -14211,11 +14205,7 @@
             </ab>
             <ab facs="#facs_9_rO2EN_6" type="notation">
             </ab>
-            <ab facs="#facs_9_r" type="text">
-            </ab>
-            <ab facs="#facs_9_r_170" type="rubrik">
-            </ab>
-            <ab facs="#facs_9_r_160" type="text">
+            <ab facs="#facs_9_TextRegion_1723297007332_234" type="text">
             </ab>
             <ab facs="#facs_9_r_165" type="rubrik">
             </ab>
