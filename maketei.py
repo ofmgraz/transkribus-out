@@ -70,8 +70,8 @@ class TeiTree:
 
     @staticmethod
     def make_printable(tree):
-        p1 = ET.ProcessingInstruction('xml-model', 'href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"', type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0")
-        p2 = ET.ProcessingInstruction('xml-model', 'href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"',  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0")
+        p1 = ET.ProcessingInstruction("xml-model", 'href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"', type="application/xml", schematypens="http://relaxng.org/ns/structure/1.0")
+        # p2 = ET.ProcessingInstruction("xml-model", 'href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"', type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0")
                                         
         parser = ET.XMLParser(remove_blank_text=True)
         string = ET.tostring(tree, pretty_print=True, encoding="unicode")
