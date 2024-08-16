@@ -70,14 +70,16 @@ class TeiTree:
 
     @staticmethod
     def make_printable(tree):
-        p1 = ET.ProcessingInstruction("xml-model", 'href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"')
-        # p2 = ET.ProcessingInstruction("xml-model", 'href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"', type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0")
+        p1 = ET.ProcessingInstruction("xml-model", 'href="https://id.acdh.oeaw.ac.at/ofmgraz/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"')
+        # p2 = ET.ProcessingInstruction("xml-model", 'href="https://id.acdh.oeaw.ac.at/ofmgraz/schema.odd"', type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0")
                                         
-        parser = ET.XMLParser(remove_blank_text=True)
-        string = ET.tostring(tree, pretty_print=True, encoding="unicode")
+        parser = ET.XMLParser(remove_blank_text=True, encoding="utf-8")
+        string = ET.tostring(tree, encoding="utf-8")
+        root = tree.getroot()
         xml = ET.fromstring(string, parser=parser)
-        xml.getroot().addprevious(p1)
-        return ET.tostring(xml, pretty_print=True, xml_declaration=True, encoding="unicode")
+        root.addprevious(p1)
+        # treer = ET.ElementTree(tree)
+        return ET.tostring(root, pretty_print=True, xml_declaration=True)
 
 
 class TeiBody(TeiTree):
@@ -101,7 +103,7 @@ class TeiBody(TeiTree):
                 p = ET.SubElement(page, "p", attrib={"facs": element.attrib["facs"]})
             elif element.tag == f"{tei}ab":
                 elefake = ET.fromstring(
-                    ET.tostring(element, pretty_print=True, encoding="unicode")
+                    ET.tostring(element, pretty_print=True, encoding="utf-8")
                 )
                 for t in elefake.xpath(".//*"):
                     p.append(t)
@@ -254,7 +256,7 @@ class TeiHeader(TeiTree):
                 # place = ET.SubElement(tree, "place")
                 tree.append(
                     ET.fromstring(
-                        ET.tostring(location, pretty_print=True, encoding="unicode")
+                        ET.tostring(location, pretty_print=True, encoding="utf-8")
                     )
                 )
             # Element in msDesc/history referencing the entry above
@@ -280,7 +282,7 @@ class TeiHeader(TeiTree):
             ET.tostring(
                 locations.any_xpath('//tei:place[@xml:id="Wien"]')[0],
                 pretty_print=True,
-                encoding="unicode",
+                encoding="utf-8",
             )
         )
         tree.append(entry)
@@ -290,7 +292,7 @@ class TeiHeader(TeiTree):
         tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
         for person in persons.any_xpath(f'//tei:person[@xml:id="{publisher}"]'):
             entry = ET.fromstring(
-                ET.tostring(person, pretty_print=True, encoding="unicode")
+                ET.tostring(person, pretty_print=True, encoding="utf-8")
             )
             tree.append(entry)
             break
