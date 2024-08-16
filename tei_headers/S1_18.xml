@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A64_37" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_18" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">A 64/37 (Adoremus Dominum qui fecit nos)</title>
+        <title type="main">S 1/18 (Mittit ad virginem)</title>
       <respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
             <surname>Sanz-L&#225;zaro</surname>
@@ -24,14 +24,10 @@
             <surname>Klugseder</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
           </persName>
-        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="DigitisingAgent">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
-          </persName>
-        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor">
-            <forename>Moritz</forename>
-            <surname>Schmoetten</surname>
+        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
+            <forename>Jakob</forename>
+            <surname>Leitner</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
           </persName>
         </respStmt></titleStmt>
       <editionStmt>
@@ -73,11 +69,11 @@
         <idno type="handle">XXXX</idno>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Stativlaser device</note>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1472-01-01" notAfter="1512-12-31">~1492</date>
+          <date notBefore="1700-01-01" notAfter="1799-12-31">18. Jh.</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -90,19 +86,19 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 64/37</idno>
+            <idno type="shelfmark">S 1/18</idno>
           </msIdentifier>
-          <msContents class="#ofm #psalterium #hymnar">
-            <summary><p>Psalter mit Ferialhymnen, Hymnen Advent bis Pfingsten</p><p>Psalterium / Hymnar</p></summary>
+          <msContents class="#ofm #orgelbuch">
+            <summary><p>Orgelbegleitungen f&#252;r Hymnen, Psalmt&#246;ne, Ordinariumss&#228;tze, Requiem, Marian. Antiphonen, Sequenz <title>Mittit ad virginem</title>, deutsche Kirchenlieder choraliter / figuraliter. Standardnotation auf 5 Linien mit Generalbassbezifferung</p><p>Orgelbuch</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> <height>620</height><width>400</width></dimensions>
+                  <dimensions unit="mm"> <height>320</height><width>220</width></dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="178">178</measure>
+                  <measure unit="leaf" quantity="88">88</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -110,7 +106,7 @@
             </musicNotation>
           </physDesc>
           <history>
-            <provenance><placeName ref="#Graz">Graz</placeName><placeName ref="#Ljubljana">Ljubljana</placeName><placeName ref="#MariaLankowitz">Maria Lankowitz</placeName></provenance>
+            <provenance><placeName ref="#Graz">Graz</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -127,7 +123,7 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="psalterium"><catDesc>Psalterium</catDesc></category><category xml:id="hymnar"><catDesc>Hymnar</catDesc></category></taxonomy></classDecl></encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="orgelbuch"><catDesc>Orgelbuch</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -340,119 +336,5 @@
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/4021912-4</idno>
           <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
-        </place></listPlace><listPlace><place xml:id="Ljubljana">
-          <placeName xml:lang="en">Ljubljana</placeName>
-          <placeName xml:lang="de">Ljubljana</placeName>
-          <placeName xml:lang="it">Lubiana</placeName>
-          <location>
-            <settlement xml:lang="en">Ljubljana</settlement>
-            <settlement xml:lang="de">Ljubljana</settlement>
-            <settlement xml:lang="it">Lubiana</settlement>
-            <region xml:lang="en">Central Solovenia</region>
-            <region xml:lang="de">Zentralslowenien</region>
-            <region xml:lang="it">Slovenia Centrale</region>
-            <country xml:lang="en">Slovenia</country>
-            <country xml:lang="de">Slovenien</country>
-            <country xml:lang="it">Slovenia</country>
-            <geo>46.05138888888889 14.50611111111111</geo>
-          </location>
-          <listEvent>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/41</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_41.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/42</title></p>
-              <linkGrp>
-                <link type="URL" target="A67_42.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/39</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_39.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/43</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_43.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/37</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_37.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/51</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_51.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/40</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_40.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/38</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_38.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4073953-3</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3239318</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q437</idno>
-        </place></listPlace><listPlace><place xml:id="MariaLankowitz">
-          <placeName xml:lang="en">Maria Lankowitz</placeName>
-          <placeName xml:lang="de">Maria Lankowitz</placeName>
-          <placeName xml:lang="it">Maria Lankowitz</placeName>
-          <location>
-            <settlement xml:lang="en">Maria Lankowitz</settlement>
-            <settlement xml:lang="de">Maria Lankowitz</settlement>
-            <settlement xml:lang="it">Maria Lankowitz</settlement>
-            <region xml:lang="en">Styria</region>
-            <region xml:lang="de">Steiermark</region>
-            <region xml:lang="it">Stiria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">&#214;sterreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.063888888889 15.063055555556</geo>
-          </location>
-          <listEvent>               
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/37</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_37.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 64/34</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_34.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/22</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_22.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/40</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_40.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4400654-8</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
         </place></listPlace></standOff>
 </TEI>

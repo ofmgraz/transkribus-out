@@ -1,73 +1,56 @@
+<?xml version='1.0' encoding='ASCII'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_65" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">S 1/65 (Ad te levavi animam meam)</title>
-        <respStmt>
-          <resp>XML Datenmodellierung</resp>
-          <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+      <respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
-            <surname>Sanz-Lázaro</surname>
+            <surname>Sanz-L&#225;zaro</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
           </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
             <forename>Peter</forename>
             <surname>Andorfer</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
           </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
             <forename>Daniel</forename>
             <surname>Schopper</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
+          </persName> 
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
             <forename>Robert</forename>
             <surname>Klugseder</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
           </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
+        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
             <forename>Jakob</forename>
             <surname>Leitner</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
           </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Transkribus Bearbeitung</resp>
-          <persName role="Transcriptor">
+        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor">
             <forename>Anna-Lena</forename>
             <surname>Huber</surname>
           </persName>
-        </respStmt>
-      </titleStmt>
+        </respStmt></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMKÖS Kulturerbe Digital</funder>
+        <funder>BMK&#214;S Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
-          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+            <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
         </publisher>
         <authority>
-          <orgName>Österreichische Akademie der Wissenschaften</orgName>
+          <orgName>&#214;sterreichische Akademie der Wissenschaften</orgName>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
-          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>Bäckerstraße 13</addrLine>
+          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -95,36 +78,28 @@
       <sourceDesc>
         <bibl>
           <date notBefore="1690-01-01" notAfter="1690-12-31">1690</date>
-          <pubPlace ref="#Venedig">Venedig</pubPlace>
-          <publisher ref="#Balleoni">Paolo Baglioni</publisher>
-        </bibl>
+        <pubPlace ref="#Venedig">Venedig</pubPlace><publisher ref="#Balleoni">Paolo Baglioni</publisher></bibl>
         <msDesc>
           <msIdentifier>
             <institution>
-              <orgName>Franziskanerkloster Graz</orgName>
-              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+               <orgName>Franziskanerkloster Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
             </institution>
             <repository>
-              <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
-              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
-              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+               <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">S 1/65</idno>
           </msIdentifier>
           <msContents class="#ofm #graduale">
-            <summary>
-              <p>Mit Anhang: Graduale Missarum in Festis Trium Ordinum Sancti Patris Francisci</p>
-              <p>Graduale Romanum</p>
-            </summary>
+            <summary><p>Mit Anhang: Graduale Missarum in Festis Trium Ordinum Sancti Patris Francisci</p><p>Graduale Romanum</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="print">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm">
-                    <height>491</height>
-                    <width>331</width>
-                  </dimensions>
+                  <dimensions unit="mm"> <height>491</height><width>331</width></dimensions>
                 </support>
                 <extent>
                   <measure unit="page" quantity="278">278</measure>
@@ -135,10 +110,7 @@
             </musicNotation>
           </physDesc>
           <history>
-            <provenance>
-              <placeName ref="#Venedig">Venedig</placeName>
-              <placeName ref="#Balleoni">Balleoni</placeName>
-            </provenance>
+            <provenance><placeName ref="#Venedig">Venedig</placeName><placeName ref="#Balleoni">Balleoni</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -150,28 +122,12 @@
       <appInfo>
         <application ident="transkribus" version="1.26.0">
           <label>Transkribus</label>
-          <desc>collection 216937</desc>
+            <desc>collection 216937</desc>
         </application>
-        <application ident="custom" version="0.0">
-          <label>custom scripts
-        </label>
-        </application>
+        <application ident="custom" version="0.0"><label>custom scripts
+        </label></application>
       </appInfo>
-      <classDecl>
-        <taxonomy xml:id="liturgies">
-          <desc>Liturgies</desc>
-          <category xml:id="ofm">
-            <catDesc>OFM</catDesc>
-          </category>
-        </taxonomy>
-        <taxonomy xml:id="booktypes">
-          <desc>Book Types</desc>
-          <category xml:id="graduale">
-            <catDesc>Graduale</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="graduale"><catDesc>Graduale</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -194,108 +150,100 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listPlace>
-      <place xml:id="Venedig">
-        <placeName xml:lang="en">Venice</placeName>
-        <placeName xml:lang="de">Venedig</placeName>
-        <placeName xml:lang="it">Venezia</placeName>
-        <location>
-          <settlement xml:lang="en">Venice</settlement>
-          <settlement xml:lang="de">Venedig</settlement>
-          <settlement xml:lang="it">Venezia</settlement>
-          <region xml:lang="en">Venetien</region>
-          <region xml:lang="de">Veneto</region>
-          <region xml:lang="it">Veneto</region>
-          <country xml:lang="en">Italy</country>
-          <country xml:lang="de">Italien</country>
-          <country xml:lang="it">Italia</country>
-          <geo>45.439722222222 12.331944444444</geo>
-        </location>
-        <listEvent>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/66</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_66.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/65</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_65.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_69.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_64.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_67.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/68</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_68.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4062501-1</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
-      </place>
-    </listPlace>
-    <listPerson>
-      <person xml:id="Balleoni">
-        <persName>
-          <forename>Paolo</forename>
-          <surname>Baglioni</surname>
-        </persName>
-        <residence>
-          <date notBefore="1632-01-01" notAfter="1721-12-31" cert="medium">1632-1721?</date>
-          <settlement key="4">
-            <placeName type="pref" ref="#Venedig">Venedig</placeName>
-            <location>
-              <geo>45.439722222222 12.331944444444</geo>
-            </location>
-          </settlement>
-        </residence>
-        <sex value="male"/>
-        <occupation key="90">Drucker</occupation>
-        <idno type="URL" subtype="GND">https://d-nb.info/gnd/1037524810</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q112399622</idno>
-        <listEvent>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/65</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_65.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_67.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/68</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_68.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-      </person>
-    </listPerson>
-    <listPlace/>
-  </standOff>
+  <standOff><listPlace><place xml:id="Venedig">
+          <placeName xml:lang="en">Venice</placeName>
+          <placeName xml:lang="de">Venedig</placeName>
+          <placeName xml:lang="it">Venezia</placeName>
+          <location>
+            <settlement xml:lang="en">Venice</settlement>
+            <settlement xml:lang="de">Venedig</settlement>
+            <settlement xml:lang="it">Venezia</settlement>
+            <region xml:lang="en">Venetien</region>
+            <region xml:lang="de">Veneto</region>
+            <region xml:lang="it">Veneto</region>
+            <country xml:lang="en">Italy</country>
+            <country xml:lang="de">Italien</country>
+            <country xml:lang="it">Italia</country>
+            <geo>45.439722222222 12.331944444444</geo>
+          </location>
+          <listEvent>               
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/66</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_66.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/65</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_65.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_69.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_64.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_67.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/68</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_68.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4062501-1</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
+        </place></listPlace><listPerson><person xml:id="Balleoni">
+          <persName>
+            <forename>Paolo</forename>
+            <surname>Baglioni</surname>
+          </persName>
+          <residence>
+            <date notBefore="1632-01-01" notAfter="1721-12-31" cert="medium">1632-1721?</date>
+            <settlement key="4">
+              <placeName type="pref" ref="#Venedig">Venedig</placeName>
+              <location>
+                <geo>45.439722222222 12.331944444444</geo>
+              </location>
+            </settlement>
+          </residence>
+          <sex value="male"/>
+          <occupation key="90">Drucker</occupation>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/1037524810</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q112399622</idno>
+          <listEvent>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/65</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_65.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_67.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/68</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_68.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+        </person></listPerson><listPlace/></standOff>
 </TEI>

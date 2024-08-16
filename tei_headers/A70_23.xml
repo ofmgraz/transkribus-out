@@ -1,67 +1,52 @@
+<?xml version='1.0' encoding='ASCII'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A70_23" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">A 70/23 (Libellus Antiphonarium)</title>
-        <title type="sub">A 70/23 ( in Vesperis solemniter intonare darum)</title>
-        <respStmt>
-          <resp>XML Datenmodellierung</resp>
-          <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+      <title type="sub">A 70/23 ( in Vesperis solemniter intonare darum)</title><respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
-            <surname>Sanz-Lázaro</surname>
+            <surname>Sanz-L&#225;zaro</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
           </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
             <forename>Peter</forename>
             <surname>Andorfer</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
           </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
             <forename>Daniel</forename>
             <surname>Schopper</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
+          </persName> 
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
             <forename>Robert</forename>
             <surname>Klugseder</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
           </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
+        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
             <forename>Jakob</forename>
             <surname>Leitner</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
           </persName>
-        </respStmt>
-      </titleStmt>
+        </respStmt></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMKÖS Kulturerbe Digital</funder>
+        <funder>BMK&#214;S Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
-          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+            <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
         </publisher>
         <authority>
-          <orgName>Österreichische Akademie der Wissenschaften</orgName>
+          <orgName>&#214;sterreichische Akademie der Wissenschaften</orgName>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
-          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>Bäckerstraße 13</addrLine>
+          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -93,32 +78,24 @@
         <msDesc>
           <msIdentifier>
             <institution>
-              <orgName>Franziskanerkloster Graz</orgName>
-              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+               <orgName>Franziskanerkloster Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
             </institution>
             <repository>
-              <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
-              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
-              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+               <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">A 70/23</idno>
           </msIdentifier>
           <msContents class="#ofm #intonationsbuch">
-            <summary>
-              <p>
-                <title>Libellus Antiphonarium: in Vesperis solemniter intonare darum</title>
-              </p>
-              <p>Intonationsbüchlein</p>
-            </summary>
+            <summary><p><title>Libellus Antiphonarium: in Vesperis solemniter intonare darum</title></p><p>Intonationsb&#252;chlein</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm">
-                    <height>160</height>
-                    <width>100</width>
-                  </dimensions>
+                  <dimensions unit="mm"> <height>160</height><width>100</width></dimensions>
                 </support>
                 <extent>
                   <measure unit="leaf" quantity="70">70</measure>
@@ -129,9 +106,7 @@
             </musicNotation>
           </physDesc>
           <history>
-            <provenance>
-              <placeName ref="#Wien">Wien</placeName>
-            </provenance>
+            <provenance><placeName ref="#Wien">Wien</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -143,28 +118,12 @@
       <appInfo>
         <application ident="transkribus" version="1.26.0">
           <label>Transkribus</label>
-          <desc>collection 216937</desc>
+            <desc>collection 216937</desc>
         </application>
-        <application ident="custom" version="0.0">
-          <label>custom scripts
-        </label>
-        </application>
+        <application ident="custom" version="0.0"><label>custom scripts
+        </label></application>
       </appInfo>
-      <classDecl>
-        <taxonomy xml:id="liturgies">
-          <desc>Liturgies</desc>
-          <category xml:id="ofm">
-            <catDesc>OFM</catDesc>
-          </category>
-        </taxonomy>
-        <taxonomy xml:id="booktypes">
-          <desc>Book Types</desc>
-          <category xml:id="intonationsbuch">
-            <catDesc>Intonationsbüchlein</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="intonationsbuch"><catDesc>Intonationsb&#252;chlein</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -187,78 +146,75 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listPlace>
-      <place xml:id="Wien">
-        <placeName xml:lang="en">Vienna</placeName>
-        <placeName xml:lang="de">Wien</placeName>
-        <placeName xml:lang="it">Vienna</placeName>
-        <location>
-          <settlement xml:lang="en">Vienna</settlement>
-          <settlement xml:lang="de">Wien</settlement>
-          <settlement xml:lang="it">Vienna</settlement>
-          <region xml:lang="en">Vienna (federal state)</region>
-          <region xml:lang="de">Wien</region>
-          <region xml:lang="it">Vienna</region>
-          <country xml:lang="en">Austria</country>
-          <country xml:lang="de">Österreich</country>
-          <country xml:lang="it">Austria</country>
-          <geo>48.208333333333336 16.3725</geo>
-        </location>
-        <listEvent>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 70/41</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_41.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Antiphonas Festorum Principaliorum</title></p>
-            <linkGrp>
-              <link type="URL" target="70_45.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Libellus Antiphonarum</title></p>
-            <linkGrp>
-              <link type="URL" target="A70_23.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/29</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_29.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Cantus Ecclesiasticus</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_40a.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_75.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_74.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_21.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4066009-6</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
-      </place>
-    </listPlace>
-  </standOff>
+  <standOff><listPlace><place xml:id="Wien">
+          <placeName xml:lang="en">Vienna</placeName>
+          <placeName xml:lang="de">Wien</placeName>
+          <placeName xml:lang="it">Vienna</placeName>
+          <location>
+            <settlement xml:lang="en">Vienna</settlement>
+            <settlement xml:lang="de">Wien</settlement>
+            <settlement xml:lang="it">Vienna</settlement>
+            <region xml:lang="en">Vienna (federal state)</region>
+            <region xml:lang="de">Wien</region>
+            <region xml:lang="it">Vienna</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">&#214;sterreich</country>
+            <country xml:lang="it">Austria</country>
+            <geo>48.208333333333336 16.3725</geo>
+          </location>
+          <listEvent>               
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 70/41</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_41.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonas Festorum Principaliorum</title></p>
+              <linkGrp>
+                <link type="URL" target="70_45.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Libellus Antiphonarum</title></p>
+              <linkGrp>
+                <link type="URL" target="A70_23.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/29</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_29.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Cantus Ecclesiasticus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_40a.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_75.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_74.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_21.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4066009-6</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
+
+        </place></listPlace></standOff>
 </TEI>

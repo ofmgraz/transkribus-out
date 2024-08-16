@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='ASCII'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TRAINING_VALIDATION_SET_Chorbuch_HTR_Hss_10082024" xml:base="https://ofmgraz.github.io/ofm-static/">
   <teiHeader>
     <fileDesc>
@@ -6,21 +7,21 @@
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
-        <funder>BMKÖS Kulturerbe Digital</funder>
+        <funder>BMK&#214;S Kulturerbe Digital</funder>
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
-          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+            <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
         </publisher>
         <authority>
-          <orgName>Österreichische Akademie der Wissenschaften</orgName>
+          <orgName>&#214;sterreichische Akademie der Wissenschaften</orgName>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
-          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
-          <addrLine>Bäckerstraße 13</addrLine>
+          <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
           <addrLine>Austria</addrLine>
           <addrLine>
@@ -52,13 +53,13 @@
         <msDesc>
           <msIdentifier>
             <institution>
-              <orgName>Franziskanerkloster Graz</orgName>
-              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+               <orgName>Franziskanerkloster Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
             </institution>
             <repository>
-              <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
-              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
-              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+               <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">A 63/51</idno>
           </msIdentifier>
@@ -93,12 +94,10 @@
       <appInfo>
         <application ident="transkribus" version="1.26.0">
           <label>Transkribus</label>
-          <desc>collection 216937</desc>
+            <desc>collection 216937</desc>
         </application>
-        <application ident="custom" version="0.0">
-          <label>custom scripts
-        </label>
-        </application>
+        <application ident="custom" version="0.0"><label>custom scripts
+        </label></application>
       </appInfo>
     </encodingDesc>
     <profileDesc>
