@@ -37,12 +37,12 @@ jobs:
       run: rm -f mets/216937/{2926205,1523134,2914584,2926205,3374447,3374448,3374547,3376967,377127,3377287,3385787,3406471,3377127}* || true
     - name: Transform
       run: python transform.py
+    - name: Regenerate headers
+      run: ./generate_headers.py
     - name: Amend duplicates
       run: ./amend_duplicate.py || true
     - name: Rename files
       run: ./renamefiles.py
-    - name: Regenerate headers
-      run: ./generate_headers.py
     - name: Generate TEI text & facsimile
       run: ./generate_body.py
     - name: Ammend picture paths
