@@ -30,7 +30,7 @@ jobs:
     - name: Delete old METS
       run: rm -rf mets/*
     - name: Delete old files
-      run: rm -f data/editions/*
+      run: rm -f data/editions/* mets/* tei_headers/*
     - name: Download
       run: python download.py
     - name: Delete non-included files
