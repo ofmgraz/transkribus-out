@@ -51,7 +51,7 @@ class TeiTree:
     def __init__(self, source_tkb, source_tei):
         self.filename = source_tkb
         self.doc_id = (
-            os.path.basename(source_tkb).strip().replace("64_41", "A64_41")
+            os.path.basename(source_tkb).strip()
         )
         self.tei = self.read_xml_input(source_tei)
         self.root = self.tei.any_xpath("//tei:TEI")[0]
