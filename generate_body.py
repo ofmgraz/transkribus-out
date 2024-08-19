@@ -33,7 +33,7 @@ for tkb_file in glob.glob(path.join(tkb_directory, "*.xml")):
     xml_current_root = tei_source.tei.tree.getroot()
     if prev_filepath:
         prev = prev_filepath.split("/")[-1]
-        xml_current_root.attrib['prev'] = prev
+        xml_current_root.attrib['prev'] = f"https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/{prev}"
         xml_prev = TeiReader(prev_filepath)
         xml_prev_root = xml_prev.tree.getroot()
         xml_prev_root.attrib['next'] = f"https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/{filename}"
