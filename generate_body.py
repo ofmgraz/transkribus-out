@@ -36,7 +36,7 @@ for tkb_file in glob.glob(path.join(tkb_directory, "*.xml")):
         xml_current_root.attrib['prev'] = prev
         xml_prev = TeiReader(prev_filepath)
         xml_prev_root = xml_prev.tree.getroot()
-        xml_prev_root.attrib['next'] = filename
+        xml_prev_root.attrib['next'] = f"https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/{filename}"
         with open(prev_filepath, "w") as f:
             f.write(ET.tostring(xml_prev_root, pretty_print=True, encoding="unicode"))
     prev_filepath = tkb_file
