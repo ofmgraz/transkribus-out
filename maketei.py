@@ -70,13 +70,18 @@ class TeiTree:
 
     @staticmethod
     def make_printable(tree):
-        p1 = ET.ProcessingInstruction("xml-model", 'href="https://id.acdh.oeaw.ac.at/ofmgraz/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"')
-        # p2 = ET.ProcessingInstruction("xml-model", 'href="https://id.acdh.oeaw.ac.at/ofmgraz/schema.odd"', type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0")
-                                        
-        parser = ET.XMLParser(remove_blank_text=True, encoding="utf-8")
-        string = ET.tostring(tree, encoding="utf-8")
+        p1 = ET.ProcessingInstruction(
+            "xml-model",
+            'href="https://id.acdh.oeaw.ac.at/ofmgraz/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"',
+        )
+        # p2 = ET.ProcessingInstruction("xml-model",
+        # 'href="https://id.acdh.oeaw.ac.at/ofmgraz/schema.odd"',
+        # type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0")
+
+        # parser = ET.XMLParser(remove_blank_text=True, encoding="utf-8")
+        # string = ET.tostring(tree, encoding="utf-8")
         root = tree.getroot()
-        xml = ET.fromstring(string, parser=parser)
+        # xml = ET.fromstring(string, parser=parser)
         root.addprevious(p1)
         # treer = ET.ElementTree(tree)
         return ET.tostring(root, pretty_print=True, xml_declaration=True)
@@ -118,13 +123,20 @@ class TeiBody(TeiTree):
     def amend_pics_url(tree, doc_id):
         graphic_elements = tree.any_xpath(".//tei:graphic")
         for element in graphic_elements:
-            img_name = element.attrib["url"].replace("Gu", "Gf").split(".jpg")[0].strip()
+            img_name = (
+                element.attrib["url"].replace("Gu", "Gf").split(".jpg")[0].strip()
+            )
             if len(img_name) < 1 or img_name.isdigit():
                 element.getparent().remove(element)
             else:
                 if "http" in img_name:
                     response = requests.get(element.attrib["url"])
-                    img_name = response.headers.get("Content-Disposition").split("filename=")[1].split(".jpg")[0].strip('"')
+                    img_name = (
+                        response.headers.get("Content-Disposition")
+                        .split("filename=")[1]
+                        .split(".jpg")[0]
+                        .strip('"')
+                    )
                 img_name = img_name.replace("Gu", "Gf").split(".jpg")[0]
                 img_name = re.sub(r"^.*A-Gf_", "A-Gf_", img_name)
                 img_name = re.sub(r"^[\d_]*", "", img_name)
@@ -132,7 +144,9 @@ class TeiBody(TeiTree):
                 img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
                 if tree.any_xpath(".//tei:measure[@unit = 'page']"):
                     img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
-                element.attrib["url"] = f"https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
+                element.attrib[
+                    "url"
+                ] = f"https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
 
@@ -149,7 +163,7 @@ class TeiHeader(TeiTree):
 
     def make_meta(self):
         self.root.attrib[f"{xml}id"] = self.doc_id
-        self.root.attrib[f"{xml}base"] = "https://ofmgraz.github.io/ofm-static/"
+        self.root.attrib[f"{xml}base"] = "https://id.acdh.oeaw.ac.at/ofmgraz/teidocs"
 
     def make_hodie(self):
         hodie = datetime.today().strftime("%Y-%m-%d")
@@ -495,7 +509,11 @@ class TeiHeader(TeiTree):
             ["PA", "Datengenerierung", "Contributor"],
             ["DS", "Datengenerierung", "Contributor"],
             ["RK", "Datengenerierung", "Contributor"],
-            [photographer, "Digitalisierung (Fotografieren) des Archivmaterials", "DigitisingAgent"]
+            [
+                photographer,
+                "Digitalisierung (Fotografieren) des Archivmaterials",
+                "DigitisingAgent",
+            ],
         ]
         if len(other) > 0:
             roles.append([other, "Transkribus Bearbeitung", "Transcriptor"])
