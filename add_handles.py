@@ -16,6 +16,5 @@ if len(input_files) > 1:
         basename = filename.split('/')[-1]
         if len(tree.any_xpath('.//tei:publicationStmt/tei:idno[@type="handle"]')) < 1:
             pubstmt = tree.any_xpath('.//tei:publicationStmt')[0]
-            print(pubstmt)
             ET.SubElement(pubstmt, "idno", attrib={"type": "handle"}).text = d[basename]
             tree.tree_to_file(filename)
