@@ -1,35 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_63" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_63.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">S 1/63 (Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti)</title>
-      <title type="sub">S 1/63 ( Festa nova omnia in hunc usque annum a Summis Pontificibus concessa. Officium defunctorum, Psalmi Graduales et Poenitentiales ..., mit Anhang)</title><respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
-            <forename>Fernando</forename>
-            <surname>Sanz-L&#225;zaro</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
-          </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
-            <forename>Peter</forename>
-            <surname>Andorfer</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
-          </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
-            <forename>Daniel</forename>
-            <surname>Schopper</surname>
-            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
-          </persName> 
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
-          </persName>
-        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
-            <forename>Jakob</forename>
-            <surname>Leitner</surname>
-            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
-          </persName>
-        </respStmt></titleStmt>
+        <title type="main"/>
+      </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -65,16 +40,15 @@
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
         </availability>
-        <date when="2024-08-31">2024</date>
-        <idno type="handle">XXXX</idno>
+        <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Stativlaser device</note>
+        <note/>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1685-01-01" notAfter="1685-12-31">1685</date>
-        <pubPlace ref="#Salzburg">Salzburg</pubPlace><publisher ref="#Mayr">Johann Baptist Mayr</publisher></bibl>
+          <date/>
+        </bibl>
         <msDesc>
           <msIdentifier>
             <institution>
@@ -86,27 +60,28 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">S 1/63</idno>
+            <idno type="shelfmark">A 63/51</idno>
           </msIdentifier>
-          <msContents class="#ofm #hymnar">
-            <summary><p><title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti: Festa nova omnia in hunc usque annum a Summis Pontificibus concessa. Officium defunctorum, Psalmi Graduales et Poenitentiales ..., mit Anhang: Hymni proprii Sanctorum Trium Ordinum Fratrum Minorum S. P. Francisci</title></p><p>Hymnarium Romanum</p></summary>
+          <msContents>
+            <summary/>
           </msContents>
           <physDesc>
-            <objectDesc form="print">
+            <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> <height>487</height><width>331</width></dimensions>
+                  <dimensions unit="mm"> </dimensions>
                 </support>
                 <extent>
-                  <measure unit="page" quantity="309">309</measure>
+                  <measure/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>Placeholder<binaryObject/>
+            <musicNotation>
+              <binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance><placeName ref="#Salzburg">Salzburg</placeName><placeName ref="#JBMayr">J.B. Mayr</placeName></provenance>
+            <provenance/>
           </history>
         </msDesc>
       </sourceDesc>
@@ -123,13 +98,13 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="hymnar"><catDesc>Hymnarium</catDesc></category></taxonomy></classDecl></encodingDesc>
+    </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">book</channel>
+        <channel mode="ws" xml:lang="en">manuscript</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -146,109 +121,5 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff><listPlace><place xml:id="Salzburg">
-          <placeName xml:lang="en">Salzburg</placeName>
-          <placeName xml:lang="de">Salzburg</placeName>
-          <placeName xml:lang="it">Salisburgo</placeName>
-          <location>
-            <settlement xml:lang="en">Salzburg</settlement>
-            <settlement xml:lang="de">Salzburg</settlement>
-            <settlement xml:lang="it">Salisburgo</settlement>
-            <region xml:lang="en">Salzburg (federal state)</region>
-            <region xml:lang="de">Land Salzburg</region>
-            <region xml:lang="it">Salisburghese</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">&#214;sterreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.8 13.045</geo>
-          </location>
-          <listEvent>               
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_63.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_70.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitum</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_62.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/72</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_72.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_61.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4076982-3</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q34713</idno>
-        </place></listPlace><listPerson><person xml:id="Mayr">
-          <persName>
-            <forename>Johann Baptist</forename>
-            <surname>Mayr</surname>
-          </persName>
-          <residence>
-            <date notBefore="1634-01-01" notAfter="1708-12-31">1634-1708</date>
-            <settlement key="2">
-              <placeName type="pref" ref="#Salzburg">Salzburg</placeName>
-              <location>
-                <geo>47.8 13.045</geo>
-              </location>
-            </settlement>
-          </residence>
-          <sex value="male"/>
-          <occupation key="90">Drucker</occupation>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/124751946</idno>
-          <listEvent>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymnarium Sacrum tam Romanum Urbani Papae VIII
-                recognitum</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_62.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/72</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_72.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate
-                  recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_61.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate
-                  recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_63.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate
-                  recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_70.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
-        </person></listPerson><listPlace/></standOff>
+  <standOff/>
 </TEI>

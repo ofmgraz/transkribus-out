@@ -1,35 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_23" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_23.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">S 1/23 (Incipit lamentatio Ieremiae prophetae)</title>
-      <respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
-            <forename>Fernando</forename>
-            <surname>Sanz-L&#225;zaro</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
-          </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
-            <forename>Peter</forename>
-            <surname>Andorfer</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
-          </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
-            <forename>Daniel</forename>
-            <surname>Schopper</surname>
-            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
-          </persName> 
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
-          </persName>
-        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
-            <forename>Jakob</forename>
-            <surname>Leitner</surname>
-            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
-          </persName>
-        </respStmt></titleStmt>
+        <title type="main"/>
+      </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -65,15 +40,14 @@
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
         </availability>
-        <date when="2024-08-31">2024</date>
-        <idno type="handle">XXXX</idno>
+        <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Traveller device</note>
+        <note/>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1700-01-01" notAfter="1799-12-31">18. Jh.</date>
+          <date/>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -86,27 +60,28 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">S 1/23</idno>
+            <idno type="shelfmark">A 63/51</idno>
           </msIdentifier>
-          <msContents class="#ofm #lamentationen">
-            <summary><p/><p>Lamentationes Ieremiae Prophetae</p></summary>
+          <msContents>
+            <summary/>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> <height>230</height><width>190</width></dimensions>
+                  <dimensions unit="mm"> </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="18">18</measure>
+                  <measure/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>Placeholder<binaryObject/>
+            <musicNotation>
+              <binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance><placeName ref="#Mautern">Mautern</placeName></provenance>
+            <provenance/>
           </history>
         </msDesc>
       </sourceDesc>
@@ -123,7 +98,7 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="lamentationen"><catDesc>Lamentationes</catDesc></category></taxonomy></classDecl></encodingDesc>
+    </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -146,32 +121,5 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff><listPlace><place xml:id="Mautern">
-          <placeName xml:lang="en">Mautern in Steiermark</placeName>
-          <placeName xml:lang="de">Mautern in Steiermark</placeName>
-          <placeName xml:lang="it">Mautern in Steiermark</placeName>
-          <location>
-            <settlement xml:lang="en">Mautern in Steiermark</settlement>
-            <settlement xml:lang="de">Mautern in Steiermark</settlement>
-            <settlement xml:lang="it">Mautern in Steiermark</settlement>
-            <region xml:lang="en">Styria</region>
-            <region xml:lang="de">Steiermark</region>
-            <region xml:lang="it">Stiria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">&#214;sterreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.4 14.833333333333</geo>
-          </location>
-          <listEvent>               
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/23</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_23.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4115047-8</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771761</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q258162</idno>
-        </place></listPlace></standOff>
+  <standOff/>
 </TEI>

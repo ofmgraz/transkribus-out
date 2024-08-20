@@ -1,39 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_58" xml:base="https://ofmgraz.github.io/ofm-static/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_58.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">S 1/58 (Antiphonarium Seraphicum)</title>
-      <respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
-            <forename>Fernando</forename>
-            <surname>Sanz-L&#225;zaro</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
-          </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
-            <forename>Peter</forename>
-            <surname>Andorfer</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
-          </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
-            <forename>Daniel</forename>
-            <surname>Schopper</surname>
-            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
-          </persName> 
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
-          </persName>
-        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
-            <forename>Jakob</forename>
-            <surname>Leitner</surname>
-            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
-          </persName>
-        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor">
-            <forename>Anna-Lena</forename>
-            <surname>Huber</surname>
-          </persName>
-        </respStmt></titleStmt>
+        <title type="main"/>
+      </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -69,15 +40,14 @@
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
         </availability>
-        <date when="2024-08-31">2024</date>
-        <idno type="handle">XXXX</idno>
+        <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Stativlaser device</note>
+        <note/>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1740-01-01" notAfter="1740-12-31">1740</date>
+          <date/>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -90,27 +60,28 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">S 1/58</idno>
+            <idno type="shelfmark">A 63/51</idno>
           </msIdentifier>
-          <msContents class="#ofm #antiphonale">
-            <summary><p>Ausz&#252;ge aus dem Antiphonale: Magnificat-Antiphonen, bei gr&#246;&#223;eren Festen Laudes und Vesper, mit Hymnen. von Marco Kloz und Azmus Lamberto</p><p>Antiphonarium Seraphicum</p></summary>
+          <msContents>
+            <summary/>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> <height>510</height><width>380</width></dimensions>
+                  <dimensions unit="mm"> </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="199">199</measure>
+                  <measure/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>Placeholder<binaryObject/>
+            <musicNotation>
+              <binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance><placeName ref="#StPoelten">St. P&#246;lten</placeName></provenance>
+            <provenance/>
           </history>
         </msDesc>
       </sourceDesc>
@@ -127,7 +98,7 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="antiphonale"><catDesc>Antiphonarium</catDesc></category></taxonomy></classDecl></encodingDesc>
+    </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -150,38 +121,5 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff><listPlace><place xml:id="StPoelten">
-          <placeName xml:lang="en">Sankt P&#246;lten</placeName>
-          <placeName xml:lang="de">St. P&#246;lten</placeName>
-          <placeName xml:lang="it">Sankt P&#246;lten</placeName>
-          <location>
-            <settlement xml:lang="en">Sankt. P&#246;lten</settlement>
-            <settlement xml:lang="de">St. P&#246;lten</settlement>
-            <settlement xml:lang="it">Sankt P&#246;lten</settlement>
-            <region xml:lang="en">Lower Austria</region>
-            <region xml:lang="de">Nieder&#246;sterreich</region>
-            <region xml:lang="it">Bassa Austria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">&#214;sterreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>48.2 15.616666666667</geo>
-          </location>
-          <listEvent>               
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 67/44</title></p>
-              <linkGrp>
-                <link type="URL" target="A67_44.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/58</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_58.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4051622-2</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766426</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q82500</idno>
-        </place></listPlace></standOff>
+  <standOff/>
 </TEI>

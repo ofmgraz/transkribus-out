@@ -1,48 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_26" xml:base="https://ofmgraz.github.io/ofm-static/" prev="A64_38.xml" next="A64_41.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_26.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A64_38.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A64_41.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">S 1/26 (Deus meus eripe me)</title>
-        <respStmt>
-          <resp>XML Datenmodellierung</resp>
-          <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
-            <forename>Fernando</forename>
-            <surname>Sanz-Lázaro</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
-            <forename>Peter</forename>
-            <surname>Andorfer</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
-            <forename>Daniel</forename>
-            <surname>Schopper</surname>
-            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Datengenerierung</resp>
-          <persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
-            <forename>Robert</forename>
-            <surname>Klugseder</surname>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-          <persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
-            <forename>Jakob</forename>
-            <surname>Leitner</surname>
-            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
-          </persName>
-        </respStmt>
+        <title type="main"/>
       </titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
@@ -50,8 +10,8 @@
       </editionStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
-          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+            <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
         </publisher>
         <authority>
           <orgName>Österreichische Akademie der Wissenschaften</orgName>
@@ -79,56 +39,48 @@
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
         </availability>
-        <date when="2024-08-31">2024</date>
-        <idno type="handle">XXXX</idno>
+        <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Traveller device</note>
+        <note/>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date notBefore="1732-01-01" notAfter="1732-12-31">1732</date>
+          <date/>
         </bibl>
         <msDesc>
           <msIdentifier>
             <institution>
-              <orgName>Franziskanerkloster Graz</orgName>
-              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+               <orgName>Franziskanerkloster Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
             </institution>
             <repository>
-              <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
-              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
-              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+               <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">S 1/26</idno>
+            <idno type="shelfmark">A 63/51</idno>
           </msIdentifier>
-          <msContents class="#ofm #lamentationen">
-            <summary>
-              <p>Mit einzelnen Antiphonen der Trauermetten</p>
-              <p>Lamentationen</p>
-            </summary>
+          <msContents>
+            <summary/>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm">
-                    <height>250</height>
-                    <width>190</width>
-                  </dimensions>
+                  <dimensions unit="mm"> </dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="18">18</measure>
+                  <measure/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>Placeholder<binaryObject/>
+            <musicNotation>
+              <binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance>
-              <placeName ref="#Graz">Graz</placeName>
-            </provenance>
+            <provenance/>
           </history>
         </msDesc>
       </sourceDesc>
@@ -140,27 +92,11 @@
       <appInfo>
         <application ident="transkribus" version="1.26.0">
           <label>Transkribus</label>
-          <desc>collection 216937</desc>
+            <desc>collection 216937</desc>
         </application>
-        <application ident="custom" version="0.0">
-          <label>custom scripts
-        </label>
-        </application>
+        <application ident="custom" version="0.0"><label>custom scripts
+        </label></application>
       </appInfo>
-      <classDecl>
-        <taxonomy xml:id="liturgies">
-          <desc>Liturgies</desc>
-          <category xml:id="ofm">
-            <catDesc>OFM</catDesc>
-          </category>
-        </taxonomy>
-        <taxonomy xml:id="booktypes">
-          <desc>Book Types</desc>
-          <category xml:id="lamentationen">
-            <catDesc>Lamentationen</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -184,249 +120,55 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listPlace>
-      <place xml:id="Graz">
-        <placeName xml:lang="en">Graz</placeName>
-        <placeName xml:lang="de">Graz</placeName>
-        <placeName xml:lang="it">Graz</placeName>
-        <location>
-          <settlement xml:lang="en">Graz</settlement>
-          <settlement xml:lang="de">Graz</settlement>
-          <settlement xml:lang="it">Graz</settlement>
-          <region xml:lang="en">Styria</region>
-          <region xml:lang="de">Steiermark</region>
-          <region xml:lang="it">Stiria</region>
-          <country xml:lang="en">Austria</country>
-          <country xml:lang="de">Österreich</country>
-          <country xml:lang="it">Austria</country>
-          <geo>47.07083333333333 15.438611111111111</geo>
-        </location>
-        <listEvent>
-          <event type="mentioned">
-            <p>erwähnt in <title>Das 4. Respons Buch</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_41.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/41</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_41.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/19</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_19.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Das 4. Respons Buch</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_42.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/17</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_17.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Antiphonarium de Tempore et Sanctis Pro Choro
-                Graecensi</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_25.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/42</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_42.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/26</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_26.xml "/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/39</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_39.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/45</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_45.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/39</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_39.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/43</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_43.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/23</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_23.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/18</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_18.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/28</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_28.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/37</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_37.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 63/51</title></p>
-            <linkGrp>
-              <link type="URL" target="A63_51.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/24</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_24.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/20</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_20.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Tota pulchra</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_19.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/40</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_40.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/43</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_43.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>Pro divino officio in choro</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_27.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/44</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_44.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/30</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_30.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>S 1/27</title></p>
-            <linkGrp>
-              <link type="URL" target="S1_27.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 67/22</title></p>
-            <linkGrp>
-              <link type="URL" target="A67_22.xml"/>
-            </linkGrp>
-          </event>
-          <event type="mentioned">
-            <p>erwähnt in <title>A 64/38</title></p>
-            <linkGrp>
-              <link type="URL" target="A64_38.xml"/>
-            </linkGrp>
-          </event>
-        </listEvent>
-        <idno type="URL" subtype="GND">https://d-nb.info/gnd/4021912-4</idno>
-        <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
-        <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
-      </place>
-    </listPlace>
-  </standOff>
+  <standOff/>
 <facsimile>
       <surface ulx="0" uly="0" lrx="2000" lry="2653" xml:id="facs_1">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-001/full/full/0/default.jpg" width="2000px" height="2653px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-001/full/full/0/default.jpg" width="2000px" height="2653px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2646" xml:id="facs_2">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-002/full/full/0/default.jpg" width="2000px" height="2646px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-002/full/full/0/default.jpg" width="2000px" height="2646px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2655" xml:id="facs_3">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-003/full/full/0/default.jpg" width="2000px" height="2655px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-003/full/full/0/default.jpg" width="2000px" height="2655px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2646" xml:id="facs_4">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-004/full/full/0/default.jpg" width="2000px" height="2646px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-004/full/full/0/default.jpg" width="2000px" height="2646px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2655" xml:id="facs_5">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-005/full/full/0/default.jpg" width="2000px" height="2655px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-005/full/full/0/default.jpg" width="2000px" height="2655px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2653" xml:id="facs_6">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-006/full/full/0/default.jpg" width="2000px" height="2653px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-006/full/full/0/default.jpg" width="2000px" height="2653px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2657" xml:id="facs_7">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-007/full/full/0/default.jpg" width="2000px" height="2657px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-007/full/full/0/default.jpg" width="2000px" height="2657px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2656" xml:id="facs_8">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-008/full/full/0/default.jpg" width="2000px" height="2656px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-008/full/full/0/default.jpg" width="2000px" height="2656px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2660" xml:id="facs_9">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-009/full/full/0/default.jpg" width="2000px" height="2660px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-009/full/full/0/default.jpg" width="2000px" height="2660px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2661" xml:id="facs_10">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-010/full/full/0/default.jpg" width="2000px" height="2661px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-010/full/full/0/default.jpg" width="2000px" height="2661px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2660" xml:id="facs_11">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-011/full/full/0/default.jpg" width="2000px" height="2660px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-011/full/full/0/default.jpg" width="2000px" height="2660px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2656" xml:id="facs_12">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-012/full/full/0/default.jpg" width="2000px" height="2656px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-012/full/full/0/default.jpg" width="2000px" height="2656px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2657" xml:id="facs_13">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-013/full/full/0/default.jpg" width="2000px" height="2657px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-013/full/full/0/default.jpg" width="2000px" height="2657px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2665" xml:id="facs_14">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-014/full/full/0/default.jpg" width="2000px" height="2665px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-014/full/full/0/default.jpg" width="2000px" height="2665px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2659" xml:id="facs_15">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-015/full/full/0/default.jpg" width="2000px" height="2659px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-015/full/full/0/default.jpg" width="2000px" height="2659px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2615" xml:id="facs_16">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-016/full/full/0/default.jpg" width="2000px" height="2615px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-016/full/full/0/default.jpg" width="2000px" height="2615px"/>
          <zone points="1880,441 196,441 196,256 1880,256" rendition="TextRegion" xml:id="facs_16_r" subtype="notation">
          </zone>
          <zone points="1862,585 254,585 254,472 1862,472" rendition="TextRegion" xml:id="facs_16_r_5" subtype="text">
@@ -463,7 +205,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2657" xml:id="facs_17">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-017/full/full/0/default.jpg" width="2000px" height="2657px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-017/full/full/0/default.jpg" width="2000px" height="2657px"/>
          <zone points="1831,448 122,448 122,258 1831,258" rendition="TextRegion" xml:id="facs_17_r" subtype="notation">
          </zone>
          <zone points="179,567 179,462 1828,462 1828,567" rendition="TextRegion" xml:id="facs_17_r_5" subtype="text">
@@ -498,7 +240,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2612" xml:id="facs_18">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-018/full/full/0/default.jpg" width="2000px" height="2612px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-018/full/full/0/default.jpg" width="2000px" height="2612px"/>
          <zone points="1844,459 199,459 199,247 1844,247" rendition="TextRegion" xml:id="facs_18_r" subtype="notation">
          </zone>
          <zone points="238,560 238,469 1805,469 1805,560" rendition="TextRegion" xml:id="facs_18_r_5" subtype="text">
@@ -529,7 +271,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2656" xml:id="facs_19">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-019/full/full/0/default.jpg" width="2000px" height="2656px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-019/full/full/0/default.jpg" width="2000px" height="2656px"/>
          <zone points="1795,464 108,464 108,267 1795,267" rendition="TextRegion" xml:id="facs_19_r" subtype="notation">
          </zone>
          <zone points="1764,587 152,587 152,477 1764,477" rendition="TextRegion" xml:id="facs_19_r_5" subtype="text">
@@ -564,7 +306,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2619" xml:id="facs_20">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-020/full/full/0/default.jpg" width="2000px" height="2619px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-020/full/full/0/default.jpg" width="2000px" height="2619px"/>
          <zone points="1873,480 202,443 197,264 1880,313" rendition="TextRegion" xml:id="facs_20_r" subtype="notation">
          </zone>
          <zone points="1789,584 271,567 271,453 1789,488" rendition="TextRegion" xml:id="facs_20_r_5" subtype="text">
@@ -597,7 +339,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2655" xml:id="facs_21">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-021/full/full/0/default.jpg" width="2000px" height="2655px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-021/full/full/0/default.jpg" width="2000px" height="2655px"/>
          <zone points="1817,452 453,459 111,452 111,259 1817,259" rendition="TextRegion" xml:id="facs_21_r" subtype="notation">
          </zone>
          <zone points="1802,583 149,583 149,472 959,467 1802,472" rendition="TextRegion" xml:id="facs_21_r_5" subtype="text">
@@ -630,7 +372,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2610" xml:id="facs_22">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-022/full/full/0/default.jpg" width="2000px" height="2610px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-022/full/full/0/default.jpg" width="2000px" height="2610px"/>
          <zone points="1861,518 1781,517 1716,481 213,437 202,257 1861,333" rendition="TextRegion" xml:id="facs_22_r" subtype="notation">
          </zone>
          <zone points="1831,544 1831,589 1492,579 1115,570 248,541 252,444 948,476 1766,524" rendition="TextRegion" xml:id="facs_22_r_7" subtype="text">
@@ -669,7 +411,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2658" xml:id="facs_23">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-023/full/full/0/default.jpg" width="2000px" height="2658px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-023/full/full/0/default.jpg" width="2000px" height="2658px"/>
          <zone points="1831,426 82,398 79,217 1831,217" rendition="TextRegion" xml:id="facs_23_r" subtype="notation">
          </zone>
          <zone points="489,535 158,535 158,410 489,410" rendition="TextRegion" xml:id="facs_23_r_5" subtype="rubrik">
@@ -712,7 +454,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2645" xml:id="facs_24">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-024/full/full/0/default.jpg" width="2000px" height="2645px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-024/full/full/0/default.jpg" width="2000px" height="2645px"/>
          <zone points="1957,408 262,408 262,232 1957,232" rendition="TextRegion" xml:id="facs_24_r" subtype="notation">
          </zone>
          <zone points="1849,550 327,550 327,438 1849,438" rendition="TextRegion" xml:id="facs_24_r_5" subtype="text">
@@ -747,7 +489,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2669" xml:id="facs_25">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-025/full/full/0/default.jpg" width="2000px" height="2669px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-025/full/full/0/default.jpg" width="2000px" height="2669px"/>
          <zone points="1804,400 72,400 72,230 1804,230" rendition="TextRegion" xml:id="facs_25_r_5" subtype="notation">
          </zone>
          <zone points="1780,531 137,531 137,427 1780,427" rendition="TextRegion" xml:id="facs_25_r" subtype="text">
@@ -776,7 +518,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2633" xml:id="facs_26">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-026/full/full/0/default.jpg" width="2000px" height="2633px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-026/full/full/0/default.jpg" width="2000px" height="2633px"/>
          <zone points="1917,378 226,398 226,221 1917,221" rendition="TextRegion" xml:id="facs_26_r" subtype="notation">
          </zone>
          <zone points="1297,515 336,515 336,405 1297,405" rendition="TextRegion" xml:id="facs_26_r_5" subtype="text">
@@ -821,7 +563,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2665" xml:id="facs_27">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-027/full/full/0/default.jpg" width="2000px" height="2665px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-027/full/full/0/default.jpg" width="2000px" height="2665px"/>
          <zone points="1781,393 65,393 65,204 1781,204" rendition="TextRegion" xml:id="facs_27_r" subtype="notation">
          </zone>
          <zone points="1766,517 151,517 151,408 1766,408" rendition="TextRegion" xml:id="facs_27_r_5" subtype="text">
@@ -862,7 +604,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2669" xml:id="facs_28">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-028/full/full/0/default.jpg" width="2000px" height="2669px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-028/full/full/0/default.jpg" width="2000px" height="2669px"/>
          <zone points="1927,354 202,354 202,189 1927,189" rendition="TextRegion" xml:id="facs_28_r" subtype="notation">
          </zone>
          <zone points="1101,511 257,511 257,406 1101,384" rendition="TextRegion" xml:id="facs_28_r_15" subtype="text">
@@ -899,7 +641,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2666" xml:id="facs_29">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-029/full/full/0/default.jpg" width="2000px" height="2666px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-029/full/full/0/default.jpg" width="2000px" height="2666px"/>
          <zone points="1820,389 42,389 42,201 1820,201" rendition="TextRegion" xml:id="facs_29_r" subtype="notation">
          </zone>
          <zone points="108,521 108,395 1790,395 1790,521" rendition="TextRegion" xml:id="facs_29_r_5" subtype="text">
@@ -934,7 +676,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2683" xml:id="facs_30">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-030/full/full/0/default.jpg" width="2000px" height="2683px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-030/full/full/0/default.jpg" width="2000px" height="2683px"/>
          <zone points="1905,416 186,416 186,224 1905,224" rendition="TextRegion" xml:id="facs_30_r" subtype="notation">
          </zone>
          <zone points="1821,551 222,551 222,425 1821,425" rendition="TextRegion" xml:id="facs_30_r_5" subtype="text">
@@ -973,7 +715,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2665" xml:id="facs_31">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-031/full/full/0/default.jpg" width="2000px" height="2665px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-031/full/full/0/default.jpg" width="2000px" height="2665px"/>
          <zone points="1806,413 81,413 81,229 1806,229" rendition="TextRegion" xml:id="facs_31_r" subtype="notation">
          </zone>
          <zone points="434,527 106,527 106,422 434,422" rendition="TextRegion" xml:id="facs_31_r_5" subtype="rubrik">
@@ -1006,7 +748,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2690" xml:id="facs_32">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-032/full/full/0/default.jpg" width="2000px" height="2690px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-032/full/full/0/default.jpg" width="2000px" height="2690px"/>
          <zone points="1949,421 192,421 192,234 1949,234" rendition="TextRegion" xml:id="facs_32_r" subtype="notation">
          </zone>
          <zone points="1849,544 215,544 215,446 1849,446" rendition="TextRegion" xml:id="facs_32_r_5" subtype="text">
@@ -1037,7 +779,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2665" xml:id="facs_33">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-033/full/full/0/default.jpg" width="2000px" height="2665px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-033/full/full/0/default.jpg" width="2000px" height="2665px"/>
          <zone points="1814,399 87,399 87,203 1814,203" rendition="TextRegion" xml:id="facs_33_r" subtype="notation">
          </zone>
          <zone points="1705,540 152,540 152,410 1705,410" rendition="TextRegion" xml:id="facs_33_r_5" subtype="text">
@@ -1068,7 +810,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2676" xml:id="facs_34">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-034/full/full/0/default.jpg" width="2000px" height="2676px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-034/full/full/0/default.jpg" width="2000px" height="2676px"/>
          <zone points="202,409 202,214 1924,214 1914,401" rendition="TextRegion" xml:id="facs_34_r" subtype="notation">
          </zone>
          <zone points="1914,526 277,526 277,414 1914,414" rendition="TextRegion" xml:id="facs_34_r_5" subtype="text">
@@ -1099,7 +841,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2666" xml:id="facs_35">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-035/full/full/0/default.jpg" width="2000px" height="2666px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-035/full/full/0/default.jpg" width="2000px" height="2666px"/>
          <zone points="1828,403 60,403 60,204 1828,204" rendition="TextRegion" xml:id="facs_35_r" subtype="notation">
          </zone>
          <zone points="1819,514 126,514 126,418 1819,418" rendition="TextRegion" xml:id="facs_35_r_5" subtype="text">
@@ -1134,94 +876,94 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2693" xml:id="facs_36">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-036/full/full/0/default.jpg" width="2000px" height="2693px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-036/full/full/0/default.jpg" width="2000px" height="2693px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2665" xml:id="facs_37">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-037/full/full/0/default.jpg" width="2000px" height="2665px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-037/full/full/0/default.jpg" width="2000px" height="2665px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2687" xml:id="facs_38">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-038/full/full/0/default.jpg" width="2000px" height="2687px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-038/full/full/0/default.jpg" width="2000px" height="2687px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2683" xml:id="facs_39">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-039/full/full/0/default.jpg" width="2000px" height="2683px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-039/full/full/0/default.jpg" width="2000px" height="2683px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2672" xml:id="facs_40">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-040/full/full/0/default.jpg" width="2000px" height="2672px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-040/full/full/0/default.jpg" width="2000px" height="2672px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2669" xml:id="facs_41">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-041/full/full/0/default.jpg" width="2000px" height="2669px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-041/full/full/0/default.jpg" width="2000px" height="2669px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2662" xml:id="facs_42">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-042/full/full/0/default.jpg" width="2000px" height="2662px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-042/full/full/0/default.jpg" width="2000px" height="2662px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2669" xml:id="facs_43">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-043/full/full/0/default.jpg" width="2000px" height="2669px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-043/full/full/0/default.jpg" width="2000px" height="2669px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2665" xml:id="facs_44">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-044/full/full/0/default.jpg" width="2000px" height="2665px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-044/full/full/0/default.jpg" width="2000px" height="2665px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2670" xml:id="facs_45">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-045/full/full/0/default.jpg" width="2000px" height="2670px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-045/full/full/0/default.jpg" width="2000px" height="2670px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2670" xml:id="facs_46">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-046/full/full/0/default.jpg" width="2000px" height="2670px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-046/full/full/0/default.jpg" width="2000px" height="2670px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2645" xml:id="facs_47">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-047/full/full/0/default.jpg" width="2000px" height="2645px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-047/full/full/0/default.jpg" width="2000px" height="2645px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2667" xml:id="facs_48">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-048/full/full/0/default.jpg" width="2000px" height="2667px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-048/full/full/0/default.jpg" width="2000px" height="2667px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2680" xml:id="facs_49">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-049/full/full/0/default.jpg" width="2000px" height="2680px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-049/full/full/0/default.jpg" width="2000px" height="2680px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2664" xml:id="facs_50">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-050/full/full/0/default.jpg" width="2000px" height="2664px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-050/full/full/0/default.jpg" width="2000px" height="2664px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2681" xml:id="facs_51">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-051/full/full/0/default.jpg" width="2000px" height="2681px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-051/full/full/0/default.jpg" width="2000px" height="2681px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2737" xml:id="facs_52">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-052/full/full/0/default.jpg" width="2000px" height="2737px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-052/full/full/0/default.jpg" width="2000px" height="2737px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2720" xml:id="facs_53">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-053/full/full/0/default.jpg" width="2000px" height="2720px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-053/full/full/0/default.jpg" width="2000px" height="2720px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2739" xml:id="facs_54">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-054/full/full/0/default.jpg" width="2000px" height="2739px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-054/full/full/0/default.jpg" width="2000px" height="2739px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2698" xml:id="facs_55">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-a001r/full/full/0/default.jpg" width="2000px" height="2698px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-a001r/full/full/0/default.jpg" width="2000px" height="2698px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2728" xml:id="facs_56">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-a001v/full/full/0/default.jpg" width="2000px" height="2728px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-a001v/full/full/0/default.jpg" width="2000px" height="2728px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2724" xml:id="facs_57">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-a002r/full/full/0/default.jpg" width="2000px" height="2724px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-a002r/full/full/0/default.jpg" width="2000px" height="2724px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2645" xml:id="facs_58">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-a002v/full/full/0/default.jpg" width="2000px" height="2645px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-a002v/full/full/0/default.jpg" width="2000px" height="2645px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2659" xml:id="facs_59">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-a003r/full/full/0/default.jpg" width="2000px" height="2659px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-a003r/full/full/0/default.jpg" width="2000px" height="2659px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2646" xml:id="facs_60">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-a003v/full/full/0/default.jpg" width="2000px" height="2646px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-a003v/full/full/0/default.jpg" width="2000px" height="2646px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="23753" xml:id="facs_61">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-BR/full/full/0/default.jpg" width="2000px" height="23753px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-BR/full/full/0/default.jpg" width="2000px" height="23753px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2648" xml:id="facs_62">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-HD/full/full/0/default.jpg" width="2000px" height="2648px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-HD/full/full/0/default.jpg" width="2000px" height="2648px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2684" xml:id="facs_63">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-HDS/full/full/0/default.jpg" width="2000px" height="2684px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-HDS/full/full/0/default.jpg" width="2000px" height="2684px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2640" xml:id="facs_64">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-VD/full/full/0/default.jpg" width="2000px" height="2640px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-VD/full/full/0/default.jpg" width="2000px" height="2640px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2643" xml:id="facs_65">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26/files/images/A-Gf_S1_26-VDS/full/full/0/default.jpg" width="2000px" height="2643px"/>
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_26.xml/files/images/A-Gf_S1_26-VDS/full/full/0/default.jpg" width="2000px" height="2643px"/>
       </surface>
    </facsimile>
    <text>
