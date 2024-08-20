@@ -9,7 +9,7 @@ if len(input_files) > 1:
     with open('handles.csv', 'r') as f:
         reader = csv.DictReader(f, delimiter=',')
         for row in reader:
-            d[row["arche_id"]] = row["handle_id"]
+            d[row["file"]] = row["handle_id"]
     for filename in input_files[1:]:
         print(filename)
         tree = TeiReader(filename)
