@@ -5,11 +5,11 @@ from acdh_tei_pyutils.tei import TeiReader, ET
 
 input_files = sys.argv
 if len(input_files) > 1:
-    reader = csv.reader(open('handles.csv', 'r'))
     d = {}
-    for row in reader:
-        k, v = row
-        d[k] = v
+    with open('handles.csv', 'r') as f:
+        reader = csv.DictReader(f, delimiter=',')
+        for row in reader:
+            d[row["arche_id"]] = row["handle_id"]
     for filename in input_files[1:]:
         print(filename)
         tree = TeiReader(filename)
