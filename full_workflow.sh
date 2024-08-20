@@ -10,3 +10,4 @@ rm -f mets/*/{2914584,2926205,3374447,3374448,3374547,3376967,3377127,3377287,33
 ./generate_headers.py
 ./generate_body.py
 cp -f data/constants/* data/editions
+./add_handle.py data/editions/*
