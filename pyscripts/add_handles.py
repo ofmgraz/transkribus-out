@@ -3,10 +3,11 @@ import csv
 import sys
 from acdh_tei_pyutils.tei import TeiReader, ET
 
+handlesfile = './data/constants/handles.csv'
 input_files = sys.argv
 if len(input_files) > 1:
     d = {}
-    with open('handles.csv', 'r') as f:
+    with open(handlesfile, 'r') as f:
         reader = csv.DictReader(f, delimiter=',')
         for row in reader:
             d[row["file"]] = row["handle_id"]
