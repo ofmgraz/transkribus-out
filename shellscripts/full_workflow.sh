@@ -1,8 +1,8 @@
 #!/bin/bash
 . ./secret.env
-rm -rf mets/* data/editions/* data/constants/tei_headers/*
+rm -rf data/mets/* data/editions/* data/constants/tei_headers/*
 ./download.py
-rm -f mets/*/{2914584,2926205,3374447,3374448,3374547,3376967,3377127,3377287,3385787,3406471,3674355}* ||true
+rm -f data/mets/*/{2914584,2926205,3374447,3374448,3374547,3376967,3377127,3377287,3385787,3406471,3674355}* ||true
 ./pyscripts/transform.py |nl
 ./pyscripts/amend_duplicate.py || true
 ./shellscripts/amend_pics_paths.sh || true

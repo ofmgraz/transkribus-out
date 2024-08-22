@@ -5,7 +5,7 @@ import glob
 from saxonche import PySaxonProcessor
 
 XSLT = "https://csae8092.github.io/page2tei/page2tei-0.xsl"
-METS_DIR = Path("./mets")
+METS_DIR = Path("./data/mets")
 TEI_DIR = Path("./data/editions")
 col_id = "216937"
 files = glob.glob(f"{METS_DIR}/{col_id}/*_mets.xml")

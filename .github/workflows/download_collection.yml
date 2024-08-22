@@ -28,13 +28,13 @@ jobs:
     - name: Install Python Packages
       run: pip install -U -r requirements.txt
     - name: Delete old METS
-      run: rm -rf mets/*
+      run: rm -rf data/mets/*
     - name: Delete old files
-      run: rm -f data/editions/* mets/* tei_headers/*
+      run: rm -f data/editions/* data/mets/* tei_headers/*
     - name: Download
       run: ./pyscripts/download.py
     - name: Delete non-included files
-      run: rm -f mets/216937/{2914584,2926205,3374447,3374448,3374547,3376967,3377127,3377287,3385787,3406471,3674355}* || true
+      run: rm -f data/mets/216937/{2914584,2926205,3374447,3374448,3374547,3376967,3377127,3377287,3385787,3406471,3674355}* || true
     - name: Transform
       run: ./pyscripts/transform.py
     - name: Amend duplicates

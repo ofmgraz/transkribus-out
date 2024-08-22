@@ -7,7 +7,7 @@ from transkribus_utils.transkribus_utils import ACDHTranskribusUtils
 user = os.environ.get("TR_USER")
 pw = os.environ.get("TR_PW")
 XSLT = "https://csae8092.github.io/page2tei/page2tei-0.xsl"
-METS_DIR = Path("./mets")
+METS_DIR = Path("./data/mets")
 TEI_DIR = Path("./data/editions")
 
 os.makedirs(METS_DIR, exist_ok=True)

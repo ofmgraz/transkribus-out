@@ -7,7 +7,7 @@ import glob
 user = os.environ.get("TR_USER")
 pw = os.environ.get("TR_PW")
 XSLT = "https://csae8092.github.io/page2tei/page2tei-0.xsl"
-METS_DIR = Path("./mets")
+METS_DIR = Path("./data/mets")
 
 os.makedirs(METS_DIR, exist_ok=True)
 transkribus_client = ACDHTranskribusUtils(
@@ -21,5 +21,5 @@ print(lines)
 for y in lines:
     col_id = y.strip()
     print(f"processing collection: {col_id}")
-    mpr_docs = transkribus_client.collection_to_mets(col_id, file_path="./mets")
+    mpr_docs = transkribus_client.collection_to_mets(col_id, file_path=METS_DIR)
     print(f"{METS_DIR}/{col_id}*.xml")
