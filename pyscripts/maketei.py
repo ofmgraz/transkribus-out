@@ -21,7 +21,7 @@ tei = "{http://www.tei-c.org/ns/1.0}"
 locations = TeiReader("data/indices/listplace.xml")
 persons = TeiReader("data/indices/listperson.xml")
 persons = TeiReader("data/indices/listperson.xml")
-resps = TeiReader('data/constants/resps.xml')
+resps = TeiReader('data/constants/resp.xml')
 with open("data/constants/data.json", "r") as f:
     data = json.load(f)
 bookdict = data["booktypes"]
