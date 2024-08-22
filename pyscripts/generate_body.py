@@ -7,7 +7,7 @@ from sys import argv
 from acdh_tei_pyutils.tei import TeiReader, ET
 
 tkb_directory = "./data/editions"
-headers_directory = "./tei_headers"
+headers_directory = "./data/constants/tei_headers"
 schema_file = "tei_ms.xsd"
 i = 1
 test = False

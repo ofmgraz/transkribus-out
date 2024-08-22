@@ -23,8 +23,8 @@ if not test:
 source_directory = "./data/editions"
 source_table = os.path.join("tmp", "InputData.json")
 schema_file = "tei_ms.xsd"
-output_directory = "./tei_headers"
-template = "template.xml"
+output_directory = "./data/constants/tei_headers"
+template = "./data/constants/template.xml"
 
 i = 1
 
