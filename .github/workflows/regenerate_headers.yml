@@ -24,7 +24,7 @@ jobs:
     - name: Delete old files
       run: rm -rf ./tei_headers/*
     - name: Regenerate headers
-      run: ./generate_headers.py
+      run: ./pyscripts/generate_headers.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done

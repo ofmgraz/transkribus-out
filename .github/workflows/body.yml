@@ -19,9 +19,9 @@ jobs:
     - name: Install Python Packages
       run: pip install -r requirements.txt
     - name: Generate TEI text & facsimile
-      run: ./generate_body.py
+      run: ./pyscripts/generate_body.py
     - name: Amend picture paths
-      run: ./amend_pics_paths.sh || true
+      run: ./shellscripts/amend_pics_paths.sh || true
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done

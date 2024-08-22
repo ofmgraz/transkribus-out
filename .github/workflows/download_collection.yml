@@ -32,23 +32,23 @@ jobs:
     - name: Delete old files
       run: rm -f data/editions/* mets/* tei_headers/*
     - name: Download
-      run: python download.py
+      run: ./pyscripts/download.py
     - name: Delete non-included files
       run: rm -f mets/216937/{2914584,2926205,3374447,3374448,3374547,3376967,3377127,3377287,3385787,3406471,3674355}* || true
     - name: Transform
-      run: python transform.py
+      run: ./pyscripts/transform.py
     - name: Amend duplicates
-      run: ./amend_duplicate.py || true
+      run: ./pyscripts/amend_duplicate.py || true
     - name: Rename files
-      run: ./renamefiles.py
+      run: ./pyscripts/renamefiles.py
     - name: Regenerate headers
-      run: ./generate_headers.py
+      run: ./pyscripts/generate_headers.py
     - name: Generate TEI text & facsimile
-      run: ./generate_body.py
+      run: ./pyscripts/generate_body.py
     - name: Ammend picture paths
-      run: ./amend_pics_paths.sh || true
+      run: ./shellscripts/amend_pics_paths.sh || true
     - name: Copy files not in Transkribus
-      run: cp data/constants/* data/editions
+      run: cp data/constants/S1*.xml data/editions
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
