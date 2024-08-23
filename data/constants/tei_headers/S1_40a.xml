@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_76.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_40a.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
-      </titleStmt>
+        <title type="main">S 1/40a (Cantus ecclesiasticus)</title>
+      <respStmt/><respStmt/><respStmt/><respStmt/><respStmt/><respStmt/></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -43,11 +43,11 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note/>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date/>
+          <date notBefore="1765-01-01" notAfter="1765-12-31">1765</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -60,28 +60,27 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 63/51</idno>
+            <idno type="shelfmark">S 1/40a</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#oesa #prozessionale">
+            <summary><p><title>Cantus Ecclesiasticus: complectens Benedictiones Candelarum, Cinerum, Ramorum, et Panis S. Nicolai Tolent nec non omnia, quae &#8230; Accedit. Ad usum, et commodum Fratrum Eremit. Discal. P. N. Augustini</title></p><p>Prozessionale</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm"> <height>160</height><width>105</width></dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="leaf" quantity="112">112</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance><placeName ref="#"></placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -98,7 +97,7 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    </encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="oesa"><catDesc>OESA</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="prozessionale"><catDesc>Prozessionale</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -121,5 +120,5 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/>
+  <standOff><listPlace/></standOff>
 </TEI>

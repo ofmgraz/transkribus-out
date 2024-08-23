@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_76.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_64.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
-      </titleStmt>
+        <title type="main">S 1/64 (Psalterium romanum)</title>
+      <respStmt/><respStmt/><respStmt/><respStmt/><respStmt/></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -43,12 +43,12 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note/>
+        <note>Originals digitised with a Stativlaser device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date/>
-        </bibl>
+          <date notBefore="1739-01-01" notAfter="1739-12-31">1739</date>
+        <pubPlace ref="#Venedig">Venedig</pubPlace><publisher ref="#Pezzana">Giovanni Antonio Pezzana</publisher></bibl>
         <msDesc>
           <msIdentifier>
             <institution>
@@ -60,28 +60,27 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 63/51</idno>
+            <idno type="shelfmark">S 1/64</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#ofm #psalterium">
+            <summary><p><title>Psalterium Romanum dispositum per Hebdomadam: cum omnibus, quae pro Psalmis, Hymnis, Antiphonis modulandis necessaria sunt, mit Anhang: Hymni proprii Sanctorum Trium Ordinum Fratrum Minorum S. P. Francisci</title></p><p>Psalterium Romanum</p></summary>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="print">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm"> <height>481</height><width>337</width></dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="page" quantity="246">246</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance><placeName ref="#Venedig">Venedig</placeName><placeName ref="#Pezzana">Pezzana</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -98,13 +97,13 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    </encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="psalterium"><catDesc>Psalterium</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws" xml:lang="en">book</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -121,5 +120,95 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/>
+  <standOff><listPlace><place xml:id="Venedig">
+          <placeName xml:lang="en">Venice</placeName>
+          <placeName xml:lang="de">Venedig</placeName>
+          <placeName xml:lang="it">Venezia</placeName>
+          <location>
+            <settlement xml:lang="en">Venice</settlement>
+            <settlement xml:lang="de">Venedig</settlement>
+            <settlement xml:lang="it">Venezia</settlement>
+            <region xml:lang="en">Venetien</region>
+            <region xml:lang="de">Veneto</region>
+            <region xml:lang="it">Veneto</region>
+            <country xml:lang="en">Italy</country>
+            <country xml:lang="de">Italien</country>
+            <country xml:lang="it">Italia</country>
+            <geo>45.439722222222 12.331944444444</geo>
+          </location>
+          <listEvent>               
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/66</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_66.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/65</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_65.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_69.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_64.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_67.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/68</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_68.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4062501-1</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
+        </place></listPlace><listPerson><person xml:id="Pezzana">
+          <persName>
+            <forename>Giovanni Antonio</forename>
+            <surname>Pezzana</surname>
+          </persName>
+          <residence>
+            <date notBefore="1717-01-01" notAfter="1779-12-31">1717-1779</date>
+            <settlement key="4">
+              <placeName type="pref" ref="#Venedig">Venedig</placeName>
+              <location>
+                <geo>45.439722222222 12.331944444444</geo>
+              </location>
+            </settlement>
+          </residence>
+          <sex value="male"/>
+          <occupation key="90">Drucker</occupation>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/1102696757</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q105889193</idno>
+          <listEvent>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris
+                  Francisci</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_69.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_64.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+        </person></listPerson><listPlace/></standOff>
 </TEI>

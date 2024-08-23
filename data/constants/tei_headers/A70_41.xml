@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_76.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A70_41.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
-      </titleStmt>
+        <title type="main">A 70/41 (Ad mandatum antiphonae)</title>
+      <respStmt/><respStmt/><respStmt/><respStmt/><respStmt/></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -43,11 +43,11 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note/>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date/>
+          <date notBefore="1700-01-01" notAfter="1800-01-01">17./18. Jh.</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -60,28 +60,27 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 63/51</idno>
+            <idno type="shelfmark">A 70/41</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#ofm #antiphonale">
+            <summary><p>Ad Mandatum Antiphonae</p><p>Antiphonale</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm"> <height>115</height><width>111</width></dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="leaf" quantity="54">54</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance><placeName ref="#"></placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -98,7 +97,7 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    </encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="antiphonale"><catDesc>Antiphonale</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -121,5 +120,5 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/>
+  <standOff><listPlace/></standOff>
 </TEI>

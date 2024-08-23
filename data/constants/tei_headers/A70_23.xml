@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_76.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A70_23.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
-      </titleStmt>
+        <title type="main">A 70/23 (Libellus Antiphonarium)</title>
+      <title type="sub">A 70/23 ( in Vesperis solemniter intonare darum)</title><respStmt/><respStmt/><respStmt/><respStmt/><respStmt/></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -43,11 +43,11 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note/>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date/>
+          <date notBefore="1674-01-01" notAfter="1674-12-31">1674</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -60,28 +60,27 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 63/51</idno>
+            <idno type="shelfmark">A 70/23</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#ofm #intonationsbuch">
+            <summary><p><title>Libellus Antiphonarium: in Vesperis solemniter intonare darum</title></p><p>Intonationsb&#252;chlein</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm"> <height>160</height><width>100</width></dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="leaf" quantity="70">70</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance><placeName ref="#Wien">Wien</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -98,7 +97,7 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    </encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="intonationsbuch"><catDesc>Intonationsb&#252;chlein</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -121,5 +120,75 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/>
+  <standOff><listPlace><place xml:id="Wien">
+          <placeName xml:lang="en">Vienna</placeName>
+          <placeName xml:lang="de">Wien</placeName>
+          <placeName xml:lang="it">Vienna</placeName>
+          <location>
+            <settlement xml:lang="en">Vienna</settlement>
+            <settlement xml:lang="de">Wien</settlement>
+            <settlement xml:lang="it">Vienna</settlement>
+            <region xml:lang="en">Vienna (federal state)</region>
+            <region xml:lang="de">Wien</region>
+            <region xml:lang="it">Vienna</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">&#214;sterreich</country>
+            <country xml:lang="it">Austria</country>
+            <geo>48.208333333333336 16.3725</geo>
+          </location>
+          <listEvent>               
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 70/41</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_41.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonas Festorum Principaliorum</title></p>
+              <linkGrp>
+                <link type="URL" target="70_45.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Libellus Antiphonarum</title></p>
+              <linkGrp>
+                <link type="URL" target="A70_23.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/29</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_29.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Cantus Ecclesiasticus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_40a.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_75.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_74.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_21.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4066009-6</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
+
+        </place></listPlace></standOff>
 </TEI>

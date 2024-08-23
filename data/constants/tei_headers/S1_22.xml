@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_76.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_22.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
-      </titleStmt>
+        <title type="main">S 1/22 (Iube Domine benedicere)</title>
+      <respStmt/><respStmt/><respStmt/><respStmt/><respStmt/></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -43,11 +43,11 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note/>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date/>
+          <date notBefore="1685-01-01" notAfter="1685-12-31">1685</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -60,28 +60,27 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 63/51</idno>
+            <idno type="shelfmark">S 1/22</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#ofm #coralbuch">
+            <summary><p>Lections- und Psalmt&#246;ne, Intonationen (Gloria, Antiphonen etc.), Lamentationen (f&#252;r Graz)</p><p>Chorallehrbuch f&#252;r Novizen</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm"> <height>300</height><width>215</width></dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="leaf" quantity="58">58</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance><placeName ref="#MariaLankowitz">Maria Lankowitz</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -98,7 +97,7 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    </encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="coralbuch"><catDesc>Chorallehrbuch</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -121,5 +120,50 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/>
+  <standOff><listPlace><place xml:id="MariaLankowitz">
+          <placeName xml:lang="en">Maria Lankowitz</placeName>
+          <placeName xml:lang="de">Maria Lankowitz</placeName>
+          <placeName xml:lang="it">Maria Lankowitz</placeName>
+          <location>
+            <settlement xml:lang="en">Maria Lankowitz</settlement>
+            <settlement xml:lang="de">Maria Lankowitz</settlement>
+            <settlement xml:lang="it">Maria Lankowitz</settlement>
+            <region xml:lang="en">Styria</region>
+            <region xml:lang="de">Steiermark</region>
+            <region xml:lang="it">Stiria</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">&#214;sterreich</country>
+            <country xml:lang="it">Austria</country>
+            <geo>47.063888888889 15.063055555556</geo>
+          </location>
+          <listEvent>               
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 64/37</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_37.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 64/34</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_34.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/22</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_22.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/40</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_40.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4400654-8</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
+        </place></listPlace></standOff>
 </TEI>

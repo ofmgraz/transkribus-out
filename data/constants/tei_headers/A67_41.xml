@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_76.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_41.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
-      </titleStmt>
+        <title type="main">A 67/41 (Das 4. Respons Buch)</title>
+      <title type="sub">A 67/41 ( Ostern bis 1. August)</title><respStmt/><respStmt/><respStmt/><respStmt/><respStmt/><respStmt/></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -43,11 +43,11 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note/>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date/>
+          <date notBefore="1636-01-01" notAfter="1636-12-31">1636</date>
         </bibl>
         <msDesc>
           <msIdentifier>
@@ -60,28 +60,27 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 63/51</idno>
+            <idno type="shelfmark">A 67/41</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#ofm #responsoriale">
+            <summary><p><title>Das 4. Respons Buch: Ostern bis 1. August</title></p><p>Responsoriale</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm"> <height>210</height><width>140</width></dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="leaf" quantity="205">205</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance><placeName ref="#Graz">Graz</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -98,7 +97,7 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    </encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="responsoriale"><catDesc>Responsoriale</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
@@ -121,5 +120,195 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/>
+  <standOff><listPlace><place xml:id="Graz">
+          <placeName xml:lang="en">Graz</placeName>
+          <placeName xml:lang="de">Graz</placeName>
+          <placeName xml:lang="it">Graz</placeName>
+          <location>
+            <settlement xml:lang="en">Graz</settlement>
+            <settlement xml:lang="de">Graz</settlement>
+            <settlement xml:lang="it">Graz</settlement>
+            <region xml:lang="en">Styria</region>
+            <region xml:lang="de">Steiermark</region>
+            <region xml:lang="it">Stiria</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">&#214;sterreich</country>
+            <country xml:lang="it">Austria</country>
+            <geo>47.07083333333333 15.438611111111111</geo>
+          </location>
+          <listEvent>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Das 4. Respons Buch</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_41.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 64/41</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_41.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 67/19</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_19.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Das 4. Respons Buch</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_42.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 67/17</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_17.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonarium de Tempore et Sanctis Pro Choro
+                Graecensi</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_25.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 64/42</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_42.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/26</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_26.xml "/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 64/39</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_39.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/45</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_45.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/39</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_39.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 64/43</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_43.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 67/23</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_23.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 67/18</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_18.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/28</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_28.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 64/37</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_37.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 63/51</title></p>
+              <linkGrp>
+                <link type="URL" target="A63_51.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/24</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_24.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 67/20</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_20.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Tota pulchra</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_19.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 64/40</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_40.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 67/43</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_43.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Pro divino officio in choro</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_27.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/44</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_44.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/30</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_30.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/27</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_27.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 67/22</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_22.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 64/38</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_38.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4021912-4</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
+        </place></listPlace></standOff>
 </TEI>
