@@ -147,7 +147,7 @@ class TeiBody(TeiTree):
                     img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
                 element.attrib[
                     "url"
-                ] = f"https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/{doc_id}/files/images/{img_name}/full/full/0/default.jpg"
+                ] = f"https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/{doc_id.rsplit('.xml')}/files/images/{img_name}/full/full/0/default.jpg"
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
 
