@@ -522,13 +522,13 @@ class TeiHeader(TeiTree):
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
         for person in roles:
             respstmt = ET.SubElement(titlestmt, "respStmt")
-            collaborator = resps.any_xpath(
+            if resps.any_xpath(
                 f'.//tei:person[@xml:id="{person[0]}"]/tei:persName'
-            )[0]
-            ET.SubElement(respstmt, "resp").text = person[1]
-            collaborator.attrib["role"] = person[2]
-            ET.tostring(collaborator)
-            respstmt.append(collaborator)
+            ):
+                collaborator = resps.any_xpath(f'.//tei:person[@xml:id="{person[0]}"]/tei:persName')[0]
+                collaborator.attrib["role"] = person[2]
+                ET.SubElement(respstmt, "resp").text = person[1]
+                respstmt.append(collaborator)
 
     def parse_device(self, device):
         devices = {"Stativlaser": "Stativlaser", "Traveller": "Traveller"}
