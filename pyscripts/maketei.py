@@ -398,4 +398,3 @@ class TeiHeader(TeiTree):
         devices = {"Stativlaser": "Stativlaser", "Traveller": "Traveller"}
         note = self.header.xpath("//tei:fileDesc/tei:notesStmt/tei:note", namespaces=nsmap)[0]
         note.text = f"Originals digitised with a {devices[device]} device"
-
