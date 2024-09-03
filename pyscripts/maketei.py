@@ -21,7 +21,6 @@ tei = "{http://www.tei-c.org/ns/1.0}"
 locations = TeiReader("data/indices/listplace.xml")
 persons = TeiReader("data/indices/listperson.xml")
 persons = TeiReader("data/indices/listperson.xml")
-resps = TeiReader('data/constants/resp.xml')
 with open("data/constants/data.json", "r") as f:
     data = json.load(f)
 bookdict = data["booktypes"]
@@ -51,9 +50,7 @@ log = Log("0mets2tei")
 class TeiTree:
     def __init__(self, source_tkb, source_tei):
         self.filename = source_tkb
-        self.doc_id = (
-            os.path.basename(source_tkb).strip()
-        )
+        self.doc_id = os.path.basename(source_tkb).strip()
         self.tei = self.read_xml_input(source_tei)
         self.root = self.tei.any_xpath("//tei:TEI")[0]
         self.header = self.tei.any_xpath("//tei:teiHeader")[0]
@@ -189,15 +186,14 @@ class TeiHeader(TeiTree):
     def extract_from_table(self, table, header):
         self.header = header
         df = self.read_table(table)
-        column_name = self.doc_id[0] + " " + self.doc_id[1:].replace("_", "/").rstrip('.xml')
-        print("CN: ", column_name)
-
+        column_name = (
+            self.doc_id[0] + " " + self.doc_id[1:].replace("_", "/").rstrip(".xml")
+        )
         for idx, row in df.loc[df["Signatur"] == column_name].iterrows():
             self.make_title(
                 row["Titel"], row["Inhalt"], row["Incipit"], row["Signatur"]
             )
             self.parse_signature(row["Signatur"])
-            print(row["Provenienz"], row["Drucker"])
             self.parse_origin(row["Provenienz"], row["Drucker"])
             self.parse_date(str(row["Zeit"]))
             if row["Buchtyp"] + row["Liturgie"]:
@@ -259,7 +255,6 @@ class TeiHeader(TeiTree):
         locations = TeiReader("data/indices/listplace.xml")
         origins = [x.strip() for x in origin.split(",")]
         pid = self.make_pid(origins[0])
-        print('pid:', pid)
         tree = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)
         if len(tree) < 1:
             tree = ET.SubElement(
@@ -278,7 +273,9 @@ class TeiHeader(TeiTree):
                     )
                 )
         # Element in msDesc/history referencing the entry above
-        provenance = self.msdesc.xpath("./tei:history/tei:provenance", namespaces=nsmap)[0]
+        provenance = self.msdesc.xpath(
+            "./tei:history/tei:provenance", namespaces=nsmap
+        )[0]
         attribs = {"ref": f"#{pid}"}
         if "?" in origins[0]:
             attribs["cert"] = "medium"
@@ -521,11 +518,12 @@ class TeiHeader(TeiTree):
             roles.append([other, "Transkribus Bearbeitung", "Transcriptor"])
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
         for person in roles:
+            resps = TeiReader("data/constants/resp.xml")
             respstmt = ET.SubElement(titlestmt, "respStmt")
-            if resps.any_xpath(
-                f'.//tei:person[@xml:id="{person[0]}"]/tei:persName'
-            ):
-                collaborator = resps.any_xpath(f'.//tei:person[@xml:id="{person[0]}"]/tei:persName')[0]
+            if resps.any_xpath(f'.//tei:person[@xml:id="{person[0]}"]/tei:persName'):
+                collaborator = resps.any_xpath(
+                    f'.//tei:person[@xml:id="{person[0]}"]/tei:persName'
+                )[0]
                 collaborator.attrib["role"] = person[2]
                 ET.SubElement(respstmt, "resp").text = person[1]
                 respstmt.append(collaborator)
