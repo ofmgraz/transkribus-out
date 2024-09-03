@@ -35,12 +35,17 @@ for i, tkb_file in enumerate(glob.glob(path.join(tkb_directory, "*.xml")), start
             if filename not in tei_cache:
                 tei_cache[filename] = maketei.TeiBody(tkb_file, header_file)
             tei_source = tei_cache[filename]
+        
+        # Access the XML tree root properly
+        if hasattr(tei_source, 'tei') and hasattr(tei_source.tei, 'tree'):
+            xml_current_root = tei_source.tei.tree.getroot()
+        else:
+            raise AttributeError("TeiBody does not have the expected 'tei.tree' structure.")
+        
     except Exception as e:
-        error = f"{type(e).__name__} {__file__} {e.__traceback__.tb_lineno}"
+        error = f"{type(e).__name__} {__file__} {e.__traceback__.tb_lineno}: {str(e)}"
         log.print_log(filename, error, stdout=True)
         continue
-
-    xml_current_root = tei_source.tei.tree.getroot()
 
     # Link previous and next files
     if prev_filepath:
