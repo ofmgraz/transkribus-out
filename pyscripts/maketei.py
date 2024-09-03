@@ -171,6 +171,7 @@ class TeiHeader(TeiTree):
                 keys = self.classify_books(row["Buchtyp"], row["Liturgie"])
             self.parse_summary(row["Inhalt"], row["Buchtyp"], keys, idx)
             self.parse_extension(row["Umfang fol."])
+            print('done')
             self.parse_format(row["Format"])
             self.parse_notation(False)  # Placeholder for future functionality
             self.parse_photographer(row["Fotograf"], row["Bearbeiter"])
@@ -347,7 +348,7 @@ class TeiHeader(TeiTree):
                 if i.isnumeric():
                     tree.attrib["quantity"] = i
                     break
-        tree.text = umfang
+        tree.text = str(int(umfang))
 
     def parse_format(self, size):
         # Parse and format the dimensions of the manuscript
