@@ -83,5 +83,5 @@ with PySaxonProcessor(license=False) as proc:
     executable = xsltproc.compile_stylesheet(stylesheet_file=LOCAL_XSLT)
 
     # Parallel processing
-    with ThreadPoolExecutor() as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         executor.map(transform_file, files)
