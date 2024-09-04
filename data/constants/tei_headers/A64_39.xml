@@ -4,7 +4,36 @@
     <fileDesc>
       <titleStmt>
         <title type="main">A 64/39 (Asperges me Domine)</title>
-      <respStmt/><respStmt/><respStmt/><respStmt/><respStmt/><respStmt/></titleStmt>
+      <respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+            <forename>Fernando</forename>
+            <surname>Sanz-L&#225;zaro</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
+          </persName>
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
+            <forename>Peter</forename>
+            <surname>Andorfer</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
+          </persName>
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+            <forename>Daniel</forename>
+            <surname>Schopper</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
+          </persName> 
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
+          </persName>
+        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="DigitisingAgent">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
+          </persName>
+        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor">
+            <forename>Moritz</forename>
+            <surname>Schmoetten</surname>
+          </persName>
+        </respStmt></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
