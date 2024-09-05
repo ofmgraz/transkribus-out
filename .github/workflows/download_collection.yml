@@ -48,6 +48,8 @@ jobs:
       run: ./shellscripts/amend_pics_paths.sh || true
     - name: Copy files not in Transkribus
       run: cp data/constants/S1*.xml data/editions
+    - name: Add handles
+      run: ./pyscripts/add_handles.py data/editions/* |nl
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
