@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_40a.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_75.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_62.xml">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_40a.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_27.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A64_43.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +29,7 @@
             <surname>Leitner</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
           </persName>
-        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor">
+        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor" ref="https://id.acdh.oeaw.ac.at/alhuber">
             <forename>Anna-Lena</forename>
             <surname>Huber</surname>
           </persName>
@@ -69,7 +70,7 @@
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
         </availability>
         <date when="2024-08-19">2024</date>
-      </publicationStmt>
+      <idno type="handle">https://hdl.handle.net/21.11115/0000-0012-2278-F</idno></publicationStmt>
       <notesStmt>
         <note>Originals digitised with a Traveller device</note>
       </notesStmt>

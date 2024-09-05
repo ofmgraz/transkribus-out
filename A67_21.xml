@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_21.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_68.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_21.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_43.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +28,7 @@
             <surname>Leitner</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
           </persName>
-        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor">
+        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor" ref="https://id.acdh.oeaw.ac.at/mschmoetten">
             <forename>Moritz</forename>
             <surname>Schmoetten</surname>
           </persName>

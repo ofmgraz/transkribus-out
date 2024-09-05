@@ -3,8 +3,33 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"/>
-      </titleStmt>
+        <title type="main">S 1/76 (Ordo agendorum et cantandorum)</title>
+      <respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+            <forename>Fernando</forename>
+            <surname>Sanz-L&#225;zaro</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
+          </persName>
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
+            <forename>Peter</forename>
+            <surname>Andorfer</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
+          </persName>
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+            <forename>Daniel</forename>
+            <surname>Schopper</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
+          </persName> 
+        </respStmt><respStmt><resp>Datengenerierung</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
+          </persName>
+        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
+            <forename>Jakob</forename>
+            <surname>Leitner</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
+          </persName>
+        </respStmt></titleStmt>
       <editionStmt>
         <edition>Electronic edition</edition>
         <funder>BMK&#214;S Kulturerbe Digital</funder>
@@ -43,12 +68,12 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note/>
+        <note>Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
-          <date/>
-        </bibl>
+          <date notBefore="1702-01-01" notAfter="1702-12-31">1702</date>
+        <pubPlace ref="#Wien">Wien</pubPlace><publisher ref="#Voigt">Leopold Voigt</publisher></bibl>
         <msDesc>
           <msIdentifier>
             <institution>
@@ -60,28 +85,27 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">A 63/51</idno>
+            <idno type="shelfmark">S 1/76</idno>
           </msIdentifier>
-          <msContents>
-            <summary/>
+          <msContents class="#ofm #prozessionale">
+            <summary><p><title>Ordo agendorum et cantandorum in actibus processionalibus: Pro EE Franciscanis strictioris observantiae, in alma Provincia Austriae DEO famulantibus Anno M.DCLVI accomodatus</title></p><p>Prozessionale</p></summary>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="print">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> </dimensions>
+                  <dimensions unit="mm"> <height>534</height><width>376</width></dimensions>
                 </support>
                 <extent>
-                  <measure/>
+                  <measure unit="page" quantity="112">112</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
-            <musicNotation>
-              <binaryObject/>
+            <musicNotation>Placeholder<binaryObject/>
             </musicNotation>
           </physDesc>
           <history>
-            <provenance/>
+            <provenance><placeName ref="#Wien">Wien</placeName><placeName ref="#LeopoldVoigt">Leopold Voigt</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -98,13 +122,13 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    </encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="prozessionale"><catDesc>Prozessionale</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws" xml:lang="en">book</channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -121,5 +145,109 @@
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff/>
+  <standOff><listPlace><place xml:id="Wien">
+          <placeName xml:lang="en">Vienna</placeName>
+          <placeName xml:lang="de">Wien</placeName>
+          <placeName xml:lang="it">Vienna</placeName>
+          <location>
+            <settlement xml:lang="en">Vienna</settlement>
+            <settlement xml:lang="de">Wien</settlement>
+            <settlement xml:lang="it">Vienna</settlement>
+            <region xml:lang="en">Vienna (federal state)</region>
+            <region xml:lang="de">Wien</region>
+            <region xml:lang="it">Vienna</region>
+            <country xml:lang="en">Austria</country>
+            <country xml:lang="de">&#214;sterreich</country>
+            <country xml:lang="it">Austria</country>
+            <geo>48.208333333333336 16.3725</geo>
+          </location>
+          <listEvent>               
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A 70/41</title></p>
+              <linkGrp>
+                <link type="URL" target="A64_41.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Antiphonas Festorum Principaliorum</title></p>
+              <linkGrp>
+                <link type="URL" target="70_45.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Libellus Antiphonarum</title></p>
+              <linkGrp>
+                <link type="URL" target="A70_23.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>S 1/29</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_29.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Cantus Ecclesiasticus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_40a.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_75.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_74.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
+              <linkGrp>
+                <link type="URL" target="A67_21.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4066009-6</idno>
+          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
+
+        </place></listPlace><listPerson><person xml:id="Voigt">
+          <persName>
+            <forename>Leopold</forename>
+            <surname>Voigt</surname>
+          </persName>
+          <residence>
+            <date notBefore="1650-01-01" notAfter="1706-12-31">1650-1706</date>
+            <settlement key="1">
+              <placeName type="pref" ref="#Wien">Wien</placeName>
+              <location>
+                <geo>48,2066 16,37341</geo>
+              </location>
+            </settlement>
+          </residence>
+          <sex value="male"/>
+          <occupation key="90">Drucker</occupation>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/1037512057</idno>
+          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q56118770</idno>
+          <listEvent>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus
+                processionalibus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_74.xml"/>
+              </linkGrp>
+            </event>
+            <event type="mentioned">
+              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus
+                processionalibus</title></p>
+              <linkGrp>
+                <link type="URL" target="S1_75.xml"/>
+              </linkGrp>
+            </event>
+          </listEvent>
+        </person></listPerson><listPlace/></standOff>
 </TEI>
