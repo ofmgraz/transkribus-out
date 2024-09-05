@@ -8,6 +8,6 @@ rm -f data/mets/*/{2914584,2926205,3374447,3374448,3374547,3376967,3377127,33772
 ./shellscripts/amend_pics_paths.sh || true
 ./pyscripts/renamefiles.py
 ./pyscripts/generate_headers.py
-./pyscripts/generate_body.py
+./pyscripts/generate_body_p.py
 cp -f data/constants/S1*.xml data/editions
 ./pyscripts/add_handles.py data/editions/* |nl
