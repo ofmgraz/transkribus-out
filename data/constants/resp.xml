@@ -60,13 +60,13 @@
           </persName> 
         </person>
         <person xml:id="ALH">
-          <persName role="Transcriptor">
+          <persName role="Transcriptor" ref="https://id.acdh.oeaw.ac.at/alhuber">
             <forename>Anna-Lena</forename>
             <surname>Huber</surname>
           </persName>
         </person>
         <person xml:id="MS">
-          <persName role="Transcriptor">
+          <persName role="Transcriptor" ref="https://id.acdh.oeaw.ac.at/mschmoetten">
             <forename>Moritz</forename>
             <surname>Schmoetten</surname>
           </persName>
