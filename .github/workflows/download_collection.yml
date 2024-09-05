@@ -15,7 +15,6 @@ jobs:
       # # added or changed files to the repository.
       contents: write
     env:
-      ANT_OPTS: -Xmx5g
       TR_USER: ${{ secrets.TR_USER }}
       TR_PW: ${{ secrets.TR_PW }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
