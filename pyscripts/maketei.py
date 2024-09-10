@@ -6,7 +6,7 @@ import re
 import pandas as pd
 import requests
 
-
+# https://loris.acdh.oeaw.ac.at/uuid:/ofmgraz/derivatives/\{A67_21\}/\{A-Gf_A67_21-001r\}.tif/full/full/0/default.jpg
 nsmap = {
     "tei": "http://www.tei-c.org/ns/1.0",
     "mets": "http://www.loc.gov/METS/",
@@ -145,6 +145,7 @@ class TeiBody(TeiTree):
                 element.attrib[
                     "url"
                 ] = f"https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/{doc_id.rstrip('.xml')}/files/images/{img_name}/full/full/0/default.jpg"
+                # f"https://loris.acdh.oeaw.ac.at/uuid:/ofmgraz/derivatives/{doc_id.rstrip('.xml')}/{img_name}.tif/full/full/0/default.jpg"
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
 
