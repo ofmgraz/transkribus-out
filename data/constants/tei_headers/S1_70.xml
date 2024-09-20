@@ -109,7 +109,7 @@
             </musicNotation>
           </physDesc>
           <history>
-            <provenance><placeName ref="#Salzburg">Salzburg</placeName><placeName ref="#JBMayr">J.B. Mayr</placeName></provenance>
+            <provenance><placeName ref="#Salzburg">Salzburg</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -253,5 +253,5 @@
               </linkGrp>
             </event>
           </listEvent>
-        </person></listPerson><listPlace/></standOff>
+        </person></listPerson></standOff>
 </TEI>

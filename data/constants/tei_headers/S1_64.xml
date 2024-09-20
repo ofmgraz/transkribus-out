@@ -105,7 +105,7 @@
             </musicNotation>
           </physDesc>
           <history>
-            <provenance><placeName ref="#Venedig">Venedig</placeName><placeName ref="#Pezzana">Pezzana</placeName></provenance>
+            <provenance><placeName ref="#Venedig">Venedig</placeName></provenance>
           </history>
         </msDesc>
       </sourceDesc>
@@ -235,5 +235,5 @@
               </linkGrp>
             </event>
           </listEvent>
-        </person></listPerson><listPlace/></standOff>
+        </person></listPerson></standOff>
 </TEI>
