@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_28.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_20.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Cum appropinquaret Dominus</title>
-        <title type="desc">S 1/28</title>
+        <title type="main">Dixit dominus domino meo</title>
+        <title type="desc">S 1/20</title>
       <respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
             <surname>Sanz-L&#225;zaro</surname>
@@ -29,10 +29,6 @@
             <forename>Jakob</forename>
             <surname>Leitner</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
-          </persName>
-        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor" ref="https://id.acdh.oeaw.ac.at/alhuber">
-            <forename>Anna-Lena</forename>
-            <surname>Huber</surname>
           </persName>
         </respStmt></titleStmt>
       <editionStmt>
@@ -90,19 +86,19 @@
                <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
                <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
-            <idno type="shelfmark">S 1/28</idno>
+            <idno type="shelfmark">S 1/20</idno>
           </msIdentifier>
-          <msContents class="#osc #prozessionale">
-            <summary><p>Ges&#228;nge f&#252;r Palmsonntag und Mari&#228; Lichtmess</p><p>Prozessionale</p></summary>
+          <msContents class="#ofm #orgelbuch">
+            <summary><p>Orgelbegleitungen, Beispiele f&#252;r alle Typen von Ges&#228;ngen aus Messe und Offizium, deutsche Kirchenlieder, lat. Ges&#228;nge choraliter / figuraliter. Standardnotation auf 5 Linien mit Generalbassbezifferung, vereinzelt auch dreistimmige Chors&#228;tze f&#252;r Choral</p><p>Orgelbuch</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc>
                 <support>
-                  <dimensions unit="mm"> <height>190</height><width>140</width></dimensions>
+                  <dimensions unit="mm"> <height>315</height><width>230</width></dimensions>
                 </support>
                 <extent>
-                  <measure unit="leaf" quantity="17">17</measure>
+                  <measure unit="leaf" quantity="162">162</measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -127,7 +123,7 @@
         <application ident="custom" version="0.0"><label>custom scripts
         </label></application>
       </appInfo>
-    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="osc"><catDesc>OSC</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="prozessionale"><catDesc>Prozessionale</catDesc></category></taxonomy></classDecl></encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="orgelbuch"><catDesc>Orgelbuch</catDesc></category></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="la">Latin</language>
