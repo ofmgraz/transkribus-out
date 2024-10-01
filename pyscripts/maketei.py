@@ -195,7 +195,7 @@ class TeiHeader(TeiTree):
                 row["Titel"], row["Inhalt"], row["Incipit"], row["Signatur"]
             )
             self.parse_signature(row["Signatur"])
-            self.parse_origin(row["Provenienz"], row["Drucker"])
+            self.parse_origin(row["Provenienz"], publisher=row["Drucker"])
             self.parse_date(str(row["Zeit"]))
             if row["Buchtyp"] + row["Liturgie"]:
                 keys = self.classify_books(row["Buchtyp"], row["Liturgie"])
@@ -207,38 +207,32 @@ class TeiHeader(TeiTree):
             self.parse_device(row["Gerät"])
 
     def make_title(self, title, summary, incipit, signature):
+        xmltitle = self.header.xpath("//tei:titleStmt/tei:title[@type='main']", namespaces=nsmap)[0]
+        xmldesc = self.header.xpath("//tei:titleStmt/tei:title[@type='desc']", namespaces=nsmap)[0]
+        tistmt = self.header.xpath(
+                "//tei:fileDesc/tei:titleStmt", namespaces=nsmap
+            )[0]
+        subtitle = ""
         if title:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
-                0
-            ].text = f"{signature} ({title})"
+            pass
         elif title := re.findall("„(.*)“", summary):
             tistmt = self.header.xpath(
                 "//tei:fileDesc/tei:titleStmt", namespaces=nsmap
             )[0]
             title, subtitle = self.parse_title(title[0])
-            if subtitle:
-                ET.SubElement(
-                    tistmt, "title", type="sub"
-                ).text = f"{signature} ({subtitle})"
-            if tistmt.xpath("//tei:title", namespaces=nsmap)[0].text:
-                ET.SubElement(tistmt, "title", type="desc").text = tistmt.xpath(
-                    "//tei:title", namespaces=nsmap
-                )[0].text
-            tistmt.xpath("//tei:title", namespaces=nsmap)[
-                0
-            ].text = f"{signature} ({title})"
         elif incipit:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
-                0
-            ].text = f"{signature} ({incipit})"
+            title = incipit
+
         elif signature:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
-                0
-            ].text = signature
+            title = signature
         else:
-            self.header.xpath("//tei:titleStmt/tei:title", namespaces=nsmap)[
-                0
-            ].text = "No title"
+            title = "No title"
+        xmltitle.text = title
+        xmldesc.text = signature
+        if subtitle:
+            ET.SubElement(tistmt, "title", type="sub").text = subtitle
+
+
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
