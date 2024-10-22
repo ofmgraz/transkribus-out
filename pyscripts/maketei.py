@@ -70,7 +70,8 @@ class TeiTree:
     def make_printable(tree):
         p1 = ET.ProcessingInstruction(
             "xml-model",
-            'href="https://id.acdh.oeaw.ac.at/ofmgraz/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"',
+            'href="https://id.acdh.oeaw.ac.at/ofmgraz/schema.rng" type="application/xml" '
+            'schematypens="http://relaxng.org/ns/structure/1.0"',
         )
         # p2 = ET.ProcessingInstruction("xml-model",
         # 'href="https://id.acdh.oeaw.ac.at/ofmgraz/schema.odd"',
@@ -142,9 +143,13 @@ class TeiBody(TeiTree):
                 img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
                 if tree.any_xpath(".//tei:measure[@unit = 'page']"):
                     img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
-                element.attrib[
-                    "url"
-                ] = f"https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/{doc_id.rstrip('.xml')}/files/images/{img_name}/full/full/0/default.jpg"
+                if "A63_51" in img_name:
+                    new_base_url = "https://iiif.acdh.oeaw.ac.at/iiif/images/ofmgraz"
+                    img_name = f"{img_name}.jp2"
+                else:
+                    new_base_url = "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records"
+                    img_name = f"{doc_id.rstrip('.xml')}/files/images/{img_name}"
+                element.attrib["url"] = f"{new_base_url}/{img_name}/full/full/0/default.jpg"
                 # f"https://loris.acdh.oeaw.ac.at/uuid:/ofmgraz/derivatives/{doc_id.rstrip('.xml')}/{img_name}.tif/full/full/0/default.jpg"
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
@@ -209,9 +214,7 @@ class TeiHeader(TeiTree):
     def make_title(self, title, summary, incipit, signature):
         xmltitle = self.header.xpath("//tei:titleStmt/tei:title[@type='main']", namespaces=nsmap)[0]
         xmldesc = self.header.xpath("//tei:titleStmt/tei:title[@type='desc']", namespaces=nsmap)[0]
-        tistmt = self.header.xpath(
-                "//tei:fileDesc/tei:titleStmt", namespaces=nsmap
-            )[0]
+        tistmt = self.header.xpath("//tei:fileDesc/tei:titleStmt", namespaces=nsmap)[0]
         subtitle = ""
         if title:
             pass
@@ -231,8 +234,6 @@ class TeiHeader(TeiTree):
         xmldesc.text = signature
         if subtitle:
             ET.SubElement(tistmt, "title", type="sub").text = subtitle
-
-
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
