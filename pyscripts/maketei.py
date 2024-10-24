@@ -149,7 +149,7 @@ class TeiBody(TeiTree):
                 else:
                     new_base_url = "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records"
                     img_name = f"{doc_id.rstrip('.xml')}/files/images/{img_name}"
-                element.attrib["url"] = f"{new_base_url}/{img_name}/full/full/0/default.jpg"
+                element.attrib["url"] = f"{new_base_url}/{img_name}/full/!1024,1024/0/default.jpg"
                 # f"https://loris.acdh.oeaw.ac.at/uuid:/ofmgraz/derivatives/{doc_id.rstrip('.xml')}/{img_name}.tif/full/full/0/default.jpg"
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
