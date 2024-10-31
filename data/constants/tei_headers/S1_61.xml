@@ -140,7 +140,7 @@
       </textDesc>
       <settingDesc>
         <setting>
-          <name xml:lang="de">Steirmark</name>
+          <name xml:lang="de">Steiermark</name>
           <time/>
         </setting>
       </settingDesc>
@@ -163,37 +163,32 @@
             <geo>47.8 13.045</geo>
           </location>
           <listEvent>               
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_63.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_70.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitum</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_62.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/72</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_72.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_61.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
+          <event type="provenance">
+    <p>Herkunft von <title>S 1/63: Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_63.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/70: Hymnarium sacrum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_70.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/62: Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_62.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/72: Psalterium</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_72.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/61: Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_61.xml"/>
+    </linkGrp>
+</event></listEvent>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/4076982-3</idno>
           <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q34713</idno>
@@ -215,40 +210,31 @@
           <occupation key="90">Drucker</occupation>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/124751946</idno>
           <listEvent>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymnarium Sacrum tam Romanum Urbani Papae VIII
-                recognitum</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_62.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/72</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_72.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate
-                  recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_61.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate
-                  recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_63.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate
-                  recogniti</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_70.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
+          <event type="provenance">
+    <p>Drucker von <title>S 1/63: Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_63.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Drucker von <title>S 1/70: Hymnarium sacrum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_70.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Drucker von <title>S 1/62: Hymnarium Sacrum tam Romanum Urbani Papae VIII recognitum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_62.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Drucker von <title>S 1/72: Psalterium</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_72.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Drucker von <title>S 1/61: Hymni Sacri Breviarii Romani Urbani Papae VIII Auctoritate recogniti</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_61.xml"/>
+    </linkGrp>
+</event></listEvent>
         </person></listPerson></standOff>
 </TEI>

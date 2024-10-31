@@ -140,7 +140,7 @@
       </textDesc>
       <settingDesc>
         <setting>
-          <name xml:lang="de">Steirmark</name>
+          <name xml:lang="de">Steiermark</name>
           <time/>
         </setting>
       </settingDesc>
@@ -163,43 +163,37 @@
             <geo>45.439722222222 12.331944444444</geo>
           </location>
           <listEvent>               
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/66</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_66.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/65</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_65.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_69.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_64.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Antiphonarium de Sanctis Ordinis Minorum</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_67.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/68</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_68.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
+          <event type="provenance">
+    <p>Herkunft von <title>S 1/66: Graduale Romanum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_66.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/65: Ad te levavi animam meam</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_65.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/69: Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_69.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/64: Psalterium romanum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_64.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/67: Antiphonarium Romanum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_67.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/68: Gradual romanum de tempore</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_68.xml"/>
+    </linkGrp>
+</event></listEvent>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/4062501-1</idno>
           <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
@@ -222,19 +216,16 @@
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/1102696757</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q105889193</idno>
           <listEvent>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Antiphonarium de Sanctis Trium Ordinum Sancti Patris
-                  Francisci</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_69.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Psalterium Romanum dispositum per Hebdomadam</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_64.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
+          <event type="provenance">
+    <p>Drucker von <title>S 1/69: Antiphonarium de Sanctis Trium Ordinum Sancti Patris Francisci</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_69.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Drucker von <title>S 1/64: Psalterium romanum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_64.xml"/>
+    </linkGrp>
+</event></listEvent>
         </person></listPerson></standOff>
 </TEI>

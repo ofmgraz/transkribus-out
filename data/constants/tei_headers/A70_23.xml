@@ -140,7 +140,7 @@
       </textDesc>
       <settingDesc>
         <setting>
-          <name xml:lang="de">Steirmark</name>
+          <name xml:lang="de">Steiermark</name>
           <time/>
         </setting>
       </settingDesc>
@@ -163,58 +163,34 @@
             <geo>48.208333333333336 16.3725</geo>
           </location>
           <listEvent>               
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A 70/41</title></p>
-              <linkGrp>
-                <link type="URL" target="A64_41.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Antiphonas Festorum Principaliorum</title></p>
-              <linkGrp>
-                <link type="URL" target="70_45.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Libellus Antiphonarum</title></p>
-              <linkGrp>
-                <link type="URL" target="A70_23.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>S 1/29</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_29.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Cantus Ecclesiasticus</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_40a.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_75.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>Ordo agendorum et cantandorum in actibus processionalibus</title></p>
-              <linkGrp>
-                <link type="URL" target="S1_74.xml"/>
-              </linkGrp>
-            </event>
-            <event type="mentioned">
-              <p>erw&#228;hnt in <title>A-Gf_A67_21_Grad_Part3</title></p>
-              <linkGrp>
-                <link type="URL" target="A67_21.xml"/>
-              </linkGrp>
-            </event>
-          </listEvent>
+          <event type="provenance">
+    <p>Herkunft von <title>A 70/23: Libellus Antiphonarium</title></p>
+    <linkGrp>
+        <link type="URL" target="A70_23.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/76: Ordo agendorum et cantandorum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_76.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/29: In festo Purificationis</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_29.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/75: Ordo agendorum et cantandorum</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_75.xml"/>
+    </linkGrp>
+</event><event type="provenance">
+    <p>Herkunft von <title>S 1/74: Ordo agendorum et cantandorum in actibus processionalibus</title></p>
+    <linkGrp>
+        <link type="URL" target="S1_74.xml"/>
+    </linkGrp>
+</event></listEvent>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/4066009-6</idno>
           <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
-
         </place></listPlace></standOff>
 </TEI>
