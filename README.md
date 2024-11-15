@@ -11,15 +11,16 @@ Automagically export and upconvert data from [Transkribus](https://readcoop.eu/)
 This action runs the whole pipeline. It recreates everything from scratch and may take a while, depending on the load of both Transkribus and GitHub. It may be done as fast as in 15 minutes, but it may also take over an hour. 
 * run Action [Download and Transform](https://github.com/ofmgraz/transkribus-out/actions/workflows/download_collection.yml)
 
-### Download sources
+### Running steps independently
+#### Download sources
 This action fetches MET files from Transkribus. It does not perform further actions, which should be done idependently as described below. This may take up to 45 min.
 * run Action [Just download](https://github.com/ofmgraz/transkribus-out/actions/workflows/jusdownload.yml)
 
-### Regenerate XML-TEI files
+#### Regenerate XML-TEI files
 This action generates XML-TEI files from the header seeds and the METS files fetched from Transkribus. It will replicate the original files if neither the METS files nor the headers seeds have been changed. This may take up to 20 min.
 * run Action [Just transform](https://github.com/ofmgraz/transkribus-out/actions/workflows/justtransform.yml)
 
-### Regenerate header seeds
+#### Regenerate header seeds
 After changing the Baserow table  where the metadata is fetched from, run the following action to regenerate the seeds used to create the TEI files. This does not regenerate said TEI files, which has to be made with another action.
 * run Action [Regenerate headers](https://github.com/ofmgraz/transkribus-out/actions/workflows/regenerate_headers.yml)
 
