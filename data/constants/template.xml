@@ -4,29 +4,45 @@
     <fileDesc>
       <titleStmt>
         <title type="main"/>
-        <title type="desc" />
+        <title type="desc"/>
       </titleStmt>
       <editionStmt>
-        <edition>Electronic edition</edition>
-        <funder>BMKÖS Kulturerbe Digital</funder>
+        <edition>
+          <objectType xml:lang="de">Electronische Edition</objectType>
+          <objectType xml:lang="en">Electronic edition</objectType>
+        </edition>
+        <funder>
+          <orgName xml:lang="de">Bundesministerium für Kunst, Kultur, Öffentlicher Dienst und Sport</orgName>
+          <orgName xml:lang="en">Austrian Ministery for Art, Culture, Public Service, and Sport</orgName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1216831270</idno>
+        </funder>
+        <funder>
+          <orgName xml:lang="de">Europäische Union</orgName>
+          <orgName xml:lang="en">European Union</orgName>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/5098525-5</idno>
+        </funder>
       </editionStmt>
       <publicationStmt>
         <publisher>
-            <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+          <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
         </publisher>
         <authority>
-          <orgName>Österreichische Akademie der Wissenschaften</orgName>
+          <orgName xml:lang="de">Österreichische Akademie der Wissenschaften</orgName>
+          <orgName xml:lang="en">Austrian Academy of Sciences</orgName>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
-          <addrLine>Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine xml:lang="de">Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine xml:lang="en">Austrian Academy of Sciences</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
           <addrLine>Bäckerstraße 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
-          <addrLine>Austria</addrLine>
+          <addrLine xml:lang="en">Austria</addrLine>
+          <addrLine xml:lang="de">Österreich</addrLine>
           <addrLine>
-            <ref target="https://www.oeaw.ac.at/acdh/acdh-ch-home">https://www.oeaw.ac.at/acdh/acdh-ch-home</ref>
+            <ref target="https://www.oeaw.ac.at/acdh/acdh-ch-home"
+              >https://www.oeaw.ac.at/acdh/acdh-ch-home</ref>
           </addrLine>
           <addrLine>
             <email>acdh-ch@oeaw.ac.at</email>
@@ -44,7 +60,7 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note />
+        <note/>
       </notesStmt>
       <sourceDesc>
         <bibl>
@@ -53,13 +69,15 @@
         <msDesc>
           <msIdentifier>
             <institution>
-               <orgName>Franziskanerkloster Graz</orgName>
-               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+              <orgName xml:lang="de">Franziskanerkloster Graz</orgName>
+              <orgName xml:lang="en">Franziscan Monastery Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
             </institution>
             <repository>
-               <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
-               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
-               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+              <orgName xml:lang="de">Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+              <orgName xml:lang="en">Central Library of the Viennese Franciscan Province Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">A 63/51</idno>
           </msIdentifier>
@@ -89,23 +107,30 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Maschinell erfasster Rohtext </p>
+        <p xml:lang="de">Maschinell erfasster Rohtext</p>
+        <p xml:lang="en">Machine-collected raw text</p>
       </editorialDecl>
       <appInfo>
         <application ident="transkribus" version="1.26.0">
           <label>Transkribus</label>
-            <desc>collection 216937</desc>
+          <desc xml:lang="de">Sammlung 216937</desc>
+          <desc xml:lang="en">collection 216937</desc>
         </application>
-        <application ident="custom" version="0.0"><label>custom scripts
-        </label></application>
+        <application ident="custom" version="0.0">
+          <label>custom scripts</label>
+        </application>
       </appInfo>
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="la">Latin</language>
+        <language ident="la" xml:lang="de">Latein</language>
+        <language ident="la" xml:lang="en">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws">
+          <objectType xml:lang="de">Handschrift</objectType>
+          <objectType xml:lang="en">manuscript</objectType>
+        </channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -117,10 +142,13 @@
       <settingDesc>
         <setting>
           <name xml:lang="de">Steiermark</name>
+          <name xml:lang="en">Styria</name>
           <time/>
         </setting>
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff><span/></standOff>
+  <standOff>
+    <span/>
+  </standOff>
 </TEI>
