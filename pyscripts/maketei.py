@@ -21,9 +21,6 @@ tei = "{http://www.tei-c.org/ns/1.0}"
 locations = TeiReader("data/indices/listplace.xml")
 persons = TeiReader("data/indices/listperson.xml")
 persons = TeiReader("data/indices/listperson.xml")
-with open("data/constants/data.json", "r") as f:
-    data = json.load(f)
-bookdict = data["booktypes"]
 
 
 class Log:
@@ -202,8 +199,9 @@ class TeiHeader(TeiTree):
             self.parse_signature(row["Signatur"])
             self.parse_origin(row["Provenienz"], publisher=row["Drucker"])
             self.parse_date(str(row["Zeit"]))
-            if row["Buchtyp"] + row["Liturgie"]:
-                keys = self.classify_books(row["Buchtyp"], row["Liturgie"])
+            booktypes = [booktype['value'] for booktype in row['Buchtyp']]
+            if booktypes and row["Liturgie"]:
+                keys = self.classify_books(booktypes, row["Liturgie"])
             self.parse_summary(row["Inhalt"], row["Buchtyp"], keys, idx)
             self.parse_extension(row["Umfang fol."])
             self.parse_format(row["Format"])
@@ -214,11 +212,12 @@ class TeiHeader(TeiTree):
     def make_title(self, title, summary, incipit, signature):
         xmltitle = self.header.xpath("//tei:titleStmt/tei:title[@type='main']", namespaces=nsmap)[0]
         xmldesc = self.header.xpath("//tei:titleStmt/tei:title[@type='desc']", namespaces=nsmap)[0]
+        xmltitle.text = title
+        xmldesc.text = signature
+        
         tistmt = self.header.xpath("//tei:fileDesc/tei:titleStmt", namespaces=nsmap)[0]
         subtitle = ""
-        if title:
-            pass
-        elif title := re.findall("„(.*)“", summary):
+        if title := re.findall("„(.*)“", summary):
             tistmt = self.header.xpath(
                 "//tei:fileDesc/tei:titleStmt", namespaces=nsmap
             )[0]
@@ -230,8 +229,6 @@ class TeiHeader(TeiTree):
             title = signature
         else:
             title = "No title"
-        xmltitle.text = title
-        xmldesc.text = signature
         if subtitle:
             ET.SubElement(tistmt, "title", type="sub").text = subtitle
 
@@ -409,19 +406,14 @@ class TeiHeader(TeiTree):
             cat = ET.Element("category", attrib={f"{xml}id": lit.lower()})
             ET.SubElement(cat, "catDesc").text = lit
             tax.append(cat)
-        books = " ".join(" ".join(btype.split(",")).split("/")).split()
+        
         if btype:
             tax = ET.SubElement(classdecl, "taxonomy", attrib={f"{xml}id": "booktypes"})
             ET.SubElement(tax, "desc").text = "Book Types"
-            for book in books:
-                for btype in bookdict:
-                    if btype in book.lower() and bookdict[btype] not in keys:
-                        cat = ET.Element(
-                            "category", attrib={f"{xml}id": bookdict[btype]}
-                        )
-                        ET.SubElement(cat, "catDesc").text = book
-                        tax.append(cat)
-                        keys += f" #{bookdict[btype]}"
+            for book in btype:
+                cat = ET.Element("category", attrib={f"{xml}id": book})
+                ET.SubElement(cat, "catDesc").text = book
+                keys += f" #{book}"
         return keys
 
     def parse_summary(self, summary, bookt, attributes, line):
@@ -432,8 +424,8 @@ class TeiHeader(TeiTree):
         if attributes:
             element.attrib["class"] = attributes.strip()
         subelement = element.xpath("//tei:summary", namespaces=nsmap)[0]
-        subelement.append(ET.fromstring(f"<p>{summary}</p>"))
-        subelement.append(ET.fromstring(f"<p>{bookt}</p>"))
+        subelement.append(ET.fromstring(f"<p>{summary}.</p>"))
+        subelement.append(ET.fromstring(f"<p>{', '.join([book['value'] for book in bookt])}.</p>"))
 
     @staticmethod
     def parse_title(title):
@@ -500,18 +492,19 @@ class TeiHeader(TeiTree):
 
     def parse_photographer(self, photographer, other=""):
         roles = [
-            ["FS", "XML Datenmodellierung", "MetadataCreator"],
-            ["PA", "Datengenerierung", "Contributor"],
-            ["DS", "Datengenerierung", "Contributor"],
-            ["RK", "Datengenerierung", "Contributor"],
+            ["FS", "XML Datenmodellierung", "XML modelling", "MetadataCreator"],
+            ["PA", "Datengenerierung", "Data generation", "Contributor"],
+            ["DS", "Datengenerierung", "Data Generation", "Contributor"],
+            ["RK", "Datengenerierung", "Data generation", "Contributor"],
             [
                 photographer,
                 "Digitalisierung (Fotografieren) des Archivmaterials",
+                "Digitisation (photography) of the archival materials",
                 "DigitisingAgent",
             ],
         ]
         if len(other) > 0:
-            roles.append([other, "Transkribus Bearbeitung", "Transcriptor"])
+            roles.append([other, "Transkribus Bearbeitung", "Transkribus manipulation", "Transcriptor"])
         titlestmt = self.header.xpath(".//tei:titleStmt", namespaces=nsmap)[0]
         for person in roles:
             resps = TeiReader("data/constants/resp.xml")
@@ -520,13 +513,20 @@ class TeiHeader(TeiTree):
                 collaborator = resps.any_xpath(
                     f'.//tei:person[@xml:id="{person[0]}"]/tei:persName'
                 )[0]
-                collaborator.attrib["role"] = person[2]
-                ET.SubElement(respstmt, "resp").text = person[1]
+                collaborator.attrib["role"] = person[3]
+                p = ET.SubElement(respstmt, "resp", attrib={f"{xml}lang": "de"})
+                p.text = person[1]
+                p = ET.SubElement(respstmt, "resp", attrib={f"{xml}lang": "en"})
+                p.text = person[2]
                 respstmt.append(collaborator)
 
     def parse_device(self, device):
         devices = {"Stativlaser": "Stativlaser", "Traveller": "Traveller"}
         note = self.header.xpath(
-            "//tei:fileDesc/tei:notesStmt/tei:note", namespaces=nsmap
+            f'//tei:fileDesc/tei:notesStmt/tei:note[@xml:lang="de"]', namespaces=nsmap
+        )[0]
+        note.text = f"Originale mit einem {devices[device]}-Gerät digitalisiert"
+        note = self.header.xpath(
+            f'//tei:fileDesc/tei:notesStmt/tei:note[@xml:lang="en"]', namespaces=nsmap
         )[0]
         note.text = f"Originals digitised with a {devices[device]} device"
