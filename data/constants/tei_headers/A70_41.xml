@@ -3,53 +3,68 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Ad mandatum antiphonae</title>
+        <title type="main">Antiphonale</title>
         <title type="desc">A 70/41</title>
-      <respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+      <respStmt><resp xml:lang="de">XML Datenmodellierung</resp><resp xml:lang="en">XML modelling</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
             <surname>Sanz-L&#225;zaro</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
           </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
+        </respStmt><respStmt><resp xml:lang="de">Datengenerierung</resp><resp xml:lang="en">Data generation</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
             <forename>Peter</forename>
             <surname>Andorfer</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
           </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+        </respStmt><respStmt><resp xml:lang="de">Datengenerierung</resp><resp xml:lang="en">Data Generation</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
             <forename>Daniel</forename>
             <surname>Schopper</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
           </persName> 
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
+        </respStmt><respStmt><resp xml:lang="de">Datengenerierung</resp><resp xml:lang="en">Data generation</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
             <forename>Robert</forename>
             <surname>Klugseder</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
           </persName>
-        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
+        </respStmt><respStmt><resp xml:lang="de">Digitalisierung (Fotografieren) des Archivmaterials</resp><resp xml:lang="en">Digitisation (photography) of the archival materials</resp><persName ref="https://orcid.org/0000-0001-6195-2935" role="DigitisingAgent">
             <forename>Jakob</forename>
             <surname>Leitner</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0001-6195-2935</idno>
           </persName>
         </respStmt></titleStmt>
       <editionStmt>
-        <edition>Electronic edition</edition>
-        <funder>BMK&#214;S Kulturerbe Digital</funder>
+        <edition>
+          <objectType xml:lang="de">Electronische Edition</objectType>
+          <objectType xml:lang="en">Electronic edition</objectType>
+        </edition>
+        <funder>
+          <orgName xml:lang="de">Bundesministerium f&#252;r Kunst, Kultur, &#214;ffentlicher Dienst und Sport</orgName>
+          <orgName xml:lang="en">Austrian Ministery for Art, Culture, Public Service, and Sport</orgName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1216831270</idno>
+        </funder>
+        <funder>
+          <orgName xml:lang="de">Europ&#228;ische Union</orgName>
+          <orgName xml:lang="en">European Union</orgName>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/5098525-5</idno>
+        </funder>
       </editionStmt>
       <publicationStmt>
         <publisher>
-            <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+          <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
         </publisher>
         <authority>
-          <orgName>&#214;sterreichische Akademie der Wissenschaften</orgName>
+          <orgName xml:lang="de">&#214;sterreichische Akademie der Wissenschaften</orgName>
+          <orgName xml:lang="en">Austrian Academy of Sciences</orgName>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
-          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
+          <addrLine xml:lang="de">&#214;sterreichische Akademie der Wissenschaften</addrLine>
+          <addrLine xml:lang="en">Austrian Academy of Sciences</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
           <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
-          <addrLine>Austria</addrLine>
+          <addrLine xml:lang="en">Austria</addrLine>
+          <addrLine xml:lang="de">&#214;sterreich</addrLine>
           <addrLine>
             <ref target="https://www.oeaw.ac.at/acdh/acdh-ch-home">https://www.oeaw.ac.at/acdh/acdh-ch-home</ref>
           </addrLine>
@@ -69,7 +84,8 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Traveller device</note>
+        <note xml:lang="de">Originale mit einem Traveller-Ger&#228;t digitalisiert</note>
+        <note xml:lang="en">Originals digitised with a Traveller device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
@@ -78,18 +94,20 @@
         <msDesc>
           <msIdentifier>
             <institution>
-               <orgName>Franziskanerkloster Graz</orgName>
-               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+              <orgName xml:lang="de">Franziskanerkloster Graz</orgName>
+              <orgName xml:lang="en">Franziscan Monastery Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
             </institution>
             <repository>
-               <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
-               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
-               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+              <orgName xml:lang="de">Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+              <orgName xml:lang="en">Central Library of the Viennese Franciscan Province Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">A 70/41</idno>
           </msIdentifier>
-          <msContents class="#ofm #antiphonale">
-            <summary><p>Ad Mandatum Antiphonae</p><p>Antiphonale</p></summary>
+          <msContents class="#ofm #Antiphonale">
+            <summary><p>Ad Mandatum Antiphonae.</p><p>Antiphonale.</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
@@ -113,23 +131,30 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Maschinell erfasster Rohtext </p>
+        <p xml:lang="de">Maschinell erfasster Rohtext</p>
+        <p xml:lang="en">Machine-collected raw text</p>
       </editorialDecl>
       <appInfo>
         <application ident="transkribus" version="1.26.0">
           <label>Transkribus</label>
-            <desc>collection 216937</desc>
+          <desc xml:lang="de">Sammlung 216937</desc>
+          <desc xml:lang="en">collection 216937</desc>
         </application>
-        <application ident="custom" version="0.0"><label>custom scripts
-        </label></application>
+        <application ident="custom" version="0.0">
+          <label>custom scripts</label>
+        </application>
       </appInfo>
-    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="antiphonale"><catDesc>Antiphonale</catDesc></category></taxonomy></classDecl></encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="la">Latin</language>
+        <language ident="la" xml:lang="de">Latein</language>
+        <language ident="la" xml:lang="en">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws">
+          <objectType xml:lang="de">Handschrift</objectType>
+          <objectType xml:lang="en">manuscript</objectType>
+        </channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -141,10 +166,12 @@
       <settingDesc>
         <setting>
           <name xml:lang="de">Steiermark</name>
+          <name xml:lang="en">Styria</name>
           <time/>
         </setting>
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff><listPlace/></standOff>
+  <standOff>
+    <listPlace/></standOff>
 </TEI>

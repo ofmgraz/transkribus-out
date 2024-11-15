@@ -3,57 +3,72 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Asperges me Domine</title>
+        <title type="main">Graduale</title>
         <title type="desc">A 64/38</title>
-      <respStmt><resp>XML Datenmodellierung</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+      <respStmt><resp xml:lang="de">XML Datenmodellierung</resp><resp xml:lang="en">XML modelling</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
             <surname>Sanz-L&#225;zaro</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
           </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
+        </respStmt><respStmt><resp xml:lang="de">Datengenerierung</resp><resp xml:lang="en">Data generation</resp><persName role="Contributor" ref="https://orcid.org/0000-0002-9575-9372">
             <forename>Peter</forename>
             <surname>Andorfer</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/1043833846</idno>
           </persName>
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+        </respStmt><respStmt><resp xml:lang="de">Datengenerierung</resp><resp xml:lang="en">Data Generation</resp><persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
             <forename>Daniel</forename>
             <surname>Schopper</surname>
             <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
           </persName> 
-        </respStmt><respStmt><resp>Datengenerierung</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
+        </respStmt><respStmt><resp xml:lang="de">Datengenerierung</resp><resp xml:lang="en">Data generation</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="Contributor">
             <forename>Robert</forename>
             <surname>Klugseder</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
           </persName>
-        </respStmt><respStmt><resp>Digitalisierung (Fotografieren) des Archivmaterials</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="DigitisingAgent">
+        </respStmt><respStmt><resp xml:lang="de">Digitalisierung (Fotografieren) des Archivmaterials</resp><resp xml:lang="en">Digitisation (photography) of the archival materials</resp><persName ref="https://orcid.org/0000-0002-0484-832X" role="DigitisingAgent">
             <forename>Robert</forename>
             <surname>Klugseder</surname>
             <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
           </persName>
-        </respStmt><respStmt><resp>Transkribus Bearbeitung</resp><persName role="Transcriptor" ref="https://id.acdh.oeaw.ac.at/mschmoetten">
+        </respStmt><respStmt><resp xml:lang="de">Transkribus Bearbeitung</resp><resp xml:lang="en">Transkribus manipulation</resp><persName role="Transcriptor" ref="https://id.acdh.oeaw.ac.at/mschmoetten">
             <forename>Moritz</forename>
             <surname>Schmoetten</surname>
           </persName>
         </respStmt></titleStmt>
       <editionStmt>
-        <edition>Electronic edition</edition>
-        <funder>BMK&#214;S Kulturerbe Digital</funder>
+        <edition>
+          <objectType xml:lang="de">Electronische Edition</objectType>
+          <objectType xml:lang="en">Electronic edition</objectType>
+        </edition>
+        <funder>
+          <orgName xml:lang="de">Bundesministerium f&#252;r Kunst, Kultur, &#214;ffentlicher Dienst und Sport</orgName>
+          <orgName xml:lang="en">Austrian Ministery for Art, Culture, Public Service, and Sport</orgName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1216831270</idno>
+        </funder>
+        <funder>
+          <orgName xml:lang="de">Europ&#228;ische Union</orgName>
+          <orgName xml:lang="en">European Union</orgName>
+          <idno type="URL" subtype="GND">https://d-nb.info/gnd/5098525-5</idno>
+        </funder>
       </editionStmt>
       <publicationStmt>
         <publisher>
-            <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
-            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+          <orgName>Austrian Centre for Digital Humanities and Cultural Heritage</orgName>
+          <idno type="URL" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
         </publisher>
         <authority>
-          <orgName>&#214;sterreichische Akademie der Wissenschaften</orgName>
+          <orgName xml:lang="de">&#214;sterreichische Akademie der Wissenschaften</orgName>
+          <orgName xml:lang="en">Austrian Academy of Sciences</orgName>
           <idno type="URL" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
         </authority>
         <address>
-          <addrLine>&#214;sterreichische Akademie der Wissenschaften</addrLine>
+          <addrLine xml:lang="de">&#214;sterreichische Akademie der Wissenschaften</addrLine>
+          <addrLine xml:lang="en">Austrian Academy of Sciences</addrLine>
           <addrLine>Austrian Centre for Digital Humanities and Cultural Heritage</addrLine>
           <addrLine>B&#228;ckerstra&#223;e 13</addrLine>
           <addrLine>1100 Vienna</addrLine>
-          <addrLine>Austria</addrLine>
+          <addrLine xml:lang="en">Austria</addrLine>
+          <addrLine xml:lang="de">&#214;sterreich</addrLine>
           <addrLine>
             <ref target="https://www.oeaw.ac.at/acdh/acdh-ch-home">https://www.oeaw.ac.at/acdh/acdh-ch-home</ref>
           </addrLine>
@@ -73,7 +88,8 @@
         <date when="2024-08-19">2024</date>
       </publicationStmt>
       <notesStmt>
-        <note>Originals digitised with a Stativlaser device</note>
+        <note xml:lang="de">Originale mit einem Stativlaser-Ger&#228;t digitalisiert</note>
+        <note xml:lang="en">Originals digitised with a Stativlaser device</note>
       </notesStmt>
       <sourceDesc>
         <bibl>
@@ -82,18 +98,20 @@
         <msDesc>
           <msIdentifier>
             <institution>
-               <orgName>Franziskanerkloster Graz</orgName>
-               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+              <orgName xml:lang="de">Franziskanerkloster Graz</orgName>
+              <orgName xml:lang="en">Franziscan Monastery Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
             </institution>
             <repository>
-               <orgName>Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
-               <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
-               <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
+              <orgName xml:lang="de">Zentralbibliothek der Wiener Franziskanerprovinz Graz</orgName>
+              <orgName xml:lang="en">Central Library of the Viennese Franciscan Province Graz</orgName>
+              <idno type="URL" subtype="GND">https://d-nb.info/gnd/16174362-6</idno>
+              <idno type="URL" subtype="Wikidata">https://www.wikidata.org/entity/Q64487580</idno>
             </repository>
             <idno type="shelfmark">A 64/38</idno>
           </msIdentifier>
-          <msContents class="#ofm #graduale">
-            <summary><p>Kyriale, Heiligenmessen</p><p>Graduale</p></summary>
+          <msContents class="#ofm #Graduale">
+            <summary><p>Kyriale, Heiligenmessen.</p><p>Graduale.</p></summary>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
@@ -117,23 +135,30 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Maschinell erfasster Rohtext </p>
+        <p xml:lang="de">Maschinell erfasster Rohtext</p>
+        <p xml:lang="en">Machine-collected raw text</p>
       </editorialDecl>
       <appInfo>
         <application ident="transkribus" version="1.26.0">
           <label>Transkribus</label>
-            <desc>collection 216937</desc>
+          <desc xml:lang="de">Sammlung 216937</desc>
+          <desc xml:lang="en">collection 216937</desc>
         </application>
-        <application ident="custom" version="0.0"><label>custom scripts
-        </label></application>
+        <application ident="custom" version="0.0">
+          <label>custom scripts</label>
+        </application>
       </appInfo>
-    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc><category xml:id="graduale"><catDesc>Graduale</catDesc></category></taxonomy></classDecl></encodingDesc>
+    <classDecl><taxonomy xml:id="liturgies"><desc>Liturgies</desc><category xml:id="ofm"><catDesc>OFM</catDesc></category></taxonomy><taxonomy xml:id="booktypes"><desc>Book Types</desc></taxonomy></classDecl></encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="la">Latin</language>
+        <language ident="la" xml:lang="de">Latein</language>
+        <language ident="la" xml:lang="en">Latin</language>
       </langUsage>
       <textDesc n="choirbook">
-        <channel mode="ws" xml:lang="en">manuscript</channel>
+        <channel mode="ws">
+          <objectType xml:lang="de">Handschrift</objectType>
+          <objectType xml:lang="en">manuscript</objectType>
+        </channel>
         <constitution type="composite"/>
         <derivation/>
         <domain type="religious"/>
@@ -145,12 +170,14 @@
       <settingDesc>
         <setting>
           <name xml:lang="de">Steiermark</name>
+          <name xml:lang="en">Styria</name>
           <time/>
         </setting>
       </settingDesc>
     </profileDesc>
   </teiHeader>
-  <standOff><listPlace><place xml:id="Graz">
+  <standOff>
+    <listPlace><place xml:id="Graz">
           <placeName xml:lang="en">Graz</placeName>
           <placeName xml:lang="de">Graz</placeName>
           <placeName xml:lang="it">Graz</placeName>
@@ -168,157 +195,157 @@
           </location>
           <listEvent>
           <event type="provenance">
-    <p>Herkunft von <title>A 67/41: Surrexit Dominus vere</title></p>
+    <p>Herkunft von <title>A 67/41</title></p>
     <linkGrp>
         <link type="URL" target="A67_41.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/41: Rerum Deus tenax vigor</title></p>
+    <p>Herkunft von <title>A 64/41</title></p>
     <linkGrp>
         <link type="URL" target="A64_41.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/19: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 67/19</title></p>
     <linkGrp>
         <link type="URL" target="A67_19.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/42: Adoremus Dominum</title></p>
+    <p>Herkunft von <title>A 67/42</title></p>
     <linkGrp>
         <link type="URL" target="A67_42.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/17: Ad vesperas pro festo circumcisionis Domini</title></p>
+    <p>Herkunft von <title>A 67/17</title></p>
     <linkGrp>
         <link type="URL" target="A67_17.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/25: Antiphonarium de Tempore et Sanctis Pro Choro Graecensi</title></p>
+    <p>Herkunft von <title>S 1/25</title></p>
     <linkGrp>
         <link type="URL" target="S1_25.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/42: Iam lucis orto sidere</title></p>
+    <p>Herkunft von <title>A 64/42</title></p>
     <linkGrp>
         <link type="URL" target="A64_42.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/26: Deus meus eripe me</title></p>
+    <p>Herkunft von <title>S 1/26</title></p>
     <linkGrp>
         <link type="URL" target="S1_26.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/18: Mittit ad virginem</title></p>
+    <p>Herkunft von <title>S 1/18</title></p>
     <linkGrp>
         <link type="URL" target="S1_18.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/20: Dixit dominus domino meo</title></p>
+    <p>Herkunft von <title>S 1/20</title></p>
     <linkGrp>
         <link type="URL" target="S1_20.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/39: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 64/39</title></p>
     <linkGrp>
         <link type="URL" target="A64_39.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/45: Crucis vox hunc adloquitur</title></p>
+    <p>Herkunft von <title>S 1/45</title></p>
     <linkGrp>
         <link type="URL" target="S1_45.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/39: Et licet sint alia multa in quibus debeamus"</title></p>
+    <p>Herkunft von <title>S 1/39</title></p>
     <linkGrp>
         <link type="URL" target="S1_39.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/43: Domine est terra et plenitudo ejus</title></p>
+    <p>Herkunft von <title>A 64/43</title></p>
     <linkGrp>
         <link type="URL" target="A64_43.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/23: Dum appropinquaret Dominus</title></p>
+    <p>Herkunft von <title>A 67/23</title></p>
     <linkGrp>
         <link type="URL" target="A67_23.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/18: Adonai, Domine Deus magne et mirabilis</title></p>
+    <p>Herkunft von <title>A 67/18</title></p>
     <linkGrp>
         <link type="URL" target="A67_18.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/28: Cum appropinquaret Dominus</title></p>
+    <p>Herkunft von <title>S 1/28</title></p>
     <linkGrp>
         <link type="URL" target="S1_28.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/37: Adoremus Dominum qui fecit nos</title></p>
+    <p>Herkunft von <title>A 64/37</title></p>
     <linkGrp>
         <link type="URL" target="A64_37.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 63/51: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 63/51</title></p>
     <linkGrp>
         <link type="URL" target="A63_51.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/24: Pro missiones</title></p>
+    <p>Herkunft von <title>S 1/24</title></p>
     <linkGrp>
         <link type="URL" target="S1_24.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/20: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 67/20</title></p>
     <linkGrp>
         <link type="URL" target="A67_20.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/19: Tota pulchra</title></p>
+    <p>Herkunft von <title>S 1/19</title></p>
     <linkGrp>
         <link type="URL" target="S1_19.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/40: Surrexit Dominus vere</title></p>
+    <p>Herkunft von <title>A 64/40</title></p>
     <linkGrp>
         <link type="URL" target="A64_40.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/43: Christus dominus secundum ordinem Melchisedech</title></p>
+    <p>Herkunft von <title>A 67/43</title></p>
     <linkGrp>
         <link type="URL" target="A67_43.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/27: Pro divino officio in choro</title></p>
+    <p>Herkunft von <title>A 67/27</title></p>
     <linkGrp>
         <link type="URL" target="A67_27.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/44: Salve crux pretiosa</title></p>
+    <p>Herkunft von <title>S 1/44</title></p>
     <linkGrp>
         <link type="URL" target="S1_44.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/30: In circumcisione Domini</title></p>
+    <p>Herkunft von <title>S 1/30</title></p>
     <linkGrp>
         <link type="URL" target="S1_30.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>S 1/27: Media vita in morte sumus</title></p>
+    <p>Herkunft von <title>S 1/27</title></p>
     <linkGrp>
         <link type="URL" target="S1_27.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/22: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 67/22</title></p>
     <linkGrp>
         <link type="URL" target="A67_22.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/38: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 64/38</title></p>
     <linkGrp>
         <link type="URL" target="A64_38.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 67/21: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 67/21</title></p>
     <linkGrp>
         <link type="URL" target="A67_21.xml"/>
     </linkGrp>
@@ -344,42 +371,42 @@
           </location>
           <listEvent>
            <event type="provenance">
-    <p>Herkunft von <title>A 64/41: Rerum Deus tenax vigor</title></p>
+    <p>Herkunft von <title>A 64/41</title></p>
     <linkGrp>
         <link type="URL" target="A64_41.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/42: Iam lucis orto sidere</title></p>
+    <p>Herkunft von <title>A 64/42</title></p>
     <linkGrp>
         <link type="URL" target="A64_42.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/39: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 64/39</title></p>
     <linkGrp>
         <link type="URL" target="A64_39.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/43: Domine est terra et plenitudo ejus</title></p>
+    <p>Herkunft von <title>A 64/43</title></p>
     <linkGrp>
         <link type="URL" target="A64_43.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/37: Adoremus Dominum qui fecit nos</title></p>
+    <p>Herkunft von <title>A 64/37</title></p>
     <linkGrp>
         <link type="URL" target="A64_37.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 63/51: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 63/51</title></p>
     <linkGrp>
         <link type="URL" target="A63_51.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/40: Surrexit Dominus vere</title></p>
+    <p>Herkunft von <title>A 64/40</title></p>
     <linkGrp>
         <link type="URL" target="A64_40.xml"/>
     </linkGrp>
 </event><event type="provenance">
-    <p>Herkunft von <title>A 64/38: Asperges me Domine</title></p>
+    <p>Herkunft von <title>A 64/38</title></p>
     <linkGrp>
         <link type="URL" target="A64_38.xml"/>
     </linkGrp>
