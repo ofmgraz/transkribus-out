@@ -404,15 +404,18 @@ class TeiHeader(TeiTree):
                 keys += f" #{book}"
         return keys
 
-    def parse_summary(self, summary, bookt, attributes, line):
+    def parse_summary(self, summary, bookt, attributes):
         if summary != summary:
             summary = ""
+        elif not summary.endswith('.'):
+            summary = sumary + "." 
         summary = summary.replace("„", "<title>").replace("“", "</title>")
         element = self.msdesc.xpath("//tei:msContents", namespaces=nsmap)[0]
         if attributes:
             element.attrib["class"] = attributes.strip()
         subelement = element.xpath("//tei:summary", namespaces=nsmap)[0]
-        subelement.append(ET.fromstring(f"<p>{summary}.</p>"))
+        if summary:
+            subelement.append(ET.fromstring(f"<p>{summary}</p>"))
         subelement.append(ET.fromstring(f"<p>{', '.join([book['value'] for book in bookt])}.</p>"))
 
     @staticmethod
