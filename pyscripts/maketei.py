@@ -212,31 +212,19 @@ class TeiHeader(TeiTree):
     def make_title(self, title, summary, incipit, signature):
         xmltitle = self.header.xpath("//tei:titleStmt/tei:title[@type='main']", namespaces=nsmap)[0]
         xmldesc = self.header.xpath("//tei:titleStmt/tei:title[@type='desc']", namespaces=nsmap)[0]
+        # filedesc = self.header.xpath("//tei:fileDesc", namespaces=nsmap)[0]
+        #tistmt = filedesc.xpath("./tei:titleStmt", namespaces=nsmap)[0]
+        shelfmark = f"A-Gf {signature}"
         xmltitle.text = title
-        xmldesc.text = signature
-        
-        tistmt = self.header.xpath("//tei:fileDesc/tei:titleStmt", namespaces=nsmap)[0]
-        subtitle = ""
-        if title := re.findall("„(.*)“", summary):
-            tistmt = self.header.xpath(
-                "//tei:fileDesc/tei:titleStmt", namespaces=nsmap
-            )[0]
-            title, subtitle = self.parse_title(title[0])
-        elif incipit:
-            title = incipit
-
-        elif signature:
-            title = signature
-        else:
-            title = "No title"
-        if subtitle:
-            ET.SubElement(tistmt, "title", type="sub").text = subtitle
+        xmldesc.text = shelfmark
+        # ET.SubElement(tistmt, "title", type="sub").text = f"{title} ({shelfmark})"
+        # ET.SubElement(filedesc, "sourceDesc").text = f"{title} ({shelfmark})"
 
     def parse_signature(self, sign):
         # sign = sign.replace("/", "_").replace(" ", "")
         self.msdesc.xpath("//tei:msIdentifier/tei:idno", namespaces=nsmap)[
             0
-        ].text = sign
+        ].text = f"A-Gf {sign}"
 
     @staticmethod
     def make_pid(pid):
@@ -444,9 +432,9 @@ class TeiHeader(TeiTree):
         ) or self.msdesc.xpath(".//tei:idno[@type ='shelfmark']", namespaces=nsmap)[
             0
         ] in (
-            "S 1/23",
-            "S 1/25",
-            "S 1/26",
+            "A-Gf S 1/23",
+            "A-Gf S 1/25",
+            "A-Gf S 1/26",
         ):
             # S1/23 is a exception
             tree.attrib["unit"] = "page"
