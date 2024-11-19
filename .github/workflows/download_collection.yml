@@ -41,7 +41,7 @@ jobs:
     - name: Rename files
       run: ./pyscripts/renamefiles.py
     - name: Regenerate headers
-      run: ./pyscripts/generate_headers.py 1
+      run: ./pyscripts/generate_headers.py
     - name: Generate TEI text & facsimile
       run: ./pyscripts/generate_body_p.py
     - name: Ammend picture paths
