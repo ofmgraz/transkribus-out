@@ -202,7 +202,7 @@ class TeiHeader(TeiTree):
             booktypes = [booktype['value'] for booktype in row['Buchtyp']]
             if booktypes and row["Liturgie"]:
                 keys = self.classify_books(booktypes, row["Liturgie"])
-            self.parse_summary(row["Inhalt"], row["Buchtyp"], keys, idx)
+            self.parse_summary(row["Inhalt"], row["Buchtyp"], keys)
             self.parse_extension(row["Umfang fol."])
             self.parse_format(row["Format"])
             self.parse_notation(False)  # Placeholder
@@ -407,8 +407,8 @@ class TeiHeader(TeiTree):
     def parse_summary(self, summary, bookt, attributes):
         if summary != summary:
             summary = ""
-        elif not summary.endswith('.'):
-            summary = sumary + "." 
+        elif not summary.strip().endswith('.'):
+            summary = summary.strip() + "." 
         summary = summary.replace("„", "<title>").replace("“", "</title>")
         element = self.msdesc.xpath("//tei:msContents", namespaces=nsmap)[0]
         if attributes:
