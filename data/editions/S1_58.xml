@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_58.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_20.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A63_51.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_58.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A63_51.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A64_40.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -178,37 +178,26 @@
   </teiHeader>
   <standOff>
     <listPlace><place xml:id="StPoelten">
-          <placeName xml:lang="en">Sankt Pölten</placeName>
-          <placeName xml:lang="de">St. Pölten</placeName>
-          <placeName xml:lang="it">Sankt Pölten</placeName>
-          <location>
-            <settlement xml:lang="en">Sankt. Pölten</settlement>
-            <settlement xml:lang="de">St. Pölten</settlement>
-            <settlement xml:lang="it">Sankt Pölten</settlement>
-            <region xml:lang="en">Lower Austria</region>
-            <region xml:lang="de">Niederösterreich</region>
-            <region xml:lang="it">Bassa Austria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>48.2 15.616666666667</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/44</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_44.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/58</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_58.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4051622-2</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766426</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q82500</idno>
-        </place></listPlace></standOff>
+                    <placeName xml:lang="en">Sankt Pölten</placeName>
+                    <placeName xml:lang="de">St. Pölten</placeName>
+                    <placeName xml:lang="it">Sankt Pölten</placeName>
+                    <location>
+                        <settlement xml:lang="en">Sankt. Pölten</settlement>
+                        <settlement xml:lang="de">St. Pölten</settlement>
+                        <settlement xml:lang="it">Sankt Pölten</settlement>
+                        <region xml:lang="en">Lower Austria</region>
+                        <region xml:lang="de">Niederösterreich</region>
+                        <region xml:lang="it">Bassa Austria</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>48.2 15.616666666667</geo>
+                    </location>
+
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4051622-2</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766426</idno>
+                    <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q82500</idno>
+                </place></listPlace></standOff>
 <facsimile>
       <surface ulx="0" uly="0" lrx="2000" lry="2693" xml:id="facs_1">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_58/files/images/A-Gf_S1_58-001r/full/!1024,1024/0/default.jpg" width="2000px" height="2693px"/>

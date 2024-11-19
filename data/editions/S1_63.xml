@@ -90,7 +90,7 @@
       <sourceDesc>
         <bibl>
           <date notBefore="1685-01-01" notAfter="1685-12-31">1685</date>
-        <pubPlace ref="#Salzburg">Salzburg</pubPlace><publisher ref="#Mayr">Johann Baptist Mayr</publisher></bibl>
+        <pubPlace ref="#Wien">Wien</pubPlace><publisher ref="#Mayr">Johann Baptist Mayr</publisher></bibl>
         <msDesc>
           <msIdentifier>
             <institution>
@@ -173,52 +173,25 @@
   </teiHeader>
   <standOff>
     <listPlace><place xml:id="Salzburg">
-          <placeName xml:lang="en">Salzburg</placeName>
-          <placeName xml:lang="de">Salzburg</placeName>
-          <placeName xml:lang="it">Salisburgo</placeName>
-          <location>
-            <settlement xml:lang="en">Salzburg</settlement>
-            <settlement xml:lang="de">Salzburg</settlement>
-            <settlement xml:lang="it">Salisburgo</settlement>
-            <region xml:lang="en">Salzburg (federal state)</region>
-            <region xml:lang="de">Land Salzburg</region>
-            <region xml:lang="it">Salisburghese</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.8 13.045</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/63</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_63.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/70</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_70.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/62</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_62.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/72</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_72.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/61</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_61.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4076982-3</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q34713</idno>
-        </place></listPlace><listPerson><person xml:id="Mayr">
+                    <placeName xml:lang="en">Salzburg</placeName>
+                    <placeName xml:lang="de">Salzburg</placeName>
+                    <placeName xml:lang="it">Salisburgo</placeName>
+                    <location>
+                        <settlement xml:lang="en">Salzburg</settlement>
+                        <settlement xml:lang="de">Salzburg</settlement>
+                        <settlement xml:lang="it">Salisburgo</settlement>
+                        <region xml:lang="en">Salzburg (federal state)</region>
+                        <region xml:lang="de">Land Salzburg</region>
+                        <region xml:lang="it">Salisburghese</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>47.8 13.045</geo>
+                    </location>
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4076982-3</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
+                    <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q34713</idno>
+                </place></listPlace><listPerson><person xml:id="Mayr">
           <persName>
             <forename>Johann Baptist</forename>
             <surname>Mayr</surname>
@@ -235,33 +208,6 @@
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/124751946</idno>
-          <listEvent>
-          <event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/63</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_63.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/70</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_70.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/62</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_62.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/72</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_72.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/61</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_61.xml"/>
-    </linkGrp>
-</event></listEvent>
         </person></listPerson></standOff>
 <facsimile>
       <surface ulx="0" uly="0" lrx="2000" lry="2898" xml:id="facs_1">

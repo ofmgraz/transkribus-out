@@ -178,47 +178,26 @@
   </teiHeader>
   <standOff>
     <listPlace><place xml:id="MariaLankowitz">
-          <placeName xml:lang="en">Maria Lankowitz</placeName>
-          <placeName xml:lang="de">Maria Lankowitz</placeName>
-          <placeName xml:lang="it">Maria Lankowitz</placeName>
-          <location>
-            <settlement xml:lang="en">Maria Lankowitz</settlement>
-            <settlement xml:lang="de">Maria Lankowitz</settlement>
-            <settlement xml:lang="it">Maria Lankowitz</settlement>
-            <region xml:lang="en">Styria</region>
-            <region xml:lang="de">Steiermark</region>
-            <region xml:lang="it">Stiria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.063888888889 15.063055555556</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/34</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_34.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/22</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_22.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/37</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_37.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/40</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_40.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4400654-8</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
-        </place></listPlace></standOff>
+                    <placeName xml:lang="en">Maria Lankowitz</placeName>
+                    <placeName xml:lang="de">Maria Lankowitz</placeName>
+                    <placeName xml:lang="it">Maria Lankowitz</placeName>
+                    <location>
+                        <settlement xml:lang="en">Maria Lankowitz</settlement>
+                        <settlement xml:lang="de">Maria Lankowitz</settlement>
+                        <settlement xml:lang="it">Maria Lankowitz</settlement>
+                        <region xml:lang="en">Styria</region>
+                        <region xml:lang="de">Steiermark</region>
+                        <region xml:lang="it">Stiria</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>47.063888888889 15.063055555556</geo>
+                    </location>
+
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4400654-8</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
+                    <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
+                </place></listPlace></standOff>
 <facsimile>
       <surface ulx="0" uly="0" lrx="3750" lry="5241" xml:id="facs_1">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A64_34/files/images/A-Gf_A64_34-001r/full/!1024,1024/0/default.jpg" width="3750px" height="5241px"/>

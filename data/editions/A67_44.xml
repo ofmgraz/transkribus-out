@@ -174,37 +174,26 @@
   </teiHeader>
   <standOff>
     <listPlace><place xml:id="StPoelten">
-          <placeName xml:lang="en">Sankt Pölten</placeName>
-          <placeName xml:lang="de">St. Pölten</placeName>
-          <placeName xml:lang="it">Sankt Pölten</placeName>
-          <location>
-            <settlement xml:lang="en">Sankt. Pölten</settlement>
-            <settlement xml:lang="de">St. Pölten</settlement>
-            <settlement xml:lang="it">Sankt Pölten</settlement>
-            <region xml:lang="en">Lower Austria</region>
-            <region xml:lang="de">Niederösterreich</region>
-            <region xml:lang="it">Bassa Austria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>48.2 15.616666666667</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/44</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_44.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/58</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_58.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4051622-2</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766426</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q82500</idno>
-        </place></listPlace></standOff>
+                    <placeName xml:lang="en">Sankt Pölten</placeName>
+                    <placeName xml:lang="de">St. Pölten</placeName>
+                    <placeName xml:lang="it">Sankt Pölten</placeName>
+                    <location>
+                        <settlement xml:lang="en">Sankt. Pölten</settlement>
+                        <settlement xml:lang="de">St. Pölten</settlement>
+                        <settlement xml:lang="it">Sankt Pölten</settlement>
+                        <region xml:lang="en">Lower Austria</region>
+                        <region xml:lang="de">Niederösterreich</region>
+                        <region xml:lang="it">Bassa Austria</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>48.2 15.616666666667</geo>
+                    </location>
+
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4051622-2</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766426</idno>
+                    <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q82500</idno>
+                </place></listPlace></standOff>
 <facsimile>
       <surface ulx="0" uly="0" lrx="3502" lry="2522" xml:id="facs_1">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/A67_44/files/images/A-Gf_A67_44-000r/full/!1024,1024/0/default.jpg" width="3502px" height="2522px"/>

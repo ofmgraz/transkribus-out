@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_28.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_40a.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_61.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_28.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_17.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_61.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -178,182 +178,25 @@
   </teiHeader>
   <standOff>
     <listPlace><place xml:id="Graz">
-          <placeName xml:lang="en">Graz</placeName>
-          <placeName xml:lang="de">Graz</placeName>
-          <placeName xml:lang="it">Graz</placeName>
-          <location>
-            <settlement xml:lang="en">Graz</settlement>
-            <settlement xml:lang="de">Graz</settlement>
-            <settlement xml:lang="it">Graz</settlement>
-            <region xml:lang="en">Styria</region>
-            <region xml:lang="de">Steiermark</region>
-            <region xml:lang="it">Stiria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.07083333333333 15.438611111111111</geo>
-          </location>
-          <listEvent>
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/41</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_41.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/41</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_41.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/19</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_19.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/42</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_42.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/17</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_17.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/25</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_25.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/42</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_42.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/26</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_26.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/18</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_18.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/20</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_20.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/39</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_39.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/45</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_45.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/39</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_39.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/43</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_43.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/23</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_23.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/18</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_18.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/28</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_28.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/37</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_37.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 63/51</title></p>
-    <linkGrp>
-        <link type="URL" target="A63_51.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/24</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_24.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/20</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_20.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/19</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_19.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/40</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_40.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/43</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_43.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/27</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_27.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/44</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_44.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/30</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_30.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/27</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_27.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/22</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_22.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/38</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_38.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/21</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_21.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4021912-4</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
-        </place></listPlace></standOff>
+                    <placeName xml:lang="en">Graz</placeName>
+                    <placeName xml:lang="de">Graz</placeName>
+                    <placeName xml:lang="it">Graz</placeName>
+                    <location>
+                        <settlement xml:lang="en">Graz</settlement>
+                        <settlement xml:lang="de">Graz</settlement>
+                        <settlement xml:lang="it">Graz</settlement>
+                        <region xml:lang="en">Styria</region>
+                        <region xml:lang="de">Steiermark</region>
+                        <region xml:lang="it">Stiria</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>47.07083333333333 15.438611111111111</geo>
+                    </location>
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4021912-4</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
+                    <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
+                </place></listPlace></standOff>
 <facsimile>
       <surface ulx="0" uly="0" lrx="2000" lry="2842" xml:id="facs_1">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_28/files/images/A-Gf_S1_28-001r/full/!1024,1024/0/default.jpg" width="2000px" height="2842px"/>
