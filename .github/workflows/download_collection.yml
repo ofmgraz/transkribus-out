@@ -35,7 +35,7 @@ jobs:
     - name: Delete non-included files
       run: rm -f data/mets/216937/{2914584,2926205,3374447,3374448,3374547,3376967,3377127,3377287,3385787,3406471,3674355}* || true
     - name: Transform
-      run: ./pyscripts/transform.pyut_file in glob.glob(os.path.join(source_directory, "*.xml")):
+      run: ./pyscripts/transform.pyut_file in glob.glob(os.path.join(source_directory, "*.xml"))
     - name: Amend duplicates
       run: ./pyscripts/amend_duplicate.py || true
     - name: Rename files
