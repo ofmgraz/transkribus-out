@@ -43,23 +43,6 @@
           <occupation key="90">Drucker</occupation>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/1037512057</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q56118770</idno>
-          <listEvent>
-          <event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/76</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_76.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/75</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_75.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/74</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_74.xml"/>
-    </linkGrp>
-</event></listEvent>
         </person>
         <person xml:id="Mayr">
           <persName>
@@ -78,33 +61,6 @@
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/124751946</idno>
-          <listEvent>
-          <event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/63</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_63.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/70</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_70.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/62</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_62.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/72</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_72.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/61</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_61.xml"/>
-    </linkGrp>
-</event></listEvent>
         </person>
         <person xml:id="Pezzana">
           <persName>
@@ -124,18 +80,6 @@
           <occupation key="90">Drucker</occupation>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/1102696757</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q105889193</idno>
-          <listEvent>
-          <event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/69</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_69.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/64</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_64.xml"/>
-    </linkGrp>
-</event></listEvent>
         </person>
         <person xml:id="Balleoni">
           <persName>
@@ -155,23 +99,6 @@
           <occupation key="90">Drucker</occupation>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/1037524810</idno>
           <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q112399622</idno>
-          <listEvent>
-          <event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/65</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_65.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/67</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_67.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/68</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_68.xml"/>
-    </linkGrp>
-</event></listEvent>
         </person>
         <person xml:id="Ciera">
           <persName>
@@ -190,15 +117,24 @@
           <sex value="male"/>
           <occupation key="90">Drucker</occupation>
           <idno type="URL" subtype="GND">https://d-nb.info/gnd/1051039606</idno>
-          <listEvent>
-          <event type="provenance">
-    <p>Drucker von <title>A-Gf S 1/66</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_66.xml"/>
-    </linkGrp>
-</event></listEvent>
         </person>
       </listPerson>
+      <listRelation>
+        <relation type="production" name="print" passive="S1_66.xml" active="#Ciera"/>
+        <relation type="production" name="print" passive="S1_76.xml" active="#Voigt"/>
+        <relation type="production" name="print" passive="S1_75.xml" active="#Voigt"/>
+        <relation type="production" name="print" passive="S1_74.xml" active="#Voigt"/>
+        <relation type="production" name="print" passive="S1_63.xml" active="#Mayr"/>
+        <relation type="production" name="print" passive="S1_70.xml" active="#Mayr"/>
+        <relation type="production" name="print" passive="S1_62.xml" active="#Mayr"/>
+        <relation type="production" name="print" passive="S1_72.xml" active="#Mayr"/>
+        <relation type="production" name="print" passive="S1_61.xml" active="#Mayr"/>
+        <relation type="production" name="print" passive="S1_69.xml" active="#Pezzana"/>
+        <relation type="production" name="print" passive="S1_64.xml" active="#Pezzana"/>
+        <relation type="production" name="print" passive="S1_65.xml" active="#Balleoni"/>
+        <relation type="production" name="print" passive="S1_67.xml" active="#Balleoni"/>
+        <relation type="production" name="print" passive="S1_68.xml" active="#Balleoni"/>
+      </listRelation>
     </body>
   </text>
 </TEI>

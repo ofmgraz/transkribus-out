@@ -236,23 +236,30 @@ class TeiHeader(TeiTree):
         locations = TeiReader("data/indices/listplace.xml")
         origins = [x.strip() for x in origin.split(",")]
         pid = self.make_pid(origins[0])
-        tree = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)
-        if len(tree) < 1:
-            tree = ET.SubElement(
+        listplace = self.root.xpath(".//tei:standOff/tei:listPlace", namespaces=nsmap)
+        #listrelation = self.root.xpath(".//tei:standOff/tei:listRelation", namespaces=nsmap)
+        if len(listplace) < 1:
+            listplace = ET.SubElement(
                 self.root.xpath(".//tei:standOff", namespaces=nsmap)[0], "listPlace"
             )
+            #listrelation = ET.SubElement(
+            #    self.root.xpath(".//tei:standOff", namespaces=nsmap)[0], "listRelation"
+            #    )
+        print(f"PID: {pid}")
         if pid and not self.root.xpath(
             f'.//tei:place[@xml:id="{pid}"]', namespaces=nsmap
         ):
-            locations = locations.any_xpath(f'.//tei:place[@xml:id="{pid}"]')
-            for location in locations:
+            for location in  locations.any_xpath(f'.//tei:place[@xml:id="{pid}"]'):
                 # Entry in the standOff list of places
                 # place = ET.SubElement(tree, "place")
-                tree.append(
+                listplace.append(
                     ET.fromstring(
                         ET.tostring(location, pretty_print=True, encoding="utf-8")
                     )
                 )
+            #    listrelation.append(
+            #        ET.fromstring(f'<relation type="geographical" name="provenance" passive="{self.filename}" active="#{pid}"/>')
+            #    )
         # Element in msDesc/history referencing the entry above
         provenance = self.msdesc.xpath(
             "./tei:history/tei:provenance", namespaces=nsmap
@@ -266,6 +273,8 @@ class TeiHeader(TeiTree):
             self.make_publisher(publisher)
             # self.make_idno(place, dictentry["place"]["idno"])
         if len(origins) > 1:
+            self.parse_origin(",".join(origins[1:]), False)
+        if len(origins) < 1:
             self.parse_origin(",".join(origins[1:]), False)
 
     def add_digitaledition_origin(self):
@@ -283,15 +292,21 @@ class TeiHeader(TeiTree):
 
     def make_publisher(self, publisher):
         entry = False
-        tree = ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
+        listperson =  ET.SubElement(self.tei.any_xpath(".//tei:standOff")[0], "listPerson")
+        #listperson = self.tei.any_xpath(".//tei:standOff/tei:listPerson")
+        #listperson = ET.SubElement(self.tei.any_xpath(".//tei:standOff/tei:listPerson")[0], "listPerson")
+        #listrelation = ET.SubElement(self.tei.any_xpath(".//tei:standOff/tei:listRelation")[0], "listRelation")
         for person in persons.any_xpath(f'//tei:person[@xml:id="{publisher}"]'):
             entry = ET.fromstring(
                 ET.tostring(person, pretty_print=True, encoding="utf-8")
             )
-            tree.append(entry)
+            #relation =  ET.fromstring(f'<relation type="creation" name="printing" passive="{self.filename}" active="#{publisher}"/>')
+            listperson.append(entry)
+            # listrelation.append(relation)
+
             break
         if len(entry) > 0:
-            place = entry.xpath(
+            place = person.xpath(
                 "//tei:residence/tei:settlement/tei:placeName", namespaces=nsmap
             )[0]
             fullname = " ".join(

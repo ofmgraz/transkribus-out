@@ -1,579 +1,323 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title level="s">Orte</title>
-        <title level="a">Verzeichnis der vorkommenden Orte</title>
-        <respStmt>
-          <resp>providing the content</resp>
-          <name>Fernando Sanz-Lázaro</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Austrian Centre for Digital Humanities and Cultural Heritage
-          (ACDH-CH)</publisher>
-        <pubPlace>Vienna, Austria</pubPlace>
-        <date>2023-11-21+01:00</date>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Entitäten für für die Beschreibung der Choralhandschriften der Zentralbibliothek der
-          Wiener Franziskanerprovinz Graz</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <listPlace>
-        <place xml:id="Graz">
-          <placeName xml:lang="en">Graz</placeName>
-          <placeName xml:lang="de">Graz</placeName>
-          <placeName xml:lang="it">Graz</placeName>
-          <location>
-            <settlement xml:lang="en">Graz</settlement>
-            <settlement xml:lang="de">Graz</settlement>
-            <settlement xml:lang="it">Graz</settlement>
-            <region xml:lang="en">Styria</region>
-            <region xml:lang="de">Steiermark</region>
-            <region xml:lang="it">Stiria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.07083333333333 15.438611111111111</geo>
-          </location>
-          <listEvent>
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/41</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_41.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/41</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_41.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/19</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_19.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/42</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_42.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/17</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_17.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/25</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_25.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/42</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_42.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/26</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_26.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/18</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_18.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/20</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_20.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/39</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_39.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/45</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_45.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/39</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_39.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/43</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_43.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/23</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_23.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/18</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_18.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/28</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_28.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/37</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_37.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 63/51</title></p>
-    <linkGrp>
-        <link type="URL" target="A63_51.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/24</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_24.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/20</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_20.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/19</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_19.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/40</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_40.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/43</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_43.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/27</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_27.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/44</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_44.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/30</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_30.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/27</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_27.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/22</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_22.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/38</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_38.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/21</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_21.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4021912-4</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q13298</idno>
-        </place>
-        <place xml:id="Ljubljana">
-          <placeName xml:lang="en">Ljubljana</placeName>
-          <placeName xml:lang="de">Ljubljana</placeName>
-          <placeName xml:lang="it">Lubiana</placeName>
-          <location>
-            <settlement xml:lang="en">Ljubljana</settlement>
-            <settlement xml:lang="de">Ljubljana</settlement>
-            <settlement xml:lang="it">Lubiana</settlement>
-            <region xml:lang="en">Central Solovenia</region>
-            <region xml:lang="de">Zentralslowenien</region>
-            <region xml:lang="it">Slovenia Centrale</region>
-            <country xml:lang="en">Slovenia</country>
-            <country xml:lang="de">Slovenien</country>
-            <country xml:lang="it">Slovenia</country>
-            <geo>46.05138888888889 14.50611111111111</geo>
-          </location>
-          <listEvent>
-           <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/41</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_41.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/42</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_42.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/39</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_39.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/43</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_43.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/37</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_37.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 63/51</title></p>
-    <linkGrp>
-        <link type="URL" target="A63_51.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/40</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_40.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/38</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_38.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4073953-3</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3239318</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q437</idno>
-        </place>
-        <place xml:id="Wien">
-          <placeName xml:lang="en">Vienna</placeName>
-          <placeName xml:lang="de">Wien</placeName>
-          <placeName xml:lang="it">Vienna</placeName>
-          <location>
-            <settlement xml:lang="en">Vienna</settlement>
-            <settlement xml:lang="de">Wien</settlement>
-            <settlement xml:lang="it">Vienna</settlement>
-            <region xml:lang="en">Vienna (federal state)</region>
-            <region xml:lang="de">Wien</region>
-            <region xml:lang="it">Vienna</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>48.208333333333336 16.3725</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 70/23</title></p>
-    <linkGrp>
-        <link type="URL" target="A70_23.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/76</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_76.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/29</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_29.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/75</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_75.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/74</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_74.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4066009-6</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
-        </place>
-        <place xml:id="Salzburg">
-          <placeName xml:lang="en">Salzburg</placeName>
-          <placeName xml:lang="de">Salzburg</placeName>
-          <placeName xml:lang="it">Salisburgo</placeName>
-          <location>
-            <settlement xml:lang="en">Salzburg</settlement>
-            <settlement xml:lang="de">Salzburg</settlement>
-            <settlement xml:lang="it">Salisburgo</settlement>
-            <region xml:lang="en">Salzburg (federal state)</region>
-            <region xml:lang="de">Land Salzburg</region>
-            <region xml:lang="it">Salisburghese</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.8 13.045</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/63</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_63.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/70</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_70.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/62</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_62.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/72</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_72.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/61</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_61.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4076982-3</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q34713</idno>
-        </place>
-        <place xml:id="Venedig">
-          <placeName xml:lang="en">Venice</placeName>
-          <placeName xml:lang="de">Venedig</placeName>
-          <placeName xml:lang="it">Venezia</placeName>
-          <location>
-            <settlement xml:lang="en">Venice</settlement>
-            <settlement xml:lang="de">Venedig</settlement>
-            <settlement xml:lang="it">Venezia</settlement>
-            <region xml:lang="en">Venetien</region>
-            <region xml:lang="de">Veneto</region>
-            <region xml:lang="it">Veneto</region>
-            <country xml:lang="en">Italy</country>
-            <country xml:lang="de">Italien</country>
-            <country xml:lang="it">Italia</country>
-            <geo>45.439722222222 12.331944444444</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/66</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_66.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/65</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_65.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/69</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_69.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/64</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_64.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/67</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_67.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/68</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_68.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4062501-1</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
-        </place>
-        <place xml:id="MariaLankowitz">
-          <placeName xml:lang="en">Maria Lankowitz</placeName>
-          <placeName xml:lang="de">Maria Lankowitz</placeName>
-          <placeName xml:lang="it">Maria Lankowitz</placeName>
-          <location>
-            <settlement xml:lang="en">Maria Lankowitz</settlement>
-            <settlement xml:lang="de">Maria Lankowitz</settlement>
-            <settlement xml:lang="it">Maria Lankowitz</settlement>
-            <region xml:lang="en">Styria</region>
-            <region xml:lang="de">Steiermark</region>
-            <region xml:lang="it">Stiria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.063888888889 15.063055555556</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/34</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_34.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/22</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_22.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 64/37</title></p>
-    <linkGrp>
-        <link type="URL" target="A64_37.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/40</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_40.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4400654-8</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q699807</idno>
-        </place>
-        <place xml:id="Muenchen">
-          <placeName xml:lang="en">Munich</placeName>
-          <placeName xml:lang="de">München</placeName>
-          <placeName xml:lang="it">Monaco di Baviera</placeName>
-          <location>
-            <settlement xml:lang="en">Munich</settlement>
-            <settlement xml:lang="de">München</settlement>
-            <settlement xml:lang="it">Monaco di Baviera</settlement>
-            <region xml:lang="en">Bavaria</region>
-            <region xml:lang="de">Bayern</region>
-            <region xml:lang="it">Baviera</region>
-            <country xml:lang="en">Germany</country>
-            <country xml:lang="de">Deutschland</country>
-            <country xml:lang="it">Germania</country>
-            <geo>48.1375 11.575</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/19</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_19.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/17</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_17.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/23</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_23.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/18</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_18.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/20</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_20.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/27</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_27.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/22</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_22.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/21</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_21.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4127793-4</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/6559171</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1726</idno>
-        </place>
-        <place xml:id="StPoelten">
-          <placeName xml:lang="en">Sankt Pölten</placeName>
-          <placeName xml:lang="de">St. Pölten</placeName>
-          <placeName xml:lang="it">Sankt Pölten</placeName>
-          <location>
-            <settlement xml:lang="en">Sankt. Pölten</settlement>
-            <settlement xml:lang="de">St. Pölten</settlement>
-            <settlement xml:lang="it">Sankt Pölten</settlement>
-            <region xml:lang="en">Lower Austria</region>
-            <region xml:lang="de">Niederösterreich</region>
-            <region xml:lang="it">Bassa Austria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>48.2 15.616666666667</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf A 67/44</title></p>
-    <linkGrp>
-        <link type="URL" target="A67_44.xml"/>
-    </linkGrp>
-</event><event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/58</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_58.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4051622-2</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766426</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q82500</idno>
-        </place>
-        <place xml:id="Mautern">
-          <placeName xml:lang="en">Mautern in Steiermark</placeName>
-          <placeName xml:lang="de">Mautern in Steiermark</placeName>
-          <placeName xml:lang="it">Mautern in Steiermark</placeName>
-          <location>
-            <settlement xml:lang="en">Mautern in Steiermark</settlement>
-            <settlement xml:lang="de">Mautern in Steiermark</settlement>
-            <settlement xml:lang="it">Mautern in Steiermark</settlement>
-            <region xml:lang="en">Styria</region>
-            <region xml:lang="de">Steiermark</region>
-            <region xml:lang="it">Stiria</region>
-            <country xml:lang="en">Austria</country>
-            <country xml:lang="de">Österreich</country>
-            <country xml:lang="it">Austria</country>
-            <geo>47.4 14.833333333333</geo>
-          </location>
-          <listEvent>               
-          <event type="provenance">
-    <p>Herkunft von <title>A-Gf S 1/23</title></p>
-    <linkGrp>
-        <link type="URL" target="S1_23.xml"/>
-    </linkGrp>
-</event></listEvent>
-          <idno type="URL" subtype="GND">https://d-nb.info/gnd/4115047-8</idno>
-          <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771761</idno>
-          <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q258162</idno>
-        </place>
-      </listPlace>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Orte</title>
+                <title level="a">Verzeichnis der vorkommenden Orte</title>
+                <respStmt>
+                    <resp>providing the content</resp>
+                    <name>Fernando Sanz-Lázaro</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Centre for Digital Humanities and Cultural Heritage
+                    (ACDH-CH)</publisher>
+                <pubPlace>Vienna, Austria</pubPlace>
+                <date>2023-11-21+01:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Entitäten für für die Beschreibung der Choralhandschriften der Zentralbibliothek
+                    der Wiener Franziskanerprovinz Graz</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="Graz">
+                    <placeName xml:lang="en">Graz</placeName>
+                    <placeName xml:lang="de">Graz</placeName>
+                    <placeName xml:lang="it">Graz</placeName>
+                    <location>
+                        <settlement xml:lang="en">Graz</settlement>
+                        <settlement xml:lang="de">Graz</settlement>
+                        <settlement xml:lang="it">Graz</settlement>
+                        <region xml:lang="en">Styria</region>
+                        <region xml:lang="de">Steiermark</region>
+                        <region xml:lang="it">Stiria</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>47.07083333333333 15.438611111111111</geo>
+                    </location>
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4021912-4</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2778058</idno>
+                    <idno type="URL" subtype="WIKIDATA"
+                        >https://www.wikidata.org/entity/Q13298</idno>
+                </place>
+                <place xml:id="Ljubljana">
+                    <placeName xml:lang="en">Ljubljana</placeName>
+                    <placeName xml:lang="de">Ljubljana</placeName>
+                    <placeName xml:lang="it">Lubiana</placeName>
+                    <location>
+                        <settlement xml:lang="en">Ljubljana</settlement>
+                        <settlement xml:lang="de">Ljubljana</settlement>
+                        <settlement xml:lang="it">Lubiana</settlement>
+                        <region xml:lang="en">Central Solovenia</region>
+                        <region xml:lang="de">Zentralslowenien</region>
+                        <region xml:lang="it">Slovenia Centrale</region>
+                        <country xml:lang="en">Slovenia</country>
+                        <country xml:lang="de">Slovenien</country>
+                        <country xml:lang="it">Slovenia</country>
+                        <geo>46.05138888888889 14.50611111111111</geo>
+                    </location>
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4073953-3</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3239318</idno>
+                    <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q437</idno>
+                </place>
+                <place xml:id="Wien">
+                    <placeName xml:lang="en">Vienna</placeName>
+                    <placeName xml:lang="de">Wien</placeName>
+                    <placeName xml:lang="it">Vienna</placeName>
+                    <location>
+                        <settlement xml:lang="en">Vienna</settlement>
+                        <settlement xml:lang="de">Wien</settlement>
+                        <settlement xml:lang="it">Vienna</settlement>
+                        <region xml:lang="en">Vienna (federal state)</region>
+                        <region xml:lang="de">Wien</region>
+                        <region xml:lang="it">Vienna</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>48.208333333333336 16.3725</geo>
+                    </location>
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4066009-6</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2761369</idno>
+                    <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1741</idno>
+                </place>
+                <place xml:id="Salzburg">
+                    <placeName xml:lang="en">Salzburg</placeName>
+                    <placeName xml:lang="de">Salzburg</placeName>
+                    <placeName xml:lang="it">Salisburgo</placeName>
+                    <location>
+                        <settlement xml:lang="en">Salzburg</settlement>
+                        <settlement xml:lang="de">Salzburg</settlement>
+                        <settlement xml:lang="it">Salisburgo</settlement>
+                        <region xml:lang="en">Salzburg (federal state)</region>
+                        <region xml:lang="de">Land Salzburg</region>
+                        <region xml:lang="it">Salisburghese</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>47.8 13.045</geo>
+                    </location>
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4076982-3</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766818</idno>
+                    <idno type="URL" subtype="WIKIDATA"
+                        >https://www.wikidata.org/entity/Q34713</idno>
+                </place>
+                <place xml:id="Venedig">
+                    <placeName xml:lang="en">Venice</placeName>
+                    <placeName xml:lang="de">Venedig</placeName>
+                    <placeName xml:lang="it">Venezia</placeName>
+                    <location>
+                        <settlement xml:lang="en">Venice</settlement>
+                        <settlement xml:lang="de">Venedig</settlement>
+                        <settlement xml:lang="it">Venezia</settlement>
+                        <region xml:lang="en">Venetien</region>
+                        <region xml:lang="de">Veneto</region>
+                        <region xml:lang="it">Veneto</region>
+                        <country xml:lang="en">Italy</country>
+                        <country xml:lang="de">Italien</country>
+                        <country xml:lang="it">Italia</country>
+                        <geo>45.439722222222 12.331944444444</geo>
+                    </location>
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4062501-1</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/3164603</idno>
+                    <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q641</idno>
+                </place>
+                <place xml:id="MariaLankowitz">
+                    <placeName xml:lang="en">Maria Lankowitz</placeName>
+                    <placeName xml:lang="de">Maria Lankowitz</placeName>
+                    <placeName xml:lang="it">Maria Lankowitz</placeName>
+                    <location>
+                        <settlement xml:lang="en">Maria Lankowitz</settlement>
+                        <settlement xml:lang="de">Maria Lankowitz</settlement>
+                        <settlement xml:lang="it">Maria Lankowitz</settlement>
+                        <region xml:lang="en">Styria</region>
+                        <region xml:lang="de">Steiermark</region>
+                        <region xml:lang="it">Stiria</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>47.063888888889 15.063055555556</geo>
+                    </location>
+
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4400654-8</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771922</idno>
+                    <idno type="URL" subtype="WIKIDATA"
+                        >https://www.wikidata.org/entity/Q699807</idno>
+                </place>
+                <place xml:id="Muenchen">
+                    <placeName xml:lang="en">Munich</placeName>
+                    <placeName xml:lang="de">München</placeName>
+                    <placeName xml:lang="it">Monaco di Baviera</placeName>
+                    <location>
+                        <settlement xml:lang="en">Munich</settlement>
+                        <settlement xml:lang="de">München</settlement>
+                        <settlement xml:lang="it">Monaco di Baviera</settlement>
+                        <region xml:lang="en">Bavaria</region>
+                        <region xml:lang="de">Bayern</region>
+                        <region xml:lang="it">Baviera</region>
+                        <country xml:lang="en">Germany</country>
+                        <country xml:lang="de">Deutschland</country>
+                        <country xml:lang="it">Germania</country>
+                        <geo>48.1375 11.575</geo>
+                    </location>
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4127793-4</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/6559171</idno>
+                    <idno type="URL" subtype="WIKIDATA">https://www.wikidata.org/entity/Q1726</idno>
+                </place>
+                <place xml:id="StPoelten">
+                    <placeName xml:lang="en">Sankt Pölten</placeName>
+                    <placeName xml:lang="de">St. Pölten</placeName>
+                    <placeName xml:lang="it">Sankt Pölten</placeName>
+                    <location>
+                        <settlement xml:lang="en">Sankt. Pölten</settlement>
+                        <settlement xml:lang="de">St. Pölten</settlement>
+                        <settlement xml:lang="it">Sankt Pölten</settlement>
+                        <region xml:lang="en">Lower Austria</region>
+                        <region xml:lang="de">Niederösterreich</region>
+                        <region xml:lang="it">Bassa Austria</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>48.2 15.616666666667</geo>
+                    </location>
+
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4051622-2</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2766426</idno>
+                    <idno type="URL" subtype="WIKIDATA"
+                        >https://www.wikidata.org/entity/Q82500</idno>
+                </place>
+                <place xml:id="Mautern">
+                    <placeName xml:lang="en">Mautern in Steiermark</placeName>
+                    <placeName xml:lang="de">Mautern in Steiermark</placeName>
+                    <placeName xml:lang="it">Mautern in Steiermark</placeName>
+                    <location>
+                        <settlement xml:lang="en">Mautern in Steiermark</settlement>
+                        <settlement xml:lang="de">Mautern in Steiermark</settlement>
+                        <settlement xml:lang="it">Mautern in Steiermark</settlement>
+                        <region xml:lang="en">Styria</region>
+                        <region xml:lang="de">Steiermark</region>
+                        <region xml:lang="it">Stiria</region>
+                        <country xml:lang="en">Austria</country>
+                        <country xml:lang="de">Österreich</country>
+                        <country xml:lang="it">Austria</country>
+                        <geo>47.4 14.833333333333</geo>
+                    </location>
+                    <idno type="URL" subtype="GND">https://d-nb.info/gnd/4115047-8</idno>
+                    <idno type="URL" subtype="GEONAMES">https://sws.geonames.org/2771761</idno>
+                    <idno type="URL" subtype="WIKIDATA"
+                        >https://www.wikidata.org/entity/Q258162</idno>
+                </place>
+            </listPlace>
+            <listRelation>
+                <relation type="geographical" name="provenance" passive="A67_41.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A64_41.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_19.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_42.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_17.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_25.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A64_42.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_26.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_18.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_20.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A64_39.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_45.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_39.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A64_43.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_23.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_18.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_28.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A64_37.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A63_51.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_24.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_20.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_19.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A64_40.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_43.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_27.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_44.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_30.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="S1_27.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_22.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A64_38.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A67_21.xml" active="#Graz"/>
+                <relation type="geographical" name="provenance" passive="A64_41.xml"
+                    active="#Ljubljana"/>
+                <relation type="geographical" name="provenance" passive="A64_42.xml"
+                    active="#Ljubljana"/>
+                <relation type="geographical" name="provenance" passive="A64_39.xml"
+                    active="#Ljubljana"/>
+                <relation type="geographical" name="provenance" passive="A64_43.xml"
+                    active="#Ljubljana"/>
+                <relation type="geographical" name="provenance" passive="A64_37.xml"
+                    active="#Ljubljana"/>
+                <relation type="geographical" name="provenance" passive="A63_51.xml"
+                    active="#Ljubljana"/>
+                <relation type="geographical" name="provenance" passive="A64_40.xml"
+                    active="#Ljubljana"/>
+                <relation type="geographical" name="provenance" passive="A64_38.xml"
+                    active="#Ljubljana"/>
+                <relation type="geographical" name="provenance" passive="S1_76.xml" active="#Wien"/>
+                <relation type="geographical" name="provenance" passive="S1_29.xml" active="#Wien"/>
+                <relation type="geographical" name="provenance" passive="S1_75.xml" active="#Wien"/>
+                <relation type="geographical" name="provenance" passive="S1_74.xml" active="#Wien"/>
+                <relation type="geographical" name="provenance" passive="S1_63.xml"
+                    active="#Salzburg"/>
+                <relation type="geographical" name="provenance" passive="S1_70.xml"
+                    active="#Salzburg"/>
+                <relation type="geographical" name="provenance" passive="S1_62.xml"
+                    active="#Salzburg"/>
+                <relation type="geographical" name="provenance" passive="S1_72.xml"
+                    active="#Salzburg"/>
+                <relation type="geographical" name="provenance" passive="S1_61.xml"
+                    active="#Salzburg"/>
+                <relation type="geographical" name="provenance" passive="S1_66.xml"
+                    active="#Venedig"/>
+                <relation type="geographical" name="provenance" passive="S1_65.xml"
+                    active="#Venedig"/>
+                <relation type="geographical" name="provenance" passive="S1_69.xml"
+                    active="#Venedig"/>
+                <relation type="geographical" name="provenance" passive="S1_64.xml"
+                    active="#Venedig"/>
+                <relation type="geographical" name="provenance" passive="S1_67.xml"
+                    active="#Venedig"/>
+                <relation type="geographical" name="provenance" passive="S1_68.xml"
+                    active="#Venedig"/>
+                <relation type="geographical" name="provenance" passive="A67_19.xml"
+                    active="#Muenchen"/>
+                <relation type="geographical" name="provenance" passive="A67_17.xml"
+                    active="#Muenchen"/>
+                <relation type="geographical" name="provenance" passive="A67_23.xml"
+                    active="#Muenchen"/>
+                <relation type="geographical" name="provenance" passive="A67_18.xml"
+                    active="#Muenchen"/>
+                <relation type="geographical" name="provenance" passive="A67_20.xml"
+                    active="#Muenchen"/>
+                <relation type="geographical" name="provenance" passive="A67_27.xml"
+                    active="#Muenchen"/>
+                <relation type="geographical" name="provenance" passive="A67_22.xml"
+                    active="#Muenchen"/>
+                <relation type="geographical" name="provenance" passive="A67_21.xml"
+                    active="#Muenchen"/>
+                <relation type="geographical" name="provenance" passive="A64_34.xml"
+                    active="#MariaLankowitz"/>
+                <relation type="geographical" name="provenance" passive="S1_22.xml"
+                    active="#MariaLankowitz"/>
+                <relation type="geographical" name="provenance" passive="A64_37.xml"
+                    active="#MariaLankowitz"/>
+                <relation type="geographical" name="provenance" passive="S1_40.xml"
+                    active="#MariaLankowitz"/>
+                <relation type="geographical" name="provenance" passive="S1_23.xml"
+                    active="#Mautern"/>
+                <relation type="geographical" name="provenance" passive="A67_44.xml"
+                    active="#StPoelten"/>
+                <relation type="geographical" name="provenance" passive="S1_58.xml"
+                    active="#StPoelten"/>
+            </listRelation>
+        </body>
+    </text>
 </TEI>
