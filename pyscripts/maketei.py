@@ -422,7 +422,7 @@ class TeiHeader(TeiTree):
     def parse_summary(self, summary, bookt, attributes):
         if summary != summary:
             summary = ""
-        elif not summary.strip().endswith('.'):
+        elif not summary.strip().endswith('.') and len(summary) > 0:
             summary = summary.strip() + "." 
         summary = summary.replace("„", "<title>").replace("“", "</title>")
         element = self.msdesc.xpath("//tei:msContents", namespaces=nsmap)[0]
