@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_17.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_40a.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_28.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A67_17.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_41.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_40a.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Antiphonale (Passions- und Osterzeit)</title>
+        <title type="main" xml:lang="de">Antiphonale (Passions- und Osterzeit)</title>
+        <title type="main" xml:lang="en">Antiphonary (Passion and Esater Season)</title>
         <title type="desc">A-Gf A 67/17</title>
       <respStmt><resp xml:lang="de">XML Datenmodellierung</resp><resp xml:lang="en">XML modelling</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>

@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_40a.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_41.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_17.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_40a.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_17.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_28.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Prozessionale</title>
+        <title type="main" xml:lang="de">Prozessionale</title>
+        <title type="main" xml:lang="en">Processionale</title>
         <title type="desc">A-Gf S 1/40a</title>
       <respStmt><resp xml:lang="de">XML Datenmodellierung</resp><resp xml:lang="en">XML modelling</resp><persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
             <forename>Fernando</forename>
