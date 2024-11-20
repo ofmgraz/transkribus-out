@@ -34,7 +34,7 @@ def process_file(tkb_file):
 def update_links_and_write(prev_filepath, prev_filename, prev_xml_root, curr_filename, curr_xml_root):
     curr_xml_root.attrib['prev'] = f"https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/{prev_filename}"
     prev_xml_root.attrib['next'] = f"https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/{curr_filename}"
-    print(f"update_links_and_write filepath{prev_filepath}")
+    print(f"update_links_and_write filepath {prev_filepath}")
     print(f"update_links_and_write filename {curr_filename}")
 
     with open(prev_filepath, "w") as f:

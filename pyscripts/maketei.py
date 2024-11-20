@@ -22,6 +22,24 @@ locations = TeiReader("data/indices/listplace.xml")
 persons = TeiReader("data/indices/listperson.xml")
 persons = TeiReader("data/indices/listperson.xml")
 
+titles_deen = {
+    "Antiphonale": "Antiphonal",
+    "Choralbuch": "Choir book",
+    "Graduale": "Gradual",
+    "Hymnar": "Hymnary",
+    "Intonationsbuch": "Book of Intonations",
+    "Lamentationen": "Lamentations",
+    "Lehrbuch": "Textbook",
+    "Litaneien": "Litanies",
+    "Manuale": "Manuals",
+    "Marianische Gesänge": "Marian chants",
+    "Orgelbuch": "Organ book",
+    "Prozessionale": "Processionale",
+    "Psalterium": "Psalterium",
+    "Responsoriale": "Responsoriale",
+    "Sequentiar": "Book of Sequences",
+}
+
 
 class Log:
     def __init__(self, logfile, stdout=False):
@@ -194,7 +212,7 @@ class TeiHeader(TeiTree):
         )
         for idx, row in df.loc[df["Signatur"] == column_name].iterrows():
             self.make_title(
-                row["Titel"], row["Inhalt"], row["Incipit"], row["Signatur"]
+                row["Titel"], row["Title_en"], row["Inhalt"], row["Incipit"], row["Signatur"]
             )
             self.parse_signature(row["Signatur"])
             self.parse_origin(row["Provenienz"], publisher=row["Drucker"])
@@ -209,13 +227,15 @@ class TeiHeader(TeiTree):
             self.parse_photographer(row["Fotograf"], row["Bearbeiter"])
             self.parse_device(row["Gerät"])
 
-    def make_title(self, title, summary, incipit, signature):
-        xmltitle = self.header.xpath("//tei:titleStmt/tei:title[@type='main']", namespaces=nsmap)[0]
+    def make_title(self, title, title_en, summary, incipit, signature):
+        xmltitle = self.header.xpath("//tei:titleStmt/tei:title[@type='main' and @xml:lang='de']", namespaces=nsmap)[0]
+        xmltitle_en = self.header.xpath("//tei:titleStmt/tei:title[@type='main' and @xml:lang='en']", namespaces=nsmap)[0]
         xmldesc = self.header.xpath("//tei:titleStmt/tei:title[@type='desc']", namespaces=nsmap)[0]
         # filedesc = self.header.xpath("//tei:fileDesc", namespaces=nsmap)[0]
         #tistmt = filedesc.xpath("./tei:titleStmt", namespaces=nsmap)[0]
         shelfmark = f"A-Gf {signature}"
         xmltitle.text = title
+        xmltitle_en.text = title_en
         xmldesc.text = shelfmark
         # ET.SubElement(tistmt, "title", type="sub").text = f"{title} ({shelfmark})"
         # ET.SubElement(filedesc, "sourceDesc").text = f"{title} ({shelfmark})"
