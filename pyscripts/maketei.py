@@ -236,6 +236,7 @@ class TeiHeader(TeiTree):
         shelfmark = f"A-Gf {signature}"
         xmltitle.text = title
         xmltitle_en.text = title_en
+        print('TITLES', xmltitle, xmltitle_en)
         xmldesc.text = shelfmark
         # ET.SubElement(tistmt, "title", type="sub").text = f"{title} ({shelfmark})"
         # ET.SubElement(filedesc, "sourceDesc").text = f"{title} ({shelfmark})"
