@@ -44,7 +44,7 @@ jobs:
       run: ./pyscripts/generate_headers.py
     - name: Generate TEI text & facsimile
       run: ./pyscripts/generate_body_p.py
-    - name: Ammend picture paths
+    - name: Amend picture paths
       run: ./shellscripts/amend_pics_paths.sh || true
     - name: Copy files not in Transkribus
       run: cp data/constants/S1*.xml data/editions
