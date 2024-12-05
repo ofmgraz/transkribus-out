@@ -19,7 +19,6 @@ prev_filepath = ""
 def process_file(tkb_file):
     filename = path.basename(tkb_file)
     header_file = path.join(headers_directory, filename)
-
     try:
         tei_source = maketei.TeiBody(tkb_file, header_file)
     except Exception as e:

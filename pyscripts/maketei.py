@@ -1,6 +1,5 @@
 from datetime import datetime
 from acdh_tei_pyutils.tei import TeiReader, ET
-import json
 import os
 import re
 import pandas as pd
@@ -17,6 +16,8 @@ nsmap = {
 
 xml = "{http://www.w3.org/XML/1998/namespace}"
 tei = "{http://www.tei-c.org/ns/1.0}"
+
+df = pd.read_csv("data/constants/handles_img.csv")
 
 locations = TeiReader("data/indices/listplace.xml")
 persons = TeiReader("data/indices/listperson.xml")
@@ -105,7 +106,7 @@ class TeiBody(TeiTree):
     def __init__(self, source_tkb, source_tei):
         super().__init__(source_tkb, source_tei)
         self.tkb = self.read_xml_input(self.filename)
-        self.tkb = self.amend_pics_url(self.tkb, self.doc_id)
+        self.tkb = self.amend_pics_url(self.tkb, self.doc_id, df)
         self.root.append(self.tkb.any_xpath("//tei:facsimile")[0])
         self.root.append(self.tkb.any_xpath("//tei:text")[0])
         # self.make_text()
@@ -134,7 +135,7 @@ class TeiBody(TeiTree):
         # e.getparent().remove(e)
 
     @staticmethod
-    def amend_pics_url(tree, doc_id):
+    def amend_pics_url(tree, doc_id, handles):
         graphic_elements = tree.any_xpath(".//tei:graphic")
         for element in graphic_elements:
             img_name = (
@@ -156,10 +157,32 @@ class TeiBody(TeiTree):
                 img_name = re.sub(r"^[\d_]*", "", img_name)
                 img_name = re.sub(r"A-Gf_([\d])", "A-Gf_A\g<1>", img_name)
                 img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
+                img_name = img_name.replace("Gu", "Gf").split(".jpg")[0]
+                img_name = re.sub(r"^.*A-Gf_", "A-Gf_", img_name)
+                img_name = re.sub(r"^[\d_]*", "", img_name)
+                img_name = re.sub(r"A-Gf_([\d])", "A-Gf_A\g<1>", img_name)
+                img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
+                img_name = img_name.replace("view_IMG_0134", "A-Gf_S1_61-VDS").replace('A-Gf_64', 'A-Gf_A64').replace(' ', '').replace('%2B', '_')
+                img_name = img_name.replace("67-43", "67_43").replace('.TIF', '').replace('S1_67_', "S1_67-")
+                img_name = re.sub("iiif(\.acdh\.oeaw\.ac\.at)/iiif/images/ofmgraz/A-Gf_([AS]\d{,2}_.{1,3})-(.*).jp2.*", r"id\1/ofmgraz/derivatives/\2/A-Gf_\2-\3.tif", img_name)
+                img_name = re.sub("viewer(\.acdh\.oeaw\.ac\.at)/viewer/api/v1/records/([AS]\d{,2}_.{1,3})/files/images/(A-Gf_[AS]\d{,2}_.{1,3}\-.{,6})/.*", r"id\1/ofmgraz/derivatives/\2/\3.tif", img_name)
+                img_name = re.sub(r"(S1_22/A-Gf_S1_2)3", r"\g<1>2", img_name)
                 new_base_url = f"https://id.acdh.oeaw.ac.at/ofmgraz/derivatives/{doc_id.rstrip('.xml')}"
                 if tree.any_xpath(".//tei:measure[@unit = 'page']"):
                     img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
-                element.attrib["url"] = f"{new_base_url}/{img_name}.tif"
+                new_path = re.sub(r"(S1_22/A-Gf_S1_2)3", r"\g<1>2", f"{new_base_url}/{img_name}.tif")
+                if handles.loc[handles['arche_id'] == new_path, 'handle_id'].any():
+                    handle = handles.loc[handles['arche_id'] == new_path, 'handle_id'].iloc[0]
+                elif handles.loc[handles['arche_id'] == new_path.replace('.tif', 'r.tif'), 'handle_id'].any():
+                    handle = handles.loc[handles['arche_id'] == new_path.replace('.tif', 'r.tif'), 'handle_id'].iloc[0]
+                elif  handles.loc[handles['arche_id'] == new_path.replace('rr.tif', 'r.tif').replace('vv.tif', 'v.tif'), 'handle_id'].any():
+                    handle = handles.loc[handles['arche_id'] == new_path.replace('rr.tif', 'r.tif').replace('vv.tif', 'v.tif'), 'handle_id'].iloc[0]
+                elif handles.loc[handles['arche_id'] == new_path.replace('a00', '00'), 'handle_id'].any():
+                    handle = handles.loc[handles['arche_id'] == new_path.replace('a00', '00'), 'handle_id'].iloc[0]
+                else:
+                    new_path = re.sub("(00\d)[rv]", r'\1', new_path)
+                    handle = handles.loc[handles['arche_id'] == new_path, 'handle_id'].iloc[0]
+                element.attrib["url"] = handle
                 # f"https://loris.acdh.oeaw.ac.at/uuid:/ofmgraz/derivatives/{doc_id.rstrip('.xml')}/{img_name}.tif/full/full/0/default.jpg"
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
@@ -231,7 +254,6 @@ class TeiHeader(TeiTree):
         shelfmark = f"A-Gf {signature}"
         xmltitle.text = title
         xmltitle_en.text = title_en
-        print('TITLES', xmltitle, xmltitle_en)
         xmldesc.text = shelfmark
         # ET.SubElement(tistmt, "title", type="sub").text = f"{title} ({shelfmark})"
         # ET.SubElement(filedesc, "sourceDesc").text = f"{title} ({shelfmark})"
@@ -261,7 +283,6 @@ class TeiHeader(TeiTree):
             #listrelation = ET.SubElement(
             #    self.root.xpath(".//tei:standOff", namespaces=nsmap)[0], "listRelation"
             #    )
-        print(f"PID: {pid}")
         if pid and not self.root.xpath(
             f'.//tei:place[@xml:id="{pid}"]', namespaces=nsmap
         ):
