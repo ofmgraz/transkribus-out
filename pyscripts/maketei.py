@@ -156,15 +156,10 @@ class TeiBody(TeiTree):
                 img_name = re.sub(r"^[\d_]*", "", img_name)
                 img_name = re.sub(r"A-Gf_([\d])", "A-Gf_A\g<1>", img_name)
                 img_name = re.sub(r"A-Gf_A_([\d])", "A-Gf_A\g<1>", img_name)
+                new_base_url = f"https://id.acdh.oeaw.ac.at/ofmgraz/derivatives/{doc_id.rstrip('.xml')}"
                 if tree.any_xpath(".//tei:measure[@unit = 'page']"):
                     img_name = re.sub(r"(A-Gf_S\d_\d*-\d*)[rv]", "\g<1>", img_name)
-                if "A63_51" in img_name:
-                    new_base_url = "https://iiif.acdh.oeaw.ac.at/iiif/images/ofmgraz"
-                    img_name = f"{img_name}.jp2"
-                else:
-                    new_base_url = "https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records"
-                    img_name = f"{doc_id.rstrip('.xml')}/files/images/{img_name}"
-                element.attrib["url"] = f"{new_base_url}/{img_name}/full/!1024,1024/0/default.jpg"
+                element.attrib["url"] = f"{new_base_url}/{img_name}.tif"
                 # f"https://loris.acdh.oeaw.ac.at/uuid:/ofmgraz/derivatives/{doc_id.rstrip('.xml')}/{img_name}.tif/full/full/0/default.jpg"
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
         return tree
