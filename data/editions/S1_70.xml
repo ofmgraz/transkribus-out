@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="S1_70.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A70_41.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_43.xml">
   <teiHeader>
     <fileDesc>
@@ -87,7 +86,7 @@
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
         </availability>
         <date when="2024-08-19">2024</date>
-      <idno type="handle">https://hdl.handle.net/21.11115/0000-0012-2286-E</idno></publicationStmt>
+      </publicationStmt>
       <notesStmt>
         <note xml:lang="de">Originale mit einem Stativlaser-Gerät digitalisiert</note>
         <note xml:lang="en">Originals digitised with a Stativlaser device</note>
@@ -216,7 +215,7 @@
         </person></listPerson></standOff>
 <facsimile>
       <surface ulx="0" uly="0" lrx="2000" lry="2990" xml:id="facs_1">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-000r/full/!1024,1024/0/default.jpg" width="2000px" height="2990px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC10-8" width="2000px" height="2990px"/>
          <zone points="52,150 52,2845 1656,2845 1656,150" rendition="TextRegion" xml:id="facs_1_tr_1" subtype="rubrik2">
             <zone points="56,272 1225,286 1368,330 1641,296 1639,189 54,177" rendition="Line" xml:id="facs_1_tr_1_tl_1"/>
             <zone points="805,368 865,360 915,384 921,378 949,386 984,382 982,298 945,314 929,310 917,322 907,314 891,320 855,292 803,290" rendition="Line" xml:id="facs_1_tr_1_tl_2"/>
@@ -240,10 +239,10 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2808" xml:id="facs_2">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-000v/full/!1024,1024/0/default.jpg" width="2000px" height="2808px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC11-7" width="2000px" height="2808px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2948" xml:id="facs_3">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-001/full/!1024,1024/0/default.jpg" width="2000px" height="2948px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC12-6" width="2000px" height="2948px"/>
          <zone points="571,101 1031,101 1031,182 571,182" rendition="TextRegion" xml:id="facs_3_region_1720950863588_192" subtype="header">
             <zone points="571,101 1031,101 1031,182 571,182" rendition="Line" xml:id="facs_3_region_1720950863588_192_line_000"/>
          </zone>
@@ -287,7 +286,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2797" xml:id="facs_4">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-002/full/!1024,1024/0/default.jpg" width="2000px" height="2797px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC13-5" width="2000px" height="2797px"/>
          <zone points="1457,183 366,189 366,111 1457,105" rendition="TextRegion" xml:id="facs_4_r" subtype="header">
             <zone points="1457,183 366,189 366,111 1457,105" rendition="Line" xml:id="facs_4_r_line_000"/>
          </zone>
@@ -324,7 +323,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2771" xml:id="facs_5">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-003/full/!1024,1024/0/default.jpg" width="2000px" height="2771px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC14-4" width="2000px" height="2771px"/>
          <zone points="632,116 1614,116 1614,192 632,192" rendition="TextRegion" xml:id="facs_5_region_1720950889425_204" subtype="header">
             <zone points="632,116 1614,116 1614,192 632,192" rendition="Line" xml:id="facs_5_region_1720950889425_204_line_000"/>
          </zone>
@@ -366,7 +365,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2835" xml:id="facs_6">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-004/full/!1024,1024/0/default.jpg" width="2000px" height="2835px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC15-3" width="2000px" height="2835px"/>
          <zone points="285,63 1442,63 1442,156 285,156" rendition="TextRegion" xml:id="facs_6_region_1720950904890_212" subtype="header">
             <zone points="285,63 1442,63 1442,156 285,156" rendition="Line" xml:id="facs_6_region_1720950904890_212_line_000"/>
          </zone>
@@ -410,7 +409,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2780" xml:id="facs_7">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-005/full/!1024,1024/0/default.jpg" width="2000px" height="2780px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC16-2" width="2000px" height="2780px"/>
          <zone points="1628,187 575,185 575,115 1628,117" rendition="TextRegion" xml:id="facs_7_r" subtype="header">
             <zone points="1628,187 575,185 575,115 1628,117" rendition="Line" xml:id="facs_7_r_line_000"/>
          </zone>
@@ -456,7 +455,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2835" xml:id="facs_8">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-006/full/!1024,1024/0/default.jpg" width="2000px" height="2835px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC17-1" width="2000px" height="2835px"/>
          <zone points="1428,153 281,165 281,69 1428,57" rendition="TextRegion" xml:id="facs_8_r" subtype="header">
             <zone points="1428,153 281,165 281,69 1428,57" rendition="Line" xml:id="facs_8_r_line_000"/>
          </zone>
@@ -494,7 +493,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2813" xml:id="facs_9">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-007/full/!1024,1024/0/default.jpg" width="2000px" height="2813px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC18-0" width="2000px" height="2813px"/>
          <zone points="1596,219 501,216 501,133 1596,136" rendition="TextRegion" xml:id="facs_9_r" subtype="header">
             <zone points="1596,219 501,216 501,133 1596,136" rendition="Line" xml:id="facs_9_r_line_000"/>
          </zone>
@@ -546,7 +545,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2837" xml:id="facs_10">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-008/full/!1024,1024/0/default.jpg" width="2000px" height="2837px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC19-F" width="2000px" height="2837px"/>
          <zone points="297,97 1438,97 1438,169 297,169" rendition="TextRegion" xml:id="facs_10_region_1720951265510_389" subtype="header">
             <zone points="297,97 1438,97 1438,169 297,169" rendition="Line" xml:id="facs_10_region_1720951265510_389_line_000"/>
          </zone>
@@ -593,7 +592,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2840" xml:id="facs_11">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-009/full/!1024,1024/0/default.jpg" width="2000px" height="2840px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC1A-E" width="2000px" height="2840px"/>
          <zone points="520,117 1595,120 1602,194 520,191" rendition="TextRegion" xml:id="facs_11_TextRegion_1720951289775_402" subtype="header">
             <zone points="520,117 1595,120 1602,194 520,191" rendition="Line" xml:id="facs_11_TextRegion_1720951289775_402_line_000"/>
          </zone>
@@ -641,7 +640,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2792" xml:id="facs_12">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-010/full/!1024,1024/0/default.jpg" width="2000px" height="2792px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC1B-D" width="2000px" height="2792px"/>
          <zone points="1478,196 343,193 343,109 1478,112" rendition="TextRegion" xml:id="facs_12_r" subtype="header">
             <zone points="1478,196 343,193 343,109 1478,112" rendition="Line" xml:id="facs_12_r_line_000"/>
          </zone>
@@ -687,7 +686,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2833" xml:id="facs_13">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-011/full/!1024,1024/0/default.jpg" width="2000px" height="2833px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC1C-C" width="2000px" height="2833px"/>
          <zone points="1621,225 549,222 549,134 1621,137" rendition="TextRegion" xml:id="facs_13_r_10" subtype="header">
             <zone points="1621,225 549,222 549,134 1621,137" rendition="Line" xml:id="facs_13_r_10_line_000"/>
          </zone>
@@ -729,7 +728,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2809" xml:id="facs_14">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-012/full/!1024,1024/0/default.jpg" width="2000px" height="2809px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC1D-B" width="2000px" height="2809px"/>
          <zone points="1419,210 320,210 320,138 1419,138" rendition="TextRegion" xml:id="facs_14_r" subtype="header">
             <zone points="1419,210 320,210 320,138 1419,138" rendition="Line" xml:id="facs_14_r_line_000"/>
          </zone>
@@ -774,7 +773,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2842" xml:id="facs_15">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-013/full/!1024,1024/0/default.jpg" width="2000px" height="2842px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC1E-A" width="2000px" height="2842px"/>
          <zone points="1609,196 530,193 530,112 1609,115" rendition="TextRegion" xml:id="facs_15_r" subtype="header">
             <zone points="1609,196 530,193 530,112 1609,115" rendition="Line" xml:id="facs_15_r_line_000"/>
          </zone>
@@ -815,7 +814,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2805" xml:id="facs_16">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-014/full/!1024,1024/0/default.jpg" width="2000px" height="2805px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC1F-9" width="2000px" height="2805px"/>
          <zone points="1456,186 312,211 312,143 1456,118" rendition="TextRegion" xml:id="facs_16_r_5" subtype="header">
             <zone points="1456,186 312,211 312,143 1456,118" rendition="Line" xml:id="facs_16_r_5_line_000"/>
          </zone>
@@ -869,7 +868,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2840" xml:id="facs_17">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-015/full/!1024,1024/0/default.jpg" width="2000px" height="2840px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC20-6" width="2000px" height="2840px"/>
          <zone points="1619,190 533,190 533,110 1619,110" rendition="TextRegion" xml:id="facs_17_r" subtype="header">
             <zone points="1619,190 533,190 533,110 1619,110" rendition="Line" xml:id="facs_17_r_line_000"/>
          </zone>
@@ -913,7 +912,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2826" xml:id="facs_18">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-016/full/!1024,1024/0/default.jpg" width="2000px" height="2826px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC21-5" width="2000px" height="2826px"/>
          <zone points="1450,176 330,180 330,110 1450,106" rendition="TextRegion" xml:id="facs_18_r" subtype="header">
             <zone points="1450,176 330,180 330,110 1450,106" rendition="Line" xml:id="facs_18_r_line_000"/>
          </zone>
@@ -954,7 +953,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2840" xml:id="facs_19">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-017/full/!1024,1024/0/default.jpg" width="2000px" height="2840px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC22-4" width="2000px" height="2840px"/>
          <zone points="1595,203 573,191 573,114 1595,126" rendition="TextRegion" xml:id="facs_19_r" subtype="header">
             <zone points="1595,203 573,191 573,114 1595,126" rendition="Line" xml:id="facs_19_r_line_000"/>
          </zone>
@@ -992,7 +991,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2833" xml:id="facs_20">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-018/full/!1024,1024/0/default.jpg" width="2000px" height="2833px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC23-3" width="2000px" height="2833px"/>
          <zone points="1407,171 342,179 342,95 1407,87" rendition="TextRegion" xml:id="facs_20_r" subtype="header">
             <zone points="1407,171 342,179 342,95 1407,87" rendition="Line" xml:id="facs_20_r_line_000"/>
          </zone>
@@ -1033,7 +1032,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2845" xml:id="facs_21">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-019/full/!1024,1024/0/default.jpg" width="2000px" height="2845px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC24-2" width="2000px" height="2845px"/>
          <zone points="612,111 1615,111 1615,191 612,191" rendition="TextRegion" xml:id="facs_21_region_1720951590901_556" subtype="header">
             <zone points="612,111 1615,111 1615,191 612,191" rendition="Line" xml:id="facs_21_region_1720951590901_556_line_000"/>
          </zone>
@@ -1079,7 +1078,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2845" xml:id="facs_22">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-020/full/!1024,1024/0/default.jpg" width="2000px" height="2845px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC25-1" width="2000px" height="2845px"/>
          <zone points="1466,167 343,173 343,107 1466,101" rendition="TextRegion" xml:id="facs_22_r" subtype="header">
             <zone points="1466,167 343,173 343,107 1466,101" rendition="Line" xml:id="facs_22_r_line_000"/>
          </zone>
@@ -1123,7 +1122,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2829" xml:id="facs_23">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-021/full/!1024,1024/0/default.jpg" width="2000px" height="2829px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC26-0" width="2000px" height="2829px"/>
          <zone points="1636,191 534,184 534,114 1636,121" rendition="TextRegion" xml:id="facs_23_r" subtype="header">
             <zone points="1636,191 534,184 534,114 1636,121" rendition="Line" xml:id="facs_23_r_line_000"/>
          </zone>
@@ -1161,7 +1160,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2834" xml:id="facs_24">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-022/full/!1024,1024/0/default.jpg" width="2000px" height="2834px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC27-F" width="2000px" height="2834px"/>
          <zone points="1464,173 344,179 344,113 1464,107" rendition="TextRegion" xml:id="facs_24_r" subtype="header">
             <zone points="1464,173 344,179 344,113 1464,107" rendition="Line" xml:id="facs_24_r_line_000"/>
          </zone>
@@ -1208,7 +1207,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2815" xml:id="facs_25">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-023/full/!1024,1024/0/default.jpg" width="2000px" height="2815px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC28-E" width="2000px" height="2815px"/>
          <zone points="1625,206 560,196 560,111 1625,121" rendition="TextRegion" xml:id="facs_25_r" subtype="header">
             <zone points="1625,206 560,196 560,111 1625,121" rendition="Line" xml:id="facs_25_r_line_000"/>
          </zone>
@@ -1255,7 +1254,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2830" xml:id="facs_26">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-024/full/!1024,1024/0/default.jpg" width="2000px" height="2830px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC29-D" width="2000px" height="2830px"/>
          <zone points="1427,190 317,184 317,102 1427,108" rendition="TextRegion" xml:id="facs_26_r" subtype="header">
             <zone points="1427,190 317,184 317,102 1427,108" rendition="Line" xml:id="facs_26_r_line_000"/>
          </zone>
@@ -1300,7 +1299,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2813" xml:id="facs_27">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-025/full/!1024,1024/0/default.jpg" width="2000px" height="2813px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC2A-C" width="2000px" height="2813px"/>
          <zone points="1593,191 519,189 519,113 1593,115" rendition="TextRegion" xml:id="facs_27_r" subtype="header">
             <zone points="1593,191 519,189 519,113 1593,115" rendition="Line" xml:id="facs_27_r_line_000"/>
          </zone>
@@ -1349,7 +1348,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2850" xml:id="facs_28">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-026/full/!1024,1024/0/default.jpg" width="2000px" height="2850px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC2B-B" width="2000px" height="2850px"/>
          <zone points="1480,174 348,192 348,112 1480,94" rendition="TextRegion" xml:id="facs_28_r" subtype="header">
             <zone points="1480,174 348,192 348,112 1480,94" rendition="Line" xml:id="facs_28_r_line_000"/>
          </zone>
@@ -1395,7 +1394,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2859" xml:id="facs_29">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-027/full/!1024,1024/0/default.jpg" width="2000px" height="2859px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC2C-A" width="2000px" height="2859px"/>
          <zone points="478,150 1607,158 1623,235 476,227" rendition="TextRegion" xml:id="facs_29_TextRegion_1720951768448_665" subtype="header">
             <zone points="478,150 1607,158 1623,235 476,227" rendition="Line" xml:id="facs_29_TextRegion_1720951768448_665_line_000"/>
          </zone>
@@ -1443,7 +1442,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2799" xml:id="facs_30">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-028/full/!1024,1024/0/default.jpg" width="2000px" height="2799px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC2D-9" width="2000px" height="2799px"/>
          <zone points="1477,175 330,181 330,107 1477,101" rendition="TextRegion" xml:id="facs_30_r" subtype="header">
             <zone points="1477,175 330,181 330,107 1477,101" rendition="Line" xml:id="facs_30_r_line_000"/>
          </zone>
@@ -1477,7 +1476,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2862" xml:id="facs_31">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-029/full/!1024,1024/0/default.jpg" width="2000px" height="2862px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC2E-8" width="2000px" height="2862px"/>
          <zone points="460,150 1608,150 1608,232 460,232" rendition="TextRegion" xml:id="facs_31_region_1720951822087_694" subtype="header">
             <zone points="460,150 1608,150 1608,232 460,232" rendition="Line" xml:id="facs_31_region_1720951822087_694_line_000"/>
          </zone>
@@ -1531,7 +1530,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2783" xml:id="facs_32">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-030/full/!1024,1024/0/default.jpg" width="2000px" height="2783px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC2F-7" width="2000px" height="2783px"/>
          <zone points="1490,171 343,164 343,89 1490,96" rendition="TextRegion" xml:id="facs_32_r" subtype="header">
             <zone points="1490,171 343,164 343,89 1490,96" rendition="Line" xml:id="facs_32_r_line_000"/>
          </zone>
@@ -1579,7 +1578,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2841" xml:id="facs_33">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-031/full/!1024,1024/0/default.jpg" width="2000px" height="2841px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC30-4" width="2000px" height="2841px"/>
          <zone points="1587,214 452,204 452,127 1587,137" rendition="TextRegion" xml:id="facs_33_r" subtype="header">
             <zone points="1587,214 452,204 452,127 1587,137" rendition="Line" xml:id="facs_33_r_line_000"/>
          </zone>
@@ -1627,7 +1626,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2810" xml:id="facs_34">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-032/full/!1024,1024/0/default.jpg" width="2000px" height="2810px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC31-3" width="2000px" height="2810px"/>
          <zone points="353,100 1513,100 1513,173 353,173" rendition="TextRegion" xml:id="facs_34_tr_1721824280" subtype="0.99">
             <zone points="353,100 1513,100 1513,173 353,173" rendition="Line" xml:id="facs_34_tr_1721824280_line_000"/>
          </zone>
@@ -1675,7 +1674,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2854" xml:id="facs_35">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-033/full/!1024,1024/0/default.jpg" width="2000px" height="2854px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC32-2" width="2000px" height="2854px"/>
          <zone points="362,123 1598,123 1598,216 362,216" rendition="TextRegion" xml:id="facs_35_tr_1721824255" subtype="0.99">
             <zone points="362,123 1598,123 1598,216 362,216" rendition="Line" xml:id="facs_35_tr_1721824255_line_000"/>
          </zone>
@@ -1720,7 +1719,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2737" xml:id="facs_36">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-034/full/!1024,1024/0/default.jpg" width="2000px" height="2737px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC33-1" width="2000px" height="2737px"/>
          <zone points="339,94 1478,94 1478,169 339,169" rendition="TextRegion" xml:id="facs_36_tr_1721824285" subtype="0.99">
             <zone points="339,94 1478,94 1478,169 339,169" rendition="Line" xml:id="facs_36_tr_1721824285_line_000"/>
          </zone>
@@ -1766,7 +1765,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2847" xml:id="facs_37">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-035/full/!1024,1024/0/default.jpg" width="2000px" height="2847px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC34-0" width="2000px" height="2847px"/>
          <zone points="315,128 1569,128 1569,198 315,198" rendition="TextRegion" xml:id="facs_37_tr_1721824238" subtype="0.99">
             <zone points="315,128 1569,128 1569,198 315,198" rendition="Line" xml:id="facs_37_tr_1721824238_line_000"/>
          </zone>
@@ -1814,7 +1813,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2763" xml:id="facs_38">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-036/full/!1024,1024/0/default.jpg" width="2000px" height="2763px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC35-F" width="2000px" height="2763px"/>
          <zone points="367,106 1564,106 1564,178 367,178" rendition="TextRegion" xml:id="facs_38_tr_1721824230" subtype="0.99">
             <zone points="367,106 1564,106 1564,178 367,178" rendition="Line" xml:id="facs_38_tr_1721824230_line_000"/>
          </zone>
@@ -1861,7 +1860,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2850" xml:id="facs_39">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-037/full/!1024,1024/0/default.jpg" width="2000px" height="2850px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC36-E" width="2000px" height="2850px"/>
          <zone points="396,137 1570,137 1570,218 396,218" rendition="TextRegion" xml:id="facs_39_tr_1721824283" subtype="0.99">
             <zone points="396,137 1570,137 1570,218 396,218" rendition="Line" xml:id="facs_39_tr_1721824283_line_000"/>
          </zone>
@@ -1909,7 +1908,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2752" xml:id="facs_40">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-038/full/!1024,1024/0/default.jpg" width="2000px" height="2752px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC37-D" width="2000px" height="2752px"/>
          <zone points="313,101 1501,101 1501,175 313,175" rendition="TextRegion" xml:id="facs_40_tr_1721824244" subtype="0.99">
             <zone points="313,101 1501,101 1501,175 313,175" rendition="Line" xml:id="facs_40_tr_1721824244_line_000"/>
          </zone>
@@ -1966,7 +1965,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2856" xml:id="facs_41">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-039/full/!1024,1024/0/default.jpg" width="2000px" height="2856px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC38-C" width="2000px" height="2856px"/>
          <zone points="728,134 940,134 940,211 728,211" rendition="TextRegion" xml:id="facs_41_tr_1721824278" subtype="0.99">
             <zone points="728,134 940,134 940,211 728,211" rendition="Line" xml:id="facs_41_tr_1721824278_line_000"/>
          </zone>
@@ -2037,7 +2036,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2737" xml:id="facs_42">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-040/full/!1024,1024/0/default.jpg" width="2000px" height="2737px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC39-B" width="2000px" height="2737px"/>
          <zone points="342,103 1582,103 1582,176 342,176" rendition="TextRegion" xml:id="facs_42_tr_1721824246" subtype="0.99">
             <zone points="342,103 1582,103 1582,176 342,176" rendition="Line" xml:id="facs_42_tr_1721824246_line_000"/>
          </zone>
@@ -2075,7 +2074,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2856" xml:id="facs_43">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-041/full/!1024,1024/0/default.jpg" width="2000px" height="2856px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC3A-A" width="2000px" height="2856px"/>
          <zone points="369,111 1567,111 1567,191 369,191" rendition="TextRegion" xml:id="facs_43_tr_1721824231" subtype="0.99">
             <zone points="369,111 1567,111 1567,191 369,191" rendition="Line" xml:id="facs_43_tr_1721824231_line_000"/>
          </zone>
@@ -2126,7 +2125,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2775" xml:id="facs_44">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-042/full/!1024,1024/0/default.jpg" width="2000px" height="2775px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC3B-9" width="2000px" height="2775px"/>
          <zone points="377,110 1646,110 1646,176 377,176" rendition="TextRegion" xml:id="facs_44_tr_1721824268" subtype="0.99">
             <zone points="377,110 1646,110 1646,176 377,176" rendition="Line" xml:id="facs_44_tr_1721824268_line_000"/>
          </zone>
@@ -2170,7 +2169,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2865" xml:id="facs_45">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-043/full/!1024,1024/0/default.jpg" width="2000px" height="2865px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC3C-8" width="2000px" height="2865px"/>
          <zone points="365,115 1608,115 1608,200 365,200" rendition="TextRegion" xml:id="facs_45_tr_1721824279" subtype="0.99">
             <zone points="365,115 1608,115 1608,200 365,200" rendition="Line" xml:id="facs_45_tr_1721824279_line_000"/>
          </zone>
@@ -2220,7 +2219,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2776" xml:id="facs_46">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-044/full/!1024,1024/0/default.jpg" width="2000px" height="2776px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC3D-7" width="2000px" height="2776px"/>
          <zone points="334,113 1573,113 1573,180 334,180" rendition="TextRegion" xml:id="facs_46_tr_1721824269" subtype="0.99">
             <zone points="334,113 1573,113 1573,180 334,180" rendition="Line" xml:id="facs_46_tr_1721824269_line_000"/>
          </zone>
@@ -2274,7 +2273,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2850" xml:id="facs_47">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-045/full/!1024,1024/0/default.jpg" width="2000px" height="2850px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC3E-6" width="2000px" height="2850px"/>
          <zone points="379,104 1629,104 1629,185 379,185" rendition="TextRegion" xml:id="facs_47_tr_1721824258" subtype="0.99">
             <zone points="379,104 1629,104 1629,185 379,185" rendition="Line" xml:id="facs_47_tr_1721824258_line_000"/>
          </zone>
@@ -2316,7 +2315,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2788" xml:id="facs_48">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-046/full/!1024,1024/0/default.jpg" width="2000px" height="2788px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC3F-5" width="2000px" height="2788px"/>
          <zone points="1047,124 1263,124 1263,210 1047,210" rendition="TextRegion" xml:id="facs_48_tr_1721824230" subtype="0.99">
             <zone points="1047,124 1263,124 1263,210 1047,210" rendition="Line" xml:id="facs_48_tr_1721824230_line_000"/>
          </zone>
@@ -2363,7 +2362,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2853" xml:id="facs_49">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-047/full/!1024,1024/0/default.jpg" width="2000px" height="2853px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC40-2" width="2000px" height="2853px"/>
          <zone points="405,107 1594,107 1594,189 405,189" rendition="TextRegion" xml:id="facs_49_tr_1721824277" subtype="0.99">
             <zone points="405,107 1594,107 1594,189 405,189" rendition="Line" xml:id="facs_49_tr_1721824277_line_000"/>
          </zone>
@@ -2418,7 +2417,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2772" xml:id="facs_50">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-048/full/!1024,1024/0/default.jpg" width="2000px" height="2772px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC41-1" width="2000px" height="2772px"/>
          <zone points="387,105 1582,105 1582,181 387,181" rendition="TextRegion" xml:id="facs_50_tr_1721824222" subtype="0.99">
             <zone points="387,105 1582,105 1582,181 387,181" rendition="Line" xml:id="facs_50_tr_1721824222_line_000"/>
          </zone>
@@ -2462,7 +2461,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2808" xml:id="facs_51">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-049/full/!1024,1024/0/default.jpg" width="2000px" height="2808px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC42-0" width="2000px" height="2808px"/>
          <zone points="332,111 1578,111 1578,187 332,187" rendition="TextRegion" xml:id="facs_51_tr_1721824253" subtype="0.99">
             <zone points="332,111 1578,111 1578,187 332,187" rendition="Line" xml:id="facs_51_tr_1721824253_line_000"/>
          </zone>
@@ -2514,7 +2513,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2919" xml:id="facs_52">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-050/full/!1024,1024/0/default.jpg" width="2000px" height="2919px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC43-F" width="2000px" height="2919px"/>
          <zone points="325,114 1603,114 1603,193 325,193" rendition="TextRegion" xml:id="facs_52_tr_1721824253" subtype="0.99">
             <zone points="325,114 1603,114 1603,193 325,193" rendition="Line" xml:id="facs_52_tr_1721824253_line_000"/>
          </zone>
@@ -2557,7 +2556,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2809" xml:id="facs_53">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-051/full/!1024,1024/0/default.jpg" width="2000px" height="2809px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC44-E" width="2000px" height="2809px"/>
          <zone points="454,119 1590,119 1590,200 454,200" rendition="TextRegion" xml:id="facs_53_tr_1721824262" subtype="0.99">
             <zone points="454,119 1590,119 1590,200 454,200" rendition="Line" xml:id="facs_53_tr_1721824262_line_000"/>
          </zone>
@@ -2594,7 +2593,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2868" xml:id="facs_54">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-052/full/!1024,1024/0/default.jpg" width="2000px" height="2868px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC45-D" width="2000px" height="2868px"/>
          <zone points="378,107 1276,107 1276,181 378,181" rendition="TextRegion" xml:id="facs_54_tr_1721824257" subtype="0.99">
             <zone points="378,107 1276,107 1276,181 378,181" rendition="Line" xml:id="facs_54_tr_1721824257_line_000"/>
          </zone>
@@ -2641,7 +2640,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2802" xml:id="facs_55">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-053/full/!1024,1024/0/default.jpg" width="2000px" height="2802px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC46-C" width="2000px" height="2802px"/>
          <zone points="272,109 1659,109 1659,183 272,183" rendition="TextRegion" xml:id="facs_55_tr_1721824241" subtype="0.99">
             <zone points="272,109 1659,109 1659,183 272,183" rendition="Line" xml:id="facs_55_tr_1721824241_line_000"/>
          </zone>
@@ -2691,7 +2690,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2877" xml:id="facs_56">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-054/full/!1024,1024/0/default.jpg" width="2000px" height="2877px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC47-B" width="2000px" height="2877px"/>
          <zone points="360,115 1635,115 1635,189 360,189" rendition="TextRegion" xml:id="facs_56_tr_1721824269" subtype="0.99">
             <zone points="360,115 1635,115 1635,189 360,189" rendition="Line" xml:id="facs_56_tr_1721824269_line_000"/>
          </zone>
@@ -2742,7 +2741,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2802" xml:id="facs_57">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-055/full/!1024,1024/0/default.jpg" width="2000px" height="2802px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC48-A" width="2000px" height="2802px"/>
          <zone points="359,112 1546,112 1546,189 359,189" rendition="TextRegion" xml:id="facs_57_tr_1721824258" subtype="0.99">
             <zone points="359,112 1546,112 1546,189 359,189" rendition="Line" xml:id="facs_57_tr_1721824258_line_000"/>
          </zone>
@@ -2781,7 +2780,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2860" xml:id="facs_58">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-056/full/!1024,1024/0/default.jpg" width="2000px" height="2860px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC49-9" width="2000px" height="2860px"/>
          <zone points="1083,121 1274,121 1274,198 1083,198" rendition="TextRegion" xml:id="facs_58_tr_1721824244" subtype="0.99">
             <zone points="1083,121 1274,121 1274,198 1083,198" rendition="Line" xml:id="facs_58_tr_1721824244_line_000"/>
          </zone>
@@ -2818,7 +2817,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2802" xml:id="facs_59">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-057/full/!1024,1024/0/default.jpg" width="2000px" height="2802px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC4A-8" width="2000px" height="2802px"/>
          <zone points="260,107 1589,107 1589,189 260,189" rendition="TextRegion" xml:id="facs_59_tr_1721824284" subtype="0.99">
             <zone points="260,107 1589,107 1589,189 260,189" rendition="Line" xml:id="facs_59_tr_1721824284_line_000"/>
          </zone>
@@ -2857,7 +2856,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2861" xml:id="facs_60">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-058/full/!1024,1024/0/default.jpg" width="2000px" height="2861px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC4B-7" width="2000px" height="2861px"/>
          <zone points="406,132 406,167 409,177 458,179 475,183 566,188 866,186 912,189 1230,189 1234,187 1234,123 1225,119 999,120 947,117 576,112 418,113 411,115 408,119" rendition="TextRegion" xml:id="facs_60_tr_1721824261" subtype="0.77">
             <zone points="406,132 409,177 475,183 1234,187 1225,119 408,119" rendition="Line" xml:id="facs_60_tr_1721824261_line_000"/>
          </zone>
@@ -2907,7 +2906,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2800" xml:id="facs_61">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-059/full/!1024,1024/0/default.jpg" width="2000px" height="2800px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC4C-6" width="2000px" height="2800px"/>
          <zone points="256,106 1591,106 1591,185 256,185" rendition="TextRegion" xml:id="facs_61_tr_1721824257" subtype="0.99">
             <zone points="256,106 1591,106 1591,185 256,185" rendition="Line" xml:id="facs_61_tr_1721824257_line_000"/>
          </zone>
@@ -2954,7 +2953,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2853" xml:id="facs_62">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-060/full/!1024,1024/0/default.jpg" width="2000px" height="2853px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC4D-5" width="2000px" height="2853px"/>
          <zone points="331,95 1533,95 1533,168 331,168" rendition="TextRegion" xml:id="facs_62_tr_1721824279" subtype="0.99">
             <zone points="331,95 1533,95 1533,168 331,168" rendition="Line" xml:id="facs_62_tr_1721824279_line_000"/>
          </zone>
@@ -3003,7 +3002,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2800" xml:id="facs_63">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-061/full/!1024,1024/0/default.jpg" width="2000px" height="2800px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC4E-4" width="2000px" height="2800px"/>
          <zone points="292,112 1605,112 1605,197 292,197" rendition="TextRegion" xml:id="facs_63_tr_1721824228" subtype="0.99">
             <zone points="292,112 1605,112 1605,197 292,197" rendition="Line" xml:id="facs_63_tr_1721824228_line_000"/>
          </zone>
@@ -3051,7 +3050,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2788" xml:id="facs_64">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-062/full/!1024,1024/0/default.jpg" width="2000px" height="2788px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC4F-3" width="2000px" height="2788px"/>
          <zone points="334,97 1505,97 1505,173 334,173" rendition="TextRegion" xml:id="facs_64_tr_1721824261" subtype="0.99">
             <zone points="334,97 1505,97 1505,173 334,173" rendition="Line" xml:id="facs_64_tr_1721824261_line_000"/>
          </zone>
@@ -3099,7 +3098,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2801" xml:id="facs_65">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-063/full/!1024,1024/0/default.jpg" width="2000px" height="2801px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC50-0" width="2000px" height="2801px"/>
          <zone points="294,116 1641,116 1641,195 294,195" rendition="TextRegion" xml:id="facs_65_tr_1721824240" subtype="0.99">
             <zone points="294,116 1641,116 1641,195 294,195" rendition="Line" xml:id="facs_65_tr_1721824240_line_000"/>
          </zone>
@@ -3140,7 +3139,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2788" xml:id="facs_66">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-064/full/!1024,1024/0/default.jpg" width="2000px" height="2788px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC51-F" width="2000px" height="2788px"/>
          <zone points="997,118 1216,118 1216,199 997,199" rendition="TextRegion" xml:id="facs_66_tr_1721824276" subtype="0.99">
             <zone points="997,118 1216,118 1216,199 997,199" rendition="Line" xml:id="facs_66_tr_1721824276_line_000"/>
          </zone>
@@ -3190,7 +3189,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2792" xml:id="facs_67">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-065/full/!1024,1024/0/default.jpg" width="2000px" height="2792px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC52-E" width="2000px" height="2792px"/>
          <zone points="127,98 1617,98 1617,170 127,170" rendition="TextRegion" xml:id="facs_67_tr_1721824222" subtype="0.99">
             <zone points="127,98 1617,98 1617,170 127,170" rendition="Line" xml:id="facs_67_tr_1721824222_line_000"/>
          </zone>
@@ -3238,7 +3237,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2797" xml:id="facs_68">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-066/full/!1024,1024/0/default.jpg" width="2000px" height="2797px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC53-D" width="2000px" height="2797px"/>
          <zone points="328,100 1633,100 1633,176 328,176" rendition="TextRegion" xml:id="facs_68_tr_1721824239" subtype="0.99">
             <zone points="328,100 1633,100 1633,176 328,176" rendition="Line" xml:id="facs_68_tr_1721824239_line_000"/>
          </zone>
@@ -3303,7 +3302,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2797" xml:id="facs_69">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-067/full/!1024,1024/0/default.jpg" width="2000px" height="2797px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC54-C" width="2000px" height="2797px"/>
          <zone points="154,93 1392,93 1392,166 154,166" rendition="TextRegion" xml:id="facs_69_tr_1721824281" subtype="0.99">
             <zone points="154,93 1392,93 1392,166 154,166" rendition="Line" xml:id="facs_69_tr_1721824281_line_000"/>
          </zone>
@@ -3351,7 +3350,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2792" xml:id="facs_70">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-068/full/!1024,1024/0/default.jpg" width="2000px" height="2792px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC55-B" width="2000px" height="2792px"/>
          <zone points="309,89 1704,89 1704,163 309,163" rendition="TextRegion" xml:id="facs_70_tr_1721824248" subtype="0.99">
             <zone points="309,89 1704,89 1704,163 309,163" rendition="Line" xml:id="facs_70_tr_1721824248_line_000"/>
          </zone>
@@ -3399,7 +3398,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2804" xml:id="facs_71">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-069/full/!1024,1024/0/default.jpg" width="2000px" height="2804px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC56-A" width="2000px" height="2804px"/>
          <zone points="325,94 1584,94 1584,174 325,174" rendition="TextRegion" xml:id="facs_71_tr_1721824267" subtype="0.99">
             <zone points="325,94 1584,94 1584,174 325,174" rendition="Line" xml:id="facs_71_tr_1721824267_line_000"/>
          </zone>
@@ -3446,7 +3445,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2788" xml:id="facs_72">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-070/full/!1024,1024/0/default.jpg" width="2000px" height="2788px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC57-9" width="2000px" height="2788px"/>
          <zone points="341,91 1508,91 1508,167 341,167" rendition="TextRegion" xml:id="facs_72_tr_1721824237" subtype="0.99">
             <zone points="341,91 1508,91 1508,167 341,167" rendition="Line" xml:id="facs_72_tr_1721824237_line_000"/>
          </zone>
@@ -3492,7 +3491,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2813" xml:id="facs_73">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-071/full/!1024,1024/0/default.jpg" width="2000px" height="2813px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC58-8" width="2000px" height="2813px"/>
          <zone points="381,110 1571,110 1571,193 381,193" rendition="TextRegion" xml:id="facs_73_tr_1721824239" subtype="0.99">
             <zone points="381,110 1571,110 1571,193 381,193" rendition="Line" xml:id="facs_73_tr_1721824239_line_000"/>
          </zone>
@@ -3535,7 +3534,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2792" xml:id="facs_74">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-072/full/!1024,1024/0/default.jpg" width="2000px" height="2792px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC59-7" width="2000px" height="2792px"/>
          <zone points="1513,115 1504,111 1445,109 410,120 398,124 398,184 906,186 1501,180 1513,175" rendition="TextRegion" xml:id="facs_74_tr_1721824242" subtype="0.99">
             <zone points="1513,115 398,124 398,184 1513,175" rendition="Line" xml:id="facs_74_tr_1721824242_line_000"/>
          </zone>
@@ -3586,7 +3585,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2815" xml:id="facs_75">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-073/full/!1024,1024/0/default.jpg" width="2000px" height="2815px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC5A-6" width="2000px" height="2815px"/>
          <zone points="389,110 1559,110 1559,187 389,187" rendition="TextRegion" xml:id="facs_75_tr_1721824275" subtype="0.99">
             <zone points="389,110 1559,110 1559,187 389,187" rendition="Line" xml:id="facs_75_tr_1721824275_line_000"/>
          </zone>
@@ -3634,7 +3633,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2791" xml:id="facs_76">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-074/full/!1024,1024/0/default.jpg" width="2000px" height="2791px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC5B-5" width="2000px" height="2791px"/>
          <zone points="365,113 1523,113 1523,184 365,184" rendition="TextRegion" xml:id="facs_76_tr_1721824229" subtype="0.99">
             <zone points="365,113 1523,113 1523,184 365,184" rendition="Line" xml:id="facs_76_tr_1721824229_line_000"/>
          </zone>
@@ -3682,7 +3681,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2776" xml:id="facs_77">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-075/full/!1024,1024/0/default.jpg" width="2000px" height="2776px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC5C-4" width="2000px" height="2776px"/>
          <zone points="391,111 1567,111 1567,190 391,190" rendition="TextRegion" xml:id="facs_77_tr_1721824215" subtype="0.99">
             <zone points="391,111 1567,111 1567,190 391,190" rendition="Line" xml:id="facs_77_tr_1721824215_line_000"/>
          </zone>
@@ -3735,7 +3734,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2789" xml:id="facs_78">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-076/full/!1024,1024/0/default.jpg" width="2000px" height="2789px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC5D-3" width="2000px" height="2789px"/>
          <zone points="1446,107 1439,104 1072,104 378,123 365,127 365,176 379,179 812,179 1029,174 1431,173 1446,169" rendition="TextRegion" xml:id="facs_78_tr_1721824234" subtype="0.99">
             <zone points="1446,107 365,127 379,179 1446,169" rendition="Line" xml:id="facs_78_tr_1721824234_line_000"/>
          </zone>
@@ -3768,7 +3767,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2777" xml:id="facs_79">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-077/full/!1024,1024/0/default.jpg" width="2000px" height="2777px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC5E-2" width="2000px" height="2777px"/>
          <zone points="150,106 1576,106 1576,185 150,185" rendition="TextRegion" xml:id="facs_79_tr_1721824262" subtype="0.99">
             <zone points="150,106 1576,106 1576,185 150,185" rendition="Line" xml:id="facs_79_tr_1721824262_line_000"/>
          </zone>
@@ -3814,7 +3813,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2814" xml:id="facs_80">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-078/full/!1024,1024/0/default.jpg" width="2000px" height="2814px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC5F-1" width="2000px" height="2814px"/>
          <zone points="344,107 1461,107 1461,192 344,192" rendition="TextRegion" xml:id="facs_80_tr_1721824252" subtype="0.99">
             <zone points="344,107 1461,107 1461,192 344,192" rendition="Line" xml:id="facs_80_tr_1721824252_line_000"/>
          </zone>
@@ -3860,7 +3859,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2778" xml:id="facs_81">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-079/full/!1024,1024/0/default.jpg" width="2000px" height="2778px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC60-E" width="2000px" height="2778px"/>
          <zone points="437,167 439,173 476,178 1552,182 1557,180 1557,123 1544,117 1323,116 1073,108 473,103 465,106 463,158 454,165" rendition="TextRegion" xml:id="facs_81_tr_1721824216" subtype="0.99">
             <zone points="437,167 1552,182 1544,117 1073,108 473,103 454,165" rendition="Line" xml:id="facs_81_tr_1721824216_line_000"/>
          </zone>
@@ -3904,7 +3903,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2816" xml:id="facs_82">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-080/full/!1024,1024/0/default.jpg" width="2000px" height="2816px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC61-D" width="2000px" height="2816px"/>
          <zone points="343,110 1597,110 1597,187 343,187" rendition="TextRegion" xml:id="facs_82_tr_1721824249" subtype="0.99">
             <zone points="343,110 1597,110 1597,187 343,187" rendition="Line" xml:id="facs_82_tr_1721824249_line_000"/>
          </zone>
@@ -3951,7 +3950,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2773" xml:id="facs_83">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-081/full/!1024,1024/0/default.jpg" width="2000px" height="2773px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC62-C" width="2000px" height="2773px"/>
          <zone points="323,106 1585,106 1585,178 323,178" rendition="TextRegion" xml:id="facs_83_tr_1721824286" subtype="0.99">
             <zone points="323,106 1585,106 1585,178 323,178" rendition="Line" xml:id="facs_83_tr_1721824286_line_000"/>
          </zone>
@@ -3993,7 +3992,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2796" xml:id="facs_84">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-082/full/!1024,1024/0/default.jpg" width="2000px" height="2796px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC63-B" width="2000px" height="2796px"/>
          <zone points="339,105 1508,105 1508,183 339,183" rendition="TextRegion" xml:id="facs_84_tr_1721824245" subtype="0.99">
             <zone points="339,105 1508,105 1508,183 339,183" rendition="Line" xml:id="facs_84_tr_1721824245_line_000"/>
          </zone>
@@ -4048,7 +4047,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2776" xml:id="facs_85">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-083/full/!1024,1024/0/default.jpg" width="2000px" height="2776px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC64-A" width="2000px" height="2776px"/>
          <zone points="276,112 1599,112 1599,194 276,194" rendition="TextRegion" xml:id="facs_85_tr_1721824273" subtype="0.99">
             <zone points="276,112 1599,112 1599,194 276,194" rendition="Line" xml:id="facs_85_tr_1721824273_line_000"/>
          </zone>
@@ -4080,7 +4079,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2787" xml:id="facs_86">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-084/full/!1024,1024/0/default.jpg" width="2000px" height="2787px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC65-9" width="2000px" height="2787px"/>
          <zone points="348,116 1589,116 1589,199 348,199" rendition="TextRegion" xml:id="facs_86_tr_1721824276" subtype="0.99">
             <zone points="348,116 1589,116 1589,199 348,199" rendition="Line" xml:id="facs_86_tr_1721824276_line_000"/>
          </zone>
@@ -4127,7 +4126,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2775" xml:id="facs_87">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-085/full/!1024,1024/0/default.jpg" width="2000px" height="2775px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC66-8" width="2000px" height="2775px"/>
          <zone points="155,116 1571,116 1571,198 155,198" rendition="TextRegion" xml:id="facs_87_tr_1721824223" subtype="0.99">
             <zone points="155,116 1571,116 1571,198 155,198" rendition="Line" xml:id="facs_87_tr_1721824223_line_000"/>
          </zone>
@@ -4184,7 +4183,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2784" xml:id="facs_88">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-086/full/!1024,1024/0/default.jpg" width="2000px" height="2784px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC67-7" width="2000px" height="2784px"/>
          <zone points="496,106 1662,106 1662,179 496,179" rendition="TextRegion" xml:id="facs_88_tr_1721824229" subtype="0.99">
             <zone points="496,106 1662,106 1662,179 496,179" rendition="Line" xml:id="facs_88_tr_1721824229_line_000"/>
          </zone>
@@ -4232,7 +4231,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2766" xml:id="facs_89">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-087/full/!1024,1024/0/default.jpg" width="2000px" height="2766px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC68-6" width="2000px" height="2766px"/>
          <zone points="280,113 1598,113 1598,191 280,191" rendition="TextRegion" xml:id="facs_89_tr_1721824249" subtype="0.99">
             <zone points="280,113 1598,113 1598,191 280,191" rendition="Line" xml:id="facs_89_tr_1721824249_line_000"/>
          </zone>
@@ -4274,7 +4273,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2778" xml:id="facs_90">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-088/full/!1024,1024/0/default.jpg" width="2000px" height="2778px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC69-5" width="2000px" height="2778px"/>
          <zone points="432,114 1654,114 1654,198 432,198" rendition="TextRegion" xml:id="facs_90_tr_1721824266" subtype="0.99">
             <zone points="432,114 1654,114 1654,198 432,198" rendition="Line" xml:id="facs_90_tr_1721824266_line_000"/>
          </zone>
@@ -4321,7 +4320,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2766" xml:id="facs_91">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-089/full/!1024,1024/0/default.jpg" width="2000px" height="2766px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC6A-4" width="2000px" height="2766px"/>
          <zone points="299,115 1562,115 1562,196 299,196" rendition="TextRegion" xml:id="facs_91_tr_1721824287" subtype="0.99">
             <zone points="299,115 1562,115 1562,196 299,196" rendition="Line" xml:id="facs_91_tr_1721824287_line_000"/>
          </zone>
@@ -4366,7 +4365,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2781" xml:id="facs_92">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-090/full/!1024,1024/0/default.jpg" width="2000px" height="2781px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC6B-3" width="2000px" height="2781px"/>
          <zone points="351,91 1583,91 1583,168 351,168" rendition="TextRegion" xml:id="facs_92_tr_1721824249" subtype="0.99">
             <zone points="351,91 1583,91 1583,168 351,168" rendition="Line" xml:id="facs_92_tr_1721824249_line_000"/>
          </zone>
@@ -4406,7 +4405,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2766" xml:id="facs_93">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-091/full/!1024,1024/0/default.jpg" width="2000px" height="2766px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC6C-2" width="2000px" height="2766px"/>
          <zone points="149,90 1607,90 1607,161 149,161" rendition="TextRegion" xml:id="facs_93_tr_1721824227" subtype="0.99">
             <zone points="149,90 1607,90 1607,161 149,161" rendition="Line" xml:id="facs_93_tr_1721824227_line_000"/>
          </zone>
@@ -4449,7 +4448,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2779" xml:id="facs_94">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-092/full/!1024,1024/0/default.jpg" width="2000px" height="2779px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC6D-1" width="2000px" height="2779px"/>
          <zone points="1558,108 1550,102 1183,107 377,107 364,111 364,179 377,182 1031,182 1245,176 1538,174 1557,170" rendition="TextRegion" xml:id="facs_94_tr_1721824249" subtype="0.99">
             <zone points="1558,108 364,111 377,182 1557,170" rendition="Line" xml:id="facs_94_tr_1721824249_line_000"/>
          </zone>
@@ -4495,7 +4494,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2790" xml:id="facs_95">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-093/full/!1024,1024/0/default.jpg" width="2000px" height="2790px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC6E-0" width="2000px" height="2790px"/>
          <zone points="221,76 1505,76 1505,152 221,152" rendition="TextRegion" xml:id="facs_95_tr_1721824225" subtype="0.99">
             <zone points="221,76 1505,76 1505,152 221,152" rendition="Line" xml:id="facs_95_tr_1721824225_line_000"/>
          </zone>
@@ -4537,7 +4536,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2781" xml:id="facs_96">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-094/full/!1024,1024/0/default.jpg" width="2000px" height="2781px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC6F-F" width="2000px" height="2781px"/>
          <zone points="337,91 1583,91 1583,160 337,160" rendition="TextRegion" xml:id="facs_96_tr_1721824215" subtype="0.99">
             <zone points="337,91 1583,91 1583,160 337,160" rendition="Line" xml:id="facs_96_tr_1721824215_line_000"/>
          </zone>
@@ -4577,7 +4576,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2790" xml:id="facs_97">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-095/full/!1024,1024/0/default.jpg" width="2000px" height="2790px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC70-C" width="2000px" height="2790px"/>
          <zone points="340,84 1454,84 1454,156 340,156" rendition="TextRegion" xml:id="facs_97_tr_1721824236" subtype="0.99">
             <zone points="340,84 1454,84 1454,156 340,156" rendition="Line" xml:id="facs_97_tr_1721824236_line_000"/>
          </zone>
@@ -4623,7 +4622,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2788" xml:id="facs_98">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-096/full/!1024,1024/0/default.jpg" width="2000px" height="2788px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC71-B" width="2000px" height="2788px"/>
          <zone points="1456,117 1439,113 746,123 368,124 357,128 357,192 736,193 903,187 1441,179 1456,176" rendition="TextRegion" xml:id="facs_98_tr_1721824217" subtype="0.99">
             <zone points="1456,117 357,128 357,192 1456,176" rendition="Line" xml:id="facs_98_tr_1721824217_line_000"/>
          </zone>
@@ -4677,7 +4676,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2790" xml:id="facs_99">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-097/full/!1024,1024/0/default.jpg" width="2000px" height="2790px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC72-A" width="2000px" height="2790px"/>
          <zone points="384,98 1570,98 1570,177 384,177" rendition="TextRegion" xml:id="facs_99_tr_1721824269" subtype="0.99">
             <zone points="384,98 1570,98 1570,177 384,177" rendition="Line" xml:id="facs_99_tr_1721824269_line_000"/>
          </zone>
@@ -4715,7 +4714,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2787" xml:id="facs_100">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-098/full/!1024,1024/0/default.jpg" width="2000px" height="2787px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC73-9" width="2000px" height="2787px"/>
          <zone points="379,106 1557,106 1557,177 379,177" rendition="TextRegion" xml:id="facs_100_tr_1721824259" subtype="0.99">
             <zone points="379,106 1557,106 1557,177 379,177" rendition="Line" xml:id="facs_100_tr_1721824259_line_000"/>
          </zone>
@@ -4752,7 +4751,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2780" xml:id="facs_101">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-099/full/!1024,1024/0/default.jpg" width="2000px" height="2780px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC74-8" width="2000px" height="2780px"/>
          <zone points="411,112 1556,112 1556,187 411,187" rendition="TextRegion" xml:id="facs_101_tr_1721824282" subtype="0.99">
             <zone points="411,112 1556,112 1556,187 411,187" rendition="Line" xml:id="facs_101_tr_1721824282_line_000"/>
          </zone>
@@ -4798,7 +4797,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2787" xml:id="facs_102">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-100/full/!1024,1024/0/default.jpg" width="2000px" height="2787px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC75-7" width="2000px" height="2787px"/>
          <zone points="1022,114 1248,114 1248,188 1022,188" rendition="TextRegion" xml:id="facs_102_tr_1721824237" subtype="0.99">
             <zone points="1022,114 1248,114 1248,188 1022,188" rendition="Line" xml:id="facs_102_tr_1721824237_line_000"/>
          </zone>
@@ -4846,7 +4845,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2782" xml:id="facs_103">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-101/full/!1024,1024/0/default.jpg" width="2000px" height="2782px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC76-6" width="2000px" height="2782px"/>
          <zone points="399,111 1560,111 1560,187 399,187" rendition="TextRegion" xml:id="facs_103_tr_1721824249" subtype="0.99">
             <zone points="399,111 1560,111 1560,187 399,187" rendition="Line" xml:id="facs_103_tr_1721824249_line_000"/>
          </zone>
@@ -4892,7 +4891,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2798" xml:id="facs_104">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-102/full/!1024,1024/0/default.jpg" width="2000px" height="2798px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC77-5" width="2000px" height="2798px"/>
          <zone points="384,120 1248,120 1248,198 384,198" rendition="TextRegion" xml:id="facs_104_tr_1721824272" subtype="0.98">
             <zone points="384,120 1248,120 1248,198 384,198" rendition="Line" xml:id="facs_104_tr_1721824272_line_000"/>
          </zone>
@@ -4939,7 +4938,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2783" xml:id="facs_105">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-103/full/!1024,1024/0/default.jpg" width="2000px" height="2783px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC78-4" width="2000px" height="2783px"/>
          <zone points="360,106 1586,106 1586,185 360,185" rendition="TextRegion" xml:id="facs_105_tr_1721824241" subtype="0.99">
             <zone points="360,106 1586,106 1586,185 360,185" rendition="Line" xml:id="facs_105_tr_1721824241_line_000"/>
          </zone>
@@ -4986,7 +4985,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2786" xml:id="facs_106">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-104/full/!1024,1024/0/default.jpg" width="2000px" height="2786px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC79-3" width="2000px" height="2786px"/>
          <zone points="341,100 1517,100 1517,178 341,178" rendition="TextRegion" xml:id="facs_106_tr_1721824253" subtype="0.99">
             <zone points="341,100 1517,100 1517,178 341,178" rendition="Line" xml:id="facs_106_tr_1721824253_line_000"/>
          </zone>
@@ -5038,7 +5037,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2761" xml:id="facs_107">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-105/full/!1024,1024/0/default.jpg" width="2000px" height="2761px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC7A-2" width="2000px" height="2761px"/>
          <zone points="247,89 1482,89 1482,158 247,158" rendition="TextRegion" xml:id="facs_107_tr_1721824250" subtype="0.99">
             <zone points="247,89 1482,89 1482,158 247,158" rendition="Line" xml:id="facs_107_tr_1721824250_line_000"/>
          </zone>
@@ -5083,7 +5082,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2781" xml:id="facs_108">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-106/full/!1024,1024/0/default.jpg" width="2000px" height="2781px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC7B-1" width="2000px" height="2781px"/>
          <zone points="492,96 1739,96 1739,165 492,165" rendition="TextRegion" xml:id="facs_108_tr_1721824257" subtype="0.99">
             <zone points="492,96 1739,96 1739,165 492,165" rendition="Line" xml:id="facs_108_tr_1721824257_line_000"/>
          </zone>
@@ -5128,7 +5127,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2753" xml:id="facs_109">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-107/full/!1024,1024/0/default.jpg" width="2000px" height="2753px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC7C-0" width="2000px" height="2753px"/>
          <zone points="225,92 1528,92 1528,162 225,162" rendition="TextRegion" xml:id="facs_109_tr_1721824261" subtype="0.99">
             <zone points="225,92 1528,92 1528,162 225,162" rendition="Line" xml:id="facs_109_tr_1721824261_line_000"/>
          </zone>
@@ -5171,7 +5170,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2787" xml:id="facs_110">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-108/full/!1024,1024/0/default.jpg" width="2000px" height="2787px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC7D-F" width="2000px" height="2787px"/>
          <zone points="377,102 1772,102 1772,173 377,173" rendition="TextRegion" xml:id="facs_110_tr_1721824269" subtype="0.99">
             <zone points="377,102 1772,102 1772,173 377,173" rendition="Line" xml:id="facs_110_tr_1721824269_line_000"/>
          </zone>
@@ -5219,7 +5218,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2760" xml:id="facs_111">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-109/full/!1024,1024/0/default.jpg" width="2000px" height="2760px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC7E-E" width="2000px" height="2760px"/>
          <zone points="396,97 1643,97 1643,168 396,168" rendition="TextRegion" xml:id="facs_111_tr_1721824244" subtype="0.99">
             <zone points="396,97 1643,97 1643,168 396,168" rendition="Line" xml:id="facs_111_tr_1721824244_line_000"/>
          </zone>
@@ -5268,7 +5267,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2785" xml:id="facs_112">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-110/full/!1024,1024/0/default.jpg" width="2000px" height="2785px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC7F-D" width="2000px" height="2785px"/>
          <zone points="377,97 1877,97 1877,168 377,168" rendition="TextRegion" xml:id="facs_112_tr_1721824280" subtype="0.99">
             <zone points="377,97 1877,97 1877,168 377,168" rendition="Line" xml:id="facs_112_tr_1721824280_line_000"/>
          </zone>
@@ -5317,7 +5316,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2754" xml:id="facs_113">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-111/full/!1024,1024/0/default.jpg" width="2000px" height="2754px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC80-9" width="2000px" height="2754px"/>
          <zone points="211,108 1502,108 1502,179 211,179" rendition="TextRegion" xml:id="facs_113_tr_1721824253" subtype="0.99">
             <zone points="211,108 1502,108 1502,179 211,179" rendition="Line" xml:id="facs_113_tr_1721824253_line_000"/>
          </zone>
@@ -5368,7 +5367,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2794" xml:id="facs_114">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-112/full/!1024,1024/0/default.jpg" width="2000px" height="2794px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC81-8" width="2000px" height="2794px"/>
          <zone points="404,121 1630,121 1630,191 404,191" rendition="TextRegion" xml:id="facs_114_tr_1721824232" subtype="0.99">
             <zone points="404,121 1630,121 1630,191 404,191" rendition="Line" xml:id="facs_114_tr_1721824232_line_000"/>
          </zone>
@@ -5412,7 +5411,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2842" xml:id="facs_115">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-113/full/!1024,1024/0/default.jpg" width="2000px" height="2842px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC82-7" width="2000px" height="2842px"/>
          <zone points="349,94 1577,94 1577,158 349,158" rendition="TextRegion" xml:id="facs_115_tr_1721824266" subtype="0.99">
             <zone points="349,94 1577,94 1577,158 349,158" rendition="Line" xml:id="facs_115_tr_1721824266_line_000"/>
          </zone>
@@ -5456,7 +5455,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2831" xml:id="facs_116">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-114/full/!1024,1024/0/default.jpg" width="2000px" height="2831px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC83-6" width="2000px" height="2831px"/>
          <zone points="959,100 1279,100 1279,175 959,175" rendition="TextRegion" xml:id="facs_116_tr_1721824234" subtype="0.99">
             <zone points="959,100 1279,100 1279,175 959,175" rendition="Line" xml:id="facs_116_tr_1721824234_line_000"/>
          </zone>
@@ -5505,7 +5504,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2843" xml:id="facs_117">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-115/full/!1024,1024/0/default.jpg" width="2000px" height="2843px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC84-5" width="2000px" height="2843px"/>
          <zone points="383,90 1278,90 1278,162 383,162" rendition="TextRegion" xml:id="facs_117_tr_1721824229" subtype="0.97">
             <zone points="383,90 1278,90 1278,162 383,162" rendition="Line" xml:id="facs_117_tr_1721824229_line_000"/>
          </zone>
@@ -5549,7 +5548,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2813" xml:id="facs_118">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-116/full/!1024,1024/0/default.jpg" width="2000px" height="2813px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC85-4" width="2000px" height="2813px"/>
          <zone points="1583,98 1517,94 374,99 322,103 315,108 327,118 348,147 346,158 335,162 347,165 1546,159 1555,154 1549,144 1551,136" rendition="TextRegion" xml:id="facs_118_tr_1721824281" subtype="0.99">
             <zone points="1583,98 315,108 347,165 1551,136" rendition="Line" xml:id="facs_118_tr_1721824281_line_000"/>
          </zone>
@@ -5591,7 +5590,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2829" xml:id="facs_119">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-117/full/!1024,1024/0/default.jpg" width="2000px" height="2829px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC86-3" width="2000px" height="2829px"/>
          <zone points="267,104 1366,104 1366,168 267,168" rendition="TextRegion" xml:id="facs_119_tr_1721824256" subtype="0.99">
             <zone points="267,104 1366,104 1366,168 267,168" rendition="Line" xml:id="facs_119_tr_1721824256_line_000"/>
          </zone>
@@ -5631,7 +5630,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2806" xml:id="facs_120">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-118/full/!1024,1024/0/default.jpg" width="2000px" height="2806px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC87-2" width="2000px" height="2806px"/>
          <zone points="1432,108 1420,103 1380,101 1308,104 1058,104 876,107 762,113 376,119 368,123 368,181 750,182 909,177 1419,172 1432,168" rendition="TextRegion" xml:id="facs_120_tr_1721824221" subtype="0.99">
             <zone points="1432,108 368,123 368,181 1432,168" rendition="Line" xml:id="facs_120_tr_1721824221_line_000"/>
          </zone>
@@ -5681,7 +5680,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2821" xml:id="facs_121">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-119/full/!1024,1024/0/default.jpg" width="2000px" height="2821px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC88-1" width="2000px" height="2821px"/>
          <zone points="114,156 119,165 135,169 256,172 1507,177 1529,173 1529,118 1512,113 1112,104 640,101 230,104 158,111 149,126 120,143" rendition="TextRegion" xml:id="facs_121_tr_1721824216" subtype="0.99">
             <zone points="114,156 1529,173 1512,113 1112,104 230,104 120,143" rendition="Line" xml:id="facs_121_tr_1721824216_line_000"/>
          </zone>
@@ -5719,7 +5718,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2744" xml:id="facs_122">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-120/full/!1024,1024/0/default.jpg" width="2000px" height="2744px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC89-0" width="2000px" height="2744px"/>
          <zone points="430,107 1420,107 1420,179 430,179" rendition="TextRegion" xml:id="facs_122_tr_1721824230" subtype="0.99">
             <zone points="430,107 1420,107 1420,179 430,179" rendition="Line" xml:id="facs_122_tr_1721824230_line_000"/>
          </zone>
@@ -5771,7 +5770,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2812" xml:id="facs_123">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-121/full/!1024,1024/0/default.jpg" width="2000px" height="2812px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC8A-F" width="2000px" height="2812px"/>
          <zone points="404,91 407,96 417,98 445,113 448,119 447,135 444,137 445,140 440,142 450,147 467,149 1139,149 1139,92 1131,89 859,89 755,86 473,84 408,87" rendition="TextRegion" xml:id="facs_123_tr_1721824246" subtype="0.99">
             <zone points="404,91 467,149 1139,149 1131,89 408,87" rendition="Line" xml:id="facs_123_tr_1721824246_line_000"/>
          </zone>
@@ -5820,7 +5819,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2742" xml:id="facs_124">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-122/full/!1024,1024/0/default.jpg" width="2000px" height="2742px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC8B-E" width="2000px" height="2742px"/>
          <zone points="386,93 1617,93 1617,157 386,157" rendition="TextRegion" xml:id="facs_124_tr_1721824281" subtype="0.99">
             <zone points="386,93 1617,93 1617,157 386,157" rendition="Line" xml:id="facs_124_tr_1721824281_line_000"/>
          </zone>
@@ -5868,7 +5867,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2814" xml:id="facs_125">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-123/full/!1024,1024/0/default.jpg" width="2000px" height="2814px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC8C-D" width="2000px" height="2814px"/>
          <zone points="275,84 1309,84 1309,149 275,149" rendition="TextRegion" xml:id="facs_125_tr_1721824269" subtype="0.99">
             <zone points="275,84 1309,84 1309,149 275,149" rendition="Line" xml:id="facs_125_tr_1721824269_line_000"/>
          </zone>
@@ -5916,7 +5915,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2739" xml:id="facs_126">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-124/full/!1024,1024/0/default.jpg" width="2000px" height="2739px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC8D-C" width="2000px" height="2739px"/>
          <zone points="396,100 1584,100 1584,164 396,164" rendition="TextRegion" xml:id="facs_126_tr_1721824247" subtype="0.99">
             <zone points="396,100 1584,100 1584,164 396,164" rendition="Line" xml:id="facs_126_tr_1721824247_line_000"/>
          </zone>
@@ -5970,7 +5969,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2818" xml:id="facs_127">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-125/full/!1024,1024/0/default.jpg" width="2000px" height="2818px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC8E-B" width="2000px" height="2818px"/>
          <zone points="254,92 298,99 312,105 315,112 308,125 313,131 310,135 319,137 305,140 373,145 1009,153 1489,152 1491,112 1482,102 1379,101 1260,91 384,84" rendition="TextRegion" xml:id="facs_127_tr_1721824256" subtype="0.99">
             <zone points="254,92 373,145 1489,152 1482,102 384,84" rendition="Line" xml:id="facs_127_tr_1721824256_line_000"/>
          </zone>
@@ -6018,7 +6017,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2731" xml:id="facs_128">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-126/full/!1024,1024/0/default.jpg" width="2000px" height="2731px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC8F-A" width="2000px" height="2731px"/>
          <zone points="380,98 1577,98 1577,163 380,163" rendition="TextRegion" xml:id="facs_128_tr_1721824291" subtype="0.99">
             <zone points="380,98 1577,98 1577,163 380,163" rendition="Line" xml:id="facs_128_tr_1721824291_line_000"/>
          </zone>
@@ -6063,7 +6062,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2804" xml:id="facs_129">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-127/full/!1024,1024/0/default.jpg" width="2000px" height="2804px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC90-7" width="2000px" height="2804px"/>
          <zone points="717,89 958,89 958,164 717,164" rendition="TextRegion" xml:id="facs_129_tr_1721824228" subtype="0.99">
             <zone points="717,89 958,89 958,164 717,164" rendition="Line" xml:id="facs_129_tr_1721824228_line_000"/>
          </zone>
@@ -6130,7 +6129,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2738" xml:id="facs_130">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-128/full/!1024,1024/0/default.jpg" width="2000px" height="2738px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC91-6" width="2000px" height="2738px"/>
          <zone points="411,104 1392,104 1392,178 411,178" rendition="TextRegion" xml:id="facs_130_tr_1721824253" subtype="0.99">
             <zone points="411,104 1392,104 1392,178 411,178" rendition="Line" xml:id="facs_130_tr_1721824253_line_000"/>
          </zone>
@@ -6183,7 +6182,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2812" xml:id="facs_131">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-129/full/!1024,1024/0/default.jpg" width="2000px" height="2812px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC92-5" width="2000px" height="2812px"/>
          <zone points="596,72 1070,72 1070,143 596,143" rendition="TextRegion" xml:id="facs_131_tr_1721824247" subtype="0.96">
             <zone points="596,72 1070,72 1070,143 596,143" rendition="Line" xml:id="facs_131_tr_1721824247_line_000"/>
          </zone>
@@ -6234,7 +6233,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2732" xml:id="facs_132">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-130/full/!1024,1024/0/default.jpg" width="2000px" height="2732px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC93-4" width="2000px" height="2732px"/>
          <zone points="404,82 1429,82 1429,154 404,154" rendition="TextRegion" xml:id="facs_132_tr_1721824233" subtype="0.99">
             <zone points="404,82 1429,82 1429,154 404,154" rendition="Line" xml:id="facs_132_tr_1721824233_line_000"/>
          </zone>
@@ -6295,7 +6294,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2797" xml:id="facs_133">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-131/full/!1024,1024/0/default.jpg" width="2000px" height="2797px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC94-3" width="2000px" height="2797px"/>
          <zone points="618,85 999,85 999,154 618,154" rendition="TextRegion" xml:id="facs_133_tr_1721824257" subtype="0.99">
             <zone points="618,85 999,85 999,154 618,154" rendition="Line" xml:id="facs_133_tr_1721824257_line_000"/>
          </zone>
@@ -6338,7 +6337,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2737" xml:id="facs_134">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-132/full/!1024,1024/0/default.jpg" width="2000px" height="2737px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC95-2" width="2000px" height="2737px"/>
          <zone points="401,94 1490,94 1490,163 401,163" rendition="TextRegion" xml:id="facs_134_tr_1721824262" subtype="0.99">
             <zone points="401,94 1490,94 1490,163 401,163" rendition="Line" xml:id="facs_134_tr_1721824262_line_000"/>
          </zone>
@@ -6387,7 +6386,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2798" xml:id="facs_135">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-133/full/!1024,1024/0/default.jpg" width="2000px" height="2798px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC96-1" width="2000px" height="2798px"/>
          <zone points="565,81 1114,81 1114,150 565,150" rendition="TextRegion" xml:id="facs_135_tr_1721824254" subtype="0.99">
             <zone points="565,81 1114,81 1114,150 565,150" rendition="Line" xml:id="facs_135_tr_1721824254_line_000"/>
          </zone>
@@ -6423,7 +6422,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2747" xml:id="facs_136">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-134/full/!1024,1024/0/default.jpg" width="2000px" height="2747px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC97-0" width="2000px" height="2747px"/>
          <zone points="1446,97 1436,92 395,102 387,105 387,162 899,164 1424,157 1446,153" rendition="TextRegion" xml:id="facs_136_tr_1721824228" subtype="0.99">
             <zone points="1446,97 387,105 387,162 1446,153" rendition="Line" xml:id="facs_136_tr_1721824228_line_000"/>
          </zone>
@@ -6479,7 +6478,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2791" xml:id="facs_137">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-135/full/!1024,1024/0/default.jpg" width="2000px" height="2791px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC98-F" width="2000px" height="2791px"/>
          <zone points="233,94 1305,94 1305,164 233,164" rendition="TextRegion" xml:id="facs_137_tr_1721824254" subtype="0.99">
             <zone points="233,94 1305,94 1305,164 233,164" rendition="Line" xml:id="facs_137_tr_1721824254_line_000"/>
          </zone>
@@ -6518,7 +6517,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2750" xml:id="facs_138">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-136/full/!1024,1024/0/default.jpg" width="2000px" height="2750px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC99-E" width="2000px" height="2750px"/>
          <zone points="1565,166 1565,105 1556,102 1103,107 788,107 627,115 660,117 657,120 664,125 693,134 698,139 700,149 699,161 693,164 696,170 707,172 1281,172 1546,169" rendition="TextRegion" xml:id="facs_138_tr_1721824237" subtype="0.99">
             <zone points="1565,166 1556,102 627,115 693,134 707,172 1546,169" rendition="Line" xml:id="facs_138_tr_1721824237_line_000"/>
          </zone>
@@ -6570,7 +6569,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2799" xml:id="facs_139">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-137/full/!1024,1024/0/default.jpg" width="2000px" height="2799px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC9A-D" width="2000px" height="2799px"/>
          <zone points="199,75 1223,75 1223,153 199,153" rendition="TextRegion" xml:id="facs_139_tr_1721824258" subtype="0.99">
             <zone points="199,75 1223,75 1223,153 199,153" rendition="Line" xml:id="facs_139_tr_1721824258_line_000"/>
          </zone>
@@ -6608,7 +6607,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2738" xml:id="facs_140">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-138/full/!1024,1024/0/default.jpg" width="2000px" height="2738px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC9B-C" width="2000px" height="2738px"/>
          <zone points="384,86 1560,86 1560,158 384,158" rendition="TextRegion" xml:id="facs_140_tr_1721824243" subtype="0.99">
             <zone points="384,86 1560,86 1560,158 384,158" rendition="Line" xml:id="facs_140_tr_1721824243_line_000"/>
          </zone>
@@ -6647,7 +6646,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2799" xml:id="facs_141">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-139/full/!1024,1024/0/default.jpg" width="2000px" height="2799px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC9C-B" width="2000px" height="2799px"/>
          <zone points="498,85 1234,85 1234,161 498,161" rendition="TextRegion" xml:id="facs_141_tr_1721824234" subtype="0.98">
             <zone points="498,85 1234,85 1234,161 498,161" rendition="Line" xml:id="facs_141_tr_1721824234_line_000"/>
          </zone>
@@ -6685,7 +6684,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2766" xml:id="facs_142">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-140/full/!1024,1024/0/default.jpg" width="2000px" height="2766px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC9D-A" width="2000px" height="2766px"/>
          <zone points="380,98 1544,98 1544,171 380,171" rendition="TextRegion" xml:id="facs_142_tr_1721824239" subtype="0.99">
             <zone points="380,98 1544,98 1544,171 380,171" rendition="Line" xml:id="facs_142_tr_1721824239_line_000"/>
          </zone>
@@ -6728,7 +6727,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2785" xml:id="facs_143">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-141/full/!1024,1024/0/default.jpg" width="2000px" height="2785px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC9E-9" width="2000px" height="2785px"/>
          <zone points="136,87 1185,87 1185,161 136,161" rendition="TextRegion" xml:id="facs_143_tr_1721824275" subtype="0.99">
             <zone points="136,87 1185,87 1185,161 136,161" rendition="Line" xml:id="facs_143_tr_1721824275_line_000"/>
          </zone>
@@ -6766,7 +6765,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2778" xml:id="facs_144">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-142/full/!1024,1024/0/default.jpg" width="2000px" height="2778px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-AC9F-8" width="2000px" height="2778px"/>
          <zone points="388,101 1532,101 1532,179 388,179" rendition="TextRegion" xml:id="facs_144_tr_1721824264" subtype="0.99">
             <zone points="388,101 1532,101 1532,179 388,179" rendition="Line" xml:id="facs_144_tr_1721824264_line_000"/>
          </zone>
@@ -6811,7 +6810,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2777" xml:id="facs_145">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-143/full/!1024,1024/0/default.jpg" width="2000px" height="2777px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA0-5" width="2000px" height="2777px"/>
          <zone points="167,89 1500,89 1500,165 167,165" rendition="TextRegion" xml:id="facs_145_tr_1721824276" subtype="0.99">
             <zone points="167,89 1500,89 1500,165 167,165" rendition="Line" xml:id="facs_145_tr_1721824276_line_000"/>
          </zone>
@@ -6849,7 +6848,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2777" xml:id="facs_146">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-144/full/!1024,1024/0/default.jpg" width="2000px" height="2777px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA1-4" width="2000px" height="2777px"/>
          <zone points="1654,171 1640,164 1601,159 1571,169 1543,169 1525,162 1519,150 1503,138 1505,128 1511,125 1510,118 1497,112 1457,109 881,114 837,119 832,138 798,146 790,156 774,162 738,156 687,156 655,143 602,142 595,137 573,133 522,132 506,140 506,183 509,189 521,192 648,188 750,191 1149,184 1472,184 1559,178 1647,177" rendition="TextRegion" xml:id="facs_146_tr_1721824236" subtype="0.99">
             <zone points="1654,171 1543,169 1457,109 881,114 774,162 506,140 521,192 1647,177" rendition="Line" xml:id="facs_146_tr_1721824236_line_000"/>
          </zone>
@@ -6887,7 +6886,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2797" xml:id="facs_147">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-145/full/!1024,1024/0/default.jpg" width="2000px" height="2797px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA2-3" width="2000px" height="2797px"/>
          <zone points="542,84 1179,84 1179,162 542,162" rendition="TextRegion" xml:id="facs_147_tr_1721824274" subtype="0.98">
             <zone points="542,84 1179,84 1179,162 542,162" rendition="Line" xml:id="facs_147_tr_1721824274_line_000"/>
          </zone>
@@ -6934,7 +6933,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2767" xml:id="facs_148">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-146/full/!1024,1024/0/default.jpg" width="2000px" height="2767px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA3-2" width="2000px" height="2767px"/>
          <zone points="434,107 435,158 454,165 535,161 1516,165 1616,163 1629,158 1546,144 1546,136 1552,132 1549,119 1564,110 1566,105 1503,98 1174,95 455,98 438,101" rendition="TextRegion" xml:id="facs_148_tr_1721824251" subtype="0.99">
             <zone points="434,107 454,165 1629,158 1503,98 438,101" rendition="Line" xml:id="facs_148_tr_1721824251_line_000"/>
          </zone>
@@ -6979,7 +6978,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2786" xml:id="facs_149">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-147/full/!1024,1024/0/default.jpg" width="2000px" height="2786px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA4-1" width="2000px" height="2786px"/>
          <zone points="212,83 1246,83 1246,153 212,153" rendition="TextRegion" xml:id="facs_149_tr_1721824285" subtype="0.99">
             <zone points="212,83 1246,83 1246,153 212,153" rendition="Line" xml:id="facs_149_tr_1721824285_line_000"/>
          </zone>
@@ -7023,7 +7022,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2787" xml:id="facs_150">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-148/full/!1024,1024/0/default.jpg" width="2000px" height="2787px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA5-0" width="2000px" height="2787px"/>
          <zone points="1287,107 1284,102 1276,100 1022,102 1007,105 965,103 912,106 903,109 899,115 881,116 860,108 822,108 804,105 646,107 470,104 461,106 458,111 458,157 461,163 471,167 671,167 909,171 1275,170 1285,168 1287,165" rendition="TextRegion" xml:id="facs_150_tr_1721824221" subtype="0.93">
             <zone points="1287,107 458,111 471,167 1287,165" rendition="Line" xml:id="facs_150_tr_1721824221_line_000"/>
          </zone>
@@ -7071,7 +7070,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2891" xml:id="facs_151">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-149/full/!1024,1024/0/default.jpg" width="2000px" height="2891px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA6-F" width="2000px" height="2891px"/>
          <zone points="76,90 1337,90 1337,169 76,169" rendition="TextRegion" xml:id="facs_151_tr_1721824278" subtype="0.99">
             <zone points="76,90 1337,90 1337,169 76,169" rendition="Line" xml:id="facs_151_tr_1721824278_line_000"/>
          </zone>
@@ -7114,7 +7113,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2789" xml:id="facs_152">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-150/full/!1024,1024/0/default.jpg" width="2000px" height="2789px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA7-E" width="2000px" height="2789px"/>
          <zone points="1071,109 1299,109 1299,187 1071,187" rendition="TextRegion" xml:id="facs_152_tr_1721824288" subtype="0.99">
             <zone points="1071,109 1299,109 1299,187 1071,187" rendition="Line" xml:id="facs_152_tr_1721824288_line_000"/>
          </zone>
@@ -7170,7 +7169,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2855" xml:id="facs_153">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-151/full/!1024,1024/0/default.jpg" width="2000px" height="2855px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA8-D" width="2000px" height="2855px"/>
          <zone points="219,92 1121,92 1121,162 219,162" rendition="TextRegion" xml:id="facs_153_tr_1721824243" subtype="0.99">
             <zone points="219,92 1121,92 1121,162 219,162" rendition="Line" xml:id="facs_153_tr_1721824243_line_000"/>
          </zone>
@@ -7288,7 +7287,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2797" xml:id="facs_154">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-152/full/!1024,1024/0/default.jpg" width="2000px" height="2797px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACA9-C" width="2000px" height="2797px"/>
          <zone points="1107,113 1293,113 1293,179 1107,179" rendition="TextRegion" xml:id="facs_154_tr_1721824241" subtype="0.98">
             <zone points="1107,113 1293,113 1293,179 1107,179" rendition="Line" xml:id="facs_154_tr_1721824241_line_000"/>
          </zone>
@@ -7517,7 +7516,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2845" xml:id="facs_155">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-153/full/!1024,1024/0/default.jpg" width="2000px" height="2845px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACAA-B" width="2000px" height="2845px"/>
          <zone points="257,111 1072,111 1072,192 257,192" rendition="TextRegion" xml:id="facs_155_tr_1721824235" subtype="0.98">
             <zone points="257,111 1072,111 1072,192 257,192" rendition="Line" xml:id="facs_155_tr_1721824235_line_000"/>
          </zone>
@@ -7567,7 +7566,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2803" xml:id="facs_156">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-154/full/!1024,1024/0/default.jpg" width="2000px" height="2803px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACAB-A" width="2000px" height="2803px"/>
          <zone points="1068,115 1261,115 1261,191 1068,191" rendition="TextRegion" xml:id="facs_156_tr_1721824284" subtype="0.99">
             <zone points="1068,115 1261,115 1261,191 1068,191" rendition="Line" xml:id="facs_156_tr_1721824284_line_000"/>
          </zone>
@@ -7612,7 +7611,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2898" xml:id="facs_157">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-155/full/!1024,1024/0/default.jpg" width="2000px" height="2898px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACAC-9" width="2000px" height="2898px"/>
          <zone points="653,111 653,121 659,128 670,129 673,128 675,125 680,122 693,130 698,135 700,140 697,142 699,145 695,148 696,149 695,152 690,153 692,156 688,159 690,161 688,165 693,168 706,171 739,172 740,173 766,173 767,174 965,174 966,173 985,173 989,171 991,167 991,112 990,109 987,106 984,105 978,105 963,102 929,101 928,100 916,100 915,101 909,101 908,100 873,100 872,101 782,100 781,101 732,102 731,103 691,105 690,106 681,106 670,108 659,108 655,109" rendition="TextRegion" xml:id="facs_157_tr_1721824240" subtype="0.86">
             <zone points="653,111 659,128 680,122 698,135 688,165 706,171 989,171 984,105 655,109" rendition="Line" xml:id="facs_157_tr_1721824240_line_000"/>
          </zone>
@@ -7662,7 +7661,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2802" xml:id="facs_158">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-156/full/!1024,1024/0/default.jpg" width="2000px" height="2802px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACAD-8" width="2000px" height="2802px"/>
          <zone points="1066,101 1267,101 1267,176 1066,176" rendition="TextRegion" xml:id="facs_158_tr_1721824231" subtype="0.96">
             <zone points="1066,101 1267,101 1267,176 1066,176" rendition="Line" xml:id="facs_158_tr_1721824231_line_000"/>
          </zone>
@@ -7712,7 +7711,7 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2835" xml:id="facs_159">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-157/full/!1024,1024/0/default.jpg" width="2000px" height="2835px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACAE-7" width="2000px" height="2835px"/>
          <zone points="695,161 699,164 756,165 767,167 984,167 1001,162 1012,161 1004,158 1010,156 1000,154 998,152 999,150 994,147 996,144 993,142 999,128 999,123 1001,120 1000,117 1005,114 1002,112 1004,110 1024,109 1028,111 1027,114 1032,117 1031,118 1032,120 1037,120 1038,119 1037,117 1045,114 1042,112 1048,108 1046,106 1038,104 1029,104 1022,108 1008,107 1007,104 1004,103 993,103 981,100 959,100 958,99 954,100 778,99 777,100 720,101 719,102 701,101 696,103 695,105" rendition="TextRegion" xml:id="facs_159_tr_1721824269" subtype="0.94">
             <zone points="695,161 984,167 1012,161 993,142 1004,110 1037,120 1048,108 695,105" rendition="Line" xml:id="facs_159_tr_1721824269_line_000"/>
          </zone>
@@ -7745,10 +7744,10 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="3086" xml:id="facs_160">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-158/full/!1024,1024/0/default.jpg" width="2000px" height="3086px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACAF-6" width="2000px" height="3086px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2955" xml:id="facs_161">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-159/full/!1024,1024/0/default.jpg" width="2000px" height="2955px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB0-3" width="2000px" height="2955px"/>
          <zone points="22,51 1946,51 1946,2881 22,2881" rendition="TextRegion" xml:id="facs_161_r" subtype="paragraph">
             <zone points="88,54 107,52 1478,90 1857,168 1857,268 159,320 81,282" rendition="Line" xml:id="facs_161_line_1720972607710_1713"/>
             <zone points="163,429 578,384 1030,424 1535,379 1798,417 1800,284 1608,270 1099,303 974,242 867,296 680,303 573,253 450,306 166,317" rendition="Line" xml:id="facs_161_r_tl_4"/>
@@ -7773,34 +7772,34 @@
          </zone>
       </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="3167" xml:id="facs_162">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-160/full/!1024,1024/0/default.jpg" width="2000px" height="3167px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB1-2" width="2000px" height="3167px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="3085" xml:id="facs_163">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-161/full/!1024,1024/0/default.jpg" width="2000px" height="3085px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB2-1" width="2000px" height="3085px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="3177" xml:id="facs_164">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-162/full/!1024,1024/0/default.jpg" width="2000px" height="3177px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB3-0" width="2000px" height="3177px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2987" xml:id="facs_165">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-a001/full/!1024,1024/0/default.jpg" width="2000px" height="2987px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB4-F" width="2000px" height="2987px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2923" xml:id="facs_166">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-a002/full/!1024,1024/0/default.jpg" width="2000px" height="2923px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB5-E" width="2000px" height="2923px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="18121" xml:id="facs_167">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-BR/full/!1024,1024/0/default.jpg" width="2000px" height="18121px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB6-D" width="2000px" height="18121px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2684" xml:id="facs_168">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-HD/full/!1024,1024/0/default.jpg" width="2000px" height="2684px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB8-B" width="2000px" height="2684px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="3118" xml:id="facs_169">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-HDS/full/!1024,1024/0/default.jpg" width="2000px" height="3118px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB7-C" width="2000px" height="3118px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2686" xml:id="facs_170">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-VD/full/!1024,1024/0/default.jpg" width="2000px" height="2686px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACBA-9" width="2000px" height="2686px"/>
          </surface>
       <surface ulx="0" uly="0" lrx="2000" lry="2967" xml:id="facs_171">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/S1_70/files/images/A-Gf_S1_70-VDS/full/!1024,1024/0/default.jpg" width="2000px" height="2967px"/>
+         <graphic url="https://hdl.handle.net/21.11115/0000-0012-ACB9-A" width="2000px" height="2967px"/>
          </surface>
    </facsimile>
    <text>
