@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A64_37.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A70_45.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_19.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A64_37.xml" xml:base="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs" prev="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/A67_23.xml" next="https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/S1_72.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -241,7 +241,7 @@
       <surface ulx="0" uly="0" lrx="3806" lry="5395" xml:id="facs_1">
          <graphic url="https://hdl.handle.net/21.11115/0000-0012-6F20-C" width="3806px" height="5395px"/>
          <graphic url="https://hdl.handle.net/21.11115/0000-0012-6F20-C" width="3806px" height="5395px"/>
-         <zone points="246,186 256,4854 2888,4854 2878,186" rendition="TextRegion" xml:id="facs_1_tr_1" subtype="paragraph">
+         <zone points="246,186 273,4339 2905,4339 2878,186" rendition="TextRegion" xml:id="facs_1_tr_1" subtype="paragraph">
             <zone points="237,721 691,635 773,691 1261,632 1856,681 1998,648 2080,685 2182,648 2574,652 2798,708 2883,658 2880,471 2649,504 2551,425 2406,392 2228,434 2021,402 1853,467 1787,418 1629,451 1484,369 1277,467 1175,484 1129,441 987,481 849,365 536,398 428,293 234,319" rendition="Line" xml:id="facs_1_tr_1_tl_1"/>
             <zone points="286,938 388,964 530,885 622,931 1037,869 1198,918 1721,869 1807,918 2097,902 2238,981 2366,912 2807,895 2807,734 2578,663 2192,655 1932,652 1866,701 1777,658 1619,714 1465,658 1330,701 1182,642 1024,698 915,645 800,721 451,668 286,754" rendition="Line" xml:id="facs_1_tr_1_tl_2"/>
             <zone points="286,1129 481,1149 609,1109 724,1165 925,1129 1211,1178 1330,1126 1537,1182 1889,1129 2347,1172 2449,1122 2636,1172 2861,1144 2834,937 2699,991 2567,922 2452,981 2215,991 1955,892 1827,968 1655,978 1474,905 1267,961 1119,895 967,942 289,926" rendition="Line" xml:id="facs_1_tr_1_tl_3"/>
@@ -7771,6 +7771,12 @@
             <zone points="1017,1443 1022,1629 1146,1650 1706,1681 2027,1633 2825,1626 3358,1699 3480,1657 3485,1429 3441,1407 2735,1463 2474,1413 2028,1439 1863,1393 1498,1447 1232,1393 1030,1421" rendition="Line" xml:id="facs_350_tl_1731594412"/>
             <zone points="3551,1710 3510,1655 3234,1701 2783,1633 2334,1705 1141,1643 1012,1706 1011,1851 1054,1887 1969,1879 2420,1932 2602,1879 3146,1930 3546,1871" rendition="Line" xml:id="facs_350_tl_1731594411"/>
             <zone points="981,1954 982,2179 1022,2198 1394,2128 1699,2161 2317,2116 3044,2190 3222,2130 3545,2112 3542,1932 3500,1914 2207,1931 1849,1895 1652,1938 1386,1885 991,1919" rendition="Line" xml:id="facs_350_tl_1731594410"/>
+            <zone points="3131,2151 3460,2151 3460,2372 3131,2372" rendition="Line" xml:id="facs_350_line_1735835979773_167"/>
+            <zone points="1517,2185 3080,2185 3080,2593 1517,2593" rendition="Line" xml:id="facs_350_line_1735835936827_146"/>
+            <zone points="883,2219 1443,2219 1443,2831 883,2831" rendition="Line" xml:id="facs_350_line_1735835932219_143"/>
+            <zone points="3120,2389 3562,2389 3562,2627 3120,2627" rendition="Line" xml:id="facs_350_line_1735835982135_170"/>
+            <zone points="3137,2632 3550,2632 3550,2853 3137,2853" rendition="Line" xml:id="facs_350_line_1735835984671_173"/>
+            <zone points="1506,2644 3080,2644 3080,2887 1506,2887" rendition="Line" xml:id="facs_350_line_1735835943861_152"/>
             <zone points="1099,2935 1117,3093 1487,3086 1656,3137 1921,3089 2176,3164 2339,3087 2781,3087 2949,3132 3114,3080 3495,3081 3498,2899 3460,2858 3205,2906 2510,2923 2345,2868 1649,2857 1105,2923" rendition="Line" xml:id="facs_350_tl_1731594416"/>
             <zone points="1044,3141 1043,3314 1086,3334 2592,3333 2758,3389 2930,3325 3498,3315 3461,3094 3018,3090 2847,3138 2400,3101 2226,3164 1347,3079 1060,3116" rendition="Line" xml:id="facs_350_tl_1731594418"/>
             <zone points="1030,3386 1036,3566 1247,3625 1510,3574 1868,3589 1957,3636 2226,3569 2505,3598 3123,3557 3298,3591 3505,3545 3514,3385 3474,3346 3300,3388 3026,3346 2704,3399 2417,3349 1873,3404 1430,3340 1037,3364" rendition="Line" xml:id="facs_350_tl_1731594415"/>
@@ -7893,7 +7899,7 @@
          <zone points="0,0 3840,0 3840,5413 0,5413" rendition="TextRegion" xml:id="facs_356_tr_1731594357" subtype="paragraph">
             <zone points="1047,455 1049,680 1088,713 3222,737 3453,734 3536,683 3541,425 3505,414 2966,459 2716,411 1054,434" rendition="Line" xml:id="facs_356_tl_1731594363"/>
             <zone points="1359,725 1380,1078 1518,1131 3514,1145 3521,805 3485,772 1373,705" rendition="Line" xml:id="facs_356_tl_1731594369"/>
-            <zone points="1963,1250 1964,1365 2038,1420 3479,1404 3458,1216 2907,1186 2685,1219 2314,1174 1978,1220" rendition="Line" xml:id="facs_356_tl_1731594359"/>
+            <zone points="1125,1250 1126,1365 1200,1420 3479,1404 3458,1216 2907,1186 2685,1219 1476,1174 1140,1220" rendition="Line" xml:id="facs_356_tl_1731594359"/>
             <zone points="1048,1457 3544,1457 3544,1936 1048,1936" rendition="Line" xml:id="facs_356_tl_1731594368"/>
             <zone points="1020,1985 1021,2120 1061,2142 3531,2158 3513,1973 2775,1916 2049,1902 1026,1972" rendition="Line" xml:id="facs_356_tl_1731594364"/>
             <zone points="1036,2164 3528,2164 3528,2638 1036,2638" rendition="Line" xml:id="facs_356_tl_1731594367"/>
@@ -7908,25 +7914,25 @@
       </surface>
       <surface ulx="0" uly="0" lrx="1253" lry="5909" xml:id="facs_357">
          <graphic url="https://hdl.handle.net/21.11115/0000-0012-7084-8" width="1253px" height="5909px"/>
-      </surface>
+         </surface>
       <surface ulx="0" uly="0" lrx="3394" lry="4848" xml:id="facs_358">
          <graphic url="https://hdl.handle.net/21.11115/0000-0012-7086-6" width="3394px" height="4848px"/>
-      </surface>
+         </surface>
       <surface ulx="0" uly="0" lrx="3840" lry="5760" xml:id="facs_359">
          <graphic url="https://hdl.handle.net/21.11115/0000-0012-7085-7" width="3840px" height="5760px"/>
-      </surface>
+         </surface>
       <surface ulx="0" uly="0" lrx="3704" lry="5322" xml:id="facs_360">
          <graphic url="https://hdl.handle.net/21.11115/0000-0012-7088-4" width="3704px" height="5322px"/>
-      </surface>
+         </surface>
       <surface ulx="0" uly="0" lrx="3840" lry="5760" xml:id="facs_361">
          <graphic url="https://hdl.handle.net/21.11115/0000-0012-7087-5" width="3840px" height="5760px"/>
-      </surface>
+         </surface>
       <surface ulx="0" uly="0" lrx="3840" lry="5436" xml:id="facs_362">
          <graphic url="https://hdl.handle.net/21.11115/0000-0012-6F1E-0" width="3840px" height="5436px"/>
-      </surface>
+         </surface>
       <surface ulx="0" uly="0" lrx="3840" lry="5483" xml:id="facs_363">
          <graphic url="https://hdl.handle.net/21.11115/0000-0012-6F1F-F" width="3840px" height="5483px"/>
-      </surface>
+         </surface>
    </facsimile>
    <text>
       <body>
@@ -13079,7 +13085,7 @@ paruverunt sagittas
                <lb facs="#facs_282_tl_1731594777" n="N009"/>que horas noctium nunc conciendo rum
                <lb facs="#facs_282_tl_1731594779" n="N010"/>pimus: donis beate patrie ditemur omnes
                <lb facs="#facs_282_tl_1731594780" n="N011"/>affati Presta pater AN Dera mirabilia pre
-               <lb facs="#facs_282_tl_1731594788" n="N012"/>Antate domino canticum
+               <lb facs="#facs_282_tl_1731594788" n="N012"/>CAntate domino canticum
                <lb facs="#facs_282_tl_1731594790" n="N013"/>nouum: quia mirabilia
                <lb facs="#facs_282_tl_1731594789" n="N014"/>fecit Saluauit sibi
                <lb facs="#facs_282_tl_1731594781" n="N015"/>dextera eius: et brachium sanctum eius
@@ -14108,8 +14114,8 @@ paruverunt sagittas
             <p facs="#facs_340_tr_1731594654">
                <lb facs="#facs_340_tl_1731594659" n="N001"/>Laus ho uirtus gloria do pa
                <lb facs="#facs_340_tl_1731594655" n="N002"/>et fi sancto si para in secum secula
-               <lb facs="#facs_340_tl_1731594668" n="N003"/>in
-               <lb facs="#facs_340_tl_1731594663" n="N004"/>Ux clara ecce intonat ymnus
+               <lb facs="#facs_340_tl_1731594668" n="N003"/>
+               <lb facs="#facs_340_tl_1731594663" n="N004"/>Uox clara ecce intonat ymnus
                <lb facs="#facs_340_tl_1731594654" n="N005"/>obscura queque increpat: pel
                <lb facs="#facs_340_tl_1731594664" n="N006"/>lantur eminus somnia ab ethere
                <lb facs="#facs_340_tl_1731594657" n="N007"/>christus prominicat Mens iam resur
@@ -14126,8 +14132,8 @@ paruverunt sagittas
                <lb facs="#facs_341_tl_1731594087" n="N001"/>pumat sed pius nos tunc prote
                <lb facs="#facs_341_tl_1731594080" n="N002"/>gat Laus ho ui gloria do pa et
                <lb facs="#facs_341_tl_1731594085" n="N003"/>In natiuitte domini ad nocturnum ymnus
-               <lb facs="#facs_341_tl_1731594090" n="N004"/>c4 z1
-               <lb facs="#facs_341_tl_1731594086" n="N005"/>pe redentor omnium ex pa
+               <lb facs="#facs_341_tl_1731594090" n="N004"/>
+               <lb facs="#facs_341_tl_1731594086" n="N005"/>Xpe redemptor omnium ex pa
                <lb facs="#facs_341_tl_1731594084" n="N006"/>terre patris unice: solus ant princi
                <lb facs="#facs_341_tl_1731594081" n="N007"/>pium natur in effabiliter Tu lumen
                <lb facs="#facs_341_tl_1731594077" n="N008"/>tu splendor patris tu spes perheni
@@ -14148,8 +14154,8 @@ paruverunt sagittas
                <lb facs="#facs_342_tl_1731594692" n="N006"/>redemti sumus sanguine: ob di
                <lb facs="#facs_342_tl_1731594688" n="N007"/>em nantalis tui ymnum nouum con
                <lb facs="#facs_342_tl_1731594690" n="N008"/>cinimus Gloriatur domine Ad laudes ym
-               <lb facs="#facs_342_tl_1731594687" n="N009"/>Sollis ortus car dine ad
-               <lb facs="#facs_342_tl_1731594685" n="N010"/>c4 z2
+               <lb facs="#facs_342_tl_1731594687" n="N009"/>A Sollis ortus car dine ad
+               <lb facs="#facs_342_tl_1731594685" n="N010"/>
                <lb facs="#facs_342_tl_1731594691" n="N011"/>usque terre limitem: cristum cana
                <lb facs="#facs_342_tl_1731594684" n="N012"/>mus principem natum maria uirgine
                <lb facs="#facs_342_tl_1731594693" n="N013"/>Beatus auctor seculi seruile</p>
@@ -14174,12 +14180,12 @@ paruverunt sagittas
             <pb facs="#facs_344" n="344" xml:id="img_0344"/>
             <p facs="#facs_344_tr_1731594134">
                <lb facs="#facs_344_tl_1731594136" n="N001"/>toribus pastor cator omnium Gloria
-               <lb facs="#facs_344_tl_1731594144" n="N002"/>Ehia domini ad noctum ymus
-               <lb facs="#facs_344_tl_1731594143" n="N003"/>c4 z2
-               <lb facs="#facs_344_tl_1731594137" n="N004"/>Ustis herodes in pie christum
-               <lb facs="#facs_344_tl_1731594146" n="N005"/>c4 z3
+               <lb facs="#facs_344_tl_1731594144" n="N002"/>Epiphani domini ad noctum ymnus
+               <lb facs="#facs_344_tl_1731594143" n="N003"/>
+               <lb facs="#facs_344_tl_1731594137" n="N004"/>Hostis herodes in pie christum
+               <lb facs="#facs_344_tl_1731594146" n="N005"/>
                <lb facs="#facs_344_tl_1731594140" n="N006"/>uenire quid times: non arripit
-               <lb facs="#facs_344_tl_1731594145" n="N007"/>c4 z1
+               <lb facs="#facs_344_tl_1731594145" n="N007"/>
                <lb facs="#facs_344_tl_1731594141" n="N008"/>mortalia qui regna dat celesti
                <lb facs="#facs_344_tl_1731594139" n="N009"/>a Ibant magi quam uiderant
                <lb facs="#facs_344_tl_1731594135" n="N010"/>stellam sequentes preuiam: lumen re
@@ -14194,11 +14200,11 @@ paruverunt sagittas
                <lb facs="#facs_345_tl_1731594442" n="N004"/>que iussa fundere mutauit unda
                <lb facs="#facs_345_tl_1731594446" n="N005"/>originem Gloriar domine qui apparum
                <lb facs="#facs_345_tl_1731594437" n="N006"/>isti hodie: cum patre et sus in se
-               <lb facs="#facs_345_tl_1731594449" n="N007"/>c4 z2
-               <lb facs="#facs_345_tl_1731594444" n="N008"/>more docti mistico ser
-               <lb facs="#facs_345_tl_1731594448" n="N009"/>c4 z2
+               <lb facs="#facs_345_tl_1731594449" n="N007"/>
+               <lb facs="#facs_345_tl_1731594444" n="N008"/>Ex more docti mistico ser
+               <lb facs="#facs_345_tl_1731594448" n="N009"/>
                <lb facs="#facs_345_tl_1731594439" n="N010"/>uemus hoc ineiunium: deno die
-               <lb facs="#facs_345_tl_1731594447" n="N011"/>c4 z2
+               <lb facs="#facs_345_tl_1731594447" n="N011"/>
                <lb facs="#facs_345_tl_1731594440" n="N012"/>rum circulo ducto quiter notissio
                <lb facs="#facs_345_tl_1731594443" n="N013"/>In l ad nocturnum ymnus cor</p>
             <pb facs="#facs_346" n="346" xml:id="img_0346"/>
@@ -14228,12 +14234,12 @@ paruverunt sagittas
                <lb facs="#facs_347_tl_1731594152" n="N005"/>place quo tamdem tibi possimus
                <lb facs="#facs_347_tl_1731594157" n="N006"/>hic et perpeti Presta beata terni
                <lb facs="#facs_347_tl_1731594153" n="N007"/>tas conce sim. ui: ut fruc sit tuis
-               <lb facs="#facs_347_tl_1731594164" n="N008"/>in
-               <lb facs="#facs_347_tl_1731594159" n="N009"/>dim christe sol iusticie mentis des
-               <lb facs="#facs_347_tl_1731594162" n="N010"/>c4 z2 l3 cu_z2
+               <lb facs="#facs_347_tl_1731594164" n="N008"/>
+               <lb facs="#facs_347_tl_1731594159" n="N009"/>Iam christe sol iusticie mentis des
+               <lb facs="#facs_347_tl_1731594162" n="N010"/>
                <lb facs="#facs_347_tl_1731594161" n="N011"/>deiscant tenebre: uirtutum ut lux
-               <lb facs="#facs_347_tl_1731594163" n="N012"/>c4 z2
-               <lb facs="#facs_347_tl_1731594158" n="N013"/>redeat terris dine cum reparas</p>
+               <lb facs="#facs_347_tl_1731594163" n="N012"/>
+               <lb facs="#facs_347_tl_1731594158" n="N013"/>redeat terris domine cum reparas</p>
             <pb facs="#facs_348" n="348" xml:id="img_0348"/>
             <p facs="#facs_348_tr_1731594118">
                <lb facs="#facs_348_tl_1731594125" n="N001"/>ans tempors acceptabile et pe
@@ -14249,8 +14255,8 @@ paruverunt sagittas
                <lb facs="#facs_348_tl_1731594120" n="N011"/>doret ternitas: et nos noui per
                <lb facs="#facs_348_tl_1731594129" n="N012"/>ueniam nouum canamus canticum
                <lb facs="#facs_348_tl_1731594122" n="N013"/>De passione domini ad noctum ymnus
-               <lb facs="#facs_348_tl_1731594132" n="N014"/>c4 z3
-               <lb facs="#facs_348_tl_1731594121" n="N015"/>ange lingua gloriosi pre</p>
+               <lb facs="#facs_348_tl_1731594132" n="N014"/>
+               <lb facs="#facs_348_tl_1731594121" n="N015"/>Pange lingua gloriosi pre</p>
             <pb facs="#facs_349" n="349" xml:id="img_0349"/>
             <p facs="#facs_349_tr_1731594434">
                <lb facs="#facs_349_tl_1731594437" n="N001"/>lium certaminis: et super crucis
@@ -14278,12 +14284,12 @@ paruverunt sagittas
                <lb facs="#facs_350_tl_1731594412" n="N005"/>fascia Gloria et honor deo usque
                <lb facs="#facs_350_tl_1731594411" n="N006"/>altissimo: una patri filique inculis
                <lb facs="#facs_350_tl_1731594410" n="N007"/>peraculi cui laus est et protas per imen
-               <lb facs="#facs_350_tl_1731594416" n="N008"/>actis tempores implens corpis: se
-               <lb facs="#facs_350_tl_1731594418" n="N009"/>uolente natus ad hoc passioni
-               <lb facs="#facs_350_tl_1731594415" n="N010"/>deditus: agnus in cruce leuat
-               <lb facs="#facs_350_tl_1731594414" n="N011"/>ymolandus stipite Nic ace
-               <lb facs="#facs_350_tl_1731594417" n="N012"/>tuum fel arundo sputa claui lancea
-               <lb facs="#facs_350_tl_1731594409" n="N013"/>mite corpus perforatur sanguis</p>
+               <lb facs="#facs_350_tl_1731594416" n="N014"/>actis tempores implens corpis: se
+               <lb facs="#facs_350_tl_1731594418" n="N015"/>uolente natus ad hoc passioni
+               <lb facs="#facs_350_tl_1731594415" n="N016"/>deditus: agnus in cruce leuat
+               <lb facs="#facs_350_tl_1731594414" n="N017"/>ymolandus stipite Nic ace
+               <lb facs="#facs_350_tl_1731594417" n="N018"/>tuum fel arundo sputa claui lancea
+               <lb facs="#facs_350_tl_1731594409" n="N019"/>mite corpus perforatur sanguis</p>
             <pb facs="#facs_351" n="351" xml:id="img_0351"/>
             <p facs="#facs_351_tr_1731594756">
                <lb facs="#facs_351_tl_1731594762" n="N001"/>unda profluit: terra potus astra
@@ -14305,8 +14311,8 @@ paruverunt sagittas
             <pb facs="#facs_352" n="352" xml:id="img_0352"/>
             <p facs="#facs_352_tr_1731594160">
                <lb facs="#facs_352_tl_1731594166" n="N001"/>ab octaua pasce usque ad ascensi ad noct
-               <lb facs="#facs_352_tl_1731594174" n="N002"/>c4 z1
-               <lb facs="#facs_352_tl_1731594172" n="N003"/>Ex eterne domine rerum creator
+               <lb facs="#facs_352_tl_1731594174" n="N002"/>
+               <lb facs="#facs_352_tl_1731594172" n="N003"/>REx eterne domine rerum creator
                <lb facs="#facs_352_tl_1731594167" n="N004"/>omnium: qui eras a secula semper cum
                <lb facs="#facs_352_tl_1731594164" n="N005"/>patre filius Qui mundi in pri
                <lb facs="#facs_352_tl_1731594170" n="N006"/>mordio adam plamasti hominem
@@ -14331,13 +14337,13 @@ paruverunt sagittas
                <lb facs="#facs_353_tl_1731594702" n="N008"/>um Qns auctor omnium in hoc pas
                <lb facs="#facs_353_tl_1731594693" n="N009"/>cali gaudio: ab omni mor ipse et
                <lb facs="#facs_353_tl_1731594698" n="N010"/>defen pro Gloriatur domine Ad laude:
-               <lb facs="#facs_353_tl_1731594706" n="N011"/>c4 z2
-               <lb facs="#facs_353_tl_1731594703" n="N012"/>prora lucis rutilat ce
-               <lb facs="#facs_353_tl_1731594704" n="N013"/>c4 z1
+               <lb facs="#facs_353_tl_1731594706" n="N011"/>
+               <lb facs="#facs_353_tl_1731594703" n="N012"/>Aurora lucis rutilat ce
+               <lb facs="#facs_353_tl_1731594704" n="N013"/>
                <lb facs="#facs_353_tl_1731594700" n="N014"/>lum laudibus intonat: mundus.</p>
             <pb facs="#facs_354" n="354" xml:id="img_0354"/>
             <p facs="#facs_354_tr_1731594563">
-               <lb facs="#facs_354_tl_1731594574" n="N001"/>c4 z2
+               <lb facs="#facs_354_tl_1731594574" n="N001"/>
                <lb facs="#facs_354_tl_1731594566" n="N002"/>exultas iubilat gemens infernus
                <lb facs="#facs_354_tl_1731594573" n="N003"/>ululat Tum rex ille fortissimus
                <lb facs="#facs_354_tl_1731594572" n="N004"/>mortis confractis uiribus: pede
@@ -14372,12 +14378,12 @@ paruverunt sagittas
                <lb facs="#facs_355_tl_1731594714" n="N016"/>omni tempore Deus auctor Gloria ter do:</p>
             <pb facs="#facs_356" n="356" xml:id="img_0356"/>
             <p facs="#facs_356_tr_1731594357">
-               <lb facs="#facs_356_tl_1731594363" n="N001"/>I scensione domini ad laudes ymnus
-               <lb facs="#facs_356_tl_1731594369" n="N002"/>c4 z3 cu_z3
-               <lb facs="#facs_356_tl_1731594359" n="N003"/>nostra redemicio
-               <lb facs="#facs_356_tl_1731594368" n="N004"/>c4 z2 l3 cu_z3
+               <lb facs="#facs_356_tl_1731594363" n="N001"/>An Ascensione domini ad laudes ymnus
+               <lb facs="#facs_356_tl_1731594369" n="N002"/>
+               <lb facs="#facs_356_tl_1731594359" n="N003"/>Ihese nostra redemicio
+               <lb facs="#facs_356_tl_1731594368" n="N004"/>
                <lb facs="#facs_356_tl_1731594364" n="N005"/>amor et desiderium: deus cre
-               <lb facs="#facs_356_tl_1731594367" n="N006"/>c4 z1
+               <lb facs="#facs_356_tl_1731594367" n="N006"/>
                <lb facs="#facs_356_tl_1731594358" n="N007"/>ator omnium homo in fine temperm
                <lb facs="#facs_356_tl_1731594365" n="N008"/>Que te uicit clemencia ut fer
                <lb facs="#facs_356_tl_1731594366" n="N009"/>res nostra cermina: crudelem mortem
