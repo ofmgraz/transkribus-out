@@ -18,6 +18,8 @@ jobs:
       uses: actions/checkout@v4
     - name: Install Python Packages
       run: pip install -r requirements.txt
+    - name: Delete duplicates
+      run: find data/mets/ -type f \( -name "2914584*" -o -name "2926205*" -o -name "3374447*" -o -name "3374448*" -o -name "3374547*" -o -name "3376967*" -o -name "3377127*" -o -name "3377287*" -o -name "3385787*" -o -name "3406471*" -o -name "3674355*" -o -name "6327169*" -o -name "6370807*" \) -exec rm -f {} +
     - name: Transform
       run: ./pyscripts/transform.py
     - name: Delete old files

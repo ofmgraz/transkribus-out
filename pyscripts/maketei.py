@@ -181,7 +181,10 @@ class TeiBody(TeiTree):
                     handle = handles.loc[handles['arche_id'] == new_path.replace('a00', '00'), 'handle_id'].iloc[0]
                 else:
                     new_path = re.sub("(00\d)[rv]", r'\1', new_path)
-                    handle = handles.loc[handles['arche_id'] == new_path, 'handle_id'].iloc[0]
+                    if len(handles.loc[handles['arche_id'] == new_path, 'handle_id']) > 0:
+                        handle = handles.loc[handles['arche_id'] == new_path, 'handle_id'].iloc[0]
+                    else:
+                        handle = new_path
                 element.attrib["url"] = handle
                 # f"https://loris.acdh.oeaw.ac.at/uuid:/ofmgraz/derivatives/{doc_id.rstrip('.xml')}/{img_name}.tif/full/full/0/default.jpg"
         # e.g. https://viewer.acdh.oeaw.ac.at/viewer/content/A67_17/800/0/A-Gf_A67_17-012v.jpg
@@ -446,7 +449,7 @@ class TeiHeader(TeiTree):
             cat = ET.Element("category", attrib={f"{xml}id": lit.lower()})
             ET.SubElement(cat, "catDesc").text = lit
             tax.append(cat)
-        
+
         if btype:
             tax = ET.SubElement(classdecl, "taxonomy", attrib={f"{xml}id": "booktypes"})
             ET.SubElement(tax, "desc").text = "Book Types"
@@ -460,7 +463,7 @@ class TeiHeader(TeiTree):
         if summary != summary:
             summary = ""
         elif not summary.strip().endswith('.') and len(summary) > 0:
-            summary = summary.strip() + "." 
+            summary = summary.strip() + "."
         summary = summary.replace("„", "<title>").replace("“", "</title>")
         element = self.msdesc.xpath("//tei:msContents", namespaces=nsmap)[0]
         if attributes:

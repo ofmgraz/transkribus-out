@@ -34,5 +34,6 @@ After changing the Baserow table  where the metadata is fetched from, run the fo
 * run `shellscripts/full_workflow.sh`
 
 
+
 -----
 created with [transkribus-export-cookiecutter](https://github.com/acdh-oeaw/transkribus-export-cookiecutter)
