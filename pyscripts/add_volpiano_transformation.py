@@ -1,6 +1,7 @@
+#!/usr/bin/env python
 #   Python script (irgwo gespeichert, zb. pyscripts)
-# Xmls lesen -> <ab> suchen mit type:notation; 
-# text nehmen, dann transformieren (notationstext zu volpiano text) 
+# Xmls lesen -> <ab> suchen mit type:notation;
+# text nehmen, dann transformieren (notationstext zu volpiano text)
 # und dann im attribute rend in <ab> zusätzlich speichern in den xmls
 
 from lxml import etree as ET
@@ -23,7 +24,7 @@ def process_all_files():
         except Exception as e:
            # print(f"Error processing {filepath}: {e}")
 
-#file_path = "C:/Users/junterholzner/transkribus-out/data/editions/A63_51 copy.xml" 
+#file_path = "C:/Users/junterholzner/transkribus-out/data/editions/A63_51 copy.xml"
 
 def add_rend_to_ab_notation(tree, root):
 #tree = ET.parse(file_path)
@@ -135,14 +136,14 @@ def token2volp(clef, token_str):
         return "-"
     elif token_str == "L":
         return "-3-"
-    elif token_str == "LL": 
+    elif token_str == "LL":
         return "-33-"
     elif re.match(r"^cu_(l|z)(-2|-1|[1-6])$", token_str):  # Kustos, in Transkribus: "cu_z2" => 'kleine Note' in Volpiano Großbuchstaben, davor 2 Abstände (lt. RK) (volp: "--A")
         cu_token_str = token_str.lstrip("cu_")
         return "--" + NUM2VOLP[TOKEN2NUM[cu_token_str] + CLEFS[clef]].upper()
     elif token_str.startswith(
         "b"
-    ):  # b-Vorzeichen in Transkribus: "bz3" 
+    ):  # b-Vorzeichen in Transkribus: "bz3"
         b_token_str = re.sub(r'^b_|^b', '', token_str)
         return VOLP2BVOLP[NUM2VOLP[TOKEN2NUM[b_token_str] + CLEFS[clef]]]
     elif token_str.startswith(
