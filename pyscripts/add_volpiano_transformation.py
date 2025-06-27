@@ -12,6 +12,7 @@ from acdh_tei_pyutils.tei import ET
 
 directory = "./data/editions"
 
+
 def process_all_files():
     parser = ET.XMLParser(recover=True)
     for filepath in glob.glob(os.path.join(directory, "*.xml")):
@@ -20,15 +21,17 @@ def process_all_files():
             root = tree.getroot()
             add_rend_to_ab_notation(tree, root)
             tree.write(filepath, encoding="utf-8", xml_declaration=True)
-           # print(f"Processed and saved: {filepath}")
+        # print(f"Processed and saved: {filepath}")
         except Exception as e:
-           # print(f"Error processing {filepath}: {e}")
+            print(f"Error processing {filepath}: {e}")
 
-#file_path = "C:/Users/junterholzner/transkribus-out/data/editions/A63_51 copy.xml"
+
+# file_path = "C:/Users/junterholzner/transkribus-out/data/editions/A63_51 copy.xml"
+
 
 def add_rend_to_ab_notation(tree, root):
-#tree = ET.parse(file_path)
-#root = tree.getroot()
+    # tree = ET.parse(file_path)
+    # root = tree.getroot()
     namespaces = {"tei": "http://www.tei-c.org/ns/1.0"}
     abs = "//tei:ab[@type='notation'][.//tei:lb]|//ab[@type='notation'][.//lb]"
 
@@ -36,9 +39,10 @@ def add_rend_to_ab_notation(tree, root):
         lbs = ab.xpath(".//tei:lb|.//lb", namespaces=namespaces)
         notation_str = "".join(ab.xpath(".//text()", namespaces=namespaces))
         if notation_str:
-            notation_str = re.sub(r'\s+', ' ', notation_str).strip()
+            notation_str = re.sub(r"\s+", " ", notation_str).strip()
             transformed_text = volp(notation_str)
             ab.set("rend", transformed_text)
+
 
 VOLP2NUM = {
     "a": 0,
@@ -112,11 +116,10 @@ CLEFS = {
 
 VOLP2BVOLP = {"b": "y", "e": "w", "j": "i", "m": "x", "q": "z"}
 
+
 # str -> str
 def determine_clef(clef_str):
-    if re.search(
-        r"[/\[]", clef_str
-    ):  # zusammengesetzter clef "c4/f2" oder "[c4]"
+    if re.search(r"[/\[]", clef_str):  # zusammengesetzter clef "c4/f2" oder "[c4]"
         clef_str = re.search(r"(c\d+|f\d+)", clef_str).group(0)
         return clef_str
     else:
@@ -132,48 +135,45 @@ def is_note_token(token_str):
 def token2volp(clef, token_str):
     if is_note_token(token_str):
         return NUM2VOLP[TOKEN2NUM[token_str] + CLEFS[clef]]
-    elif token_str in {",", ";", ":", "-"}: # vorerst: Frage/unklar, wofür ";", "-" und ":" genau in Transkription stehen sollen
+    elif token_str in {
+        ",",
+        ";",
+        ":",
+        "-",
+    }:  # vorerst: Frage/unklar, wofür ";", "-" und ":" genau in Transkription stehen sollen
         return "-"
     elif token_str == "L":
         return "-3-"
     elif token_str == "LL":
         return "-33-"
-    elif re.match(r"^cu_(l|z)(-2|-1|[1-6])$", token_str):  # Kustos, in Transkribus: "cu_z2" => 'kleine Note' in Volpiano Großbuchstaben, davor 2 Abstände (lt. RK) (volp: "--A")
+    elif re.match(
+        r"^cu_(l|z)(-2|-1|[1-6])$", token_str
+    ):  # Kustos, in Transkribus: "cu_z2" => 'kleine Note' in Volpiano Großbuchstaben, davor 2 Abstände (lt. RK) (volp: "--A")
         cu_token_str = token_str.lstrip("cu_")
         return "--" + NUM2VOLP[TOKEN2NUM[cu_token_str] + CLEFS[clef]].upper()
-    elif token_str.startswith(
-        "b"
-    ):  # b-Vorzeichen in Transkribus: "bz3"
-        b_token_str = re.sub(r'^b_|^b', '', token_str)
+    elif token_str.startswith("b"):  # b-Vorzeichen in Transkribus: "bz3"
+        b_token_str = re.sub(r"^b_|^b", "", token_str)
         return VOLP2BVOLP[NUM2VOLP[TOKEN2NUM[b_token_str] + CLEFS[clef]]]
     elif token_str.startswith(
         "n"
     ):  # Auflösungszeichen: Großbuchstaben von b-Vorzeichen in Volpiano
-        n_token_str = re.sub(r'^n_|^n', '', token_str)
-        return VOLP2BVOLP[
-            NUM2VOLP[TOKEN2NUM[n_token_str] + CLEFS[clef]]
-        ].upper()
+        n_token_str = re.sub(r"^n_|^n", "", token_str)
+        return VOLP2BVOLP[NUM2VOLP[TOKEN2NUM[n_token_str] + CLEFS[clef]]].upper()
     else:
-        return "-2-" #bei nicht erkennbarem Token wird ein Bassschlüssel dargestellt (auch möglich: -6-, weniger auffällig)
+        return "-2-"  # bei nicht erkennbarem Token wird ein Bassschlüssel dargestellt (auch möglich: -6-, weniger auffällig)
 
 
 # str -> str
 def volp(notation_str):
     # first token is clef
     # for remaining tokens: map from input numeric values to output numeric values by clef offset
-    notation_str = re.sub(
-        r"(l|z)(-2|-1|[1-6]),", r"\1\2 ,", notation_str
-    )  # XXX
+    notation_str = re.sub(r"(l|z)(-2|-1|[1-6]),", r"\1\2 ,", notation_str)  # XXX
     tokens = notation_str.split(" ")
     clef_str = tokens[0]
     remaining = tokens[1:]
     clef = determine_clef(clef_str)
     clef2_index = next(
-        (
-            i
-            for i, token in enumerate(remaining)
-            if re.match(r"\[(c|f)\d\]", token)
-        ),
+        (i for i, token in enumerate(remaining) if re.match(r"\[(c|f)\d\]", token)),
         None,
     )
     if clef2_index is not None:
