@@ -12,3 +12,8 @@ find data/mets/ -type f \( -name "2914584*" -o -name "2926205*" -o -name "337444
 cp -f data/constants/S1*.xml data/editions
 ./pyscripts/add_handles.py data/editions/* |nl
 ./shellscripts/add_declaration.sh
+
+mkdir -p tmp
+for xmlfile in data/editions/*.xml; do
+	./pyscripts/add_attr_notation.py "$xmlfile"
+done

@@ -181,7 +181,6 @@ def main():
         for filename in argv[1:]:
             try:
                 output = add_attribute(filename)
-                print(type(output))
                 output.tree_to_file(f"out/{filename}")
             except Exception as e:
                 print(f"Error processing {filename}: {e}\n")
