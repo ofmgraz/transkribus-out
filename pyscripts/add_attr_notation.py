@@ -2,8 +2,7 @@
 # import argparse
 import re
 from sys import argv
-from acdh_tei_pyutils.tei import TeiReader, ET 
-from lxml import etree
+from acdh_tei_pyutils.tei import TeiReader
 
 P_NS = "http://www.tei-c.org/ns/1.0"
 NS_MAP = {"p": P_NS}
@@ -111,7 +110,9 @@ def token2volp(clef, token_str):
         return "-33-"
     elif token_str.startswith(
         "cu_"
-    ):  # Kustos, in Transkribus: "cu_z2" => 'kleine Note' in Volpiano Großbuchstaben, davor 2 Abstände (lt. RK) (volp: "--A")
+    ):
+        # Kustos, in Transkribus:
+        # "cu_z2" => 'kleine Note' in Volpiano Großbuchstaben, davor 2 Abstände (lt. RK) (volp: "--A")
         cu_token_str = token_str.lstrip("cu_")
         return "--" + NUM2VOLP[TOKEN2NUM[cu_token_str] + CLEFS[clef]].upper()
     elif token_str.startswith(
@@ -154,7 +155,7 @@ def volp(notation_str):
     if clef2_index is not None:
         remaining1 = remaining[:clef2_index]
         clef_str2 = remaining[clef2_index]
-        remaining2 = remaining[clef2_index + 1 :]
+        remaining2 = remaining[clef2_index + 1:]
         clef2 = determine_clef(clef_str2)
         transformed = (
             [token2volp(clef, token) for token in remaining1]
@@ -166,7 +167,6 @@ def volp(notation_str):
     return "".join(["1-", *transformed])
 
 
-
 def add_attribute(xmlfile):
     xmltree = TeiReader(xmlfile)
     notes = xmltree.any_xpath('.//tei:ab[@type="notation"]')
@@ -174,7 +174,6 @@ def add_attribute(xmlfile):
         text = re.sub(r"\s+", " ", "".join(line.xpath("string()")).replace("\n", "")).strip()
         line.set("rend", volp(text))
     return xmltree
-        
 
 
 def main():
@@ -183,15 +182,14 @@ def main():
             try:
                 output = add_attribute(filename)
                 print(type(output))
-                output.tree_to_file("out.xml")
+                output.tree_to_file(f"out/{filename}")
             except Exception as e:
                 print(f"Error processing {filename}: {e}\n")
     else:
-        print(f"Usage:\t{argv[0]} file_1.xml [file_2.xml ... file_n.xml]")
-                
+        print(f"Usage: {argv[0]} file_1.xml [file_2.xml ... file_n.xml]")
+
     # tree = etree.parse(INFILE)
 
 
 if __name__ == "__main__":
     main()
-
