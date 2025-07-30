@@ -134,33 +134,46 @@ def is_note_token(token_str):
 # (str, str) -> str
 def token2volp(clef, token_str):
     if is_note_token(token_str):
-        return NUM2VOLP[TOKEN2NUM[token_str] + CLEFS[clef]]
-    elif token_str in {
-        ",",
-        ";",
-        ":",
-        "-",
-    }:  # vorerst: Frage/unklar, wofür ";", "-" und ":" genau in Transkription stehen sollen
+        try:
+            return NUM2VOLP[TOKEN2NUM[token_str] + CLEFS[clef]]
+        except KeyError:
+            return "-6-"
+    elif token_str == ",":
         return "-"
     elif token_str == "L":
         return "-3-"
     elif token_str == "LL":
         return "-33-"
-    elif re.match(
-        r"^cu_(l|z)(-2|-1|[1-6])$", token_str
-    ):  # Kustos, in Transkribus: "cu_z2" => 'kleine Note' in Volpiano Großbuchstaben, davor 2 Abstände (lt. RK) (volp: "--A")
+    elif token_str.startswith(
+        "cu_"
+    ):
+        # Kustos, in Transkribus:
+        # "cu_z2" => 'kleine Note' in Volpiano Großbuchstaben, davor 2 Abstände (lt. RK) (volp: "--A")
         cu_token_str = token_str.lstrip("cu_")
-        return "--" + NUM2VOLP[TOKEN2NUM[cu_token_str] + CLEFS[clef]].upper()
-    elif token_str.startswith("b"):  # b-Vorzeichen in Transkribus: "bz3"
-        b_token_str = re.sub(r"^b_|^b", "", token_str)
-        return VOLP2BVOLP[NUM2VOLP[TOKEN2NUM[b_token_str] + CLEFS[clef]]]
+        try:
+            return "--" + NUM2VOLP[TOKEN2NUM[cu_token_str] + CLEFS[clef]].upper()
+        except KeyError:
+            return "-6-"
+    elif token_str.startswith(
+        "b"
+    ):  # b-Vorzeichen in Transkribus: "bz3"
+        b_token_str = re.sub(r'^b_|^b', '', token_str)
+        try:
+            return VOLP2BVOLP[NUM2VOLP[TOKEN2NUM[b_token_str] + CLEFS[clef]]]
+        except KeyError:
+            return "-6-"
     elif token_str.startswith(
         "n"
     ):  # Auflösungszeichen: Großbuchstaben von b-Vorzeichen in Volpiano
-        n_token_str = re.sub(r"^n_|^n", "", token_str)
-        return VOLP2BVOLP[NUM2VOLP[TOKEN2NUM[n_token_str] + CLEFS[clef]]].upper()
+        n_token_str = re.sub(r'^n_|^n', '', token_str)
+        try:
+            return VOLP2BVOLP[
+                NUM2VOLP[TOKEN2NUM[n_token_str] + CLEFS[clef]]
+            ].upper()
+        except KeyError:
+            return "-6-"
     else:
-        return "-2-"  # bei nicht erkennbarem Token wird ein Bassschlüssel dargestellt (auch möglich: -6-, weniger auffällig)
+        return "-6-"  # bei nicht erkennbarem Token wird "-6-" eingefügt
 
 
 # str -> str
