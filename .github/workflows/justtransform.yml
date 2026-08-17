@@ -19,7 +19,7 @@ jobs:
     - name: Install Python Packages
       run: pip install -r requirements.txt
     - name: Delete duplicates
-      run: find data/mets/ -type f \( -name "2914584*" -o -name "2926205*" -o -name "3374447*" -o -name "3374448*" -o -name "3374547*" -o -name "3376967*" -o -name "3377127*" -o -name "3377287*" -o -name "3385787*" -o -name "3406471*" -o -name "3674355*" -o -name "6327169*" -o -name "6370807*" \) -exec rm -f {} +
+      run: find data/mets/ -type f \( -name "2914584*" -o -name "2926205*" -o -name "3374447*" -o -name "15326583" -o -name "3374448*" -o -name "3374547*" -o -name "3376967*" -o -name "3377127*" -o -name "3377287*" -o -name "3385787*" -o -name "3406471*" -o -name "3674355*" -o -name "6327169*" -o -name "6370807*" \) -exec rm -f {} +
     - name: Transform
       run: ./pyscripts/transform.py
     - name: Delete old files
@@ -29,7 +29,7 @@ jobs:
     - name: rename files
       run: ./pyscripts/renamefiles.py
     - name: Generate TEI text & facsimile
-      run: ./pyscripts/generate_body.py
+      run: ./pyscripts/generate_body_p.py
     - name: Amend picture paths
       run: ./shellscripts/amend_pics_paths.sh || true
     - uses: stefanzweifel/git-auto-commit-action@v5
