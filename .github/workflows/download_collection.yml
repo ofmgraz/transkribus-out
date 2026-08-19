@@ -51,7 +51,7 @@ jobs:
     - name: Add handles
       run: ./pyscripts/add_handles.py data/editions/* |nl
     - name: Add notation 
-      run: ./pyscripts/add_attr_notation.py
+      run: ./shellscripts/notation.sh
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
