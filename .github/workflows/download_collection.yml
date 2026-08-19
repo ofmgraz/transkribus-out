@@ -50,6 +50,8 @@ jobs:
       run: cp data/constants/S1*.xml data/editions
     - name: Add handles
       run: ./pyscripts/add_handles.py data/editions/* |nl
+    - name: Add notation 
+      run: ./pyscripts/add_attr_notation.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done

@@ -1,0 +1,33 @@
+name: Notation for Volpiano
+
+on: 
+  workflow_dispatch:
+  # schedule:
+    # * is a special character in YAML so you have to quote this string
+    # - cron:  '05 00 * * *'
+
+jobs:
+  build_pages:
+    name: Add notation
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # # added or changed files to the repository.
+      contents: write
+    env:
+      TR_USER: ${{ secrets.TR_USER }}
+      TR_PW: ${{ secrets.TR_PW }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      BASEROW_USER: ${{ secrets.BASEROW_USER }}
+      BASEROW_PW: ${{ secrets.BASEROW_PW }}
+      BASEROW_READ_TOKEN: ${{ secrets.BASEROW_READ_TOKEN }}
+    steps:
+    - name: Perform Checkout
+      uses: actions/checkout@v4
+    - name: Install Python Packages
+      run: pip install -U -r requirements.txt
+    - name: Add notation 
+      run: ./pyscripts/add_attr_notation.py
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Export and Transformation done
