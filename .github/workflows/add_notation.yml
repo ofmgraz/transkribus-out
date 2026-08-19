@@ -27,7 +27,7 @@ jobs:
     - name: Install Python Packages
       run: pip install -U -r requirements.txt
     - name: Add notation 
-      run: ./shellscripts/notation.py
+      run: ./shellscripts/notation.sh
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
